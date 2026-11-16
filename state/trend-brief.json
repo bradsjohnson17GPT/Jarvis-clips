@@ -98,6 +98,36 @@
     "analysis_document": "docs/trends/2026-11-16-streamer-reference.md",
     "source_status": "state/streamer-queue.json",
     "cleared_current_live_sources": 0,
-    "reuse_reference_assets": false
-  }
+    "reuse_reference_assets": false,
+    "motivational_reference_urls": [
+      "https://www.youtube.com/shorts/BsblgcBB17A",
+      "https://www.youtube.com/shorts/AXa7gKstItw",
+      "https://www.youtube.com/shorts/LoLV_JkPkHs"
+    ],
+    "motivation_analysis": "docs/trends/2026-11-16-motivational-references.md"
+  },
+  "latest_produced_clip_ids": [
+    "next17-strength-without-spotlight",
+    "next17-armstrong-first-step",
+    "next17-keep-one-promise",
+    "next17-cat-sofa-goblin",
+    "next17-printer-teamwork",
+    "next17-domino-reply-disaster",
+    "next17-teapot-podcast",
+    "next17-gta-reflex-update",
+    "next17-dog-uninstall-fetch",
+    "next17-cash-with-enthusiasm",
+    "next17-pancake-action-sequel",
+    "next17-paper-plane-airline",
+    "next17-one-task-full-focus",
+    "next17-ducks-walking-club",
+    "next17-handshake-name-buffer",
+    "next17-coin-calling-in-flat",
+    "next17-pasta-for-the-postcode",
+    "next17-plant-water-invoice",
+    "next17-pet-premium-stairs",
+    "next17-meeting-about-the-meeting",
+    "next17-notification-brain-splash",
+    "next17-chess-nap-appeal"
+  ]
 }

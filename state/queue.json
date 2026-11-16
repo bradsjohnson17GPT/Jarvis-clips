@@ -49,9 +49,9 @@
       "publication_date": "2026-11-16T09:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool readback returned YouTube PUBLISHED with this public URL. Exact actual publication timestamp was not supplied.",
+      "evidence": "Metricool returned YouTube PUBLISHED with this public Shorts URL. Exact actual publication timestamp was not supplied.",
       "public_url": "https://www.youtube.com/shorts/YvS-TI2oan8",
-      "publication_verified_at": "2026-11-16T19:08:40.345Z",
+      "publication_verified_at": "2026-11-16T20:40:16.330Z",
       "audio_version": "silent_original_published"
     },
     {
@@ -88,7 +88,7 @@
     {
       "clip_id": "attachment-world-tour",
       "title": "This attachment has travelled more than I have",
-      "status": "scheduled",
+      "status": "replaced_before_publication",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "email_translation",
@@ -99,11 +99,11 @@
       "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
-      "provider_status": "PENDING",
+      "provider_status": null,
       "publication_date": "2026-11-16T20:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "evidence": "The original remained pending when replaced in the same scheduler UUID/time. Metricool confirmed the new content. This archived original is no longer queued and was not confirmed published.",
       "previous_video_sha256": "29587c7c5ef377f89f27e21f871dc96789567c8ad7612033566b790144bfd787",
       "audio_metadata_path": "media/2026-11-16-audio/attachment-world-tour.audio.json",
       "audio_version": "narration_original_music_effects_v1",
@@ -114,7 +114,9 @@
         "narration_caption_sync": true,
         "stereo_aac": true,
         "imported_bytes_match": true
-      }
+      },
+      "replaced_by_clip_id": "next17-armstrong-first-step",
+      "replacement_verified_at": "2026-11-16T20:40:16.330Z"
     },
     {
       "clip_id": "coffee-loading-screen",
@@ -134,7 +136,7 @@
       "publication_date": "2026-11-16T10:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool readback returned YouTube PUBLISHED with this public URL. Exact actual publication timestamp was not supplied.",
+      "evidence": "Metricool returned YouTube PUBLISHED with this public Shorts URL. Exact actual publication timestamp was not supplied.",
       "previous_video_sha256": "2b464aaf4760dce4a6b0504b1e7a8b29a05f9498091081506e5032c5a486595d",
       "audio_metadata_path": "media/2026-11-16-audio/coffee-loading-screen.audio.json",
       "audio_version": "narration_original_music_effects_v1",
@@ -147,12 +149,12 @@
         "imported_bytes_match": true
       },
       "public_url": "https://www.youtube.com/shorts/zUf2pmi9RaI",
-      "publication_verified_at": "2026-11-16T19:08:40.345Z"
+      "publication_verified_at": "2026-11-16T20:40:16.330Z"
     },
     {
       "clip_id": "weather-group-chat",
       "title": "The weather app and the sky are in different group chats",
-      "status": "scheduled",
+      "status": "replaced_before_publication",
       "provider": "youtube",
       "content_type": "everyday_humor",
       "hook_type": "dialogue_escalation",
@@ -163,11 +165,11 @@
       "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
-      "provider_status": "PENDING",
+      "provider_status": null,
       "publication_date": "2026-11-16T17:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "evidence": "The original remained pending when replaced in the same scheduler UUID/time. Metricool confirmed the new content. This archived original is no longer queued and was not confirmed published.",
       "previous_video_sha256": "45c6c40c0c9ebf19d897bd0a08c1c56e6cf6c34d058c36c475551645a8370d74",
       "audio_metadata_path": "media/2026-11-16-audio/weather-group-chat.audio.json",
       "audio_version": "narration_original_music_effects_v1",
@@ -178,7 +180,9 @@
         "narration_caption_sync": true,
         "stereo_aac": true,
         "imported_bytes_match": true
-      }
+      },
+      "replaced_by_clip_id": "next17-strength-without-spotlight",
+      "replacement_verified_at": "2026-11-16T20:40:16.330Z"
     },
     {
       "clip_id": "follow-the-colour",
@@ -198,7 +202,7 @@
       "publication_date": "2026-11-16T11:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool readback returned YouTube PUBLISHED with this public URL. Exact actual publication timestamp was not supplied.",
+      "evidence": "Metricool returned YouTube PUBLISHED with this public Shorts URL. Exact actual publication timestamp was not supplied.",
       "previous_video_sha256": "70d63abf715d355e07c177689ae96de0e90e06775e409a21c079560e99197a5a",
       "audio_metadata_path": "media/2026-11-16-audio/follow-the-colour.audio.json",
       "audio_version": "narration_original_music_effects_v1",
@@ -211,7 +215,7 @@
         "imported_bytes_match": true
       },
       "public_url": "https://www.youtube.com/shorts/axzDwgKx4s0",
-      "publication_verified_at": "2026-11-16T19:08:40.345Z"
+      "publication_verified_at": "2026-11-16T20:40:16.330Z"
     },
     {
       "clip_id": "shiny-bubble-club",
@@ -309,7 +313,7 @@
     {
       "clip_id": "trend-lights-testing-until-january",
       "title": "I'm only testing the Christmas lights. Until January.",
-      "status": "scheduled",
+      "status": "published",
       "provider": "youtube",
       "content_type": "everyday_humor",
       "hook_type": "seasonal_denial",
@@ -345,7 +349,7 @@
         "reference_assets_used": false
       },
       "scheduler": "Metricool",
-      "provider_status": "PENDING",
+      "provider_status": "PUBLISHED",
       "publication_date": "2026-11-16T12:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "do_not_reschedule": true,
@@ -353,12 +357,14 @@
       "scheduler_uuid": "-2311259678169414084",
       "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
       "audio_verified_at": "2026-11-16T19:08:40.345Z",
-      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
+      "evidence": "Metricool returned YouTube PUBLISHED with this public Shorts URL. Exact actual publication timestamp was not supplied.",
+      "public_url": "https://www.youtube.com/shorts/z9VLiR5TiFo",
+      "publication_verified_at": "2026-11-16T20:40:16.330Z"
     },
     {
       "clip_id": "trend-robot-resume-beef",
       "title": "Two robots are beefing over my resume",
-      "status": "scheduled",
+      "status": "published",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "ai_recruiting_reversal",
@@ -394,7 +400,7 @@
         "reference_assets_used": false
       },
       "scheduler": "Metricool",
-      "provider_status": "PENDING",
+      "provider_status": "PUBLISHED",
       "publication_date": "2026-11-16T12:30:00-08:00",
       "timezone": "America/Los_Angeles",
       "do_not_reschedule": true,
@@ -402,7 +408,9 @@
       "scheduler_uuid": "357735813776229483",
       "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
       "audio_verified_at": "2026-11-16T19:08:40.345Z",
-      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
+      "evidence": "Metricool returned YouTube PUBLISHED with this public Shorts URL. Exact actual publication timestamp was not supplied.",
+      "public_url": "https://www.youtube.com/shorts/yWws8huk43Q",
+      "publication_verified_at": "2026-11-16T20:40:16.330Z"
     },
     {
       "clip_id": "trend-two-sides-sofa-vote",
@@ -761,7 +769,7 @@
     {
       "clip_id": "next17-printer-teamwork",
       "title": "The printer takes all the credit",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "object_personification",
@@ -778,17 +786,27 @@
         "true_peak_dbtp": -1.98,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T09:20:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636151",
+      "scheduler_uuid": "-7243685488959534021",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-meeting-about-the-meeting",
       "title": "We scheduled a meeting to save time",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "calendar_escalation",
@@ -805,17 +823,27 @@
         "true_peak_dbtp": -2.03,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T19:20:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430638124",
+      "scheduler_uuid": "3979683011958883521",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-cash-with-enthusiasm",
       "title": "Count it again, but with more enthusiasm",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "fictional_dialogue",
@@ -832,17 +860,27 @@
         "true_peak_dbtp": -1.86,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T12:40:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636761",
+      "scheduler_uuid": "-626162158154134824",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-handshake-name-buffer",
       "title": "Their name vanished during the handshake",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "social_memory_failure",
@@ -859,17 +897,27 @@
         "true_peak_dbtp": -1.91,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T16:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430637455",
+      "scheduler_uuid": "4691720272285944243",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-gta-reflex-update",
       "title": "GTA VI prep: my reflexes need a software update",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "everyday_humor",
       "hook_type": "gaming_anticipation_sketch",
@@ -886,17 +934,27 @@
         "true_peak_dbtp": -1.96,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T11:20:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636571",
+      "scheduler_uuid": "-1914000292943937051",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-pasta-for-the-postcode",
       "title": "Pasta for two accidentally feeds the zip code",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "everyday_humor",
       "hook_type": "cooking_exaggeration",
@@ -913,17 +971,27 @@
         "true_peak_dbtp": -1.83,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T17:20:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430637645",
+      "scheduler_uuid": "2088646415094137719",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-plant-water-invoice",
       "title": "The plant sent a water bill and still owes rent",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "fictional_micro_stories",
       "hook_type": "impossible_invoice",
@@ -940,17 +1008,27 @@
         "true_peak_dbtp": -2.01,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T18:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430637927",
+      "scheduler_uuid": "-1020977317563973089",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-teapot-podcast",
       "title": "A teapot started a podcast",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "fictional_micro_stories",
       "hook_type": "tiny_pun_story",
@@ -967,17 +1045,27 @@
         "true_peak_dbtp": -1.95,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T10:40:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636350",
+      "scheduler_uuid": "8207301667178302445",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-strength-without-spotlight",
       "title": "Build the strength nobody sees",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "motivational",
       "hook_type": "direct_personal_challenge",
@@ -994,17 +1082,28 @@
         "true_peak_dbtp": -1.84,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T17:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430635184",
+      "scheduler_uuid": "4168016402200414695",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed.",
+      "replaces_clip_id": "weather-group-chat"
     },
     {
       "clip_id": "next17-armstrong-first-step",
       "title": "Neil Armstrong's first step: remember the preparation",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "motivational",
       "hook_type": "historical_moment",
@@ -1021,17 +1120,28 @@
         "true_peak_dbtp": -1.67,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": "Neil Armstrong",
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T20:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430635274",
+      "scheduler_uuid": "-6469427507233863401",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed.",
+      "replaces_clip_id": "attachment-world-tour"
     },
     {
       "clip_id": "next17-keep-one-promise",
       "title": "Keep one promise to yourself today",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "motivational",
       "hook_type": "single_action_challenge",
@@ -1048,17 +1158,27 @@
         "true_peak_dbtp": -1.74,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T08:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430635949",
+      "scheduler_uuid": "-3569072473997226955",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-one-task-full-focus",
       "title": "One task. Your full attention.",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "motivational",
       "hook_type": "single_action_challenge",
@@ -1075,17 +1195,27 @@
         "true_peak_dbtp": -1.94,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T14:40:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430637283",
+      "scheduler_uuid": "-4679654533474925382",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-cat-sofa-goblin",
       "title": "This cat abandoned the stealth build",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "animal_pov",
       "hook_type": "game_role_switch",
@@ -1155,17 +1285,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 14.8
+        "actual_duration": 14.8,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T08:40:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636064",
+      "scheduler_uuid": "3589210485980351893",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-dog-uninstall-fetch",
       "title": "The fetch quest has a terrible rewards system",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "animal_pov",
       "hook_type": "side_quest_reversal",
@@ -1226,17 +1366,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 12.8
+        "actual_duration": 12.8,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T12:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636653",
+      "scheduler_uuid": "2780081809076276345",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-ducks-walking-club",
       "title": "Nobody in this duck tour knows where they are going",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "animal_pov",
       "hook_type": "confident_leader_dialogue",
@@ -1315,17 +1465,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 18.0
+        "actual_duration": 18.0,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T15:20:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430637364",
+      "scheduler_uuid": "5762279839741004864",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-pet-premium-stairs",
       "title": "Stairs are premium. This pet found the free version.",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "animal_pov",
       "hook_type": "freemium_action_joke",
@@ -1377,17 +1537,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 5.3
+        "actual_duration": 5.3,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T18:40:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430638020",
+      "scheduler_uuid": "-4436561089284649019",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-domino-reply-disaster",
       "title": "That quick reply needed an emergency thumbs-up",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "visual_surprises",
       "hook_type": "typo_chain_reaction",
@@ -1448,17 +1618,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 9.6
+        "actual_duration": 9.6,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T10:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636249",
+      "scheduler_uuid": "-8964143914576098805",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-pancake-action-sequel",
       "title": "The pancake did not sign up for an action franchise",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "visual_surprises",
       "hook_type": "repeat_action_dialogue",
@@ -1519,17 +1699,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 10.9
+        "actual_duration": 10.9,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T13:20:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636833",
+      "scheduler_uuid": "7331501373366158387",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-coin-calling-in-flat",
       "title": "The coin refused both chores and called in flat",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "visual_surprises",
       "hook_type": "object_negotiation",
@@ -1599,17 +1789,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 16.5
+        "actual_duration": 16.5,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T16:40:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430637551",
+      "scheduler_uuid": "4885852585251589243",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-notification-brain-splash",
       "title": "One more notification and my last brain cell clocks out",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "visual_surprises",
       "hook_type": "literal_visual_metaphor",
@@ -1670,17 +1870,27 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 8.5
+        "actual_duration": 8.5,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T20:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430638241",
+      "scheduler_uuid": "7653447418027461239",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-chess-nap-appeal",
       "title": "The king banned naps. One piece appealed. | Tiny fiction",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "fictional_micro_stories",
       "hook_type": "fictional_rule_defiance",
@@ -1742,17 +1952,27 @@
         "music": "original procedural composition",
         "effects": "original synthesized pops",
         "actual_duration": 8.8,
-        "portrait_crop_review": "Root reviewed a portrait crop to enlarge the chess action while preserving the falling piece."
+        "portrait_crop_review": "Root reviewed a portrait crop to enlarge the chess action while preserving the falling piece.",
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T20:40:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430638348",
+      "scheduler_uuid": "-5943335391942523045",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     },
     {
       "clip_id": "next17-paper-plane-airline",
       "title": "Even paper planes have baggage fees now | Tiny fiction",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "fictional_micro_stories",
       "hook_type": "fictional_business_launch",
@@ -1822,12 +2042,22 @@
         "source_audio_removed": true,
         "music": "original procedural composition",
         "effects": "original synthesized pops",
-        "actual_duration": 15.2
+        "actual_duration": 15.2,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
       "famous_person": null,
-      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-17T14:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430636938",
+      "scheduler_uuid": "-1884688792458671655",
+      "scheduling_verified_at": "2026-11-16T20:40:16.330Z",
+      "audio_verified_at": "2026-11-16T20:40:16.330Z",
+      "evidence": "Metricool creation/update and a separate readback confirmed this pending YouTube Short, title, description and time. Imported video bytes match the inspected SHA-256; publication is not yet confirmed."
     }
   ]
 }

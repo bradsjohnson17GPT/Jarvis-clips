@@ -1,0 +1,20 @@
+{
+  "replacements": [
+    {
+      "date": "2026-11-16",
+      "replaced_clip_id": "attachment-world-tour",
+      "new_clip_id": "next17-armstrong-first-step",
+      "scheduler_uuid": "-6469427507233863401",
+      "verified_at": "2026-11-16T20:40:16.330Z"
+    },
+    {
+      "date": "2026-11-16",
+      "replaced_clip_id": "weather-group-chat",
+      "new_clip_id": "next17-strength-without-spotlight",
+      "scheduler_uuid": "4168016402200414695",
+      "verified_at": "2026-11-16T20:40:16.330Z"
+    }
+  ],
+  "maximum_per_day": 4,
+  "note": "Media-only audio upgrades are not content replacements. Count these actual content changes before replacing another pending slot."
+}
