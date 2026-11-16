@@ -12,3 +12,5 @@
 - New videos require timed narration, quiet original or verified licensed music, and appropriate original effects. Check `config/audio.json` and `docs/audio.md`. Verify an audible audio stream, caption synchronization, and safe levels before scheduling. Never republish a live clip just to change its audio.
 
 - Follow `agents/trend-scout.md` and `config/trends.json` for current-video research. Production alone publishes; count existing posts against the configured 20/day target.
+
+- Current scope is original-content posting only. Do not develop editing services or digital-product businesses. Use supplied examples to improve original comedy; quality takes priority over filling the daily target.

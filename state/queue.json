@@ -49,9 +49,9 @@
       "publication_date": "2026-11-16T09:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool returned YouTube PUBLISHED and a public Shorts URL. Exact actual publication timestamp was not supplied.",
+      "evidence": "Metricool readback returned YouTube PUBLISHED with this public URL. Exact actual publication timestamp was not supplied.",
       "public_url": "https://www.youtube.com/shorts/YvS-TI2oan8",
-      "publication_verified_at": "2026-11-16T19:06:05.163Z",
+      "publication_verified_at": "2026-11-16T19:08:40.345Z",
       "audio_version": "silent_original_published"
     },
     {
@@ -134,7 +134,7 @@
       "publication_date": "2026-11-16T10:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool returned YouTube PUBLISHED and a public Shorts URL. Exact actual publication timestamp was not supplied.",
+      "evidence": "Metricool readback returned YouTube PUBLISHED with this public URL. Exact actual publication timestamp was not supplied.",
       "previous_video_sha256": "2b464aaf4760dce4a6b0504b1e7a8b29a05f9498091081506e5032c5a486595d",
       "audio_metadata_path": "media/2026-11-16-audio/coffee-loading-screen.audio.json",
       "audio_version": "narration_original_music_effects_v1",
@@ -147,7 +147,7 @@
         "imported_bytes_match": true
       },
       "public_url": "https://www.youtube.com/shorts/zUf2pmi9RaI",
-      "publication_verified_at": "2026-11-16T19:06:05.163Z"
+      "publication_verified_at": "2026-11-16T19:08:40.345Z"
     },
     {
       "clip_id": "weather-group-chat",
@@ -198,7 +198,7 @@
       "publication_date": "2026-11-16T11:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Metricool returned YouTube PUBLISHED and a public Shorts URL. Exact actual publication timestamp was not supplied.",
+      "evidence": "Metricool readback returned YouTube PUBLISHED with this public URL. Exact actual publication timestamp was not supplied.",
       "previous_video_sha256": "70d63abf715d355e07c177689ae96de0e90e06775e409a21c079560e99197a5a",
       "audio_metadata_path": "media/2026-11-16-audio/follow-the-colour.audio.json",
       "audio_version": "narration_original_music_effects_v1",
@@ -211,7 +211,7 @@
         "imported_bytes_match": true
       },
       "public_url": "https://www.youtube.com/shorts/axzDwgKx4s0",
-      "publication_verified_at": "2026-11-16T19:06:05.163Z"
+      "publication_verified_at": "2026-11-16T19:08:40.345Z"
     },
     {
       "clip_id": "shiny-bubble-club",
@@ -309,7 +309,7 @@
     {
       "clip_id": "trend-lights-testing-until-january",
       "title": "I'm only testing the Christmas lights. Until January.",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "everyday_humor",
       "hook_type": "seasonal_denial",
@@ -326,7 +326,8 @@
         "true_peak_dbtp": -1.99,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -342,12 +343,22 @@
           "2026-11-16"
         ],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T12:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430528229",
+      "scheduler_uuid": "-2311259678169414084",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-robot-resume-beef",
       "title": "Two robots are beefing over my resume",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "ai_recruiting_reversal",
@@ -364,7 +375,8 @@
         "true_peak_dbtp": -2.11,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -380,12 +392,22 @@
           "2026-11-11"
         ],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T12:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430528329",
+      "scheduler_uuid": "357735813776229483",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-two-sides-sofa-vote",
       "title": "My five-year plan lost a vote to the sofa",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "everyday_humor",
       "hook_type": "contrasting_two_sides",
@@ -402,7 +424,8 @@
         "true_peak_dbtp": -2.41,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -416,12 +439,22 @@
           "2026-11-13"
         ],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T16:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430528957",
+      "scheduler_uuid": "-5107787134707217199",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-cat-box-real-estate",
       "title": "This cat has strong opinions about real estate",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "animal_pov",
       "hook_type": "animal_character_reversal",
@@ -438,7 +471,8 @@
         "true_peak_dbtp": -1.98,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -447,12 +481,22 @@
         "evidence_class": "original_proposal",
         "source_urls": [],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T13:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430528432",
+      "scheduler_uuid": "-8797177787371142385",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-dog-portion-review",
       "title": "The harshest food critic has four paws",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "animal_pov",
       "hook_type": "mock_food_review",
@@ -469,7 +513,8 @@
         "true_peak_dbtp": -1.98,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -478,12 +523,22 @@
         "evidence_class": "original_proposal",
         "source_urls": [],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T15:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430528607",
+      "scheduler_uuid": "5769069238222539415",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-ai-meeting-resignation",
       "title": "Even the AI updated its resume after that meeting",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "workplace_comedy",
       "hook_type": "ai_office_escalation",
@@ -500,7 +555,8 @@
         "true_peak_dbtp": -1.9,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -516,12 +572,22 @@
           "2026-11-16"
         ],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T17:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430529070",
+      "scheduler_uuid": "5906675956485867273",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-popcorn-group-chat",
       "title": "The group chat when you say quick question",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "visual_surprises",
       "hook_type": "visual_escalation_metaphor",
@@ -538,7 +604,8 @@
         "true_peak_dbtp": -1.91,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -547,12 +614,22 @@
         "evidence_class": "original_proposal",
         "source_urls": [],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T14:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430528533",
+      "scheduler_uuid": "-9084580396065798427",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-honey-leaving-now",
       "title": "That friend who says leaving now",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "visual_surprises",
       "hook_type": "visual_punchline_metaphor",
@@ -569,7 +646,8 @@
         "true_peak_dbtp": -1.96,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -578,12 +656,22 @@
         "evidence_class": "original_proposal",
         "source_urls": [],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T18:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430529157",
+      "scheduler_uuid": "-6186396747056921590",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-vacuum-head-of-operations",
       "title": "I promoted the robot vacuum and got demoted",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "fictional_micro_stories",
       "hook_type": "fictional_role_reversal",
@@ -600,7 +688,8 @@
         "true_peak_dbtp": -1.85,
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
-        "source_footage_visually_reviewed": true
+        "source_footage_visually_reviewed": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -614,12 +703,22 @@
           "2026-11-16"
         ],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T19:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430529256",
+      "scheduler_uuid": "122512152278746370",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     },
     {
       "clip_id": "trend-alarm-mixed-messages",
       "title": "I returned my alarm clock for mixed messages",
-      "status": "ready_not_scheduled",
+      "status": "scheduled",
       "provider": "youtube",
       "content_type": "fictional_micro_stories",
       "hook_type": "fictional_object_dialogue",
@@ -637,7 +736,8 @@
         "decoded_without_errors": true,
         "every_caption_card_visually_inspected": true,
         "source_footage_visually_reviewed": true,
-        "clock_visual_change_aligned_to_caption": true
+        "clock_visual_change_aligned_to_caption": true,
+        "imported_bytes_match": true
       },
       "actual_publication_date": null,
       "inspection": "Every caption card visually reviewed, narration timing verified, full decode and stereo AAC loudness checks passed.",
@@ -646,7 +746,17 @@
         "evidence_class": "original_proposal",
         "source_urls": [],
         "reference_assets_used": false
-      }
+      },
+      "scheduler": "Metricool",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T15:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "do_not_reschedule": true,
+      "scheduler_post_id": "430528854",
+      "scheduler_uuid": "-1763189582846670227",
+      "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
+      "audio_verified_at": "2026-11-16T19:08:40.345Z",
+      "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
     }
   ]
 }

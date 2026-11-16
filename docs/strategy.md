@@ -57,3 +57,7 @@ The recurring trend scout checks around 5 a.m., 11 a.m., and 5 p.m., using `agen
 ## Day and night work and progress
 
 The owner now requests work across the day and night, plus progress updates. Production is scheduled approximately every four hours, including overnight, while the scout retains three daily research checks. When today's twenty slots are filled, prepare tomorrow's reviewed originals and investigate confirmed publication failures; queue at most 48 hours ahead and preserve the per-date cap. Send concise progress updates after morning and afternoon runs, with confirmed published/pending counts, meaningful completed work, and any actual blocker. Other routine successful runs end with NO_UPDATE. Keep the separate 9 a.m. earnings report unchanged. Scheduled runs do not prove continuous runtime, sales, or profit.
+
+## Current scope and examples
+
+The owner narrowed the business to posting quality content on November 16. Do not develop editing services or digital-product shops. Preserve private prototypes without further work. Analyze examples the owner supplies using actual available video, transcript, and audio tools, labelling the analysis method. Extract readable hooks, concrete action, pacing and a specific comic payoff; use original scripts and independently reviewed footage/audio for adaptations. If no strong publishable clip is ready, record a shortfall rather than filling the target with weak or duplicated material.

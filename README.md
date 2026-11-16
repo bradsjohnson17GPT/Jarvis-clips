@@ -51,7 +51,7 @@ Every output is 720 × 1280, H.264, 30 fps. Source audio is removed and replaced
 
 - Daily posting target: **20 distinct original Shorts**, raised after the owner requested more frequent posts.
 - Audio update: all nine pending November 16 posts now use narration, original music, and effects. The already-live cat Short is retained as published. [Audio verification](docs/production/2026-11-16-audio.md).
-- November 16 batch: **10 confirmed pending Shorts**, two per content type, scheduled from 9 a.m. through 9 p.m. Pacific. [Batch verification and schedule](docs/production/2026-11-16.md).
+- November 16 latest verification: **20 distinct Shorts total: 3 confirmed published and 17 pending**, four per content type, across 9 a.m.–9 p.m. Pacific. All newly added clips include narration, original music, and effects. [Expanded batch verification](docs/production/2026-11-16-extra.md).
 - First Short: **scheduled through Metricool for November 16, 2026, at 4 p.m. Pacific**. Metricool imported the MP4 and confirmed a pending YouTube post; it has not yet published. See `state/queue.json` to avoid rescheduling it.
 - Editing: implemented and tested on the example clip.
 - Source record: included in each manifest and rendered output.

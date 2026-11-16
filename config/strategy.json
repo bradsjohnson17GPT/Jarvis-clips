@@ -28,5 +28,8 @@
   "routine_confirmation_required": false,
   "posting_window_start": "08:00",
   "posting_interval_minutes": 40,
-  "minimum_gap_minutes": 25
+  "minimum_gap_minutes": 25,
+  "active_business_scope": "original_content_posting_only",
+  "editing_services_enabled": false,
+  "digital_product_experiments_enabled": false
 }
