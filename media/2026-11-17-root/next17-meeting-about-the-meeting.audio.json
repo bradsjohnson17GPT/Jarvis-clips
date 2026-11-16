@@ -1,0 +1,63 @@
+{
+  "id": "next17-meeting-about-the-meeting",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "We moved the meeting to save time.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 2.0397916666666664,
+      "caption_end": 4.6,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Now there is a meeting about the new time.",
+      "caption_start": 4.6,
+      "speech_start": 4.68,
+      "speech_end": 6.847354166666666,
+      "caption_end": 9.2,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Calendar update: still no time.",
+      "caption_start": 9.2,
+      "speech_start": 9.28,
+      "speech_end": 11.9461875,
+      "caption_end": 13.8,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "d10aa46e7b8597f968cb28d592b8ccb84c807fed2eba02845fa9aa52f1e7c64e",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "13.800000"
+    }
+  }
+}

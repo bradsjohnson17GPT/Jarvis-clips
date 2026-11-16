@@ -1,0 +1,63 @@
+{
+  "id": "next17-handshake-name-buffer",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "New colleague: nice to meet you.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 2.2588333333333335,
+      "caption_end": 2.8,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Me: you too, champ.",
+      "caption_start": 2.8,
+      "speech_start": 2.88,
+      "speech_end": 3.93275,
+      "caption_end": 5.3,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "I forgot their name during the handshake.",
+      "caption_start": 5.3,
+      "speech_start": 5.38,
+      "speech_end": 7.502645833333333,
+      "caption_end": 9.9,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "fbab387791772c803e6871c755d701ee392f64bf38bf83cb6a712e77fd9ea064",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "9.900000"
+    }
+  }
+}

@@ -29,6 +29,12 @@ class ManifestChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Layout"):
             renderer.validate(self.spec)
 
+    def test_rejects_crop_outside_source(self):
+        self.spec["layout"] = "portrait_crop"
+        self.spec["crop_position"] = 1.1
+        with self.assertRaisesRegex(ValueError, "Crop position"):
+            renderer.validate(self.spec)
+
     def test_rejects_overlapping_captions(self):
         self.spec["captions"][1]["start"] = 1
         with self.assertRaisesRegex(ValueError, "nonoverlapping"):

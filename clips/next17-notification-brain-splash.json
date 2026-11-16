@@ -1,0 +1,65 @@
+{
+  "id": "next17-notification-brain-splash",
+  "title": "One more notification and my last brain cell clocks out",
+  "content_type": "visual_surprises",
+  "hook_type": "literal_visual_metaphor",
+  "layout": "portrait",
+  "start": 0,
+  "duration": 8.5,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. One more notification and my last brain cell clocks out #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.25,
+      "text": "ME: I CAN HANDLE\nONE MORE NOTIFICATION.",
+      "narration": "I can handle one more notification."
+    },
+    {
+      "start": 3.25,
+      "end": 5.7,
+      "text": "MY LAST BRAIN CELL:",
+      "narration": "My last brain cell."
+    },
+    {
+      "start": 5.7,
+      "end": 8.5,
+      "text": "OUT OF OFFICE.\nBACK NEVER.",
+      "narration": "Out of office. Back never."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A black water balloon bursts around 3.3 seconds and droplets fall through the remaining visible frame. The punchline is an explicitly imagined metaphor; the empty final five seconds of the source are excluded.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/a-person-popping-a-balloon-with-water-9667863/",
+    "download": "https://videos.pexels.com/video-files/9667863/9667863-hd_720_1280_25fps.mp4",
+    "source_id": "9667863",
+    "creator_credit": "Video by cottonbro studio on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "725a33e05108158c89c4e45c3ad4741cebfbb73bfe8df8cfb1e09d95bce5d264",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "663548fda3f2fd2d7c939fadc48c839e9de844e1c078e4042c1bd616499db706"
+  }
+}

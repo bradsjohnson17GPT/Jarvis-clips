@@ -1,0 +1,46 @@
+{
+  "id": "next17-dog-uninstall-fetch",
+  "title": "The fetch quest has a terrible rewards system",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The fetch quest has a terrible rewards system #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:14:31.323690+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/a-dog-fetching-a-ball-in-a-garden-12130315/",
+    "download": "https://videos.pexels.com/video-files/12130315/12130315-hd_1280_720_30fps.mp4",
+    "source_id": "12130315",
+    "creator_credit": "Video by Noah Lenzi on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "e236bc7278c0d6ead563101eab27ce0e8dc64da76461444a323ed7962cdc7844",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "6972dd4b0d19294f6619424a39b472c3adc4952e4f7b968bffc23f2c79b1b360"
+  },
+  "source_sha256": "6972dd4b0d19294f6619424a39b472c3adc4952e4f7b968bffc23f2c79b1b360",
+  "video_sha256": "4dc2ca7032ad5596d2804cce6c9ba4a6f8c70854945806ce3e2f3196ea54e17d",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "12.800000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

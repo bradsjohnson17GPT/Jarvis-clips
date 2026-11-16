@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render licensed source manifests into silent, captioned portrait video."""
+"""Render reviewed footage into captioned portrait video with narration and music."""
 import argparse
 import hashlib
 import json
@@ -23,6 +23,28 @@ def number(value):
     return value
 
 
+def validate_music(spec):
+    music = spec.get("audio", {}).get("licensed_music")
+    if music is None:
+        return
+    if not isinstance(music, dict) or music.get("rights_verified") is not True or music.get("commercial_use") is not True:
+        raise ValueError("Licensed music needs reviewed commercial rights")
+    for key in ("page", "download", "license"):
+        parsed = urllib.parse.urlparse(music.get(key, ""))
+        if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password:
+            raise ValueError("Licensed music needs HTTPS source and license URLs")
+    if not re.fullmatch(r"[a-f0-9]{64}", music.get("sha256", "")):
+        raise ValueError("Licensed music needs a reviewed SHA-256")
+    if not all(isinstance(music.get(k), str) and music[k].strip() for k in ("title", "artist", "reviewed_by", "rights_note", "attribution", "changes")):
+        raise ValueError("Licensed music needs attribution and review details")
+    reviewed = date.fromisoformat(music.get("reviewed_on", ""))
+    if reviewed > datetime.now(timezone.utc).date() or number(music.get("start", 0)) < 0:
+        raise ValueError("Invalid licensed music review date or excerpt start")
+    description = spec.get("description", "")
+    if not all(value in description for value in (music["attribution"], music["license"], music["changes"])):
+        raise ValueError("Video description must include music attribution, license and changes")
+
+
 def validate(spec):
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", spec.get("id", "")):
         raise ValueError("Clip id must contain lowercase words separated by hyphens")
@@ -30,8 +52,12 @@ def validate(spec):
         raise ValueError("A YouTube title of 1-100 characters is required")
     if spec.get("audience") not in ("made_for_kids", "not_made_for_kids"):
         raise ValueError("An explicit audience classification is required")
-    if spec.get("layout", "fit") not in ("fit", "portrait"):
-        raise ValueError("Layout must be fit or portrait")
+    if spec.get("layout", "fit") not in ("fit", "portrait", "portrait_crop"):
+        raise ValueError("Layout must be fit, portrait or portrait_crop")
+    if not 0 <= number(spec.get("crop_position", 0.5)) <= 1:
+        raise ValueError("Crop position must be between zero and one")
+    if spec.get("caption_style", "upper") not in ("upper", "impact"):
+        raise ValueError("Caption style must be upper or impact")
     source = spec.get("source", {})
     if source.get("rights_verified") is not True:
         raise ValueError("Commercial reuse and editing rights must be reviewed first")
@@ -61,6 +87,7 @@ def validate(spec):
         if any(ord(c) < 32 and c != "\n" for c in text):
             raise ValueError("Captions cannot contain control characters")
         previous_end = end
+    validate_music(spec)
     return spec
 
 
@@ -84,6 +111,8 @@ Style: Default,DejaVu Sans,42,&H00FFFFFF,&H000000FF,&H00101010,&H80000000,-1,0,0
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
+    if spec.get("caption_style") == "impact":
+        header = header.replace("Default,DejaVu Sans,42,", "Default,DejaVu Sans,56,").replace("0,0,1,3,1,8,35,35,180,1", "0,0,1,4,1,5,60,60,180,1")
     return header + "\n".join(
         f"Dialogue: 0,{ass_time(c['start'])},{ass_time(c['end'])},Default,,0,0,0,,{ass_text(c['text'])}"
         for c in spec["captions"]
@@ -129,6 +158,9 @@ def render(spec, source, destination):
             if abs(source_video["width"] / source_video["height"] - 9 / 16) > 0.02:
                 raise ValueError("Portrait layout requires a source already close to 9:16")
             graph = "[0:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,setsar=1,ass=captions.ass[out]"
+        if spec.get("layout") == "portrait_crop":
+            position = spec.get("crop_position", 0.5)
+            graph = f"[0:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280:x=(iw-720)*{position}:y=(ih-1280)/2,setsar=1,ass=captions.ass[out]"
         subprocess.run([
             "ffmpeg", "-v", "error", "-nostdin", "-y", "-ss", str(spec.get("start", 0)),
             "-i", str(source.resolve()), "-t", str(spec["duration"]), "-filter_complex", graph,
@@ -152,6 +184,7 @@ def main():
     parser.add_argument("--validate-only", action="store_true")
     parser.add_argument("--silent", action="store_true", help="Internal base render only; not approved for new publication")
     parser.add_argument("--model", type=Path, default=Path(os.environ.get("JARVIS_VOICE_MODEL", Path(__file__).resolve().parents[1] / "work/models/en_US-ljspeech-high.onnx")))
+    parser.add_argument("--music-file", type=Path, help="Use the reviewed licensed track already downloaded")
     args = parser.parse_args()
     spec = validate(json.loads(args.manifest.read_text(encoding="utf-8")))
     if args.validate_only:
@@ -179,7 +212,7 @@ def main():
             raise ValueError("Unreviewed voice configuration")
         voice = PiperVoice.load(args.model)
         with tempfile.TemporaryDirectory(prefix="jarvis-sound-") as temp:
-            audio_result = add_audio(spec, output / "video.mp4", output / "video-audio.mp4", voice, Path(temp), settings)
+            audio_result = add_audio(spec, output / "video.mp4", output / "video-audio.mp4", voice, Path(temp), settings, args.music_file)
         (output / "video-audio.mp4").replace(output / "video.mp4")
         (output / "video-audio.audio.json").replace(output / "audio.json")
         info = audio_result["probe"]

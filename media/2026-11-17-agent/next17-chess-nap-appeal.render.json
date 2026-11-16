@@ -1,0 +1,46 @@
+{
+  "id": "next17-chess-nap-appeal",
+  "title": "The king banned naps. One piece appealed. | Tiny fiction",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The king banned naps. One piece appealed. | Tiny fiction #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:33:41.776672+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/a-falling-chess-piece-8428300/",
+    "download": "https://videos.pexels.com/video-files/8428300/8428300-hd_720_1366_25fps.mp4",
+    "source_id": "8428300",
+    "creator_credit": "Video by cottonbro studio on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "0446fe72372499a1e285f2943517c9cc50e0cda34c996a442b05ea4eb6ebd99a",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "23e10637541389196c184889c5802402e300fdbb2833dcf1bd120c126a23f66a"
+  },
+  "source_sha256": "23e10637541389196c184889c5802402e300fdbb2833dcf1bd120c126a23f66a",
+  "video_sha256": "2a3a1dcebff6360568f5e825a5523481b0688e5835aac92e9ebf77fe7391cd8f",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "8.800000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

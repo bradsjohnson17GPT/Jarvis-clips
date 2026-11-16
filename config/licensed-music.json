@@ -1,0 +1,40 @@
+{
+  "reviewed_on": "2026-11-16",
+  "tracks": {
+    "Juggernaut": {
+      "title": "Juggernaut",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/juggernaut/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2022/07/Juggernaut.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-16",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+      "attribution": "'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+      "sha256": "50be286d170f5a08791f1540b110fbbb4c0aa26e841084fceff0c908379e76f6",
+      "start": 184
+    },
+    "Ascension": {
+      "title": "Ascension",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/ascension/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-16",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+      "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+      "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+      "start": 288
+    }
+  },
+  "notes": "Audiovisual uses only, exact required credits and license links in each description; edited excerpts are not claimed as project-owned music. No purchases."
+}

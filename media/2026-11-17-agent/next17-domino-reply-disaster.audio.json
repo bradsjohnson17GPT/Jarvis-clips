@@ -1,0 +1,63 @@
+{
+  "id": "next17-domino-reply-disaster",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "One quick reply.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 1.1181458333333334,
+      "caption_end": 3.4,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Typo. Correction. Worse typo.",
+      "caption_start": 3.4,
+      "speech_start": 3.48,
+      "speech_end": 5.532208333333333,
+      "caption_end": 6.4,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Final message: just a thumbs up.",
+      "caption_start": 6.4,
+      "speech_start": 6.48,
+      "speech_end": 8.883270833333333,
+      "caption_end": 9.6,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "c6d4dd9f0142c5eaecff2b5c9c84c2a5be3a88e6d1e78741f2fd62e7c3c35128",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "9.600000"
+    }
+  }
+}

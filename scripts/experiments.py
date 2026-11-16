@@ -58,7 +58,9 @@ def plan(config, observations):
         winner_slots = config["adaptive_winner_slots"]
         slots = {r["content_type"]: (winner_slots[i] if i < len(winner_slots) else config["adaptive_exploration_slots_per_other_type"]) for i, r in enumerate(ranking)}
     else:
-        slots = {kind: config["initial_slots_per_type"] for kind in types}
+        slots = dict(config["initial_slot_allocation"]) if "initial_slot_allocation" in config else {kind: config["initial_slots_per_type"] for kind in types}
+        if set(slots) != set(types):
+            raise ValueError("Initial slot allocation must cover each active content type")
     if sum(slots.values()) != config["daily_post_target"]:
         raise ValueError("Configured slots do not match the daily post target")
     return {

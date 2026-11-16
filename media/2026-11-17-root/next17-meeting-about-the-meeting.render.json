@@ -1,0 +1,46 @@
+{
+  "id": "next17-meeting-about-the-meeting",
+  "title": "We scheduled a meeting to save time",
+  "description": "An original fictional comedy sketch with original narration, music and effects. We scheduled a meeting to save time. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:21:43.177637+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/woman-having-a-virtual-meeting-at-the-office-8135789/",
+    "download": "https://videos.pexels.com/video-files/8135789/8135789-hd_1280_720_50fps.mp4",
+    "source_id": "8135789",
+    "creator_credit": "Video by ANTONI SHKRABA production on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "7d162ab37afb9ea0f99f8ee567ed2a61c6f328e7dd9f9200915a7dcf2b7d4413",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "c8b142418d23130ed4580072f620e2bae93941aa93f85ae31ad53caa700f84e6"
+  },
+  "source_sha256": "c8b142418d23130ed4580072f620e2bae93941aa93f85ae31ad53caa700f84e6",
+  "video_sha256": "d10aa46e7b8597f968cb28d592b8ccb84c807fed2eba02845fa9aa52f1e7c64e",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "13.800000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

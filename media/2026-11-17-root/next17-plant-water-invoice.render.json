@@ -1,0 +1,46 @@
+{
+  "id": "next17-plant-water-invoice",
+  "title": "The plant sent a water bill and still owes rent",
+  "description": "An original fictional comedy sketch with original narration, music and effects. The plant sent a water bill and still owes rent. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:22:46.372625+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/a-person-watering-an-indoor-plant-6831305/",
+    "download": "https://videos.pexels.com/video-files/6831305/6831305-hd_720_1280_50fps.mp4",
+    "source_id": "6831305",
+    "creator_credit": "Video by Vlada Karpovich on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "5770e0f4a8a24bc81b0ab4fccdfedffe6f7c90d3be54185b1c8dde5dc6d15643",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "166202eff2ee8d82209c63269013860a7d90e8dc86271299cf94c0b5296b54b4"
+  },
+  "source_sha256": "166202eff2ee8d82209c63269013860a7d90e8dc86271299cf94c0b5296b54b4",
+  "video_sha256": "89d2589661f9c1f44abe97f9f181e185c4da825d250ebd35246a36549d59d8ef",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "11.400000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "next17-domino-reply-disaster",
+  "title": "That quick reply needed an emergency thumbs-up",
+  "content_type": "visual_surprises",
+  "hook_type": "typo_chain_reaction",
+  "layout": "fit",
+  "start": 0,
+  "duration": 9.6,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. That quick reply needed an emergency thumbs-up #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.4,
+      "text": "ME:\nONE QUICK REPLY.",
+      "narration": "One quick reply."
+    },
+    {
+      "start": 3.4,
+      "end": 6.4,
+      "text": "TYPO.\nCORRECTION.\nWORSE TYPO.",
+      "narration": "Typo. Correction. Worse typo."
+    },
+    {
+      "start": 6.4,
+      "end": 9.6,
+      "text": "FINAL MESSAGE:\nJUST A THUMBS-UP.",
+      "narration": "Final message: just a thumbs up."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "Rows of dominoes stand, rapidly collapse around 4-6 seconds, and remain fallen for the final punchline. Long collapsed pause and reverse sequence are excluded. Original imagined message/typo commentary provides a three-beat comic escalation.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/set-of-dominoes-1793414/",
+    "download": "https://videos.pexels.com/video-files/1793414/1793414-hd_1280_720_30fps.mp4",
+    "source_id": "1793414",
+    "creator_credit": "Video by Miguel \u00c1. Padri\u00f1\u00e1n on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "714782cd5f7648980befa8f2d32e05ed0ebd505fbb74518b6b845794fc4e09a8",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "61a347c46fe0e54055305e5ae32350b25aedea3066157d1a220828e7c603e264"
+  }
+}

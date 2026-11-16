@@ -1,0 +1,79 @@
+{
+  "id": "next17-one-task-full-focus",
+  "audio": "timed_narration_licensed_music_and_original_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": {
+    "title": "Juggernaut",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/juggernaut/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2022/07/Juggernaut.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "50be286d170f5a08791f1540b110fbbb4c0aa26e841084fceff0c908379e76f6",
+    "start": 184
+  },
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "One task.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 0.97025,
+      "caption_end": 1.3,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Full attention.",
+      "caption_start": 1.3,
+      "speech_start": 1.3800000000000001,
+      "speech_end": 2.2453125,
+      "caption_end": 2.7,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Take the win. Build the next.",
+      "caption_start": 2.7,
+      "speech_start": 2.7800000000000002,
+      "speech_end": 4.598791666666667,
+      "caption_end": 5.6,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "b3c288644996242e56a0c12d942f23cda5c35599bd2a583a8db5876e553d9067",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "5.600000"
+    }
+  }
+}

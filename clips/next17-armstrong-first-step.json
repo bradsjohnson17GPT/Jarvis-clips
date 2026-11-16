@@ -1,0 +1,83 @@
+{
+  "id": "next17-armstrong-first-step",
+  "title": "Neil Armstrong's first step: remember the preparation",
+  "description": "Original historical commentary: Neil Armstrong takes his first lunar step on July 20, 1969. A famous moment reminds us to value preparation. Archival footage: NASA. No NASA or astronaut endorsement is implied. #Shorts #Motivation #Apollo11\n\n'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nMusic excerpt trimmed, faded and mixed beneath original narration.",
+  "audience": "not_made_for_kids",
+  "content_type": "motivational",
+  "hook_type": "historical_moment",
+  "layout": "portrait_crop",
+  "start": 37,
+  "duration": 18.6,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.65,
+      "text": "NEIL ARMSTRONG.\nJULY 20, 1969.",
+      "narration": "Neil Armstrong. July twentieth, nineteen sixty-nine."
+    },
+    {
+      "start": 4.65,
+      "end": 9.3,
+      "text": "WE REMEMBER\nTHE FIRST STEP.",
+      "narration": "We remember the first step."
+    },
+    {
+      "start": 9.3,
+      "end": 13.95,
+      "text": "REMEMBER THE\nPREPARATION, TOO.",
+      "narration": "Remember the preparation, too."
+    },
+    {
+      "start": 13.95,
+      "end": 18.6,
+      "text": "GIVE YOUR NEXT STEP\nTHAT SAME CARE.",
+      "narration": "Give your next step that same care."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "reviewed_licensed_track",
+    "sound_effects": "original_synthesized",
+    "licensed_music": {
+      "title": "Ascension",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/ascension/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-16",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+      "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+      "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+      "start": 288
+    }
+  },
+  "fictional_sketch": false,
+  "source": {
+    "page": "https://www.nasa.gov/history/apollo-11-hd-videos/",
+    "download": "https://images-assets.nasa.gov/video/One_Small_Step_Comparison_720p/One_Small_Step_Comparison_720p~medium.mp4",
+    "source_id": "NASA-One_Small_Step_Comparison_720p",
+    "creator_credit": "NASA",
+    "license": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "license_name": "NASA factual editorial use / government footage",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "NASA identifies this footage as Neil Armstrong descending to the lunar surface. NASA media guidelines and JSC editorial guidance reviewed: footage used within factual historical commentary, with attribution and no product/service endorsement, cover art, merchandise or advertising association. No third-party copyright credit was present in the source metadata. Source audio removed; no NASA music is used. Archival footage remains NASA material, not claimed as project copyright.",
+    "page_sha256": "a0736acf140e5a1b7581aba16bf16ff5a5d8a125e088dff5f8e55e93432ba0f4",
+    "license_snapshot_sha256": "688d2a06f157802695afcf7b3ac46f38c058b3e008643ddd449de0db496149e3",
+    "reviewed_source_sha256": "4d026e74ae82afe5bfc6618e494a5a6284c9418c47daafac335205ca55b2ed4a",
+    "editorial_guidance": "https://esrs.jsc.nasa.gov/Collections/EarthFromSpace/guidelines.htm"
+  },
+  "famous_person": "Neil Armstrong",
+  "factual_sources": [
+    "https://www.nasa.gov/history/apollo-11-hd-videos/",
+    "https://images.nasa.gov/details/One_Small_Step_Comparison_720p"
+  ],
+  "crop_position": 0.55
+}

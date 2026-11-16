@@ -24,7 +24,12 @@ class ExperimentChecks(unittest.TestCase):
     def test_no_data_stays_balanced(self):
         p = experiments.plan(self.config, [])
         self.assertEqual(p["mode"], "balanced")
-        self.assertEqual(list(p["daily_slots"].values()), [4] * 5)
+        self.assertEqual(list(p["daily_slots"].values()), [4, 4, 2, 4, 4, 2])
+
+    def test_incomplete_initial_allocation_is_rejected(self):
+        del self.config["initial_slot_allocation"]["motivational"]
+        with self.assertRaisesRegex(ValueError, "each active content type"):
+            experiments.plan(self.config, [])
 
     def test_too_young_or_old_does_not_determine_winners(self):
         rows = self.observations()
@@ -36,10 +41,10 @@ class ExperimentChecks(unittest.TestCase):
         rows = self.observations()[::3]
         self.assertEqual(experiments.plan(self.config, rows * 10)["mode"], "balanced")
 
-    def test_supported_winners_keep_six_exploration_slots(self):
+    def test_supported_winners_keep_eight_exploration_slots(self):
         result = experiments.plan(self.config, self.observations())
         self.assertEqual(result["mode"], "adaptive")
-        self.assertEqual(list(result["daily_slots"].values()), [10, 4, 2, 2, 2])
+        self.assertEqual(list(result["daily_slots"].values()), [8, 4, 2, 2, 2, 2])
         self.assertEqual(sum(result["daily_slots"].values()), 20)
 
     def test_zero_views_is_not_a_supported_winner(self):

@@ -1,0 +1,55 @@
+{
+  "id": "next17-pet-premium-stairs",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Pet point of view. Stairs cost extra.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 2.4693958333333335,
+      "caption_end": 2.6,
+      "tempo_factor": 1.0128505837596746
+    },
+    {
+      "text": "I'll take the free wall.",
+      "caption_start": 2.6,
+      "speech_start": 2.68,
+      "speech_end": 4.0590625,
+      "caption_end": 5.3,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "7bde7661f082c593e6ac191357bf20ae50990a5d6a8d914d24f5348ddd2ee551",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "5.300000"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "next17-printer-teamwork",
+  "title": "The printer takes all the credit",
+  "description": "An original fictional comedy sketch with original narration, music and effects. The printer takes all the credit. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "workplace_comedy",
+  "hook_type": "object_personification",
+  "layout": "portrait",
+  "start": 0,
+  "duration": 9.8,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.267,
+      "text": "A PRINTER'S IDEA\nOF TEAMWORK:",
+      "narration": "A printer's idea of teamwork:"
+    },
+    {
+      "start": 3.267,
+      "end": 6.533,
+      "text": "YOU LOAD THE PAPER.",
+      "narration": "You load the paper."
+    },
+    {
+      "start": 6.533,
+      "end": 9.8,
+      "text": "IT TAKES\nALL THE CREDIT.",
+      "narration": "It takes all the credit."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/woman-putting-papers-on-a-printer-7011561/",
+    "download": "https://videos.pexels.com/video-files/7011561/7011561-hd_720_1280_24fps.mp4",
+    "source_id": "7011561",
+    "creator_credit": "Video by George Milton on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "5ef4e3fea09e62e5f796031a63a2b59df890f83f2dda03d14af1dfa585c599df",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "e8b6de4c4f96a64ac1dcdb5ef38ef91e92f2cfe919302e4425ebc8d92d03fc7f"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "next17-pancake-action-sequel",
+  "title": "The pancake did not sign up for an action franchise",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The pancake did not sign up for an action franchise #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:15:56.114473+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/flipping-a-pancake-repeatedly-from-a-pan-3704780/",
+    "download": "https://videos.pexels.com/video-files/3704780/3704780-hd_1366_720_50fps.mp4",
+    "source_id": "3704780",
+    "creator_credit": "Video by cottonbro studio on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "ac38c47bd90dc6767839865a53e2becdba529b233a33333f448c156534765d98",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "734abed7978b5f7682f5ad392ee9949e475c0c2946cdb2a27c27c62acff1312d"
+  },
+  "source_sha256": "734abed7978b5f7682f5ad392ee9949e475c0c2946cdb2a27c27c62acff1312d",
+  "video_sha256": "d832e52335f3308f3cb5b53adfc3234be149bca928925326b6054b10e50cd559",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "10.900000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

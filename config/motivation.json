@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "content_type": "motivational",
+  "initial_daily_slots": 2,
+  "reference_urls": [
+    "https://www.youtube.com/shorts/BsblgcBB17A",
+    "https://www.youtube.com/shorts/AXa7gKstItw",
+    "https://www.youtube.com/shorts/LoLV_JkPkHs"
+  ],
+  "references_analyzed_on": "2026-11-16",
+  "style": [
+    "immediate direct narration",
+    "concise readable phrase captions",
+    "strong visual action or documented historical moment",
+    "music supports speech and rises in the gaps",
+    "specific final challenge or emotional payoff"
+  ],
+  "famous_people": "Use individually cleared recordings or properly sourced public-domain factual editorial footage. Record exact use basis; no invented quotes, voice clones or endorsement.",
+  "music_registry": "config/licensed-music.json",
+  "performance_status": "new_experiment_not_a_proven_winner",
+  "preserve_daily_total": 20
+}

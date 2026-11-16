@@ -1,0 +1,77 @@
+{
+  "id": "next17-ducks-walking-club",
+  "title": "Nobody in this duck tour knows where they are going",
+  "content_type": "animal_pov",
+  "hook_type": "confident_leader_dialogue",
+  "layout": "fit",
+  "start": 0,
+  "duration": 18,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. Nobody in this duck tour knows where they are going #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "DUCK POV:\nI KNOW A PLACE.",
+      "narration": "Duck point of view. I know a place."
+    },
+    {
+      "start": 3,
+      "end": 6.2,
+      "text": "THE ENTIRE GROUP\nFOLLOWED.",
+      "narration": "The entire group followed."
+    },
+    {
+      "start": 6.2,
+      "end": 9.6,
+      "text": "SMALL ISSUE:\nI KNOW ONE WALL.",
+      "narration": "Small issue. I know one wall."
+    },
+    {
+      "start": 9.6,
+      "end": 13.2,
+      "text": "EVERYONE:\nIS THIS IT?",
+      "narration": "Everyone: is this it?"
+    },
+    {
+      "start": 13.2,
+      "end": 18,
+      "text": "ME: ACT NATURAL.\nWE'RE A WALKING CLUB NOW.",
+      "narration": "Act natural. We're a walking club now."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A compact group of ducks walks alongside a long teal wall. The mock tour dialogue is original animal POV fiction; no behavior or feeling is attributed to a real person.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/urban-ducks-walking-along-street-40383870/",
+    "download": "https://videos.pexels.com/video-files/40383870/17254685_1280_720_50fps.mp4",
+    "source_id": "40383870",
+    "creator_credit": "Video by Monirul  Islam  on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "ff191761ea14afd6a94b0d4d7a3779ce47e55e686c1e7b6458cd8b6fa5d97bac",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "399c191c4ac59a799ec4a01066c22cbd8f32f31eeba7442dd5f5c9095bbfa4a2"
+  }
+}

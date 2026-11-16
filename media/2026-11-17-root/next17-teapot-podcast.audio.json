@@ -1,0 +1,55 @@
+{
+  "id": "next17-teapot-podcast",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "A teapot started a podcast.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 1.9903541666666666,
+      "caption_end": 2.9,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "All hot takes.",
+      "caption_start": 2.9,
+      "speech_start": 2.98,
+      "speech_end": 4.252291666666666,
+      "caption_end": 5.1,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "3d35e29227f4495b85596d13339e42cfcc9697103ca95ff9fe720b495c1edf86",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "5.100000"
+    }
+  }
+}

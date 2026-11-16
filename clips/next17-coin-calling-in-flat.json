@@ -1,0 +1,71 @@
+{
+  "id": "next17-coin-calling-in-flat",
+  "title": "The coin refused both chores and called in flat",
+  "content_type": "visual_surprises",
+  "hook_type": "object_negotiation",
+  "layout": "fit",
+  "start": 0,
+  "duration": 16.5,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The coin refused both chores and called in flat #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "HEADS: LAUNDRY.\nTAILS: DISHES.",
+      "narration": "Heads: laundry. Tails: dishes."
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "text": "COIN: CAN I WORK\nFROM HOME?",
+      "narration": "Coin: can I work from home?"
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "text": "ME: YOU ARE HOME.",
+      "narration": "You are home."
+    },
+    {
+      "start": 12,
+      "end": 16.5,
+      "text": "COIN:\nI'M CALLING IN FLAT.",
+      "narration": "Coin: I'm calling in flat."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A coin spins upright, starts wobbling, and settles flat near the end. Original imagined chore negotiation lands on the visible flat coin. No currency identity or financial claim is made.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/quarter-dollar-closeup-rotating-on-dark-background-18977071/",
+    "download": "https://videos.pexels.com/video-files/18977071/18977071-hd_1280_720_60fps.mp4",
+    "source_id": "18977071",
+    "creator_credit": "Video by Jari Lobo on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "9b4c98bb98772a429b9aa737c5eb0408621f0a3dc2737d1e9dd32e913c678300",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "2ef5c9532846bda6d5541447823ef9ef74382d15616bbf549895c1a5a6c9f745"
+  }
+}

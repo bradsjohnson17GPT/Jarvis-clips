@@ -35,3 +35,9 @@ Provide explicit `narration` text per caption when pronunciation or pace needs a
 ## Change scheduled media
 
 Refresh Metricool's queue first. Update only posts still marked `PENDING`, preserving their UUIDs, dates, audience, title, and other returned fields. Change the media URL and remove any outdated claim that the clip is silent. Do not create replacement posts or exceed the configured daily target. An update changes the numeric post ID; save its new value in private operational receipts. Confirm the resulting imported file contains audio and matches the inspected hash. A live video's soundtrack is not changed through this scheduling workflow.
+
+## Motivational music
+
+The owner requested high-energy motivational Shorts. config/licensed-music.json records the reviewed original Scott Buckley tracks Juggernaut and Ascension under CC BY 4.0. Both composer pages and the composer FAQ explicitly permit commercial audiovisual use with a credit in the YouTube description. Keep the exact attribution, source and license links, and modification note in each description. Remixes and unrelated commercial recordings are not included in this review.
+
+Manifests may include audio.licensed_music with the reviewed file hash, excerpt start, rights record and credit. The renderer verifies the hash and refuses omitted rights/attribution, uses only that excerpt, fades it and ducks it under original narration. --music-file can reuse a downloaded reviewed track; otherwise the exact reviewed source is downloaded. Source audio remains excluded. Finished mixes still require decoding, caption timing, loudness and peak checks. The caption_style impact preset and manually reviewed portrait_crop framing support the motivational format; cropped framing must preserve the relevant action.

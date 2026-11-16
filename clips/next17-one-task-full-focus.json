@@ -1,0 +1,71 @@
+{
+  "id": "next17-one-task-full-focus",
+  "title": "One task. Your full attention.",
+  "description": "Original motivational commentary and narration. One task. Your full attention.. #Shorts #Motivation #Mindset\n\n'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/juggernaut/\nLicense: https://creativecommons.org/licenses/by/4.0/\nMusic excerpt trimmed, faded and mixed beneath original narration.",
+  "audience": "not_made_for_kids",
+  "content_type": "motivational",
+  "hook_type": "single_action_challenge",
+  "layout": "fit",
+  "start": 0,
+  "duration": 5.6,
+  "captions": [
+    {
+      "start": 0,
+      "end": 1.3,
+      "text": "ONE TASK.",
+      "narration": "One task."
+    },
+    {
+      "start": 1.3,
+      "end": 2.7,
+      "text": "FULL ATTENTION.",
+      "narration": "Full attention."
+    },
+    {
+      "start": 2.7,
+      "end": 5.6,
+      "text": "TAKE THE WIN.\nBUILD THE NEXT.",
+      "narration": "Take the win. Build the next."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "reviewed_licensed_track",
+    "sound_effects": "original_synthesized",
+    "licensed_music": {
+      "title": "Juggernaut",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/juggernaut/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2022/07/Juggernaut.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-16",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+      "attribution": "'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+      "sha256": "50be286d170f5a08791f1540b110fbbb4c0aa26e841084fceff0c908379e76f6",
+      "start": 184
+    }
+  },
+  "fictional_sketch": false,
+  "source": {
+    "page": "https://www.pexels.com/video/a-woman-warming-up-then-running-on-a-track-and-field-6207604/",
+    "download": "https://videos.pexels.com/video-files/6207604/6207604-hd_1280_720_25fps.mp4",
+    "source_id": "6207604",
+    "creator_credit": "Video by Ivan S on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "58bc0eeae63e4021d6f4b04a83ffd65092e6582d552af650df631e5b273dae34",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "d50f6cf9eb798567acc721b2fbca52ff73e5930c2ff131e6ef4ab09ff7884234"
+  },
+  "caption_style": "upper"
+}

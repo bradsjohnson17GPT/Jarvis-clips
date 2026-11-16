@@ -1,0 +1,46 @@
+{
+  "id": "next17-paper-plane-airline",
+  "title": "Even paper planes have baggage fees now | Tiny fiction",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. Even paper planes have baggage fees now | Tiny fiction #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:17:26.966201+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/woman-flying-paper-airplane-9490107/",
+    "download": "https://videos.pexels.com/video-files/9490107/9490107-hd_1280_720_25fps.mp4",
+    "source_id": "9490107",
+    "creator_credit": "Video by Yaroslav Shuraev on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "01fb4d1c0ca44179fdee4379342c6bd7e1b4bacfe9add3ddd9c6c490c8332f05",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "08bb06eeae62bfd1acb7630968f4c8083d3729e912d5c22b408a74d4b0010144"
+  },
+  "source_sha256": "08bb06eeae62bfd1acb7630968f4c8083d3729e912d5c22b408a74d4b0010144",
+  "video_sha256": "ddb3ed86a28e1d6c8747ef42c1114cb970e8d7c3d0066a514be61a9443148869",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "15.200000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

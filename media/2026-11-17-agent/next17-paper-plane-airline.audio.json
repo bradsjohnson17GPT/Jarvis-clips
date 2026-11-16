@@ -1,0 +1,71 @@
+{
+  "id": "next17-paper-plane-airline",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Tiny fiction. A paper plane opened an airline.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 2.838416666666667,
+      "caption_end": 3.8,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "No seats. No snacks.",
+      "caption_start": 3.8,
+      "speech_start": 3.88,
+      "speech_end": 5.6400625,
+      "caption_end": 7,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Baggage fee: two paper clips.",
+      "caption_start": 7,
+      "speech_start": 7.08,
+      "speech_end": 9.4225,
+      "caption_end": 11.3,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Please keep your arms inside the fold.",
+      "caption_start": 11.3,
+      "speech_start": 11.38,
+      "speech_end": 13.620729166666667,
+      "caption_end": 15.2,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "ddb3ed86a28e1d6c8747ef42c1114cb970e8d7c3d0066a514be61a9443148869",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "15.200000"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "next17-ducks-walking-club",
+  "title": "Nobody in this duck tour knows where they are going",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. Nobody in this duck tour knows where they are going #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:15:24.575457+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/urban-ducks-walking-along-street-40383870/",
+    "download": "https://videos.pexels.com/video-files/40383870/17254685_1280_720_50fps.mp4",
+    "source_id": "40383870",
+    "creator_credit": "Video by Monirul  Islam  on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "ff191761ea14afd6a94b0d4d7a3779ce47e55e686c1e7b6458cd8b6fa5d97bac",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "399c191c4ac59a799ec4a01066c22cbd8f32f31eeba7442dd5f5c9095bbfa4a2"
+  },
+  "source_sha256": "399c191c4ac59a799ec4a01066c22cbd8f32f31eeba7442dd5f5c9095bbfa4a2",
+  "video_sha256": "4cdac8c936fa051c831dd899be2f8314612dbf502788b98d65c70989f5c3ff5b",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "18.000000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

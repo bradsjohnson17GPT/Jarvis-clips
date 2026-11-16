@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "daily_post_target": 20,
   "timezone": "America/Los_Angeles",
   "content_types": [
@@ -7,14 +7,15 @@
     "workplace_comedy",
     "everyday_humor",
     "visual_surprises",
-    "fictional_micro_stories"
+    "fictional_micro_stories",
+    "motivational"
   ],
   "initial_slots_per_type": 4,
   "minimum_distinct_clips_per_type": 3,
   "comparison_age_hours": 48,
   "comparison_age_tolerance_hours": 6,
   "adaptive_winner_slots": [
-    10,
+    8,
     4
   ],
   "adaptive_exploration_slots_per_other_type": 2,
@@ -38,5 +39,13 @@
       "maximum_daily_pilot_slots": 4,
       "counts_within_daily_target": true
     }
+  },
+  "initial_slot_allocation": {
+    "animal_pov": 4,
+    "workplace_comedy": 4,
+    "everyday_humor": 2,
+    "visual_surprises": 4,
+    "fictional_micro_stories": 4,
+    "motivational": 2
   }
 }

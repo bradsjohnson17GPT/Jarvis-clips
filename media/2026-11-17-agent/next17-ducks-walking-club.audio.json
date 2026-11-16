@@ -1,0 +1,79 @@
+{
+  "id": "next17-ducks-walking-club",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Duck point of view. I know a place.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 2.2934791666666667,
+      "caption_end": 3,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "The entire group followed.",
+      "caption_start": 3,
+      "speech_start": 3.08,
+      "speech_end": 4.597208333333334,
+      "caption_end": 6.2,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Small issue. I know one wall.",
+      "caption_start": 6.2,
+      "speech_start": 6.28,
+      "speech_end": 8.323375,
+      "caption_end": 9.6,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Everyone: is this it?",
+      "caption_start": 9.6,
+      "speech_start": 9.68,
+      "speech_end": 11.335604166666666,
+      "caption_end": 13.2,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Act natural. We're a walking club now.",
+      "caption_start": 13.2,
+      "speech_start": 13.28,
+      "speech_end": 15.865041666666666,
+      "caption_end": 18,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "4cdac8c936fa051c831dd899be2f8314612dbf502788b98d65c70989f5c3ff5b",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "18.000000"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "next17-handshake-name-buffer",
+  "title": "Their name vanished during the handshake",
+  "description": "An original fictional comedy sketch with original narration, music and effects. Their name vanished during the handshake. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "workplace_comedy",
+  "hook_type": "social_memory_failure",
+  "layout": "fit",
+  "start": 0,
+  "duration": 9.9,
+  "captions": [
+    {
+      "start": 0,
+      "end": 2.8,
+      "text": "NEW COLLEAGUE:\nNICE TO MEET YOU.",
+      "narration": "New colleague: nice to meet you."
+    },
+    {
+      "start": 2.8,
+      "end": 5.3,
+      "text": "ME: YOU TOO, CHAMP.",
+      "narration": "Me: you too, champ."
+    },
+    {
+      "start": 5.3,
+      "end": 9.9,
+      "text": "I FORGOT THEIR NAME\nDURING THE HANDSHAKE.",
+      "narration": "I forgot their name during the handshake."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/man-and-woman-are-shaking-their-hands-5726131/",
+    "download": "https://videos.pexels.com/video-files/5726131/5726131-hd_1280_720_30fps.mp4",
+    "source_id": "5726131",
+    "creator_credit": "Video by Artem Podrez on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "9031575ecad10470d2588db70681ad246ff74741f1b5ac794cc00a8a9dc0acc0",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "332ac5cf569f6f3992b986383e5b76943dd11e9078d58b5278b5ec7288aad813"
+  }
+}

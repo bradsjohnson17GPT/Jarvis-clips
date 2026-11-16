@@ -1,0 +1,65 @@
+{
+  "id": "next17-pancake-action-sequel",
+  "title": "The pancake did not sign up for an action franchise",
+  "content_type": "visual_surprises",
+  "hook_type": "repeat_action_dialogue",
+  "layout": "fit",
+  "start": 0,
+  "duration": 10.9,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The pancake did not sign up for an action franchise #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.5,
+      "text": "ME:\nTHAT FLIP LOOKED COOL.",
+      "narration": "That flip looked cool."
+    },
+    {
+      "start": 3.5,
+      "end": 7,
+      "text": "ALSO ME:\nGIVE IT A SEQUEL.",
+      "narration": "Give it a sequel."
+    },
+    {
+      "start": 7,
+      "end": 10.9,
+      "text": "THE PANCAKE:\nI JUST WANT A PLATE.",
+      "narration": "The pancake: I just want a plate."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A pancake is repeatedly tossed and caught in a frying pan. The joke personifies the pancake; it makes no negative claim about the filmed cook.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/flipping-a-pancake-repeatedly-from-a-pan-3704780/",
+    "download": "https://videos.pexels.com/video-files/3704780/3704780-hd_1366_720_50fps.mp4",
+    "source_id": "3704780",
+    "creator_credit": "Video by cottonbro studio on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "ac38c47bd90dc6767839865a53e2becdba529b233a33333f448c156534765d98",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "734abed7978b5f7682f5ad392ee9949e475c0c2946cdb2a27c27c62acff1312d"
+  }
+}

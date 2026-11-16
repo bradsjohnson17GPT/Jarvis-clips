@@ -1,0 +1,46 @@
+{
+  "id": "next17-cat-sofa-goblin",
+  "title": "This cat abandoned the stealth build",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. This cat abandoned the stealth build #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:14:39.685312+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/playful-cat-under-sofa-with-toy-ball-34689563/",
+    "download": "https://videos.pexels.com/video-files/34689563/14703208_720_1280_22fps.mp4",
+    "source_id": "34689563",
+    "creator_credit": "Video by nilay ortanca on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "0a2c0d72d80070662743ae589b010e45140fa009390c8c9871f0b3b92830aeb4",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "20be69301326f4993dd6ad9f519dacab23fe6d39b608ae1ab384a0f67973599b"
+  },
+  "source_sha256": "20be69301326f4993dd6ad9f519dacab23fe6d39b608ae1ab384a0f67973599b",
+  "video_sha256": "f05d2891931618185c9261531f555539d8985cbb742e1e67fbf7c2b1666899b6",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "14.800000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

@@ -757,6 +757,1077 @@
       "scheduling_verified_at": "2026-11-16T19:08:40.345Z",
       "audio_verified_at": "2026-11-16T19:08:40.345Z",
       "evidence": "Metricool creation and separate readback both confirmed a pending YouTube Short at the recorded time. Imported video bytes match the inspected audio video hash. Publication is not yet confirmed."
+    },
+    {
+      "clip_id": "next17-printer-teamwork",
+      "title": "The printer takes all the credit",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "workplace_comedy",
+      "hook_type": "object_personification",
+      "duration": 9.8,
+      "source_id": "7011561",
+      "video_sha256": "fa3402d7e74de3d363709df4415b5bffda04a6cd8a97ec78ccb8b0a10fff560c",
+      "media_path": "media/2026-11-17-root/next17-printer-teamwork.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-printer-teamwork.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -15.05,
+        "true_peak_dbtp": -1.98,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-meeting-about-the-meeting",
+      "title": "We scheduled a meeting to save time",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "workplace_comedy",
+      "hook_type": "calendar_escalation",
+      "duration": 13.8,
+      "source_id": "8135789",
+      "video_sha256": "d10aa46e7b8597f968cb28d592b8ccb84c807fed2eba02845fa9aa52f1e7c64e",
+      "media_path": "media/2026-11-17-root/next17-meeting-about-the-meeting.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-meeting-about-the-meeting.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.55,
+        "true_peak_dbtp": -2.03,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-cash-with-enthusiasm",
+      "title": "Count it again, but with more enthusiasm",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "workplace_comedy",
+      "hook_type": "fictional_dialogue",
+      "duration": 12,
+      "source_id": "8479058",
+      "video_sha256": "c51eb24ad6806e6bfc69bdfc7de1b98df8251515316c53268eecf2b06853f366",
+      "media_path": "media/2026-11-17-root/next17-cash-with-enthusiasm.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-cash-with-enthusiasm.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -15.48,
+        "true_peak_dbtp": -1.86,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-handshake-name-buffer",
+      "title": "Their name vanished during the handshake",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "workplace_comedy",
+      "hook_type": "social_memory_failure",
+      "duration": 9.9,
+      "source_id": "5726131",
+      "video_sha256": "fbab387791772c803e6871c755d701ee392f64bf38bf83cb6a712e77fd9ea064",
+      "media_path": "media/2026-11-17-root/next17-handshake-name-buffer.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-handshake-name-buffer.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.21,
+        "true_peak_dbtp": -1.91,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-gta-reflex-update",
+      "title": "GTA VI prep: my reflexes need a software update",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "everyday_humor",
+      "hook_type": "gaming_anticipation_sketch",
+      "duration": 10.2,
+      "source_id": "27771554",
+      "video_sha256": "354ff01964df0a761d3713ddd366d45a88be1feab6595fcd53485d2f3b2eae55",
+      "media_path": "media/2026-11-17-root/next17-gta-reflex-update.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-gta-reflex-update.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.38,
+        "true_peak_dbtp": -1.96,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-pasta-for-the-postcode",
+      "title": "Pasta for two accidentally feeds the zip code",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "everyday_humor",
+      "hook_type": "cooking_exaggeration",
+      "duration": 9.6,
+      "source_id": "6289339",
+      "video_sha256": "fbfa4036413260f69991ef0c22dab455e5efac226aaa9036f3a5c899ee38967c",
+      "media_path": "media/2026-11-17-root/next17-pasta-for-the-postcode.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-pasta-for-the-postcode.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -15.88,
+        "true_peak_dbtp": -1.83,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-plant-water-invoice",
+      "title": "The plant sent a water bill and still owes rent",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "fictional_micro_stories",
+      "hook_type": "impossible_invoice",
+      "duration": 11.4,
+      "source_id": "6831305",
+      "video_sha256": "89d2589661f9c1f44abe97f9f181e185c4da825d250ebd35246a36549d59d8ef",
+      "media_path": "media/2026-11-17-root/next17-plant-water-invoice.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-plant-water-invoice.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.19,
+        "true_peak_dbtp": -2.01,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-teapot-podcast",
+      "title": "A teapot started a podcast",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "fictional_micro_stories",
+      "hook_type": "tiny_pun_story",
+      "duration": 5.1,
+      "source_id": "8188515",
+      "video_sha256": "3d35e29227f4495b85596d13339e42cfcc9697103ca95ff9fe720b495c1edf86",
+      "media_path": "media/2026-11-17-root/next17-teapot-podcast.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-teapot-podcast.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -14.39,
+        "true_peak_dbtp": -1.95,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-strength-without-spotlight",
+      "title": "Build the strength nobody sees",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "motivational",
+      "hook_type": "direct_personal_challenge",
+      "duration": 15.2,
+      "source_id": "5319754",
+      "video_sha256": "a76dc4d532f729b84c53244dac7b18f531b01309db8a0cb3c6884ec9657c81b3",
+      "media_path": "media/2026-11-17-root/next17-strength-without-spotlight.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-strength-without-spotlight.audio.json",
+      "audio_version": "narration_licensed_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.72,
+        "true_peak_dbtp": -1.84,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-armstrong-first-step",
+      "title": "Neil Armstrong's first step: remember the preparation",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "motivational",
+      "hook_type": "historical_moment",
+      "duration": 18.6,
+      "source_id": "NASA-One_Small_Step_Comparison_720p",
+      "video_sha256": "8c65276489e5655acab4099b15b7ff948323bb42671a25af23ff6062a43d45a0",
+      "media_path": "media/2026-11-17-root/next17-armstrong-first-step.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-armstrong-first-step.audio.json",
+      "audio_version": "narration_licensed_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.8,
+        "true_peak_dbtp": -1.67,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": "Neil Armstrong",
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-keep-one-promise",
+      "title": "Keep one promise to yourself today",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "motivational",
+      "hook_type": "single_action_challenge",
+      "duration": 14.8,
+      "source_id": "4944260",
+      "video_sha256": "47ade387c29dabe06c786bb472ffaf978cfea0610d2222cb464f49ae833993e0",
+      "media_path": "media/2026-11-17-root/next17-keep-one-promise.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-keep-one-promise.audio.json",
+      "audio_version": "narration_licensed_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.24,
+        "true_peak_dbtp": -1.74,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-one-task-full-focus",
+      "title": "One task. Your full attention.",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "motivational",
+      "hook_type": "single_action_challenge",
+      "duration": 5.6,
+      "source_id": "6207604",
+      "video_sha256": "b3c288644996242e56a0c12d942f23cda5c35599bd2a583a8db5876e553d9067",
+      "media_path": "media/2026-11-17-root/next17-one-task-full-focus.mp4",
+      "audio_metadata_path": "media/2026-11-17-root/next17-one-task-full-focus.audio.json",
+      "audio_version": "narration_licensed_music_effects_v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "narration_caption_sync": true,
+        "integrated_lufs": -16.9,
+        "true_peak_dbtp": -1.94,
+        "decoded_without_errors": true,
+        "every_caption_card_visually_inspected": true,
+        "source_footage_visually_reviewed": true
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-cat-sofa-goblin",
+      "title": "This cat abandoned the stealth build",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "animal_pov",
+      "hook_type": "game_role_switch",
+      "duration": 14.8,
+      "source_id": "34689563",
+      "video_sha256": "f05d2891931618185c9261531f555539d8985cbb742e1e67fbf7c2b1666899b6",
+      "media_path": "media/2026-11-17-agent/next17-cat-sofa-goblin.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-cat-sofa-goblin.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:16:45.572410+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -16.03,
+        "true_peak_dbtp": -1.9,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "Cat point of view. Stealth mission.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.1645833333333333,
+            "caption_end": 3,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Target: pink fluff monster.",
+            "caption_start": 3,
+            "speech_start": 3.08,
+            "speech_end": 4.982270833333334,
+            "caption_end": 6.3,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Stealth has been cancelled.",
+            "caption_start": 6.3,
+            "speech_start": 6.38,
+            "speech_end": 8.303229166666666,
+            "caption_end": 10.5,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "New class: sofa goblin.",
+            "caption_start": 10.5,
+            "speech_start": 10.58,
+            "speech_end": 12.363145833333334,
+            "caption_end": 14.8,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -15.73,
+          -17.1,
+          -16.94,
+          -15.82
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 14.8
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-dog-uninstall-fetch",
+      "title": "The fetch quest has a terrible rewards system",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "animal_pov",
+      "hook_type": "side_quest_reversal",
+      "duration": 12.8,
+      "source_id": "12130315",
+      "video_sha256": "4dc2ca7032ad5596d2804cce6c9ba4a6f8c70854945806ce3e2f3196ea54e17d",
+      "media_path": "media/2026-11-17-agent/next17-dog-uninstall-fetch.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-dog-uninstall-fetch.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:16:39.380365+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -16.33,
+        "true_peak_dbtp": -3.54,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "Dog point of view. Retrieve the orb.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.4802916666666666,
+            "caption_end": 3.2,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Completed. Returning to quest giver.",
+            "caption_start": 3.2,
+            "speech_start": 3.2800000000000002,
+            "speech_end": 5.354395833333333,
+            "caption_end": 7.4,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Reward: more work. I'm uninstalling fetch.",
+            "caption_start": 7.4,
+            "speech_start": 7.48,
+            "speech_end": 10.300729166666667,
+            "caption_end": 12.8,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -14.78,
+          -16.66,
+          -15.64
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 12.8
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-ducks-walking-club",
+      "title": "Nobody in this duck tour knows where they are going",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "animal_pov",
+      "hook_type": "confident_leader_dialogue",
+      "duration": 18,
+      "source_id": "40383870",
+      "video_sha256": "4cdac8c936fa051c831dd899be2f8314612dbf502788b98d65c70989f5c3ff5b",
+      "media_path": "media/2026-11-17-agent/next17-ducks-walking-club.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-ducks-walking-club.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:16:58.866535+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -15.81,
+        "true_peak_dbtp": -1.89,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "Duck point of view. I know a place.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.2934791666666667,
+            "caption_end": 3,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "The entire group followed.",
+            "caption_start": 3,
+            "speech_start": 3.08,
+            "speech_end": 4.597208333333334,
+            "caption_end": 6.2,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Small issue. I know one wall.",
+            "caption_start": 6.2,
+            "speech_start": 6.28,
+            "speech_end": 8.323375,
+            "caption_end": 9.6,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Everyone: is this it?",
+            "caption_start": 9.6,
+            "speech_start": 9.68,
+            "speech_end": 11.335604166666666,
+            "caption_end": 13.2,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Act natural. We're a walking club now.",
+            "caption_start": 13.2,
+            "speech_start": 13.28,
+            "speech_end": 15.865041666666666,
+            "caption_end": 18,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -15.58,
+          -13.62,
+          -16.37,
+          -17.07,
+          -15.64
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 18.0
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-pet-premium-stairs",
+      "title": "Stairs are premium. This pet found the free version.",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "animal_pov",
+      "hook_type": "freemium_action_joke",
+      "duration": 5.3,
+      "source_id": "991772",
+      "video_sha256": "7bde7661f082c593e6ac191357bf20ae50990a5d6a8d914d24f5348ddd2ee551",
+      "media_path": "media/2026-11-17-agent/next17-pet-premium-stairs.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-pet-premium-stairs.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:21:01.979934+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -16.99,
+        "true_peak_dbtp": -3.23,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "Pet point of view. Stairs cost extra.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.4693958333333335,
+            "caption_end": 2.6,
+            "tempo_factor": 1.0128505837596746
+          },
+          {
+            "text": "I'll take the free wall.",
+            "caption_start": 2.6,
+            "speech_start": 2.68,
+            "speech_end": 4.0590625,
+            "caption_end": 5.3,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -16.51,
+          -17.57
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 5.3
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-domino-reply-disaster",
+      "title": "That quick reply needed an emergency thumbs-up",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "visual_surprises",
+      "hook_type": "typo_chain_reaction",
+      "duration": 9.6,
+      "source_id": "1793414",
+      "video_sha256": "c6d4dd9f0142c5eaecff2b5c9c84c2a5be3a88e6d1e78741f2fd62e7c3c35128",
+      "media_path": "media/2026-11-17-agent/next17-domino-reply-disaster.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-domino-reply-disaster.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:21:02.561744+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -16.24,
+        "true_peak_dbtp": -1.95,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "One quick reply.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 1.1181458333333334,
+            "caption_end": 3.4,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Typo. Correction. Worse typo.",
+            "caption_start": 3.4,
+            "speech_start": 3.48,
+            "speech_end": 5.532208333333333,
+            "caption_end": 6.4,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Final message: just a thumbs up.",
+            "caption_start": 6.4,
+            "speech_start": 6.48,
+            "speech_end": 8.883270833333333,
+            "caption_end": 9.6,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -12.63,
+          -15.21,
+          -18.38
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 9.6
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-pancake-action-sequel",
+      "title": "The pancake did not sign up for an action franchise",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "visual_surprises",
+      "hook_type": "repeat_action_dialogue",
+      "duration": 10.9,
+      "source_id": "3704780",
+      "video_sha256": "d832e52335f3308f3cb5b53adfc3234be149bca928925326b6054b10e50cd559",
+      "media_path": "media/2026-11-17-agent/next17-pancake-action-sequel.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-pancake-action-sequel.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:17:07.781573+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -16.68,
+        "true_peak_dbtp": -1.84,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "That flip looked cool.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 1.2844583333333333,
+            "caption_end": 3.5,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Give it a sequel.",
+            "caption_start": 3.5,
+            "speech_start": 3.58,
+            "speech_end": 4.561458333333333,
+            "caption_end": 7,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "The pancake: I just want a plate.",
+            "caption_start": 7,
+            "speech_start": 7.08,
+            "speech_end": 9.535375,
+            "caption_end": 10.9,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -13.93,
+          -14.81,
+          -18.68
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 10.9
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-coin-calling-in-flat",
+      "title": "The coin refused both chores and called in flat",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "visual_surprises",
+      "hook_type": "object_negotiation",
+      "duration": 16.5,
+      "source_id": "18977071",
+      "video_sha256": "e4269625fa1b239d372a5dd351ee7893246be3a26bc156d5ebb02d5304a6764d",
+      "media_path": "media/2026-11-17-agent/next17-coin-calling-in-flat.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-coin-calling-in-flat.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:20:10.900036+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -15.41,
+        "true_peak_dbtp": -1.91,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "Heads: laundry. Tails: dishes.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.3323541666666667,
+            "caption_end": 4,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Coin: can I work from home?",
+            "caption_start": 4,
+            "speech_start": 4.08,
+            "speech_end": 5.676645833333334,
+            "caption_end": 8,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "You are home.",
+            "caption_start": 8,
+            "speech_start": 8.08,
+            "speech_end": 8.776604166666667,
+            "caption_end": 12,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Coin: I'm calling in flat.",
+            "caption_start": 12,
+            "speech_start": 12.08,
+            "speech_end": 13.9945625,
+            "caption_end": 16.5,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -15.24,
+          -14.2,
+          -12.78,
+          -15.33
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 16.5
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-notification-brain-splash",
+      "title": "One more notification and my last brain cell clocks out",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "visual_surprises",
+      "hook_type": "literal_visual_metaphor",
+      "duration": 8.5,
+      "source_id": "9667863",
+      "video_sha256": "5bff197b111002e7c0e27e816e857a33cff345252f60aadf94580f8e7b666ad5",
+      "media_path": "media/2026-11-17-agent/next17-notification-brain-splash.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-notification-brain-splash.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:20:08.729645+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -15.86,
+        "true_peak_dbtp": -1.99,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "I can handle one more notification.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.0953333333333335,
+            "caption_end": 3.25,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "My last brain cell.",
+            "caption_start": 3.25,
+            "speech_start": 3.33,
+            "speech_end": 4.742479166666667,
+            "caption_end": 5.7,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Out of office. Back never.",
+            "caption_start": 5.7,
+            "speech_start": 5.78,
+            "speech_end": 7.703541666666666,
+            "caption_end": 8.5,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -14.61,
+          -14.9,
+          -16.94
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 8.5
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-chess-nap-appeal",
+      "title": "The king banned naps. One piece appealed. | Tiny fiction",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "fictional_micro_stories",
+      "hook_type": "fictional_rule_defiance",
+      "duration": 8.8,
+      "source_id": "8428300",
+      "video_sha256": "2a3a1dcebff6360568f5e825a5523481b0688e5835aac92e9ebf77fe7391cd8f",
+      "media_path": "media/2026-11-17-agent/next17-chess-nap-appeal.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-chess-nap-appeal.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:20:16.294911+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -15.87,
+        "true_peak_dbtp": -1.99,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "Tiny fiction. The king banned naps.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.5488125,
+            "caption_end": 3.4,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "One piece objected.",
+            "caption_start": 3.4,
+            "speech_start": 3.48,
+            "speech_end": 4.684145833333333,
+            "caption_end": 5.4,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "By lying on the job.",
+            "caption_start": 5.4,
+            "speech_start": 5.48,
+            "speech_end": 6.776875,
+            "caption_end": 8.8,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -16.54,
+          -15.7,
+          -13.75
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 8.8,
+        "portrait_crop_review": "Root reviewed a portrait crop to enlarge the chess action while preserving the falling piece."
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
+    },
+    {
+      "clip_id": "next17-paper-plane-airline",
+      "title": "Even paper planes have baggage fees now | Tiny fiction",
+      "status": "ready_not_scheduled",
+      "provider": "youtube",
+      "content_type": "fictional_micro_stories",
+      "hook_type": "fictional_business_launch",
+      "duration": 15.2,
+      "source_id": "9490107",
+      "video_sha256": "ddb3ed86a28e1d6c8747ef42c1114cb970e8d7c3d0066a514be61a9443148869",
+      "media_path": "media/2026-11-17-agent/next17-paper-plane-airline.mp4",
+      "audio_metadata_path": "media/2026-11-17-agent/next17-paper-plane-airline.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verification": {
+        "verified_at_utc": "2026-11-16T20:20:18.784864+00:00",
+        "video_sha256_matches_sidecars": true,
+        "reviewed_source_sha256_matches": true,
+        "full_decode_without_errors": true,
+        "video_codec": "h264",
+        "resolution": [
+          720,
+          1280
+        ],
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 48000,
+        "integrated_lufs": -16.08,
+        "true_peak_dbtp": -1.93,
+        "narration_fits_each_caption": true,
+        "narration_intervals": [
+          {
+            "text": "Tiny fiction. A paper plane opened an airline.",
+            "caption_start": 0,
+            "speech_start": 0.08,
+            "speech_end": 2.838416666666667,
+            "caption_end": 3.8,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "No seats. No snacks.",
+            "caption_start": 3.8,
+            "speech_start": 3.88,
+            "speech_end": 5.6400625,
+            "caption_end": 7,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Baggage fee: two paper clips.",
+            "caption_start": 7,
+            "speech_start": 7.08,
+            "speech_end": 9.4225,
+            "caption_end": 11.3,
+            "tempo_factor": 1.0
+          },
+          {
+            "text": "Please keep your arms inside the fold.",
+            "caption_start": 11.3,
+            "speech_start": 11.38,
+            "speech_end": 13.620729166666667,
+            "caption_end": 15.2,
+            "tempo_factor": 1.0
+          }
+        ],
+        "encoded_mix_rms_dbfs_in_speech_windows": [
+          -15.55,
+          -17.45,
+          -18.02,
+          -15.39
+        ],
+        "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+        "source_audio_removed": true,
+        "music": "original procedural composition",
+        "effects": "original synthesized pops",
+        "actual_duration": 15.2
+      },
+      "actual_publication_date": null,
+      "inspection": "Every caption card and relevant action visually sampled; complete decoding, caption/speech timing, stereo AAC, loudness and headroom checked.",
+      "famous_person": null,
+      "scheduling_note": "Prepared output, not proof of scheduling or publication."
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "id": "next17-domino-reply-disaster",
+  "title": "That quick reply needed an emergency thumbs-up",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. That quick reply needed an emergency thumbs-up #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:20:29.365998+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/set-of-dominoes-1793414/",
+    "download": "https://videos.pexels.com/video-files/1793414/1793414-hd_1280_720_30fps.mp4",
+    "source_id": "1793414",
+    "creator_credit": "Video by Miguel \u00c1. Padri\u00f1\u00e1n on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "714782cd5f7648980befa8f2d32e05ed0ebd505fbb74518b6b845794fc4e09a8",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "61a347c46fe0e54055305e5ae32350b25aedea3066157d1a220828e7c603e264"
+  },
+  "source_sha256": "61a347c46fe0e54055305e5ae32350b25aedea3066157d1a220828e7c603e264",
+  "video_sha256": "c6d4dd9f0142c5eaecff2b5c9c84c2a5be3a88e6d1e78741f2fd62e7c3c35128",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "9.600000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

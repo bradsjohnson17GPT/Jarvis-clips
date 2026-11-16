@@ -1,0 +1,71 @@
+{
+  "id": "next17-paper-plane-airline",
+  "title": "Even paper planes have baggage fees now | Tiny fiction",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "fictional_business_launch",
+  "layout": "fit",
+  "start": 0,
+  "duration": 15.2,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. Even paper planes have baggage fees now | Tiny fiction #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.8,
+      "text": "TINY FICTION:\nA PAPER PLANE\nOPENED AN AIRLINE.",
+      "narration": "Tiny fiction. A paper plane opened an airline."
+    },
+    {
+      "start": 3.8,
+      "end": 7,
+      "text": "NO SEATS.\nNO SNACKS.",
+      "narration": "No seats. No snacks."
+    },
+    {
+      "start": 7,
+      "end": 11.3,
+      "text": "BAGGAGE FEE:\nTWO PAPER CLIPS.",
+      "narration": "Baggage fee: two paper clips."
+    },
+    {
+      "start": 11.3,
+      "end": 15.2,
+      "text": "PLEASE KEEP YOUR ARMS\nINSIDE THE FOLD.",
+      "narration": "Please keep your arms inside the fold."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A person folds, holds up, then launches a paper airplane around 12 seconds. The airline/fees story personifies the paper plane and is labelled fiction; no real experience, endorsement, dishonest conduct or actual airline is attributed to the model.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/woman-flying-paper-airplane-9490107/",
+    "download": "https://videos.pexels.com/video-files/9490107/9490107-hd_1280_720_25fps.mp4",
+    "source_id": "9490107",
+    "creator_credit": "Video by Yaroslav Shuraev on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "01fb4d1c0ca44179fdee4379342c6bd7e1b4bacfe9add3ddd9c6c490c8332f05",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "08bb06eeae62bfd1acb7630968f4c8083d3729e912d5c22b408a74d4b0010144"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "next17-strength-without-spotlight",
+  "audio": "timed_narration_licensed_music_and_original_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": {
+    "title": "Juggernaut",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/juggernaut/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2022/07/Juggernaut.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "50be286d170f5a08791f1540b110fbbb4c0aa26e841084fceff0c908379e76f6",
+    "start": 184
+  },
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "No crowd. no spotlight.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 1.7007916666666667,
+      "caption_end": 3.8,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Just you and the work.",
+      "caption_start": 3.8,
+      "speech_start": 3.88,
+      "speech_end": 5.308041666666667,
+      "caption_end": 7.6,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Give this moment your full attention.",
+      "caption_start": 7.6,
+      "speech_start": 7.68,
+      "speech_end": 9.985770833333333,
+      "caption_end": 11.4,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Build strength you can take with you.",
+      "caption_start": 11.4,
+      "speech_start": 11.48,
+      "speech_end": 13.2976875,
+      "caption_end": 15.2,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "a76dc4d532f729b84c53244dac7b18f531b01309db8a0cb3c6884ec9657c81b3",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "15.200000"
+    }
+  }
+}

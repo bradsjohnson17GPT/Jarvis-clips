@@ -1,0 +1,46 @@
+{
+  "id": "next17-coin-calling-in-flat",
+  "title": "The coin refused both chores and called in flat",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The coin refused both chores and called in flat #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:16:56.185550+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/quarter-dollar-closeup-rotating-on-dark-background-18977071/",
+    "download": "https://videos.pexels.com/video-files/18977071/18977071-hd_1280_720_60fps.mp4",
+    "source_id": "18977071",
+    "creator_credit": "Video by Jari Lobo on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "9b4c98bb98772a429b9aa737c5eb0408621f0a3dc2737d1e9dd32e913c678300",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "2ef5c9532846bda6d5541447823ef9ef74382d15616bbf549895c1a5a6c9f745"
+  },
+  "source_sha256": "2ef5c9532846bda6d5541447823ef9ef74382d15616bbf549895c1a5a6c9f745",
+  "video_sha256": "e4269625fa1b239d372a5dd351ee7893246be3a26bc156d5ebb02d5304a6764d",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "16.500000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

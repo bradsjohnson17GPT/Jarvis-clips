@@ -1,0 +1,78 @@
+{
+  "id": "next17-keep-one-promise",
+  "title": "Keep one promise to yourself today",
+  "description": "Original motivational commentary and narration. Keep one promise to yourself today. #Shorts #Motivation #Mindset\n\n'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nMusic excerpt trimmed, faded and mixed beneath original narration.",
+  "audience": "not_made_for_kids",
+  "content_type": "motivational",
+  "hook_type": "single_action_challenge",
+  "layout": "portrait_crop",
+  "start": 0,
+  "duration": 14.8,
+  "captions": [
+    {
+      "start": 0,
+      "end": 4.2,
+      "text": "PICK ONE PROMISE\nYOU CAN KEEP TODAY.",
+      "narration": "Pick one promise you can keep today."
+    },
+    {
+      "start": 4.2,
+      "end": 7.4,
+      "text": "PUT IT ON\nYOUR CALENDAR.",
+      "narration": "Put it on your calendar."
+    },
+    {
+      "start": 7.4,
+      "end": 10.0,
+      "text": "SHOW UP FOR IT.",
+      "narration": "Show up for it."
+    },
+    {
+      "start": 10.0,
+      "end": 14.8,
+      "text": "THAT'S A WIN\nYOU CAN BUILD ON.",
+      "narration": "That's a win you can build on."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "reviewed_licensed_track",
+    "sound_effects": "original_synthesized",
+    "licensed_music": {
+      "title": "Ascension",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/ascension/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-16",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+      "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+      "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+      "start": 288
+    }
+  },
+  "fictional_sketch": false,
+  "source": {
+    "page": "https://www.pexels.com/video/woman-lifting-a-barbell-4944260/",
+    "download": "https://videos.pexels.com/video-files/4944260/4944260-hd_1366_720_24fps.mp4",
+    "source_id": "4944260",
+    "creator_credit": "Video by  Anastasia  Shuraeva on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "b8dd1ee588b81f9791653e8208020eb0db5346deb27e73299fdb27517e7dcb1d",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "f152dd3b50606bd8c9d7aeef7094c7a18a7d87536f9be79225ab45b6b9c55abb"
+  },
+  "caption_style": "upper",
+  "crop_position": 0.45
+}

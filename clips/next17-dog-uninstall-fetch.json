@@ -1,0 +1,65 @@
+{
+  "id": "next17-dog-uninstall-fetch",
+  "title": "The fetch quest has a terrible rewards system",
+  "content_type": "animal_pov",
+  "hook_type": "side_quest_reversal",
+  "layout": "fit",
+  "start": 0,
+  "duration": 12.8,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The fetch quest has a terrible rewards system #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.2,
+      "text": "DOG POV:\nRETRIEVE THE ORB.",
+      "narration": "Dog point of view. Retrieve the orb."
+    },
+    {
+      "start": 3.2,
+      "end": 7.4,
+      "text": "COMPLETED.\nRETURNING TO QUEST GIVER.",
+      "narration": "Completed. Returning to quest giver."
+    },
+    {
+      "start": 7.4,
+      "end": 12.8,
+      "text": "REWARD: MORE WORK.\nI'M UNINSTALLING FETCH.",
+      "narration": "Reward: more work. I'm uninstalling fetch."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A ball is thrown down the garden path; dog runs away, picks it up, then returns with it. The imagined quest reward is a joke, not a claim that a second throw is shown.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/a-dog-fetching-a-ball-in-a-garden-12130315/",
+    "download": "https://videos.pexels.com/video-files/12130315/12130315-hd_1280_720_30fps.mp4",
+    "source_id": "12130315",
+    "creator_credit": "Video by Noah Lenzi on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "e236bc7278c0d6ead563101eab27ce0e8dc64da76461444a323ed7962cdc7844",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "6972dd4b0d19294f6619424a39b472c3adc4952e4f7b968bffc23f2c79b1b360"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "next17-strength-without-spotlight",
+  "title": "Build the strength nobody sees",
+  "description": "Original motivational commentary and narration. Build the strength nobody sees. #Shorts #Motivation #Mindset\n\n'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/juggernaut/\nLicense: https://creativecommons.org/licenses/by/4.0/\nMusic excerpt trimmed, faded and mixed beneath original narration.",
+  "audience": "not_made_for_kids",
+  "content_type": "motivational",
+  "hook_type": "direct_personal_challenge",
+  "layout": "portrait",
+  "start": 0,
+  "duration": 15.2,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.8,
+      "text": "NO CROWD.\nNO SPOTLIGHT.",
+      "narration": "No crowd. no spotlight."
+    },
+    {
+      "start": 3.8,
+      "end": 7.6,
+      "text": "JUST YOU\nAND THE WORK.",
+      "narration": "Just you and the work."
+    },
+    {
+      "start": 7.6,
+      "end": 11.4,
+      "text": "GIVE THIS MOMENT\nYOUR FULL ATTENTION.",
+      "narration": "Give this moment your full attention."
+    },
+    {
+      "start": 11.4,
+      "end": 15.2,
+      "text": "BUILD STRENGTH\nYOU CAN TAKE WITH YOU.",
+      "narration": "Build strength you can take with you."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "reviewed_licensed_track",
+    "sound_effects": "original_synthesized",
+    "licensed_music": {
+      "title": "Juggernaut",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/juggernaut/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2022/07/Juggernaut.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-16",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+      "attribution": "'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+      "sha256": "50be286d170f5a08791f1540b110fbbb4c0aa26e841084fceff0c908379e76f6",
+      "start": 184
+    }
+  },
+  "fictional_sketch": false,
+  "source": {
+    "page": "https://www.pexels.com/video/man-lifting-a-barbell-5319754/",
+    "download": "https://videos.pexels.com/video-files/5319754/5319754-hd_720_1280_25fps.mp4",
+    "source_id": "5319754",
+    "creator_credit": "Video by Tima Miroshnichenko on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "23611a8ab05505d89f707d92b7ddffc9c5e5ea0f1aaaa0819b98ee6e13be3701",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "7bd2db3b8c21358a8b987d124d0302de180a73551de6a1a56e10818ac53cda42"
+  },
+  "caption_style": "impact"
+}

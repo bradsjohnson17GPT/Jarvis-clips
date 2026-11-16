@@ -1,0 +1,87 @@
+{
+  "id": "next17-keep-one-promise",
+  "audio": "timed_narration_licensed_music_and_original_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 288
+  },
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Pick one promise you can keep today.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 2.0262291666666665,
+      "caption_end": 4.2,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Put it on your calendar.",
+      "caption_start": 4.2,
+      "speech_start": 4.28,
+      "speech_end": 5.603541666666667,
+      "caption_end": 7.4,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Show up for it.",
+      "caption_start": 7.4,
+      "speech_start": 7.48,
+      "speech_end": 8.5684375,
+      "caption_end": 10.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "That's a win you can build on.",
+      "caption_start": 10.0,
+      "speech_start": 10.08,
+      "speech_end": 11.562104166666666,
+      "caption_end": 14.8,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "47ade387c29dabe06c786bb472ffaf978cfea0610d2222cb464f49ae833993e0",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "14.800000"
+    }
+  }
+}

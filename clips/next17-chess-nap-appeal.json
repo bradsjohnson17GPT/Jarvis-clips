@@ -1,0 +1,66 @@
+{
+  "id": "next17-chess-nap-appeal",
+  "title": "The king banned naps. One piece appealed. | Tiny fiction",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "fictional_rule_defiance",
+  "layout": "portrait_crop",
+  "start": 0,
+  "duration": 8.8,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. The king banned naps. One piece appealed. | Tiny fiction #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.4,
+      "text": "FICTION:\nTHE KING BANNED NAPS.",
+      "narration": "Tiny fiction. The king banned naps."
+    },
+    {
+      "start": 3.4,
+      "end": 5.4,
+      "text": "ONE PIECE\nOBJECTED.",
+      "narration": "One piece objected."
+    },
+    {
+      "start": 5.4,
+      "end": 8.8,
+      "text": "BY LYING\nON THE JOB.",
+      "narration": "By lying on the job."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A hand knocks one tall white chess piece over at roughly 3.5 seconds while surrounding pieces stand. A fictional royal nap rule and objection turn that actual fall into a wordplay ending; not a real chess-rule claim.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/a-falling-chess-piece-8428300/",
+    "download": "https://videos.pexels.com/video-files/8428300/8428300-hd_720_1366_25fps.mp4",
+    "source_id": "8428300",
+    "creator_credit": "Video by cottonbro studio on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "0446fe72372499a1e285f2943517c9cc50e0cda34c996a442b05ea4eb6ebd99a",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "23e10637541389196c184889c5802402e300fdbb2833dcf1bd120c126a23f66a"
+  },
+  "crop_position": 0.5
+}

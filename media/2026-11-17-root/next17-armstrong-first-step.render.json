@@ -1,0 +1,47 @@
+{
+  "id": "next17-armstrong-first-step",
+  "title": "Neil Armstrong's first step: remember the preparation",
+  "description": "Original historical commentary: Neil Armstrong takes his first lunar step on July 20, 1969. A famous moment reminds us to value preparation. Archival footage: NASA. No NASA or astronaut endorsement is implied. #Shorts #Motivation #Apollo11\n\n'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nMusic excerpt trimmed, faded and mixed beneath original narration.",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_licensed_music_and_original_effects",
+  "created_at": "2026-11-16T20:29:12.997695+00:00",
+  "source": {
+    "page": "https://www.nasa.gov/history/apollo-11-hd-videos/",
+    "download": "https://images-assets.nasa.gov/video/One_Small_Step_Comparison_720p/One_Small_Step_Comparison_720p~medium.mp4",
+    "source_id": "NASA-One_Small_Step_Comparison_720p",
+    "creator_credit": "NASA",
+    "license": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "license_name": "NASA factual editorial use / government footage",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "NASA identifies this footage as Neil Armstrong descending to the lunar surface. NASA media guidelines and JSC editorial guidance reviewed: footage used within factual historical commentary, with attribution and no product/service endorsement, cover art, merchandise or advertising association. No third-party copyright credit was present in the source metadata. Source audio removed; no NASA music is used. Archival footage remains NASA material, not claimed as project copyright.",
+    "page_sha256": "a0736acf140e5a1b7581aba16bf16ff5a5d8a125e088dff5f8e55e93432ba0f4",
+    "license_snapshot_sha256": "688d2a06f157802695afcf7b3ac46f38c058b3e008643ddd449de0db496149e3",
+    "reviewed_source_sha256": "4d026e74ae82afe5bfc6618e494a5a6284c9418c47daafac335205ca55b2ed4a",
+    "editorial_guidance": "https://esrs.jsc.nasa.gov/Collections/EarthFromSpace/guidelines.htm"
+  },
+  "source_sha256": "4d026e74ae82afe5bfc6618e494a5a6284c9418c47daafac335205ca55b2ed4a",
+  "video_sha256": "8c65276489e5655acab4099b15b7ff948323bb42671a25af23ff6062a43d45a0",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "18.600000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

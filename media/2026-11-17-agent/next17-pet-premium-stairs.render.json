@@ -1,0 +1,46 @@
+{
+  "id": "next17-pet-premium-stairs",
+  "title": "Stairs are premium. This pet found the free version.",
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. Stairs are premium. This pet found the free version. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:20:18.944632+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/hamsters-inside-cage-991772/",
+    "download": "https://videos.pexels.com/video-files/991772/991772-hd_1280_720_25fps.mp4",
+    "source_id": "991772",
+    "creator_credit": "Video by thiago rizardi on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "b980c585c193e9a627e5c2b5fb016f012434d9a2c7e92d85decf43b2e733e787",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "793d7fd312eeadbfdcb4c2bb482b1591465d7420108a3ba1418bcff3c03ee11a"
+  },
+  "source_sha256": "793d7fd312eeadbfdcb4c2bb482b1591465d7420108a3ba1418bcff3c03ee11a",
+  "video_sha256": "7bde7661f082c593e6ac191357bf20ae50990a5d6a8d914d24f5348ddd2ee551",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "5.300000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

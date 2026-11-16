@@ -1,0 +1,59 @@
+{
+  "id": "next17-pet-premium-stairs",
+  "title": "Stairs are premium. This pet found the free version.",
+  "content_type": "animal_pov",
+  "hook_type": "freemium_action_joke",
+  "layout": "fit",
+  "start": 8.4,
+  "duration": 5.3,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. Stairs are premium. This pet found the free version. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 2.6,
+      "text": "PET POV:\nSTAIRS COST EXTRA.",
+      "narration": "Pet point of view. Stairs cost extra."
+    },
+    {
+      "start": 2.6,
+      "end": 5.3,
+      "text": "I'LL TAKE\nTHE FREE WALL.",
+      "narration": "I'll take the free wall."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "A small rodent climbs the front bars continuously in this tightly trimmed segment. The imagined premium-stairs/free-wall comparison is a comic game/app metaphor; no escape or return is claimed.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/hamsters-inside-cage-991772/",
+    "download": "https://videos.pexels.com/video-files/991772/991772-hd_1280_720_25fps.mp4",
+    "source_id": "991772",
+    "creator_credit": "Video by thiago rizardi on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "b980c585c193e9a627e5c2b5fb016f012434d9a2c7e92d85decf43b2e733e787",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "793d7fd312eeadbfdcb4c2bb482b1591465d7420108a3ba1418bcff3c03ee11a"
+  }
+}

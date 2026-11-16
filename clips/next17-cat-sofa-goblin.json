@@ -1,0 +1,71 @@
+{
+  "id": "next17-cat-sofa-goblin",
+  "title": "This cat abandoned the stealth build",
+  "content_type": "animal_pov",
+  "hook_type": "game_role_switch",
+  "layout": "portrait",
+  "start": 0,
+  "duration": 14.8,
+  "description": "Original fictional comedy over licensed stock footage, with narration, original music and effects. This cat abandoned the stealth build #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "captions": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "CAT POV:\nSTEALTH MISSION.",
+      "narration": "Cat point of view. Stealth mission."
+    },
+    {
+      "start": 3,
+      "end": 6.3,
+      "text": "TARGET:\nPINK FLUFF MONSTER.",
+      "narration": "Target: pink fluff monster."
+    },
+    {
+      "start": 6.3,
+      "end": 10.5,
+      "text": "STEALTH HAS\nBEEN CANCELLED.",
+      "narration": "Stealth has been cancelled."
+    },
+    {
+      "start": 10.5,
+      "end": 14.8,
+      "text": "NEW CLASS:\nSOFA GOBLIN.",
+      "narration": "New class: sofa goblin."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "fictional_sketch": true,
+  "editorial_intent": {
+    "visible_action": "Cat paws at a dangling pink toy from under a sofa, emerges headfirst, and grabs/bites it. The class-switch joke follows that visible change.",
+    "audience_reason": "General entertainment with original game/roleplay metaphors, chore humor, wordplay or labelled tiny fiction, aimed at teens and adults; not designed primarily for young children.",
+    "reference_assets_used": false,
+    "streamer_footage": false
+  },
+  "trend_linkage": {
+    "theme": "visible_action_context_payoff",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "source": {
+    "page": "https://www.pexels.com/video/playful-cat-under-sofa-with-toy-ball-34689563/",
+    "download": "https://videos.pexels.com/video-files/34689563/14703208_720_1280_22fps.mp4",
+    "source_id": "34689563",
+    "creator_credit": "Video by nilay ortanca on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "Reviewed the contributor's own Pexels source page, its Free license label and the Pexels License permitting free modification, advertising and YouTube/social-media use subject to its restrictions. Actual downloaded footage was visually sampled before this original sketch was written. Original source audio is excluded. No endorsement, sale of an unmodified asset, stock redistribution, trademark use or negative claim about an identifiable person is made. All narration, music and effects are original project material. This is independent stock footage, not streamer media.",
+    "page_sha256": "0a2c0d72d80070662743ae589b010e45140fa009390c8c9871f0b3b92830aeb4",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "20be69301326f4993dd6ad9f519dacab23fe6d39b608ae1ab384a0f67973599b"
+  }
+}

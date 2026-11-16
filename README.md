@@ -1,6 +1,6 @@
 # Jarvis Clips
 
-Creates portrait comedy videos from footage with reviewed reuse rights. New videos include timed narration, original music and light effects, original captions, source records, and downloadable files through GitHub Actions.
+Creates original portrait comedy and motivational videos from footage with reviewed reuse rights. New videos include timed narration, reviewed music and light effects, original captions, source records, and downloadable files through GitHub Actions.
 
 ## Watch the first draft
 
@@ -41,7 +41,7 @@ Add a JSON manifest under `clips/`, using `spreadsheet.json` as the template. Se
 
 ## Test content and adapt
 
-The initial plan tests five content types with four posts each: animal POV, workplace comedy, everyday humor, visual surprises, and fictional micro-stories. After at least three comparable mature clips per type, `scripts/experiments.py` proposes ten slots for the strongest type, four for the next, and six exploration slots. It uses median views and secondary retention/sharing evidence, rather than one viral outlier. Until enough data exists, it stays balanced.
+The initial plan tests five content types with four posts each: animal POV, workplace comedy, everyday humor, visual surprises, and fictional micro-stories. After at least three comparable mature clips per type, `scripts/experiments.py` proposes eight slots for the strongest type, four for the next, and eight exploration slots. It uses median views and secondary retention/sharing evidence, rather than one viral outlier. Until enough data exists, it stays balanced.
 
 See [the experiment and reporting policy](docs/strategy.md) and [the configuration](config/strategy.json). A separate chat task reports platform-reported estimated revenue at **9 a.m. Pacific**; financial records stay private. This is a scheduled task, not a guarantee of earnings or paid-out profit.
 
@@ -72,3 +72,7 @@ Do not commit passwords, OAuth tokens, `.env` files, or personal account identif
 ## Streamer and gaming highlights
 
 The owner's latest direction adds real streamer highlights and GTA VI launch coverage. The supplied Minecraft rescue example was analyzed for actual scenes and audio: immediate danger, short context, then a genuine rescue. [Reference analysis](docs/trends/2026-11-16-streamer-reference.md) · [workflow](agents/streamer-scout.md) · [source review status](state/streamer-queue.json). The recurring scout and production tasks now prioritize this lane. No current/live streamer source has been commercially cleared, no streamer clip has been posted, and Twitch login or continuous live viewing is not established. Existing original Shorts remain queued.
+
+## Motivational Shorts
+
+The owner's three motivational examples were analyzed for real video/audio pacing. The new experiment uses original messages, energetic reviewed music, and independently licensed footage or documented factual editorial archival use. See config/motivation.json and docs/audio.md. Famous people's social uploads, films and speeches are not automatically cleared merely because they are public.

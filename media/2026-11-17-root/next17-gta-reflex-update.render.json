@@ -1,0 +1,46 @@
+{
+  "id": "next17-gta-reflex-update",
+  "title": "GTA VI prep: my reflexes need a software update",
+  "description": "An original fictional launch-day rehearsal, using licensed stock footage of a controller. This is not GTA VI gameplay or a streamer clip. GTA VI prep: my reflexes need a software update. #Shorts #GamingHumor #GTAVI",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T20:22:19.828819+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/a-person-holding-a-video-game-controller-in-their-hands-27771554/",
+    "download": "https://videos.pexels.com/video-files/27771554/12220480_1280_720_25fps.mp4",
+    "source_id": "27771554",
+    "creator_credit": "Video by Bofforss on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Source page, Pexels License and actual downloaded footage reviewed. Commercial use and modification allowed subject to restrictions. Source audio removed. This is an original fictional sketch or general motivational commentary, not a claim about the filmed person or an endorsement.",
+    "page_sha256": "b1dff3d83650473e750fb103a32720ecb40f278825a000295b00ecaf266167a2",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "1fcc8ca31b69432f2d95d31a9cac93596694e02319577031e03c8575f1fb2800"
+  },
+  "source_sha256": "1fcc8ca31b69432f2d95d31a9cac93596694e02319577031e03c8575f1fb2800",
+  "video_sha256": "354ff01964df0a761d3713ddd366d45a88be1feab6595fcd53485d2f3b2eae55",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "10.200000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

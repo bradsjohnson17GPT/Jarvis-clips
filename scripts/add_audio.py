@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Add timed Piper narration, original music, and original effects to a video.
+"""Add timed Piper narration, reviewed music, and original effects to a video.
 
 Piper is a separately installed GPL-3.0 dependency. Its reviewed LJ Speech
 voice is MIT-licensed in the voice repository and uses public-domain data.
-No third-party music or sound recordings are sampled by this program.
+Music defaults to an original composition; reviewed licensed tracks are optional.
 """
 import argparse
 import hashlib
@@ -96,11 +96,50 @@ def voice_samples(voice, text, raw_path, available, maximum_tempo):
     return speech, tempo
 
 
-def add_audio(spec, video, destination, voice, work, settings):
+def licensed_music(spec, work, music_file=None):
+    """Decode an identified, reviewed track; never silently substitute a file."""
+    from render import validate_music
+    validate_music(spec)
+    record = spec.get("audio", {}).get("licensed_music")
+    if not record:
+        if music_file is not None:
+            raise ValueError("A music file requires a reviewed licensed_music record")
+        return None
+    if music_file is None:
+        from render import download
+        music_file = work / "licensed-music-source"
+        download(record["download"], music_file)
+    music_file = Path(music_file)
+    if hashlib.sha256(music_file.read_bytes()).hexdigest() != record["sha256"]:
+        raise ValueError("Licensed music bytes do not match the reviewed hash")
+    total = round(spec["duration"] * SAMPLE_RATE)
+    decoded = subprocess.check_output([
+        "ffmpeg", "-v", "error", "-ss", str(record.get("start", 0)),
+        "-i", str(music_file), "-t", str(spec["duration"]),
+        "-ac", "2", "-ar", str(SAMPLE_RATE), "-f", "f32le", "pipe:1"
+    ])
+    samples = np.frombuffer(decoded, dtype="<f4").copy().reshape(-1, 2)
+    if len(samples) < total - round(0.05 * SAMPLE_RATE):
+        raise ValueError("Licensed music excerpt is shorter than the video")
+    samples = np.pad(samples[:total], ((0, max(0, total - len(samples))), (0, 0)))
+    rms = float(np.sqrt(np.mean(samples ** 2)))
+    if not np.isfinite(rms) or rms < 1e-6:
+        raise ValueError("Licensed music excerpt is silent or invalid")
+    samples *= min(0.075 / rms, 0.35 / max(float(np.max(np.abs(samples))), 1e-8))
+    fade = min(round(0.25 * SAMPLE_RATE), total // 2)
+    samples[:fade] *= np.linspace(0, 1, fade)[:, None]
+    samples[-fade:] *= np.linspace(1, 0, fade)[:, None]
+    return samples
+
+
+def add_audio(spec, video, destination, voice, work, settings, music_file=None):
     duration = spec["duration"]
     total = round(duration * SAMPLE_RATE)
     seed = int(hashlib.sha256(spec["id"].encode()).hexdigest()[:8], 16)
-    music = original_music(duration, seed, spec.get("content_type", "workplace_comedy"))
+    music = licensed_music(spec, work, music_file)
+    music_record = spec.get("audio", {}).get("licensed_music")
+    if music is None:
+        music = original_music(duration, seed, spec.get("content_type", "workplace_comedy"))
     voices = np.zeros(total, dtype=np.float32)
     effects = np.zeros(total, dtype=np.float32)
     duck = np.ones(total, dtype=np.float32)
@@ -140,7 +179,7 @@ def add_audio(spec, video, destination, voice, work, settings):
     audio_stream = next((s for s in info["streams"] if s["codec_type"] == "audio"), None)
     if not audio_stream or audio_stream["codec_name"] != "aac" or audio_stream["channels"] != 2:
         raise ValueError("Final video has no valid stereo AAC stream")
-    result = {"id": spec["id"], "audio": "timed_narration_original_music_and_effects", "voice": settings["voice"], "music_rights": "Original procedural composition", "effects_rights": "Original synthesis", "narration_intervals": intervals, "video_sha256": hashlib.sha256(destination.read_bytes()).hexdigest(), "probe": info}
+    result = {"id": spec["id"], "audio": "timed_narration_licensed_music_and_original_effects" if music_record else "timed_narration_original_music_and_effects", "voice": settings["voice"], "music_rights": music_record or "Original procedural composition", "effects_rights": "Original synthesis", "narration_intervals": intervals, "video_sha256": hashlib.sha256(destination.read_bytes()).hexdigest(), "probe": info}
     destination.with_suffix(".audio.json").write_text(json.dumps(result, indent=2) + "\n")
     return result
 
@@ -151,6 +190,7 @@ def main():
     parser.add_argument("--video", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--model", type=Path, default=ROOT / "work/models/en_US-ljspeech-high.onnx")
+    parser.add_argument("--music-file", type=Path, help="Use the reviewed licensed track already downloaded")
     args = parser.parse_args()
     from piper import PiperVoice
     from render import validate
@@ -162,7 +202,7 @@ def main():
     spec = validate(json.loads(args.manifest.read_text()))
     voice = PiperVoice.load(args.model)
     with tempfile.TemporaryDirectory(prefix="jarvis-audio-") as temp:
-        result = add_audio(spec, args.video.resolve(), args.output.resolve(), voice, Path(temp), settings)
+        result = add_audio(spec, args.video.resolve(), args.output.resolve(), voice, Path(temp), settings, args.music_file)
     print(f"Added narration, original music and effects: {args.output}; {result['video_sha256']}")
 
 
