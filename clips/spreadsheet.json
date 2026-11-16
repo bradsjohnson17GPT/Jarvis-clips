@@ -1,0 +1,23 @@
+{
+  "id": "spreadsheet-new-hire",
+  "title": "When the new hire questions your spreadsheet",
+  "description": "The spreadsheet has survived three managers. Dave is its only documentation. Original caption comedy over licensed stock footage. #Shorts #OfficeHumor",
+  "audience": "not_made_for_kids",
+  "source": {
+    "page": "https://www.pexels.com/video/a-dog-and-a-cat-playing-9400102/",
+    "download": "https://videos.pexels.com/video-files/9400102/9400102-hd_1280_720_30fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Source page identifies the stock video; Pexels license permits free use and modification. Original audio is removed. Follow the license restrictions; this record does not guarantee platform monetization."
+  },
+  "start": 0,
+  "duration": 7.5,
+  "captions": [
+    {"start": 0, "end": 2.3, "text": "WHEN THE NEW HIRE\nQUESTIONS YOUR SPREADSHEET"},
+    {"start": 2.3, "end": 4.8, "text": "DOG: THAT FORMULA\nHAS BEEN HERE SINCE 2014"},
+    {"start": 4.8, "end": 7.5, "text": "CAT: IT JUST SAYS\n\"ASK DAVE\""}
+  ]
+}
