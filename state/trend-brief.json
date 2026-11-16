@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-11-16T18:52:56.842429+00:00",
+  "research_date": "2026-11-16",
+  "status": "provisional_formats_for_original_testing",
+  "discovery": {
+    "tool": "vidIQ trending_videos",
+    "format": "short",
+    "query": "funny comedy relatable",
+    "sort": "recentVph",
+    "published_after": "2026-11-09",
+    "limit": 6,
+    "caveat": "Returned vph values are lifetime averages; the response did not expose a numeric recent-hour velocity. Editorial and discovery sources are directional evidence, not platform-wide rankings."
+  },
+  "candidates": [
+    {
+      "id": "ai_office_loop",
+      "topic": "AI intermediaries in ordinary work",
+      "reference_urls": [
+        "https://www.youtube.com/shorts/nkUp4V_ewDM",
+        "https://www.instagram.com/reel/Dfmac58O73c/"
+      ],
+      "analysis_methods": [
+        "vidiq_shortform_analysis",
+        "sampled_visual_frames"
+      ],
+      "published_at": "2026-11-14T04:37:27Z",
+      "observed_structure": "Readable roles immediately, an object passed through a task loop, a final reaction that reveals who did the work.",
+      "original_direction": "Two fictional recruiting bots argue over a resume while the human applicant still needs a job.",
+      "confidence": "Current observed format; possible cross-posts are not independent creator examples."
+    },
+    {
+      "id": "relatable_fast_cards",
+      "topic": "Recognizable setups with quick comic reversals",
+      "reference_urls": [
+        "https://www.youtube.com/shorts/eN_qUYLQBqY"
+      ],
+      "analysis_methods": [
+        "vidiq_shortform_analysis"
+      ],
+      "published_at": "2026-11-15T22:34:47Z",
+      "observed_structure": "Moving background, concise setup/payoff cards, spoken text and quiet music.",
+      "original_direction": "Specific everyday or pet situations with an action and a final line that resolves the premise.",
+      "confidence": "One observed successful reference; performance transfer is unproven."
+    },
+    {
+      "id": "early_holiday_switch",
+      "topic": "Premature holiday decorating",
+      "reference_urls": [
+        "https://www.tiktok.com/@carissacleansitall/video/7705853657920589086",
+        "https://www.epidemicsound.com/blog/latest-tiktok-trends/"
+      ],
+      "analysis_methods": [
+        "sampled_visual_frames"
+      ],
+      "published_at": "2026-11-13",
+      "observed_structure": "Immediate seasonal visual contrast followed by a decor reveal.",
+      "original_direction": "Holiday lights described as emotional support before Thanksgiving.",
+      "confidence": "Current editorial discussion and inspected visual samples; exact publication hour unknown."
+    },
+    {
+      "id": "two_sides_relatable",
+      "topic": "Two contrasting sides of the same fictional character",
+      "reference_urls": [
+        "https://later.com/blog/tiktok-trends/"
+      ],
+      "analysis_methods": [
+        "metadata_only"
+      ],
+      "published_at": "2026-11-13",
+      "observed_structure": "Editorially reported contrast format; no source video was watched for this candidate.",
+      "original_direction": "An ambitious planner and the same person losing a sock seven minutes later.",
+      "confidence": "Editorial lead requiring a new original visual plan."
+    }
+  ],
+  "asset_rights": "Reference videos are analysis only. Use independently reviewed footage, original narration, music and effects for publication."
+}

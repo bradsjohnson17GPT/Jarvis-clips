@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "daily_post_target": 10,
+  "version": 2,
+  "daily_post_target": 20,
   "timezone": "America/Los_Angeles",
   "content_types": [
     "animal_pov",
@@ -9,12 +9,15 @@
     "visual_surprises",
     "fictional_micro_stories"
   ],
-  "initial_slots_per_type": 2,
+  "initial_slots_per_type": 4,
   "minimum_distinct_clips_per_type": 3,
   "comparison_age_hours": 48,
   "comparison_age_tolerance_hours": 6,
-  "adaptive_winner_slots": [5, 2],
-  "adaptive_exploration_slots_per_other_type": 1,
+  "adaptive_winner_slots": [
+    10,
+    4
+  ],
+  "adaptive_exploration_slots_per_other_type": 2,
   "ranking": [
     "median_views",
     "median_average_view_duration_fraction",
@@ -22,5 +25,8 @@
   ],
   "financial_report_time": "09:00",
   "financial_report_timing": "exact_schedule",
-  "routine_confirmation_required": false
+  "routine_confirmation_required": false,
+  "posting_window_start": "08:00",
+  "posting_interval_minutes": 40,
+  "minimum_gap_minutes": 25
 }

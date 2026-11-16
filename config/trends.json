@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "enabled": true,
+  "timezone": "America/Los_Angeles",
+  "scout_hours": [
+    5,
+    11,
+    17
+  ],
+  "production_hours": [
+    6,
+    12,
+    18
+  ],
+  "priority_lookback_hours": 72,
+  "maximum_discovery_lookback_days": 7,
+  "max_vidiq_credits_per_scout_run": 15,
+  "max_watch_jobs_per_regular_run": 1,
+  "allow_credit_purchases": false,
+  "publishing_actor": "production",
+  "brief_path": "state/trend-brief.json",
+  "full_watch_analysis_path": "docs/trends/",
+  "private_research_path": "work/trends/",
+  "maximum_trend_replacements_per_day": 4,
+  "minimum_lead_minutes_for_replacement": 30,
+  "analysis_methods": [
+    "vidiq_shortform_analysis",
+    "sampled_visual_frames",
+    "transcript_only",
+    "metadata_only"
+  ],
+  "publisher_constraints": [
+    "obey daily_post_target in config/strategy.json",
+    "read actual pending and published posts before adding or replacing",
+    "preserve live posts",
+    "new footage and original scripts only",
+    "narration and reviewed audio required",
+    "never represent search snippets as watched videos",
+    "no purchased media or credit top-ups"
+  ]
+}

@@ -15,7 +15,7 @@ The example is a 7.5-second dog-and-cat clip with an original office joke. Its l
 3. Open the finished run and download its **jarvis-clips** artifact.
 4. Each clip folder contains `video.mp4`, its captions, and `metadata.json` with source and license records.
 
-The workflow also runs when the renderer, clip manifests, or batch selection changes. `batches/current.json` selects up to ten distinct manifests per run; older manifests remain available without being reposted. It does not invent ten variations of one video to fill a quota.
+The workflow also runs when the renderer, clip manifests, or batch selection changes. `batches/current.json` selects up to twenty distinct manifests per run; older manifests remain available without being reposted. It does not fill the target with variations of one video.
 
 ## Run locally
 
@@ -41,7 +41,7 @@ Add a JSON manifest under `clips/`, using `spreadsheet.json` as the template. Se
 
 ## Test content and adapt
 
-The initial plan tests five content types with two posts each: animal POV, workplace comedy, everyday humor, visual surprises, and fictional micro-stories. After at least three comparable mature clips per type, `scripts/experiments.py` proposes five slots for the strongest type, two for the next, and three exploration slots. It uses median views and secondary retention/sharing evidence, rather than one viral outlier. Until enough data exists, it stays balanced.
+The initial plan tests five content types with four posts each: animal POV, workplace comedy, everyday humor, visual surprises, and fictional micro-stories. After at least three comparable mature clips per type, `scripts/experiments.py` proposes ten slots for the strongest type, four for the next, and six exploration slots. It uses median views and secondary retention/sharing evidence, rather than one viral outlier. Until enough data exists, it stays balanced.
 
 See [the experiment and reporting policy](docs/strategy.md) and [the configuration](config/strategy.json). A separate chat task reports platform-reported estimated revenue at **9 a.m. Pacific**; financial records stay private. This is a scheduled task, not a guarantee of earnings or paid-out profit.
 
@@ -49,7 +49,7 @@ Every output is 720 × 1280, H.264, 30 fps. Source audio is removed and replaced
 
 ## Publishing status
 
-- Daily target requested: **10 distinct original Shorts**.
+- Daily posting target: **20 distinct original Shorts**, raised after the owner requested more frequent posts.
 - Audio update: all nine pending November 16 posts now use narration, original music, and effects. The already-live cat Short is retained as published. [Audio verification](docs/production/2026-11-16-audio.md).
 - November 16 batch: **10 confirmed pending Shorts**, two per content type, scheduled from 9 a.m. through 9 p.m. Pacific. [Batch verification and schedule](docs/production/2026-11-16.md).
 - First Short: **scheduled through Metricool for November 16, 2026, at 4 p.m. Pacific**. Metricool imported the MP4 and confirmed a pending YouTube post; it has not yet published. See `state/queue.json` to avoid rescheduling it.
@@ -64,3 +64,7 @@ GitHub workflows run as jobs and do not guarantee six continuous hours of daily 
 ## Credentials and costs
 
 Do not commit passwords, OAuth tokens, `.env` files, or personal account identifiers. If publishing credentials are added later, use GitHub Actions secrets or an approved account connection. Private repositories may have limited included Actions minutes; this project does not purchase capacity or services.
+
+## Trend-watching agent
+
+[The trend scout](agents/trend-scout.md) researches current comedy three times daily and passes dated video analyses and original adaptation ideas to production. vidIQ is connected for public video analysis; publishing continues through Metricool. The normal target cadence is every 40 minutes from 8 a.m. to 8:40 p.m. Pacific, with existing daily slots retained as needed. The 9 a.m. earnings report remains unchanged.

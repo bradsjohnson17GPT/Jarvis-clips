@@ -36,7 +36,7 @@ jobs:
           work/audio-venv/bin/python -m unittest discover -s tests
       - name: Download reviewed narration voice
         run: work/audio-venv/bin/python scripts/download_voice.py
-      - name: Render verified manifests (maximum ten)
+      - name: Render the selected verified batch
         run: |
           python3 - <<'PY'
           import subprocess
@@ -44,8 +44,9 @@ jobs:
           from pathlib import Path
           batch = Path('batches/current.json')
           manifests = json.loads(batch.read_text())['manifests'] if batch.exists() else [str(p) for p in sorted(Path('clips').glob('*.json'))]
-          if not manifests or len(manifests) > 10 or len(set(manifests)) != len(manifests):
-              raise SystemExit('Provide between one and ten independently reviewed clip manifests.')
+          target = json.loads(Path('config/strategy.json').read_text())['daily_post_target']
+          if not manifests or len(manifests) > target or len(set(manifests)) != len(manifests):
+              raise SystemExit(f'Provide between one and {target} independently reviewed clip manifests.')
           for manifest in manifests:
               path = Path(manifest).resolve()
               if not path.is_relative_to(Path('clips').resolve()) or path.suffix != '.json' or not path.is_file():

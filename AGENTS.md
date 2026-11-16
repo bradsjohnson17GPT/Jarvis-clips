@@ -11,3 +11,4 @@
 - Routine user-facing reporting belongs to the dedicated 9 a.m. Pacific earnings task. Do not send unnecessary progress questions during scheduled production.
 - New videos require timed narration, quiet original or verified licensed music, and appropriate original effects. Check `config/audio.json` and `docs/audio.md`. Verify an audible audio stream, caption synchronization, and safe levels before scheduling. Never republish a live clip just to change its audio.
 
+- Follow `agents/trend-scout.md` and `config/trends.json` for current-video research. Production alone publishes; count existing posts against the configured 20/day target.
