@@ -9,4 +9,5 @@
 - Follow `config/strategy.json` and `docs/strategy.md` for diversified content tests and performance-based adjustments.
 - Keep analytics snapshots and earnings reports private in ignored `work/` folders. Never treat missing revenue as zero or estimated revenue as a paid-out profit.
 - Routine user-facing reporting belongs to the dedicated 9 a.m. Pacific earnings task. Do not send unnecessary progress questions during scheduled production.
+- New videos require timed narration, quiet original or verified licensed music, and appropriate original effects. Check `config/audio.json` and `docs/audio.md`. Verify an audible audio stream, caption synchronization, and safe levels before scheduling. Never republish a live clip just to change its audio.
 

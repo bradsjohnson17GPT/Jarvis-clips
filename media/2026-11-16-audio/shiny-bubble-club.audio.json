@@ -1,0 +1,71 @@
+{
+  "id": "shiny-bubble-club",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Pick one bubble. Keep your eye on it.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 2.2359375,
+      "caption_end": 4.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Do not get distracted by the shiny one.",
+      "caption_start": 4.0,
+      "speech_start": 4.08,
+      "speech_end": 6.268041666666667,
+      "caption_end": 8.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "You picked the shiny one, didn't you?",
+      "caption_start": 8.0,
+      "speech_start": 8.08,
+      "speech_end": 10.350541666666667,
+      "caption_end": 12.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Me too. Team zero attention span.",
+      "caption_start": 12.0,
+      "speech_start": 12.08,
+      "speech_end": 14.467395833333333,
+      "caption_end": 16.0,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "af24752a36c1695430bc025578c73dbfa9b7f12fb4e2b080ca761a8ef8e77005",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "16.000000"
+    }
+  }
+}

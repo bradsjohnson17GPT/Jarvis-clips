@@ -1,12 +1,12 @@
 # Jarvis Clips
 
-Creates portrait comedy videos from footage with reviewed reuse rights. This first version renders silent videos with original captions, keeps license records, and saves downloadable files through GitHub Actions.
+Creates portrait comedy videos from footage with reviewed reuse rights. New videos include timed narration, original music and light effects, original captions, source records, and downloadable files through GitHub Actions.
 
 ## Watch the first draft
 
 [Watch the small preview](examples/first-short-preview.mp4) · [Download the full-resolution draft](examples/first-short.mp4).
 
-The example is a 7.5-second dog-and-cat clip with an original office joke. It is a draft with no audio, not a promise of monetization. The footage is from [Pexels](https://www.pexels.com/video/a-dog-and-a-cat-playing-9400102/) under the [Pexels License](https://www.pexels.com/license/).
+The example is a 7.5-second dog-and-cat clip with an original office joke. Its latest version includes narration and original background audio. The footage is from [Pexels](https://www.pexels.com/video/a-dog-and-a-cat-playing-9400102/) under the [Pexels License](https://www.pexels.com/license/).
 
 ## Get a finished video without installing software
 
@@ -19,17 +19,20 @@ The workflow also runs when the renderer, clip manifests, or batch selection cha
 
 ## Run locally
 
-Requires Python 3.10+, FFmpeg with libass/libx264, and DejaVu Sans. No Python packages or paid API are required.
+Requires Python 3.10+, FFmpeg with libass/libx264, DejaVu Sans, and locally installed narration dependencies. No paid API is required. See [audio setup and rights](docs/audio.md).
 
 ```sh
-python3 -m unittest discover -s tests
-python3 scripts/render.py clips/spreadsheet.json
+python3 -m venv work/audio-venv
+work/audio-venv/bin/python -m pip install -r requirements-audio.txt
+work/audio-venv/bin/python scripts/download_voice.py
+work/audio-venv/bin/python -m unittest discover -s tests
+work/audio-venv/bin/python scripts/render.py clips/spreadsheet.json
 ```
 
 To use a source already downloaded:
 
 ```sh
-python3 scripts/render.py clips/spreadsheet.json --source-file /path/to/source.mp4
+work/audio-venv/bin/python scripts/render.py clips/spreadsheet.json --source-file /path/to/source.mp4
 ```
 
 ## Add another video
@@ -42,7 +45,7 @@ The initial plan tests five content types with two posts each: animal POV, workp
 
 See [the experiment and reporting policy](docs/strategy.md) and [the configuration](config/strategy.json). A separate chat task reports platform-reported estimated revenue at **9 a.m. Pacific**; financial records stay private. This is a scheduled task, not a guarantee of earnings or paid-out profit.
 
-Every output is 720 × 1280, H.264, 30 fps, with audio removed. Landscape sources retain the whole frame over a blurred background. Sources already at 9:16 can use `layout: portrait` to fill the video without artificial side panels. Captions are burned into the video.
+Every output is 720 × 1280, H.264, 30 fps. Source audio is removed and replaced with reviewed narration and original music/effects. Landscape sources retain the whole frame over a blurred background. Sources already at 9:16 can use `layout: portrait` to fill the video without artificial side panels. Captions are burned into the video.
 
 ## Publishing status
 

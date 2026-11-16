@@ -1,7 +1,7 @@
 {
   "id": "weather-group-chat",
   "title": "The weather app and the sky are in different group chats",
-  "description": "Original everyday humor with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "description": "Original everyday humor with a new caption script. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "everyday_humor",
   "hook_type": "dialogue_escalation",
@@ -27,22 +27,32 @@
     {
       "start": 0.0,
       "end": 4.0,
-      "text": "MY WEATHER APP:\n'10% CHANCE OF RAIN.'"
+      "text": "MY WEATHER APP:\n'10% CHANCE OF RAIN.'",
+      "narration": "My weather app: Ten percent chance of rain."
     },
     {
       "start": 4.0,
       "end": 8.0,
-      "text": "THE SKY:\n'I LIKE THOSE ODDS.'"
+      "text": "THE SKY:\n'I LIKE THOSE ODDS.'",
+      "narration": "The sky: I like those odds."
     },
     {
       "start": 8.0,
       "end": 12.0,
-      "text": "ME, WITHOUT AN\nUMBRELLA:\nWHY AM I IN THE TRAILER?"
+      "text": "ME, WITHOUT AN\nUMBRELLA:\nWHY AM I IN THE TRAILER?",
+      "narration": "Me, without an umbrella: Why am I in the trailer?"
     },
     {
       "start": 12.0,
       "end": 16.0,
-      "text": "MONDAY: NOW\nSTREAMING.\nON MY GLASSES."
+      "text": "MONDAY: NOW\nSTREAMING.\nON MY GLASSES.",
+      "narration": "Monday. Now streaming... on my glasses."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

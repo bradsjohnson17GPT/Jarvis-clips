@@ -1,7 +1,7 @@
 {
   "id": "toy-negotiations",
   "title": "This toy has declined to comment",
-  "description": "Original animal pov with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "description": "Original animal pov with a new caption script. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "animal_pov",
   "hook_type": "mock_interview",
@@ -27,17 +27,26 @@
     {
       "start": 0.0,
       "end": 4.0,
-      "text": "DOG POV:\nTHIS TOY OWES ME\nMONEY."
+      "text": "DOG POV:\nTHIS TOY OWES ME\nMONEY.",
+      "narration": "Dog's point of view: This toy owes me money."
     },
     {
       "start": 4.0,
       "end": 8.0,
-      "text": "IT HAS DECLINED\nTO COMMENT."
+      "text": "IT HAS DECLINED\nTO COMMENT.",
+      "narration": "It has declined to comment."
     },
     {
       "start": 8.0,
       "end": 12.0,
-      "text": "NEGOTIATIONS\nARE GOING WELL."
+      "text": "NEGOTIATIONS\nARE GOING WELL.",
+      "narration": "Negotiations are going well."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

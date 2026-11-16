@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import math
+import os
 import re
 import shutil
 import subprocess
@@ -149,6 +150,8 @@ def main():
     parser.add_argument("--source-file", type=Path, help="Use a previously downloaded source")
     parser.add_argument("--output", type=Path, default=Path("output"))
     parser.add_argument("--validate-only", action="store_true")
+    parser.add_argument("--silent", action="store_true", help="Internal base render only; not approved for new publication")
+    parser.add_argument("--model", type=Path, default=Path(os.environ.get("JARVIS_VOICE_MODEL", Path(__file__).resolve().parents[1] / "work/models/en_US-ljspeech-high.onnx")))
     args = parser.parse_args()
     spec = validate(json.loads(args.manifest.read_text(encoding="utf-8")))
     if args.validate_only:
@@ -165,10 +168,25 @@ def main():
             download(spec["source"]["download"], source)
         info = render(spec, source, output / "video.mp4")
         source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
+    audio_result = None
+    if not args.silent:
+        from piper import PiperVoice
+        from add_audio import add_audio
+        settings = json.loads((Path(__file__).resolve().parents[1] / "config/audio.json").read_text())
+        if hashlib.sha256(args.model.read_bytes()).hexdigest() != settings["voice"]["model_sha256"]:
+            raise ValueError("Download the reviewed voice model before rendering audio")
+        if hashlib.sha256(Path(str(args.model) + ".json").read_bytes()).hexdigest() != settings["voice"]["config_sha256"]:
+            raise ValueError("Unreviewed voice configuration")
+        voice = PiperVoice.load(args.model)
+        with tempfile.TemporaryDirectory(prefix="jarvis-sound-") as temp:
+            audio_result = add_audio(spec, output / "video.mp4", output / "video-audio.mp4", voice, Path(temp), settings)
+        (output / "video-audio.mp4").replace(output / "video.mp4")
+        (output / "video-audio.audio.json").replace(output / "audio.json")
+        info = audio_result["probe"]
     video_hash = hashlib.sha256((output / "video.mp4").read_bytes()).hexdigest()
     metadata = {
         "id": spec["id"], "title": spec["title"], "description": spec.get("description", ""),
-        "audience": spec["audience"], "status": "rendered_not_published", "audio": "silent",
+        "audience": spec["audience"], "status": "rendered_not_published", "audio": audio_result["audio"] if audio_result else "silent_base_do_not_publish",
         "created_at": datetime.now(timezone.utc).isoformat(), "source": spec["source"],
         "source_sha256": source_hash, "video_sha256": video_hash, "probe": info,
         "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."

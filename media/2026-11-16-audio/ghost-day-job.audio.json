@@ -1,0 +1,71 @@
+{
+  "id": "ghost-day-job",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Tiny fiction. A ghost got a day job.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 2.4801041666666666,
+      "caption_end": 4.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "It haunted a candle. The boss loved its warmth.",
+      "caption_start": 4.0,
+      "speech_start": 4.08,
+      "speech_end": 6.6415,
+      "caption_end": 8.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "They offered to pay in exposure.",
+      "caption_start": 8.0,
+      "speech_start": 8.08,
+      "speech_end": 9.8215,
+      "caption_end": 12.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "It was already transparent.",
+      "caption_start": 12.0,
+      "speech_start": 12.08,
+      "speech_end": 13.69175,
+      "caption_end": 16.0,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "89817e365ff08825e6fb9708d5a13077d9ed9df98c620061f42734a275b8c26c",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "16.000000"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "shiny-bubble-club",
   "title": "Pick one bubble. Ignore the shiny one. Good luck.",
-  "description": "Original visual surprises with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "description": "Original visual surprises with a new caption script. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "visual_surprises",
   "hook_type": "playful_viewer_challenge",
@@ -27,22 +27,32 @@
     {
       "start": 0.0,
       "end": 4.0,
-      "text": "PICK ONE BUBBLE.\nKEEP YOUR EYE ON IT."
+      "text": "PICK ONE BUBBLE.\nKEEP YOUR EYE ON IT.",
+      "narration": "Pick one bubble. Keep your eye on it."
     },
     {
       "start": 4.0,
       "end": 8.0,
-      "text": "DO NOT GET DISTRACTED\nBY THE SHINY ONE."
+      "text": "DO NOT GET DISTRACTED\nBY THE SHINY ONE.",
+      "narration": "Do not get distracted by the shiny one."
     },
     {
       "start": 8.0,
       "end": 12.0,
-      "text": "YOU PICKED THE SHINY\nONE,\nDIDN'T YOU?"
+      "text": "YOU PICKED THE SHINY\nONE,\nDIDN'T YOU?",
+      "narration": "You picked the shiny one, didn't you?"
     },
     {
       "start": 12.0,
       "end": 16.0,
-      "text": "ME TOO.\nTEAM ZERO ATTENTION\nSPAN."
+      "text": "ME TOO.\nTEAM ZERO ATTENTION\nSPAN.",
+      "narration": "Me too. Team zero attention span."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

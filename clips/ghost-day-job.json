@@ -1,7 +1,7 @@
 {
   "id": "ghost-day-job",
   "title": "A ghost got a day job. They offered exposure.",
-  "description": "Original fictional micro stories with a new caption script. Silent comedy: captions carry the story. This is a fictional micro-story, not a real event. #Shorts #Comedy",
+  "description": "Original fictional micro stories with a new caption script. This is a fictional micro-story, not a real event. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "fictional_micro_stories",
   "hook_type": "fictional_punchline",
@@ -27,22 +27,32 @@
     {
       "start": 0.0,
       "end": 4.0,
-      "text": "TINY FICTION:\nA GHOST GOT A DAY JOB."
+      "text": "TINY FICTION:\nA GHOST GOT A DAY JOB.",
+      "narration": "Tiny fiction. A ghost got a day job."
     },
     {
       "start": 4.0,
       "end": 8.0,
-      "text": "IT HAUNTED A CANDLE.\nTHE BOSS LOVED ITS\nWARMTH."
+      "text": "IT HAUNTED A CANDLE.\nTHE BOSS LOVED ITS\nWARMTH.",
+      "narration": "It haunted a candle. The boss loved its warmth."
     },
     {
       "start": 8.0,
       "end": 12.0,
-      "text": "THEY OFFERED TO PAY\nIN EXPOSURE."
+      "text": "THEY OFFERED TO PAY\nIN EXPOSURE.",
+      "narration": "They offered to pay in exposure."
     },
     {
       "start": 12.0,
       "end": 16.0,
-      "text": "IT WAS ALREADY\nTRANSPARENT."
+      "text": "IT WAS ALREADY\nTRANSPARENT.",
+      "narration": "It was already transparent."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "wave-first-day",
   "title": "A wave started an office job. Tiny fiction.",
-  "description": "Original fictional micro stories with a new caption script. Silent comedy: captions carry the story. This is a fictional micro-story, not a real event. #Shorts #Comedy",
+  "description": "Original fictional micro stories with a new caption script. This is a fictional micro-story, not a real event. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "fictional_micro_stories",
   "hook_type": "fictional_dialogue",
@@ -27,22 +27,32 @@
     {
       "start": 0.0,
       "end": 4.5,
-      "text": "TINY FICTION:\nTHE SEA HIRED A QUIET\nWAVE."
+      "text": "TINY FICTION:\nTHE SEA HIRED A QUIET\nWAVE.",
+      "narration": "Tiny fiction. The sea hired a quiet wave."
     },
     {
       "start": 4.5,
       "end": 9.0,
-      "text": "ON DAY ONE, IT ASKED:\n'WHAT IS MY JOB?'"
+      "text": "ON DAY ONE, IT ASKED:\n'WHAT IS MY JOB?'",
+      "narration": "On day one, it asked: What is my job?"
     },
     {
       "start": 9.0,
       "end": 13.5,
-      "text": "'SHOW UP, FALL APART,\nAND DO IT AGAIN.'"
+      "text": "'SHOW UP, FALL APART,\nAND DO IT AGAIN.'",
+      "narration": "Show up, fall apart, and do it again."
     },
     {
       "start": 13.5,
       "end": 18.0,
-      "text": "THE WAVE ASKED IF THIS\nWAS AN OFFICE JOB."
+      "text": "THE WAVE ASKED IF THIS\nWAS AN OFFICE JOB.",
+      "narration": "The wave asked if this was an office job."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

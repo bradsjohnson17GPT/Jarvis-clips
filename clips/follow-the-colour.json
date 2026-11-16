@@ -1,7 +1,7 @@
 {
   "id": "follow-the-colour",
   "title": "Try following one colour. My brain gave up.",
-  "description": "Original visual surprises with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "description": "Original visual surprises with a new caption script. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "visual_surprises",
   "hook_type": "visual_attention_challenge",
@@ -27,22 +27,32 @@
     {
       "start": 0.0,
       "end": 4.0,
-      "text": "FIND ONE COLOUR\nAND FOLLOW IT."
+      "text": "FIND ONE COLOUR\nAND FOLLOW IT.",
+      "narration": "Find one colour, and follow it."
     },
     {
       "start": 4.0,
       "end": 8.0,
-      "text": "SEEMS SIMPLE\nFOR APPROXIMATELY ONE\nSECOND."
+      "text": "SEEMS SIMPLE\nFOR APPROXIMATELY ONE\nSECOND.",
+      "narration": "Seems simple for approximately one second."
     },
     {
       "start": 8.0,
       "end": 12.0,
-      "text": "MY BRAIN HAS OPENED\nSIX NEW TABS."
+      "text": "MY BRAIN HAS OPENED\nSIX NEW TABS.",
+      "narration": "My brain has opened six new tabs."
     },
     {
       "start": 12.0,
       "end": 16.0,
-      "text": "NONE OF THEM\nREMEMBER\nWHY WE CAME HERE."
+      "text": "NONE OF THEM\nREMEMBER\nWHY WE CAME HERE.",
+      "narration": "None of them remember why we came here."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

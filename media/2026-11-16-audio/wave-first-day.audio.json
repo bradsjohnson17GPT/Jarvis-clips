@@ -1,0 +1,71 @@
+{
+  "id": "wave-first-day",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Tiny fiction. The sea hired a quiet wave.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 2.770125,
+      "caption_end": 4.5,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "On day one, it asked: What is my job?",
+      "caption_start": 4.5,
+      "speech_start": 4.58,
+      "speech_end": 7.408,
+      "caption_end": 9.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Show up, fall apart, and do it again.",
+      "caption_start": 9.0,
+      "speech_start": 9.08,
+      "speech_end": 12.216479166666666,
+      "caption_end": 13.5,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "The wave asked if this was an office job.",
+      "caption_start": 13.5,
+      "speech_start": 13.58,
+      "speech_end": 15.8750625,
+      "caption_end": 18.0,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "6c2fabac3626a1a79bc15f948153d1382cef1176effd854e02211d5b758cda4b",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "18.000000"
+    }
+  }
+}

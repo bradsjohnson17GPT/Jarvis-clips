@@ -1,7 +1,7 @@
 {
   "id": "attachment-world-tour",
   "title": "This attachment has travelled more than I have",
-  "description": "Original workplace comedy with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "description": "Original workplace comedy with a new caption script. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "workplace_comedy",
   "hook_type": "email_translation",
@@ -27,17 +27,26 @@
     {
       "start": 0.0,
       "end": 3.3,
-      "text": "ME: 'ATTACHED AGAIN\nFOR YOUR CONVENIENCE.'"
+      "text": "ME: 'ATTACHED AGAIN\nFOR YOUR CONVENIENCE.'",
+      "narration": "Me: Attached again for your convenience."
     },
     {
       "start": 3.3,
       "end": 6.6,
-      "text": "THIS FILE HAS NOW\nBEEN SENT MORE TIMES..."
+      "text": "THIS FILE HAS NOW\nBEEN SENT MORE TIMES...",
+      "narration": "This file has now been sent more times..."
     },
     {
       "start": 6.6,
       "end": 9.9,
-      "text": "THAN I'VE BEEN\nON HOLIDAY."
+      "text": "THAN I'VE BEEN\nON HOLIDAY.",
+      "narration": "than I've been on holiday."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

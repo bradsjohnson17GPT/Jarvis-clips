@@ -1,7 +1,7 @@
 {
   "id": "coffee-loading-screen",
   "title": "Coffee installed the wrong update",
-  "description": "Original everyday humor with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "description": "Original everyday humor with a new caption script. #Shorts #Comedy",
   "audience": "not_made_for_kids",
   "content_type": "everyday_humor",
   "hook_type": "before_after",
@@ -27,17 +27,26 @@
     {
       "start": 0.0,
       "end": 4.0,
-      "text": "ME BEFORE COFFEE:\n'PLEASE WAIT.'"
+      "text": "ME BEFORE COFFEE:\n'PLEASE WAIT.'",
+      "narration": "Me before coffee: Please wait."
     },
     {
       "start": 4.0,
       "end": 8.0,
-      "text": "ME AFTER COFFEE:\n'PLEASE WAIT, BUT\nFASTER.'"
+      "text": "ME AFTER COFFEE:\n'PLEASE WAIT, BUT\nFASTER.'",
+      "narration": "Me after coffee: Please wait, but faster."
     },
     {
       "start": 8.0,
       "end": 12.0,
-      "text": "APPARENTLY THE UPDATE\nONLY ADDED LOADING\nMUSIC."
+      "text": "APPARENTLY THE UPDATE\nONLY ADDED LOADING\nMUSIC.",
+      "narration": "Apparently the update only added loading music."
     }
-  ]
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

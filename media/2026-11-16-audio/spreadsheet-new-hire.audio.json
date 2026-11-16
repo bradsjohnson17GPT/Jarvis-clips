@@ -1,0 +1,63 @@
+{
+  "id": "spreadsheet-new-hire",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "When the new hire questions your spreadsheet.",
+      "caption_start": 0,
+      "speech_start": 0.08,
+      "speech_end": 2.138333333333333,
+      "caption_end": 2.3,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "It's been here since twenty fourteen.",
+      "caption_start": 2.3,
+      "speech_start": 2.38,
+      "speech_end": 4.405958333333333,
+      "caption_end": 4.8,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "It just says: Ask Dave.",
+      "caption_start": 4.8,
+      "speech_start": 4.88,
+      "speech_end": 6.8653125,
+      "caption_end": 7.5,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "969c3302c8129fe3364a1e127251b1a8982037bb8016ac903e8bc33e7ad2f612",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "7.500000"
+    }
+  }
+}

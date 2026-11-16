@@ -19,19 +19,28 @@
     {
       "start": 0,
       "end": 2.3,
-      "text": "WHEN THE NEW HIRE\nQUESTIONS YOUR SPREADSHEET"
+      "text": "WHEN THE NEW HIRE\nQUESTIONS YOUR SPREADSHEET",
+      "narration": "When the new hire questions your spreadsheet."
     },
     {
       "start": 2.3,
       "end": 4.8,
-      "text": "DOG: THAT FORMULA\nHAS BEEN HERE SINCE 2014"
+      "text": "DOG: THAT FORMULA\nHAS BEEN HERE SINCE 2014",
+      "narration": "It's been here since twenty fourteen."
     },
     {
       "start": 4.8,
       "end": 7.5,
-      "text": "CAT: IT JUST SAYS\n\"ASK DAVE\""
+      "text": "CAT: IT JUST SAYS\n\"ASK DAVE\"",
+      "narration": "It just says: Ask Dave."
     }
   ],
   "content_type": "workplace_comedy",
-  "hook_type": "relatable_pov"
+  "hook_type": "relatable_pov",
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  }
 }

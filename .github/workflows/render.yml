@@ -8,6 +8,8 @@ on:
       - clips/**
       - batches/**
       - tests/**
+      - config/audio.json
+      - requirements-audio.txt
       - .github/workflows/render.yml
 
 permissions:
@@ -28,7 +30,12 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg fonts-dejavu-core
       - name: Check manifests and rendering safeguards
-        run: python3 -m unittest discover -s tests
+        run: |
+          python3 -m venv work/audio-venv
+          work/audio-venv/bin/python -m pip install -r requirements-audio.txt
+          work/audio-venv/bin/python -m unittest discover -s tests
+      - name: Download reviewed narration voice
+        run: work/audio-venv/bin/python scripts/download_voice.py
       - name: Render verified manifests (maximum ten)
         run: |
           python3 - <<'PY'
@@ -43,7 +50,7 @@ jobs:
               path = Path(manifest).resolve()
               if not path.is_relative_to(Path('clips').resolve()) or path.suffix != '.json' or not path.is_file():
                   raise SystemExit('Every batch manifest must be a JSON file under clips/.')
-              subprocess.run(['python3', 'scripts/render.py', str(path)], check=True)
+              subprocess.run(['work/audio-venv/bin/python', 'scripts/render.py', str(path)], check=True)
           PY
       - name: Save downloadable videos and source records
         uses: actions/upload-artifact@v4
