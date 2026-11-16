@@ -31,5 +31,12 @@
   "minimum_gap_minutes": 25,
   "active_business_scope": "original_content_posting_only",
   "editing_services_enabled": false,
-  "digital_product_experiments_enabled": false
+  "digital_product_experiments_enabled": false,
+  "pending_content_types": {
+    "gaming_highlights": {
+      "status": "awaiting_cleared_sources",
+      "maximum_daily_pilot_slots": 4,
+      "counts_within_daily_target": true
+    }
+  }
 }

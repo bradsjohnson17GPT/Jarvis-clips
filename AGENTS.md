@@ -14,3 +14,5 @@
 - Follow `agents/trend-scout.md` and `config/trends.json` for current-video research. Production alone publishes; count existing posts against the configured 20/day target.
 
 - Current scope is original-content posting only. Do not develop editing services or digital-product businesses. Use supplied examples to improve original comedy; quality takes priority over filling the daily target.
+
+- Latest priority: streamer/gaming highlights and GTA VI launch coverage. Follow agents/streamer-scout.md and config/streamers.json. Do not confuse public viewing or Twitch sign-in with commercial redistribution rights, or claim continuous live watching without an actual supported process.

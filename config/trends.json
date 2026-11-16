@@ -44,5 +44,13 @@
   "progress_update_hours": [
     8,
     16
-  ]
+  ],
+  "priority_topics": [
+    "streamer gaming highlights",
+    "GTA VI launch",
+    "Minecraft clutch and comedy moments",
+    "original comedy"
+  ],
+  "streamer_config": "config/streamers.json",
+  "streamer_workflow": "agents/streamer-scout.md"
 }

@@ -68,3 +68,7 @@ Do not commit passwords, OAuth tokens, `.env` files, or personal account identif
 ## Trend-watching agent
 
 [The trend scout](agents/trend-scout.md) researches current comedy three times daily and passes dated video analyses and original adaptation ideas to production. vidIQ is connected for public video analysis; publishing continues through Metricool. The normal target cadence is every 40 minutes from 8 a.m. to 8:40 p.m. Pacific, with existing daily slots retained as needed. Production checks run approximately every four hours, including midnight and 4 a.m.; concise progress updates follow morning and afternoon runs. The 9 a.m. earnings report remains unchanged. Scheduled checks do not guarantee uninterrupted runtime.
+
+## Streamer and gaming highlights
+
+The owner's latest direction adds real streamer highlights and GTA VI launch coverage. The supplied Minecraft rescue example was analyzed for actual scenes and audio: immediate danger, short context, then a genuine rescue. [Reference analysis](docs/trends/2026-11-16-streamer-reference.md) · [workflow](agents/streamer-scout.md) · [source review status](state/streamer-queue.json). The recurring scout and production tasks now prioritize this lane. No current/live streamer source has been commercially cleared, no streamer clip has been posted, and Twitch login or continuous live viewing is not established. Existing original Shorts remain queued.

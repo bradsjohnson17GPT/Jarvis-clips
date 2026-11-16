@@ -1,0 +1,57 @@
+{
+  "reviewed_on": "2026-11-16",
+  "status": "researching_permissions_and_supported_sources",
+  "production_ready": [],
+  "reference_candidates": [
+    {
+      "url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
+      "upload_channel": "SyncCraft",
+      "duration_seconds": 42,
+      "analysis_method": "completed_vidiq_shortform_video_audio_analysis",
+      "source_broadcaster_identity": "not_verified",
+      "commercial_reuse_permission": "not_verified",
+      "source_music_permission": "not_verified",
+      "publishable": false,
+      "intended_use": "style_reference_only"
+    }
+  ],
+  "streamer_clips_rendered": 0,
+  "streamer_clips_scheduled": 0,
+  "streamer_clips_published": 0,
+  "policy_candidates": [
+    {
+      "name": "Sakura Miko / COVER hololive",
+      "status": "hold",
+      "policy_url": "https://hololivepro.com/en/terms/",
+      "identity_url": "https://hololive.hololivepro.com/en/talents/sakuramiko/",
+      "reason": "Fan/hobby ad-revenue exception coexists with prohibition on business-purpose activity; third-party game/music rights not cleared.",
+      "reviewed_on": "2026-11-16",
+      "review_again_after": "2026-11-23",
+      "recheck_earlier_if_new_first_party_evidence": true
+    },
+    {
+      "name": "DougDoug",
+      "status": "hold",
+      "official_url": "https://www.dougdoug.com/faq",
+      "community_lead_url": "https://www.reddit.com/r/DougDoug/comments/1hzagjn/notice_in_regards_to_dougdoug_communityfan/",
+      "reason": "First-party authority of relayed rules not verified; reported permission has one-year embargo, excluding current/live footage.",
+      "reviewed_on": "2026-11-16",
+      "review_again_after": "2026-11-23",
+      "recheck_earlier_if_new_first_party_evidence": true
+    },
+    {
+      "name": "Asmongold / Zackrawrr",
+      "status": "hold",
+      "official_url": "https://www.youtube.com/@AsmonTV",
+      "reason": "No authenticated explicit first-party commercial clipping grant verified in bounded search.",
+      "reviewed_on": "2026-11-16",
+      "review_again_after": "2026-11-23",
+      "recheck_earlier_if_new_first_party_evidence": true
+    }
+  ],
+  "technical_blockers": [
+    "No connected Twitch app/access token established in this run.",
+    "Official clip download and VOD clipping need broadcaster/editor authorization; unrelated viewer authorization is insufficient.",
+    "Available public reader could not reliably render Twitch Help UI or YouTube About policy text."
+  ]
+}

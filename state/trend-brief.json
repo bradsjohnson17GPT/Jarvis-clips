@@ -87,5 +87,17 @@
     }
   ],
   "asset_rights": "Reference videos are analysis only. Use independently reviewed footage, original narration, music and effects for publication.",
-  "production_note": "Ten additional originals rendered and inspected; queue records actual scheduling status. These concept IDs have been used and must not be generated again as duplicate content."
+  "production_note": "Ten additional originals rendered and inspected; queue records actual scheduling status. These concept IDs have been used and must not be generated again as duplicate content.",
+  "latest_owner_priority": {
+    "recorded_on": "2026-11-16",
+    "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
+    "topics": [
+      "streamer gaming highlights",
+      "GTA VI launch"
+    ],
+    "analysis_document": "docs/trends/2026-11-16-streamer-reference.md",
+    "source_status": "state/streamer-queue.json",
+    "cleared_current_live_sources": 0,
+    "reuse_reference_assets": false
+  }
 }

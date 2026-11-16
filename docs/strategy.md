@@ -61,3 +61,7 @@ The owner now requests work across the day and night, plus progress updates. Pro
 ## Current scope and examples
 
 The owner narrowed the business to posting quality content on November 16. Do not develop editing services or digital-product shops. Preserve private prototypes without further work. Analyze examples the owner supplies using actual available video, transcript, and audio tools, labelling the analysis method. Extract readable hooks, concrete action, pacing and a specific comic payoff; use original scripts and independently reviewed footage/audio for adaptations. If no strong publishable clip is ready, record a shortfall rather than filling the target with weak or duplicated material.
+
+## Streamer and gaming priority
+
+The owner supplied a Minecraft rescue highlight and requested streamer clips plus GTA VI launch coverage. Prioritize this research under agents/streamer-scout.md and config/streamers.json. Actual creator, game, audio and platform permissions remain necessary for this commercial project. Public VOD analysis is supported; Twitch login and continuous live viewing are not established. No current/live streamer source is cleared yet. Once a real source is cleared, prepare up to four gaming pilot slots within the existing daily cap, truthfully labelled gaming_highlights, revising allocation configuration before activating the sixth type. Recheck actual scheduled posts and preserve live posts. Quality and real editorial value matter more than target volume.
