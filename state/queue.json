@@ -21,7 +21,7 @@
     {
       "clip_id": "cat-sleep-audit",
       "title": "This cat has completed your entire sleep schedule",
-      "status": "scheduled",
+      "status": "published",
       "provider": "youtube",
       "content_type": "animal_pov",
       "hook_type": "character_pov",
@@ -32,11 +32,13 @@
       "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
-      "provider_status": "PENDING",
+      "provider_status": "PUBLISHED",
       "publication_date": "2026-11-16T09:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool returned YouTube PUBLISHED status, video id YvS-TI2oan8, and the public Shorts URL. Exact actual publication timestamp was not supplied.",
+      "public_url": "https://www.youtube.com/shorts/YvS-TI2oan8",
+      "publication_verified_at": "2026-11-16T17:14:42.625Z"
     },
     {
       "clip_id": "toy-negotiations",
