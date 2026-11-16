@@ -43,3 +43,7 @@ Use the connected YouTube channel's nondeprecated channel-level revenue metric (
 
 YouTube analytics revenue is a platform estimate, not a bank payout or net profit. Report actual payments only with payment evidence. Deduct costs only if verified cost records exist; do not claim unverified profit. Do not publish financial data or personal account identifiers to this public repository. Store snapshots in ignored `work/reports/` or `work/analytics/` and deliver the report in the private chat.
 
+
+## Audio standard
+
+The user requested audio on November 16. New posts require timed narration, original or independently licensed quiet music, and appropriate original effects; see `docs/audio.md`. Record the audio version with each queue entry and performance snapshot so a silent legacy post is not treated as a fully comparable audio-format sample. Never republish an already-live clip solely to add sound.

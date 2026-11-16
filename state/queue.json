@@ -9,14 +9,27 @@
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T16:00:00-08:00",
       "timezone": "America/Los_Angeles",
-      "video_sha256": "d20ae6c8e7b9880cfeac1ff58bf099c4c05983442308648202f68d2975dd2b96",
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed.",
+      "video_sha256": "969c3302c8129fe3364a1e127251b1a8982037bb8016ac903e8bc33e7ad2f612",
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
       "do_not_reschedule": true,
       "content_type": "workplace_comedy",
       "hook_type": "relatable_pov",
       "duration": 7.5,
       "source_id": "9400102",
-      "actual_publication_date": null
+      "actual_publication_date": null,
+      "previous_video_sha256": "d20ae6c8e7b9880cfeac1ff58bf099c4c05983442308648202f68d2975dd2b96",
+      "media_path": "media/2026-11-16-audio/spreadsheet-new-hire.mp4",
+      "audio_metadata_path": "media/2026-11-16-audio/spreadsheet-new-hire.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -16.56,
+        "true_peak_dbtp": -3.23,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      },
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked."
     },
     {
       "clip_id": "cat-sleep-audit",
@@ -38,7 +51,8 @@
       "actual_publication_date": null,
       "evidence": "Metricool returned YouTube PUBLISHED status, video id YvS-TI2oan8, and the public Shorts URL. Exact actual publication timestamp was not supplied.",
       "public_url": "https://www.youtube.com/shorts/YvS-TI2oan8",
-      "publication_verified_at": "2026-11-16T17:14:42.625Z"
+      "publication_verified_at": "2026-11-16T17:14:42.625Z",
+      "audio_version": "silent_original_published"
     },
     {
       "clip_id": "toy-negotiations",
@@ -49,16 +63,27 @@
       "hook_type": "mock_interview",
       "duration": 12,
       "source_id": "13260951",
-      "video_sha256": "44e75a2ef3a69cb93abf472c7871c1b53506fddf5a46fd7ab30fe0f033387509",
-      "media_path": "media/2026-11-16/toy-negotiations.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "ca9549929f0c35944cb4eea73d4638a11829e8e1bbcd2afe88a506c1df4c379c",
+      "media_path": "media/2026-11-16-audio/toy-negotiations.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T13:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "44e75a2ef3a69cb93abf472c7871c1b53506fddf5a46fd7ab30fe0f033387509",
+      "audio_metadata_path": "media/2026-11-16-audio/toy-negotiations.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -15.42,
+        "true_peak_dbtp": -1.96,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     },
     {
       "clip_id": "attachment-world-tour",
@@ -69,16 +94,27 @@
       "hook_type": "email_translation",
       "duration": 9.9,
       "source_id": "12893577",
-      "video_sha256": "29587c7c5ef377f89f27e21f871dc96789567c8ad7612033566b790144bfd787",
-      "media_path": "media/2026-11-16/attachment-world-tour.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "063166ea09b1bb7fdb61e525a80faa235d3d405a301a79ed19fedc010587a098",
+      "media_path": "media/2026-11-16-audio/attachment-world-tour.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T20:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "29587c7c5ef377f89f27e21f871dc96789567c8ad7612033566b790144bfd787",
+      "audio_metadata_path": "media/2026-11-16-audio/attachment-world-tour.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -15.92,
+        "true_peak_dbtp": -1.91,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     },
     {
       "clip_id": "coffee-loading-screen",
@@ -89,16 +125,27 @@
       "hook_type": "before_after",
       "duration": 12,
       "source_id": "4753089",
-      "video_sha256": "2b464aaf4760dce4a6b0504b1e7a8b29a05f9498091081506e5032c5a486595d",
-      "media_path": "media/2026-11-16/coffee-loading-screen.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "62954708ea9137d3c87db0891307ed70ed0ab219de2d711f5fe675fbae411c87",
+      "media_path": "media/2026-11-16-audio/coffee-loading-screen.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T10:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "2b464aaf4760dce4a6b0504b1e7a8b29a05f9498091081506e5032c5a486595d",
+      "audio_metadata_path": "media/2026-11-16-audio/coffee-loading-screen.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -17.29,
+        "true_peak_dbtp": -2.02,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     },
     {
       "clip_id": "weather-group-chat",
@@ -109,16 +156,27 @@
       "hook_type": "dialogue_escalation",
       "duration": 16,
       "source_id": "2094757",
-      "video_sha256": "45c6c40c0c9ebf19d897bd0a08c1c56e6cf6c34d058c36c475551645a8370d74",
-      "media_path": "media/2026-11-16/weather-group-chat.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "9c578b742ef145dbef1d347fa69abe4229ea9b62a0f3411e20fc992fb340e6d2",
+      "media_path": "media/2026-11-16-audio/weather-group-chat.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T17:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "45c6c40c0c9ebf19d897bd0a08c1c56e6cf6c34d058c36c475551645a8370d74",
+      "audio_metadata_path": "media/2026-11-16-audio/weather-group-chat.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -15.92,
+        "true_peak_dbtp": -1.75,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     },
     {
       "clip_id": "follow-the-colour",
@@ -129,16 +187,27 @@
       "hook_type": "visual_attention_challenge",
       "duration": 16,
       "source_id": "4006558",
-      "video_sha256": "70d63abf715d355e07c177689ae96de0e90e06775e409a21c079560e99197a5a",
-      "media_path": "media/2026-11-16/follow-the-colour.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "a5af11186c76d3c55e97a9fba7990865285355420a116f30ee0724d2af858329",
+      "media_path": "media/2026-11-16-audio/follow-the-colour.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T11:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "70d63abf715d355e07c177689ae96de0e90e06775e409a21c079560e99197a5a",
+      "audio_metadata_path": "media/2026-11-16-audio/follow-the-colour.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -16.92,
+        "true_peak_dbtp": -1.82,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     },
     {
       "clip_id": "shiny-bubble-club",
@@ -149,16 +218,27 @@
       "hook_type": "playful_viewer_challenge",
       "duration": 16,
       "source_id": "20218494",
-      "video_sha256": "0c0f05359d3fdd468445fe409888eec3f64af3c745d5a708a7e9c6860d36ce8c",
-      "media_path": "media/2026-11-16/shiny-bubble-club.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "af24752a36c1695430bc025578c73dbfa9b7f12fb4e2b080ca761a8ef8e77005",
+      "media_path": "media/2026-11-16-audio/shiny-bubble-club.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T18:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "0c0f05359d3fdd468445fe409888eec3f64af3c745d5a708a7e9c6860d36ce8c",
+      "audio_metadata_path": "media/2026-11-16-audio/shiny-bubble-club.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -15.54,
+        "true_peak_dbtp": -1.89,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     },
     {
       "clip_id": "wave-first-day",
@@ -169,16 +249,27 @@
       "hook_type": "fictional_dialogue",
       "duration": 18,
       "source_id": "33251147",
-      "video_sha256": "c1b47f21ca12b9425e8d6fb952371137a1d129efc6844687d2fb022a8c8748ee",
-      "media_path": "media/2026-11-16/wave-first-day.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "6c2fabac3626a1a79bc15f948153d1382cef1176effd854e02211d5b758cda4b",
+      "media_path": "media/2026-11-16-audio/wave-first-day.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T14:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "c1b47f21ca12b9425e8d6fb952371137a1d129efc6844687d2fb022a8c8748ee",
+      "audio_metadata_path": "media/2026-11-16-audio/wave-first-day.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -16.37,
+        "true_peak_dbtp": -1.95,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     },
     {
       "clip_id": "ghost-day-job",
@@ -189,16 +280,27 @@
       "hook_type": "fictional_punchline",
       "duration": 16,
       "source_id": "7034332",
-      "video_sha256": "8cd8f401f827b71b12f1d2b7327ad295afb538866cdb4fb95b59acb88612de7c",
-      "media_path": "media/2026-11-16/ghost-day-job.mp4",
-      "inspection": "Every caption card visually inspected; 720x1280 H.264 output fully decoded without errors. Silent original caption script.",
+      "video_sha256": "89817e365ff08825e6fb9708d5a13077d9ed9df98c620061f42734a275b8c26c",
+      "media_path": "media/2026-11-16-audio/ghost-day-job.mp4",
+      "inspection": "Original video stream retained exactly. Narration fits every caption interval. Quiet original music and original effects mixed under speech. Final stereo AAC and actual loudness checked.",
       "do_not_reschedule": true,
       "scheduler": "Metricool",
       "provider_status": "PENDING",
       "publication_date": "2026-11-16T21:00:00-08:00",
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "evidence": "Confirmed in Metricool live queue with YouTube PENDING status; edited media imported successfully. Publication not yet confirmed."
+      "evidence": "Metricool confirmed replacement media at the same UUID and publication time. Its imported bytes match the inspected audio video hash. YouTube remains PENDING; publication not yet confirmed.",
+      "previous_video_sha256": "8cd8f401f827b71b12f1d2b7327ad295afb538866cdb4fb95b59acb88612de7c",
+      "audio_metadata_path": "media/2026-11-16-audio/ghost-day-job.audio.json",
+      "audio_version": "narration_original_music_effects_v1",
+      "audio_verified_at": "2026-11-16T17:34:19.172562+00:00",
+      "audio_verification": {
+        "integrated_lufs": -16.27,
+        "true_peak_dbtp": -2.04,
+        "narration_caption_sync": true,
+        "stereo_aac": true,
+        "imported_bytes_match": true
+      }
     }
   ]
 }
