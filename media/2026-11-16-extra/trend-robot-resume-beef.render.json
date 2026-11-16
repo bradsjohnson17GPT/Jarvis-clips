@@ -1,0 +1,46 @@
+{
+  "id": "trend-robot-resume-beef",
+  "title": "Two robots are beefing over my resume",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. Two robots are beefing over my resume. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T18:56:52.311909+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/close-up-of-hands-typing-on-laptop-keyboard-31183719/",
+    "download": "https://videos.pexels.com/video-files/31183719/13321621_1366_720_50fps.mp4",
+    "source_id": "31183719",
+    "creator_credit": "Video by Tech Box Hindi on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "1846674f5d0c0b6355e07b32985d800473dd1a8da9bfb978a74fb40dc366f803",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "e738687287967a200f9d6c075f2e4793af32bd34b5c21b9d8342523c15a86b5f"
+  },
+  "source_sha256": "e738687287967a200f9d6c075f2e4793af32bd34b5c21b9d8342523c15a86b5f",
+  "video_sha256": "ddffadf8a3c7d5863b5c676a97149f0df360d095eb3685e88a2d853cdfcb7d72",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "9.900000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

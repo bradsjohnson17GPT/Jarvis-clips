@@ -1,0 +1,65 @@
+{
+  "id": "trend-cat-box-real-estate",
+  "title": "This cat has strong opinions about real estate",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. This cat has strong opinions about real estate. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "animal_pov",
+  "hook_type": "animal_character_reversal",
+  "layout": "fit",
+  "start": 16,
+  "duration": 15,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.75,
+      "text": "MY HUMAN BOUGHT A\nLUXURY BED.",
+      "narration": "My human bought a luxury bed."
+    },
+    {
+      "start": 3.75,
+      "end": 7.5,
+      "text": "I CHOSE THE BOX.",
+      "narration": "I chose the box."
+    },
+    {
+      "start": 7.5,
+      "end": 11.25,
+      "text": "BETTER LOCATION.",
+      "narration": "Better location."
+    },
+    {
+      "start": 11.25,
+      "end": 15.0,
+      "text": "NO HOMEOWNERS\nASSOCIATION.",
+      "narration": "No homeowners association."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "evergreen_original_comedy",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/cute-cat-18816266/",
+    "download": "https://videos.pexels.com/video-files/18816266/18816266-hd_1280_720_50fps.mp4",
+    "source_id": "18816266",
+    "creator_credit": "Video by lewei Wang on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "7c547a11d5e31b39cdb93bd3bd3606f7eaa227730cfbc1aadb07a88cb10d97f4",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "9fcf86662af2a328620b3e04e8538c4c330bba9bf55115e573764ff59c2b40d5"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "trend-honey-leaving-now",
+  "title": "That friend who says leaving now",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. That friend who says leaving now. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T18:58:40.078102+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/honey-close-up-7281326/",
+    "download": "https://videos.pexels.com/video-files/7281326/7281326-hd_720_1280_25fps.mp4",
+    "source_id": "7281326",
+    "creator_credit": "Video by Stefano Patacchiola on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "fe9868f7e5d8157850fd4172a78490396ac75d57fe50377a69dff3a666b14af6",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "5a93e0f9c5ff08d0fae607cd6f6c1440d305b62dd0b1223e4b891b90315f05c8"
+  },
+  "source_sha256": "5a93e0f9c5ff08d0fae607cd6f6c1440d305b62dd0b1223e4b891b90315f05c8",
+  "video_sha256": "81c48950cde090cdb4a9242b9e7204aebb39d210eefc3448959fa7bd1d88fa95",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "9.800000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

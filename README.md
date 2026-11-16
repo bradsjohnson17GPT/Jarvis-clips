@@ -67,4 +67,4 @@ Do not commit passwords, OAuth tokens, `.env` files, or personal account identif
 
 ## Trend-watching agent
 
-[The trend scout](agents/trend-scout.md) researches current comedy three times daily and passes dated video analyses and original adaptation ideas to production. vidIQ is connected for public video analysis; publishing continues through Metricool. The normal target cadence is every 40 minutes from 8 a.m. to 8:40 p.m. Pacific, with existing daily slots retained as needed. The 9 a.m. earnings report remains unchanged.
+[The trend scout](agents/trend-scout.md) researches current comedy three times daily and passes dated video analyses and original adaptation ideas to production. vidIQ is connected for public video analysis; publishing continues through Metricool. The normal target cadence is every 40 minutes from 8 a.m. to 8:40 p.m. Pacific, with existing daily slots retained as needed. Production checks run approximately every four hours, including midnight and 4 a.m.; concise progress updates follow morning and afternoon runs. The 9 a.m. earnings report remains unchanged. Scheduled checks do not guarantee uninterrupted runtime.

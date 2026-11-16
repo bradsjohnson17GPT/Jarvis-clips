@@ -8,9 +8,12 @@
     17
   ],
   "production_hours": [
-    6,
+    0,
+    4,
+    8,
     12,
-    18
+    16,
+    20
   ],
   "priority_lookback_hours": 72,
   "maximum_discovery_lookback_days": 7,
@@ -37,5 +40,9 @@
     "narration and reviewed audio required",
     "never represent search snippets as watched videos",
     "no purchased media or credit top-ups"
+  ],
+  "progress_update_hours": [
+    8,
+    16
   ]
 }

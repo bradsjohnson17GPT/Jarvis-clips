@@ -1,0 +1,72 @@
+{
+  "id": "trend-robot-resume-beef",
+  "title": "Two robots are beefing over my resume",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. Two robots are beefing over my resume. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "workplace_comedy",
+  "hook_type": "ai_recruiting_reversal",
+  "layout": "fit",
+  "start": 0,
+  "duration": 9.9,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 2.48,
+      "text": "AI WROTE MY R\u00c9SUM\u00c9.",
+      "narration": "An AI wrote my r\u00e9sum\u00e9."
+    },
+    {
+      "start": 2.48,
+      "end": 4.95,
+      "text": "THE COMPANY'S AI\nREJECTED IT.",
+      "narration": "The company's AI rejected it."
+    },
+    {
+      "start": 4.95,
+      "end": 7.43,
+      "text": "NOW TWO ROBOTS ARE\nBEEFING.",
+      "narration": "Now two robots are beefing."
+    },
+    {
+      "start": 7.43,
+      "end": 9.9,
+      "text": "I'M STILL JOB HUNTING.",
+      "narration": "I'm still job hunting."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "ai_middleman_office",
+    "evidence_class": "current_editorial_discussion_plus_sampled_visual_reference",
+    "source_urls": [
+      "https://later.com/blog/tiktok-trends/",
+      "https://shorti.ai/en/v/instagram_Dfmac58O73c"
+    ],
+    "evidence_dates": [
+      "2026-11-13",
+      "2026-11-11"
+    ],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/close-up-of-hands-typing-on-laptop-keyboard-31183719/",
+    "download": "https://videos.pexels.com/video-files/31183719/13321621_1366_720_50fps.mp4",
+    "source_id": "31183719",
+    "creator_credit": "Video by Tech Box Hindi on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "1846674f5d0c0b6355e07b32985d800473dd1a8da9bfb978a74fb40dc366f803",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "e738687287967a200f9d6c075f2e4793af32bd34b5c21b9d8342523c15a86b5f"
+  }
+}

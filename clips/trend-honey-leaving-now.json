@@ -1,0 +1,59 @@
+{
+  "id": "trend-honey-leaving-now",
+  "title": "That friend who says leaving now",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. That friend who says leaving now. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "visual_surprises",
+  "hook_type": "visual_punchline_metaphor",
+  "layout": "portrait",
+  "start": 0,
+  "duration": 9.8,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.27,
+      "text": "THIS DRIP: 'LEAVING\nNOW.'",
+      "narration": "This drip: Leaving now."
+    },
+    {
+      "start": 3.27,
+      "end": 6.53,
+      "text": "STILL PUTTING ITS SHOES\nON.",
+      "narration": "Still putting its shoes on."
+    },
+    {
+      "start": 6.53,
+      "end": 9.8,
+      "text": "I HAVE FRIENDS MADE OF\nHONEY.",
+      "narration": "I have friends made of honey."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "evergreen_visual_comedy",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/honey-close-up-7281326/",
+    "download": "https://videos.pexels.com/video-files/7281326/7281326-hd_720_1280_25fps.mp4",
+    "source_id": "7281326",
+    "creator_credit": "Video by Stefano Patacchiola on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "fe9868f7e5d8157850fd4172a78490396ac75d57fe50377a69dff3a666b14af6",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "5a93e0f9c5ff08d0fae607cd6f6c1440d305b62dd0b1223e4b891b90315f05c8"
+  }
+}

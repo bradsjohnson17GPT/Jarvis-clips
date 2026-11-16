@@ -1,0 +1,71 @@
+{
+  "id": "trend-cat-box-real-estate",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "My human bought a luxury bed.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 1.919375,
+      "caption_end": 3.75,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "I chose the box.",
+      "caption_start": 3.75,
+      "speech_start": 3.83,
+      "speech_end": 5.025833333333333,
+      "caption_end": 7.5,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Better location.",
+      "caption_start": 7.5,
+      "speech_start": 7.58,
+      "speech_end": 8.575166666666666,
+      "caption_end": 11.25,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "No homeowners association.",
+      "caption_start": 11.25,
+      "speech_start": 11.33,
+      "speech_end": 13.052958333333333,
+      "caption_end": 15.0,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "6b3effd8d2ae8cc8fcb6acadd9b4aa76076f9d8133891437566b4b9d7d2d2c94",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "15.000000"
+    }
+  }
+}

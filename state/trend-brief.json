@@ -26,7 +26,11 @@
       "published_at": "2026-11-14T04:37:27Z",
       "observed_structure": "Readable roles immediately, an object passed through a task loop, a final reaction that reveals who did the work.",
       "original_direction": "Two fictional recruiting bots argue over a resume while the human applicant still needs a job.",
-      "confidence": "Current observed format; possible cross-posts are not independent creator examples."
+      "confidence": "Current observed format; possible cross-posts are not independent creator examples.",
+      "produced_clip_ids": [
+        "trend-robot-resume-beef",
+        "trend-ai-meeting-resignation"
+      ]
     },
     {
       "id": "relatable_fast_cards",
@@ -40,7 +44,11 @@
       "published_at": "2026-11-15T22:34:47Z",
       "observed_structure": "Moving background, concise setup/payoff cards, spoken text and quiet music.",
       "original_direction": "Specific everyday or pet situations with an action and a final line that resolves the premise.",
-      "confidence": "One observed successful reference; performance transfer is unproven."
+      "confidence": "One observed successful reference; performance transfer is unproven.",
+      "produced_clip_ids": [
+        "trend-popcorn-group-chat",
+        "trend-honey-leaving-now"
+      ]
     },
     {
       "id": "early_holiday_switch",
@@ -55,7 +63,10 @@
       "published_at": "2026-11-13",
       "observed_structure": "Immediate seasonal visual contrast followed by a decor reveal.",
       "original_direction": "Holiday lights described as emotional support before Thanksgiving.",
-      "confidence": "Current editorial discussion and inspected visual samples; exact publication hour unknown."
+      "confidence": "Current editorial discussion and inspected visual samples; exact publication hour unknown.",
+      "produced_clip_ids": [
+        "trend-lights-testing-until-january"
+      ]
     },
     {
       "id": "two_sides_relatable",
@@ -69,8 +80,12 @@
       "published_at": "2026-11-13",
       "observed_structure": "Editorially reported contrast format; no source video was watched for this candidate.",
       "original_direction": "An ambitious planner and the same person losing a sock seven minutes later.",
-      "confidence": "Editorial lead requiring a new original visual plan."
+      "confidence": "Editorial lead requiring a new original visual plan.",
+      "produced_clip_ids": [
+        "trend-two-sides-sofa-vote"
+      ]
     }
   ],
-  "asset_rights": "Reference videos are analysis only. Use independently reviewed footage, original narration, music and effects for publication."
+  "asset_rights": "Reference videos are analysis only. Use independently reviewed footage, original narration, music and effects for publication.",
+  "production_note": "Ten additional originals rendered and inspected; queue records actual scheduling status. These concept IDs have been used and must not be generated again as duplicate content."
 }

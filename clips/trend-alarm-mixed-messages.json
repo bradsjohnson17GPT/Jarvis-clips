@@ -1,0 +1,66 @@
+{
+  "id": "trend-alarm-mixed-messages",
+  "title": "I returned my alarm clock for mixed messages",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. I returned my alarm clock for mixed messages. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "fictional_object_dialogue",
+  "layout": "fit",
+  "start": 15,
+  "duration": 12,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "text": "TINY FICTION:\nMY ALARM GIVES\nAFFIRMATIONS.",
+      "narration": "Tiny fiction. My alarm gives affirmations."
+    },
+    {
+      "start": 3.0,
+      "end": 6.0,
+      "text": "'YOU CAN DO ANYTHING.'",
+      "narration": "You can do anything."
+    },
+    {
+      "start": 6.0,
+      "end": 9.0,
+      "text": "'IT IS SIX A.M.'",
+      "narration": "It is six a.m."
+    },
+    {
+      "start": 9.0,
+      "end": 12.0,
+      "text": "RETURN REASON:\nMIXED MESSAGES.",
+      "narration": "Return reason: mixed messages."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "evergreen_original_comedy",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/a-digital-alarm-clock-displaying-time-3580077/",
+    "download": "https://videos.pexels.com/video-files/3580077/3580077-hd_1280_720_25fps.mp4",
+    "source_id": "3580077",
+    "creator_credit": "Video by StefWithAnF on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "cb737d4724322895625b80d6f20b052250b84cd62e6e65be95f26bdfa625bd3c",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "1bda0954f8cbc443f83f70057aa5ba74799102d5524ca8b64a80887e2a02cb07"
+  },
+  "editing_note": "Source start selected so the six-a.m. narration and caption follow the filmed 5:59 to 6:00 transition."
+}

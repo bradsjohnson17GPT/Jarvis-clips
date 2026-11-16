@@ -1,0 +1,70 @@
+{
+  "id": "trend-two-sides-sofa-vote",
+  "title": "My five-year plan lost a vote to the sofa",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. My five-year plan lost a vote to the sofa. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "everyday_humor",
+  "hook_type": "contrasting_two_sides",
+  "layout": "fit",
+  "start": 0,
+  "duration": 9.9,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 2.48,
+      "text": "BOTH SIDES OF ME ARE\nREAL.",
+      "narration": "Both sides of me are real."
+    },
+    {
+      "start": 2.48,
+      "end": 4.95,
+      "text": "ONE WANTS A FIVE-YEAR\nPLAN.",
+      "narration": "One wants a five-year plan."
+    },
+    {
+      "start": 4.95,
+      "end": 7.43,
+      "text": "THE OTHER WANTS SOFA\nTIME.",
+      "narration": "The other wants sofa time."
+    },
+    {
+      "start": 7.43,
+      "end": 9.9,
+      "text": "THE SOFA WON\nUNANIMOUSLY.",
+      "narration": "The sofa won unanimously."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "contrasting_two_sides",
+    "evidence_class": "current_editorial_discussion",
+    "source_urls": [
+      "https://later.com/blog/tiktok-trends/"
+    ],
+    "evidence_dates": [
+      "2026-11-13"
+    ],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/feet-moving-6381280/",
+    "download": "https://videos.pexels.com/video-files/6381280/6381280-hd_1280_720_24fps.mp4",
+    "source_id": "6381280",
+    "creator_credit": "Video by Liza Summer on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "1683f7bd46929712f445307873405d88e07f5e8cb5fdcda9cc5133f7da4ef5b8",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "b0eada5984d00edb771d560575fbc03f2a1ab956aa81ee6211c14c7f775ccdb5"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "trend-vacuum-head-of-operations",
+  "title": "I promoted the robot vacuum and got demoted",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. I promoted the robot vacuum and got demoted. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "fictional_role_reversal",
+  "layout": "fit",
+  "start": 0,
+  "duration": 12,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "text": "TINY FICTION:\nI PROMOTED MY ROBOT\nVACUUM.",
+      "narration": "Tiny fiction. I promoted my robot vacuum."
+    },
+    {
+      "start": 3.0,
+      "end": 6.0,
+      "text": "HEAD OF OPERATIONS.",
+      "narration": "Head of operations."
+    },
+    {
+      "start": 6.0,
+      "end": 9.0,
+      "text": "IT DELEGATED THE\nCORNERS TO ME.",
+      "narration": "It delegated the corners to me."
+    },
+    {
+      "start": 9.0,
+      "end": 12.0,
+      "text": "I WORK FOR THE VACUUM\nNOW.",
+      "narration": "I work for the vacuum now."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "ai_workplace_role_reversal",
+    "evidence_class": "original_proposal_inspired_by_current_ai_comedy_discussion",
+    "source_urls": [
+      "https://shorti.ai/en/field/comedy"
+    ],
+    "evidence_dates": [
+      "2026-11-16"
+    ],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/a-robot-vacuum-cleaner-cleaning-the-floor-8566377/",
+    "download": "https://videos.pexels.com/video-files/8566377/8566377-hd_1280_720_30fps.mp4",
+    "source_id": "8566377",
+    "creator_credit": "Video by Kindel Media on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "d8d92d7dd31701600a0d723bbacf77d159553fe0a18d5dd87b374fe90a0ac453",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "c548258d6a0cf1d626407cd5ff417d01a7154311f45ee80f8527e29e0be9baee"
+  }
+}

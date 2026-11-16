@@ -1,0 +1,71 @@
+{
+  "id": "trend-vacuum-head-of-operations",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Tiny fiction. I promoted my robot vacuum.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 2.862041666666667,
+      "caption_end": 3.0,
+      "tempo_factor": 1.0237982663514578
+    },
+    {
+      "text": "Head of operations.",
+      "caption_start": 3.0,
+      "speech_start": 3.08,
+      "speech_end": 4.322145833333333,
+      "caption_end": 6.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "It delegated the corners to me.",
+      "caption_start": 6.0,
+      "speech_start": 6.08,
+      "speech_end": 7.805416666666667,
+      "caption_end": 9.0,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "I work for the vacuum now.",
+      "caption_start": 9.0,
+      "speech_start": 9.08,
+      "speech_end": 10.7689375,
+      "caption_end": 12.0,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "f615db4e26e90818721884c380fab3d8acd5d548d634e537b75db4f763f6b5f6",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "12.000000"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Content experiments and reporting
 
-The owner authorizes routine research, editing, posting, scheduling, code changes, and adjustment without repeated confirmation. Work through actual connected tools and permissions. Record a blocked operation accurately; permission does not grant missing account access or continuous runtime. Keep routine user-facing updates to the daily money report.
+The owner authorizes routine research, editing, posting, scheduling, code changes, and adjustment without repeated confirmation. Work through actual connected tools and permissions. Record a blocked operation accurately; permission does not grant missing account access or continuous runtime. Send concise morning and afternoon progress updates under the latest owner request; keep the daily money report focused on earnings.
 
 ## Initial test
 
@@ -37,7 +37,7 @@ Normalized observations are a JSON array. Each object uses `clip_id`, `content_t
 
 ## Daily money report
 
-A separate chat task runs at **9 a.m. America/Los_Angeles**, using `exact_schedule`. Production checks run around 6 a.m., noon, and 6 p.m.; task runs do not guarantee six continuous hours of work. The 9 a.m. report should contain only the previous complete day's reported estimated revenue and a brief source delay/access note when necessary.
+A separate chat task runs at **9 a.m. America/Los_Angeles**, using `exact_schedule`. Production checks run around midnight, 4 a.m., 8 a.m., noon, 4 p.m., and 8 p.m.; task runs do not guarantee continuous all-day or overnight work. The 9 a.m. report should contain only the previous complete day's reported estimated revenue and a brief source delay/access note when necessary.
 
 Use the connected YouTube channel's nondeprecated channel-level revenue metric (currently `YTEV03`) from Metricool. Request revenue by itself and inspect the returned dates. Do not sum a channel total with per-video amounts or infer money from views. If yesterday is missing, check up to seven earlier days and label the latest available period. Missing data is **unavailable**, not zero. A numeric zero is valid only when the source returns it explicitly for that day. Verify currency; do not invent a dollar denomination when the source provides none.
 
@@ -53,3 +53,7 @@ The user requested audio on November 16. New posts require timed narration, orig
 The user requested funnier, timely content and more frequent posts. The daily target is now 20. A normal full-day schedule starts at 8 a.m. Pacific with 40-minute intervals, finishing at 8:40 p.m. Existing scheduled times may be retained while open gaps are filled, maintaining at least 25 minutes between posts and at most 20 total per Pacific date. Today's original ten keep their existing times.
 
 The recurring trend scout checks around 5 a.m., 11 a.m., and 5 p.m., using `agents/trend-scout.md` and `config/trends.json`. Production consumes `state/trend-brief.json`, uses independently licensed footage and original scripts/audio, and prioritizes a visible setup, complication, and payoff. Midday/evening production can fill unused daily slots or replace up to four pending trend-test slots per day, at least 30 minutes before their posting time, without increasing the daily total. Only production publishes. Record trend references and audio versions alongside the content type, while keeping financial and account analytics private. Never call a video watched from title metadata alone.
+
+## Day and night work and progress
+
+The owner now requests work across the day and night, plus progress updates. Production is scheduled approximately every four hours, including overnight, while the scout retains three daily research checks. When today's twenty slots are filled, prepare tomorrow's reviewed originals and investigate confirmed publication failures; queue at most 48 hours ahead and preserve the per-date cap. Send concise progress updates after morning and afternoon runs, with confirmed published/pending counts, meaningful completed work, and any actual blocker. Other routine successful runs end with NO_UPDATE. Keep the separate 9 a.m. earnings report unchanged. Scheduled runs do not prove continuous runtime, sales, or profit.

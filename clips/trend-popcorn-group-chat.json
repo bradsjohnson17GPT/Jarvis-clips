@@ -1,0 +1,59 @@
+{
+  "id": "trend-popcorn-group-chat",
+  "title": "The group chat when you say quick question",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. The group chat when you say quick question. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "visual_surprises",
+  "hook_type": "visual_escalation_metaphor",
+  "layout": "fit",
+  "start": 3,
+  "duration": 16,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 5.33,
+      "text": "ME: ONE QUICK\nQUESTION.",
+      "narration": "Me: One quick question."
+    },
+    {
+      "start": 5.33,
+      "end": 10.67,
+      "text": "NOW EVERYONE HAS AN\nOPINION.",
+      "narration": "Now everyone has an opinion."
+    },
+    {
+      "start": 10.67,
+      "end": 16.0,
+      "text": "EVEN THE LURKER HAS\nENTERED THE CHAT.",
+      "narration": "Even the lurker has entered the chat."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "evergreen_visual_comedy",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/popcorn-popping-854958/",
+    "download": "https://videos.pexels.com/video-files/854958/854958-hd_1280_720_30fps.mp4",
+    "source_id": "854958",
+    "creator_credit": "Video by Pixabay on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "cdf6d595876e5db299e71e7c4f5c7eb3e1e31ac58645f8ebae25fdfaa319423c",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "3b72efa27e6b761ab33b8d154e696ab6b49b2feb609c7f50e817082323e079dc"
+  }
+}

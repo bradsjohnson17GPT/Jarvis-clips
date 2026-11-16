@@ -1,0 +1,66 @@
+{
+  "id": "trend-lights-testing-until-january",
+  "title": "I'm only testing the Christmas lights. Until January.",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. I'm only testing the Christmas lights. Until January. #Shorts #Comedy #HolidayHumor",
+  "audience": "not_made_for_kids",
+  "content_type": "everyday_humor",
+  "hook_type": "seasonal_denial",
+  "layout": "fit",
+  "start": 0,
+  "duration": 10.5,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.5,
+      "text": "I'M NOT DECORATING\nEARLY.",
+      "narration": "I'm not decorating early."
+    },
+    {
+      "start": 3.5,
+      "end": 7.0,
+      "text": "I'M JUST TESTING THE\nLIGHTS.",
+      "narration": "I'm just testing the lights."
+    },
+    {
+      "start": 7.0,
+      "end": 10.5,
+      "text": "EVERY NIGHT.\nUNTIL JANUARY.",
+      "narration": "Every night. Until January."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "early_holiday_switch",
+    "evidence_class": "current_editorial_discussion",
+    "source_urls": [
+      "https://www.epidemicsound.com/blog/latest-tiktok-trends/",
+      "https://shorti.ai/en/field/comedy"
+    ],
+    "evidence_dates": [
+      "2026-11-13",
+      "2026-11-16"
+    ],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/christmas-lights-decoration-inside-the-house-5738538/",
+    "download": "https://videos.pexels.com/video-files/5738538/5738538-hd_1280_720_25fps.mp4",
+    "source_id": "5738538",
+    "creator_credit": "Video by Nicole Michalou  on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "6908aea2098249f3741c07cc048758ef9fb848fe87182a4ad703c951be6b72b6",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "0dd6dfa2ccb15a1e31fbc0224fe6d0335f70bcc60140ba25c8a7b7f83896e571"
+  }
+}

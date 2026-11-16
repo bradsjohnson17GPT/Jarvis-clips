@@ -1,0 +1,72 @@
+{
+  "id": "trend-ai-meeting-resignation",
+  "title": "Even the AI updated its resume after that meeting",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. Even the AI updated its resume after that meeting. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "workplace_comedy",
+  "hook_type": "ai_office_escalation",
+  "layout": "fit",
+  "start": 0,
+  "duration": 12.5,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.12,
+      "text": "I SENT AI TO MY MEETING.",
+      "narration": "I sent AI to my meeting."
+    },
+    {
+      "start": 3.12,
+      "end": 6.25,
+      "text": "IT LISTENED FOR FOUR\nMINUTES.",
+      "narration": "It listened for four minutes."
+    },
+    {
+      "start": 6.25,
+      "end": 9.38,
+      "text": "IT UPDATED ITS R\u00c9SUM\u00c9.",
+      "narration": "It updated its r\u00e9sum\u00e9."
+    },
+    {
+      "start": 9.38,
+      "end": 12.5,
+      "text": "IT'S LOOKING FOR A\nBETTER CULTURE.",
+      "narration": "It's looking for a better culture."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "ai_middleman_office",
+    "evidence_class": "original_proposal_inspired_by_current_ai_comedy_discussion",
+    "source_urls": [
+      "https://later.com/blog/tiktok-trends/",
+      "https://shorti.ai/en/field/comedy"
+    ],
+    "evidence_dates": [
+      "2026-11-13",
+      "2026-11-16"
+    ],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/close-up-view-of-a-person-using-a-mouse-4973370/",
+    "download": "https://videos.pexels.com/video-files/4973370/4973370-hd_1280_720_50fps.mp4",
+    "source_id": "4973370",
+    "creator_credit": "Video by Harvey Tan Villarino on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "ef6d7891333caa742aa8fc5ff0fdaea9171de63f4d3e0de3ba42680d8475b07f",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "7793702030a4f2435d13d85b5532849bfd93bee60c500278355a70c2a94b51d8"
+  }
+}

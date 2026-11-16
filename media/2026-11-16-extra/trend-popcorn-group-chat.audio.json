@@ -1,0 +1,63 @@
+{
+  "id": "trend-popcorn-group-chat",
+  "audio": "timed_narration_original_music_and_effects",
+  "voice": {
+    "id": "en_US-ljspeech-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+    "config_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+    "model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+    "config_sha256": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+    "model_license": "MIT (voice repository metadata)",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD",
+    "training_data_license": "Public domain (LJ Speech dataset)",
+    "training_data_source": "https://keithito.com/LJ-Speech-Dataset/"
+  },
+  "music_rights": "Original procedural composition",
+  "effects_rights": "Original synthesis",
+  "narration_intervals": [
+    {
+      "text": "Me: One quick question.",
+      "caption_start": 0.0,
+      "speech_start": 0.08,
+      "speech_end": 1.7772083333333333,
+      "caption_end": 5.33,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Now everyone has an opinion.",
+      "caption_start": 5.33,
+      "speech_start": 5.41,
+      "speech_end": 7.100979166666667,
+      "caption_end": 10.67,
+      "tempo_factor": 1.0
+    },
+    {
+      "text": "Even the lurker has entered the chat.",
+      "caption_start": 10.67,
+      "speech_start": 10.75,
+      "speech_end": 12.728958333333333,
+      "caption_end": 16.0,
+      "tempo_factor": 1.0
+    }
+  ],
+  "video_sha256": "97148248c31ed121f9375321365b0e854d4f9e923f10e85c0a92e9a48d64ff6c",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "16.000000"
+    }
+  }
+}

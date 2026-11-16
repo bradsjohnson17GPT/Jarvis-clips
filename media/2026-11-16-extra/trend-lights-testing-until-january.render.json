@@ -1,0 +1,46 @@
+{
+  "id": "trend-lights-testing-until-january",
+  "title": "I'm only testing the Christmas lights. Until January.",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. I'm only testing the Christmas lights. Until January.. #Shorts #Comedy #HolidayHumor",
+  "audience": "not_made_for_kids",
+  "status": "rendered_not_published",
+  "audio": "timed_narration_original_music_and_effects",
+  "created_at": "2026-11-16T18:56:43.313168+00:00",
+  "source": {
+    "page": "https://www.pexels.com/video/christmas-lights-decoration-inside-the-house-5738538/",
+    "download": "https://videos.pexels.com/video-files/5738538/5738538-hd_1280_720_25fps.mp4",
+    "source_id": "5738538",
+    "creator_credit": "Video by Nicole Michalou  on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "6908aea2098249f3741c07cc048758ef9fb848fe87182a4ad703c951be6b72b6",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "0dd6dfa2ccb15a1e31fbc0224fe6d0335f70bcc60140ba25c8a7b7f83896e571"
+  },
+  "source_sha256": "0dd6dfa2ccb15a1e31fbc0224fe6d0335f70bcc60140ba25c8a7b7f83896e571",
+  "video_sha256": "e2e7ae4a58617c599552c08cede0422c17b050e4cecea42272ef58ca14c3fc4a",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "10.500000"
+    }
+  },
+  "publishing_blocker": "Needs an inspected video, a media URL reachable by Metricool, and a confirmed scheduling response."
+}

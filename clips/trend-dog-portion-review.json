@@ -1,0 +1,65 @@
+{
+  "id": "trend-dog-portion-review",
+  "title": "The harshest food critic has four paws",
+  "description": "An original fictional comedy sketch with narration, original music, and effects. The harshest food critic has four paws. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "animal_pov",
+  "hook_type": "mock_food_review",
+  "layout": "fit",
+  "start": 8,
+  "duration": 16,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "DOG POV:\nTHE FOOD CRITIC HAS\nARRIVED.",
+      "narration": "Dog point of view. The food critic has arrived."
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "TEXTURE: EXCELLENT.",
+      "narration": "Texture: excellent."
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "PORTION SIZE:\nA PERSONAL ATTACK.",
+      "narration": "Portion size: a personal attack."
+    },
+    {
+      "start": 12.0,
+      "end": 16.0,
+      "text": "FIVE STARS.\nFILED A COMPLAINT.",
+      "narration": "Five stars. Filed a complaint."
+    }
+  ],
+  "audio": {
+    "enabled": true,
+    "voice": "en_US-ljspeech-high",
+    "background_music": "original_procedural",
+    "sound_effects": "original_synthesized"
+  },
+  "trend_linkage": {
+    "theme": "evergreen_original_comedy",
+    "evidence_class": "original_proposal",
+    "source_urls": [],
+    "reference_assets_used": false
+  },
+  "fictional_sketch": true,
+  "source": {
+    "page": "https://www.pexels.com/video/a-dog-eating-from-a-doggy-bowl-6568965/",
+    "download": "https://videos.pexels.com/video-files/6568965/6568965-hd_720_1366_25fps.mp4",
+    "source_id": "6568965",
+    "creator_credit": "Video by cottonbro studio on Pexels",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Trend production assistant",
+    "rights_note": "The Pexels source page and Pexels License were reviewed. Commercial use and modification are allowed subject to license restrictions. Actual downloaded footage was visually sampled; original source audio is removed. Narration is a fictional sketch, not a claim about the filmed people or actual owner; no endorsement is implied. Reference trend footage/music is not used.",
+    "page_sha256": "e6f4cbcab791560e75760abdddf156b93df63c31748d588aa2a05fc1e21f7a8e",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "a8e3ae317ad99215088ca41e555e561828f6071b43c929d8e6adc27e893eaf73"
+  }
+}
