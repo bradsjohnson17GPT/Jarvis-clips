@@ -16,8 +16,22 @@
   "start": 0,
   "duration": 7.5,
   "captions": [
-    {"start": 0, "end": 2.3, "text": "WHEN THE NEW HIRE\nQUESTIONS YOUR SPREADSHEET"},
-    {"start": 2.3, "end": 4.8, "text": "DOG: THAT FORMULA\nHAS BEEN HERE SINCE 2014"},
-    {"start": 4.8, "end": 7.5, "text": "CAT: IT JUST SAYS\n\"ASK DAVE\""}
-  ]
+    {
+      "start": 0,
+      "end": 2.3,
+      "text": "WHEN THE NEW HIRE\nQUESTIONS YOUR SPREADSHEET"
+    },
+    {
+      "start": 2.3,
+      "end": 4.8,
+      "text": "DOG: THAT FORMULA\nHAS BEEN HERE SINCE 2014"
+    },
+    {
+      "start": 4.8,
+      "end": 7.5,
+      "text": "CAT: IT JUST SAYS\n\"ASK DAVE\""
+    }
+  ],
+  "content_type": "workplace_comedy",
+  "hook_type": "relatable_pov"
 }

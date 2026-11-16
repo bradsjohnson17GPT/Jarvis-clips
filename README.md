@@ -36,6 +36,12 @@ python3 scripts/render.py clips/spreadsheet.json --source-file /path/to/source.m
 
 Add a JSON manifest under `clips/`, using `spreadsheet.json` as the template. Set the source page, download URL, license URL, review date, reviewer, explicit audience, original script, and accurate timing. A rights flag is a recorded human/assistant review, not an automatic legal check. The renderer refuses missing rights declarations, missing audience classifications, invalid timing, overlapping captions, and unsafe clip identifiers.
 
+## Test content and adapt
+
+The initial plan tests five content types with two posts each: animal POV, workplace comedy, everyday humor, visual surprises, and fictional micro-stories. After at least three comparable mature clips per type, `scripts/experiments.py` proposes five slots for the strongest type, two for the next, and three exploration slots. It uses median views and secondary retention/sharing evidence, rather than one viral outlier. Until enough data exists, it stays balanced.
+
+See [the experiment and reporting policy](docs/strategy.md) and [the configuration](config/strategy.json). A separate chat task reports platform-reported estimated revenue at **9 a.m. Pacific**; financial records stay private. This is a scheduled task, not a guarantee of earnings or paid-out profit.
+
 Every output is 720 × 1280, H.264, 30 fps, with audio removed. The foreground retains the whole source frame over a blurred background. Captions are burned into the video.
 
 ## Publishing status
