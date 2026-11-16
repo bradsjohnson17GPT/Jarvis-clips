@@ -4,7 +4,7 @@ Creates portrait comedy videos from footage with reviewed reuse rights. This fir
 
 ## Watch the first draft
 
-[Download or watch the first draft](examples/first-short-preview.mp4).
+[Watch the small preview](examples/first-short-preview.mp4) · [Download the full-resolution draft](examples/first-short.mp4).
 
 The example is a 7.5-second dog-and-cat clip with an original office joke. It is a draft with no audio, not a promise of monetization. The footage is from [Pexels](https://www.pexels.com/video/a-dog-and-a-cat-playing-9400102/) under the [Pexels License](https://www.pexels.com/license/).
 
@@ -44,7 +44,7 @@ Every output is 720 × 1280, H.264, 30 fps, with audio removed. The foreground r
 - Editing: implemented and tested on the example clip.
 - Source record: included in each manifest and rendered output.
 - Downloadable preview: included in `examples/`.
-- YouTube/Metricool publishing: **not implemented in this code**. A connected chat tool can schedule inspected videos only after it has a reachable media URL and a valid scheduling response. GitHub Actions artifacts require authentication and are not direct public media URLs.
+- YouTube/Metricool publishing: **not implemented in this code**. A connected chat tool can schedule inspected videos only after it has a reachable media URL and a valid scheduling response. GitHub Actions artifacts require authentication. The public example MP4 also has a direct GitHub raw URL, which can be tested with Metricool; changing repository visibility would remove unauthenticated access.
 - No video is marked as published by this renderer. An output file is not a confirmed YouTube post.
 
 GitHub workflows run as jobs and do not guarantee six continuous hours of daily work. The existing chat task is separate from this on-demand rendering workflow.
