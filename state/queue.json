@@ -1,0 +1,17 @@
+{
+  "clips": [
+    {
+      "clip_id": "spreadsheet-new-hire",
+      "title": "When the new hire questions your spreadsheet",
+      "status": "scheduled",
+      "scheduler": "Metricool",
+      "provider": "youtube",
+      "provider_status": "PENDING",
+      "publication_date": "2026-11-16T16:00:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "video_sha256": "d20ae6c8e7b9880cfeac1ff58bf099c4c05983442308648202f68d2975dd2b96",
+      "evidence": "Metricool confirmed creation, imported the edited MP4 into its media storage, and returned a pending YouTube post. Publication is not yet confirmed.",
+      "do_not_reschedule": true
+    }
+  ]
+}

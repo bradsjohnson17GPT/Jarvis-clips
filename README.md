@@ -41,10 +41,11 @@ Every output is 720 × 1280, H.264, 30 fps, with audio removed. The foreground r
 ## Publishing status
 
 - Daily target requested: **10 distinct original Shorts**.
+- First Short: **scheduled through Metricool for November 16, 2026, at 4 p.m. Pacific**. Metricool imported the MP4 and confirmed a pending YouTube post; it has not yet published. See `state/queue.json` to avoid rescheduling it.
 - Editing: implemented and tested on the example clip.
 - Source record: included in each manifest and rendered output.
 - Downloadable preview: included in `examples/`.
-- YouTube/Metricool publishing: **not implemented in this code**. A connected chat tool can schedule inspected videos only after it has a reachable media URL and a valid scheduling response. GitHub Actions artifacts require authentication. The public example MP4 also has a direct GitHub raw URL, which can be tested with Metricool; changing repository visibility would remove unauthenticated access.
+- Publishing is handled through the connected Metricool chat tools. The first transfer and scheduling request succeeded using the public example MP4 URL; Metricool copied the video into its own storage. The Python renderer itself does not publish. GitHub Actions artifacts require authentication, so future clips still need a reachable media URL for import. Changing repository visibility would remove unauthenticated GitHub raw access.
 - No video is marked as published by this renderer. An output file is not a confirmed YouTube post.
 
 GitHub workflows run as jobs and do not guarantee six continuous hours of daily work. The existing chat task is separate from this on-demand rendering workflow.
