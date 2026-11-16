@@ -1,0 +1,43 @@
+{
+  "id": "toy-negotiations",
+  "title": "This toy has declined to comment",
+  "description": "Original animal pov with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "animal_pov",
+  "hook_type": "mock_interview",
+  "layout": "portrait",
+  "source": {
+    "page": "https://www.pexels.com/video/dog-playing-with-toy-13260951/",
+    "download": "https://videos.pexels.com/video-files/13260951/13260951-hd_720_1280_60fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "13260951",
+    "creator_credit": "Video by Jane Mikhaylovsky on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. ",
+    "page_sha256": "e5072ace5eeb8fa22c829761d85ee89fee7e5e6ba273ecbb58edd4c42feab5c6",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "954a50032e2e300c4c98ff5b57fba6c723bb4d74f271bac11512b328dc1ae76e"
+  },
+  "start": 0,
+  "duration": 12,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "DOG POV:\nTHIS TOY OWES ME\nMONEY."
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "IT HAS DECLINED\nTO COMMENT."
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "NEGOTIATIONS\nARE GOING WELL."
+    }
+  ]
+}

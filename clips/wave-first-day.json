@@ -1,0 +1,48 @@
+{
+  "id": "wave-first-day",
+  "title": "A wave started an office job. Tiny fiction.",
+  "description": "Original fictional micro stories with a new caption script. Silent comedy: captions carry the story. This is a fictional micro-story, not a real event. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "fictional_dialogue",
+  "layout": "fit",
+  "source": {
+    "page": "https://www.pexels.com/video/tranquil-ocean-waves-at-sunset-33251147/",
+    "download": "https://videos.pexels.com/video-files/33251147/14166154_1280_720_24fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "33251147",
+    "creator_credit": "Video by Mario Krimer on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. The story is explicitly labelled fiction in the on-screen opening. ",
+    "page_sha256": "9e9a1f35deef5899ea8657715353b483f90a89a581e0d059f6e4fd55a54edc42",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "2ec81e535ba86b82173dbee739fe99755a7392297f34a276177b3e170332d619"
+  },
+  "start": 0,
+  "duration": 18,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.5,
+      "text": "TINY FICTION:\nTHE SEA HIRED A QUIET\nWAVE."
+    },
+    {
+      "start": 4.5,
+      "end": 9.0,
+      "text": "ON DAY ONE, IT ASKED:\n'WHAT IS MY JOB?'"
+    },
+    {
+      "start": 9.0,
+      "end": 13.5,
+      "text": "'SHOW UP, FALL APART,\nAND DO IT AGAIN.'"
+    },
+    {
+      "start": 13.5,
+      "end": 18.0,
+      "text": "THE WAVE ASKED IF THIS\nWAS AN OFFICE JOB."
+    }
+  ]
+}

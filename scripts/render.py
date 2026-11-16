@@ -29,6 +29,8 @@ def validate(spec):
         raise ValueError("A YouTube title of 1-100 characters is required")
     if spec.get("audience") not in ("made_for_kids", "not_made_for_kids"):
         raise ValueError("An explicit audience classification is required")
+    if spec.get("layout", "fit") not in ("fit", "portrait"):
+        raise ValueError("Layout must be fit or portrait")
     source = spec.get("source", {})
     if source.get("rights_verified") is not True:
         raise ValueError("Commercial reuse and editing rights must be reviewed first")
@@ -108,7 +110,8 @@ def probe(path):
 
 
 def render(spec, source, destination):
-    duration = float(probe(source)["format"]["duration"])
+    source_info = probe(source)
+    duration = float(source_info["format"]["duration"])
     if spec.get("start", 0) + spec["duration"] > duration + 0.05:
         raise ValueError("Requested clip extends beyond the actual source")
     with tempfile.TemporaryDirectory(prefix="jarvis-render-") as temp:
@@ -120,6 +123,11 @@ def render(spec, source, destination):
             "[front]scale=720:720:force_original_aspect_ratio=decrease[fg];"
             "[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,ass=captions.ass[out]"
         )
+        if spec.get("layout") == "portrait":
+            source_video = next(s for s in source_info["streams"] if s["codec_type"] == "video")
+            if abs(source_video["width"] / source_video["height"] - 9 / 16) > 0.02:
+                raise ValueError("Portrait layout requires a source already close to 9:16")
+            graph = "[0:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,setsar=1,ass=captions.ass[out]"
         subprocess.run([
             "ffmpeg", "-v", "error", "-nostdin", "-y", "-ss", str(spec.get("start", 0)),
             "-i", str(source.resolve()), "-t", str(spec["duration"]), "-filter_complex", graph,

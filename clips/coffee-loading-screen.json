@@ -1,0 +1,43 @@
+{
+  "id": "coffee-loading-screen",
+  "title": "Coffee installed the wrong update",
+  "description": "Original everyday humor with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "everyday_humor",
+  "hook_type": "before_after",
+  "layout": "fit",
+  "source": {
+    "page": "https://www.pexels.com/video/close-up-video-of-pouring-of-fresh-coffee-on-cups-4753089/",
+    "download": "https://videos.pexels.com/video-files/4753089/4753089-hd_1280_720_30fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "4753089",
+    "creator_credit": "Video by Ketut Subiyanto on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. ",
+    "page_sha256": "8f08da5eda947c5d2ab16b0b3ef7835dd0ab72f8151e8de66931a908fbf7abbf",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "7be30d1880113a30a4b24ec64cdaa917543a76c704e29a49f85bcdf4a58ecf24"
+  },
+  "start": 0,
+  "duration": 12,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "ME BEFORE COFFEE:\n'PLEASE WAIT.'"
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "ME AFTER COFFEE:\n'PLEASE WAIT, BUT\nFASTER.'"
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "APPARENTLY THE UPDATE\nONLY ADDED LOADING\nMUSIC."
+    }
+  ]
+}

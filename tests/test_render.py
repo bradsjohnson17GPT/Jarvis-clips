@@ -24,6 +24,11 @@ class ManifestChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "audience"):
             renderer.validate(self.spec)
 
+    def test_rejects_unknown_layout(self):
+        self.spec["layout"] = "unreviewed-crop"
+        with self.assertRaisesRegex(ValueError, "Layout"):
+            renderer.validate(self.spec)
+
     def test_rejects_overlapping_captions(self):
         self.spec["captions"][1]["start"] = 1
         with self.assertRaisesRegex(ValueError, "nonoverlapping"):

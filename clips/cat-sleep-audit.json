@@ -1,0 +1,48 @@
+{
+  "id": "cat-sleep-audit",
+  "title": "This cat has completed your entire sleep schedule",
+  "description": "Original animal pov with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "animal_pov",
+  "hook_type": "character_pov",
+  "layout": "fit",
+  "source": {
+    "page": "https://www.pexels.com/video/a-furry-cat-sleeping-on-a-bed-5248198/",
+    "download": "https://videos.pexels.com/video-files/5248198/5248198-hd_1280_720_60fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "5248198",
+    "creator_credit": "Video by Anete Lusina on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. ",
+    "page_sha256": "f0f3a2bed00d082f8624d3cb4d97cd0ee3f3ea7d3cc6f9271e0fef4782643df3",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "794f33bd738cb73cf3834e9a7d11bd30cf6ff931120ac26c28e57e8acb5a1029"
+  },
+  "start": 0,
+  "duration": 15,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.75,
+      "text": "CAT POV: MY HUMAN\nBOUGHT A SLEEP\nTRACKER."
+    },
+    {
+      "start": 3.75,
+      "end": 7.5,
+      "text": "IT SAYS THEY NEED\nEIGHT HOURS A NIGHT."
+    },
+    {
+      "start": 7.5,
+      "end": 11.25,
+      "text": "I HAVE COMPLETED\nTHEIR ENTIRE WEEK."
+    },
+    {
+      "start": 11.25,
+      "end": 15.0,
+      "text": "YOU'RE WELCOME.\nPLEASE PAY IN TUNA."
+    }
+  ]
+}

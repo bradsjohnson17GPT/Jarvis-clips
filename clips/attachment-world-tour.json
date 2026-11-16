@@ -1,0 +1,43 @@
+{
+  "id": "attachment-world-tour",
+  "title": "This attachment has travelled more than I have",
+  "description": "Original workplace comedy with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "workplace_comedy",
+  "hook_type": "email_translation",
+  "layout": "portrait",
+  "source": {
+    "page": "https://www.pexels.com/video/close-up-view-of-typing-on-keyboard-12893577/",
+    "download": "https://videos.pexels.com/video-files/12893577/12893577-hd_720_1280_24fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "12893577",
+    "creator_credit": "Video by Mizuno K on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. ",
+    "page_sha256": "36f90626d57baeffcad4905cd3b613d554da470242dae53ef5a1e1e41c8cad8a",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "c4c132e916d5d258d73f54c2621fa018086fcddda261481d58533bbc4ff397f9"
+  },
+  "start": 0,
+  "duration": 9.9,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 3.3,
+      "text": "ME: 'ATTACHED AGAIN\nFOR YOUR CONVENIENCE.'"
+    },
+    {
+      "start": 3.3,
+      "end": 6.6,
+      "text": "THIS FILE HAS NOW\nBEEN SENT MORE TIMES..."
+    },
+    {
+      "start": 6.6,
+      "end": 9.9,
+      "text": "THAN I'VE BEEN\nON HOLIDAY."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "shiny-bubble-club",
+  "title": "Pick one bubble. Ignore the shiny one. Good luck.",
+  "description": "Original visual surprises with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "visual_surprises",
+  "hook_type": "playful_viewer_challenge",
+  "layout": "fit",
+  "source": {
+    "page": "https://www.pexels.com/video/soap-bubbles-floating-in-the-air-20218494/",
+    "download": "https://videos.pexels.com/video-files/20218494/20218494-hd_1280_720_24fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "20218494",
+    "creator_credit": "Video by K     on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. ",
+    "page_sha256": "2ff5e8f14603b3ceed7d88a6143ac5274c4bb1653205b23a4af99c067182909c",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "e72e03c0596a3baa46373c639ee9c1ceaafef1f8d8b02b408fc24c5535deb901"
+  },
+  "start": 0,
+  "duration": 16,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "PICK ONE BUBBLE.\nKEEP YOUR EYE ON IT."
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "DO NOT GET DISTRACTED\nBY THE SHINY ONE."
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "YOU PICKED THE SHINY\nONE,\nDIDN'T YOU?"
+    },
+    {
+      "start": 12.0,
+      "end": 16.0,
+      "text": "ME TOO.\nTEAM ZERO ATTENTION\nSPAN."
+    }
+  ]
+}

@@ -15,7 +15,7 @@ The example is a 7.5-second dog-and-cat clip with an original office joke. It is
 3. Open the finished run and download its **jarvis-clips** artifact.
 4. Each clip folder contains `video.mp4`, its captions, and `metadata.json` with source and license records.
 
-The workflow also runs when the renderer or clip manifests change. It processes up to ten distinct manifests per run. It does not invent ten variations of one video to fill a quota.
+The workflow also runs when the renderer, clip manifests, or batch selection changes. `batches/current.json` selects up to ten distinct manifests per run; older manifests remain available without being reposted. It does not invent ten variations of one video to fill a quota.
 
 ## Run locally
 
@@ -42,7 +42,7 @@ The initial plan tests five content types with two posts each: animal POV, workp
 
 See [the experiment and reporting policy](docs/strategy.md) and [the configuration](config/strategy.json). A separate chat task reports platform-reported estimated revenue at **9 a.m. Pacific**; financial records stay private. This is a scheduled task, not a guarantee of earnings or paid-out profit.
 
-Every output is 720 × 1280, H.264, 30 fps, with audio removed. The foreground retains the whole source frame over a blurred background. Captions are burned into the video.
+Every output is 720 × 1280, H.264, 30 fps, with audio removed. Landscape sources retain the whole frame over a blurred background. Sources already at 9:16 can use `layout: portrait` to fill the video without artificial side panels. Captions are burned into the video.
 
 ## Publishing status
 

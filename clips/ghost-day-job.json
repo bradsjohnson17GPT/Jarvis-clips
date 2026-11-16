@@ -1,0 +1,48 @@
+{
+  "id": "ghost-day-job",
+  "title": "A ghost got a day job. They offered exposure.",
+  "description": "Original fictional micro stories with a new caption script. Silent comedy: captions carry the story. This is a fictional micro-story, not a real event. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "fictional_punchline",
+  "layout": "portrait",
+  "source": {
+    "page": "https://www.pexels.com/video/close-up-shot-of-a-candle-flame-7034332/",
+    "download": "https://videos.pexels.com/video-files/7034332/7034332-hd_720_1280_25fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "7034332",
+    "creator_credit": "Video by Tima Miroshnichenko on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. The story is explicitly labelled fiction in the on-screen opening. ",
+    "page_sha256": "1fe194a68b8d82c903d56181f8421b5633975f11e825a13e1e2f4a08d5481e66",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "4da4601bc53c4732b6724d5bec2c6ceab64f8803b55f66c8dbc2a1acf8465bf6"
+  },
+  "start": 0,
+  "duration": 16,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "TINY FICTION:\nA GHOST GOT A DAY JOB."
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "IT HAUNTED A CANDLE.\nTHE BOSS LOVED ITS\nWARMTH."
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "THEY OFFERED TO PAY\nIN EXPOSURE."
+    },
+    {
+      "start": 12.0,
+      "end": 16.0,
+      "text": "IT WAS ALREADY\nTRANSPARENT."
+    }
+  ]
+}

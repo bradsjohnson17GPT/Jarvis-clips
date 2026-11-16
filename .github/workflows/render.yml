@@ -6,6 +6,7 @@ on:
     paths:
       - scripts/**
       - clips/**
+      - batches/**
       - tests/**
       - .github/workflows/render.yml
 
@@ -32,12 +33,17 @@ jobs:
         run: |
           python3 - <<'PY'
           import subprocess
+          import json
           from pathlib import Path
-          manifests = sorted(Path('clips').glob('*.json'))
-          if not manifests or len(manifests) > 10:
+          batch = Path('batches/current.json')
+          manifests = json.loads(batch.read_text())['manifests'] if batch.exists() else [str(p) for p in sorted(Path('clips').glob('*.json'))]
+          if not manifests or len(manifests) > 10 or len(set(manifests)) != len(manifests):
               raise SystemExit('Provide between one and ten independently reviewed clip manifests.')
           for manifest in manifests:
-              subprocess.run(['python3', 'scripts/render.py', str(manifest)], check=True)
+              path = Path(manifest).resolve()
+              if not path.is_relative_to(Path('clips').resolve()) or path.suffix != '.json' or not path.is_file():
+                  raise SystemExit('Every batch manifest must be a JSON file under clips/.')
+              subprocess.run(['python3', 'scripts/render.py', str(path)], check=True)
           PY
       - name: Save downloadable videos and source records
         uses: actions/upload-artifact@v4

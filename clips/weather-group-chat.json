@@ -1,0 +1,48 @@
+{
+  "id": "weather-group-chat",
+  "title": "The weather app and the sky are in different group chats",
+  "description": "Original everyday humor with a new caption script. Silent comedy: captions carry the story. #Shorts #Comedy",
+  "audience": "not_made_for_kids",
+  "content_type": "everyday_humor",
+  "hook_type": "dialogue_escalation",
+  "layout": "fit",
+  "source": {
+    "page": "https://www.pexels.com/video/rain-water-on-a-window-2094757/",
+    "download": "https://videos.pexels.com/video-files/2094757/2094757-hd_1280_720_30fps.mp4",
+    "license": "https://www.pexels.com/license/",
+    "license_name": "Pexels License",
+    "source_id": "2094757",
+    "creator_credit": "Video by Nino Souza on Pexels",
+    "rights_verified": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project assistant",
+    "rights_note": "Pexels source page and Pexels License reviewed on 2026-11-16. Commercial use and editing are permitted subject to license restrictions. Original source audio is removed; no endorsements are implied. Caption script is original. ",
+    "page_sha256": "0b52d8bee77fc44ac0f084d7747e2b093a40c066e4952a98f5a0764e8f3f0fe9",
+    "license_snapshot_sha256": "589b4f4262a89e38e8a4d26f11ffadf0bb428568cd7dc21b085e0dff5c37c9fa",
+    "reviewed_source_sha256": "f42b32eb601826445fa109258deefdc01aaa19e76f2235985a1fce620e1d58ec"
+  },
+  "start": 0,
+  "duration": 16,
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "MY WEATHER APP:\n'10% CHANCE OF RAIN.'"
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "THE SKY:\n'I LIKE THOSE ODDS.'"
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "ME, WITHOUT AN\nUMBRELLA:\nWHY AM I IN THE TRAILER?"
+    },
+    {
+      "start": 12.0,
+      "end": 16.0,
+      "text": "MONDAY: NOW\nSTREAMING.\nON MY GLASSES."
+    }
+  ]
+}
