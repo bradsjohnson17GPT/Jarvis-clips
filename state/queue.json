@@ -2267,6 +2267,47 @@
       },
       "confirmed_publication_day": "2026-11-16",
       "confirmed_publication_day_basis": "Publisher completed timestamp converted to America/Los_Angeles; exact YouTube publishedAt not supplied."
+    },
+    {
+      "clip_id": "before-the-first-step",
+      "title": "Before the First Step | JFK Motivation",
+      "status": "direct_draft_ready_required_approval",
+      "scheduler": "vidIQ direct YouTube",
+      "provider": "youtube",
+      "provider_status": "draft",
+      "publication_date": null,
+      "actual_publication_date": null,
+      "public_url": null,
+      "content_type": "motivational",
+      "hook_type": "historical_promise_to_action",
+      "duration": 25.871,
+      "source_id": "original-six-shot-jfk-nasa-editorial",
+      "video_sha256": "b58abe2690d7048f0bd2519ed79c33c67bda219819a1d32b8bfb8b13b59b5927",
+      "media_path": "media/quality/before-the-first-step.mp4",
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/cc318cd9996b027074ac3624adeb38321873eb40/media/quality/before-the-first-step.mp4",
+      "source_metadata_path": "media/quality/before-the-first-step-source.json",
+      "qa_path": "media/quality/before-the-first-step.qa.json",
+      "audio_version": "authentic-jfk-kokoro-ducked-ccby-score-original-impacts-v1",
+      "audio_verification": {
+        "stereo_aac": true,
+        "sample_rate": 48000,
+        "integrated_lufs": -16.01,
+        "true_peak_dbtp": -3.81,
+        "full_decode": true,
+        "full_mixed_spoken_text_matches": true,
+        "imported_bytes_match": true
+      },
+      "audience_review": {
+        "made_for_kids": false,
+        "basis": "General teen/adult historical reflection and personal-project motivation, not child-directed content."
+      },
+      "music_attribution_in_description": true,
+      "do_not_duplicate_draft": true,
+      "direct_draft_record": "work/quality/motivational-direct-draft.json",
+      "draft_ready": true,
+      "owner_approved_this_final_draft": false,
+      "publication_evidence": null,
+      "evidence": "Final local/public/vidIQ imported MP4 bytes agree. The free direct post draft is ready, with no scheduled time and no publication. It is awaiting the connector-required approval after the prepared final version is shown."
     }
   ]
 }

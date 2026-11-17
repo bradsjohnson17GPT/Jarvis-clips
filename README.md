@@ -8,6 +8,8 @@ Original portrait stories and motivational editorial Shorts, with source-specifi
 
 The earlier Metricool attempt failed at its account limit. That duplicate remains held, with automatic publication disabled, alongside 29 rejected old drafts. A draft save does not establish publication. Never reactivate these videos or publish the revised pilot again. `state/queue.json` and `state/ready-candidates.json` contain sanitized durable evidence; API receipts remain private in ignored `work/`.
 
+Next inspected motivational preview: [Before the First Step — watch with sound](https://share.descript.com/view/9qEENGNf6Ix). One direct YouTube draft is ready, awaiting its connector-required final-draft approval; it is not scheduled or published. [Exact description and credits](docs/production/before-the-first-step-description.md).
+
 ## Quality and selection
 
 The owner rejected the old stock-card format and robotic Piper delivery. Comedy is optional. Use [the quality direction](docs/quality.md), [quality configuration](config/quality.json) and [current strategy](config/strategy.json). Fixed category quotas and old bulk scheduling remain disabled. Prioritize formats supported by dated view evidence and actual structural analysis, then create original stories and commentary from cleared assets. Competitor views indicate audience interest, not guaranteed results, commercial reuse rights or monetization eligibility.

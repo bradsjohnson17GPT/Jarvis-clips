@@ -12,6 +12,15 @@ spec.loader.exec_module(experiments)
 class ExperimentChecks(unittest.TestCase):
     def setUp(self):
         self.config = json.loads((ROOT / "config/strategy.json").read_text())
+        # Existing allocation arithmetic remains reproducible for the archived experiment.
+        self.config["fixed_type_quotas_suspended"] = False
+
+    def test_live_quality_strategy_never_refills_category_quotas(self):
+        current = json.loads((ROOT / "config/strategy.json").read_text())
+        for rows in ([], self.observations()):
+            result = experiments.plan(current, rows)
+            self.assertEqual(result["mode"], "quality_review")
+            self.assertEqual(result["daily_slots"], {})
 
     def observations(self):
         return [

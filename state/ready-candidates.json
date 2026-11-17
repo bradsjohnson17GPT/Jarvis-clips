@@ -65,6 +65,24 @@
         "private_draft_record": "work/quality/direct-pilot-draft.json",
         "workflow_requirement": "Owner approved the prepared draft and the direct publisher confirmed completed with a public URL."
       }
+    },
+    {
+      "clip_id": "before-the-first-step",
+      "status": "direct_draft_ready_required_approval",
+      "manifest": "stories/before-the-first-step.json",
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/cc318cd9996b027074ac3624adeb38321873eb40/media/quality/before-the-first-step.mp4",
+      "video_sha256": "b58abe2690d7048f0bd2519ed79c33c67bda219819a1d32b8bfb8b13b59b5927",
+      "bytes": 10409681,
+      "http_status": 200,
+      "raw_bytes_match_inspected_file": true,
+      "direct_import_bytes_match": true,
+      "verified_at_utc": "2026-11-17T07:14:05.554909+00:00",
+      "qa_path": "media/quality/before-the-first-step.qa.json",
+      "source_path": "media/quality/before-the-first-step-source.json",
+      "preview_url": "https://share.descript.com/view/9qEENGNf6Ix",
+      "publication_actor": "production",
+      "publication_evidence": null,
+      "instructions": "Exactly one ready direct draft exists in ignored work/quality/motivational-direct-draft.json. The connector explicitly requires approval after showing this prepared version. Do not publish before that reply, call it scheduled, duplicate its draft, recreate it or reactivate old media. Full title/description/tags/privacy are in the manifest; credits=0, plan=publish on approval, not scheduled."
     }
   ]
 }

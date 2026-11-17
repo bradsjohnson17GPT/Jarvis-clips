@@ -1,7 +1,7 @@
 {
   "id": "before-the-first-step",
   "title": "Before the First Step | JFK Motivation",
-  "status": "inspected_preview_preparing_direct_draft",
+  "status": "direct_draft_ready_required_approval",
   "content_type": "motivational",
   "hook_type": "historical_promise_to_action",
   "narration": "Before the first footprint, there was a promise. Seven years later, people walked on the Moon. Years of engineering, training and tests stood between those moments. Your next step can be smaller. Choose the project you keep postponing. Set a timer. Start the part you can finish today. Tomorrow, build from there.",
@@ -62,5 +62,9 @@
   "audio_version": "authentic-jfk-kokoro-ducked-ccby-score-original-impacts-v1",
   "publication_evidence": null,
   "research_basis": "docs/trends/2026-11-16-motivation-format-evidence.md",
-  "preview_url": "https://share.descript.com/view/9qEENGNf6Ix"
+  "preview_url": "https://share.descript.com/view/9qEENGNf6Ix",
+  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/cc318cd9996b027074ac3624adeb38321873eb40/media/quality/before-the-first-step.mp4",
+  "public_host_bytes_verified": true,
+  "imported_bytes_match": true,
+  "direct_draft_record": "work/quality/motivational-direct-draft.json"
 }

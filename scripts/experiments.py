@@ -54,6 +54,14 @@ def plan(config, observations):
     ranking.sort(key=lambda r: tuple(r[k] if r[k] is not None else -1 for k in config["ranking"]), reverse=True)
     qualified = all(len(rows) >= minimum for rows in groups.values())
     enough_signal = qualified and ranking[0]["median_views"] > 0
+    if config.get("fixed_type_quotas_suspended"):
+        return {
+            "mode": "quality_review",
+            "reason": "Fixed category quotas are suspended; select inspected originals using dated format evidence.",
+            "daily_slots": {},
+            "ranking": ranking,
+            "note": "Observations remain descriptive. No slot recommendation or publishing authorization is created."
+        }
     if enough_signal:
         winner_slots = config["adaptive_winner_slots"]
         slots = {r["content_type"]: (winner_slots[i] if i < len(winner_slots) else config["adaptive_exploration_slots_per_other_type"]) for i, r in enumerate(ranking)}

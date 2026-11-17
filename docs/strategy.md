@@ -1,75 +1,35 @@
-# Content experiments and reporting
+# Content selection and reporting
 
-> Latest owner override: quality reset is active. Read [quality.md](quality.md) and config/quality.json first. Comedy is optional, the former narrator is retired, all thirty unpublished legacy posts are held as drafts, and twenty per day is only a ceiling. The historical allocations below do not authorize resuming the rejected batch.
+The owner prioritizes high-quality original videos in formats supported by dated view research. Comedy is optional. The old stock-card format and Piper narrator are retired. All 29 rejected old videos and the failed Metricool copy of the revised pilot remain held. Fixed category quotas and bulk scheduling are suspended; do not refill them from the older allocation configuration.
 
-The owner authorizes routine research, editing, posting, scheduling, code changes, and adjustment without repeated confirmation. Work through actual connected tools and permissions. Record a blocked operation accurately; permission does not grant missing account access or continuous runtime. Send concise morning and afternoon progress updates under the latest owner request; keep the daily money report focused on earnings.
+## Select and inspect
 
-## Initial test
+Read `config/quality.json`, `docs/quality.md`, `config/strategy.json`, `state/format-shortlist.json` and the actual queue. Shortlist formats using dated primary counters where available and clearly attributed third-party evidence otherwise. Distinguish actual video/audio analysis, sampled frames, transcript-only and metadata-only observations. A historical lifetime counter is not a current hourly velocity or first-day result. Unverified charts are leads, not a platform-wide best-video ranking. Paid vidIQ research is paused at zero; no purchases or top-ups.
 
-Aim for twenty distinct, inspected Shorts per day across five types, initially four each:
+The current small motivational pilot draws on documented broad category interest and completed structural analyses of the owner's examples. Its authentic historical sources, original commentary and music are individually reviewed. This does not establish a winning historical subformat or promise comparable views. Do not copy an unlicensed creator's footage, speech, music, branding or script. No current/live streamer source has been commercially cleared; public viewing or a clip button does not establish rights. Famous-person historical use needs its actual source-specific basis, authentic context and no false endorsement or cloned speech.
 
-| Type | Format |
-| --- | --- |
-| animal_pov | Original animal point-of-view comedy |
-| workplace_comedy | Office and work jokes, including the first spreadsheet Short |
-| everyday_humor | Relatable everyday-life situations and original observations |
-| visual_surprises | Satisfying or surprising visuals with an original hook and payoff |
-| fictional_micro_stories | Short original fictional stories, clearly presented as fiction |
+New videos need a clear opening, visible action or narrative progression, readable portrait framing, continuous natural speech or cleared authentic recording, speech-timed captions, licensed music below the voice, relevant effects and a payoff. Inspect actual frames/cuts and the soundtrack's content/timing, stereo AAC, full decode, loudness and headroom. Technical checks alone do not establish editorial quality. Record any actual listening or source-resolution limitations honestly. Develop a small number of real previews; do not fill a quota with weak or minimally changed media.
 
-Use independently reviewed source footage and original scripts. Do not fill the posting target with nearly identical versions of one clip. Expand formats as well as topics. Rotate posting times so one type is not always assigned the strongest time. Keep the channel aimed at teens and adults; classify every actual video appropriately.
+## Publish without duplicates
 
-Tag each manifest and queue entry with `content_type`, `hook_type`, `duration`, source identity, and actual publication time when known. Scheduled time is not proof of publication. Count previously scheduled/published videos toward the daily target. Never publish the sample again simply because the renderer produced a new artifact.
+Production is the sole publisher and checks every twenty minutes through day/night, using America/Los_Angeles dates. At least twenty minutes must separate new qualified posts. Twenty distinct videos per Pacific date is a ceiling, not a quota. Keep at most 48 hours ahead queued. Recurring checks do not guarantee continuous runtime or an upload each interval.
 
-## Measure before adjusting
+Acquire the shared task-owned production lock, synchronize without overwriting user work, and refresh repository plus actual connected-service state before mutation. Count already confirmed published and genuinely scheduled videos on the applicable Pacific date. An undated draft is not scheduled. Use clip identity, reviewed source identity and final video hashes to avoid duplication. Preserve already-live videos and hold rejected media.
 
-Capture timestamped per-video analytics with actual publication time, collection time, views, duration, average view duration, shares, and the available collection window. Keep snapshots in ignored `work/analytics/`, not the public repository. A daily analytics range is not necessarily a video's lifetime total: label the exact window and never mix measurement scopes.
+Direct vidIQ publication of the revised Downward Beacon pilot is confirmed at https://www.youtube.com/watch?v=hAfkI0Tg5R4 . Its publisher completion was November 16 at 10:26 p.m. Pacific; exact YouTube publishedAt was not supplied. The earlier Metricool attempt failed with an account limit and remains held. Direct success does not restore Metricool. Read current durable records rather than retrying that clip/hash.
 
-Compare videos at 48-54 hours old using the same measurement scope. Do not describe a lifetime counter as first-day views. The analysis script accepts observations already normalized to comparable cumulative-to-snapshot views. If the API only returns a selected date-range count, normalize it with correctly dated snapshots first or wait for comparable data. Do not fabricate a missing metric.
+Follow the actual supported connector workflow. The direct draft tool requires showing the prepared target, final text/media, planned time and credit cost, then waiting for approval of that version before publishing. Earlier generic posting instructions are not the exact-draft reply required by that tool. Reuse the same draft/revision after approval; do not create another. Report scheduled separately from completed publication and public URL. Store raw receipts, account details, signed URLs and private draft identifiers only under ignored `work/`.
 
-Use `scripts/experiments.py` to propose an allocation. It ignores incomplete/invalid observations, keeps one qualifying observation per distinct clip, and requires at least three distinct qualifying clips for every type. Start balanced while data is insufficient. Compare median views; use average view duration divided by clip length and shares per thousand views as secondary evidence when available. Loops may produce a duration fraction above one.
+## Measure before adapting
 
-Once enough comparable evidence exists, allocate ten slots to the leading type, four to the next, and two to each other type. This preserves six exploration slots. Rankings are provisional observations, not causal proof or a guarantee of more views. Reevaluate as new data arrives; keep historical snapshots so late API corrections and changes in audience can be detected. If measurements are stale or evidence is no longer comparable, return to balanced testing rather than claiming a current winner.
+Capture timestamped per-video snapshots privately under `work/analytics/`: actual publication evidence/time when supplied, collection time, exact observation window, views, duration, average view duration and shares when available. A date-range API count is not necessarily lifetime views. Never invent missing metrics or label a lifetime total as first-day views. Keep silent/old-format posts separate from the new audio/visual format and separate account publication failures from weak performance.
 
-```sh
-python3 scripts/experiments.py
-python3 scripts/experiments.py --observations work/analytics/comparable-observations.json
-```
+Compare clips at 48–54 hours with the same measurement scope, choosing one snapshot per distinct clip nearest the common age. Require at least three distinct comparable mature clips in each type being compared. Use median views; retention as average view duration divided by clip length and shares per thousand views are secondary evidence. Loops can produce retention fractions above one. One viral outlier does not establish a causal winner. Preserve history for source corrections and changing audiences.
 
-Normalized observations are a JSON array. Each object uses `clip_id`, `content_type`, `age_hours`, and `views`; optional fields are `duration_seconds`, `average_view_duration_seconds`, and `shares`. Include actual source windows and timestamps in the private raw snapshot records used to create that array. Never count the same clip multiple times because multiple snapshots exist.
+`scripts/experiments.py` retains descriptive comparable-age rankings. With the current suspended-quota configuration it returns no daily category slots, even when observations are mature. Historical allocation arithmetic is retained only for reproducibility. Future expansion needs actual quality-ready clips and supported view evidence, not an automatic reset to category quotas.
 
-## Daily money report
+## Reports and scope
 
-A separate chat task runs at **9 a.m. America/Los_Angeles**, using `exact_schedule`. Production checks run around midnight, 4 a.m., 8 a.m., noon, 4 p.m., and 8 p.m.; task runs do not guarantee continuous all-day or overnight work. The 9 a.m. report should contain only the previous complete day's reported estimated revenue and a brief source delay/access note when necessary.
+Send one concise progress update in morning and afternoon production runs around 08:00 and 16:00 Pacific: confirmed published/pending counts, meaningful completed work and a material blocker. Deduplicate daypart updates. Other routine successful runs finish NO_UPDATE. An active owner conversation can receive meaningful work updates. Keep the business focused on quality content posting; no editing-service marketing, product shops, creator outreach or unsolicited Slack messages.
 
-Use the connected YouTube channel's nondeprecated channel-level revenue metric (currently `YTEV03`) from Metricool. Request revenue by itself and inspect the returned dates. Do not sum a channel total with per-video amounts or infer money from views. If yesterday is missing, check up to seven earlier days and label the latest available period. Missing data is **unavailable**, not zero. A numeric zero is valid only when the source returns it explicitly for that day. Verify currency; do not invent a dollar denomination when the source provides none.
-
-YouTube analytics revenue is a platform estimate, not a bank payout or net profit. Report actual payments only with payment evidence. Deduct costs only if verified cost records exist; do not claim unverified profit. Do not publish financial data or personal account identifiers to this public repository. Store snapshots in ignored `work/reports/` or `work/analytics/` and deliver the report in the private chat.
-
-
-## Audio standard
-
-The user requested audio on November 16. New posts require timed narration, original or independently licensed quiet music, and appropriate original effects; see `docs/audio.md`. Record the audio version with each queue entry and performance snapshot so a silent legacy post is not treated as a fully comparable audio-format sample. Never republish an already-live clip solely to add sound.
-
-## Trend scout and faster posting
-
-The user requested funnier, timely content and more frequent posts. The daily target is now 20. A normal full-day schedule starts at 8 a.m. Pacific with 40-minute intervals, finishing at 8:40 p.m. Existing scheduled times may be retained while open gaps are filled, maintaining at least 25 minutes between posts and at most 20 total per Pacific date. Today's original ten keep their existing times.
-
-The recurring trend scout checks around 5 a.m., 11 a.m., and 5 p.m., using `agents/trend-scout.md` and `config/trends.json`. Production consumes `state/trend-brief.json`, uses independently licensed footage and original scripts/audio, and prioritizes a visible setup, complication, and payoff. Midday/evening production can fill unused daily slots or replace up to four pending trend-test slots per day, at least 30 minutes before their posting time, without increasing the daily total. Only production publishes. Record trend references and audio versions alongside the content type, while keeping financial and account analytics private. Never call a video watched from title metadata alone.
-
-## Day and night work and progress
-
-The owner now requests work across the day and night, plus progress updates. Production is scheduled approximately every four hours, including overnight, while the scout retains three daily research checks. When today's twenty slots are filled, prepare tomorrow's reviewed originals and investigate confirmed publication failures; queue at most 48 hours ahead and preserve the per-date cap. Send concise progress updates after morning and afternoon runs, with confirmed published/pending counts, meaningful completed work, and any actual blocker. Other routine successful runs end with NO_UPDATE. Keep the separate 9 a.m. earnings report unchanged. Scheduled runs do not prove continuous runtime, sales, or profit.
-
-## Current scope and examples
-
-The owner narrowed the business to posting quality content on November 16. Do not develop editing services or digital-product shops. Preserve private prototypes without further work. Analyze examples the owner supplies using actual available video, transcript, and audio tools, labelling the analysis method. Extract readable hooks, concrete action, pacing and a specific comic payoff; use original scripts and independently reviewed footage/audio for adaptations. If no strong publishable clip is ready, record a shortfall rather than filling the target with weak or duplicated material.
-
-## Streamer and gaming priority
-
-The owner supplied a Minecraft rescue highlight and requested streamer clips plus GTA VI launch coverage. Prioritize this research under agents/streamer-scout.md and config/streamers.json. Actual creator, game, audio and platform permissions remain necessary for this commercial project. Public VOD analysis is supported; Twitch login and continuous live viewing are not established. No current/live streamer source is cleared yet. Once a real source is cleared, prepare up to four gaming pilot slots within the existing daily cap, truthfully labelled gaming_highlights, revising allocation configuration before activating the sixth type. Recheck actual scheduled posts and preserve live posts. Quality and real editorial value matter more than target volume.
-
-## Motivational and famous-person Shorts
-
-Latest owner requests add motivational Shorts with energetic music and examples BsblgcBB17A, AXa7gKstItw and LoLV_JkPkHs, plus recognizable people where footage is usable. All three supplied examples received completed video/audio analyses. Their dialogue, voices, footage and music remain reference material, not licensed production assets. Follow config/motivation.json. Make original commentary, individually review any historical/famous-person source, and keep music credits in the published description. Do not infer endorsement or clone a real speaker.
-
-The active experiment now has six types. Tomorrow's initial twenty slots are four animal POV, four workplace, two everyday, four visual surprises, four fictional micro-stories, and two motivational. Existing fully queued days can retain their prior allocation except for up to four authorized pending replacements. Once every active type has at least three comparable mature clips, the twenty-slot adaptive plan becomes eight for the strongest, four for the next, and two for each of the other four. This preserves eight exploration slots. New motivation examples are not evidence of a performance winner. The configuration supersedes the older five-type allocation above.
+A separate task runs at exactly 09:00 Pacific. Report only the previous complete calendar day's platform-reported estimated revenue plus a brief lag/access note. Discover the current nondeprecated Metricool catalog; channel-level revenue is currently YTEV03 and must be requested alone. Read actual dates, look back up to seven days when yesterday is unavailable, and label the latest available period honestly. Missing data is unavailable, not zero. Use zero only when explicitly returned and verify currency. Do not infer money from views or add overlapping revenue totals. Estimated revenue is not a bank payout or profit. Store all financial snapshots privately under ignored `work/reports/` or `work/analytics/`; never publish personal identifiers or finances in this repository.
