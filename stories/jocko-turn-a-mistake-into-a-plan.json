@@ -1,7 +1,7 @@
 {
   "id": "jocko-turn-a-mistake-into-a-plan",
   "title": "Turn a Mistake Into a Plan | Jocko Willink",
-  "status": "inspected_ready_for_supported_publication",
+  "status": "direct_draft_awaiting_required_approval",
   "content_type": "motivational",
   "hook_type": "authentic_ownership_quote_and_visible_plan",
   "person": "Jocko Willink",
@@ -60,5 +60,55 @@
   "duration_seconds": 18.266667,
   "audio_version": "authentic-jocko-kokoro-commentary-licensed-score-v1",
   "publication_evidence": null,
-  "research_basis": "docs/trends/2026-11-16-jocko-goggins-source-review.md"
+  "research_basis": "docs/trends/2026-11-16-jocko-goggins-source-review.md",
+  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
+  "public_host_bytes_verified": true,
+  "direct_draft_evidence": {
+    "publisher": "vidIQ direct YouTube",
+    "status": "draft",
+    "draft_ready": true,
+    "publish_at": null,
+    "public_url": null,
+    "publication_confirmed": false,
+    "publishing_credits": 0,
+    "private_draft_record": "work/quality/jocko-direct-draft.json",
+    "exact_imported_bytes_match": true,
+    "approval_required_by": "vidiq_social_post_draft_create returned next instruction",
+    "approved_after_showing_this_draft": false,
+    "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled."
+  },
+  "publication_failure_history": [
+    {
+      "scheduled_for": "2026-11-17T00:30:00-08:00",
+      "observed_at_utc": "2026-11-17T08:31:09Z",
+      "provider_status": "ERROR",
+      "message": "You have reached your Metricool account limit.",
+      "publication_confirmed": false
+    }
+  ],
+  "metricool_holding_evidence": {
+    "draft": true,
+    "auto_publish": false,
+    "uuid_retained": true,
+    "current_provider_status": "PENDING",
+    "private_record": "work/quality/jocko-metricool-held.json",
+    "verified_at_utc": "2026-11-17T08:35:05.963646+00:00",
+    "evidence": "Failed copy held after actual publication ERROR. Provider status reset to PENDING by draft save; no publication is inferred."
+  },
+  "scheduling_history": [
+    {
+      "scheduler": "Metricool",
+      "status": "scheduled_pending",
+      "scheduled_for": "2026-11-17T00:30:00-08:00",
+      "timezone": "America/Los_Angeles",
+      "provider_status": "PENDING",
+      "draft": false,
+      "auto_publish": true,
+      "verified_at_utc": "2026-11-17T08:28:08.914738+00:00",
+      "imported_bytes_match": true,
+      "publication_confirmed": false,
+      "public_url": null,
+      "evidence": "A single new reviewed pilot was accepted for scheduling and exact imported MP4 bytes matched. Pending scheduling does not establish publication or recovery from the earlier account limit."
+    }
+  ]
 }

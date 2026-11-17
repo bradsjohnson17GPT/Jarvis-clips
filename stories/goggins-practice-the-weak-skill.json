@@ -1,7 +1,7 @@
 {
   "id": "goggins-practice-the-weak-skill",
   "title": "Practice the Skill You Avoid | David Goggins Commentary",
-  "status": "inspected_ready_for_supported_publication",
+  "status": "direct_draft_awaiting_required_approval",
   "content_type": "motivational",
   "hook_type": "attributed_discipline_with_specific_practice",
   "person": "David Goggins",
@@ -51,5 +51,21 @@
   "duration_seconds": 19.026,
   "audio_version": "kokoro-commentary-licensed-score-no-source-audio-v1",
   "publication_evidence": null,
-  "research_basis": "docs/trends/2026-11-16-jocko-goggins-source-review.md"
+  "research_basis": "docs/trends/2026-11-16-jocko-goggins-source-review.md",
+  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/goggins-practice-the-weak-skill.mp4",
+  "public_host_bytes_verified": true,
+  "direct_draft_evidence": {
+    "publisher": "vidIQ direct YouTube",
+    "status": "draft",
+    "draft_ready": true,
+    "publish_at": null,
+    "public_url": null,
+    "publication_confirmed": false,
+    "publishing_credits": 0,
+    "private_draft_record": "work/quality/goggins-direct-draft.json",
+    "exact_imported_bytes_match": true,
+    "approval_required_by": "vidiq_social_post_draft_create returned next instruction",
+    "approved_after_showing_this_draft": false,
+    "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled."
+  }
 }

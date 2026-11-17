@@ -38,8 +38,9 @@
     "use a genuinely new reviewed story and media hash; never reactivate rejected media",
     "attempt only a supported authorized route and record the actual result"
   ],
-  "metricool_route_blocker": "You have reached your Metricool account limit. Failed copy remains held; direct success does not restore Metricool.",
+  "metricool_route_blocker": "You have reached your Metricool account limit. Reconfirmed on the new Jocko pilot November17 at00:30Pacific; failed copy held. Do not schedule more into this blocked route without evidence of recovery.",
   "working_publication_route": "vidIQ direct YouTube verified by completed publication and public URL; obey any exact-draft approval workflow returned by the connector.",
   "format_selection_requirement": "Use dated observed view evidence and actual reference structure analysis to shortlist formats; no guaranteed outcomes, no copying unlicensed works, no volume padding.",
-  "connected_editing_workflow": "Descript connected; use for source assembly, caption/pacing and sound edits within existing access. Higgsfield tools not yet available as of this run."
+  "connected_editing_workflow": "Descript connected; use for source assembly, caption/pacing and sound edits within existing access. Higgsfield tools not yet available as of this run.",
+  "prepared_direct_drafts": "Two reviewed Jocko/Goggins drafts are ready; the actual direct connector requires owner approval after showing these exact versions. Read state/ready-candidates.json and private draft records; do not recreate."
 }

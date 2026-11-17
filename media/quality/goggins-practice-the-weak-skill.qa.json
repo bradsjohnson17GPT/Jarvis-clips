@@ -30,7 +30,7 @@
     "true_peak_dbtp": -3.82,
     "full_decode_passed": true,
     "full_encoded_spoken_text_matches_actual_master_and_retained_quote": true,
-    "caption_basis": "Actual stock narration ASR plus authentic source quote word timing, offset with the exact edit; normalized encoded full-mix transcript matches all words.",
+    "caption_basis": "Actual generic stock-narration word timestamps offset to the finished edit; normalized full encoded-mix ASR matches all 44 narrated words. No authentic source speech is retained.",
     "source_audio_used": false
   },
   "visual_inspection": {
@@ -47,7 +47,7 @@
       "Actual speech content/timing and technical sound checks passed; no subjective audio audition or guaranteed perfect voice claim.",
       "Government source conditions/nonendorsement notice remain visible, and the originals are not proof of channel performance."
     ],
-    "logo_note": "Military background marks excluded by crop; the personal-company shirt mark is incidental. Retouching streaks were removed by using the genuine unaltered shirt image."
+    "logo_note": "Final selected crop windows retain the full face and relevant athletic action; no logo retouching was applied."
   },
   "music_attribution_in_description": true,
   "publication_evidence": null

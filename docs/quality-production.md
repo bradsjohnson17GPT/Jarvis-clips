@@ -2,7 +2,7 @@
 
 The quality reset retires the old stock-card pipeline for new posts. Its validation and reproduction functions remain available for the archive. Both legacy CLIs now refuse a normal render during this reset; `--legacy-reproduction` is only for reproducing an archived file. The CI workflow runs safeguards without regenerating the rejected batch.
 
-The new pilot is `stories/downward-beacon.json`: an original fantasy story with a consistent courier, floating-town environment, a physical clue, a mechanical action and an answering light. Its camera sequence and animation are being built as actual original Blender geometry, not copied game footage or a slideshow. Reference analyses are in docs/trends/. No source rights are inferred from a tutorial's success or public viewing.
+The new pilot is `stories/downward-beacon.json`: an original fantasy story with a consistent courier, floating-town environment, a physical clue, a mechanical action and an answering light. Its finished camera sequence and animation use original Blender geometry. The reviewed pilot is already published; never render or publish a duplicate as new work. Reference analyses are in docs/trends/. No source rights are inferred from a tutorial's success or public viewing.
 
 `config/natural-voice.json` pins the reviewed Kokoro ONNX model and generic stock voice pack by SHA-256. Runtime MIT and first-party model Apache-2.0 metadata and commercial-use statement were reviewed. The weights are downloaded into task-owned local storage, never committed. Use requirements-quality.txt in a task-owned virtual environment. The old Piper model is retained solely for archive reproduction.
 
