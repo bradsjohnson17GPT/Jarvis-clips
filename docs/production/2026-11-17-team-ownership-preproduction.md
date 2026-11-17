@@ -1,6 +1,6 @@
 # Team ownership — original scene preparation
 
-Status: script and storyboard preparation only. No animation, new narration take, final movie, ready candidate, service draft, scheduled post or publication exists for this concept. Working identity: `jocko-give-the-team-the-plan`. The two existing male-voice pilots remain unchanged.
+Status: original script, storyboard and measured audio preflight only. A new male commentary take and mixed audio exist; no animation, final movie, ready candidate, service draft, scheduled post or publication exists for this concept. Working identity: `jocko-give-the-team-the-plan`. The two existing male-voice pilots remain unchanged.
 
 ## Story and spoken copy
 
@@ -18,7 +18,7 @@ Original male commentary, resolution:
 
 > Agree on the goal and the deadline, and hand the marker back. Let them build the next version.
 
-This copy is a development draft. The 6.8-second source cut has been decoded and separately transcribed; new narration has not been recorded or timed, so no total runtime is claimed. Preserve the continuous authentic statement and its context; do not assemble a fake sentence from unrelated answers. The source transcript's broader 235–293-second answer explicitly discusses giving people control of planning.
+This copy is a development draft. The 6.8-second source cut has been decoded and separately transcribed. The new male commentary has now been synthesized and timed; narration alone is 14.2693 seconds and the audio assembly is 21.0693 seconds. This is audio timing, not a finished video duration. Preserve the continuous authentic statement and its context; do not assemble a fake sentence from unrelated answers. The source transcript's broader 235–293-second answer explicitly discusses giving people control of planning.
 
 ## Planned picture and sound
 
@@ -38,8 +38,8 @@ No original characters, room geometry or animation exist yet. Do not substitute 
 - The newly selected raw speech interval is 279.10–285.90 seconds, distinct from the existing pilot's 61.40–71.45-second extracts. Decoded mono audition audio is exactly 6.8 seconds, SHA-256 `c9d016d67077f51089c8b7dc89bfa9d1f7246af9e06a434bdb446369313a093d`.
 - Fresh full-cut ASR agrees with the prospective quoted statement. Local classifier speech mean was 0.9916; Music mean/max were 0.0. This supports quiet-speech selection, not proof of copyright, absence of all background sound or subjective listening. The actual frame at source second 281 was inspected and shows Jocko speaking in the known interview setting. Continuous video watching or subjective audio audition is not claimed.
 - Raw cut, frame and analysis remain private in ignored `work/preproduction/jocko-give-the-team-the-plan/`. They are source preparation, not a publishable clip.
-- Original commentary should use `config/motivational-voice.json`, generic adult male `am_michael`; no celebrity imitation. New caption and cut timing must come from the actual new recording.
-- Use only hash-verified reviewed music from `config/licensed-music.json`. Exact composer credit, track source, CC BY 4.0 link and trimming/mixing changes must accompany any eventual description. No specific soundtrack has been assembled yet.
+- Original commentary should use `config/motivational-voice.json`, generic adult male `am_michael`; no celebrity imitation. The actual new recording now supplies word timing for the planned captions and cuts.
+- Use only hash-verified reviewed music from `config/licensed-music.json`. Exact composer credit, track source, CC BY 4.0 link and trimming/mixing changes must accompany any eventual description. The engineering preflight now uses the reviewed Ascension excerpt from second 122, faded and strongly ducked beneath speech, with quiet original marker-stroke/cap effects. Preserve the exact required artist credit, source, license and changes in any eventual publication.
 
 Any finished use must preserve source/producer/date context, privacy/publicity and third-party limits, no endorsement, and this required notice:
 
@@ -49,6 +49,14 @@ Any finished use must preserve source/producer/date context, privacy/publicity a
 
 The format uses existing broad motivational-interest evidence and completed reference analyses for a concrete situation, meaningful cut and visible payoff. It is an original development idea, not a current trend, best-performing Short, analytics winner or guaranteed source of views. Do not expand category quotas from it.
 
-Before it could become a ready candidate: build and inspect the actual consistent characters and actions; check the entire historical source crop and speech edges; record the new male take; caption the actual speech; mix cleared music/effects; review final picture/cuts, intelligibility, stereo AAC, decode and encoded levels; and write final source/QA records. No extra owner permission is needed for this independent work. Publication uses a supported authorized route and the actual connector's flow, with fresh queue/deduplication checks. Do not alter the two pending exact drafts or retry the confirmed Metricool account limit.
+Before it could become a ready candidate: build and inspect the actual consistent characters and actions; check the entire historical source crop and speech edges; reuse the verified new male take and mix unless a material edit requires changes; caption the actual speech; review final picture/cuts, intelligibility, stereo AAC, decode and encoded levels; and write final source/QA records. No extra owner permission is needed for this independent work. Publication uses a supported authorized route and the actual connector's flow, with fresh queue/deduplication checks. Do not alter the two pending exact drafts or retry the confirmed Metricool account limit.
 
-The free vidIQ pre-script guidance call reported zero credits used. No paid research, media generation, purchases or outreach occurred during this preparation.
+The free vidIQ pre-script guidance call reported zero credits used. No paid research, purchased generation, purchases or outreach occurred. Local synthesis and audio assembly were completed in the later audio preflight.
+
+## Actual audio preflight — November 17, 2026
+
+[Sanitized audio/timing record](../../assets/stories/team-ownership/audio-preflight.json). Actual encoded stereo 48 kHz AAC and full decode passed. The full encoded mix ASR matches the planned original commentary plus uninterrupted real interview statement after punctuation normalization. Measured encoded integrated level is −16.13 LUFS, true peak −3.00 dBTP and loudness range 2.70 LU. The AAC file SHA-256 is `fd2d1ce0320a4e9a879b32370cb5750859bc80220214146b70ab2edd4c4d20c1`.
+
+The real statement begins at audio second 7.36. Speech word timing, original marker effect positions and music credit are recorded for later animation. Local dialogue cleanup uses the reviewed mild noise reduction/EQ/compression; clean generic narration uses its separate mild processing chain. No pitch shifting, speaker cloning or copied music occurred. Source and commentary remain distinguishable. ASR/levels do not prove expressive delivery or establish a final editorial quality pass; subjective listening is not claimed.
+
+Raw/clean speech, original effect master, mixed WAV, AAC and private construction receipts remain ignored under `work/preproduction/jocko-give-the-team-the-plan/`. Reuse these exact masters for the next stage rather than synthesizing the same text again. The unfinished soundtrack must never be mistaken for a publishable Short or combined with a placeholder image for upload. The remaining material work is the original consistent room/characters, visible acting/marker handoff, source portrait crop, actual final picture/caption/mix inspection and final source/QA records.

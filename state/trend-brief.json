@@ -249,7 +249,7 @@
     },
     {
       "id": "jocko-give-the-team-the-plan",
-      "status": "script_and_storyboard_preparation_only",
+      "status": "audio_and_storyboard_preparation_only",
       "topic": "Giving a team agency over its plan",
       "content_type": "motivational",
       "reference_use": "Existing reviewed government interview plus planned original fictional room and characters; no private-podcast footage or cloned voice.",
@@ -258,15 +258,19 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10\u2013285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "Source interval decoded/transcribed and one actual frame inspected. No original scene animation, new narration take, completed movie, app draft or post exists.",
+      "production_state": "New generic male commentary and21.0693second audio-only preflight completed with actual timing, encoded ASR/decode/level checks. No original scene animation, completed movie, app draft or post exists.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
       "source_interval_reuses_existing_pilot_words": false,
       "new_scene_assets_created": false,
       "new_video_rendered": false,
-      "prepared_at_utc": "2026-11-17T12:25:37.090642+00:00"
+      "prepared_at_utc": "2026-11-17T12:25:37.090642+00:00",
+      "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
+      "audio_preflight_sha256": "fd2d1ce0320a4e9a879b32370cb5750859bc80220214146b70ab2edd4c4d20c1",
+      "audio_preflight_seconds": 21.069333333333333,
+      "new_narration_recorded": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T12:25:37.090642+00:00"
+  "production_reconciled_at_utc": "2026-11-17T12:47:17.777031+00:00"
 }

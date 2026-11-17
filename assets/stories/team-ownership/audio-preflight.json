@@ -1,0 +1,513 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "status": "audio_only_preflight_not_a_finished_video",
+  "prepared_at_utc": "2026-11-17T12:47:17.777031+00:00",
+  "publishable": false,
+  "has_finished_picture": false,
+  "narration_config": "config/motivational-voice.json",
+  "narrator": "am_michael",
+  "narration_only_seconds": 14.269333333333334,
+  "speech_assembly_seconds": 21.069333333333333,
+  "source_identity": "DVIDS718744 Jocko Willink 2019 government interview",
+  "source_interval_seconds": [
+    279.1,
+    285.9
+  ],
+  "source_insert_seconds": 7.36,
+  "source_policy": "https://www.dvidshub.net/about/copyright",
+  "source_context": "Continuous statement about giving teammates ownership of planning; source-specific factual editorial use, not partnership or endorsement.",
+  "aac_sha256": "fd2d1ce0320a4e9a879b32370cb5750859bc80220214146b70ab2edd4c4d20c1",
+  "master_sha256": "f3f989bb5e36217b053e451d34e6628764e69b5210b3f635c1996045813e6124",
+  "commentary_master_sha256": "3a86c9688f98915480acbad32affe02fec39f7fdcfede25238a8d9219c61eb6a",
+  "audio_format": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "encoded_container_seconds": 21.069
+  },
+  "encoded_full_decode_passed": true,
+  "encoded_asr_exact_normalized_match": true,
+  "encoded_transcript": "Imagine your team brings you a plan. You cross out every idea, then wonder why nobody speaks up. A lot of taking ownership is actually giving ownership, giving ownership to the people below you in the chain of command, so that they can take ownership. Agree on the goal and the deadline and hand the marker back. Let them build the next version.",
+  "encoded_loudness": {
+    "integrated_lufs": -16.13,
+    "true_peak_dbtp": -3.0,
+    "loudness_range_lu": 2.7
+  },
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 288,
+    "excerpt_start_seconds": 122
+  },
+  "original_effects": [
+    {
+      "type": "marker_stroke",
+      "at": 3.09
+    },
+    {
+      "type": "marker_cap",
+      "at": 18.14
+    }
+  ],
+  "words": [
+    {
+      "start": 0.15,
+      "end": 0.65,
+      "text": "Imagine",
+      "confidence": 0.9064990282058716,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 0.65,
+      "end": 0.89,
+      "text": "your",
+      "confidence": 0.9904409646987915,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 0.89,
+      "end": 1.25,
+      "text": "team",
+      "confidence": 0.9942699670791626,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 1.25,
+      "end": 1.51,
+      "text": "brings",
+      "confidence": 0.9970947504043579,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 1.51,
+      "end": 1.81,
+      "text": "you",
+      "confidence": 0.99704509973526,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 1.81,
+      "end": 1.89,
+      "text": "a",
+      "confidence": 0.9986971020698547,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 1.89,
+      "end": 2.23,
+      "text": "plan.",
+      "confidence": 0.9988940358161926,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 3.07,
+      "end": 3.13,
+      "text": "You",
+      "confidence": 0.995147168636322,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 3.09,
+      "end": 3.29,
+      "text": "cross",
+      "confidence": 0.9981295466423035,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 3.29,
+      "end": 3.65,
+      "text": "out",
+      "confidence": 0.9944044351577759,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 3.65,
+      "end": 3.89,
+      "text": "every",
+      "confidence": 0.9954440593719482,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 3.89,
+      "end": 4.59,
+      "text": "idea,",
+      "confidence": 0.9982422590255737,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 5.11,
+      "end": 5.23,
+      "text": "then",
+      "confidence": 0.9948804378509521,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 5.23,
+      "end": 5.41,
+      "text": "wonder",
+      "confidence": 0.9980930685997009,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 5.41,
+      "end": 5.77,
+      "text": "why",
+      "confidence": 0.9993289709091187,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 5.77,
+      "end": 6.03,
+      "text": "nobody",
+      "confidence": 0.9919288158416748,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 6.03,
+      "end": 6.57,
+      "text": "speaks",
+      "confidence": 0.9928392171859741,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 6.57,
+      "end": 6.93,
+      "text": "up.",
+      "confidence": 0.9982863068580627,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 7.36,
+      "end": 7.9,
+      "text": "A",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.4655088484287262
+    },
+    {
+      "start": 7.9,
+      "end": 8.08,
+      "text": "lot",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9963474869728088
+    },
+    {
+      "start": 8.08,
+      "end": 8.18,
+      "text": "of",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9987221360206604
+    },
+    {
+      "start": 8.18,
+      "end": 8.34,
+      "text": "taking",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9806801080703735
+    },
+    {
+      "start": 8.34,
+      "end": 8.64,
+      "text": "ownership",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9983471632003784
+    },
+    {
+      "start": 8.64,
+      "end": 9.26,
+      "text": "is",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9849045276641846
+    },
+    {
+      "start": 9.26,
+      "end": 9.52,
+      "text": "actually",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9775735139846802
+    },
+    {
+      "start": 9.52,
+      "end": 9.92,
+      "text": "giving",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9970909357070923
+    },
+    {
+      "start": 9.92,
+      "end": 10.32,
+      "text": "ownership,",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9964224696159363
+    },
+    {
+      "start": 10.42,
+      "end": 10.74,
+      "text": "giving",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9973933696746826
+    },
+    {
+      "start": 10.74,
+      "end": 11.18,
+      "text": "ownership",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9978975057601929
+    },
+    {
+      "start": 11.18,
+      "end": 11.36,
+      "text": "to",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9917925596237183
+    },
+    {
+      "start": 11.36,
+      "end": 11.44,
+      "text": "the",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9913368225097656
+    },
+    {
+      "start": 11.44,
+      "end": 11.66,
+      "text": "people",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9991331696510315
+    },
+    {
+      "start": 11.66,
+      "end": 11.9,
+      "text": "below",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.995983362197876
+    },
+    {
+      "start": 11.9,
+      "end": 12.04,
+      "text": "you",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9942339062690735
+    },
+    {
+      "start": 12.04,
+      "end": 12.12,
+      "text": "in",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.970048189163208
+    },
+    {
+      "start": 12.12,
+      "end": 12.18,
+      "text": "the",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9961245656013489
+    },
+    {
+      "start": 12.18,
+      "end": 12.32,
+      "text": "chain",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9241964817047119
+    },
+    {
+      "start": 12.32,
+      "end": 12.42,
+      "text": "of",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.992661714553833
+    },
+    {
+      "start": 12.42,
+      "end": 12.58,
+      "text": "command",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9906754493713379
+    },
+    {
+      "start": 12.58,
+      "end": 13.08,
+      "text": "so",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.7531286478042603
+    },
+    {
+      "start": 13.08,
+      "end": 13.2,
+      "text": "that",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9575245976448059
+    },
+    {
+      "start": 13.2,
+      "end": 13.34,
+      "text": "they",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9982956051826477
+    },
+    {
+      "start": 13.34,
+      "end": 13.5,
+      "text": "can",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.997676432132721
+    },
+    {
+      "start": 13.5,
+      "end": 13.7,
+      "text": "take",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.997968852519989
+    },
+    {
+      "start": 13.7,
+      "end": 13.92,
+      "text": "ownership.",
+      "speaker": "authentic_Jocko_government_interview",
+      "confidence": 0.9948171973228455
+    },
+    {
+      "start": 14.59,
+      "end": 14.89,
+      "text": "Agree",
+      "confidence": 0.9881604313850403,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 14.89,
+      "end": 15.13,
+      "text": "on",
+      "confidence": 0.9975689053535461,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 15.13,
+      "end": 15.25,
+      "text": "the",
+      "confidence": 0.9956608414649963,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 15.25,
+      "end": 15.51,
+      "text": "goal",
+      "confidence": 0.992537796497345,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 15.51,
+      "end": 15.83,
+      "text": "and",
+      "confidence": 0.9439452290534973,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 15.83,
+      "end": 15.95,
+      "text": "the",
+      "confidence": 0.9883370995521545,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 15.95,
+      "end": 16.29,
+      "text": "deadline,",
+      "confidence": 0.9930398464202881,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 16.89,
+      "end": 17.07,
+      "text": "and",
+      "confidence": 0.9937917590141296,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 17.07,
+      "end": 17.33,
+      "text": "hand",
+      "confidence": 0.9932096600532532,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 17.33,
+      "end": 17.53,
+      "text": "the",
+      "confidence": 0.996236264705658,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 17.53,
+      "end": 17.71,
+      "text": "marker",
+      "confidence": 0.9897465705871582,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 17.71,
+      "end": 18.11,
+      "text": "back.",
+      "confidence": 0.9996460676193237,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 18.81,
+      "end": 18.95,
+      "text": "Let",
+      "confidence": 0.9964504241943359,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 18.95,
+      "end": 19.17,
+      "text": "them",
+      "confidence": 0.998143196105957,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 19.17,
+      "end": 19.43,
+      "text": "build",
+      "confidence": 0.9953719973564148,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 19.43,
+      "end": 19.71,
+      "text": "the",
+      "confidence": 0.9949612617492676,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 19.71,
+      "end": 19.89,
+      "text": "next",
+      "confidence": 0.9980559349060059,
+      "speaker": "original_generic_male_commentary"
+    },
+    {
+      "start": 19.89,
+      "end": 20.25,
+      "text": "version.",
+      "confidence": 0.9957583546638489,
+      "speaker": "original_generic_male_commentary"
+    }
+  ],
+  "limitations": [
+    "No completed scene animation or picture.",
+    "No actual subjective audio listening claimed. ASR/levels do not establish compelling delivery.",
+    "All timing remains an audio edit plan until real final picture and captions are inspected."
+  ],
+  "required_nonendorsement_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement."
+}
