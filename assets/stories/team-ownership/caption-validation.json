@@ -1,0 +1,64 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "checked_at_utc": "2026-11-17T15:04:21.434385+00:00",
+  "status": "caption_and_assembly_preflight_only",
+  "publishable": false,
+  "finished_short": false,
+  "assembler": "scripts/assemble_team_story.py",
+  "assembler_sha256": "1bf0972fab82ff7d93a63589454ed9f4b9d2bdec6ea08b6d883979f836f9e3ee",
+  "captions_file": "assets/stories/team-ownership/captions.ass",
+  "captions_sha256": "b9546ec0645f4a028c711fb5d1e2f1d25189dac75b60519215841f24932afc2e",
+  "spoken_words": 63,
+  "caption_cues": 24,
+  "all_spoken_words_preserved_once": true,
+  "speaker_boundaries_preserved": true,
+  "timing_source": "Actual complete audio-preflight word record; no new narration synthesized.",
+  "layout_inspection": {
+    "original_native_frame": 84,
+    "original_frame_time_seconds": 3.4583333333333335,
+    "historical_local_times_seconds": [
+      2.0,
+      5.8
+    ],
+    "observations": "Readable main captions in sampled frames keep faces, marker and board action clear. Source identity and exact nonendorsement notice are visible. Full final cut/acting/motion still unreviewed.",
+    "continuous_video_watching_claimed": false,
+    "subjective_audio_listening_claimed": false
+  },
+  "historical_preflight": {
+    "frames": 163,
+    "fps": "24/1",
+    "avg_fps": "24/1",
+    "dimensions": [
+      720,
+      1280
+    ],
+    "container_duration_seconds": 6.791667,
+    "stereo_aac_48000": true,
+    "full_decode_passed": true,
+    "sha256": "d39b12d7c95e5674de96c4924842b9147943315a61bc68069f51ad250b2c5d53",
+    "private_only": true,
+    "not_a_finished_short": true
+  },
+  "timestamp_checks": "Frame-index timestamps produce regular24fps. Do not use the superseded first preflight with irregular timing.",
+  "incomplete_input_guard": {
+    "refused": true,
+    "no_final_file_created": true,
+    "observed_reason": "ValueError: Original frame 39 is not ready for assembly."
+  },
+  "aac_preservation_canary": {
+    "kind": "private_test_pattern_mux_not_content",
+    "aac_essence_preserved": true,
+    "aac_sha256": "05d5c72c21db5f36e3f7c5dff1b5d7bf58027dcf389e4eb653cd9d498c4a48b4",
+    "not_an_editorial_or_final_movie_pass": true
+  },
+  "public_original_captioned_still": {
+    "path": "examples/development/team-ownership/05-captioned-native-frame84.png",
+    "sha256": "5fe5a2be97b7c02b0a125ba3142aa9e1347054f64f3b9c116ba22a93040246b9",
+    "dimensions": [
+      720,
+      1280
+    ],
+    "still_only_not_a_video": true
+  },
+  "existing_renderer_tests_passed": 23
+}

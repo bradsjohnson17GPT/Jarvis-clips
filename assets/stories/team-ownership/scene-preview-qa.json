@@ -103,5 +103,8 @@
   "denoise_validation": "assets/stories/team-ownership/denoise-validation.json",
   "denoised_frames_completed_in_initial_batch": 15,
   "historical_picture_prepared": true,
-  "historical_picture_is_silent_working_input": true
+  "historical_picture_is_silent_working_input": true,
+  "caption_validation": "assets/stories/team-ownership/caption-validation.json",
+  "captions_prepared": true,
+  "sampled_caption_preflights_inspected": true
 }

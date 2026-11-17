@@ -286,10 +286,13 @@
       "denoise_validation": "assets/stories/team-ownership/denoise-validation.json",
       "historical_picture_prepared": true,
       "historical_picture_is_silent_working_input_not_an_upload": true,
-      "historical_source_requires_documented_spatial_upscale": true
+      "historical_source_requires_documented_spatial_upscale": true,
+      "caption_validation": "assets/stories/team-ownership/caption-validation.json",
+      "captions_prepared": true,
+      "assembler_refuses_incomplete_frames": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T14:19:41.324629+00:00",
+  "production_reconciled_at_utc": "2026-11-17T15:04:21.434385+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T13:12:22.647165+00:00",
     "research_date_pacific": "2026-11-17",

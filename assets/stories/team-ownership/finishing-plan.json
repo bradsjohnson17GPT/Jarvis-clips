@@ -82,7 +82,7 @@
     "timing_limit": "Picture quantization is within one delivery frame; verify actual final sync rather than inferring it from counts."
   },
   "captions_and_context": {
-    "status": "planned_not_yet_applied",
+    "status": "prepared_and_sampled_preflight_inspected_not_applied_to_full_movie",
     "timing_source": "Actual word timestamps in audio-preflight.json",
     "readability": "Readable portrait type, short coherent groups, at most two main caption lines; inspect actual completed shots before final placement.",
     "keep_clear": [
@@ -94,7 +94,9 @@
     "original_scene_label": "Illustration",
     "historical_source_label": "Jocko Willink | 2019 interview",
     "required_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
-    "notice_requirement": "Include exact readable notice during the historical excerpt and in the full final description; do not attribute original commentary to the speaker."
+    "notice_requirement": "Include exact readable notice during the historical excerpt and in the full final description; do not attribute original commentary to the speaker.",
+    "caption_file": "assets/stories/team-ownership/captions.ass",
+    "caption_validation": "assets/stories/team-ownership/caption-validation.json"
   },
   "music_description_requirements": {
     "credit": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
@@ -109,5 +111,7 @@
     "Inspect actual finished frames/cuts, motion, quote sync and editorial payoff; technical checks alone do not qualify quality.",
     "Verify stereoAAC, audio essence or new final ASR/levels, complete decode and encoded headroom.",
     "Verify licensed descriptions, actual audience, public media bytes and queue/hash deduplication before any new service draft."
-  ]
+  ],
+  "assembler": "scripts/assemble_team_story.py",
+  "assembled_movie_exists": false
 }

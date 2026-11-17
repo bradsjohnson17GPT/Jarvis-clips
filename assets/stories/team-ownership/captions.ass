@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Main,DejaVu Sans,45,&H00FFFFFF,&H00FFFFFF,&H00101010,&H70000000,-1,0,0,0,100,100,0,0,1,2.8,1,5,36,36,0,1
+Style: Identity,DejaVu Sans,23,&H00FFFFFF,&H00FFFFFF,&H00101010,&H70000000,-1,0,0,0,100,100,0,0,1,1.8,0,7,30,30,30,1
+Style: Notice,DejaVu Sans,20,&H00FFFFFF,&H00FFFFFF,&H00101010,&H70000000,0,0,0,0,100,100,0,0,3,3,0,2,35,35,35,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 2,0:00:00.12,0:00:01.23,Main,,0,0,0,,{\an5\pos(360,235)\fad(25,45)}Imagine your team
+Dialogue: 2,0:00:01.23,0:00:01.86,Main,,0,0,0,,{\an5\pos(360,235)\fad(25,45)}brings you a
+Dialogue: 2,0:00:01.86,0:00:02.41,Main,,0,0,0,,{\an5\pos(360,235)\fad(25,45)}{\c&H00D4FF&}plan.{\c&HFFFFFF&}
+Dialogue: 2,0:00:03.04,0:00:03.62,Main,,0,0,0,,{\an5\pos(360,1050)\fad(25,45)}You cross out
+Dialogue: 2,0:00:03.62,0:00:04.77,Main,,0,0,0,,{\an5\pos(360,1050)\fad(25,45)}every idea,
+Dialogue: 2,0:00:05.08,0:00:05.74,Main,,0,0,0,,{\an5\pos(360,1050)\fad(25,45)}then wonder why
+Dialogue: 2,0:00:05.74,0:00:07.11,Main,,0,0,0,,{\an5\pos(360,1050)\fad(25,45)}nobody speaks up.
+Dialogue: 2,0:00:07.34,0:00:08.15,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}A lot of
+Dialogue: 2,0:00:08.15,0:00:09.24,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}taking {\c&H00D4FF&}ownership{\c&HFFFFFF&} is
+Dialogue: 2,0:00:09.24,0:00:09.90,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}actually giving
+Dialogue: 2,0:00:09.90,0:00:10.40,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}{\c&H00D4FF&}ownership,{\c&HFFFFFF&}
+Dialogue: 2,0:00:10.40,0:00:11.34,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}giving {\c&H00D4FF&}ownership{\c&HFFFFFF&} to
+Dialogue: 2,0:00:11.34,0:00:11.88,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}the people below
+Dialogue: 2,0:00:11.88,0:00:12.16,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}you in the
+Dialogue: 2,0:00:12.16,0:00:12.56,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}chain of command
+Dialogue: 2,0:00:12.56,0:00:13.32,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}so that they
+Dialogue: 2,0:00:13.32,0:00:14.10,Main,,0,0,0,,{\an5\pos(360,1010)\fad(25,45)}can take {\c&H00D4FF&}ownership.{\c&HFFFFFF&}
+Dialogue: 2,0:00:14.56,0:00:15.22,Main,,0,0,0,,{\an5\pos(360,235)\fad(25,45)}Agree on the
+Dialogue: 2,0:00:15.22,0:00:15.92,Main,,0,0,0,,{\an5\pos(360,235)\fad(25,45)}goal and the
+Dialogue: 2,0:00:15.92,0:00:16.47,Main,,0,0,0,,{\an5\pos(360,235)\fad(25,45)}deadline,
+Dialogue: 2,0:00:16.87,0:00:17.51,Main,,0,0,0,,{\an5\pos(360,235)\fad(25,45)}and hand the
+Dialogue: 2,0:00:17.51,0:00:18.29,Main,,0,0,0,,{\an5\pos(360,1050)\fad(25,45)}{\c&H00D4FF&}marker{\c&HFFFFFF&} back.
+Dialogue: 2,0:00:18.78,0:00:19.40,Main,,0,0,0,,{\an5\pos(360,175)\fad(25,45)}Let them build
+Dialogue: 2,0:00:19.40,0:00:20.43,Main,,0,0,0,,{\an5\pos(360,175)\fad(25,45)}the next version.
+Dialogue: 1,0:00:00.00,0:00:07.36,Identity,,0,0,0,,Illustration
+Dialogue: 1,0:00:14.16,0:00:21.08,Identity,,0,0,0,,Illustration
+Dialogue: 1,0:00:07.36,0:00:14.16,Identity,,0,0,0,,Jocko Willink | 2019 interview
+Dialogue: 1,0:00:07.36,0:00:14.16,Notice,,0,0,0,,{\an2\pos(360,1240)}The appearance of U.S. Department of War (DoW) visual\Ninformation does not imply or constitute DoW endorsement.
