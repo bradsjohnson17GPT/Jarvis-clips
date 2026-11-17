@@ -112,6 +112,8 @@ def main():
     p.add_argument('--output', type=Path, required=True)
     args = p.parse_args()
     story = json.loads(args.manifest.read_text())
+    if story.get('visual_source', {}).get('rights_verified') is not True:
+        raise SystemExit('The actual visual source needs rights review before producing a publication candidate.')
     timing = json.loads((args.narration_dir / 'narration-timing.json').read_text())
     narration = args.narration_dir / 'narration-paced.wav'
     if hashlib.sha256(narration.read_bytes()).hexdigest() != timing['sha256']:
