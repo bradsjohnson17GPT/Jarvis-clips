@@ -2,7 +2,7 @@
   "id": "jocko-give-the-team-the-plan",
   "reviewed_at_utc": "2026-11-17T17:08:54.014246+00:00",
   "reviewed_by": "Project production assistant",
-  "status": "revised_native_samples_inspected_full_transfer_and_sequence_pending",
+  "status": "native_critical_pose_samples_inspected_full_sequence_pending",
   "publishable": false,
   "finished_short": false,
   "full_story_editorial_pass": false,
@@ -54,5 +54,69 @@
     "full_transfer_reviewed": false,
     "continuous_motion_reviewed": false,
     "final_editorial_pass": false
-  }
+  },
+  "critical_pose_review": {
+    "reviewed_at_utc": "2026-11-17T17:47:16.769470+00:00",
+    "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
+    "caption_sha256": "b9546ec0645f4a028c711fb5d1e2f1d25189dac75b60519215841f24932afc2e",
+    "native_dimensions": [
+      720,
+      1280
+    ],
+    "sampled_frames": [
+      {
+        "frame": 426,
+        "story_time_seconds": 17.708333333333332,
+        "raw_sha256": "826a4f01b05eb57b93723a7cfcceffa76d7c92aa8d159ca27cfea372b7ab74b1",
+        "denoised_sha256": "70ac68aa7f39a1bb99c84690a771aab9ab233869dfd5e68c0d1a18f2fe51ecf8",
+        "captioned_sha256": "62fc6aeddc79fcc5f9d97a0e2bc7f55156459354c52e8a600effb72d86342942"
+      },
+      {
+        "frame": 429,
+        "story_time_seconds": 17.833333333333332,
+        "raw_sha256": "db48cd72911a0935fa41f53104e73072dbb213c5d64d0cd581988f512a02419d",
+        "denoised_sha256": "cda5b5ae4fd991d4f9f7a5f85f965182253e7de017733bff2be9d0fc26da24a3",
+        "captioned_sha256": "a600a432efcac3c1dba1d390f82bcd68a246b37f173e66eca51dd0f71308639e"
+      },
+      {
+        "frame": 432,
+        "story_time_seconds": 17.958333333333332,
+        "raw_sha256": "d6d62899f1e29c0e4b9a0685ca9d602b98e79342dd4e47da119286bb88b9eab8",
+        "denoised_sha256": "d852b1ced2a5d3ba02ff90be83a70cab4dca5ccacc8309c7e76fadc4edf5b36e",
+        "captioned_sha256": "6d1764af219c810b02cb22642cd8ab648eac7b1e3c12d02fbb2c458d299013b4"
+      },
+      {
+        "frame": 453,
+        "story_time_seconds": 18.833333333333332,
+        "raw_sha256": "a9313f92adc37ae892c2f0c1d777879e177710142a4180784e7c0fa3105ba921",
+        "denoised_sha256": "e5b18a70d4ffe62203f65e09372533f424deccfb21dba444c9ff9987a7324339",
+        "captioned_sha256": "610ef27237edfb9cdcdb0caad0c1eeb5c53a13fb71c44e059f190539d47dee45"
+      },
+      {
+        "frame": 478,
+        "story_time_seconds": 19.875,
+        "raw_sha256": "d06c1ea2935c6acb837680dbff0d69606ae32803637f15eaaf773e9c65c35a49",
+        "denoised_sha256": "503552cf98df469718dc955e1f8a4dc8daaef8d0d115f6fc8dc2dcf34b381aea",
+        "captioned_sha256": "a525b063036f9e675a95dc76cd73e2e51b93ad8effb4aac753d393220db02093"
+      },
+      {
+        "frame": 498,
+        "story_time_seconds": 20.708333333333332,
+        "raw_sha256": "abad44343b45941d9be40499d761e6d6ff3f09fbfb4fa6c05352e84792abdc79",
+        "denoised_sha256": "7f7a50a2fa5a9cbb8b8f57158a0aa35b4a562bcaa4a478d0360d76c14088d1d9",
+        "captioned_sha256": "d3496912dcf5c6aeede8d0bcdba356da822c02dcd5254de52fd82ab898b635ce"
+      }
+    ],
+    "actual_findings": [
+      "The marker remains visible between the hands in native426/429/432 samples; finger/thumb ends are closed. These nearly static contact poses do not establish the full release/withdrawal motion.",
+      "The teal-sleeved colleague holds the marker at the board in453. A black branch extends from the established blue idea by478, and a connected closed new node is visible in498.",
+      "Short speech-timed captions remain readable in all six samples. The right edge partly crops the board heading in the drawing shot, while the new branch/node action remains clear.",
+      "Actual six-pose visual inspection, not continuous motion viewing or subjective soundtrack listening. Final acting, cuts, source synchronization, audience and encoded-movie quality remain unreviewed."
+    ],
+    "continuous_motion_reviewed": false,
+    "full_movie_exists": false,
+    "editorial_release_pass": false
+  },
+  "total_revised_native_samples_inspected": 8,
+  "baseline_sample_note": "Top-level native_frame and sample hashes preserve the initial baseline frame408. The nested revision_review and critical_pose_review describe the revised974379894ff6 source."
 }

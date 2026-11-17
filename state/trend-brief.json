@@ -258,7 +258,7 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10\u2013285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "Reviewed opening is retained. Native close-up exposed hollow finger ends; revised post-quote shots close and round the tips and widen return framing. Two actual revised native samples were inspected with improved tips/framing; the full 166-frame revision and finished movie review remain.",
+      "production_state": "Reviewed opening is retained. Revised native samples show closed finger tips, improved return framing, visible marker contact and a connected new-node payoff. Eight actual revised poses are inspected; remaining native frames and the complete movie/motion/editorial review are still pending.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
@@ -301,7 +301,15 @@
         341,
         506
       ],
-      "return_shot_preflight": "assets/stories/team-ownership/return-shot-preflight.json"
+      "return_shot_preflight": "assets/stories/team-ownership/return-shot-preflight.json",
+      "native_critical_pose_samples_inspected": [
+        426,
+        429,
+        432,
+        453,
+        478,
+        498
+      ]
     }
   ],
   "production_reconciled_at_utc": "2026-11-17T15:04:21.434385+00:00",

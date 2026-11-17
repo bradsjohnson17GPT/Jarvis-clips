@@ -34,7 +34,7 @@
     "Character acting/grips and full temporal consistency require final editorial review; sampled frames are insufficient.",
     "Denoising is validated on samples and15completed frames; remaining frames and temporal inspection are outstanding.",
     "Historical picture is prepared, but full assembly, actual timed captions/context notices and soundtrack readback remain.",
-    "Revised native frames 408/420 resolve the exposed hollow tips and main-colleague crop in the sampled poses. Full native transfer/contact, drawing and complete sequence remain unreviewed; the pre-transfer wide pose still occludes most of the marker."
+    "Actual revised native contact poses show a visible marker, and later drawing poses show a connected new node. The full release/withdrawal motion, cuts, acting and final sequence remain unreviewed; the drawing shot partly crops the board heading but leaves the payoff visible."
   ],
   "next_material_change": "Complete the currently active source-frozen native frame render without starting a duplicate, then assemble/inspect the real final picture, source excerpt, captions and soundtrack. Do not count this motion test as a finished Short.",
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
@@ -117,7 +117,7 @@
       506
     ],
     "expected_frames": 166,
-    "status": "native_samples_inspected_full_revision_render_pending",
+    "status": "eight_native_samples_inspected_remaining_revision_frames_rendering",
     "changes": [
       "Closed finger/thumb curve ends and added rounded matching skin tips.",
       "Return-shot focal length49mm instead of53mm for more room around the main colleague."
@@ -127,7 +127,13 @@
     "editorial_pass": false,
     "actual_native_samples_inspected": [
       408,
-      420
+      420,
+      426,
+      429,
+      432,
+      453,
+      478,
+      498
     ],
     "closed_ends_and_framing_sample_check_passed": true
   }
