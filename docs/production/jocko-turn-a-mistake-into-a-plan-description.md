@@ -1,4 +1,4 @@
-An authentic 2019 Jocko Willink interview excerpt with a new narrated explanation and an original animated action-plan example. The quoted words remain his real recording; the separate commentary is generic AI-generated stock narration, not a clone or a quote attributed to him. This is factual editorial discussion, not an advertisement or speaker partnership.
+An authentic 2019 Jocko Willink interview excerpt with a new narrated explanation and an original animated action-plan example. The quoted words remain his real recording; the separate commentary is generic male AI-generated stock narration, not a clone or a quote attributed to him. This is factual editorial discussion, not an advertisement or speaker partnership.
 
 Source: https://www.dvidshub.net/video/718744/jocko-willink-interview
 Government producer: Alan Brutus; 25th Infantry Division.

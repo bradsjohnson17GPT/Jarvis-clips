@@ -42,5 +42,7 @@
   "working_publication_route": "vidIQ direct YouTube verified by completed publication and public URL; obey any exact-draft approval workflow returned by the connector.",
   "format_selection_requirement": "Use dated observed view evidence and actual reference structure analysis to shortlist formats; no guaranteed outcomes, no copying unlicensed works, no volume padding.",
   "connected_editing_workflow": "Descript connected; use for source assembly, caption/pacing and sound edits within existing access. Higgsfield tools not yet available as of this run.",
-  "prepared_direct_drafts": "Two reviewed Jocko/Goggins drafts are ready; the actual direct connector requires owner approval after showing these exact versions. Read state/ready-candidates.json and private draft records; do not recreate."
+  "prepared_direct_drafts": "Two reviewed Jocko/Goggins drafts are ready; the actual direct connector requires owner approval after showing these exact versions. Read state/ready-candidates.json and private draft records; do not recreate.",
+  "motivational_voice_config": "config/motivational-voice.json",
+  "motivational_voice_preference": "Generic adult male Kokoro am_michael; full paragraph speech, gentle dialogue cleanup and music ducking. No celebrity imitation or pitch-shift."
 }

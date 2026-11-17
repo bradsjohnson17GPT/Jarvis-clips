@@ -1,10 +1,10 @@
 {
   "id": "jocko-turn-a-mistake-into-a-plan",
-  "status": "inspected_finished_preview_not_published",
-  "verified_at_utc": "2026-11-17T08:07:16.900801+00:00",
-  "sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c",
-  "bytes": 3496964,
-  "duration_seconds": 18.266667,
+  "status": "inspected_revised_male_narration_not_published",
+  "verified_at_utc": "2026-11-17T08:45:30.169442+00:00",
+  "sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
+  "bytes": 3520511,
+  "duration_seconds": 18.572,
   "streams": [
     {
       "type": "video",
@@ -27,11 +27,15 @@
   ],
   "audio": {
     "integrated_lufs": -16.02,
-    "true_peak_dbtp": -2.23,
+    "true_peak_dbtp": -2.27,
     "full_decode_passed": true,
     "full_encoded_spoken_text_matches_actual_master_and_retained_quote": true,
     "caption_basis": "Actual stock narration ASR plus authentic source quote word timing, offset with the exact edit; normalized encoded full-mix transcript matches all words.",
-    "source_audio_used": true
+    "source_audio_used": true,
+    "matched_spoken_word_count": 50,
+    "voice_processing_verified_in_recipe": true,
+    "background_music_base_gain": 0.05,
+    "music_sidechain_ratio": 9
   },
   "visual_inspection": {
     "source_contact_frames": true,
@@ -47,8 +51,29 @@
       "Actual speech content/timing and technical sound checks passed; no subjective audio audition or guaranteed perfect voice claim.",
       "Government source conditions/nonendorsement notice remain visible, and the originals are not proof of channel performance."
     ],
-    "logo_note": "Military background marks excluded by crop; the personal-company shirt mark is incidental. Retouching streaks were removed by using the genuine unaltered shirt image."
+    "logo_note": "Military background marks excluded by crop; the personal-company shirt mark is incidental. Retouching streaks were removed by using the genuine unaltered shirt image.",
+    "speech_timed_captions_rebuilt": true,
+    "fresh_revised_contact_frames": true
   },
   "music_attribution_in_description": true,
-  "publication_evidence": null
+  "publication_evidence": null,
+  "narrator": "am_michael",
+  "voice_config": "config/motivational-voice.json",
+  "audio_revision": {
+    "requested_on": "2026-11-17",
+    "voice": "am_michael",
+    "speed": 0.9,
+    "speech_processing": {
+      "source_dialogue": "highpass=f=70,lowpass=f=14000,afftdn=nr=6:nf=-40:tn=1,equalizer=f=280:t=q:w=1:g=-1.5,equalizer=f=2400:t=q:w=1:g=1.5,acompressor=threshold=0.125:ratio=2:attack=15:release=180:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "synthetic_narration": "highpass=f=65,lowpass=f=12000,equalizer=f=280:t=q:w=1:g=-1,equalizer=f=2400:t=q:w=1:g=1.2,acompressor=threshold=0.125:ratio=1.8:attack=18:release=160:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "mix_target_lufs": -16,
+      "mix_peak_limit_dbtp": -2,
+      "music_base_gain": 0.05,
+      "sidechain_ratio": 9,
+      "note": "Mild room-noise reduction on real dialogue; no denoising of clean synthetic speech, no pitch change, no celebrity cloning. Match output speech clarity/timing and encoded headroom."
+    },
+    "no_pitch_shift": true,
+    "cleaned_real_source_dialogue": true,
+    "new_encoded_spoken_text_matches": true
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "jocko-turn-a-mistake-into-a-plan",
   "title": "Turn a Mistake Into a Plan | Jocko Willink",
-  "status": "direct_draft_awaiting_required_approval",
+  "status": "audio_revised_inspected_awaiting_same_draft_update",
   "content_type": "motivational",
   "hook_type": "authentic_ownership_quote_and_visible_plan",
   "person": "Jocko Willink",
@@ -22,7 +22,7 @@
       71.45
     ]
   ],
-  "voice_config": "config/natural-voice.json",
+  "voice_config": "config/motivational-voice.json",
   "music": {
     "title": "Ascension",
     "artist": "Scott Buckley",
@@ -41,7 +41,7 @@
     "start": 288
   },
   "music_start": 122,
-  "description": "An authentic 2019 Jocko Willink interview excerpt with a new narrated explanation and an original animated action-plan example. The quoted words remain his real recording; the separate commentary is generic AI-generated stock narration, not a clone or a quote attributed to him. This is factual editorial discussion, not an advertisement or speaker partnership.\n\nSource: https://www.dvidshub.net/video/718744/jocko-willink-interview\nGovernment producer: Alan Brutus; 25th Infantry Division.\nSource record: DVIDS 718744, individually marked Public Domain.\nSource use policy: https://www.dvidshub.net/about/copyright\nThe appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.\nNo speaker, producer or composer endorsement is implied.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and ducked beneath speech and original sound design.",
+  "description": "An authentic 2019 Jocko Willink interview excerpt with a new narrated explanation and an original animated action-plan example. The quoted words remain his real recording; the separate commentary is generic male AI-generated stock narration, not a clone or a quote attributed to him. This is factual editorial discussion, not an advertisement or speaker partnership.\n\nSource: https://www.dvidshub.net/video/718744/jocko-willink-interview\nGovernment producer: Alan Brutus; 25th Infantry Division.\nSource record: DVIDS 718744, individually marked Public Domain.\nSource use policy: https://www.dvidshub.net/about/copyright\nThe appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.\nNo speaker, producer or composer endorsement is implied.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and ducked beneath speech and original sound design.",
   "tags": [
     "motivation",
     "Jocko Willink",
@@ -56,13 +56,13 @@
   },
   "media_path": "media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
   "qa_path": "media/quality/jocko-turn-a-mistake-into-a-plan.qa.json",
-  "video_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c",
-  "duration_seconds": 18.266667,
-  "audio_version": "authentic-jocko-kokoro-commentary-licensed-score-v1",
+  "video_sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
+  "duration_seconds": 18.572,
+  "audio_version": "authentic-jocko-male-commentary-clean-dialogue-ducked-score-v2",
   "publication_evidence": null,
   "research_basis": "docs/trends/2026-11-16-jocko-goggins-source-review.md",
-  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
-  "public_host_bytes_verified": true,
+  "media_url": null,
+  "public_host_bytes_verified": false,
   "direct_draft_evidence": {
     "publisher": "vidIQ direct YouTube",
     "status": "draft",
@@ -110,5 +110,32 @@
       "public_url": null,
       "evidence": "A single new reviewed pilot was accepted for scheduling and exact imported MP4 bytes matched. Pending scheduling does not establish publication or recovery from the earlier account limit."
     }
-  ]
+  ],
+  "previous_media_versions": [
+    {
+      "video_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c",
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
+      "duration_seconds": 18.266667,
+      "audio_version": "authentic-jocko-kokoro-commentary-licensed-score-v1",
+      "reason": "Superseded at owner request for generic male narration and cleaner speech; never publish the earlier draft media."
+    }
+  ],
+  "narrator": "Generic adult male Kokoro am_michael",
+  "audio_revision": {
+    "requested_on": "2026-11-17",
+    "voice": "am_michael",
+    "speed": 0.9,
+    "speech_processing": {
+      "source_dialogue": "highpass=f=70,lowpass=f=14000,afftdn=nr=6:nf=-40:tn=1,equalizer=f=280:t=q:w=1:g=-1.5,equalizer=f=2400:t=q:w=1:g=1.5,acompressor=threshold=0.125:ratio=2:attack=15:release=180:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "synthetic_narration": "highpass=f=65,lowpass=f=12000,equalizer=f=280:t=q:w=1:g=-1,equalizer=f=2400:t=q:w=1:g=1.2,acompressor=threshold=0.125:ratio=1.8:attack=18:release=160:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "mix_target_lufs": -16,
+      "mix_peak_limit_dbtp": -2,
+      "music_base_gain": 0.05,
+      "sidechain_ratio": 9,
+      "note": "Mild room-noise reduction on real dialogue; no denoising of clean synthetic speech, no pitch change, no celebrity cloning. Match output speech clarity/timing and encoded headroom."
+    },
+    "no_pitch_shift": true,
+    "cleaned_real_source_dialogue": true,
+    "new_encoded_spoken_text_matches": true
+  }
 }

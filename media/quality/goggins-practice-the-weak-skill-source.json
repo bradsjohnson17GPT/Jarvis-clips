@@ -10,22 +10,34 @@
   "public_playback_url": "https://d34w7g4gy10iej.cloudfront.net/video/1812/DOD_106284331/DOD_106284331-1024x576-1769k.mp4",
   "access": "Normal public playback file supplied in the official public page/player, not an authenticated download endpoint.",
   "picture_intervals": [
-    [
-      538,
-      542
-    ],
-    [
-      516,
-      520
-    ],
-    [
-      248,
-      253
-    ],
-    [
-      326,
-      332.026
-    ]
+    {
+      "output_start": 0,
+      "output_end": 3.8,
+      "source_start": 538,
+      "source_end": 541.8,
+      "portrait_crop_x": 210
+    },
+    {
+      "output_start": 3.8,
+      "output_end": 8.52,
+      "source_start": 516,
+      "source_end": 520.72,
+      "portrait_crop_x": 270
+    },
+    {
+      "output_start": 8.52,
+      "output_end": 13.8,
+      "source_start": 248,
+      "source_end": 253.28,
+      "portrait_crop_x": 210
+    },
+    {
+      "output_start": 13.8,
+      "output_end": 19.414,
+      "source_start": 326,
+      "source_end": 331.614,
+      "portrait_crop_x": 210
+    }
   ],
   "rights_review": {
     "review_date": "2026-11-16",
@@ -48,8 +60,8 @@
     "source_audio_review": "Goggins soundtrack excluded completely: speech/music classifier flagged a music bed, with its composition/license unidentified. Only source pictures are used.",
     "source_audio_intervals": [],
     "original_commentary": "David Goggins describes discipline as something you keep practicing after training ends. Turn that into a practice plan. Pick the skill you usually avoid, work on it for five focused minutes, then write down one thing you learned. Give tomorrow a better starting point.",
-    "voice_config": "config/natural-voice.json",
-    "voice_kind": "Generic Kokoro af_heart stock narrator; no depiction of celebrity speaking the new words and no cloned voice.",
+    "voice_config": "config/motivational-voice.json",
+    "voice_kind": "Generic adult male Kokoro am_michael stock narrator; no celebrity voice imitation.",
     "music": {
       "title": "Juggernaut",
       "artist": "Scott Buckley",
@@ -69,9 +81,20 @@
     },
     "music_excerpt_start": 184,
     "original_effects": "One quiet synthesized edit impact, created for this edit.",
-    "analysis_limit": "No subjective listening was available to the assistant or Descript editor. Actual master/encoded ASR, source provenance, event classification, caption intervals and levels were inspected."
+    "analysis_limit": "No subjective listening was available to the assistant or Descript editor. Actual master/encoded ASR, source provenance, event classification, caption intervals and levels were inspected.",
+    "speech_cleanup": {
+      "source_dialogue": "highpass=f=70,lowpass=f=14000,afftdn=nr=6:nf=-40:tn=1,equalizer=f=280:t=q:w=1:g=-1.5,equalizer=f=2400:t=q:w=1:g=1.5,acompressor=threshold=0.125:ratio=2:attack=15:release=180:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "synthetic_narration": "highpass=f=65,lowpass=f=12000,equalizer=f=280:t=q:w=1:g=-1,equalizer=f=2400:t=q:w=1:g=1.2,acompressor=threshold=0.125:ratio=1.8:attack=18:release=160:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "mix_target_lufs": -16,
+      "mix_peak_limit_dbtp": -2,
+      "music_base_gain": 0.05,
+      "sidechain_ratio": 9,
+      "note": "Mild room-noise reduction on real dialogue; no denoising of clean synthetic speech, no pitch change, no celebrity cloning. Match output speech clarity/timing and encoded headroom."
+    },
+    "source_dialogue_processing_applied": false
   },
   "original_diagram": null,
   "visual_changes": "Proportional portrait crops, original synchronized captions, source/context labels; no face replacement or voice imitation.",
-  "final_sha256": "b63c6dbcc853ae73dc112eec9399cd8e1641ffe8137c1fd056421c33ed6e313d"
+  "final_sha256": "140b057a57533061447f9eba8df24247b7833f617b4a32ef7db025027288022a",
+  "revised_at_utc": "2026-11-17T08:45:30.169442+00:00"
 }

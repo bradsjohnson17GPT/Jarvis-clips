@@ -25,5 +25,7 @@
   ],
   "source_selection": "Individually reviewed first-party source rights; government editorial interviews are candidates, ordinary private podcast clips remain unverified.",
   "fixed_type_quotas_suspended": true,
-  "standing_owner_authorization": true
+  "standing_owner_authorization": true,
+  "motivational_voice_config": "config/motivational-voice.json",
+  "motivational_voice_preference": "Generic adult male Kokoro am_michael; full paragraph speech, gentle dialogue cleanup and music ducking. No celebrity imitation or pitch-shift."
 }

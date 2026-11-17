@@ -49,8 +49,8 @@
       ]
     ],
     "original_commentary": "A mistake can become a plan. Write down what happened, circle the part you can change, and choose one action you can take today.",
-    "voice_config": "config/natural-voice.json",
-    "voice_kind": "Generic Kokoro af_heart stock narrator; no depiction of celebrity speaking the new words and no cloned voice.",
+    "voice_config": "config/motivational-voice.json",
+    "voice_kind": "Generic adult male Kokoro am_michael stock narrator; no celebrity voice imitation.",
     "music": {
       "title": "Ascension",
       "artist": "Scott Buckley",
@@ -70,7 +70,17 @@
     },
     "music_excerpt_start": 122,
     "original_effects": "One quiet synthesized edit impact, created for this edit.",
-    "analysis_limit": "No subjective listening was available to the assistant or Descript editor. Actual master/encoded ASR, source provenance, event classification, caption intervals and levels were inspected."
+    "analysis_limit": "No subjective listening was available to the assistant or Descript editor. Actual master/encoded ASR, source provenance, event classification, caption intervals and levels were inspected.",
+    "speech_cleanup": {
+      "source_dialogue": "highpass=f=70,lowpass=f=14000,afftdn=nr=6:nf=-40:tn=1,equalizer=f=280:t=q:w=1:g=-1.5,equalizer=f=2400:t=q:w=1:g=1.5,acompressor=threshold=0.125:ratio=2:attack=15:release=180:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "synthetic_narration": "highpass=f=65,lowpass=f=12000,equalizer=f=280:t=q:w=1:g=-1,equalizer=f=2400:t=q:w=1:g=1.2,acompressor=threshold=0.125:ratio=1.8:attack=18:release=160:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+      "mix_target_lufs": -16,
+      "mix_peak_limit_dbtp": -2,
+      "music_base_gain": 0.05,
+      "sidechain_ratio": 9,
+      "note": "Mild room-noise reduction on real dialogue; no denoising of clean synthetic speech, no pitch change, no celebrity cloning. Match output speech clarity/timing and encoded headroom."
+    },
+    "source_dialogue_processing_applied": true
   },
   "original_diagram": {
     "identity": "Original continuously drawn paper action-plan illustration",
@@ -79,5 +89,6 @@
     "native_sampling": "15 unique graphic frames per second delivered at30fps with holds, no generated human likeness."
   },
   "visual_changes": "Proportional portrait crops, original synchronized captions, source/context labels; no face replacement or voice imitation.",
-  "final_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c"
+  "final_sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
+  "revised_at_utc": "2026-11-17T08:45:30.169442+00:00"
 }

@@ -100,32 +100,33 @@
     },
     {
       "clip_id": "jocko-turn-a-mistake-into-a-plan",
-      "status": "direct_draft_awaiting_required_approval",
+      "status": "audio_revised_inspected_awaiting_same_draft_update",
       "manifest": "stories/jocko-turn-a-mistake-into-a-plan.json",
-      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
-      "video_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c",
-      "bytes": 3496964,
+      "media_url": null,
+      "video_sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
+      "bytes": 3520511,
       "http_status": 200,
-      "raw_bytes_match_inspected_file": true,
+      "raw_bytes_match_inspected_file": false,
       "verified_at_utc": "2026-11-17T08:26:04.751165+00:00",
       "qa_path": "media/quality/jocko-turn-a-mistake-into-a-plan.qa.json",
       "source_path": "media/quality/jocko-turn-a-mistake-into-a-plan-source.json",
       "publication_actor": "production",
       "publication_evidence": null,
-      "instructions": "One exact ready direct draft exists privately. Do not recreate it. Wait for after-preview owner approval required by the connector, then publish the same draft/revision, refreshing actual account/queues and preserving20minute gaps.",
+      "instructions": "The prior female-narrated final is superseded. Update the SAME existing direct draft with the inspected male-narrated media, verify imported bytes, and show the new final preview. Never create or publish a duplicate.",
       "direct_draft_evidence": {
         "publisher": "vidIQ direct YouTube",
         "status": "draft",
-        "draft_ready": true,
+        "draft_ready": false,
         "publish_at": null,
         "public_url": null,
         "publication_confirmed": false,
         "publishing_credits": 0,
         "private_draft_record": "work/quality/jocko-direct-draft.json",
-        "exact_imported_bytes_match": true,
+        "exact_imported_bytes_match": false,
         "approval_required_by": "vidiq_social_post_draft_create returned next instruction",
         "approved_after_showing_this_draft": false,
-        "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled."
+        "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled.",
+        "requires_media_replacement": true
       },
       "publication_failure_history": [
         {
@@ -160,37 +161,66 @@
           "public_url": null,
           "evidence": "A single new reviewed pilot was accepted for scheduling and exact imported MP4 bytes matched. Pending scheduling does not establish publication or recovery from the earlier account limit."
         }
-      ]
+      ],
+      "owner_requested_audio_revision": "2026-11-17",
+      "previous_media_versions": [
+        {
+          "video_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c",
+          "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
+          "duration_seconds": 18.266667,
+          "audio_version": "authentic-jocko-kokoro-commentary-licensed-score-v1",
+          "reason": "Superseded at owner request for generic male narration and cleaner speech; never publish the earlier draft media."
+        }
+      ],
+      "audio_version": "authentic-jocko-male-commentary-clean-dialogue-ducked-score-v2",
+      "duration": 18.572,
+      "public_host_bytes_verified": false,
+      "direct_import_bytes_match": false
     },
     {
       "clip_id": "goggins-practice-the-weak-skill",
-      "status": "direct_draft_awaiting_required_approval",
+      "status": "audio_revised_inspected_awaiting_same_draft_update",
       "manifest": "stories/goggins-practice-the-weak-skill.json",
-      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/goggins-practice-the-weak-skill.mp4",
-      "video_sha256": "b63c6dbcc853ae73dc112eec9399cd8e1641ffe8137c1fd056421c33ed6e313d",
-      "bytes": 6344287,
+      "media_url": null,
+      "video_sha256": "140b057a57533061447f9eba8df24247b7833f617b4a32ef7db025027288022a",
+      "bytes": 6450032,
       "http_status": 200,
-      "raw_bytes_match_inspected_file": true,
+      "raw_bytes_match_inspected_file": false,
       "verified_at_utc": "2026-11-17T08:26:04.751165+00:00",
       "qa_path": "media/quality/goggins-practice-the-weak-skill.qa.json",
       "source_path": "media/quality/goggins-practice-the-weak-skill-source.json",
       "publication_actor": "production",
       "publication_evidence": null,
-      "instructions": "One exact ready direct draft exists privately. Do not recreate it. Wait for after-preview owner approval required by the connector, then publish the same draft/revision, refreshing actual account/queues and preserving20minute gaps.",
+      "instructions": "The prior female-narrated final is superseded. Update the SAME existing direct draft with the inspected male-narrated media, verify imported bytes, and show the new final preview. Never create or publish a duplicate.",
       "direct_draft_evidence": {
         "publisher": "vidIQ direct YouTube",
         "status": "draft",
-        "draft_ready": true,
+        "draft_ready": false,
         "publish_at": null,
         "public_url": null,
         "publication_confirmed": false,
         "publishing_credits": 0,
         "private_draft_record": "work/quality/goggins-direct-draft.json",
-        "exact_imported_bytes_match": true,
+        "exact_imported_bytes_match": false,
         "approval_required_by": "vidiq_social_post_draft_create returned next instruction",
         "approved_after_showing_this_draft": false,
-        "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled."
-      }
+        "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled.",
+        "requires_media_replacement": true
+      },
+      "owner_requested_audio_revision": "2026-11-17",
+      "previous_media_versions": [
+        {
+          "video_sha256": "b63c6dbcc853ae73dc112eec9399cd8e1641ffe8137c1fd056421c33ed6e313d",
+          "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/goggins-practice-the-weak-skill.mp4",
+          "duration_seconds": 19.026,
+          "audio_version": "kokoro-commentary-licensed-score-no-source-audio-v1",
+          "reason": "Superseded at owner request for generic male narration and cleaner speech; never publish the earlier draft media."
+        }
+      ],
+      "audio_version": "generic-male-commentary-clean-speech-ducked-score-no-source-audio-v2",
+      "duration": 19.414,
+      "public_host_bytes_verified": false,
+      "direct_import_bytes_match": false
     }
   ]
 }
