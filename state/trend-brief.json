@@ -154,7 +154,7 @@
       "action": "A paper boat brings an instruction; the courier physically redirects the beacon.",
       "payoff": "The clouds part and a lower town answers with its own lighthouse.",
       "manifest": "stories/downward-beacon.json",
-      "production_state": "Finished28-second original animation with reviewed natural-voice pipeline, score, effects and actual speech-timed captions. Full decode and final frames reviewed. Scheduling/publication still unconfirmed.",
+      "production_state": "Finished 28-second original animation with reviewed natural-voice pipeline, score, effects and actual speech-timed captions. Full decode and final frames reviewed. Scheduling/publication still unconfirmed.",
       "publishable": true,
       "do_not_duplicate": true,
       "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28"

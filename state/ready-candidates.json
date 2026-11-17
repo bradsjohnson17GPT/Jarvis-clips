@@ -1,0 +1,21 @@
+{
+  "candidates": [
+    {
+      "verified_at_utc": "2026-11-17T02:33:44.656688+00:00",
+      "clip_id": "downward-beacon",
+      "status": "ready_for_production_review",
+      "manifest": "stories/downward-beacon.json",
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/023cfcd091214a61abdbaff5a004fe2916e8ff43/media/quality/downward-beacon.mp4",
+      "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
+      "bytes": 7312826,
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "raw_bytes_match_inspected_file": true,
+      "qa_path": "media/quality/downward-beacon.qa.json",
+      "source_path": "media/quality/downward-beacon-source.json",
+      "publication_evidence": null,
+      "publication_actor": "production",
+      "instructions": "Only this genuinely revised pilot may proceed after production refreshes actual queue/connection and confirms inspection. Keep all rejected old media held. Preserve a held future draft UUID/time with at least 30 minutes lead, spacing and per-date cap; no duplicate. Record actual scheduling/publication evidence."
+    }
+  ]
+}

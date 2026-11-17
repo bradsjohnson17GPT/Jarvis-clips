@@ -7,4 +7,4 @@ The finished MP4 includes narration, music, effects and speech-timed captions. I
 Music: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 Source: https://www.scottbuckley.com.au/library/ascension/
 License: https://creativecommons.org/licenses/by/4.0/
-Changes: An excerpt starting122 seconds was trimmed, faded and mixed beneath original narration and effects. No endorsement by the composer is implied.
+Changes: An excerpt starting 122 seconds was trimmed, faded and mixed beneath original narration and effects. No endorsement by the composer is implied.
