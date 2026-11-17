@@ -33,7 +33,8 @@
     "expected_native_frames": 343,
     "complete_native_sequence_rendered": false,
     "final_acting_and_temporal_review_passed": false,
-    "qa_record": "assets/stories/team-ownership/scene-preview-qa.json"
+    "qa_record": "assets/stories/team-ownership/scene-preview-qa.json",
+    "opening_preflight": "assets/stories/team-ownership/opening-preflight.json"
   },
   "music": {
     "title": "Ascension",

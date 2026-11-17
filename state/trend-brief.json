@@ -293,7 +293,8 @@
       "manifest": "stories/jocko-give-the-team-the-plan.json",
       "source_record": "assets/stories/team-ownership/source-record.json",
       "metadata_preparation": "docs/production/2026-11-17-team-ownership-metadata.md",
-      "metadata_status": "provisional_until_finished_movie_review"
+      "metadata_status": "provisional_until_finished_movie_review",
+      "opening_preflight": "assets/stories/team-ownership/opening-preflight.json"
     }
   ],
   "production_reconciled_at_utc": "2026-11-17T15:04:21.434385+00:00",
