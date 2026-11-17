@@ -29,6 +29,13 @@
     "clear payoff without copied plot or unsupported factual claims"
   ],
   "paid_research_paused_during_reset": true,
-  "publication_blocker": "Metricool reported an account-level limit; alternate direct YouTube connection has no owned channel linked.",
-  "routine_confirmation_required": false
+  "publication_blocker": "Last actual Metricool publication failed at its account-level limit; no successful new publication has established recovery. A scheduled/drafted post is not publication evidence.",
+  "routine_confirmation_required": false,
+  "reviewed_single_pilot_publication_allowed": true,
+  "single_pilot_requirements": [
+    "finished actual video passes editorial and rights review",
+    "refresh real queue and respect existing per-date cap and minimum gaps",
+    "use a genuinely new reviewed story and media hash; never reactivate rejected media",
+    "attempt only a supported authorized route and record the actual result"
+  ]
 }

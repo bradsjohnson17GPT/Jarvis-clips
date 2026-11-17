@@ -144,7 +144,7 @@ def main():
     measured = run(['ffmpeg', '-hide_banner', '-i', str(mix), '-af', 'loudnorm=I=-16:TP=-2:LRA=8:print_format=json', '-f', 'null', '-']).stderr
     values = json.JSONDecoder().raw_decode(measured[measured.rfind('{'):])[0]
     loudness = f'loudnorm=I=-16:TP=-2:LRA=8:measured_I={values["input_i"]}:measured_TP={values["input_tp"]}:measured_LRA={values["input_lra"]}:measured_thresh={values["input_thresh"]}:offset={values["target_offset"]}:linear=true'
-    run(['ffmpeg', '-v', 'error', '-y', '-i', str(args.picture), '-i', str(mix), '-vf', f'ass={subtitle}', '-af', loudness, '-map', '0:v:0', '-map', '1:a:0', '-t', str(duration), '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', str(args.output)])
+    run(['ffmpeg', '-v', 'error', '-y', '-i', str(args.picture), '-i', str(mix), '-vf', f'ass={subtitle}', '-af', loudness, '-map', '0:v:0', '-map', '1:a:0', '-t', str(duration), '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-metadata', 'title=' + story['title'], '-metadata', 'comment=' + story['description'], '-movflags', '+faststart', str(args.output)])
     # Complete decode, then remeasure the encoded file rather than only the master.
     run(['ffmpeg', '-v', 'error', '-i', str(args.output), '-f', 'null', '-'])
     encoded = run(['ffmpeg', '-hide_banner', '-i', str(args.output), '-af', 'loudnorm=I=-16:TP=-2:LRA=8:print_format=json', '-f', 'null', '-']).stderr
