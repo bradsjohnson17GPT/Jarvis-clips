@@ -1,5 +1,7 @@
 # Content experiments and reporting
 
+> Latest owner override: quality reset is active. Read [quality.md](quality.md) and config/quality.json first. Comedy is optional, the former narrator is retired, all thirty unpublished legacy posts are held as drafts, and twenty per day is only a ceiling. The historical allocations below do not authorize resuming the rejected batch.
+
 The owner authorizes routine research, editing, posting, scheduling, code changes, and adjustment without repeated confirmation. Work through actual connected tools and permissions. Record a blocked operation accurately; permission does not grant missing account access or continuous runtime. Send concise morning and afternoon progress updates under the latest owner request; keep the daily money report focused on earnings.
 
 ## Initial test
