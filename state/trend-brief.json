@@ -246,7 +246,27 @@
       "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v2.mp4",
       "video_sha256": "b1b1bb20a85478281272596bd13fc3979c318a021338402940f3cf774007fd61",
       "do_not_duplicate": true
+    },
+    {
+      "id": "jocko-give-the-team-the-plan",
+      "status": "script_and_storyboard_preparation_only",
+      "topic": "Giving a team agency over its plan",
+      "content_type": "motivational",
+      "reference_use": "Existing reviewed government interview plus planned original fictional room and characters; no private-podcast footage or cloned voice.",
+      "hook": "A fictional team leader crosses out every proposed idea while teammates stop contributing.",
+      "action": "An authentic continuous Jocko statement is followed by the leader handing the marker back.",
+      "payoff": "The same colleague starts designing the next version while the leader listens.",
+      "source_identity": "DVIDS718744, different selected speech interval279.10\u2013285.90seconds",
+      "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
+      "production_state": "Source interval decoded/transcribed and one actual frame inspected. No original scene animation, new narration take, completed movie, app draft or post exists.",
+      "publishable": false,
+      "current_trend_claim": false,
+      "analytics_winner_claim": false,
+      "source_interval_reuses_existing_pilot_words": false,
+      "new_scene_assets_created": false,
+      "new_video_rendered": false,
+      "prepared_at_utc": "2026-11-17T12:25:37.090642+00:00"
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T09:17:15.944035+00:00"
+  "production_reconciled_at_utc": "2026-11-17T12:25:37.090642+00:00"
 }
