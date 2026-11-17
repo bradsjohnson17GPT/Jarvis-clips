@@ -228,7 +228,7 @@
     },
     {
       "id": "apollo13-the-part-they-couldnt-send",
-      "status": "development_preview_editorial_hold",
+      "status": "revised_development_preview_not_selected_for_publication",
       "content_type": "motivational",
       "topic": "Factual historical resourcefulness: Apollo13 CO2-filter adapter",
       "manifest": "stories/apollo13-the-part-they-couldnt-send.json",
@@ -240,11 +240,11 @@
       "trend_claim": false,
       "format_winner_claim": false,
       "prepared_on": "2026-11-17",
-      "notes": "docs/trends/2026-11-17-apollo13-preparation.md",
+      "notes": "docs/production/2026-11-17-apollo13-refinement.md",
       "do_not_duplicate_preparation": true,
-      "production_state": "Actual24.875secondnative1080portraitvideo with male narration, timed captions, reviewed score and original effects; technical checks passed and actual frames reviewed. Adapter representation still needs refinement; not a posting candidate.",
-      "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.mp4",
-      "video_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+      "production_state": "Revised actual development preview: materials and ground-to-crew clarity improved; same inspected soundtrack preserved. Still not selected for posting because people/action and emotional progression are weaker than the current owner direction.",
+      "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v2.mp4",
+      "video_sha256": "b1b1bb20a85478281272596bd13fc3979c318a021338402940f3cf774007fd61",
       "do_not_duplicate": true
     }
   ],

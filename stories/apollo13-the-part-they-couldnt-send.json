@@ -3,7 +3,7 @@
   "title": "The Part Apollo 13 Couldn\u2019t Be Sent",
   "content_type": "motivational",
   "hook_type": "historical_physical_constraint_and_solution",
-  "status": "development_preview_editorial_hold",
+  "status": "revised_development_preview_not_selected_for_publication",
   "publishable": false,
   "voice_config": "config/motivational-voice.json",
   "narration": "NASA needed a part it couldn't send. The Apollo 13 crew had square carbon dioxide filters, but their lifeboat needed a different connection. Engineers on Earth designed an adapter using materials already aboard. The astronauts built it. The carbon dioxide level fell, and those extra filters could finally do their job.",
@@ -113,7 +113,9 @@
     "full_decode_passed": true,
     "actual_frames_cuts_inspected": true,
     "published": false,
-    "scheduled": false
+    "scheduled": false,
+    "revised_material_forms_inspected": true,
+    "same_encoded_soundtrack_preserved": true
   },
   "prepared_at_utc": "2026-11-17T09:20:38.281307+00:00",
   "music": {
@@ -139,15 +141,28 @@
     "record": "assets/stories/apollo13/source.json"
   },
   "description": "An original factual editorial explanation of the Apollo 13 carbon-dioxide filter adapter. Original simplified animation and generic male AI-generated stock narration; no astronaut voice clone or fabricated quote. Archive photograph: NASA/JSC AS13-62-8929. The diagram explains one compatibility problem; it is not a spacecraft engineering reconstruction or an emergency-device build guide.\n\nHistorical facts: https://www.nasa.gov/missions/apollo/apollo-13-mission-details/\nAdditional historical account: https://www.nasa.gov/history/houston-weve-had-a-problem/\nPhotograph: https://images.nasa.gov/details/as13-62-8929\nNASA media guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/\nNASA is the source of the historical photograph and factual source material, not the producer or reviewer of this original explanation. No NASA, astronaut or composer endorsement is implied.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Music excerpt trimmed, faded and ducked beneath original narration and original quiet edit effects.",
-  "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.mp4",
-  "qa_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.qa.json",
-  "video_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+  "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v2.mp4",
+  "qa_path": "examples/development/apollo13-the-part-they-couldnt-send-v2.qa.json",
+  "video_sha256": "b1b1bb20a85478281272596bd13fc3979c318a021338402940f3cf774007fd61",
   "duration_seconds": 24.875,
   "audio_version": "am-michael-clean-speech-ccby-score-original-adapter-clicks-v1",
   "editorial_hold": {
-    "reason": "The improvised plastic/card/tape adapter is currently an abstract opaque connector; its form can read as a purpose-built fitting. Improve that visual explanation and the ground-to-crew transition before promoting the preview into the publishing queue.",
+    "previous_defects_resolved": [
+      "Flexible translucent plastic, visible card insert and tape seals replace the opaque purpose-built-looking connector.",
+      "A distinct ground-team design/test to crew-assembly procedure relay follows the actual spoken sequence."
+    ],
+    "remaining_selection_issue": "The piece remains primarily a technical schematic with one archive photograph. It has less human action and emotional progression than the owner references and is not selected as the next posting format. Preserve it as a development alternate; prioritize stronger cleared people/action material.",
     "not_a_performance_finding": true,
     "not_an_owner_permission_requirement": true,
-    "technical_checks_do_not_establish_editorial_readiness": true
-  }
+    "do_not_iterate_without_material_reason": true
+  },
+  "previous_development_versions": [
+    {
+      "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.mp4",
+      "video_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+      "qa_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.qa.json",
+      "reason": "Original material-form and ground-to-crew visual defects; retained as version history, not a separate post."
+    }
+  ],
+  "visual_version": "flexible-adapter-materials-and-ground-to-crew-relay-v2"
 }

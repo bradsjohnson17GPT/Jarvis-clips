@@ -1,0 +1,65 @@
+{
+  "sha256": "b1b1bb20a85478281272596bd13fc3979c318a021338402940f3cf774007fd61",
+  "bytes": 5602981,
+  "duration_seconds": 24.875,
+  "full_decode_passed": true,
+  "width": 1080,
+  "height": 1920,
+  "native_fps": 24,
+  "stereo_48khz_aac": true,
+  "encoded_aac_bit_identical_to_asr_verified_v1": true,
+  "aac_elementary_sha256": "98dc3fd2d403f6c08b64d7820e0f4cfa7cb8b3a4424cf01182f411f7aff7ddc1",
+  "spoken_words_match_basis": "Exactly preserved encoded AAC from v1 whose full51word mix matched script. No second synthetic take or music re-encode.",
+  "publication": null,
+  "status": "inspected_revised_development_preview_not_selected_for_posting",
+  "ready_candidate": false,
+  "scheduled": false,
+  "subjective_audio_listening_claimed": false,
+  "all_spoken_words_match": true,
+  "spoken_word_count": 51,
+  "full_encoded_asr_basis": "Exactly preserved AAC elementary bytes from the fully51word-ASR-verified v1 mix.",
+  "encoded_loudness": {
+    "input_i": "-16.03",
+    "input_tp": "-3.10",
+    "input_lra": "2.50",
+    "input_thresh": "-26.56",
+    "output_i": "-16.19",
+    "output_tp": "-3.18",
+    "output_lra": "1.50",
+    "output_thresh": "-26.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "loudness_basis": "Same encoded AAC elementary bytes as v1; voice/music/effects are unchanged.",
+  "visual_review": {
+    "actual_final_material_and_relay_frames": true,
+    "all_five_exact_adjacent_cut_pairs": true,
+    "ending_frame": true,
+    "caption_timing_preserved_from_same_recording": true,
+    "source_picture_and_schematic_identified": true
+  },
+  "editorial_review": {
+    "previous_defects_resolved": [
+      "Flexible translucent plastic, visible card insert and tape seals replace the opaque purpose-built-looking connector.",
+      "A distinct ground-team design/test to crew-assembly procedure relay follows the actual spoken sequence."
+    ],
+    "remaining_selection_issue": "The piece remains primarily a technical schematic with one archive photograph. It has less human action and emotional progression than the owner references and is not selected as the next posting format. Preserve it as a development alternate; prioritize stronger cleared people/action material.",
+    "not_a_performance_finding": true,
+    "not_an_owner_permission_requirement": true,
+    "do_not_iterate_without_material_reason": true
+  },
+  "source_record": "assets/stories/apollo13/source.json",
+  "picture_provenance": {
+    "status": "silent_development_picture_requires_audio_and_inspection",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "native_frames": 597,
+    "duration": 24.875,
+    "photo_sha256": "9496d19e11d5e2da3eb35a36529346aa0a1607c4ba93e2e6c963d8c709bffc1f",
+    "sha256": "d8caa6894c62253dd2795436a2703590002e3ef7183e6497bafc0aa2730463c8",
+    "original_geometry": "Procedural original animated 2D/extruded schematic, not a simulation or archive footage.",
+    "source_audio_used": false
+  },
+  "reviewed_at_utc": "2026-11-17T10:13:24.733242+00:00"
+}

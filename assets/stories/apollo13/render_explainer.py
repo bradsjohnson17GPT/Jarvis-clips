@@ -131,36 +131,60 @@ def frame(t, bg, photo):
         if q>.9:
             d.line((645,812,672,840,645,868),fill=GOLD,width=5)
         label(d,540,1198,'Different interfaces',30,GOLD,bold=True)
-    if 10.96 < t < 16.25:
-        label(d,540,360,'A PLAN USING PARTS ALREADY ABOARD',29,bold=True)
-        items=[('PLASTIC',295,12.9),('CARD',540,13.4),('TAPE',785,13.8)]
-        for text,px,begin in items:
+    if 10.96 < t < 17.9:
+        # Procedural ground-to-crew relay, not invented archival dialogue.
+        crew_active=t>=16.28
+        for xx,title,sub,active in [(165,'GROUND TEAM','design + test',not crew_active),(625,'CREW','assemble',crew_active)]:
+            d.rounded_rectangle((xx,305,xx+290,430),radius=15,fill='#193541',outline=GOLD if active else '#4a6672',width=3)
+            label(d,xx+145,350,title,27,bold=True)
+            label(d,xx+145,397,sub,23,color='#a9c2cc')
+        q=ease((t-11.4)/1.4)
+        end=470+145*q
+        d.line((470,368,end,368),fill=GOLD,width=4)
+        if q>.9:d.line((597,350,615,368,597,386),fill=GOLD,width=4)
+        if t>=12.5:label(d,540,476,'PROCEDURE SENT TO THE CREW',24,color='#b5ccd3')
+        for text,px,begin in [('PLASTIC BAG',260,12.9),('CARD',540,13.4),('TAPE',820,13.8)]:
             f=ease((t-begin)/.65)
-            yy=470-45*f
             if f>0:
-                d.rounded_rectangle((px-101,yy-34,px+101,yy+34),radius=12,
-                                    fill='#243e49',outline='#6b8790',width=2)
+                yy=610-30*f
                 label(d,px,yy,text,25,color='#e9dfc9',bold=True)
     if t>=12.5:
-        f=ease((t-12.5)/4.1)
-        # A deliberately simplified adapter silhouette; not construction plans.
+        f=ease((t-12.5)/3.8)
         left=x+310
         right=690
         middle=(left+right)/2
-        points=[(left,735),(middle,735-60*f),(right,800-70*f),
-                (right,880+70*f),(middle,945+60*f),(left,945)]
         layer=Image.new('RGBA',(W,H))
         ld=ImageDraw.Draw(layer)
-        ld.polygon(points,fill=(190,213,218,round(130*f)),outline=(210,231,230,round(230*f)))
-        ld.line((left,735,middle,675,right,730),fill=(240,242,233,round(170*f)),width=4)
+        # The original opaque solid is replaced with visibly flexible plastic:
+        # irregular edges, translucent folds and an identifiable card panel.
+        # This remains a symbolic connection, not the literal NASA geometry.
+        points=[(left-13,735),(left+32,709),(middle-18,717),
+                (middle+28,701),(right+14,769),(right+8,835),
+                (right+17,917),(middle+20,979),(middle-22,961),
+                (left-15,968),(left+2,891),(left-9,803)]
+        ld.polygon(points,fill=(183,220,229,round(36*f)),outline=(208,235,236,round(205*f)))
+        card=ease((t-13.45)/1.1)
+        if card>0:
+            ld.polygon([(middle-45,757),(middle+18,747),(middle+39,920),(middle-33,941)],
+                       fill=(174,135,82,round(190*card)),outline=(228,202,158,round(220*card)))
+            ld.line((middle-29,776,middle+16,912),fill=(101,77,50,round(180*card)),width=3)
+        folds=[[(left+5,748),(middle-6,790),(right-3,778)],
+               [(left+2,944),(middle-5,876),(right+1,916)],
+               [(middle+24,715),(middle+3,791),(middle+21,836)],
+               [(left-2,800),(left+27,840),(left+8,891)],
+               [(middle-20,953),(middle+3,919),(middle+14,962)]]
+        for fold in folds:ld.line(fold,fill=(222,242,239,round(130*f)),width=3)
         im=Image.alpha_composite(im.convert('RGBA'),layer).convert('RGB')
         d=ImageDraw.Draw(im)
         if t>16.25:
             lock=ease((t-16.25)/1.0)
-            for px in [left+10,right-10]:
-                extent=round(130*lock)
-                d.line((px,840-extent,px,840+extent),fill=GOLD,width=13)
-            label(d,540,1200,'ONE WORKABLE CONNECTION',30,GOLD,bold=True)
+            for px in [left+6,right-4]:
+                extent=round(125*lock)
+                tape=[(px-11,840-extent),(px+10,838-extent),(px+13,843-extent),
+                      (px+10,840+extent),(px-10,842+extent),(px-13,835+extent)]
+                d.polygon(tape,fill='#c4c4b9',outline='#e2e1d4')
+                d.line((px-5,850-extent,px+4,845+extent),fill='#8b928e',width=2)
+            label(d,540,1200,'AN IMPROVISED ADAPTER',30,GOLD,bold=True)
     if t>18.26:
         q=ease((t-18.26)/1.6)
         for j in range(13):

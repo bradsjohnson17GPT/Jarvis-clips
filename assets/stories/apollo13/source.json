@@ -36,13 +36,30 @@
   "final_media_not_yet_inspected": false,
   "publication": null,
   "actual_final_media_inspected": true,
-  "final_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+  "final_sha256": "b1b1bb20a85478281272596bd13fc3979c318a021338402940f3cf774007fd61",
   "editorial_hold": {
-    "reason": "The improvised plastic/card/tape adapter is currently an abstract opaque connector; its form can read as a purpose-built fitting. Improve that visual explanation and the ground-to-crew transition before promoting the preview into the publishing queue.",
+    "previous_defects_resolved": [
+      "Flexible translucent plastic, visible card insert and tape seals replace the opaque purpose-built-looking connector.",
+      "A distinct ground-team design/test to crew-assembly procedure relay follows the actual spoken sequence."
+    ],
+    "remaining_selection_issue": "The piece remains primarily a technical schematic with one archive photograph. It has less human action and emotional progression than the owner references and is not selected as the next posting format. Preserve it as a development alternate; prioritize stronger cleared people/action material.",
     "not_a_performance_finding": true,
     "not_an_owner_permission_requirement": true,
-    "technical_checks_do_not_establish_editorial_readiness": true
+    "do_not_iterate_without_material_reason": true
   },
-  "original_render_script_sha256": "269ac69c74d90c47a6dae22515fadd19f38e350d5aafb09d676632639ba33142",
-  "original_mix_script_sha256": "8a1432852ce7e3fd3daa9899d4979484b544b557af0efe5a9d2ca1f1635080ef"
+  "original_render_script_sha256": "2164157bdc04eb08f917997369f92aaec31044fad6298adaeba0bc05870b5422",
+  "original_mix_script_sha256": "8a1432852ce7e3fd3daa9899d4979484b544b557af0efe5a9d2ca1f1635080ef",
+  "previous_final_versions": [
+    {
+      "final_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+      "render_script_sha256": "269ac69c74d90c47a6dae22515fadd19f38e350d5aafb09d676632639ba33142",
+      "version": 1
+    }
+  ],
+  "visual_revision": "Flexible bag/card/tape materials and explicit ground-to-crew relay; same source photo and same narration/music/effects.",
+  "audio_reuse_basis": {
+    "source_media_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+    "aac_elementary_sha256": "98dc3fd2d403f6c08b64d7820e0f4cfa7cb8b3a4424cf01182f411f7aff7ddc1",
+    "identical_encoded_aac_verified": true
+  }
 }

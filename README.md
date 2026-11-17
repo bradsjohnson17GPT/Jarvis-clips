@@ -12,7 +12,7 @@ New motivational Short: [Before the First Step | JFK Motivation — LIVE on YouT
 
 Two further motivational edits are finished and revised to generic adult male commentary, cleaner speech and a quieter ducked score: Jocko retains authentic reviewed speech and an original animated action plan; Goggins uses clearly labeled original narration. [Review both final upload drafts and exact settings](docs/production/jocko-goggins-upload-review.md). Metricool again hit its account limit; that failed copy is held. The direct connector requires after-preview approval of these exact drafts. Neither new clip is scheduled or live.
 
-An [Apollo13 explanatory development preview](examples/development/apollo13-the-part-they-couldnt-send-v1.mp4) is now rendered with original animation, reviewed archive imagery and male narration. It remains outside the posting queue: the improvised adapter representation needs refinement. [Development record](docs/production/2026-11-17-apollo13-development.md).
+An [Apollo 13 development preview](examples/development/apollo13-the-part-they-couldnt-send-v2.mp4) now shows clearer improvised materials and the ground-to-crew handoff. It remains outside the posting queue while production prioritizes stronger people/action stories. [Refinement record](docs/production/2026-11-17-apollo13-refinement.md).
 
 ## Quality and selection
 

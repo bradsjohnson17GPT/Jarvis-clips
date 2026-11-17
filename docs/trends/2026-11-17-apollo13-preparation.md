@@ -25,3 +25,7 @@ The [NASA/JSC image as13-62-8929](https://images.nasa.gov/details/as13-62-8929) 
 ## Narration preparation
 
 The current generic adult male stock-narrator configuration is `config/motivational-voice.json`; no celebrity cloning or pitch shifting. The actual local male-narration preflight passed a full script/ASR match and generated word timestamps in ignored `work/preproduction/apollo13-the-part-they-couldnt-send/audio-final/`. Its measured duration and hash are recorded in the story manifest; it is still a dry narration master, not a finished video. Technical transcript alignment does not establish subjective delivery quality. The subsequent full encoded development preview was separately checked: all51words matched, actual stereo48kHzAAC, complete decode, native1080x1920at24fps, -16.03LUFS/-3.10dBTP and actual frames/cuts inspected. The original Ascension score is credited underCCBY4.0 and two new quiet connection clicks replace any old story cues. These technical results do not clear the current editorial hold or establish audience performance. No publication or schedule exists.
+
+## Current refinement
+
+The v2 development preview resolves the original material-form and ground-to-crew defects. It still remains outside the posting queue because its technical presentation has less human action and emotional progression than the owner references. See [the current refinement record](../production/2026-11-17-apollo13-refinement.md); do not repeat cosmetic iterations without a material reason.
