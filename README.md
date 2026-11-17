@@ -14,6 +14,8 @@ Two further motivational edits are finished and revised to generic adult male co
 
 An [Apollo 13 development preview](examples/development/apollo13-the-part-they-couldnt-send-v2.mp4) now shows clearer improvised materials and the ground-to-crew handoff. It remains outside the posting queue while production prioritizes stronger people/action stories. [Refinement record](docs/production/2026-11-17-apollo13-refinement.md).
 
+A [complete teamwork development preview](examples/development/team-ownership/06-full-story-preview.mp4) now combines the original marker-handoff animation with a different reviewed Jocko statement and the saved male narrator. It remains outside the posting queue while real-time pacing, motion and soundtrack review and the final editorial release decision are outstanding. [Actual encoded review and limits](docs/production/2026-11-17-team-ownership-full-preview.md).
+
 ## Quality and selection
 
 The owner rejected the old stock-card format and robotic Piper delivery. Comedy is optional. Use [the quality direction](docs/quality.md), [quality configuration](config/quality.json) and [current strategy](config/strategy.json). Fixed category quotas and old bulk scheduling remain disabled. Prioritize formats supported by dated view evidence and actual structural analysis, then create original stories and commentary from cleared assets. Competitor views indicate audience interest, not guaranteed results, commercial reuse rights or monetization eligibility.

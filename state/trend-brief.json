@@ -65,7 +65,8 @@
     "before-the-first-step",
     "jocko-turn-a-mistake-into-a-plan",
     "goggins-practice-the-weak-skill",
-    "apollo13-the-part-they-couldnt-send"
+    "apollo13-the-part-they-couldnt-send",
+    "jocko-give-the-team-the-plan"
   ],
   "historical_discovery": {
     "tool": "vidIQ trending_videos",
@@ -249,7 +250,7 @@
     },
     {
       "id": "jocko-give-the-team-the-plan",
-      "status": "native_postquote_geometry_revision_in_progress",
+      "status": "full_encoded_development_preview_release_pending",
       "topic": "Giving a team agency over its plan",
       "content_type": "motivational",
       "reference_use": "Existing reviewed government interview plus planned original fictional room and characters; no private-podcast footage or cloned voice.",
@@ -258,7 +259,7 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10\u2013285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "Same source-frozen revised native render continues. All23handoff frames 419\u2013441 are now visually inspected: marker retained by teammate as leader withdraws and next cut preserves ownership. Full drawing motion, real-time pacing, complete assembly and final audio/editorial review remain.",
+      "production_state": "Complete 21.083333 second, 506-frame encoded preview now exists. All 343 selected original frames have verified source-bound denoise receipts.51 actual encoded samples cover all cuts and the completed new-node payoff. Actual real-time pacing/motion and subjective soundtrack review remain; no ready entry or service draft.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
@@ -273,13 +274,13 @@
       "scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
       "scene_preview_qa": "assets/stories/team-ownership/scene-preview-qa.json",
       "actual_development_stills_inspected": 6,
-      "full_frame_sequence_rendered": false,
-      "rendered_video_kind": "development_motion_test_only",
+      "full_frame_sequence_rendered": true,
+      "rendered_video_kind": "complete_encoded_development_preview",
       "new_finished_short": false,
       "new_development_motion_test_rendered": true,
       "development_motion_preview": "examples/development/team-ownership/04-motion-test.mp4",
       "development_motion_seconds": 4.0,
-      "native_render_in_progress": true,
+      "native_render_in_progress": false,
       "native_expected_original_frames": 343,
       "frozen_scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
       "finishing_plan": "assets/stories/team-ownership/finishing-plan.json",
@@ -313,10 +314,17 @@
       "handoff_frame_review": "assets/stories/team-ownership/handoff-frame-review.json",
       "handoff_all_closeup_frames_visually_inspected": true,
       "subjective_audio_listening_claimed": false,
-      "continuous_video_watching_claimed": false
+      "continuous_video_watching_claimed": false,
+      "full_movie_exists": true,
+      "media_path": "examples/development/team-ownership/06-full-story-preview.mp4",
+      "video_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+      "full_movie_review": "assets/stories/team-ownership/full-movie-review.json",
+      "full_story_editorial_pass": false,
+      "do_not_duplicate_preparation": true,
+      "publication_confirmed": false
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T19:05:26.806711+00:00",
+  "production_reconciled_at_utc": "2026-11-17T19:53:10.098614+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",

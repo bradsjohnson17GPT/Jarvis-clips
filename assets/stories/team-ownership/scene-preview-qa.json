@@ -1,13 +1,13 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "reviewed_at_utc": "2026-11-17T13:37:40.794152+00:00",
-  "status": "native_handoff_all_frames_inspected_full_sequence_still_rendering",
+  "status": "complete_encoded_preview_sampled_final_editorial_release_pending",
   "publishable": false,
   "scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
   "scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
   "geometry_and_baked_pose_curves_created": true,
-  "full_frame_sequence_rendered": false,
-  "new_finished_video": false,
+  "full_frame_sequence_rendered": true,
+  "new_finished_video": true,
   "preview_resolution": [
     432,
     768
@@ -30,10 +30,9 @@
     "23 existing renderer tests passed after final source changes."
   ],
   "unresolved_editorial_findings": [
-    "Full native24fps sequence and assembled edit remain incomplete; real-time pacing, character acting, source transitions and final editorial review are outstanding.",
-    "The revised handoff and adjacent cuts are now inspected frame by frame, including the leader withdrawing while the teammate retains the marker. This is visual evidence, not continuous playback or subjective soundtrack listening.",
-    "The drawing-shot board heading is partly cropped, while sampled native poses show a visible connected new node. The complete drawing motion and final payoff still need review.",
-    "All 177 opening frame receipts are retained; the remaining 166-frame revised postquote render and denoising must finish before exact 506-frame assembly and final encoded QA."
+    "The complete encoded film exists and51 actual encoded samples cover every cut and drawing payoff. Actual real-time pacing, temporal motion and subjective soundtrack review remain.",
+    "Opening/return setup and reaction include holds; leader partly blocks board/marker during crossing, supporting teammate is cropped, and drawing heading is partly cropped. Complete-film pacing/impact must be judged before release.",
+    "No final editorial release, ready entry, service draft, schedule or publication has been created."
   ],
   "next_material_change": "Complete the currently active source-frozen native frame render without starting a duplicate, then assemble/inspect the real final picture, source excerpt, captions and soundtrack. Do not count this motion test as a finished Short.",
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
@@ -116,13 +115,13 @@
       506
     ],
     "expected_frames": 166,
-    "status": "all_handoff_closeup_frames_inspected_remaining_revision_frames_rendering",
+    "status": "all 166 native_revision_frames_complete_and_assembled",
     "changes": [
       "Closed finger/thumb curve ends and added rounded matching skin tips.",
       "Return-shot focal length49mm instead of53mm for more room around the main colleague."
     ],
     "existing_tests_passed": 27,
-    "full_frame_sequence_rendered": false,
+    "full_frame_sequence_rendered": true,
     "editorial_pass": false,
     "actual_native_samples_inspected": [
       408,
@@ -157,5 +156,7 @@
     "all_handoff_closeup_frames_visually_inspected": true
   },
   "latest_native_review_at_utc": "2026-11-17T19:04:06.906909+00:00",
-  "handoff_frame_review": "assets/stories/team-ownership/handoff-frame-review.json"
+  "handoff_frame_review": "assets/stories/team-ownership/handoff-frame-review.json",
+  "full_movie_review": "assets/stories/team-ownership/full-movie-review.json",
+  "full_movie_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3"
 }

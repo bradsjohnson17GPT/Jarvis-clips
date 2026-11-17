@@ -2,10 +2,10 @@
   "id": "jocko-give-the-team-the-plan",
   "title": "Hand the Marker Back | Jocko Willink on Leadership",
   "metadata_status": "provisional_until_finished_movie_review",
-  "status": "native_postquote_geometry_revision_in_progress",
+  "status": "full_encoded_development_preview_release_pending",
   "prepared_on": "2026-11-17",
   "publishable": false,
-  "finished_video_exists": false,
+  "finished_video_exists": true,
   "ready_candidate": false,
   "content_type": "motivational",
   "person": "Jocko Willink",
@@ -36,7 +36,7 @@
     "frozen_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
     "label": "Illustration",
     "expected_native_frames": 343,
-    "complete_native_sequence_rendered": false,
+    "complete_native_sequence_rendered": true,
     "final_acting_and_temporal_review_passed": false,
     "qa_record": "assets/stories/team-ownership/scene-preview-qa.json",
     "opening_preflight": "assets/stories/team-ownership/opening-preflight.json",
@@ -46,7 +46,8 @@
       341,
       506
     ],
-    "return_shot_preflight": "assets/stories/team-ownership/return-shot-preflight.json"
+    "return_shot_preflight": "assets/stories/team-ownership/return-shot-preflight.json",
+    "full_movie_review": "assets/stories/team-ownership/full-movie-review.json"
   },
   "music": {
     "title": "Ascension",
@@ -74,10 +75,11 @@
   ],
   "privacy": "public",
   "audience": {
-    "made_for_kids": null,
-    "status": "pending_actual_finished_video_review",
-    "intended_audience": "General teen/adult discussion of team planning and leadership.",
-    "basis": "The intended audience does not replace review of the actual finished animation and presentation. No audience setting has been sent to a publisher."
+    "intended_audience": "General teen/adult workplace leadership discussion.",
+    "made_for_kids": false,
+    "basis": "Actual sampled complete-film presentation and full script concern adult team planning and leadership; no child-directed story, child characters, songs or marketing. Animation alone was not treated as a children designation.",
+    "publisher_setting_sent": false,
+    "status": "prepared_from_actual_film_not_sent_to_publisher"
   },
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
   "finishing_plan": "assets/stories/team-ownership/finishing-plan.json",
@@ -89,15 +91,17 @@
     720,
     1280
   ],
-  "media_path": null,
+  "media_path": "examples/development/team-ownership/06-full-story-preview.mp4",
   "media_url": null,
-  "video_sha256": null,
-  "qa_path": null,
+  "video_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+  "qa_path": "assets/stories/team-ownership/full-movie-review.json",
   "publication_evidence": null,
   "service_draft_created": false,
   "scheduled": false,
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
   "research_limit": "Existing dated motivational-interest evidence and completed structure analyses support development only. No current trend, ranking, format winner or performance guarantee is claimed.",
   "do_not_duplicate_preparation": true,
-  "release_requirement": "Complete the existing frozen render, denoise all native frames, assemble and inspect the actual movie, review final audience/credits/audio/encoded output, and verify hosted final bytes and queue/hash deduplication. Only then consider a service draft under the actual connector workflow. Development samples and source-only inputs are never uploads."
+  "release_requirement": "The full 506-frame encoded development preview now exists. Review actual real-time motion/pacing and soundtrack, record a final editorial release decision, then verify immutable hosted bytes and actual queue/clip/hash deduplication before considering a service draft under the connector workflow. No ready entry, service draft, schedule or publication exists.",
+  "full_encoded_preview_completed_at_utc": "2026-11-17T19:53:10.098614+00:00",
+  "full_story_editorial_pass": false
 }

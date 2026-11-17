@@ -40,5 +40,6 @@
   "release_limits": "Private opening export/contact sheet are engineering evidence only and never uploads. The remaining native frames, complete assembly, source transition, final motion/captions/encoded audio/audience and actual editorial review remain.",
   "additional_encoded_review": "assets/stories/team-ownership/opening-sequence-review.json",
   "additional_actual_encoded_samples_inspected": 35,
-  "additional_review_at_utc": "2026-11-17T19:26:08.223740+00:00"
+  "additional_review_at_utc": "2026-11-17T19:26:08.223740+00:00",
+  "subsequent_complete_movie_review": "assets/stories/team-ownership/full-movie-review.json"
 }

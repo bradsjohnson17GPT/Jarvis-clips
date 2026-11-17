@@ -1,6 +1,6 @@
 {
   "id": "jocko-give-the-team-the-plan",
-  "status": "source_reviewed_final_movie_review_pending",
+  "status": "source_reviewed_complete_encoded_preview_sampled_release_pending",
   "reviewed_by": "Project production assistant",
   "selected_interval_review_date": "2026-11-17",
   "publishable": false,
@@ -72,7 +72,8 @@
     "postquote_revision_frames": [
       341,
       506
-    ]
+    ],
+    "complete_native_movie_exists": true
   },
   "commentary": {
     "voice_config": "config/motivational-voice.json",
@@ -101,7 +102,7 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "effects": "Original synthesized marker-stroke and marker-cap/contact sounds; no unreviewed stock audio.",
-  "final_movie_hash": null,
-  "final_editorial_qa": "Pending complete native render and real assembled movie. Existing development samples and technical preflights do not establish a release-quality pass.",
+  "final_movie_hash": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+  "final_editorial_qa": "assets/stories/team-ownership/full-movie-review.json",
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md"
 }
