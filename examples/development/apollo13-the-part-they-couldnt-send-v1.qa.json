@@ -1,0 +1,74 @@
+{
+  "status": "development_preview_editorial_hold_not_for_publication",
+  "sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+  "bytes": 5582654,
+  "duration_seconds": 24.875,
+  "streams": [
+    {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 1920,
+      "channels": null,
+      "sample_rate": null,
+      "r_frame_rate": "24/1"
+    },
+    {
+      "codec_type": "audio",
+      "codec_name": "aac",
+      "width": null,
+      "height": null,
+      "channels": 2,
+      "sample_rate": "48000",
+      "r_frame_rate": "0/0"
+    }
+  ],
+  "full_decode_passed": true,
+  "all_spoken_words_match": true,
+  "spoken_word_count": 51,
+  "encoded_loudness": {
+    "input_i": "-16.03",
+    "input_tp": "-3.10",
+    "input_lra": "2.50",
+    "input_thresh": "-26.56",
+    "output_i": "-16.19",
+    "output_tp": "-3.18",
+    "output_lra": "1.50",
+    "output_thresh": "-26.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "subjective_audio_listening_claimed": false,
+  "publication": null,
+  "visual_review": {
+    "representative_actual_encoded_frames": true,
+    "all_five_adjacent_cut_pairs": true,
+    "ending_frame": true,
+    "actual_source_photograph_matches": true,
+    "portrait_closeups_readable": true,
+    "caption_intervals_checked_against_actual_take": true,
+    "no_tiny_landscape_over_blur": true
+  },
+  "editorial_hold": {
+    "reason": "The improvised plastic/card/tape adapter is currently an abstract opaque connector; its form can read as a purpose-built fitting. Improve that visual explanation and the ground-to-crew transition before promoting the preview into the publishing queue.",
+    "not_a_performance_finding": true,
+    "not_an_owner_permission_requirement": true,
+    "technical_checks_do_not_establish_editorial_readiness": true
+  },
+  "source_record": "assets/stories/apollo13/source.json",
+  "picture_provenance": {
+    "status": "silent_development_picture_requires_audio_and_inspection",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "native_frames": 597,
+    "duration": 24.875,
+    "photo_sha256": "9496d19e11d5e2da3eb35a36529346aa0a1607c4ba93e2e6c963d8c709bffc1f",
+    "sha256": "344f2a53e9598a2a173b2eb1b691066fddb3c5333a4e4b4951f3fab44019bbb8",
+    "original_geometry": "Procedural original animated 2D/extruded schematic, not a simulation or archive footage.",
+    "source_audio_used": false
+  },
+  "reviewed_at_utc": "2026-11-17T09:54:03.016872+00:00",
+  "scheduled": false,
+  "ready_candidate": false
+}

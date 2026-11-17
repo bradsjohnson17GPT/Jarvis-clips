@@ -1,0 +1,7 @@
+# Apollo13 explanatory animation
+
+Original procedural extruded2Dgeometry with one individually reviewed NASA archive photograph. This is a factual explanatory illustration, not a reconstruction, physical simulation or emergency-device build guide. No archive film, source soundtrack, third-party model/character or celebrity voice is used. Read source.json and the story manifest for the exact rights, facts and current editorial hold.
+
+The actual development preview exists under examples/development/. It passes full encoded speech/decode/level checks and has inspected native portrait frames/cuts, but its improvised adapter currently reads too much like a purpose-built fitting. Refine the plastic/card/tape representation and ground-to-crew transition before publishing. Technical success is not editorial clearance. Do not add it to the ready/posting queue in its current state.
+
+Use the quality virtual environment and pinned male narrator configuration. Reuse the existing actual narration master/timing under ignored work/preproduction/ rather than regenerating it without a script change. Run render_explainer.py with --photo, --timing and --output; review --stills-only first. Then finish_explainer.py takes --story, --picture, --narration, --music and --output. Both source-photo and music bytes are hash-checked. A future clean checkout must download the exact source image from the story source record and reviewed score, and generate the pinned narration if no private master survives. No purchases are needed.

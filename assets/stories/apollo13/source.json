@@ -1,0 +1,48 @@
+{
+  "id": "apollo13-the-part-they-couldnt-send",
+  "reviewed_on": "2026-11-17",
+  "rights_verified_for_actual_assets": true,
+  "photograph": {
+    "identity": "NASA/JSC AS13-62-8929, Apollo13 lunar-module interior with the historical canister adapter",
+    "page": "https://images.nasa.gov/details/as13-62-8929",
+    "asset_api": "https://images-api.nasa.gov/asset/as13-62-8929",
+    "download": "https://images-assets.nasa.gov/image/as13-62-8929/as13-62-8929~orig.jpg",
+    "sha256": "9496d19e11d5e2da3eb35a36529346aa0a1607c4ba93e2e6c963d8c709bffc1f",
+    "source_credit": "NASA",
+    "reviewed_on": "2026-11-17",
+    "actual_image_inspected": true,
+    "observed": "Close-up of the historical canister, plastic bag/tape adapter, hose and cabin hardware. No identifiable face or prominent NASA logo in the inspected photograph. No third-party copyright notice identified in the exact catalog metadata.",
+    "use_basis": "Source-specific factual editorial illustration from NASA government archive, under its current imagery/media guidelines; acknowledge NASA as the source, no implied review/endorsement, no promotional personality use.",
+    "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "reviewed_component_only": true,
+    "does_not_clear_other_film_segments": true
+  },
+  "original_animation": {
+    "script": "assets/stories/apollo13/render_explainer.py",
+    "creator": "Project production assistant for the authorized owner",
+    "description": "Original procedural extruded 2D vector-style animation. No third-party character, model, film, texture, logo or private creator footage used.",
+    "sampling": "Native1080x1920 at24fps; actual archive still animated by a gentle camera crop, explicitly labeled as a photograph. Original schematic geometry is drawn each frame.",
+    "accuracy_limit": "Simplified explanatory illustration, not an engineering reconstruction, fluid simulation or construction guide."
+  },
+  "excluded": [
+    "Entire mixed-source NASA historical documentary and its soundtrack",
+    "National-news or movie footage",
+    "Astronaut impersonation or endorsement",
+    "Numeric gauge readings or oxygen-generation claims"
+  ],
+  "source_audio_used": false,
+  "music_registry": "config/licensed-music.json",
+  "narrator_config": "config/motivational-voice.json",
+  "final_media_not_yet_inspected": false,
+  "publication": null,
+  "actual_final_media_inspected": true,
+  "final_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+  "editorial_hold": {
+    "reason": "The improvised plastic/card/tape adapter is currently an abstract opaque connector; its form can read as a purpose-built fitting. Improve that visual explanation and the ground-to-crew transition before promoting the preview into the publishing queue.",
+    "not_a_performance_finding": true,
+    "not_an_owner_permission_requirement": true,
+    "technical_checks_do_not_establish_editorial_readiness": true
+  },
+  "original_render_script_sha256": "269ac69c74d90c47a6dae22515fadd19f38e350d5aafb09d676632639ba33142",
+  "original_mix_script_sha256": "8a1432852ce7e3fd3daa9899d4979484b544b557af0efe5a9d2ca1f1635080ef"
+}

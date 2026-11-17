@@ -64,7 +64,8 @@
     "downward-beacon",
     "before-the-first-step",
     "jocko-turn-a-mistake-into-a-plan",
-    "goggins-practice-the-weak-skill"
+    "goggins-practice-the-weak-skill",
+    "apollo13-the-part-they-couldnt-send"
   ],
   "historical_discovery": {
     "tool": "vidIQ trending_videos",
@@ -227,7 +228,7 @@
     },
     {
       "id": "apollo13-the-part-they-couldnt-send",
-      "status": "script_storyboard_and_narration_preparation",
+      "status": "development_preview_editorial_hold",
       "content_type": "motivational",
       "topic": "Factual historical resourcefulness: Apollo13 CO2-filter adapter",
       "manifest": "stories/apollo13-the-part-they-couldnt-send.json",
@@ -240,7 +241,11 @@
       "format_winner_claim": false,
       "prepared_on": "2026-11-17",
       "notes": "docs/trends/2026-11-17-apollo13-preparation.md",
-      "do_not_duplicate_preparation": true
+      "do_not_duplicate_preparation": true,
+      "production_state": "Actual24.875secondnative1080portraitvideo with male narration, timed captions, reviewed score and original effects; technical checks passed and actual frames reviewed. Adapter representation still needs refinement; not a posting candidate.",
+      "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.mp4",
+      "video_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+      "do_not_duplicate": true
     }
   ],
   "production_reconciled_at_utc": "2026-11-17T09:17:15.944035+00:00"

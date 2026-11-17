@@ -3,7 +3,7 @@
   "title": "The Part Apollo 13 Couldn\u2019t Be Sent",
   "content_type": "motivational",
   "hook_type": "historical_physical_constraint_and_solution",
-  "status": "script_storyboard_preparation_not_finished_video",
+  "status": "development_preview_editorial_hold",
   "publishable": false,
   "voice_config": "config/motivational-voice.json",
   "narration": "NASA needed a part it couldn't send. The Apollo 13 crew had square carbon dioxide filters, but their lifeboat needed a different connection. Engineers on Earth designed an adapter using materials already aboard. The astronauts built it. The carbon dioxide level fell, and those extra filters could finally do their job.",
@@ -43,11 +43,11 @@
     {
       "beat": "mismatch",
       "visual": "Original portrait animation keeps both shapes and the lunar-module label visible; physically show that the connections do not mate.",
-      "speech_anchor": "Apollo 13\u2019s crew"
+      "speech_anchor": "The Apollo 13 crew"
     },
     {
       "beat": "ground_to_crew",
-      "visual": "Source-specific historical hands/equipment footage is still to be inspected and cleared. No unreviewed documentary/news footage may fill this shot.",
+      "visual": "Original animated schematic shows the two interfaces and available material labels. It does not use unreviewed documentary or news footage.",
       "speech_anchor": "Engineers on Earth"
     },
     {
@@ -64,7 +64,7 @@
   "visual_source_plan": {
     "specific_photo": "NASA image as13-62-8929",
     "source_page": "https://images.nasa.gov/details/as13-62-8929",
-    "additional_motion_footage_status": "not_selected_or_watched",
+    "additional_motion_footage_status": "No additional archive film used. The remaining motion is original explanatory geometry.",
     "candidate_film": "https://ntrs.nasa.gov/citations/19950017795",
     "candidate_film_limit": "NTRS marks government work/public use but explicitly describes national-news footage and other material. No blanket clearance: inspect and choose actual government-origin segments, excluding third-party footage/music and promotional likeness use.",
     "specific_photo_review": {
@@ -87,8 +87,8 @@
     "narrator": "generic adult male Kokoro am_michael",
     "source_audio_used": false,
     "music_registry": "config/licensed-music.json",
-    "selected_music": null,
-    "effects": "Original quiet connection/transition sounds after actual visual assembly, not alarms that imply an authentic archived event."
+    "selected_music": "Ascension by Scott Buckley, reviewed CC BY4.0 excerpt",
+    "effects": "Two quiet original synthesized adapter-connection clicks, not historical spacecraft audio."
   },
   "audience": {
     "made_for_kids": false,
@@ -98,7 +98,7 @@
   "format_evidence_limit": "One future concept in the existing small motivational test. No verified current Shorts ranking, mature channel winner, promised views or publication.",
   "production_evidence": {
     "script_prepared": true,
-    "finished_video": false,
+    "finished_video": true,
     "narration_preflight": true,
     "publication": null,
     "narration_voice": "am_michael",
@@ -106,7 +106,48 @@
     "narration_sha256": "8b02acaa8de047f54a5346090cec5fd60356515722a397f5efeee65d2e006054",
     "narration_word_timing_verified": true,
     "narration_files_private": "work/preproduction/apollo13-the-part-they-couldnt-send/audio-final/",
-    "narration_limit": "Script content and timing verified by actual ASR; no claim of subjective listening or final mixed-video quality."
+    "narration_limit": "Script content and timing verified by actual ASR; no claim of subjective listening or final mixed-video quality.",
+    "development_preview_only": true,
+    "encoded_spoken_words_match": true,
+    "stereo_aac_verified": true,
+    "full_decode_passed": true,
+    "actual_frames_cuts_inspected": true,
+    "published": false,
+    "scheduled": false
   },
-  "prepared_at_utc": "2026-11-17T09:20:38.281307+00:00"
+  "prepared_at_utc": "2026-11-17T09:20:38.281307+00:00",
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 288
+  },
+  "music_start": 200,
+  "visual_source": {
+    "rights_verified": true,
+    "record": "assets/stories/apollo13/source.json"
+  },
+  "description": "An original factual editorial explanation of the Apollo 13 carbon-dioxide filter adapter. Original simplified animation and generic male AI-generated stock narration; no astronaut voice clone or fabricated quote. Archive photograph: NASA/JSC AS13-62-8929. The diagram explains one compatibility problem; it is not a spacecraft engineering reconstruction or an emergency-device build guide.\n\nHistorical facts: https://www.nasa.gov/missions/apollo/apollo-13-mission-details/\nAdditional historical account: https://www.nasa.gov/history/houston-weve-had-a-problem/\nPhotograph: https://images.nasa.gov/details/as13-62-8929\nNASA media guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/\nNASA is the source of the historical photograph and factual source material, not the producer or reviewer of this original explanation. No NASA, astronaut or composer endorsement is implied.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Music excerpt trimmed, faded and ducked beneath original narration and original quiet edit effects.",
+  "media_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.mp4",
+  "qa_path": "examples/development/apollo13-the-part-they-couldnt-send-v1.qa.json",
+  "video_sha256": "cef11df615817a8cafac19abe4625d2f6df2a2e3c33f9f44b96ae00463821eec",
+  "duration_seconds": 24.875,
+  "audio_version": "am-michael-clean-speech-ccby-score-original-adapter-clicks-v1",
+  "editorial_hold": {
+    "reason": "The improvised plastic/card/tape adapter is currently an abstract opaque connector; its form can read as a purpose-built fitting. Improve that visual explanation and the ground-to-crew transition before promoting the preview into the publishing queue.",
+    "not_a_performance_finding": true,
+    "not_an_owner_permission_requirement": true,
+    "technical_checks_do_not_establish_editorial_readiness": true
+  }
 }

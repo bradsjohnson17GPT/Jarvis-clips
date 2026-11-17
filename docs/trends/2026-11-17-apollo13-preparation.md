@@ -1,4 +1,4 @@
-# Apollo13 resourcefulness concept — preparation only
+# Apollo13 resourcefulness concept — development preview, not a posting candidate
 
 The routine production refresh verified the original connected Smile Daily route,31heldMetricoolcopies,10olderMetricoolpublished,0automaticpending and two completed direct publications. Both existing revised male-voice Jocko/Goggins drafts remained ready, undated and unapproved after the revised preview. No new draft, scheduling or publication was performed. The owner’s goodnight/thank-you message was not treated as a publishing instruction. API receipts remain private.
 
@@ -6,7 +6,7 @@ The routine production refresh verified the original connected Smile Daily route
 
 `stories/apollo13-the-part-they-couldnt-send.json` is a source-backed original script and five-beat visual plan about solving Apollo13’s incompatible CO2-filter connections with onboard materials. It uses the existing small motivational format test, not a new proven category or a current trend. The broad dated interest evidence remains in [the motivational format notes](2026-11-16-motivation-format-evidence.md). No paid vidIQ research or purchases were used.
 
-The planned mechanism is shown through a moving original explanatory diagram and actual individually reviewed historical material, rather than generic caption cards. Current source review covers only the real adapter photograph; additional source motion footage and finished animation are not yet selected, inspected or rendered. This is not a finished Short and must not enter the ready/publishing queue.
+The planned mechanism is shown through a moving original explanatory diagram and actual individually reviewed historical material, rather than generic caption cards. The actual development assembly uses the reviewed adapter photograph and original procedural animation, with portrait component close-ups and a clear source/schematic distinction. No mixed-source historical film was used. A25secondaudio-bearing development MP4 now exists, but it remains outside the ready/publishing queue: the improvised adapter silhouette needs refinement so it does not look like a purpose-built fitting.
 
 ## First-party factual sources
 
@@ -24,4 +24,4 @@ The [NASA/JSC image as13-62-8929](https://images.nasa.gov/details/as13-62-8929) 
 
 ## Narration preparation
 
-The current generic adult male stock-narrator configuration is `config/motivational-voice.json`; no celebrity cloning or pitch shifting. The actual local male-narration preflight passed a full script/ASR match and generated word timestamps in ignored `work/preproduction/apollo13-the-part-they-couldnt-send/audio-final/`. Its measured duration and hash are recorded in the story manifest; it is still a dry narration master, not a finished video. Technical transcript alignment does not establish subjective delivery quality. No new video, music mix, finalQAorpublication is inferred from a voice master.
+The current generic adult male stock-narrator configuration is `config/motivational-voice.json`; no celebrity cloning or pitch shifting. The actual local male-narration preflight passed a full script/ASR match and generated word timestamps in ignored `work/preproduction/apollo13-the-part-they-couldnt-send/audio-final/`. Its measured duration and hash are recorded in the story manifest; it is still a dry narration master, not a finished video. Technical transcript alignment does not establish subjective delivery quality. The subsequent full encoded development preview was separately checked: all51words matched, actual stereo48kHzAAC, complete decode, native1080x1920at24fps, -16.03LUFS/-3.10dBTP and actual frames/cuts inspected. The original Ascension score is credited underCCBY4.0 and two new quiet connection clicks replace any old story cues. These technical results do not clear the current editorial hold or establish audience performance. No publication or schedule exists.
