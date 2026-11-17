@@ -1,0 +1,60 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "reviewed_at_utc": "2026-11-17T13:12:22.647165+00:00",
+  "status": "development_stills_editorial_hold",
+  "publishable": false,
+  "scene_source": "assets/stories/team-ownership/scene.py",
+  "scene_source_sha256": "34c3c08528cefc7cdb34be63b8217783d8caf52a9f9d7c552279b6d193686a96",
+  "geometry_and_baked_pose_curves_created": true,
+  "full_frame_sequence_rendered": false,
+  "new_finished_video": false,
+  "actual_stills_inspected": 6,
+  "preview_resolution": [
+    432,
+    768
+  ],
+  "preview_samples": 32,
+  "preview_denoised": false,
+  "planned_delivery_resolution": [
+    720,
+    1280
+  ],
+  "planned_fps": 24,
+  "external_assets_used": false,
+  "bpy_runtime": "Blender4.3.2",
+  "passed_development_checks": [
+    "Original room/three character designs, physical board and shared marker created.",
+    "Revised close-up separates hands and keeps marker visible.",
+    "Actual preview pictures inspected through intended shot/cut positions.",
+    "23 existing project renderer tests passed after source changes."
+  ],
+  "unresolved_editorial_findings": [
+    "Hands remain simplified palms without convincing gripping fingers.",
+    "Designer still faces the camera while the drawing arm is behind the body; final drawing action is not clearly visible.",
+    "Some portrait shots crop the third character or do not direct attention strongly enough.",
+    "Poses/expressions remain mechanical; isolated stills do not prove natural acting or motion continuity.",
+    "Undenoised preview grain is visible. This Blender build has no bundled OIDN; final denoising/quality workflow has not been applied."
+  ],
+  "next_material_change": "A real torso turn, readable wrist/marker contact and visible board drawing are required before considering a full render. Do not spend another run on cosmetic frame variants alone.",
+  "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
+  "audio_masters_regenerated_this_run": false,
+  "source_Jocko_media_in_these_stills": false,
+  "artifacts": [
+    {
+      "path": "examples/development/team-ownership/01-opening.png",
+      "sha256": "b71d938acd956e1a4b668133f66e635ee4a584000ff2fc8bd7fa28156cdc2ea1",
+      "evidence": "Actual original Blender still, not a frame from a completed movie."
+    },
+    {
+      "path": "examples/development/team-ownership/02-marker-transfer.png",
+      "sha256": "cdd1be7e578bc82b7bb4b5fe4a9ea4d2ff7f9cb607469d0f54d376cef942eede",
+      "evidence": "Actual original Blender still, not a frame from a completed movie."
+    },
+    {
+      "path": "examples/development/team-ownership/03-late-scene.png",
+      "sha256": "990522ab6328a34a7dca5180d09d4c4a6a4817125803dcd076a7d0ac2d533a5c",
+      "evidence": "Actual original Blender still, not a frame from a completed movie."
+    }
+  ],
+  "no_publication_mutations": true
+}

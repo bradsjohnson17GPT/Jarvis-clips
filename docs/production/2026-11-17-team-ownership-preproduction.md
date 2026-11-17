@@ -1,6 +1,6 @@
 # Team ownership — original scene preparation
 
-Status: original script, storyboard and measured audio preflight only. A new male commentary take and mixed audio exist; no animation, final movie, ready candidate, service draft, scheduled post or publication exists for this concept. Working identity: `jocko-give-the-team-the-plan`. The two existing male-voice pilots remain unchanged.
+Status: original script, storyboard, measured audio preflight and six inspected developmental scene stills. Original character/room geometry and baked pose curves now exist; no full frame sequence, final movie, ready candidate, service draft, scheduled post or publication exists for this concept. Working identity: `jocko-give-the-team-the-plan`. The two existing male-voice pilots remain unchanged.
 
 ## Story and spoken copy
 
@@ -29,7 +29,7 @@ This copy is a development draft. The 6.8-second source cut has been decoded and
 | Changed action | Return to the same room, clothes and positions. Leader clears space on the board and physically hands over the marker. The colleague now draws the next version while the leader steps aside to listen. | Male commentary resumes as a coherent take. Music remains ducked. Avoid a fresh voice restart for every caption. |
 | Payoff | Close on the same marker in the colleague's hand; widen to show the other teammate contributing. Resolve the original blocked interaction through an actual visible change. | Let reviewed music rise briefly after speech, with a quiet original marker cap sound. No unearned claim about success, income or guaranteed motivation. |
 
-No original characters, room geometry or animation exist yet. Do not substitute generic unrelated stock, a motionless whiteboard card or a repeated old pilot for this planned scene. Full narrative and visual quality must be assessed after real production. This concept can remain unselected if its finished acting or portrait composition falls short.
+Original characters, room geometry, camera setups and baked pose curves now exist, with six actually inspected revised stills. The scene remains held for simplified grips, torso orientation, hidden drawing action and mechanical acting. Read assets/stories/team-ownership/scene-preview-qa.json. Do not substitute generic unrelated stock, a motionless whiteboard card or a repeated old pilot. Full motion/narrative quality is still unverified; no full frame sequence has been rendered.
 
 ## Source and audio evidence
 
@@ -59,4 +59,4 @@ The free vidIQ pre-script guidance call reported zero credits used. No paid rese
 
 The real statement begins at audio second 7.36. Speech word timing, original marker effect positions and music credit are recorded for later animation. Local dialogue cleanup uses the reviewed mild noise reduction/EQ/compression; clean generic narration uses its separate mild processing chain. No pitch shifting, speaker cloning or copied music occurred. Source and commentary remain distinguishable. ASR/levels do not prove expressive delivery or establish a final editorial quality pass; subjective listening is not claimed.
 
-Raw/clean speech, original effect master, mixed WAV, AAC and private construction receipts remain ignored under `work/preproduction/jocko-give-the-team-the-plan/`. Reuse these exact masters for the next stage rather than synthesizing the same text again. The unfinished soundtrack must never be mistaken for a publishable Short or combined with a placeholder image for upload. The remaining material work is the original consistent room/characters, visible acting/marker handoff, source portrait crop, actual final picture/caption/mix inspection and final source/QA records.
+Raw/clean speech, original effect master, mixed WAV, AAC and private construction receipts remain ignored under `work/preproduction/jocko-give-the-team-the-plan/`. Reuse these exact masters for the next stage rather than synthesizing the same text again. The unfinished soundtrack must never be mistaken for a publishable Short or combined with a placeholder image for upload. The original room and characters now exist as a development scene. Remaining material work includes convincing body turns and gripping, visibly drawing the next plan, source portrait crop, complete motion, actual final picture/caption/mix inspection and final source/QA records. The marker close-up is clearer, but the stills do not pass as a finished narrative.

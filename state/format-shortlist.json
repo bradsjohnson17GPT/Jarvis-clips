@@ -20,5 +20,13 @@
     "old stock-card category quotas",
     "uncleared streamer or celebrity reposts",
     "new formats selected only from a viral title or unverified chart"
-  ]
+  ],
+  "last_check_at_utc": "2026-11-17T13:12:22.647165+00:00",
+  "latest_check": {
+    "notes": "docs/trends/2026-11-17-0500-quality-scout.md",
+    "new_view_observations": 0,
+    "new_current_short_rankings_verified": false,
+    "existing_format_evidence_date": "2026-11-16",
+    "interpretation": "Broad motivational interest still supports small tests only. No new ranking, mature channel comparison or causal format winner. Original teamwork scene is held for specific editorial defects."
+  }
 }
