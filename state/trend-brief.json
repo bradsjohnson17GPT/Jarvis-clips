@@ -289,7 +289,11 @@
       "historical_source_requires_documented_spatial_upscale": true,
       "caption_validation": "assets/stories/team-ownership/caption-validation.json",
       "captions_prepared": true,
-      "assembler_refuses_incomplete_frames": true
+      "assembler_refuses_incomplete_frames": true,
+      "manifest": "stories/jocko-give-the-team-the-plan.json",
+      "source_record": "assets/stories/team-ownership/source-record.json",
+      "metadata_preparation": "docs/production/2026-11-17-team-ownership-metadata.md",
+      "metadata_status": "provisional_until_finished_movie_review"
     }
   ],
   "production_reconciled_at_utc": "2026-11-17T15:04:21.434385+00:00",
