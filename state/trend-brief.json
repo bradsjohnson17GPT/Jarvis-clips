@@ -249,7 +249,7 @@
     },
     {
       "id": "jocko-give-the-team-the-plan",
-      "status": "native_scene_render_in_progress",
+      "status": "native_postquote_geometry_revision_in_progress",
       "topic": "Giving a team agency over its plan",
       "content_type": "motivational",
       "reference_use": "Existing reviewed government interview plus planned original fictional room and characters; no private-podcast footage or cloned voice.",
@@ -258,7 +258,7 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10\u2013285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "Material torso/grip/ink/payoff revisions inspected in actual stills and a4second180x320/12fps motion test with audio. A frozen-source native720x1280/24fps frame render is active; no completed final Short, app draft or post exists.",
+      "production_state": "Reviewed opening is retained. Native close-up exposed hollow finger ends; revised post-quote shots close and round the tips and widen return framing. Two actual revised native samples were inspected with improved tips/framing; the full 166-frame revision and finished movie review remain.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
@@ -270,7 +270,7 @@
       "audio_preflight_sha256": "fd2d1ce0320a4e9a879b32370cb5750859bc80220214146b70ab2edd4c4d20c1",
       "audio_preflight_seconds": 21.069333333333333,
       "new_narration_recorded": true,
-      "scene_source": "assets/stories/team-ownership/scene.py",
+      "scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
       "scene_preview_qa": "assets/stories/team-ownership/scene-preview-qa.json",
       "actual_development_stills_inspected": 6,
       "full_frame_sequence_rendered": false,
@@ -294,7 +294,14 @@
       "source_record": "assets/stories/team-ownership/source-record.json",
       "metadata_preparation": "docs/production/2026-11-17-team-ownership-metadata.md",
       "metadata_status": "provisional_until_finished_movie_review",
-      "opening_preflight": "assets/stories/team-ownership/opening-preflight.json"
+      "opening_preflight": "assets/stories/team-ownership/opening-preflight.json",
+      "postquote_revision_source": "assets/stories/team-ownership/scene.py",
+      "postquote_revision_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
+      "postquote_revision_frames": [
+        341,
+        506
+      ],
+      "return_shot_preflight": "assets/stories/team-ownership/return-shot-preflight.json"
     }
   ],
   "production_reconciled_at_utc": "2026-11-17T15:04:21.434385+00:00",

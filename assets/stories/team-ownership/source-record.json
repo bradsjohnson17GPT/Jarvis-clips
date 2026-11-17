@@ -19,10 +19,13 @@
     "commercial_editing_publication_basis": "Source-specific factual historical editorial discussion of this government-produced interview with a separately identified original fictional illustration. Not advertising, recruitment, speaker partnership or an endorsement.",
     "rights_limits": "The public-domain declaration does not waive privacy/publicity or third-party rights and does not clear private podcasts, unrelated footage, trademarks or music. Incidental personal-company shirt lettering is not promoted. No fabricated quote or speaker imitation.",
     "required_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
-    "selected_interval_seconds": [279.1, 285.9],
+    "selected_interval_seconds": [
+      279.1,
+      285.9
+    ],
     "continuous_statement": "A lot of taking ownership is actually giving ownership, giving ownership to the people below you in the chain of command so that they can take ownership.",
-    "context": "The broader interview answer at approximately 235–293 seconds concerns giving people control of planning. The selected complete statement is not assembled from unrelated answers.",
-    "distinct_from_existing_pilot": "Existing mistake-to-plan pilot uses source intervals 61.40–65.30 and 66.25–71.45 seconds. This story uses a different continuous statement and a different team-planning action/payoff.",
+    "context": "The broader interview answer at approximately 235\u2013293 seconds concerns giving people control of planning. The selected complete statement is not assembled from unrelated answers.",
+    "distinct_from_existing_pilot": "Existing mistake-to-plan pilot uses source intervals 61.40\u201365.30 and 66.25\u201371.45 seconds. This story uses a different continuous statement and a different team-planning action/payoff.",
     "source_audio_used": true,
     "audio_selection_evidence": {
       "decoded_cut_seconds": 6.8,
@@ -35,11 +38,22 @@
     },
     "picture_preparation": {
       "record": "assets/stories/team-ownership/finishing-plan.json",
-      "source_dimensions": [1024, 576],
+      "source_dimensions": [
+        1024,
+        576
+      ],
       "source_fps": "60000/1001",
-      "crop_xywh": [208, 0, 324, 576],
-      "delivery_dimensions": [720, 1280],
-      "upscale": "2.222222× Lanczos spatial scaling; no invented source detail.",
+      "crop_xywh": [
+        208,
+        0,
+        324,
+        576
+      ],
+      "delivery_dimensions": [
+        720,
+        1280
+      ],
+      "upscale": "2.222222\u00d7 Lanczos spatial scaling; no invented source detail.",
       "delivery_fps": 24,
       "temporal_conversion": "Frame selection/drop; no optical interpolation or speed change.",
       "inspection": "Actual source portrait samples at start, middle and end inspected. Face stays framed; division insignia is outside the crop. Incidental Echelon Front shirt lettering remains.",
@@ -47,12 +61,18 @@
     }
   },
   "original_illustration": {
-    "source": "assets/stories/team-ownership/scene.py",
+    "source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
     "frozen_scene_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
     "rights_basis": "Original room, adult fictional characters, geometry, poses and camera animation created for this project; no external character, footage or scene assets.",
     "representation": "Identified as Illustration. The fictional colleagues and their actions are not events attributed to Jocko Willink or the channel owner.",
     "review_record": "assets/stories/team-ownership/scene-preview-qa.json",
-    "complete_native_movie_inspected": false
+    "complete_native_movie_inspected": false,
+    "postquote_revision_source": "assets/stories/team-ownership/scene.py",
+    "postquote_revision_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
+    "postquote_revision_frames": [
+      341,
+      506
+    ]
   },
   "commentary": {
     "voice_config": "config/motivational-voice.json",

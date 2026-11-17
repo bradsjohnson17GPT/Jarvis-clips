@@ -15,6 +15,25 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+def original_frame_source(number, plan, base_manifest, base_root,
+                          patch_manifest=None, patch_root=None):
+    """Bind each shot to its approved source; never fall back to superseded art."""
+    patch = plan.get('original_scene_patch')
+    if patch and patch['first_frame'] <= number <= patch['last_frame']:
+        if patch_manifest is None or patch_root is None:
+            raise ValueError('The revised original shot requires its separate verified render cache.')
+        expected_frames = list(range(patch['first_frame'], patch['last_frame']+1))
+        if (patch_manifest['source_sha256'] != patch['source_sha256'] or
+                patch_manifest['frame_numbers'] != expected_frames or
+                patch_manifest['expected_frames'] != len(expected_frames)):
+            raise ValueError('The revised shot cache does not match its approved source and frame range.')
+        return Path(patch_root), patch['source_sha256']
+    if (base_manifest['source_sha256'] != plan['frozen_scene_sha256'] or
+            number not in base_manifest['frame_numbers']):
+        raise ValueError('Original frame is outside the approved opening source.')
+    return Path(base_root), plan['frozen_scene_sha256']
+
+
 def run(args):
     return subprocess.run(list(map(str, args)), capture_output=True, check=True)
 
@@ -99,6 +118,8 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--render-root', required=True, type=Path)
+    parser.add_argument('--patch-render-root', type=Path,
+                        help='Required for assembly when the finishing plan pins revised original shots.')
     parser.add_argument('--picture-input', required=True, type=Path)
     parser.add_argument('--audio', required=True, type=Path)
     parser.add_argument('--work', required=True, type=Path)
@@ -112,6 +133,8 @@ def main():
     plan = json.loads((asset/'finishing-plan.json').read_text())
     audio = json.loads((asset/'audio-preflight.json').read_text())
     manifest = json.loads((args.render_root/'render-manifest.json').read_text())
+    patch_manifest = (json.loads((args.patch_render_root/'render-manifest.json').read_text())
+                      if args.patch_render_root else None)
     if manifest['source_sha256'] != plan['frozen_scene_sha256']:
         raise ValueError('Render cache is from a different scene revision.')
     if digest(args.picture_input) != plan['historical_picture']['prepared_picture_sha256']:
@@ -149,19 +172,23 @@ def main():
         # Never fall back to raw, missing, stale or placeholder picture.
         reviewed_denoiser = json.loads((project/'config/denoiser.json').read_text())
         pictures = {}
+        source_counts = {}
         for frame in manifest['frame_numbers']:
-            src = args.render_root/'frames'/f'{frame:05d}.png'
-            clean = args.render_root/'denoised'/src.name
-            receipt = args.render_root/'denoised'/f'{frame:05d}.json'
+            root, expected_source = original_frame_source(
+                frame, plan, manifest, args.render_root, patch_manifest, args.patch_render_root)
+            src = root/'frames'/f'{frame:05d}.png'
+            clean = root/'denoised'/src.name
+            receipt = root/'denoised'/f'{frame:05d}.json'
             if not (src.exists() and clean.exists() and receipt.exists()):
                 raise ValueError(f'Original frame {frame} is not ready for assembly.')
             r = json.loads(receipt.read_text())
-            if (r['frozen_scene_sha256'] != plan['frozen_scene_sha256'] or
+            if (r['frozen_scene_sha256'] != expected_source or
                 r['source_png_sha256'] != digest(src) or r['output_png_sha256'] != digest(clean) or
                 r['oidn_archive_sha256'] != reviewed_denoiser['archive_sha256'] or
                 r['dimensions'] != [720,1280] or r['resized']):
                 raise ValueError(f'Original frame {frame} lacks matching native evidence.')
             pictures[frame] = clean
+            source_counts[expected_source] = source_counts.get(expected_source, 0)+1
         historical = args.work/'historical-picture-frames'
         historical.mkdir(exist_ok=True)
         run(['ffmpeg','-v','error','-y','-i',args.picture_input,'-fps_mode','passthrough',
@@ -191,6 +218,7 @@ def main():
             raise ValueError('Final AAC essence differs from the inspected soundtrack.')
         report = {'status':'assembled_pending_actual_editorial_and_final_qa_review',
                   'publishable':False,'frames':506,'full_decode_passed':True,
+                  'verified_original_frame_source_counts':source_counts,
                   'inspected_audio_essence_unchanged':True,'output_sha256':digest(args.output)}
     probe = json.loads(run(['ffprobe','-v','error','-show_streams','-show_format',
                             '-of','json',args.output]).stdout)

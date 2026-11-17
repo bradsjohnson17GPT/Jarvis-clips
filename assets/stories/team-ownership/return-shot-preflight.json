@@ -1,0 +1,58 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "reviewed_at_utc": "2026-11-17T17:08:54.014246+00:00",
+  "reviewed_by": "Project production assistant",
+  "status": "revised_native_samples_inspected_full_transfer_and_sequence_pending",
+  "publishable": false,
+  "finished_short": false,
+  "full_story_editorial_pass": false,
+  "scene_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+  "caption_sha256": "b9546ec0645f4a028c711fb5d1e2f1d25189dac75b60519215841f24932afc2e",
+  "native_frame": 408,
+  "story_time_seconds": 16.958333333333332,
+  "dimensions": [
+    720,
+    1280
+  ],
+  "denoised_native_frame_sha256": "14c14702d9c11d182c17fd69482f68e0779ca68823fceea912a775893684a475",
+  "captioned_sample_sha256": "8d56881a8b2910fcab583f23a3ce9cc602938111b4ea1dc8648f51dfdf522ddb",
+  "sampled_frames_inspected": 1,
+  "actual_findings": [
+    "Illustration label and caption group are readable and keep the main facial features clear.",
+    "The marker is largely occluded by the near hand in this wide return-shot sample; a readable marker transfer is not established by this frame.",
+    "The colleague at the left edge is partly cropped. The handoff, full character acting and narrative continuity remain subject to complete-story review."
+  ],
+  "next_review": "Complete all 166 revised post-quote frames, then inspect native contact/ownership change around frames 426\u2013432, drawing and the actual full assembled sequence. A readable early close-up does not establish the later transfer or final quality.",
+  "evidence_limits": "One actual native frame with existing caption timing applied; not continuous viewing, temporal review, subjective audio listening or a finished movie. Previous low-resolution development motion samples do not settle native prop visibility.",
+  "revision_review": {
+    "reviewed_at_utc": "2026-11-17T17:21:39.795509+00:00",
+    "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
+    "dimensions": [
+      720,
+      1280
+    ],
+    "samples": [
+      {
+        "native_frame": 408,
+        "story_time_seconds": 16.958333333333332,
+        "raw_sha256": "f3cf41e45c3d16b703549e9c574c04607543248baae6ca2d633ec1e89b6d2dd7",
+        "denoised_sha256": "64c8a266bb39d570b0b8fa799590fca29ee75070caa01ade8985d5c74d961be2",
+        "captioned_sample_sha256": "ae3cc30dbc6e2be3bb4a6f0a056912488b615c1e1cfef798426d008fdd42eb0f"
+      },
+      {
+        "native_frame": 420,
+        "story_time_seconds": 17.458333333333332,
+        "raw_sha256": "6ebc765b20e1a5ca3d638ea6ba83c318f48c32a8f5d3ff09c1cfbe1de4bb8767",
+        "denoised_sha256": "4d6804029426321c9775e36c3f002820bb9bf02320cf8e00044a78c956f56733",
+        "captioned_sample_sha256": "feab1d2b80d0f6dfe6745752eaef0ccc57bf4b3258f55523c1aaf9a4b4d4a97e"
+      }
+    ],
+    "actual_findings": [
+      "Revised native frame 408 fully frames the main colleague and leader; captions remain clear. The marker is still largely occluded in this pre-transfer wide pose.",
+      "Revised native frame 420 shows the marker clearly between the hands. The exposed finger/thumb ends now have closed matching skin tips instead of hollow openings."
+    ],
+    "full_transfer_reviewed": false,
+    "continuous_motion_reviewed": false,
+    "final_editorial_pass": false
+  }
+}

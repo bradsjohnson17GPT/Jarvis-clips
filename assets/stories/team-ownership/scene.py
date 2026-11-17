@@ -123,8 +123,12 @@ def gripping_hand(name, pos, skin, side):
     rig.name = name+' wrist rig'
     oval(name+' palm', (0,0,0), (.060,.045,.076), skin, rig)
     for z in [-.041,0,.041]:
-        line(name+' curled finger', [(side*-.035,0,z),(side*.015,-.043,z),(side*.060,-.031,z),(side*.065,.005,z)], .012, skin, rig)
-    line(name+' opposing thumb', [(side*-.04,.01,-.055),(side*-.025,-.04,-.03),(side*.045,-.045,-.015)], .017, skin, rig)
+        finger = line(name+' curled finger', [(side*-.035,0,z),(side*.015,-.043,z),(side*.060,-.031,z),(side*.065,.005,z)], .012, skin, rig)
+        finger.data.use_fill_caps = True
+        oval(name+' rounded fingertip', (side*.065,.005,z), (.012,.012,.012), skin, rig)
+    thumb = line(name+' opposing thumb', [(side*-.04,.01,-.055),(side*-.025,-.04,-.03),(side*.045,-.045,-.015)], .017, skin, rig)
+    thumb.data.use_fill_caps = True
+    oval(name+' rounded thumb tip', (side*.045,-.045,-.015), (.017,.017,.017), skin, rig)
     return rig
 
 
@@ -237,6 +241,8 @@ def main():
     parser.add_argument('--motion-preview', nargs=2, type=float, metavar=('START','END'),
                         help='Low resolution motion test, sampled at12fps from24fps poses.')
     parser.add_argument('--render', action='store_true')
+    parser.add_argument('--native-frames', nargs='+', type=int,
+                        help='Render only these delivery frame numbers for a documented shot revision.')
     args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     args.output.mkdir(parents=True, exist_ok=True)
     bpy.ops.object.select_all(action='SELECT')
@@ -291,7 +297,7 @@ def main():
         camera('01 Establish the team',(2.1,-5.1,2.75),(-.05,.45,1.35),49),
         camera('02 A plan gets crossed out',(.75,-2.5,2.35),(.0,.92,1.79),61),
         camera('03 The designer stops offering',(.15,-2.4,2.16),(-.59,-.14,1.94),66),
-        camera('04 Return the marker',(1.6,-4.2,2.65),(.0,.25,1.50),53),
+        camera('04 Return the marker',(1.6,-4.2,2.65),(.0,.25,1.50),49),
         camera('05 Shared hands',(.55,-1.6,1.78),(-.04,.12,1.39),72),
         camera('06 Their next version',(1.1,-2.0,2.65),(-.30,.78,1.76),56),
     ]
@@ -419,7 +425,10 @@ def main():
             bpy.ops.render.render(write_still=True)
     if args.render:
         scene.render.resolution_percentage=100
-        for f in range(1,total+1):
+        selected = sorted(set(args.native_frames or range(1,total+1)))
+        if any(f < 1 or f > total for f in selected):
+            raise ValueError('Requested native frame is outside the story timeline.')
+        for f in selected:
             t=(f-1)/FPS
             if 7.36<=t<14.16:
                 continue  # Cleared actual interview belongs here in the final edit.

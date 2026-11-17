@@ -1,5 +1,7 @@
 # Team ownership finishing preparation
 
+Current native revision: [finger geometry and return-shot framing](2026-11-17-team-ownership-geometry-revision.md). Retain the reviewed original opening, use only the revised source for post-quote frames 341–506, and supply its separate cache to the guarded assembler. Earlier baseline post-quote frames are superseded.
+
 The original native frame render is still running. No new finished Short, service draft, schedule or publication was created. The two existing revised male-voice drafts remain unchanged, and the rejected/failed Metricool copies remain held.
 
 ## Denoising

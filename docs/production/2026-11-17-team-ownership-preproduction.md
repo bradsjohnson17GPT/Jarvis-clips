@@ -1,5 +1,7 @@
 # Team ownership — original scene preparation
 
+Current native finishing uses the retained reviewed opening and a separate revised post-quote source after actual close-up findings. Read [the geometry revision](2026-11-17-team-ownership-geometry-revision.md) and current finishing plan; the earlier baseline post-quote render is superseded.
+
 Status: original script, audio preflight, revised scene stills and a four-second development motion test. One source-frozen native frame render is in progress; there is no completed full frame sequence, finished Short, ready candidate, service draft, schedule or publication. Working identity: `jocko-give-the-team-the-plan`. The two existing male-voice pilots remain unchanged.
 
 ## Story and spoken copy

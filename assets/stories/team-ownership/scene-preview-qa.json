@@ -1,9 +1,9 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "reviewed_at_utc": "2026-11-17T13:37:40.794152+00:00",
-  "status": "staging_revised_native_frames_rendering",
+  "status": "native_postquote_geometry_revision_samples_inspected_full_render_in_progress",
   "publishable": false,
-  "scene_source": "assets/stories/team-ownership/scene.py",
+  "scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
   "scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
   "geometry_and_baked_pose_curves_created": true,
   "full_frame_sequence_rendered": false,
@@ -33,7 +33,8 @@
     "Full native24fps sequence and final edit remain incomplete/uninspected.",
     "Character acting/grips and full temporal consistency require final editorial review; sampled frames are insufficient.",
     "Denoising is validated on samples and15completed frames; remaining frames and temporal inspection are outstanding.",
-    "Historical picture is prepared, but full assembly, actual timed captions/context notices and soundtrack readback remain."
+    "Historical picture is prepared, but full assembly, actual timed captions/context notices and soundtrack readback remain.",
+    "Revised native frames 408/420 resolve the exposed hollow tips and main-colleague crop in the sampled poses. Full native transfer/contact, drawing and complete sequence remain unreviewed; the pre-transfer wide pose still occludes most of the marker."
   ],
   "next_material_change": "Complete the currently active source-frozen native frame render without starting a duplicate, then assemble/inspect the real final picture, source excerpt, captions and soundtrack. Do not count this motion test as a finished Short.",
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
@@ -81,7 +82,7 @@
   "subjective_audio_listening_claimed": false,
   "continuous_video_watching_claimed": false,
   "native_render": {
-    "status": "in_progress",
+    "status": "baseline_stopped_postquote_superseded_opening_preserved",
     "started_at_utc": "2026-11-17T13:35:35.640282+00:00",
     "expected_original_frames": 343,
     "resolution": [
@@ -106,5 +107,28 @@
   "historical_picture_is_silent_working_input": true,
   "caption_validation": "assets/stories/team-ownership/caption-validation.json",
   "captions_prepared": true,
-  "sampled_caption_preflights_inspected": true
+  "sampled_caption_preflights_inspected": true,
+  "native_return_sample": "assets/stories/team-ownership/return-shot-preflight.json",
+  "current_finishing_revision": {
+    "source": "assets/stories/team-ownership/scene.py",
+    "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
+    "frames": [
+      341,
+      506
+    ],
+    "expected_frames": 166,
+    "status": "native_samples_inspected_full_revision_render_pending",
+    "changes": [
+      "Closed finger/thumb curve ends and added rounded matching skin tips.",
+      "Return-shot focal length49mm instead of53mm for more room around the main colleague."
+    ],
+    "existing_tests_passed": 27,
+    "full_frame_sequence_rendered": false,
+    "editorial_pass": false,
+    "actual_native_samples_inspected": [
+      408,
+      420
+    ],
+    "closed_ends_and_framing_sample_check_passed": true
+  }
 }

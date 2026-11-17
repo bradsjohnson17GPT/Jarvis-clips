@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "prepared_at_utc": "2026-11-17T14:19:41.324629+00:00",
-  "status": "finishing_preparation_native_render_in_progress",
+  "status": "reviewed_original_opening_retained_revised_postquote_render_in_progress",
   "publishable": false,
   "finished_movie_exists": false,
   "frame_rate": 24,
@@ -19,7 +19,8 @@
       "scene_frame_start": 1,
       "scene_frame_end": 177,
       "final_frame_start": 1,
-      "final_frame_end": 177
+      "final_frame_end": 177,
+      "source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791"
     },
     {
       "kind": "reviewed_historical_picture",
@@ -33,7 +34,8 @@
       "scene_frame_start": 341,
       "scene_frame_end": 506,
       "final_frame_start": 341,
-      "final_frame_end": 506
+      "final_frame_end": 506,
+      "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42"
     }
   ],
   "historical_picture": {
@@ -105,7 +107,7 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "remaining_checks": [
-    "All343native original frames actually complete and validated.",
+    "All 343 selected native frames complete: 177 reviewed opening frames from source 94b5afc8a78a and 166 revised post-quote frames from source 974379894ff6, with matching individual raw/output provenance.",
     "Apply reviewed denoising without resizing or filtering historical footage by this original-scene utility.",
     "Assemble true full movie with historical crop, actual timed captions and context/notices.",
     "Inspect actual finished frames/cuts, motion, quote sync and editorial payoff; technical checks alone do not qualify quality.",
@@ -113,5 +115,17 @@
     "Verify licensed descriptions, actual audience, public media bytes and queue/hash deduplication before any new service draft."
   ],
   "assembler": "scripts/assemble_team_story.py",
-  "assembled_movie_exists": false
+  "assembled_movie_exists": false,
+  "base_scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
+  "original_scene_patch": {
+    "first_frame": 341,
+    "last_frame": 506,
+    "expected_frames": 166,
+    "source": "assets/stories/team-ownership/scene.py",
+    "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
+    "reason": "Close and round finger/thumb ends exposed in native close-up; widen return camera53mm to49mm. Full post-quote shot sequence is revised; opening, historical insert, story timing and audio/captions retained.",
+    "render_status": "native_review_samples_inspected_full_render_in_progress",
+    "qa_record": "assets/stories/team-ownership/return-shot-preflight.json",
+    "assembly_requirement": "Use only this revised source for original frames341\u2013506; reject the superseded baseline post-quote frames even if complete."
+  }
 }
