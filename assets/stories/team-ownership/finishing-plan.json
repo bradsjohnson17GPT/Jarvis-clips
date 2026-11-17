@@ -1,0 +1,113 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "prepared_at_utc": "2026-11-17T14:19:41.324629+00:00",
+  "status": "finishing_preparation_native_render_in_progress",
+  "publishable": false,
+  "finished_movie_exists": false,
+  "frame_rate": 24,
+  "canvas": [
+    720,
+    1280
+  ],
+  "expected_final_picture_frames": 506,
+  "expected_picture_duration_seconds": 21.083333333333332,
+  "original_scene_frame_count": 343,
+  "frozen_scene_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+  "frame_map": [
+    {
+      "kind": "original_scene",
+      "scene_frame_start": 1,
+      "scene_frame_end": 177,
+      "final_frame_start": 1,
+      "final_frame_end": 177
+    },
+    {
+      "kind": "reviewed_historical_picture",
+      "source_prepared_frame_start": 1,
+      "source_prepared_frame_end": 163,
+      "final_frame_start": 178,
+      "final_frame_end": 340
+    },
+    {
+      "kind": "original_scene",
+      "scene_frame_start": 341,
+      "scene_frame_end": 506,
+      "final_frame_start": 341,
+      "final_frame_end": 506
+    }
+  ],
+  "historical_picture": {
+    "source_identity": "DVIDS718744 Jocko Willink interview,2019,AlanBrutus/25thInfantryDivision",
+    "source_page": "https://www.dvidshub.net/video/718744/jocko-willink-interview",
+    "source_sha256": "7fdae3fbaa989b158cb76367fbb447de970bda4a191dbb43a3dcc278adb7ce4e",
+    "official_embed_quality_recheck_date": "2026-11-17",
+    "only_explicit_public_playback_found": {
+      "width": 1024,
+      "height": 576,
+      "source_fps": "60000/1001"
+    },
+    "public_source_access": "Normal official public embed; no login/download gate or guessed media URLs.",
+    "source_start_seconds": 279.1,
+    "crop": {
+      "x": 208,
+      "y": 0,
+      "width": 324,
+      "height": 576
+    },
+    "output_dimensions": [
+      720,
+      1280
+    ],
+    "spatial_upscale_factor": 2.2222222222222223,
+    "spatial_filter": "Lanczos; does not invent original detail",
+    "output_frame_rate": 24,
+    "frame_conversion": "Frame selection/drop from60000/1001fps to24fps; no optical interpolation or speed change.",
+    "prepared_frames": 163,
+    "prepared_picture_seconds": 6.791666666666667,
+    "prepared_picture_sha256": "f1d64c9d48d19508d014e46b5c05c836871a10d362b9fc4a01c488ace70adfe2",
+    "contains_audio": false,
+    "source_audio_role": "All audio comes from the separately verified full preflight; never use this silent picture as an upload.",
+    "complete_decode_passed": true,
+    "visual_inspection": "Actual centered portrait frames0,82,161 sampled; face remains framed. Division insignia is outside crop; personal-company shirt lettering remains incidental factual context, not promoted or an endorsement."
+  },
+  "audio": {
+    "record": "assets/stories/team-ownership/audio-preflight.json",
+    "encoded_container_sha256": "fd2d1ce0320a4e9a879b32370cb5750859bc80220214146b70ab2edd4c4d20c1",
+    "aac_essence_adts_sha256": "05d5c72c21db5f36e3f7c5dff1b5d7bf58027dcf389e4eb653cd9d498c4a48b4",
+    "duration_seconds": 21.069333333333333,
+    "planned_mux": "Stream-copy the existing AAC, then verify ADTS audio-essence equality in the finished movie. Reuse exact WAV master if a material edit requires re-encoding; recheck final ASR/levels.",
+    "historical_statement_audio_start_seconds": 7.36,
+    "picture_starts_seconds": 7.375,
+    "picture_lag_seconds": 0.01499999999999968,
+    "timing_limit": "Picture quantization is within one delivery frame; verify actual final sync rather than inferring it from counts."
+  },
+  "captions_and_context": {
+    "status": "planned_not_yet_applied",
+    "timing_source": "Actual word timestamps in audio-preflight.json",
+    "readability": "Readable portrait type, short coherent groups, at most two main caption lines; inspect actual completed shots before final placement.",
+    "keep_clear": [
+      "faces",
+      "marker transfer",
+      "new connected idea",
+      "required source notice"
+    ],
+    "original_scene_label": "Illustration",
+    "historical_source_label": "Jocko Willink | 2019 interview",
+    "required_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
+    "notice_requirement": "Include exact readable notice during the historical excerpt and in the full final description; do not attribute original commentary to the speaker."
+  },
+  "music_description_requirements": {
+    "credit": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "source": "https://www.scottbuckley.com.au/library/ascension/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
+  },
+  "remaining_checks": [
+    "All343native original frames actually complete and validated.",
+    "Apply reviewed denoising without resizing or filtering historical footage by this original-scene utility.",
+    "Assemble true full movie with historical crop, actual timed captions and context/notices.",
+    "Inspect actual finished frames/cuts, motion, quote sync and editorial payoff; technical checks alone do not qualify quality.",
+    "Verify stereoAAC, audio essence or new final ASR/levels, complete decode and encoded headroom.",
+    "Verify licensed descriptions, actual audience, public media bytes and queue/hash deduplication before any new service draft."
+  ]
+}

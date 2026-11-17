@@ -281,10 +281,15 @@
       "development_motion_seconds": 4.0,
       "native_render_in_progress": true,
       "native_expected_original_frames": 343,
-      "frozen_scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791"
+      "frozen_scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+      "finishing_plan": "assets/stories/team-ownership/finishing-plan.json",
+      "denoise_validation": "assets/stories/team-ownership/denoise-validation.json",
+      "historical_picture_prepared": true,
+      "historical_picture_is_silent_working_input_not_an_upload": true,
+      "historical_source_requires_documented_spatial_upscale": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T13:37:40.794152+00:00",
+  "production_reconciled_at_utc": "2026-11-17T14:19:41.324629+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T13:12:22.647165+00:00",
     "research_date_pacific": "2026-11-17",

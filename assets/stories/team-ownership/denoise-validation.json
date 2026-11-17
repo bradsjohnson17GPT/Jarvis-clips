@@ -1,0 +1,86 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "reviewed_at_utc": "2026-11-17T14:19:41.324629+00:00",
+  "status": "technical_denoise_preflight_not_final_editorial_review",
+  "frozen_scene_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+  "reviewed_tool_config": "config/denoiser.json",
+  "tool_archive_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+  "verified_installed_runtime_files": 22,
+  "method": "OIDN2.5.1 CPU RT LDR/sRGB high, beauty-only",
+  "dimensions": [
+    720,
+    1280
+  ],
+  "resized": false,
+  "raw_sources_preserved_hash_verified": true,
+  "sample_frames_processed": [
+    1,
+    25,
+    45
+  ],
+  "denoised_frames_visually_inspected": [
+    1,
+    45
+  ],
+  "observations": "Faces, composition and board lettering retained in sampled denoised native frames; full motion and temporal consistency not yet reviewed.",
+  "cache_readback": {
+    "processed_new": 0,
+    "valid_cache_hits": 3,
+    "same_three_sample_frames": true
+  },
+  "current_completed_denoised_frames": 15,
+  "sample_receipts": [
+    {
+      "frame": 1,
+      "frozen_scene_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+      "source_png_sha256": "d237c52225c37fd2960bb8662fe8ff0d48e28b9ad98d7c7531e10850406c6fad",
+      "output_png_sha256": "bbb08b7a668e719b5ffaff7f98135bcec4a0304420d8488e0fba663d75627466",
+      "oidn_archive_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+      "verified_runtime_files": 22,
+      "method": "OIDN2.5.1 CPU RT LDR/sRGB high, beauty-only",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "resized": false,
+      "raw_source_preserved": true,
+      "seconds": 5.103,
+      "publishable": false
+    },
+    {
+      "frame": 25,
+      "frozen_scene_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+      "source_png_sha256": "fed6278b77690d03fe5673f8d8a74a077ef3696fcf7d34024d10f2b03358d64f",
+      "output_png_sha256": "e011c79a4b48044c0b07d98a7d5351915542c857eb5ae02c5708ee3ee11631c1",
+      "oidn_archive_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+      "verified_runtime_files": 22,
+      "method": "OIDN2.5.1 CPU RT LDR/sRGB high, beauty-only",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "resized": false,
+      "raw_source_preserved": true,
+      "seconds": 4.666,
+      "publishable": false
+    },
+    {
+      "frame": 45,
+      "frozen_scene_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+      "source_png_sha256": "58ffafae2831420f99b53863529a4d9c862ac5cf26f0b68620192076e1f2935b",
+      "output_png_sha256": "16a7920545a58e9030cb6f3d329deb07679219bd5012276c48a40e910ede30b4",
+      "oidn_archive_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+      "verified_runtime_files": 22,
+      "method": "OIDN2.5.1 CPU RT LDR/sRGB high, beauty-only",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "resized": false,
+      "raw_source_preserved": true,
+      "seconds": 4.94,
+      "publishable": false
+    }
+  ],
+  "publishing_status": "Not a finished video or ready candidate."
+}

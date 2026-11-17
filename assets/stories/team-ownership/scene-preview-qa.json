@@ -30,10 +30,10 @@
     "23 existing renderer tests passed after final source changes."
   ],
   "unresolved_editorial_findings": [
-    "Full native24fps sequence and final edit have not been completed or inspected.",
-    "Character acting and stylized grip require final editorial review at delivery quality; low-resolution samples do not prove natural movement.",
-    "Raw Cycles grain remains; reviewed external denoising is not yet applied.",
-    "Historical portrait crop, finished speech-timed captions, source/context notices and full soundtrack inspection remain before a ready movie."
+    "Full native24fps sequence and final edit remain incomplete/uninspected.",
+    "Character acting/grips and full temporal consistency require final editorial review; sampled frames are insufficient.",
+    "Denoising is validated on samples and15completed frames; remaining frames and temporal inspection are outstanding.",
+    "Historical picture is prepared, but full assembly, actual timed captions/context notices and soundtrack readback remain."
   ],
   "next_material_change": "Complete the currently active source-frozen native frame render without starting a duplicate, then assemble/inspect the real final picture, source excerpt, captions and soundtrack. Do not count this motion test as a finished Short.",
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
@@ -98,5 +98,10 @@
     "examples/development/team-ownership/01-opening.png",
     "examples/development/team-ownership/02-marker-transfer.png"
   ],
-  "historical_revision_stills_inspected": 6
+  "historical_revision_stills_inspected": 6,
+  "finishing_plan": "assets/stories/team-ownership/finishing-plan.json",
+  "denoise_validation": "assets/stories/team-ownership/denoise-validation.json",
+  "denoised_frames_completed_in_initial_batch": 15,
+  "historical_picture_prepared": true,
+  "historical_picture_is_silent_working_input": true
 }

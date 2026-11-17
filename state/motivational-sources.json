@@ -17,7 +17,21 @@
       "visual_status": "reviewed_for_specific_factual_editorial_pilot",
       "audio_status": "reviewed_specific_interview_speech",
       "clip_id": "jocko-turn-a-mistake-into-a-plan",
-      "not_a_blanket_grant": true
+      "not_a_blanket_grant": true,
+      "latest_media_quality_check": {
+        "checked_at_utc": "2026-11-17T14:19:41.324629+00:00",
+        "official_embed": "https://www.dvidshub.net/video/embed/718744",
+        "http_status": 200,
+        "explicit_public_playback_dimensions": [
+          1024,
+          576
+        ],
+        "source_timebase": "60000/1001fps",
+        "higher_public_variant_found": false,
+        "guessed_or_restricted_media_routes_used": false,
+        "reviewed_picture_preparation": "assets/stories/team-ownership/finishing-plan.json",
+        "rights_scope_unchanged": true
+      }
     }
   ],
   "courtesy_work_1022409": "held; third-party producer/provenance not independently cleared",
