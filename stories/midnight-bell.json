@@ -1,0 +1,93 @@
+{
+  "id": "midnight-bell",
+  "status": "script_voice_and_storyboard_ready_animation_not_produced",
+  "title": "Why Was the Empty Station Bell Ringing?",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "unexplained_sound_resolved_by_rescue",
+  "audience_intent": "Original short fantasy mystery for teens and adults; classify the actual finished edit before any publication.",
+  "narration": "The station bell rang at midnight. The last train had left hours ago. I followed the tapping beneath the platform. A little maintenance robot was hitting the bell with a wrench. Its battery was almost dead. It was calling for help. I connected the charger. Next morning, the same bell rang when I passed. This time, I waved back.",
+  "narration_paragraphs": [
+    "The station bell rang at midnight. The last train had left hours ago. I followed the tapping beneath the platform.",
+    "A little maintenance robot was hitting the bell with a wrench. Its battery was almost dead. It was calling for help.",
+    "I connected the charger. Next morning, the same bell rang when I passed. This time, I waved back."
+  ],
+  "voice_config": "config/natural-voice.json",
+  "pacing": {
+    "opening_silence": 0.15,
+    "ending_silence": 1.2,
+    "insert_after": {
+      "midnight.": 0.3,
+      "ago.": 0.25,
+      "platform.": 0.65,
+      "wrench.": 0.3,
+      "dead.": 0.5,
+      "help.": 0.4,
+      "charger.": 0.7,
+      "passed.": 0.25
+    }
+  },
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 288
+  },
+  "visual_source": {
+    "identity": "Original Midnight Bell station scene, not built yet",
+    "rights_verified": false,
+    "status": "planned_original_geometry_not_produced",
+    "requirements": "New station, toolbox robot, battery display, bell/wrench and movement. No copied game meshes or borrowed robot/film character design; no stock substitute."
+  },
+  "storyboard": [
+    {
+      "beat": "hook",
+      "picture": "Close-up of a small physical bell moving in an empty station; the clock reads midnight.",
+      "sound": "Original three-note metallic tap, then brief station ambience."
+    },
+    {
+      "beat": "question",
+      "picture": "Couriers listening reaction, empty railway platform and departing train light in distant memory insert; never imply a real event.",
+      "sound": "Soft room tone; clear reflective narration."
+    },
+    {
+      "beat": "investigation",
+      "picture": "Low tracking shot follows the tapping under a platform maintenance hatch; keep its geography legible.",
+      "sound": "The same three taps repeat from one identifiable direction."
+    },
+    {
+      "beat": "reveal",
+      "picture": "A small original wheeled toolbox robot strikes the bell with a wrench. Its charge indicator dims; no borrowed binocular-eyed movie design.",
+      "sound": "Wrench makes the sound established in the hook."
+    },
+    {
+      "beat": "rescue",
+      "picture": "Courier connects an intact charger; battery indicator lights and the robot moves its arm. Show the actual cause before the reaction.",
+      "sound": "Original electrical confirmation tone and a restrained score rise."
+    },
+    {
+      "beat": "callback",
+      "picture": "Warm morning, same bell rhythm, courier returns the robots small wave.",
+      "sound": "Opening tap pattern returns with a gentle resolve."
+    }
+  ],
+  "description": "An original fictional short. Original script and planned original character/scene animation; no real incident or speaker is depicted.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and mixed beneath original narration/effects. No composer endorsement implied.",
+  "publication_evidence": null,
+  "preparation_evidence": {
+    "narration_generated": true,
+    "narration_text_asr_verified": true,
+    "full_video_rendered": false,
+    "published": false,
+    "audio_version": "kokoro-narrative-v1"
+  }
+}

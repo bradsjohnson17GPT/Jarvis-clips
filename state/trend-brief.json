@@ -196,7 +196,7 @@
     },
     {
       "id": "quality_midnight_bell",
-      "status": "original_outline_not_produced",
+      "status": "script_voice_and_storyboard_ready_animation_not_produced",
       "topic": "A small rescue mystery",
       "content_type": "fictional_micro_stories",
       "hook": "The bell rings in a railway station after its final train has gone.",
@@ -211,7 +211,8 @@
       ],
       "source_plan": "New original cleaner/robot characters and station geometry. Original bells and licensed score, no real broadcast or cloned speaker.",
       "publishable": false,
-      "trend_claim": false
+      "trend_claim": false,
+      "manifest": "stories/midnight-bell.json"
     }
   ]
 }

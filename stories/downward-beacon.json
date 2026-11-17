@@ -1,6 +1,6 @@
 {
   "id": "downward-beacon",
-  "status": "in_production_quality_preview",
+  "status": "picture_rendering_audio_preflight_passed",
   "title": "The Lighthouse Was Pointing the Wrong Way",
   "content_type": "fictional_micro_stories",
   "hook_type": "impossible_world_question",
@@ -12,7 +12,9 @@
     "creator": "Project production assistant",
     "rights_verified": true,
     "rights_basis": "Original character geometry, scene construction, animation and script; no third-party meshes, game footage, character IP or reference assets reused.",
-    "source_files": "Pending final scene inspection and archive"
+    "source_files": "assets/stories/downward-beacon/",
+    "scene_sha256": "1bb432ae4fe95a566831bf2ed0504c88b469272033c43f7b28c637c6145ddc5a",
+    "script_sha256": "bb6bf8bc5c2a5ddcc92fcde3556edea2262319c4f45165cbf51052b007590649"
   },
   "references_for_structure_only": [
     "https://www.youtube.com/watch?v=VVU3GLgk-R0",
@@ -58,5 +60,24 @@
     "Our town had a lighthouse. But there was no ocean. Every night, I lit it anyway.",
     "Then a paper boat landed beside me. There was a message inside. Turn the beam down. So I did.",
     "The clouds opened. And far below... another lighthouse answered. We weren't alone. We'd just been looking the wrong way."
-  ]
+  ],
+  "voice_audio_version": "kokoro-narrative-original-effects-licensed-score-v1",
+  "render_plan": {
+    "native_width": 720,
+    "native_height": 1280,
+    "timeline_fps": 24,
+    "sampled_picture_fps": 12,
+    "frame_count_planned": 336,
+    "interpolation": "Only after actual motion inspection, performed separately per shot. Never claim native24."
+  },
+  "quality_progress": {
+    "corrected_eight_shot_frames_inspected": true,
+    "note_framing_corrected": true,
+    "grain_cleanup_tested": true,
+    "lower_town_reveal_corrected": true,
+    "script_asr_verified": true,
+    "music_effects_caption_preflight_passed": true,
+    "full_video_complete": false,
+    "published": false
+  }
 }

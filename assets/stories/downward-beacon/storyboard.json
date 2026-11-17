@@ -1,0 +1,102 @@
+{
+  "title": "The Downward Beacon",
+  "original_geometry": true,
+  "external_assets": [],
+  "character": "Young adult courier, amber jacket, vermilion scarf, navy trousers, teal satchel, dark swept hair.",
+  "note_text": "TURN THE BEAM DOWN",
+  "fps": 24,
+  "native_resolution": [
+    720,
+    1280
+  ],
+  "render_percentage": 100,
+  "duration_seconds": 28,
+  "engine": "CYCLES",
+  "samples": 4,
+  "shots": [
+    {
+      "shot": "01_establish",
+      "start_seconds": 0.0,
+      "end_seconds": 3.7,
+      "start_frame": 1,
+      "end_frame": 89,
+      "camera": "01_establish",
+      "lens_mm": 62,
+      "purpose": "establish"
+    },
+    {
+      "shot": "02_courier_walk",
+      "start_seconds": 3.7,
+      "end_seconds": 6.7,
+      "start_frame": 90,
+      "end_frame": 161,
+      "camera": "02_courier_walk",
+      "lens_mm": 55,
+      "purpose": "courier_walk"
+    },
+    {
+      "shot": "03_boat_delivery",
+      "start_seconds": 6.7,
+      "end_seconds": 9.7,
+      "start_frame": 162,
+      "end_frame": 233,
+      "camera": "03_boat_delivery",
+      "lens_mm": 60,
+      "purpose": "boat_delivery"
+    },
+    {
+      "shot": "04_the_note",
+      "start_seconds": 9.7,
+      "end_seconds": 13.8,
+      "start_frame": 234,
+      "end_frame": 331,
+      "camera": "04_the_note",
+      "lens_mm": 48,
+      "purpose": "the_note"
+    },
+    {
+      "shot": "05_turn_the_beacon",
+      "start_seconds": 13.8,
+      "end_seconds": 15.8,
+      "start_frame": 332,
+      "end_frame": 379,
+      "camera": "05_turn_the_beacon",
+      "lens_mm": 48,
+      "purpose": "turn_the_beacon"
+    },
+    {
+      "shot": "06_clouds_part",
+      "start_seconds": 15.8,
+      "end_seconds": 19.7,
+      "start_frame": 380,
+      "end_frame": 473,
+      "camera": "06_clouds_part",
+      "lens_mm": 32,
+      "purpose": "clouds_part"
+    },
+    {
+      "shot": "07_town_below",
+      "start_seconds": 19.7,
+      "end_seconds": 22.7,
+      "start_frame": 474,
+      "end_frame": 545,
+      "camera": "07_town_below",
+      "lens_mm": 48,
+      "purpose": "town_below"
+    },
+    {
+      "shot": "08_the_answer",
+      "start_seconds": 22.7,
+      "end_seconds": 28.0,
+      "start_frame": 546,
+      "end_frame": 672,
+      "camera": "08_the_answer",
+      "lens_mm": 42,
+      "purpose": "the_answer"
+    }
+  ],
+  "animation": [
+    "Articulated walking, head turns/blinks, scarf wind, boat arrival/bob, two-bone wheel gripping, gimbal down-tilt, cloud curtain separation, ocean wave modifier, answering beacon flash."
+  ],
+  "copyright": "All scene geometry, materials, animation and cameras created for this project. No Roblox/game/reference assets, copied plot, photos, textures or voice used."
+}
