@@ -1,0 +1,10 @@
+{
+  "version": "2.5.1",
+  "source_release": "https://github.com/RenderKit/oidn/releases/tag/v2.5.1",
+  "download": "https://github.com/RenderKit/oidn/releases/download/v2.5.1/oidn-2.5.1.x86_64.linux.tar.gz",
+  "archive_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+  "release_digest": "sha256:743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+  "license": "Apache-2.0",
+  "license_source": "https://github.com/RenderKit/oidn/blob/v2.5.1/LICENSE.txt",
+  "role": "Original-scene denoising only; no asset generation or resizing."
+}

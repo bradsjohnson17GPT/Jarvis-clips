@@ -6,6 +6,8 @@ The new pilot is `stories/downward-beacon.json`: an original fantasy story with 
 
 `config/natural-voice.json` pins the reviewed Kokoro ONNX model and generic stock voice pack by SHA-256. Runtime MIT and first-party model Apache-2.0 metadata and commercial-use statement were reviewed. The weights are downloaded into task-owned local storage, never committed. Use requirements-quality.txt in a task-owned virtual environment. The old Piper model is retained solely for archive reproduction.
 
+Download the pinned weights with `python scripts/download_natural_voice.py --output work/models/kokoro`. It verifies existing bytes, refuses mismatches, and hash-checks each download before installation. `config/denoiser.json` records the official free Open Image Denoise release, matching archive digest and license. The original Blender scene is archived under assets/stories/downward-beacon/.
+
 Generate narration as coherent narrative paragraphs rather than caption-sized utterances. `scripts/story_audio.py` verifies model hashes, synthesizes or reuses the voice master, obtains word timestamps from the actual recording, stops on a script mismatch, and inserts planned pauses into both the sound and timing record. It uses FFmpeg decoding to avoid a PyAV compatibility issue. Timing and an accurate transcript do not prove compelling delivery.
 
 ```sh
