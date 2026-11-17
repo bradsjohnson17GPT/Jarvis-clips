@@ -32,8 +32,6 @@
       "instructions": "Already published through the verified direct route. Never schedule this clip/hash again. Keep its failed Metricool duplicate held.",
       "scheduling_evidence": {
         "scheduler": "Metricool",
-        "scheduler_post_id": "430932108",
-        "scheduler_uuid": "-6469427507233863401",
         "publication_date": "2026-11-16T20:00:00-08:00",
         "timezone": "America/Los_Angeles",
         "provider_status": "PENDING",
@@ -49,7 +47,6 @@
         "provider_status": "ERROR"
       },
       "holding_evidence": {
-        "scheduler_post_id": "430977994",
         "draft": true,
         "auto_publish": false,
         "uuid_retained": true

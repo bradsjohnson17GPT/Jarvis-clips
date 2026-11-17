@@ -111,8 +111,6 @@
   "public_host_verified_at": "2026-11-17T02:33:44.656688+00:00",
   "scheduling_evidence": {
     "scheduler": "Metricool",
-    "scheduler_post_id": "430932108",
-    "scheduler_uuid": "-6469427507233863401",
     "publication_date": "2026-11-16T20:00:00-08:00",
     "timezone": "America/Los_Angeles",
     "provider_status": "PENDING",
