@@ -1,0 +1,83 @@
+{
+  "id": "jocko-turn-a-mistake-into-a-plan",
+  "source_identity": "DVIDS 718744 Jocko Willink 2019 government interview",
+  "person": "Jocko Willink",
+  "source_page": "https://www.dvidshub.net/video/718744/jocko-willink-interview",
+  "producer_credit": "Alan Brutus; 25th Infantry Division",
+  "year": "2019",
+  "source_declaration": "PUBLIC DOMAIN on the exact item page",
+  "source_sha256": "7fdae3fbaa989b158cb76367fbb447de970bda4a191dbb43a3dcc278adb7ce4e",
+  "public_playback_url": "https://d34w7g4gy10iej.cloudfront.net/video/1910/DOD_107390410/DOD_107390410-1024x576-1769k.mp4",
+  "access": "Normal public playback file supplied in the official public page/player, not an authenticated download endpoint.",
+  "picture_intervals": [
+    [
+      61.4,
+      65.3
+    ],
+    [
+      66.25,
+      71.45
+    ]
+  ],
+  "rights_review": {
+    "review_date": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "visual_rights_verified": true,
+    "commercial_editing_publication_basis": "Source-specific factual historical editorial use of the identified government-produced work, individually marked Public Domain by DVIDS. Original commentary explains/applies documented interview points; no advertising, recruitment, product marketing, speaker partnership or endorsement is implied.",
+    "policy": "https://www.dvidshub.net/about/copyright",
+    "requirements_followed": [
+      "Named source/producer/date context retained in description and video.",
+      "Exact current required nonendorsement disclaimer included in video and description.",
+      "Military backdrop/insignia excluded by the selected portrait crops; incidental personal-company shirt mark remains factual editorial context and is not promoted. Goggins uses selected plain-clothes/athletic footage, not uniform/medal inserts.",
+      "No claim that all government-hosted or creator-owned podcasts/music are cleared.",
+      "Personality/privacy rights are not waived by the page; the actual use is factual editorial discussion of public interview material, not an endorsement or advertising likeness use."
+    ],
+    "required_disclaimer": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
+    "excluded": "Goggins original audio and score, private podcasts, unrelated third-party works; the2026courtesyJockoitem is not cleared by this review."
+  },
+  "audio_review": {
+    "source_audio_used": true,
+    "source_audio_review": "Selected quiet government-produced interview speech retained; no third-party music or other rights notice identified for these specific interview words. Source declared Public Domain, credited to Army producer. Audio-event review found speech mean0.982 and Music mean0.000195/max0.003906. This supports acoustic review, not proof of copyright status.",
+    "source_audio_intervals": [
+      [
+        61.4,
+        65.3
+      ],
+      [
+        66.25,
+        71.45
+      ]
+    ],
+    "original_commentary": "A mistake can become a plan. Write down what happened, circle the part you can change, and choose one action you can take today.",
+    "voice_config": "config/natural-voice.json",
+    "voice_kind": "Generic Kokoro af_heart stock narrator; no depiction of celebrity speaking the new words and no cloned voice.",
+    "music": {
+      "title": "Ascension",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/ascension/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-16",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+      "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+      "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+      "start": 288
+    },
+    "music_excerpt_start": 122,
+    "original_effects": "One quiet synthesized edit impact, created for this edit.",
+    "analysis_limit": "No subjective listening was available to the assistant or Descript editor. Actual master/encoded ASR, source provenance, event classification, caption intervals and levels were inspected."
+  },
+  "original_diagram": {
+    "identity": "Original continuously drawn paper action-plan illustration",
+    "purpose": "Hypothetical missed-deadline example illustrating the original commentary; not a story attributed to Jocko or the owner.",
+    "source_code": "assets/stories/motivational-editorial/build_pilots.py",
+    "native_sampling": "15 unique graphic frames per second delivered at30fps with holds, no generated human likeness."
+  },
+  "visual_changes": "Proportional portrait crops, original synchronized captions, source/context labels; no face replacement or voice imitation.",
+  "final_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c"
+}

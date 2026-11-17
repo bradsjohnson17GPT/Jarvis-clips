@@ -1,0 +1,54 @@
+{
+  "id": "goggins-practice-the-weak-skill",
+  "status": "inspected_finished_preview_not_published",
+  "verified_at_utc": "2026-11-17T08:07:16.900801+00:00",
+  "sha256": "b63c6dbcc853ae73dc112eec9399cd8e1641ffe8137c1fd056421c33ed6e313d",
+  "bytes": 6344287,
+  "duration_seconds": 19.026,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "sample_rate": null,
+      "channels": null,
+      "fps": "30/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "width": null,
+      "height": null,
+      "sample_rate": "48000",
+      "channels": 2,
+      "fps": "0/0"
+    }
+  ],
+  "audio": {
+    "integrated_lufs": -16.02,
+    "true_peak_dbtp": -3.82,
+    "full_decode_passed": true,
+    "full_encoded_spoken_text_matches_actual_master_and_retained_quote": true,
+    "caption_basis": "Actual stock narration ASR plus authentic source quote word timing, offset with the exact edit; normalized encoded full-mix transcript matches all words.",
+    "source_audio_used": false
+  },
+  "visual_inspection": {
+    "source_contact_frames": true,
+    "representative_encoded_frames": true,
+    "all_adjacent_cut_frames": true,
+    "ending_frame": true,
+    "source_audio_replacement_disclosed": true,
+    "original_commentary_labeled": true,
+    "full_portrait_no_unused_blur": true,
+    "goggins_bad_crop_replaced": true,
+    "limitations": [
+      "Source portrait crops are upscaled from1024x576 public playback; no native1080 claim.",
+      "Actual speech content/timing and technical sound checks passed; no subjective audio audition or guaranteed perfect voice claim.",
+      "Government source conditions/nonendorsement notice remain visible, and the originals are not proof of channel performance."
+    ],
+    "logo_note": "Military background marks excluded by crop; the personal-company shirt mark is incidental. Retouching streaks were removed by using the genuine unaltered shirt image."
+  },
+  "music_attribution_in_description": true,
+  "publication_evidence": null
+}

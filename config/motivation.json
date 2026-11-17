@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "content_type": "motivational",
-  "initial_daily_slots": 2,
+  "initial_daily_slots": null,
   "reference_urls": [
     "https://www.youtube.com/shorts/BsblgcBB17A",
     "https://www.youtube.com/shorts/AXa7gKstItw",
@@ -18,5 +18,12 @@
   "famous_people": "Use individually cleared recordings or properly sourced public-domain factual editorial footage. Record exact use basis; no invented quotes, voice clones or endorsement.",
   "music_registry": "config/licensed-music.json",
   "performance_status": "new_experiment_not_a_proven_winner",
-  "preserve_daily_total": 20
+  "preserve_daily_total": 20,
+  "preferred_people": [
+    "Jocko Willink",
+    "David Goggins"
+  ],
+  "source_selection": "Individually reviewed first-party source rights; government editorial interviews are candidates, ordinary private podcast clips remain unverified.",
+  "fixed_type_quotas_suspended": true,
+  "standing_owner_authorization": true
 }

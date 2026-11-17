@@ -1,0 +1,25 @@
+{
+  "reviewed_at_utc": "2026-11-17T08:07:16.900801+00:00",
+  "sources": [
+    {
+      "id": "646927",
+      "person": "David Goggins",
+      "source_page": "https://www.dvidshub.net/video/646927/toughest-man-alive-interview-with-david-goggins",
+      "visual_status": "reviewed_for_specific_factual_editorial_pilot",
+      "audio_status": "excluded_music_flagged",
+      "clip_id": "goggins-practice-the-weak-skill",
+      "not_a_blanket_grant": true
+    },
+    {
+      "id": "718744",
+      "person": "Jocko Willink",
+      "source_page": "https://www.dvidshub.net/video/718744/jocko-willink-interview",
+      "visual_status": "reviewed_for_specific_factual_editorial_pilot",
+      "audio_status": "reviewed_specific_interview_speech",
+      "clip_id": "jocko-turn-a-mistake-into-a-plan",
+      "not_a_blanket_grant": true
+    }
+  ],
+  "courtesy_work_1022409": "held; third-party producer/provenance not independently cleared",
+  "creator_owned_private_podcasts": "no broad commercial grant verified"
+}
