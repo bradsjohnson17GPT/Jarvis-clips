@@ -47,5 +47,9 @@
     "visual_surprises": 4,
     "fictional_micro_stories": 4,
     "motivational": 2
-  }
+  },
+  "posting_mode": "quality_reset",
+  "daily_post_target_is_ceiling_not_quota": true,
+  "bulk_scheduling_enabled": false,
+  "comedy_required": false
 }

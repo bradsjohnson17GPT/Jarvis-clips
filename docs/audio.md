@@ -1,3 +1,5 @@
+> Quality reset: the Piper narrator below is retained only to reproduce legacy files. The owner rejected its delivery; new posts require the reviewed natural voice pipeline and actual editorial inspection. See [quality.md](quality.md).
+
 # Sound for Shorts
 
 New posts use timed narration, a quiet original music bed, and light original transition sounds. Keep speech clear and let the last line land. The first cat Short was published before this change and remains as published; do not repost it to add sound.

@@ -9,6 +9,7 @@ on:
       - batches/**
       - tests/**
       - config/audio.json
+      - config/quality.json
       - requirements-audio.txt
       - .github/workflows/render.yml
 
@@ -25,6 +26,20 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Read production mode
+        id: mode
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          config = Path('config/quality.json')
+          quality = json.loads(config.read_text()) if config.exists() else {}
+          enabled = quality.get('bulk_scheduling_enabled', True) and quality.get('mode') != 'quality_reset'
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'legacy_batch_enabled={str(enabled).lower()}\n')
+          if not enabled:
+              print('Quality reset: run safeguards, preserve the retired stock batch without rendering it.')
+          PY
       - name: Install video renderer
         run: |
           sudo apt-get update -qq
@@ -35,8 +50,10 @@ jobs:
           work/audio-venv/bin/python -m pip install -r requirements-audio.txt
           work/audio-venv/bin/python -m unittest discover -s tests
       - name: Download reviewed narration voice
+        if: steps.mode.outputs.legacy_batch_enabled == 'true'
         run: work/audio-venv/bin/python scripts/download_voice.py
       - name: Render the selected verified batch
+        if: steps.mode.outputs.legacy_batch_enabled == 'true'
         run: |
           python3 - <<'PY'
           import subprocess
@@ -54,6 +71,7 @@ jobs:
               subprocess.run(['work/audio-venv/bin/python', 'scripts/render.py', str(path)], check=True)
           PY
       - name: Save downloadable videos and source records
+        if: steps.mode.outputs.legacy_batch_enabled == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: jarvis-clips-${{ github.run_number }}

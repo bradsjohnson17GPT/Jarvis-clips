@@ -16,3 +16,5 @@
 - Current scope is original-content posting only. Do not develop editing services or digital-product businesses. Use supplied examples to improve original comedy; quality takes priority over filling the daily target.
 
 - Latest priority: streamer/gaming highlights and GTA VI launch coverage. Follow agents/streamer-scout.md and config/streamers.json. Do not confuse public viewing or Twitch sign-in with commercial redistribution rights, or claim continuous live watching without an actual supported process.
+
+- Latest override: the owner rejected the old quality and robotic voice. Read config/quality.json and docs/quality.md first. The old batch is held as drafts, the twenty-post target is only a ceiling, and comedy is optional. Do not re-enable rejected clips or use the retired Piper narrator. Build scene-based previews with natural speech and inspect their actual editorial quality before any return to bulk scheduling. Publishing-service limits are separate from poor content performance.

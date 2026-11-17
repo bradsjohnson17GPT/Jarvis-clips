@@ -18,5 +18,7 @@
   "true_peak_limit_db": -2,
   "maximum_voice_tempo_factor": 1.6,
   "mix_sample_rate": 48000,
-  "source_audio_policy": "Do not reuse source audio without separate review."
+  "source_audio_policy": "Do not reuse source audio without separate review.",
+  "legacy_voice_status": "retired_for_new_production",
+  "quality_override": "Read config/quality.json and docs/quality.md. Do not use the old Piper voice for new posts."
 }

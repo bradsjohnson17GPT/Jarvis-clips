@@ -17,7 +17,7 @@
   ],
   "priority_lookback_hours": 72,
   "maximum_discovery_lookback_days": 7,
-  "max_vidiq_credits_per_scout_run": 15,
+  "max_vidiq_credits_per_scout_run": 0,
   "max_watch_jobs_per_regular_run": 1,
   "allow_credit_purchases": false,
   "publishing_actor": "production",
@@ -52,5 +52,6 @@
     "original comedy"
   ],
   "streamer_config": "config/streamers.json",
-  "streamer_workflow": "agents/streamer-scout.md"
+  "streamer_workflow": "agents/streamer-scout.md",
+  "paid_research_paused_reason": "Quality reset; reuse completed reference analyses and free sources. Do not purchase or top up credits."
 }

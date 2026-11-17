@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "mode": "quality_reset",
+  "owner_rejected_previous_format_on": "2026-11-16",
+  "automatic_posting_enabled": false,
+  "bulk_scheduling_enabled": false,
+  "daily_target_is_ceiling_not_quota": true,
+  "comedy_required": false,
+  "legacy_batch_action": "Saved as drafts; do not re-enable the rejected videos to fill a quota.",
+  "old_voice_retired": "en_US-ljspeech-high",
+  "new_voice_requirement": "Natural continuous speech with human pauses and expression; no forced per-card speed-up or celebrity clone.",
+  "formats_to_develop": [
+    "original cinematic 3D stories",
+    "original character dialogue with shot changes and visual payoff",
+    "meaningful motivational or factual editorial clips from cleared sources"
+  ],
+  "reference_urls": [
+    "https://www.youtube.com/watch?v=VVU3GLgk-R0",
+    "https://www.instagram.com/reel/Dfz8bmkMIiu/"
+  ],
+  "quality_checks": [
+    "specific opening situation or question",
+    "coherent scene-by-scene storyboard and consistent characters",
+    "camera changes and visuals serve the spoken story",
+    "natural dialogue or narration with timing based on the actual recording",
+    "readable synchronized captions with a clear hierarchy",
+    "no tiny landscape frame surrounded by unused blur",
+    "music and effects follow story beats and never mask speech",
+    "clear payoff without copied plot or unsupported factual claims"
+  ],
+  "paid_research_paused_during_reset": true,
+  "publication_blocker": "Metricool reported an account-level limit; alternate direct YouTube connection has no owned channel linked.",
+  "routine_confirmation_required": false
+}
