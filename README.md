@@ -10,7 +10,7 @@ The earlier Metricool attempt failed at its account limit. That duplicate remain
 
 New motivational Short: [Before the First Step | JFK Motivation — LIVE on YouTube](https://www.youtube.com/watch?v=cem3Beva7OE). Direct publisher completed November 16 at 11:21 p.m. Pacific after the owner approved the shown draft. Twelve pieces of project work are now confirmed published, including ten earlier videos and the two revised pilots. Never duplicate either revised clip/hash. [Description and credits](docs/production/before-the-first-step-description.md).
 
-Two further motivational edits are finished: Jocko with authentic reviewed speech and an original animated action plan, and Goggins with clearly labeled original commentary. [Review both final upload drafts and exact settings](docs/production/jocko-goggins-upload-review.md). Metricool again hit its account limit; that failed copy is held. The direct connector requires after-preview approval of these exact drafts. Neither new clip is scheduled or live.
+Two further motivational edits are finished and revised to generic adult male commentary, cleaner speech and a quieter ducked score: Jocko retains authentic reviewed speech and an original animated action plan; Goggins uses clearly labeled original narration. [Review both final upload drafts and exact settings](docs/production/jocko-goggins-upload-review.md). Metricool again hit its account limit; that failed copy is held. The direct connector requires after-preview approval of these exact drafts. Neither new clip is scheduled or live.
 
 ## Quality and selection
 

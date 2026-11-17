@@ -1,18 +1,18 @@
-# Finished Jocko and Goggins upload drafts
+# Revised male-voice motivational drafts
 
-Destination for both: **Smile Daily (@smiledailyclips1), original clips YouTube channel**. Visibility: **public**. Category: **Entertainment**. Cost: **0 vidIQ publishing credits each**. Both are ready drafts with no fixed publish time and no public YouTube URL. They are not scheduled or published.
+Both finished drafts target **Smile Daily (@smiledailyclips1)** with **public** visibility and Entertainment category. Publishing costs **0 vidIQ credits each**. They have no fixed publishAt and remain drafts, not scheduled or live. After approval of these revised versions, Jocko is first and Goggins follows at least20minutes later, subject to actual queue checks.
 
-Planned execution after approval: publish Jocko first, then Goggins at least20minutes later, subject to actual account/queue checks. The videos and descriptions below are the exact prepared versions.
+The owner requested a manly narrator and cleaner speech. Both use generic adult male Kokoro am_michael commentary. Jocko retains his real interview speech with mild cleanup. Goggins retains only authentic pictures: all original source audio is excluded because its music was not cleared. No celebrity voice is cloned or pitch-shifted. Music is quieter and ducks more deeply beneath speech; captions and picture timing were rebuilt from the new recordings.
 
 ## Turn a Mistake Into a Plan | Jocko Willink
 
-[Watch/download the finished video](https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/jocko-turn-a-mistake-into-a-plan.mp4)
+[Play the revised preview](https://share.descript.com/view/diPjn1YVbaB) · [Download the inspected final MP4](https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/jocko-turn-a-mistake-into-a-plan.mp4)
 
-Duration: 18.267seconds. Tags: motivation, Jocko Willink, ownership, original commentary, Shorts.
+Duration: 18.572seconds. Tags: motivation, Jocko Willink, ownership, original commentary, Shorts.
 
-### Final YouTube description
+### Exact final YouTube description
 
-An authentic 2019 Jocko Willink interview excerpt with a new narrated explanation and an original animated action-plan example. The quoted words remain his real recording; the separate commentary is generic AI-generated stock narration, not a clone or a quote attributed to him. This is factual editorial discussion, not an advertisement or speaker partnership.
+An authentic 2019 Jocko Willink interview excerpt with a new narrated explanation and an original animated action-plan example. The quoted words remain his real recording; the separate commentary is generic male AI-generated stock narration, not a clone or a quote attributed to him. This is factual editorial discussion, not an advertisement or speaker partnership.
 
 Source: https://www.dvidshub.net/video/718744/jocko-willink-interview
 Government producer: Alan Brutus; 25th Infantry Division.
@@ -28,13 +28,13 @@ Changes: Excerpt trimmed, faded and ducked beneath speech and original sound des
 
 ## Practice the Skill You Avoid | David Goggins Commentary
 
-[Watch/download the finished video](https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/fce33a5544a7bacd01b7c0fa486b48870e124790/media/quality/goggins-practice-the-weak-skill.mp4)
+[Play the revised preview](https://share.descript.com/view/X03WsahzldM) · [Download the inspected final MP4](https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/goggins-practice-the-weak-skill.mp4)
 
-Duration: 19.026seconds. Tags: motivation, David Goggins, discipline, original commentary, Shorts.
+Duration: 19.414seconds. Tags: motivation, David Goggins, discipline, original commentary, Shorts.
 
-### Final YouTube description
+### Exact final YouTube description
 
-Original commentary on David Goggins's discussion of maintaining discipline after training. His pictures are authentic 2018 Navy archival footage; all original source audio/music is excluded. The narration is generic AI-generated stock commentary, not Goggins's voice or a fabricated quote. This is factual editorial discussion, not an advertisement or speaker partnership.
+Original commentary on David Goggins's discussion of maintaining discipline after training. His pictures are authentic 2018 Navy archival footage; all original source audio/music is excluded. The narration is generic male AI-generated stock commentary, not Goggins's voice or a fabricated quote. This is factual editorial discussion, not an advertisement or speaker partnership.
 
 Source: https://www.dvidshub.net/video/646927/toughest-man-alive-interview-with-david-goggins
 Government producer: Austin Rooney, Jonathan Snyder and Alexa Trafton; Defense Media Activity – Navy Production.
@@ -48,6 +48,8 @@ Source: https://www.scottbuckley.com.au/library/juggernaut/
 License: https://creativecommons.org/licenses/by/4.0/
 Changes: Excerpt trimmed, faded and ducked beneath speech and original sound design.
 
-## Posting status
+## Publication workflow
 
-The Jocko Metricool attempt at00:30Pacific on November17 returned **You have reached your Metricool account limit.** That failed copy is now held with automatic publication off. The new direct drafts use the exact verified finished bytes. vidIQ returned an explicit requirement to show target/text/media/time/cost and wait for a reply approving these versions before its publish call. No new paid research or purchases were used.
+Metricool again rejected the earlier Jocko version with **You have reached your Metricool account limit.** That failed copy stays held. Both existing direct drafts were updated in place with exact verified new bytes; no second draft was created and no new YouTube video was posted. The direct connector requires approval after the revised exact target/text/media/time/cost is shown. The previous female-narrated files and revisions are superseded.
+
+Preview note: Descript adds its platform watermark to the share/export. The linked inspected final MP4 and actual direct-upload draft contain the clean original edit. The initial black-picture export was caught and repaired; the replacement export picture, decode and soundtrack match were checked.

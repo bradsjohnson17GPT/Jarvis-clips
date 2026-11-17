@@ -75,5 +75,15 @@
     "no_pitch_shift": true,
     "cleaned_real_source_dialogue": false,
     "new_encoded_spoken_text_matches": true
+  },
+  "descript_preview_verification": {
+    "id": "goggins-practice-the-weak-skill",
+    "full_decode_passed": true,
+    "no_black_intervals_over_0_2_seconds": true,
+    "soundtrack_correlation_to_inspected_final": 0.9997224305754644,
+    "actual_export_frame_inspected": true,
+    "preview_watermark_only": true,
+    "upload_uses_clean_inspected_movie": true,
+    "share_url": "https://share.descript.com/view/X03WsahzldM"
   }
 }

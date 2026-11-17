@@ -2330,7 +2330,7 @@
     {
       "clip_id": "jocko-turn-a-mistake-into-a-plan",
       "title": "Turn a Mistake Into a Plan | Jocko Willink",
-      "status": "audio_revised_inspected_awaiting_same_draft_update",
+      "status": "direct_draft_awaiting_required_approval",
       "provider": "youtube",
       "publication_date": null,
       "actual_publication_date": null,
@@ -2341,7 +2341,7 @@
       "source_identity": "DVIDS 718744 Jocko Willink 2019 government interview",
       "video_sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
       "media_path": "media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
-      "media_url": null,
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
       "source_metadata_path": "media/quality/jocko-turn-a-mistake-into-a-plan-source.json",
       "qa_path": "media/quality/jocko-turn-a-mistake-into-a-plan.qa.json",
       "audio_version": "authentic-jocko-male-commentary-clean-dialogue-ducked-score-v2",
@@ -2350,7 +2350,7 @@
         "basis": "General teen/adult discussion of skill practice or personal accountability, not child-directed content."
       },
       "publication_evidence": null,
-      "public_host_bytes_verified": false,
+      "public_host_bytes_verified": true,
       "music_attribution_in_description": true,
       "do_not_duplicate": true,
       "scheduler": "vidIQ direct YouTube",
@@ -2362,17 +2362,19 @@
       "direct_draft_evidence": {
         "publisher": "vidIQ direct YouTube",
         "status": "draft",
-        "draft_ready": false,
+        "draft_ready": true,
         "publish_at": null,
         "public_url": null,
         "publication_confirmed": false,
         "publishing_credits": 0,
         "private_draft_record": "work/quality/jocko-direct-draft.json",
-        "exact_imported_bytes_match": false,
-        "approval_required_by": "vidiq_social_post_draft_create returned next instruction",
+        "exact_imported_bytes_match": true,
+        "media_sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
+        "same_draft_preserved": true,
+        "audio_version": "authentic-jocko-male-commentary-clean-dialogue-ducked-score-v2",
+        "approval_required_by": "Actual draft_update connector returned after-preview approval requirement",
         "approved_after_showing_this_draft": false,
-        "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled.",
-        "requires_media_replacement": true
+        "workflow_requirement": "Owner requested audio changes, not publication of this unseen version. Show this revised exact preview; keep the SAME draft/revision and wait for an approving reply before publishing. Do not repeat the question every recurring run."
       },
       "private_draft_record": "work/quality/jocko-direct-draft.json",
       "publication_failure_history": [
@@ -2391,7 +2393,8 @@
         "current_provider_status": "PENDING",
         "private_record": "work/quality/jocko-metricool-held.json",
         "verified_at_utc": "2026-11-17T08:35:05.963646+00:00",
-        "evidence": "Failed copy held after actual publication ERROR. Provider status reset to PENDING by draft save; no publication is inferred."
+        "evidence": "Failed copy held after actual publication ERROR. Provider status reset to PENDING by draft save; no publication is inferred.",
+        "held_media_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c"
       },
       "scheduling_history": [
         {
@@ -2415,7 +2418,7 @@
         "now_held": true
       },
       "owner_requested_audio_revision": "2026-11-17",
-      "instructions": "The prior female-narrated final is superseded. Update the SAME existing direct draft with the inspected male-narrated media, verify imported bytes, and show the new final preview. Never create or publish a duplicate.",
+      "instructions": "Male-narrated replacement is complete and verified in the SAME direct draft. Wait for owner approval after this revised preview before publishing that exact revision. Never recreate the draft or reactivate old held copies. Preserve at least20minutes between actual publications.",
       "previous_media_versions": [
         {
           "video_sha256": "9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c",
@@ -2426,13 +2429,15 @@
         }
       ],
       "bytes": 3520511,
-      "raw_bytes_match_inspected_file": false,
-      "direct_import_bytes_match": false
+      "raw_bytes_match_inspected_file": true,
+      "direct_import_bytes_match": true,
+      "preview_url": "https://share.descript.com/view/diPjn1YVbaB",
+      "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media."
     },
     {
       "clip_id": "goggins-practice-the-weak-skill",
       "title": "Practice the Skill You Avoid | David Goggins Commentary",
-      "status": "audio_revised_inspected_awaiting_same_draft_update",
+      "status": "direct_draft_awaiting_required_approval",
       "provider": "youtube",
       "publication_date": null,
       "actual_publication_date": null,
@@ -2443,7 +2448,7 @@
       "source_identity": "DVIDS 646927 David Goggins 2018 government interview",
       "video_sha256": "140b057a57533061447f9eba8df24247b7833f617b4a32ef7db025027288022a",
       "media_path": "media/quality/goggins-practice-the-weak-skill.mp4",
-      "media_url": null,
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/goggins-practice-the-weak-skill.mp4",
       "source_metadata_path": "media/quality/goggins-practice-the-weak-skill-source.json",
       "qa_path": "media/quality/goggins-practice-the-weak-skill.qa.json",
       "audio_version": "generic-male-commentary-clean-speech-ducked-score-no-source-audio-v2",
@@ -2452,7 +2457,7 @@
         "basis": "General teen/adult discussion of skill practice or personal accountability, not child-directed content."
       },
       "publication_evidence": null,
-      "public_host_bytes_verified": false,
+      "public_host_bytes_verified": true,
       "music_attribution_in_description": true,
       "do_not_duplicate": true,
       "scheduler": "vidIQ direct YouTube",
@@ -2462,21 +2467,23 @@
       "direct_draft_evidence": {
         "publisher": "vidIQ direct YouTube",
         "status": "draft",
-        "draft_ready": false,
+        "draft_ready": true,
         "publish_at": null,
         "public_url": null,
         "publication_confirmed": false,
         "publishing_credits": 0,
         "private_draft_record": "work/quality/goggins-direct-draft.json",
-        "exact_imported_bytes_match": false,
-        "approval_required_by": "vidiq_social_post_draft_create returned next instruction",
+        "exact_imported_bytes_match": true,
+        "media_sha256": "140b057a57533061447f9eba8df24247b7833f617b4a32ef7db025027288022a",
+        "same_draft_preserved": true,
+        "audio_version": "generic-male-commentary-clean-speech-ducked-score-no-source-audio-v2",
+        "approval_required_by": "Actual draft_update connector returned after-preview approval requirement",
         "approved_after_showing_this_draft": false,
-        "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled.",
-        "requires_media_replacement": true
+        "workflow_requirement": "Owner requested audio changes, not publication of this unseen version. Show this revised exact preview; keep the SAME draft/revision and wait for an approving reply before publishing. Do not repeat the question every recurring run."
       },
       "private_draft_record": "work/quality/goggins-direct-draft.json",
       "owner_requested_audio_revision": "2026-11-17",
-      "instructions": "The prior female-narrated final is superseded. Update the SAME existing direct draft with the inspected male-narrated media, verify imported bytes, and show the new final preview. Never create or publish a duplicate.",
+      "instructions": "Male-narrated replacement is complete and verified in the SAME direct draft. Wait for owner approval after this revised preview before publishing that exact revision. Never recreate the draft or reactivate old held copies. Preserve at least20minutes between actual publications.",
       "previous_media_versions": [
         {
           "video_sha256": "b63c6dbcc853ae73dc112eec9399cd8e1641ffe8137c1fd056421c33ed6e313d",
@@ -2487,8 +2494,10 @@
         }
       ],
       "bytes": 6450032,
-      "raw_bytes_match_inspected_file": false,
-      "direct_import_bytes_match": false
+      "raw_bytes_match_inspected_file": true,
+      "direct_import_bytes_match": true,
+      "preview_url": "https://share.descript.com/view/X03WsahzldM",
+      "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media."
     }
   ]
 }

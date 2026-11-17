@@ -1,7 +1,7 @@
 {
   "id": "jocko-turn-a-mistake-into-a-plan",
   "title": "Turn a Mistake Into a Plan | Jocko Willink",
-  "status": "audio_revised_inspected_awaiting_same_draft_update",
+  "status": "direct_draft_awaiting_required_approval",
   "content_type": "motivational",
   "hook_type": "authentic_ownership_quote_and_visible_plan",
   "person": "Jocko Willink",
@@ -61,8 +61,8 @@
   "audio_version": "authentic-jocko-male-commentary-clean-dialogue-ducked-score-v2",
   "publication_evidence": null,
   "research_basis": "docs/trends/2026-11-16-jocko-goggins-source-review.md",
-  "media_url": null,
-  "public_host_bytes_verified": false,
+  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
+  "public_host_bytes_verified": true,
   "direct_draft_evidence": {
     "publisher": "vidIQ direct YouTube",
     "status": "draft",
@@ -73,9 +73,12 @@
     "publishing_credits": 0,
     "private_draft_record": "work/quality/jocko-direct-draft.json",
     "exact_imported_bytes_match": true,
-    "approval_required_by": "vidiq_social_post_draft_create returned next instruction",
+    "media_sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
+    "same_draft_preserved": true,
+    "audio_version": "authentic-jocko-male-commentary-clean-dialogue-ducked-score-v2",
+    "approval_required_by": "Actual draft_update connector returned after-preview approval requirement",
     "approved_after_showing_this_draft": false,
-    "workflow_requirement": "Show the prepared target, final text/media, time and cost, then wait for the owner reply approving this draft. Do not create another draft or claim it is scheduled."
+    "workflow_requirement": "Owner requested audio changes, not publication of this unseen version. Show this revised exact preview; keep the SAME draft/revision and wait for an approving reply before publishing. Do not repeat the question every recurring run."
   },
   "publication_failure_history": [
     {
@@ -137,5 +140,8 @@
     "no_pitch_shift": true,
     "cleaned_real_source_dialogue": true,
     "new_encoded_spoken_text_matches": true
-  }
+  },
+  "preview_url": "https://share.descript.com/view/diPjn1YVbaB",
+  "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media.",
+  "clean_final_download_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/jocko-turn-a-mistake-into-a-plan.mp4"
 }
