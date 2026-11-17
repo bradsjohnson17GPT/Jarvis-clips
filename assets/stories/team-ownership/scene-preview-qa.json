@@ -1,14 +1,13 @@
 {
   "id": "jocko-give-the-team-the-plan",
-  "reviewed_at_utc": "2026-11-17T13:12:22.647165+00:00",
-  "status": "development_stills_editorial_hold",
+  "reviewed_at_utc": "2026-11-17T13:37:40.794152+00:00",
+  "status": "staging_revised_native_frames_rendering",
   "publishable": false,
   "scene_source": "assets/stories/team-ownership/scene.py",
-  "scene_source_sha256": "34c3c08528cefc7cdb34be63b8217783d8caf52a9f9d7c552279b6d193686a96",
+  "scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
   "geometry_and_baked_pose_curves_created": true,
   "full_frame_sequence_rendered": false,
   "new_finished_video": false,
-  "actual_stills_inspected": 6,
   "preview_resolution": [
     432,
     768
@@ -23,38 +22,81 @@
   "external_assets_used": false,
   "bpy_runtime": "Blender4.3.2",
   "passed_development_checks": [
-    "Original room/three character designs, physical board and shared marker created.",
-    "Revised close-up separates hands and keeps marker visible.",
-    "Actual preview pictures inspected through intended shot/cut positions.",
-    "23 existing project renderer tests passed after source changes."
+    "Torso/shoulders now turn toward the board and leader steps aside.",
+    "Original opposing thumb/curled-finger geometry added; grip and marker offsets corrected.",
+    "New ink strokes lie on the board surface rather than appearing as floating tubing.",
+    "A new connected idea node is physically drawn by the same marker for a visible payoff.",
+    "Actual still and six sampled motion positions show transfer, turn and drawing; developmentMP4 full decode and audio stream checked.",
+    "23 existing renderer tests passed after final source changes."
   ],
   "unresolved_editorial_findings": [
-    "Hands remain simplified palms without convincing gripping fingers.",
-    "Designer still faces the camera while the drawing arm is behind the body; final drawing action is not clearly visible.",
-    "Some portrait shots crop the third character or do not direct attention strongly enough.",
-    "Poses/expressions remain mechanical; isolated stills do not prove natural acting or motion continuity.",
-    "Undenoised preview grain is visible. This Blender build has no bundled OIDN; final denoising/quality workflow has not been applied."
+    "Full native24fps sequence and final edit have not been completed or inspected.",
+    "Character acting and stylized grip require final editorial review at delivery quality; low-resolution samples do not prove natural movement.",
+    "Raw Cycles grain remains; reviewed external denoising is not yet applied.",
+    "Historical portrait crop, finished speech-timed captions, source/context notices and full soundtrack inspection remain before a ready movie."
   ],
-  "next_material_change": "A real torso turn, readable wrist/marker contact and visible board drawing are required before considering a full render. Do not spend another run on cosmetic frame variants alone.",
+  "next_material_change": "Complete the currently active source-frozen native frame render without starting a duplicate, then assemble/inspect the real final picture, source excerpt, captions and soundtrack. Do not count this motion test as a finished Short.",
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
   "audio_masters_regenerated_this_run": false,
   "source_Jocko_media_in_these_stills": false,
   "artifacts": [
     {
-      "path": "examples/development/team-ownership/01-opening.png",
-      "sha256": "b71d938acd956e1a4b668133f66e635ee4a584000ff2fc8bd7fa28156cdc2ea1",
-      "evidence": "Actual original Blender still, not a frame from a completed movie."
-    },
-    {
-      "path": "examples/development/team-ownership/02-marker-transfer.png",
-      "sha256": "cdd1be7e578bc82b7bb4b5fe4a9ea4d2ff7f9cb607469d0f54d376cef942eede",
-      "evidence": "Actual original Blender still, not a frame from a completed movie."
-    },
-    {
       "path": "examples/development/team-ownership/03-late-scene.png",
-      "sha256": "990522ab6328a34a7dca5180d09d4c4a6a4817125803dcd076a7d0ac2d533a5c",
-      "evidence": "Actual original Blender still, not a frame from a completed movie."
+      "sha256": "6d288e155dae596796a717e06a36eecaeb4d11a7b1b923391683f705eaf6e315",
+      "evidence": "current_original_still_at20.5seconds",
+      "publishable": false
+    },
+    {
+      "path": "examples/development/team-ownership/04-motion-test.mp4",
+      "sha256": "14d724cb1a4b909353a924452031d9c0ec0d7d1b81a1f3e024e9760310164590",
+      "evidence": "current_low_resolution_four_second_development_motion_test",
+      "publishable": false
     }
   ],
-  "no_publication_mutations": true
+  "no_publication_mutations": true,
+  "new_development_motion_test_rendered": true,
+  "latest_revision_stills_inspected": 1,
+  "prior_material_revision_stills_inspected": 3,
+  "development_motion_frames_rendered": 48,
+  "development_motion_frames_sampled_for_visual_review": 6,
+  "development_motion_resolution": [
+    180,
+    320
+  ],
+  "development_motion_fps": 12,
+  "motion_sampling_note": "Every second baked24fps pose is actually rendered; twelve frames per second, no optical interpolation.",
+  "development_motion_seconds": 4.0,
+  "development_motion_full_decode_passed": true,
+  "development_motion_audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "source_window_in_existing_preflight_seconds": [
+      16.8,
+      20.8
+    ],
+    "original_authentic_Jocko_audio_present_in_this_window": false,
+    "generic_male_commentary_and_licensed_score": true
+  },
+  "subjective_audio_listening_claimed": false,
+  "continuous_video_watching_claimed": false,
+  "native_render": {
+    "status": "in_progress",
+    "started_at_utc": "2026-11-17T13:35:35.640282+00:00",
+    "expected_original_frames": 343,
+    "resolution": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "samples": 24,
+    "frozen_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
+    "render_lock_separate_from_publication_lock": true,
+    "publishable": false
+  },
+  "historical_baselines": [
+    "examples/development/team-ownership/01-opening.png",
+    "examples/development/team-ownership/02-marker-transfer.png"
+  ],
+  "historical_revision_stills_inspected": 6
 }

@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 import bpy
-from mathutils import Vector
+from mathutils import Vector, Quaternion
 
 FPS = 24
 DURATION = 21.0693333333
@@ -117,7 +117,36 @@ def ease(start, end, t):
     return u*u*(3-2*u)
 
 
+def gripping_hand(name, pos, skin, side):
+    bpy.ops.object.empty_add(type='PLAIN_AXES', location=pos)
+    rig = bpy.context.object
+    rig.name = name+' wrist rig'
+    oval(name+' palm', (0,0,0), (.060,.045,.076), skin, rig)
+    for z in [-.041,0,.041]:
+        line(name+' curled finger', [(side*-.035,0,z),(side*.015,-.043,z),(side*.060,-.031,z),(side*.065,.005,z)], .012, skin, rig)
+    line(name+' opposing thumb', [(side*-.04,.01,-.055),(side*-.025,-.04,-.03),(side*.045,-.045,-.015)], .017, skin, rig)
+    return rig
+
+
+def world_point(p, point):
+    return p['root'] + Quaternion((0,0,1),p.get('yaw',0)) @ (Vector(point)-p['root']) + p.get('offset',Vector((0,0,0)))
+
+
+def body_pose(p, yaw, offset, frame):
+    p['yaw'],p['offset']=yaw,Vector(offset)
+    turn=Quaternion((0,0,1),yaw)
+    for obj,location,rotation in p['body_parts']:
+        obj.location=world_point(p,location)
+        obj.rotation_mode='QUATERNION'
+        obj.rotation_quaternion=turn @ rotation
+        key(obj,'location',frame)
+        key(obj,'rotation_quaternion',frame)
+    p['head'].location=world_point(p,p['head_rest'])
+    key(p['head'],'location',frame)
+
+
 def person(name, x, y, skin, shirt, hair, trousers, style):
+    before=set(bpy.data.objects)
     root = Vector((x, y, 0))
     box(name+' adult torso', root+Vector((0, 0, 1.40)), (.47, .31, .64), shirt, .11)
     box(name+' waist', root+Vector((0, .015, 1.06)), (.38, .28, .19), trousers, .05)
@@ -145,27 +174,36 @@ def person(name, x, y, skin, shirt, hair, trousers, style):
     brows = []
     for side in [-1, 1]:
         brows.append(line(name+' brow'+str(side), [(side*.045, -.191, .121), (side*.09, -.187, .13), (side*.135, -.165, .117)], .010, hair, head))
+    # Keep original world-space rest transforms; body turns move the shoulders,
+    # while the reaching hand can still target a fixed point on the board.
+    body_parts=[(o,o.location.copy(),o.rotation_euler.to_quaternion() if o.rotation_mode!='QUATERNION' else o.rotation_quaternion.copy()) for o in bpy.data.objects if o not in before and o.parent is None and o!=head]
     arms = {}
     for side in [-1, 1]:
         a = root+Vector((side*.26, 0, 1.65))
         b = root+Vector((side*.34, -.04, 1.20))
         c = root+Vector((side*.29, -.10, 1.03))
-        arms[side] = (rod(name+' upper arm'+str(side), a, b, .078, shirt), rod(name+' forearm'+str(side), b, c, .056, skin), oval(name+' palm'+str(side), c, (.065, .055, .088), skin), a)
-    return {'name':name, 'root':root, 'head':head, 'mouth':mouth, 'brows':brows, 'arms':arms}
+        grip_side=-1 if name=='Leader' and side==1 else 1
+        arms[side] = (rod(name+' upper arm'+str(side), a, b, .078, shirt), rod(name+' forearm'+str(side), b, c, .056, skin), gripping_hand(name+' hand'+str(side),c,skin,grip_side), a)
+    return {'name':name, 'root':root, 'head':head, 'head_rest':head.location.copy(), 'body_parts':body_parts, 'mouth':mouth, 'brows':brows, 'arms':arms}
 
 
-def arm(p, side, hand, frame):
+def arm(p, side, hand, frame, grip_axis=(0,0,1)):
     up, low, palm, shoulder = p['arms'][side]
+    shoulder=world_point(p,shoulder)
     hand = Vector(hand)
-    elbow = shoulder.lerp(hand, .52)+Vector((side*.07, -.13, -.10))
+    bend=Quaternion((0,0,1),p.get('yaw',0)) @ Vector((side*.07,-.13,-.10))
+    elbow = shoulder.lerp(hand, .52)+bend
     move_rod(up, shoulder, elbow, frame)
     move_rod(low, elbow, hand, frame)
     palm.location = hand
+    palm.rotation_mode='QUATERNION'
+    palm.rotation_quaternion=Vector(grip_axis).normalized().to_track_quat('Z','Y')
     key(palm, 'location', frame)
+    key(palm,'rotation_quaternion',frame)
 
 
 def expression(p, smile, yaw, frame):
-    p['head'].rotation_euler = (0, .025*smile, yaw)
+    p['head'].rotation_euler = (0, .025*smile, yaw+p.get('yaw',0))
     key(p['head'], 'rotation_euler', frame)
     for i, point in enumerate(p['mouth'].data.splines[0].bezier_points):
         point.co.z = -.12 + (abs(i-1)*.027-.009)*smile
@@ -194,6 +232,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--preview', action='store_true')
+    parser.add_argument('--preview-times', nargs='+', type=float,
+                        help='Render only these existing development shot times.')
+    parser.add_argument('--motion-preview', nargs=2, type=float, metavar=('START','END'),
+                        help='Low resolution motion test, sampled at12fps from24fps poses.')
     parser.add_argument('--render', action='store_true')
     args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     args.output.mkdir(parents=True, exist_ok=True)
@@ -219,13 +261,15 @@ def main():
     box('Writable ivory surface', (.1,.972,1.80), (1.55,.022,1.20), WHITE, .025)
     label('Board heading', 'OUR PLAN', (.1,.949,2.24), .115, blue)
     for x,z in [(-.37,1.98),(.12,1.98),(.50,1.55)]:
-        pts=[(x+.105*math.cos(a),.942,z+.078*math.sin(a)) for a in [i*2*math.pi/16 for i in range(17)]]
+        pts=[(x+.105*math.cos(a),.956,z+.078*math.sin(a)) for a in [i*2*math.pi/16 for i in range(17)]]
         line('Proposed blue idea', pts, .011, blue)
-    line('First idea connection', [(-.25,.94,1.98),(-.12,.94,1.98),(.01,.94,1.98)], .009, blue)
-    line('Second idea connection', [(.23,.94,1.94),(.39,.94,1.77),(.48,.94,1.64)], .009, blue)
-    cross_a=line('First rejecting stroke', [(-.44,.926,2.08),(-.10,.926,1.79),(.34,.926,1.42)], .022, INK)
-    cross_b=line('Second rejecting stroke', [(.36,.924,2.07),(-.04,.924,1.73),(-.43,.924,1.41)], .022, INK)
-    new_path=line('A new team branch', [(-.42,.922,1.48),(-.48,.922,1.70),(-.35,.922,1.95)], .014, blue)
+    line('First idea connection', [(-.25,.956,1.98),(-.12,.956,1.98),(.01,.956,1.98)], .0035, blue)
+    line('Second idea connection', [(.23,.956,1.94),(.39,.956,1.77),(.48,.956,1.64)], .0035, blue)
+    cross_a=line('First rejecting stroke', [(-.44,.954,2.08),(-.10,.954,1.79),(.34,.954,1.42)], .005, INK)
+    cross_b=line('Second rejecting stroke', [(.36,.954,2.07),(-.04,.954,1.73),(-.43,.954,1.41)], .005, INK)
+    new_path=line('A new team branch', [(-.37,.954,1.90),(-.42,.954,1.50)], .004, INK)
+    node_points=[(-.42+.10*math.cos(math.pi/2-i*2*math.pi/24),.954,1.41+.09*math.sin(math.pi/2-i*2*math.pi/24)) for i in range(25)]
+    new_node=line('The teammates added idea',node_points,.004,INK)
     # Background context: a low table, plants, window mullions and original wall art.
     box('Side credenza', (-1.25,1.30,.48), (.80,.50,.80), wood, .055)
     pot=material('Terracotta', (.39,.15,.07))
@@ -241,15 +285,15 @@ def main():
     lead=person('Leader', .63,.22,material('Leader skin',(.62,.37,.22)),material('Burgundy overshirt',(.24,.055,.075)),material('Leader dark hair',(.055,.035,.026)),material('Leader trousers',(.075,.09,.115)),'short')
     colleague=person('Designer', -.59,-.14,material('Designer skin',(.34,.18,.095)),material('Teal knit',(.045,.25,.27)),material('Designer hair',(.022,.018,.015)),material('Designer trousers',(.11,.115,.12)),'short')
     third=person('Teammate', -1.40,.20,material('Teammate skin',(.70,.48,.33)),material('Ochre blouse',(.61,.33,.085)),material('Teammate hair',(.10,.045,.025)),material('Teammate trousers',(.10,.14,.17)),'bun')
-    marker=rod('Shared physical marker',(0,0,0),(0,.18,0),.024,INK)
-    marker_tip=oval('Marker drawing nib',(0,0,0),(.016,.030,.016),INK)
+    marker=rod('Shared physical marker',(0,0,0),(0,.18,0),.012,INK)
+    marker_tip=oval('Marker drawing nib',(0,0,0),(.010,.018,.010),INK)
     cams=[
         camera('01 Establish the team',(2.1,-5.1,2.75),(-.05,.45,1.35),49),
         camera('02 A plan gets crossed out',(.75,-2.5,2.35),(.0,.92,1.79),61),
         camera('03 The designer stops offering',(.15,-2.4,2.16),(-.59,-.14,1.94),66),
         camera('04 Return the marker',(1.6,-4.2,2.65),(.0,.25,1.50),53),
         camera('05 Shared hands',(.55,-1.6,1.78),(-.04,.12,1.39),72),
-        camera('06 Their next version',(-2.9,-4.9,2.7),(-.40,.40,1.50),47),
+        camera('06 Their next version',(1.1,-2.0,2.65),(-.30,.78,1.76),56),
     ]
     starts=[0,2.90,4.9,14.16,17.45,18.30]
     scene=bpy.context.scene
@@ -261,32 +305,48 @@ def main():
     total=math.ceil(DURATION*FPS)
     for f in range(1,total+1):
         t=(f-1)/FPS
+        turn_to_board=ease(18.1,19.3,t)
+        lead_turn=ease(1.7,2.9,t)*(1-ease(4.9,5.9,t))
+        lead_step=.55*ease(18.1,19.3,t)
+        body_pose(lead,-2.55*lead_turn,(-.25*lead_turn+lead_step,0,0),f)
+        body_pose(colleague,2.65*turn_to_board,(.32*turn_to_board,.10*turn_to_board,0),f)
+        body_pose(third,0,(0,0,0),f)
         resting=Vector((.84,-.02,1.13))
         if 2.90<=t<3.8:
-            tip=smooth((-.44,.926,2.08),(.34,.926,1.42),(t-2.90)/.9)
-            hand=tip-Vector((0,.17,0))
+            tip=smooth((-.44,.954,2.08),(.34,.954,1.42),(t-2.90)/.9)
+            hand=tip-Vector((-.065,.17,0))
         elif 3.8<=t<4.05:
-            tip=smooth((.34,.926,1.42),(.36,.926,2.07),(t-3.8)/.25)
-            hand=tip-Vector((0,.17,0))
+            tip=smooth((.34,.954,1.42),(.36,.954,2.07),(t-3.8)/.25)
+            hand=tip-Vector((-.065,.17,0))
         elif 4.05<=t<4.85:
-            tip=smooth((.36,.924,2.07),(-.43,.924,1.41),(t-4.05)/.8)
-            hand=tip-Vector((0,.17,0))
+            tip=smooth((.36,.954,2.07),(-.43,.954,1.41),(t-4.05)/.8)
+            hand=tip-Vector((-.065,.17,0))
         elif t<2.9:
-            hand=smooth(resting,(-.44,.756,2.08),ease(1.7,2.9,t))
+            hand=smooth(resting,(-.375,.784,2.08),ease(1.7,2.9,t))
         elif t<14.5:
-            hand=smooth((-.43,.754,1.41),resting,ease(4.85,5.8,t))
+            hand=smooth((-.365,.784,1.41),resting,ease(4.85,5.8,t))
         else:
             hand=smooth(resting,(.045,0,1.40),ease(14.5,17.75,t))
         receiving=smooth((-.35,-.35,1.10),(-.085,0,1.52),ease(15.1,17.75,t))
         if t>=18.1:
-            draw=smooth((-.42,.922,1.48),(-.35,.922,1.95),ease(18.8,20.2,t))
-            receiving=smooth((-.085,0,1.52),draw-Vector((0,.17,0)),ease(18.1,18.8,t))
+            if t<19.9:
+                draw=smooth((-.37,.954,1.90),(-.42,.954,1.50),ease(18.8,19.9,t))
+            else:
+                angle=math.pi/2-ease(19.9,20.7,t)*2*math.pi
+                draw=Vector((-.42+.10*math.cos(angle),.954,1.41+.09*math.sin(angle)))
+            receiving=smooth((-.085,0,1.52),draw-Vector((.065,.17,0)),ease(18.1,18.8,t))
         if t>17.9:
             hand=smooth(hand,(.87,.05,1.12),ease(17.9,18.6,t))
-        arm(lead,1,hand,f)
-        arm(lead,-1,(.37,-.03,1.17),f)
-        arm(colleague,1,receiving,f)
-        arm(colleague,-1,(-.87,-.26,1.10),f)
+        hand.x+=lead_step*ease(17.9,18.6,t)
+        grip_axis=Vector((0,1,0))
+        if 16.8<=t<18.1:
+            grip_axis=smooth((0,1,0),(0,0,1),ease(16.8,17.6,t))
+        elif 18.1<=t<18.8:
+            grip_axis=smooth((0,0,1),(0,1,0),ease(18.1,18.8,t))
+        arm(lead,1,hand,f,grip_axis)
+        arm(lead,-1,world_point(lead,(.37,-.03,1.17)),f)
+        arm(colleague,1,receiving,f,grip_axis if t>=17.5 else (0,0,1))
+        arm(colleague,-1,world_point(colleague,(-.87,-.26,1.10)),f)
         arm(third,1,smooth((-1.14,-.02,1.25),(-1.02,.10,1.55),ease(18.8,20.5,t)),f)
         arm(third,-1,(-1.65,-.02,1.16),f)
         new_confidence=ease(17.7,20.3,t)
@@ -294,20 +354,21 @@ def main():
         expression(colleague,-.70+1.5*new_confidence,.15+.08*new_confidence,f)
         expression(third,-.2+.9*new_confidence,.30,f)
         owner_hand=receiving if t>=17.8 else hand
+        grip_offset=Vector((.065 if t>=17.8 else -.065,0,0))
         if 16.8<=t<18.1:
             u=ease(16.8,17.6,t)
-            mstart=smooth(hand+Vector((0,.01,0)),(-.02,-.045,1.37),u)
-            mend=smooth(hand+Vector((0,.17,0)),(-.02,-.045,1.63),u)
+            mstart=smooth(hand+Vector((-.065,.01,0)),(-.02,-.045,1.40),u)
+            mend=smooth(hand+Vector((-.065,.17,0)),(-.02,-.045,1.60),u)
         elif 18.1<=t<18.8:
             u=ease(18.1,18.8,t)
-            mstart=smooth((-.02,-.045,1.37),owner_hand+Vector((0,.01,0)),u)
-            mend=smooth((-.02,-.045,1.63),owner_hand+Vector((0,.17,0)),u)
+            mstart=smooth((-.02,-.045,1.40),owner_hand+grip_offset+Vector((0,.01,0)),u)
+            mend=smooth((-.02,-.045,1.60),owner_hand+grip_offset+Vector((0,.17,0)),u)
         else:
-            mstart,mend=owner_hand+Vector((0,.01,0)),owner_hand+Vector((0,.17,0))
+            mstart,mend=owner_hand+grip_offset+Vector((0,.01,0)),owner_hand+grip_offset+Vector((0,.17,0))
         move_rod(marker,mstart,mend,f)
         marker_tip.location=mend
         key(marker_tip,'location',f)
-        for stroke,start,end in [(cross_a,2.90,3.80),(cross_b,4.05,4.85),(new_path,18.8,20.2)]:
+        for stroke,start,end in [(cross_a,2.90,3.80),(cross_b,4.05,4.85),(new_path,18.8,19.9),(new_node,19.9,20.7)]:
             stroke.data.bevel_factor_end=ease(start,end,t)
             stroke.data.keyframe_insert(data_path='bevel_factor_end',frame=f)
         # Clear the crossed-out draft during the historical interview cut.
@@ -334,6 +395,8 @@ def main():
     scene.frame_set(18)
     bpy.ops.wm.save_as_mainfile(filepath=str(args.output/'team-ownership-development.blend'))
     samples=[(.70,cams[0]),(3.45,cams[1]),(6.00,cams[2]),(16.8,cams[3]),(17.8,cams[4]),(20.5,cams[5])]
+    if args.preview_times:
+        samples=[(t,next(cam for start,cam in reversed(list(zip(starts,cams))) if t>=start)) for t in args.preview_times]
     if args.preview:
         scene.render.resolution_percentage=60
         scene.cycles.samples=32
@@ -341,6 +404,18 @@ def main():
             scene.frame_set(round(t*FPS)+1)
             scene.camera=cam
             scene.render.filepath=str(args.output/f'preview-{t:05.2f}.png')
+            bpy.ops.render.render(write_still=True)
+    if args.motion_preview:
+        scene.render.resolution_percentage=25
+        scene.cycles.samples=4
+        first,last=args.motion_preview
+        for index,f in enumerate(range(round(first*FPS)+1,round(last*FPS)+1,2)):
+            t=(f-1)/FPS
+            scene.frame_set(f)
+            scene.camera=next(cam for start,cam in reversed(list(zip(starts,cams))) if t>=start)
+            dest=args.output/'motion'/f'{index:05d}.png'
+            dest.parent.mkdir(exist_ok=True,parents=True)
+            scene.render.filepath=str(dest)
             bpy.ops.render.render(write_still=True)
     if args.render:
         scene.render.resolution_percentage=100

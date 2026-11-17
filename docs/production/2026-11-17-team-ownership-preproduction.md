@@ -1,6 +1,6 @@
 # Team ownership — original scene preparation
 
-Status: original script, storyboard, measured audio preflight and six inspected developmental scene stills. Original character/room geometry and baked pose curves now exist; no full frame sequence, final movie, ready candidate, service draft, scheduled post or publication exists for this concept. Working identity: `jocko-give-the-team-the-plan`. The two existing male-voice pilots remain unchanged.
+Status: original script, audio preflight, revised scene stills and a four-second development motion test. One source-frozen native frame render is in progress; there is no completed full frame sequence, finished Short, ready candidate, service draft, schedule or publication. Working identity: `jocko-give-the-team-the-plan`. The two existing male-voice pilots remain unchanged.
 
 ## Story and spoken copy
 
@@ -29,7 +29,7 @@ This copy is a development draft. The 6.8-second source cut has been decoded and
 | Changed action | Return to the same room, clothes and positions. Leader clears space on the board and physically hands over the marker. The colleague now draws the next version while the leader steps aside to listen. | Male commentary resumes as a coherent take. Music remains ducked. Avoid a fresh voice restart for every caption. |
 | Payoff | Close on the same marker in the colleague's hand; widen to show the other teammate contributing. Resolve the original blocked interaction through an actual visible change. | Let reviewed music rise briefly after speech, with a quiet original marker cap sound. No unearned claim about success, income or guaranteed motivation. |
 
-Original characters, room geometry, camera setups and baked pose curves now exist, with six actually inspected revised stills. The scene remains held for simplified grips, torso orientation, hidden drawing action and mechanical acting. Read assets/stories/team-ownership/scene-preview-qa.json. Do not substitute generic unrelated stock, a motionless whiteboard card or a repeated old pilot. Full motion/narrative quality is still unverified; no full frame sequence has been rendered.
+Original room/characters, cameras and baked poses now exist. The torso/shoulders turn, the leader steps aside, fingers/thumbs grip the marker, ink lies on the board and a connected idea is drawn. Still and sampled-motion checks support the current native frame render; full acting/narrative quality remains unverified. Read assets/stories/team-ownership/scene-preview-qa.json. Do not substitute unrelated stock or a motionless card, and do not start a duplicate render.
 
 ## Source and audio evidence
 
@@ -59,4 +59,10 @@ The free vidIQ pre-script guidance call reported zero credits used. No paid rese
 
 The real statement begins at audio second 7.36. Speech word timing, original marker effect positions and music credit are recorded for later animation. Local dialogue cleanup uses the reviewed mild noise reduction/EQ/compression; clean generic narration uses its separate mild processing chain. No pitch shifting, speaker cloning or copied music occurred. Source and commentary remain distinguishable. ASR/levels do not prove expressive delivery or establish a final editorial quality pass; subjective listening is not claimed.
 
-Raw/clean speech, original effect master, mixed WAV, AAC and private construction receipts remain ignored under `work/preproduction/jocko-give-the-team-the-plan/`. Reuse these exact masters for the next stage rather than synthesizing the same text again. The unfinished soundtrack must never be mistaken for a publishable Short or combined with a placeholder image for upload. The original room and characters now exist as a development scene. Remaining material work includes convincing body turns and gripping, visibly drawing the next plan, source portrait crop, complete motion, actual final picture/caption/mix inspection and final source/QA records. The marker close-up is clearer, but the stills do not pass as a finished narrative.
+Raw/clean speech, original effect master, mixed WAV, AAC and private construction receipts remain ignored under `work/preproduction/jocko-give-the-team-the-plan/`. Reuse these exact masters for the next stage rather than synthesizing the same text again. The unfinished soundtrack must never be mistaken for a publishable Short or combined with a placeholder image for upload. The room/characters and material staging revisions now exist. Remaining work includes completing native frames, checking full acting/grips, source portrait crop, captions/notices, final picture/caption/mix inspection and finished source/QA records. The four-second motion test is not a completed Short.
+
+## Native frame render started
+
+The single native render started November17 at13:35UTC. Frozen scene SHA-256: `94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791`. It targets343original720×1280frames at24fps, skipping the historical interview interval for later assembly. Process/session IDs, separate render-lock state, logs and validated frame counts remain ignored under work/. These are actual in-progress frames, not a completed movie or a promise of uninterrupted runtime. Check the job before restarting; resume only its matching frozen source/cache if it stopped.
+
+The [four-second low-resolution motion test](../../examples/development/team-ownership/04-motion-test.mp4) includes the matching generic commentary/music window, with no authentic Jocko audio/pictures in that interval. Its exact music credit/license/changes and sampling limits are in the [asset README](../../assets/stories/team-ownership/README.md). Do not upload the test or count it as a completed new clip.

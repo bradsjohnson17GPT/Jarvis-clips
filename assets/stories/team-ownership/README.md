@@ -1,16 +1,19 @@
 # Team ownership development assets
 
-`scene.py` creates the original room, three fictional adult character designs, physical board, marker, lights, six camera setups and baked pose curves. No external meshes, textures, likeness assets or reference-media files are included. Blender 4.3.2 was used.
+`scene.py` creates an original room, three fictional adult characters, a physical board/marker, six cameras and baked poses. No external meshes, textures, likenesses or reference-media assets are included. Blender 4.3.2 was used.
 
-This is an unfinished scene test. Six actual revised stills were inspected; three are preserved under examples/development/team-ownership/. Read `scene-preview-qa.json` before further work. Hand grips, torso orientation and visible drawing action need substantive improvement. The current actor motion and framing do not have a final editorial pass. Do not full-render repeatedly for cosmetic changes or treat passing renderer tests as permission to upload this scene.
+Material revisions turn the torso/shoulders toward the board, move the leader aside, add gripping fingers/thumbs, place ink on the board surface and physically draw a connected idea. Actual stills and sampled motion positions were inspected. Read scene-preview-qa.json; full acting and overall editorial quality remain unverified.
 
-```sh
-blender -b -t 4 --python assets/stories/team-ownership/scene.py -- \
-  --output /task-owned/work/team-ownership --preview
-```
+One native 720×1280/24 fps frame render is active from an immutable source snapshot. Read ignored work/quality/active-handoff.json and its exact render status/session before starting anything. Do not duplicate it. The task-owned launcher holds a separate render lock and uses a source-hash-specific cache, partial PNG validation and a disk-space guard. A completed frame render still needs historical source-picture assembly, captions/context notices, final sound/picture review and finished source/QA records. Nothing here is ready to post.
 
-Previews are actually rendered at 432×768, 32 Cycles samples, without denoising or resizing. The planned delivery is 720×1280 at 24 fps; those full frame sequences have not been rendered. This Blender build lacks bundled Open Image Denoise. The separately reviewed external tool in config/denoiser.json is a possible later workflow, not something applied to these stills.
+Development stills are actually rendered at 432×768, 32 samples, without denoising or resizing. The motion test has 48 actually rendered 180×320 frames at 12 fps, sampling every second baked24fps pose; no optical interpolation is claimed. Full native frames remain in progress. This Blender build lacks bundled Open Image Denoise; the separately reviewed external tool in config/denoiser.json has not been applied yet.
 
-The private .blend can be regenerated from the source. The actual historical interview belongs at audio seconds 7.36–14.16 in a future final edit, not inside these original stills. The full-render flag skips that interval and resumes existing frame files; it is a development facility, not a ready-video or publishing workflow.
+The private .blend can be regenerated from source. In a future final edit, the historical interview occupies audio seconds7.36–14.16; these original scene frames do not replace it. The full-render flag skips that interval. Resume only the current frozen source and matching validated frame cache, not arbitrary files from an earlier revision.
 
-`audio-preflight.json` records the already generated male narration, continuous real interview excerpt, licensed music and original effects. Exact WAV/AAC masters and private receipts remain in ignored work/preproduction/jocko-give-the-team-the-plan/. Reuse them rather than synthesizing the same copy again. There is no completed movie, ready candidate, service draft, schedule or public video for this concept.
+`audio-preflight.json` records the existing male narration, continuous real interview excerpt, licensed music and original effects. Reuse the exact masters under ignored work/preproduction/jocko-give-the-team-the-plan/. No completed Short, ready candidate, service draft, schedule or published video exists for this concept.
+
+The [four-second motion test](../../../examples/development/team-ownership/04-motion-test.mp4) contains the corresponding16.8–20.8second audio-plan window: generic male commentary, original marker effects and reviewed music. There are no authentic Jocko pictures or speech in that window. It has stereo48kHzAAC and a complete decode check. Sampled pictures and master ASR/measurements do not establish natural acting or subjective listening. `03-late-scene.png` is the current drawing still. `01-opening.png` and `02-marker-transfer.png` are earlier baselines, not final media.
+
+Music credit: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+Source: https://www.scottbuckley.com.au/library/ascension/ . License: https://creativecommons.org/licenses/by/4.0/ . Changes: excerpt trimmed, faded and ducked beneath original commentary and sound design. The full preflight music starts at track second122; the test uses its later16.8–20.8second window. No speaker, producer or composer endorsement is implied.
