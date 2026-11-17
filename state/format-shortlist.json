@@ -1,0 +1,24 @@
+{
+  "review_date": "2026-11-16",
+  "timezone": "America/Los_Angeles",
+  "selection_mode": "quality_first_with_dated_view_evidence",
+  "fixed_category_quotas_suspended": true,
+  "paid_vidiq_credits_used": 0,
+  "best_current_short_verified": false,
+  "channel_format_winner_established": false,
+  "candidates": [
+    {
+      "content_type": "motivational",
+      "development_clip": "before-the-first-step",
+      "status": "small_original_pilot_supported_by_broad_category_interest",
+      "evidence": "Historical primary search metadata and attributed recent third-party counters; actual structural analyses of supplied references are reused separately.",
+      "notes": "docs/trends/2026-11-16-motivation-format-evidence.md",
+      "limitations": "No verified current platform-wide rank, comparable channel winner, guaranteed views or reuse grant from competitor results."
+    }
+  ],
+  "unqualified_for_automatic_expansion": [
+    "old stock-card category quotas",
+    "uncleared streamer or celebrity reposts",
+    "new formats selected only from a viral title or unverified chart"
+  ]
+}

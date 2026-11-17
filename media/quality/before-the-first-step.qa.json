@@ -1,0 +1,47 @@
+{
+  "id": "before-the-first-step",
+  "status": "inspected_preview_not_youtube_published",
+  "verified_at_utc": "2026-11-17T07:09:57.424149+00:00",
+  "duration_seconds": 25.871,
+  "width": 720,
+  "height": 1280,
+  "delivery_fps": 30,
+  "sha256": "b58abe2690d7048f0bd2519ed79c33c67bda219819a1d32b8bfb8b13b59b5927",
+  "bytes": 10409681,
+  "audio": {
+    "codec": "AAC",
+    "channels": 2,
+    "sample_rate": 48000,
+    "encoded_integrated_lufs": -16.01,
+    "encoded_true_peak_dbtp": -3.81,
+    "encoded_lra": 2.3,
+    "complete_decode": true,
+    "asr_full_mixed_spoken_text_matches": true,
+    "caption_basis": "ASR of actual clean stock narration and independently transcribed authentic archival source, shifted with the exact sample edit; separate encoded-mix transcript cross-check.",
+    "alignment_limit": "Three word onsets differ by up to0.44s between independent ASR passes; ASR is approximate, not human-confirmed phoneme alignment. Caption groups preserve the speaker boundary."
+  },
+  "visual_inspection": {
+    "native_sources_contacted": true,
+    "full_delivery_representative_frames": true,
+    "all_cuts_adjacent_frames_checked": true,
+    "caption_speaker_boundary_fixed": true,
+    "portrait_framing": "Actual source fills portrait, with proportional crops; no tiny landscape/blur cards.",
+    "observed_limitations": [
+      "Archival JFK and Moon TV pictures are soft/grainy and upscaled; no native-HD claim.",
+      "Launch film has genuine frame/perforation/brightness artifacts; no generated detail or restoration claim.",
+      "This is a historical editorial motivational pilot, not a proven best-performing format.",
+      "The assistant cannot subjectively hear playback in this runtime; actual soundtrack transcript, waveform/level/timing and full decode checks were used."
+    ]
+  },
+  "editorial_review": {
+    "hook": "Recognizable historical speaker and original promise/footprint opening",
+    "progression": "Authentic short JFK quote, high-resolution launch motion, real lunar step and a specific project action",
+    "originality": "New narration and six-shot edit using three source assets; no copied creator script, stock-card batch or fabricated celebrity voice.",
+    "audience": {
+      "made_for_kids": false,
+      "basis": "General teen/adult historical reflection and personal-project motivation, not child-directed content."
+    },
+    "quality_limit": "Technical checks and public example views do not prove compelling delivery, a channel winner or guaranteed views."
+  },
+  "publication_evidence": null
+}

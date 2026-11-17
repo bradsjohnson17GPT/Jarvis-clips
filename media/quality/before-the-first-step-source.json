@@ -1,0 +1,154 @@
+{
+  "id": "before-the-first-step",
+  "kind": "historical_motivational_editorial",
+  "visual_sources": [
+    {
+      "id": "jsc2019m000363_We_Chose_The_Inspiration_of_Apollo_mp4_1_720",
+      "identity": "NASA/JSC We Chose: The Inspiration of Apollo, JFK historical excerpt only",
+      "page": "https://images.nasa.gov/details/jsc2019m000363_We_Chose_The_Inspiration_of_Apollo_mp4_1_720",
+      "download": "https://images-assets.nasa.gov/video/jsc2019m000363_We_Chose_The_Inspiration_of_Apollo_mp4_1_720/jsc2019m000363_We_Chose_The_Inspiration_of_Apollo_mp4_1_720~orig.mp4",
+      "sha256": "8f9f267b6e0c81c0c661d8637e8e4bfd5bfa5caad4a382c6ed874adc8b60eabe",
+      "used_interval": [
+        4.75,
+        7.43
+      ],
+      "review": "Only identified genuine JFK/Rice1962 archival frames used, not the 2019 narrative or its other speakers, children, logo bumper or soundtrack. Source identity corroborated by JFK Library USG-15-29-2 and NASA NTRS19940010921. Original soundtrack excluded."
+    },
+    {
+      "id": "KSC_69-71212-sRGB",
+      "identity": "NASA/MSFC Apollo11 launch transfer from70mm, credited photographer James Bilbrey in NASA catalog",
+      "page": "https://images.nasa.gov/details/KSC_69-71212-sRGB",
+      "download": "https://images-assets.nasa.gov/video/KSC_69-71212-sRGB/KSC_69-71212-sRGB~orig.mp4",
+      "sha256": "c804bcdd9c07c3e75f1597b4d353fff439054b1dfefbf847a3584d8eb393033b",
+      "used_intervals": [
+        [
+          13,
+          17.32
+        ],
+        [
+          24,
+          28.5
+        ],
+        [
+          40,
+          44.5
+        ]
+      ],
+      "review": "First-party NASA launch asset and metadata reviewed, genuine launch motion inspected. No third-party copyright/credit restriction was found in the inspected source/metadata. Original soundtrack excluded; historical source film grain/perforation artifact retained, no invented detail."
+    },
+    {
+      "id": "One_Small_Step_Comparison_720p",
+      "identity": "NASA identified Apollo11 Neil Armstrong first-step archive/restoration comparison",
+      "page": "https://www.nasa.gov/history/apollo-11-hd-videos/",
+      "asset_page": "https://images.nasa.gov/details/One_Small_Step_Comparison_720p",
+      "download": "https://images-assets.nasa.gov/video/One_Small_Step_Comparison_720p/One_Small_Step_Comparison_720p~medium.mp4",
+      "sha256": "4d026e74ae82afe5bfc6618e494a5a6284c9418c47daafac335205ca55b2ed4a",
+      "used_intervals": [
+        [
+          37,
+          41.5
+        ],
+        [
+          45,
+          50.3713333333
+        ]
+      ],
+      "review": "Only the actual monochrome historical picture after the comparison card is used. Factual NASA identity/history and source-specific editorial basis were reviewed previously and actual new crops inspected. Original audio removed."
+    }
+  ],
+  "rights_review": {
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_verified": true,
+    "commercial_editing_and_publication_basis": "Factual historical editorial publication with substantial original commentary, using identified first-party NASA imagery under its published media guidelines and an individually cataloged public-domain White House recording. Not an advertising/personality endorsement. Review is source-specific; it does not clear arbitrary NASA-hosted third-party works.",
+    "policy_pages": [
+      "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "https://esrs.jsc.nasa.gov/Collections/EarthFromSpace/guidelines.htm",
+      "https://ntrs.nasa.gov/search.jsp?R=19940010921",
+      "https://www.jfklibrary.org/asset-viewer/archives/usg-15-29-2"
+    ],
+    "limitations": [
+      "NASA identifies/emblems must not imply project sponsorship; marks in archive footage are incidental.",
+      "No separate use of the NASA logo as channel branding, advertising endorsement or merchandising.",
+      "The reused 1962 government speech and historical footage are distinguished from original synthetic stock narration.",
+      "Technical source access and copyright clearance are separate: blocked Cloudflare/Wikimedia paths were not bypassed.",
+      "Permission and editing do not guarantee YouTube monetization."
+    ]
+  },
+  "authentic_speech": {
+    "identity": "White House Audio Collection, Address at Rice University in Houston, Texas on the Nation's Space Effort,12September1962, JFKWHA-127-002",
+    "page": "https://www.jfklibrary.org/asset-viewer/archives/jfkwha-127-002",
+    "download": "https://static.jfklibrary.org/2311tr5g0r14552308p8qs05546cv6c1.mp3?filename=JFKWHA-127-002-AU_WR.mp3&odc=20260305215117-0500",
+    "sha256": "74f8433ae3953b650ed1c1f1de073ebcbe43ef0f750d2b98744128a7a80fdd8f",
+    "copyright_status_on_item_page": "Public Domain",
+    "official_transcript": "https://www.rice.edu/kennedy",
+    "start": 539.54,
+    "end": 543.14,
+    "text": "not because they are easy, but because they are hard",
+    "processing": "Trim, mild high/low-pass and noise reduction, level adjustment and fades. Authentic recording, not synthesized/cloned. It plays over the rocket image so it is not falsely lip-synced to another excerpt."
+  },
+  "narrator": {
+    "config": "config/natural-voice.json",
+    "voice": "Kokoro af_heart",
+    "kind": "generic synthetic stock narration; not JFK or any real speaker impersonation",
+    "source_master_sha256": "662a1e4c0615a4e8799c52846de34d24cbb394ffa69ca4c127fe99232ac3ec4c"
+  },
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 122
+  },
+  "sound_effects": "Three quiet original synthesized edit impacts; no source soundtrack or unreviewed song.",
+  "edit_shots": [
+    {
+      "source": "we-chose-original.mp4",
+      "start": 4.75,
+      "duration": 2.68,
+      "crop": "crop=314:558:450:55,eq=gamma=1.12:saturation=0.9"
+    },
+    {
+      "source": "launch-original.mp4",
+      "start": 13.0,
+      "duration": 4.32,
+      "crop": "crop=930:1654:470:75"
+    },
+    {
+      "source": "armstrong-nasa.mp4",
+      "start": 37.0,
+      "duration": 4.5,
+      "crop": "crop=338:600:350:95"
+    },
+    {
+      "source": "launch-original.mp4",
+      "start": 24.0,
+      "duration": 4.5,
+      "crop": "crop=930:1654:450:75"
+    },
+    {
+      "source": "launch-original.mp4",
+      "start": 40.0,
+      "duration": 4.5,
+      "crop": "crop=930:1654:450:75"
+    },
+    {
+      "source": "armstrong-nasa.mp4",
+      "start": 45.0,
+      "duration": 5.371333333333332,
+      "crop": "crop=338:600:350:95"
+    }
+  ],
+  "original_script": "Before the first footprint, there was a promise. Seven years later, people walked on the Moon. Years of engineering, training and tests stood between those moments. Your next step can be smaller. Choose the project you keep postponing. Set a timer. Start the part you can finish today. Tomorrow, build from there.",
+  "final_sha256": "b58abe2690d7048f0bd2519ed79c33c67bda219819a1d32b8bfb8b13b59b5927"
+}

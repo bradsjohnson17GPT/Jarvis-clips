@@ -1,0 +1,66 @@
+{
+  "id": "before-the-first-step",
+  "title": "Before the First Step | JFK Motivation",
+  "status": "inspected_preview_preparing_direct_draft",
+  "content_type": "motivational",
+  "hook_type": "historical_promise_to_action",
+  "narration": "Before the first footprint, there was a promise. Seven years later, people walked on the Moon. Years of engineering, training and tests stood between those moments. Your next step can be smaller. Choose the project you keep postponing. Set a timer. Start the part you can finish today. Tomorrow, build from there.",
+  "authentic_speech": {
+    "identity": "White House Audio Collection, Address at Rice University in Houston, Texas on the Nation's Space Effort,12September1962, JFKWHA-127-002",
+    "page": "https://www.jfklibrary.org/asset-viewer/archives/jfkwha-127-002",
+    "download": "https://static.jfklibrary.org/2311tr5g0r14552308p8qs05546cv6c1.mp3?filename=JFKWHA-127-002-AU_WR.mp3&odc=20260305215117-0500",
+    "sha256": "74f8433ae3953b650ed1c1f1de073ebcbe43ef0f750d2b98744128a7a80fdd8f",
+    "copyright_status_on_item_page": "Public Domain",
+    "official_transcript": "https://www.rice.edu/kennedy",
+    "start": 539.54,
+    "end": 543.14,
+    "text": "not because they are easy, but because they are hard",
+    "processing": "Trim, mild high/low-pass and noise reduction, level adjustment and fades. Authentic recording, not synthesized/cloned. It plays over the rocket image so it is not falsely lip-synced to another excerpt."
+  },
+  "visual_source": {
+    "identity": "Three individually reviewed NASA historical source assets, six-shot original editorial edit",
+    "rights_verified": true,
+    "source_record": "media/quality/before-the-first-step-source.json"
+  },
+  "voice_config": "config/natural-voice.json",
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 122
+  },
+  "description": "An original historical motivational short: JFK's 1962 Moon challenge, Apollo 11 in 1969, and a reflection on starting the project you keep postponing. Archival pictures are reframed excerpts, not new recordings. JFK's brief quote is an authentic public-domain recording; the remaining voice is generic AI-generated stock narration, not a real speaker impersonation.\n\nHistorical footage: NASA/JSC and NASA/MSFC.\nJFK excerpt: https://images.nasa.gov/details/jsc2019m000363_We_Chose_The_Inspiration_of_Apollo_mp4_1_720\nLaunch: https://images.nasa.gov/details/KSC_69-71212-sRGB\nFirst step: https://www.nasa.gov/history/apollo-11-hd-videos/\nAuthentic speech: White House Audio Collection, Address at Rice University in Houston, Texas on the Nation's Space Effort, 12 September 1962 (JFKWHA-127-002), JFK Presidential Library: https://www.jfklibrary.org/asset-viewer/archives/jfkwha-127-002\nTranscript: https://www.rice.edu/kennedy\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and ducked beneath narration, authentic speech and original sound design.\nNo NASA, speaker, archive or composer endorsement is implied.",
+  "tags": [
+    "motivation",
+    "JFK",
+    "Apollo 11",
+    "personal progress",
+    "Shorts"
+  ],
+  "category_id": 22,
+  "privacy": "public",
+  "audience": {
+    "made_for_kids": false,
+    "basis": "General teen/adult historical reflection and personal-project motivation, not child-directed content."
+  },
+  "duration_seconds": 25.871,
+  "video_sha256": "b58abe2690d7048f0bd2519ed79c33c67bda219819a1d32b8bfb8b13b59b5927",
+  "media_path": "media/quality/before-the-first-step.mp4",
+  "qa_path": "media/quality/before-the-first-step.qa.json",
+  "source_identity": "original-six-shot-jfk-nasa-editorial",
+  "audio_version": "authentic-jfk-kokoro-ducked-ccby-score-original-impacts-v1",
+  "publication_evidence": null,
+  "research_basis": "docs/trends/2026-11-16-motivation-format-evidence.md",
+  "preview_url": "https://share.descript.com/view/9qEENGNf6Ix"
+}
