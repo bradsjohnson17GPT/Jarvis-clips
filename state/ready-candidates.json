@@ -3,7 +3,7 @@
     {
       "verified_at_utc": "2026-11-17T02:33:44.656688+00:00",
       "clip_id": "downward-beacon",
-      "status": "publication_blocked",
+      "status": "direct_draft_ready_required_approval",
       "manifest": "stories/downward-beacon.json",
       "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/023cfcd091214a61abdbaff5a004fe2916e8ff43/media/quality/downward-beacon.mp4",
       "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
@@ -39,6 +39,17 @@
         "draft": true,
         "auto_publish": false,
         "uuid_retained": true
+      },
+      "direct_route": {
+        "original_target_verified": true,
+        "connection_active": true,
+        "can_publish": true,
+        "media_import_matches_inspected_file": true,
+        "draft_ready": true,
+        "publishing_credits": 0,
+        "publication_confirmed": false,
+        "private_draft_record": "work/quality/direct-pilot-draft.json",
+        "workflow_requirement": "The direct publishing connector explicitly requires approval after showing this prepared draft; no publish call has been made."
       }
     }
   ]
