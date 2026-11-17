@@ -21,5 +21,172 @@
     }
   ],
   "courtesy_work_1022409": "held; third-party producer/provenance not independently cleared",
-  "creator_owned_private_podcasts": "no broad commercial grant verified"
+  "creator_owned_private_podcasts": "no broad commercial grant verified",
+  "additional_candidate_review_at_utc": "2026-11-17T11:57:48.378509+00:00",
+  "additional_candidates": [
+    {
+      "reviewed_at_utc": "2026-11-17T11:57:48.378509+00:00",
+      "reviewer": "Jarvis production source review",
+      "status": "analysis_only_not_cleared_for_a_new_edit",
+      "publication_clearance": false,
+      "item_marked_public_domain": true,
+      "policy_url": "https://www.dvidshub.net/about/copyright",
+      "not_a_blanket_grant": true,
+      "evidence_methods": [
+        "sampled_actual_video_frames",
+        "full_recording_ASR_with_word_timestamps",
+        "automatic_probabilistic_audio_event_classification"
+      ],
+      "continuous_video_watching_claimed": false,
+      "subjective_audio_listening_claimed": false,
+      "rights_conditions": [
+        "Verify exact selected government-origin visual segments and any embedded third-party material.",
+        "Embedded music has no independently verified reuse basis; do not retain source audio as cleared.",
+        "Respect privacy/publicity and third-party intellectual property; do not imply endorsement."
+      ],
+      "required_nonendorsement_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
+      "id": "963058",
+      "person": "Jocko Willink",
+      "source_page": "https://www.dvidshub.net/video/963058/jocko-willink-hype-video",
+      "title": "Jocko Willink hype video",
+      "source_date": "2025-05-01",
+      "producer": "Austin Rooney / All Hands Magazine, U.S. Navy",
+      "duration_seconds": 45.378667,
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_sha256": "f8e18c78a3fda42eaa652498b8d59cf219de62d02b76ee2ea9b311e6b9b8a286",
+      "visual_observation": "Finished montage of military/fitness action with large baked captions, effects, Navy branding and an ending logo; sampled frames do not show a clean new Jocko talking-head interview.",
+      "transcript_leads": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 14.44,
+          "topic": "Motivation fades and feelings change."
+        },
+        {
+          "start_seconds": 15.66,
+          "end_seconds": 23.9,
+          "topic": "Doing the planned work without waiting for motivation."
+        }
+      ],
+      "audio_status": "Unreviewed score suspected: automatic music confidence rises after speech ends; speech-dominant portions are not proven music-free or rights-cleared.",
+      "quality_decision": "Do not copy this completed government montage or its edits as a new original Short. At most a structural reference or future source-specific segment review.",
+      "overlap_status": "Different finished package; provenance of every embedded voice/image segment is not independently established."
+    },
+    {
+      "reviewed_at_utc": "2026-11-17T11:57:48.378509+00:00",
+      "reviewer": "Jarvis production source review",
+      "status": "analysis_only_not_cleared_for_a_new_edit",
+      "publication_clearance": false,
+      "item_marked_public_domain": true,
+      "policy_url": "https://www.dvidshub.net/about/copyright",
+      "not_a_blanket_grant": true,
+      "evidence_methods": [
+        "sampled_actual_video_frames",
+        "full_recording_ASR_with_word_timestamps",
+        "automatic_probabilistic_audio_event_classification"
+      ],
+      "continuous_video_watching_claimed": false,
+      "subjective_audio_listening_claimed": false,
+      "rights_conditions": [
+        "Verify exact selected government-origin visual segments and any embedded third-party material.",
+        "Embedded music has no independently verified reuse basis; do not retain source audio as cleared.",
+        "Respect privacy/publicity and third-party intellectual property; do not imply endorsement."
+      ],
+      "required_nonendorsement_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
+      "id": "719150",
+      "person": "Jocko Willink",
+      "source_page": "https://www.dvidshub.net/video/719150/jocko-willink-visits-25th-id",
+      "title": "Jocko Willink visits 25th ID",
+      "source_date": "2019-10-29",
+      "producer": "Spc. Valencia Wilson / 28th Public Affairs Detachment; description credits Spc. Valencia McNeal",
+      "duration_seconds": 102.314,
+      "source_dimensions": [
+        1024,
+        576
+      ],
+      "source_sha256": "a89c382feaa0c074a1ff420db2d387600db5031370fb84ef6042ae390aa712f8",
+      "visual_observation": "Meet-and-greet, handshakes, auditorium and interview at the same Tropic Lightning event; later package includes combat footage/stills and graphics.",
+      "transcript_leads": [
+        {
+          "start_seconds": 19.12,
+          "end_seconds": 41.18,
+          "topic": "Respect for soldiers and their unit."
+        },
+        {
+          "start_seconds": 54.6,
+          "end_seconds": 94.68,
+          "topic": "Ramadi losses, shared service and lasting bonds; ASR has errors, so validate exact words before quotation."
+        }
+      ],
+      "audio_status": "Substantial automatic music evidence across package, including speech; no cleared retained-source-audio segment selected.",
+      "quality_decision": "Human interaction may support a specific factual editorial story after exact segment review. Do not use combat archive/stills or retain the score without independent provenance.",
+      "overlap_status": "Same event and interview backdrop as existing source 718744; not an independent new interview or proof of a fresh content lane."
+    },
+    {
+      "reviewed_at_utc": "2026-11-17T11:57:48.378509+00:00",
+      "reviewer": "Jarvis production source review",
+      "status": "analysis_only_not_cleared_for_a_new_edit",
+      "publication_clearance": false,
+      "item_marked_public_domain": true,
+      "policy_url": "https://www.dvidshub.net/about/copyright",
+      "not_a_blanket_grant": true,
+      "evidence_methods": [
+        "sampled_actual_video_frames",
+        "full_recording_ASR_with_word_timestamps",
+        "automatic_probabilistic_audio_event_classification"
+      ],
+      "continuous_video_watching_claimed": false,
+      "subjective_audio_listening_claimed": false,
+      "rights_conditions": [
+        "Verify exact selected government-origin visual segments and any embedded third-party material.",
+        "Embedded music has no independently verified reuse basis; do not retain source audio as cleared.",
+        "Respect privacy/publicity and third-party intellectual property; do not imply endorsement."
+      ],
+      "required_nonendorsement_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
+      "id": "646414",
+      "person": "David Goggins",
+      "source_page": "https://www.dvidshub.net/video/646414/toughest-man-alive",
+      "title": "Toughest Man Alive",
+      "source_date": "2018-12-07",
+      "producer": "Robert Buchwald / War.gov",
+      "duration_seconds": 110.997,
+      "source_dimensions": [
+        1024,
+        576
+      ],
+      "source_sha256": "e23eec58b9cb2b8ccd3ff71f7f47f8464ba6a9fe65ecc8592614e6e657394ef7",
+      "visual_observation": "Running and seated interview shots visibly overlap the existing 646927 source; package also contains personal-looking comparison photos, documents and training archive.",
+      "transcript_leads": [
+        {
+          "start_seconds": 3.84,
+          "end_seconds": 25.86,
+          "topic": "Morning routine."
+        },
+        {
+          "start_seconds": 53.56,
+          "end_seconds": 87.18,
+          "topic": "Self-examination and facing difficult challenges; transcription requires verification."
+        },
+        {
+          "start_seconds": 87.4,
+          "end_seconds": 105.68,
+          "topic": "Continuing to practice discipline."
+        }
+      ],
+      "audio_status": "Strong automatic music evidence throughout; all source audio remains unapproved for reuse.",
+      "quality_decision": "No new Goggins Short selected. Avoid duplicating the pending pilot; do not present historical rapid-weight-loss claims as a viewer challenge or health guidance.",
+      "overlap_status": "Sampled images confirm shared running/interview material and archive with 646927; different package is not unique original footage."
+    }
+  ],
+  "additional_review_summary": {
+    "new_candidates_reviewed": 3,
+    "new_sources_cleared_for_publication": 0,
+    "new_clips_produced": 0,
+    "new_drafts_created": 0,
+    "new_posts_published": 0,
+    "paid_research_credits_used": 0,
+    "notes": "docs/trends/2026-11-17-additional-people-source-review.md"
+  }
 }
