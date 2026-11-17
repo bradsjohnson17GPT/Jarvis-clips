@@ -16,6 +16,7 @@ A separate private test-pattern mux preserved the complete inspected AAC essence
 python scripts/assemble_team_story.py \
   --render-root work/preproduction/jocko-give-the-team-the-plan/native-94b5afc8a78a \
   --patch-render-root work/preproduction/jocko-give-the-team-the-plan/postquote-974379894ff6 \
+  --drawing-render-root work/preproduction/jocko-give-the-team-the-plan/drawing-1eee9af2ea3d \
   --picture-input work/preproduction/jocko-give-the-team-the-plan/jocko-portrait-picture-only.mp4 \
   --audio work/preproduction/jocko-give-the-team-the-plan/mixed-preflight.m4a \
   --work work/preproduction/jocko-give-the-team-the-plan/final-assembly

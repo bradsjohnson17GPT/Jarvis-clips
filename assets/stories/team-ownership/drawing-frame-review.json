@@ -1,0 +1,406 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "prepared_at_utc": "2026-11-17T20:18:22.456341+00:00",
+  "status": "all 68 encoded_drawing_frames_inspected_gap_detected",
+  "movie_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "frame_rate": 24,
+  "frames": [
+    {
+      "frame": 439,
+      "time_seconds": 18.25,
+      "png_sha256": "6469623c5a7cd649130069aa2bbfa19bccdc9edae2759fa3873bc4fc73c4bfcc"
+    },
+    {
+      "frame": 440,
+      "time_seconds": 18.291666666666668,
+      "png_sha256": "57e6c811b1f2db8e9c77eb61735adbf4862c693a16e1fd0573cc2eae5abbbd57"
+    },
+    {
+      "frame": 441,
+      "time_seconds": 18.333333333333332,
+      "png_sha256": "ad19dabf5e835154e21b844e79eb59fba16fb6db529a9ee6137c147b7684fd82"
+    },
+    {
+      "frame": 442,
+      "time_seconds": 18.375,
+      "png_sha256": "cbe3be964e40b7276941eba2b522048a5c77baf5c582b456554c94a0610baaa7"
+    },
+    {
+      "frame": 443,
+      "time_seconds": 18.416666666666668,
+      "png_sha256": "af25fe6ee83c513f032b4a38ed2ae7dd803027c6935cc913cfc12a0d2b321b69"
+    },
+    {
+      "frame": 444,
+      "time_seconds": 18.458333333333332,
+      "png_sha256": "1e92ac25b8dc7271646162e49cde3cb2a94012fd948a1ef24a422ac563359a88"
+    },
+    {
+      "frame": 445,
+      "time_seconds": 18.5,
+      "png_sha256": "0b934aaafaf9f94f2bf024a9a12182a31be5f7580205d13d81aa46f4fa3a6967"
+    },
+    {
+      "frame": 446,
+      "time_seconds": 18.541666666666668,
+      "png_sha256": "b0a19aa391382344110a89c785229cb16d650a7fd45cbc3416decdfd43917aa8"
+    },
+    {
+      "frame": 447,
+      "time_seconds": 18.583333333333332,
+      "png_sha256": "71933340b6ccf88853280bd45a9afe66e97ce00820b078fd8ec6a2881cae689c"
+    },
+    {
+      "frame": 448,
+      "time_seconds": 18.625,
+      "png_sha256": "8d655457dd5e15dd32fead1f1931ca9627b0da3e172b9f3ed06e0228d4d5e35c"
+    },
+    {
+      "frame": 449,
+      "time_seconds": 18.666666666666668,
+      "png_sha256": "18a6b818374bc2acd6bc3cd0d572f9542b5dd0eb0ac19ac5d7610e7c1735ed55"
+    },
+    {
+      "frame": 450,
+      "time_seconds": 18.708333333333332,
+      "png_sha256": "3794d938d42294e8eeb9eda13a21d6a6278d1c10d0eee7e91bb177c3e07dcaca"
+    },
+    {
+      "frame": 451,
+      "time_seconds": 18.75,
+      "png_sha256": "04ab2e0920165fb83594eb6df86820cbe670b9c1f1861452c0a376f3ed570f32"
+    },
+    {
+      "frame": 452,
+      "time_seconds": 18.791666666666668,
+      "png_sha256": "239d353424225ce676e7a97b36c913f0f4d694272c30020b7d2be90f8d2e4249"
+    },
+    {
+      "frame": 453,
+      "time_seconds": 18.833333333333332,
+      "png_sha256": "b8cf4157a7c8992e6d19e4dac85d1c14bfe8ac30c19d52fd9c83a3e9756810ba"
+    },
+    {
+      "frame": 454,
+      "time_seconds": 18.875,
+      "png_sha256": "94eb949eedfbf22cbd8860a9bc90ecefd23dc6e8f7d4bbc79191eb44f33aefb8"
+    },
+    {
+      "frame": 455,
+      "time_seconds": 18.916666666666668,
+      "png_sha256": "8141101c9706d7cb85c7b571cc243b9140f3c959eeec8f98ab98e3a8c647ea22"
+    },
+    {
+      "frame": 456,
+      "time_seconds": 18.958333333333332,
+      "png_sha256": "4139e356007073bce8d26e2a20dbc4402ae5b6fba3bc2fbe3983b717f6f959f6"
+    },
+    {
+      "frame": 457,
+      "time_seconds": 19.0,
+      "png_sha256": "af045c03f9244ada5def90260c150fdc5b48d98289e4f9ee7f8ba515608e5c7d"
+    },
+    {
+      "frame": 458,
+      "time_seconds": 19.041666666666668,
+      "png_sha256": "ccd11f17773bfb66fb0e078a7fdade8266fa2f2d844a2c126ed20fc6561fd5be"
+    },
+    {
+      "frame": 459,
+      "time_seconds": 19.083333333333332,
+      "png_sha256": "3badc243c7722f3edd0f0cc0c3dfceb1c6730bdd79b85e97d92cbbde64a609a8"
+    },
+    {
+      "frame": 460,
+      "time_seconds": 19.125,
+      "png_sha256": "5609085e8a40e44a25c471e09764835311b7315794feb77ae35ccebce10f1095"
+    },
+    {
+      "frame": 461,
+      "time_seconds": 19.166666666666668,
+      "png_sha256": "f798aff874ad3de95d63e1becc832a1043d41922891d063f3adf7dc2ae2192c4"
+    },
+    {
+      "frame": 462,
+      "time_seconds": 19.208333333333332,
+      "png_sha256": "e7312bc10881b9d28fb4b751b5a7dc014d2a4c8ba9d11d99a19cdb805da42138"
+    },
+    {
+      "frame": 463,
+      "time_seconds": 19.25,
+      "png_sha256": "e2a481a8aba881b3ac02a0ceb018a50fa03381c992059a398f88fb46a94931bc"
+    },
+    {
+      "frame": 464,
+      "time_seconds": 19.291666666666668,
+      "png_sha256": "74b9769517852567bf6114fd3600c8ff2922bed77d93faf13b74c834c91578ce"
+    },
+    {
+      "frame": 465,
+      "time_seconds": 19.333333333333332,
+      "png_sha256": "c8f2cdb739095f57a3808c3f8a11380983f8693345f43e38d9da2e810f6337f3"
+    },
+    {
+      "frame": 466,
+      "time_seconds": 19.375,
+      "png_sha256": "ed092cb48791422f9e12732691bc177864e9f520ff218c2e594d93347fcb5c37"
+    },
+    {
+      "frame": 467,
+      "time_seconds": 19.416666666666668,
+      "png_sha256": "b693af6a508acc43d9823e35f99bf23240b8a52f0e7c5ce7365889c826308650"
+    },
+    {
+      "frame": 468,
+      "time_seconds": 19.458333333333332,
+      "png_sha256": "b6d3902aaeefaf7442ae956afaeec112a19e0b85ed5224f033e3d476b72c3108"
+    },
+    {
+      "frame": 469,
+      "time_seconds": 19.5,
+      "png_sha256": "4f76936cf53b201a0b848be8639a844ffb3f28dff24de7f4120a518e7b7d46b7"
+    },
+    {
+      "frame": 470,
+      "time_seconds": 19.541666666666668,
+      "png_sha256": "72aafbc977f45d24106096db9e7ba990df4006e0e4ff677e84698d76618cdd32"
+    },
+    {
+      "frame": 471,
+      "time_seconds": 19.583333333333332,
+      "png_sha256": "cb663b4f676a28417728923a1bba11d1e0d8838ee532fd1b118fc7d37e5f5042"
+    },
+    {
+      "frame": 472,
+      "time_seconds": 19.625,
+      "png_sha256": "129fa95c3f46fb44fdfd1d4a08ac07f5f2c06ae9bd1abed991d69ea3cf616e7b"
+    },
+    {
+      "frame": 473,
+      "time_seconds": 19.666666666666668,
+      "png_sha256": "0d2a9447f3374169c3e326b1a4a23cee93ad7a31c5ea9ecb75847a21c73d2f01"
+    },
+    {
+      "frame": 474,
+      "time_seconds": 19.708333333333332,
+      "png_sha256": "68ec78d372301f18e58a1828518c135ca115d721b420b563a380271dc37ab139"
+    },
+    {
+      "frame": 475,
+      "time_seconds": 19.75,
+      "png_sha256": "a3f58769d62e0dbbbe4de0fe7b7f7c0cc8893a8de033fd7364209b99a1db9455"
+    },
+    {
+      "frame": 476,
+      "time_seconds": 19.791666666666668,
+      "png_sha256": "78dd5222712cece98eb84291b45e86ee866ddaf9d20a5d1c5e992d1967a0c5d7"
+    },
+    {
+      "frame": 477,
+      "time_seconds": 19.833333333333332,
+      "png_sha256": "881b394154a970622aa84b855c99c0aa7249b56ad87ac0d2c08db88ca174758e"
+    },
+    {
+      "frame": 478,
+      "time_seconds": 19.875,
+      "png_sha256": "fcc93fbd48b95880a4bf73f7608e8acae6ec98948682caddbe3df035f5243d89"
+    },
+    {
+      "frame": 479,
+      "time_seconds": 19.916666666666668,
+      "png_sha256": "099ec7bc01ec69a0e5ecd421ea68284c25c85e761e4d01862b4d0c98a2926ade"
+    },
+    {
+      "frame": 480,
+      "time_seconds": 19.958333333333332,
+      "png_sha256": "339b46eafc72716dbd73c1b03a92eef4fdb8f2e5a13b7b4e62969691f60b7089"
+    },
+    {
+      "frame": 481,
+      "time_seconds": 20.0,
+      "png_sha256": "2a0fa0ffafd30942cacb3bbfbc7a80a1d4a83be1e49c22cfe1d65cb7d0e4853d"
+    },
+    {
+      "frame": 482,
+      "time_seconds": 20.041666666666668,
+      "png_sha256": "673420ec27203cb240a21c4b19ecf79d44786037a5d4b13a1138e7fe8f7e35c9"
+    },
+    {
+      "frame": 483,
+      "time_seconds": 20.083333333333332,
+      "png_sha256": "c18266185385e340e21d64d03d730ed0e8e04391e8939576d84b3444a4e3f9ec"
+    },
+    {
+      "frame": 484,
+      "time_seconds": 20.125,
+      "png_sha256": "3a3164ab355088a5959a2013f2746cedd1fc83ff34bfd452f145a61df6a53d69"
+    },
+    {
+      "frame": 485,
+      "time_seconds": 20.166666666666668,
+      "png_sha256": "62353d6ea4948e7c9e9282ccc8ad81dba36c1ead95243a5967a28ddaa2009a5b"
+    },
+    {
+      "frame": 486,
+      "time_seconds": 20.208333333333332,
+      "png_sha256": "f96f6e5f5c16efd3c058160f954560662cb36156c5b28df1095cd6986f82157d"
+    },
+    {
+      "frame": 487,
+      "time_seconds": 20.25,
+      "png_sha256": "3267cbe8b4023c1703a0960719c11cc3b6550d34b20a625cff0ea308bde6345a"
+    },
+    {
+      "frame": 488,
+      "time_seconds": 20.291666666666668,
+      "png_sha256": "e87efa84f95498fec7fd3d606d3d7784090b9523dfbafa21a02f2da4186338d6"
+    },
+    {
+      "frame": 489,
+      "time_seconds": 20.333333333333332,
+      "png_sha256": "d74f4bcd87385392fe07093bc070c149306d9acfa8efb1a5f26aa0a1b4998ef9"
+    },
+    {
+      "frame": 490,
+      "time_seconds": 20.375,
+      "png_sha256": "33b110cf9a143f31cdd34edb2cdfe873ad15a321800a4f3c5e782e1440b4ac63"
+    },
+    {
+      "frame": 491,
+      "time_seconds": 20.416666666666668,
+      "png_sha256": "f0185bcd82a765d51c2cc30997c041a447bebbf1cced7d1db73b34246fd9cf9c"
+    },
+    {
+      "frame": 492,
+      "time_seconds": 20.458333333333332,
+      "png_sha256": "895949556d38769422de1276de741f189be0e07816d4da9e3e5d88c826707541"
+    },
+    {
+      "frame": 493,
+      "time_seconds": 20.5,
+      "png_sha256": "efc88aa6f51016787e82ba1c7e4f024492a7ed153b86fb5e2f0c3dc676633d12"
+    },
+    {
+      "frame": 494,
+      "time_seconds": 20.541666666666668,
+      "png_sha256": "7bdadda6bff7b6a98395126dd40843ecfc261a6be3a986c94f3cf7b6abd9a7d9"
+    },
+    {
+      "frame": 495,
+      "time_seconds": 20.583333333333332,
+      "png_sha256": "ff268b10b6ea0f3227bf19e6f67dea7a2b0df881dc8de2b970ec129e4f38bd20"
+    },
+    {
+      "frame": 496,
+      "time_seconds": 20.625,
+      "png_sha256": "c61fc447360bc88b47cc33895d45cf45b563a3f2910b19b36fc2f9b620e0ef78"
+    },
+    {
+      "frame": 497,
+      "time_seconds": 20.666666666666668,
+      "png_sha256": "9c17b426cb5d2f629a20721b863ef36dae92f184d429af7fd0f10776fcbad765"
+    },
+    {
+      "frame": 498,
+      "time_seconds": 20.708333333333332,
+      "png_sha256": "758c075f976d10cc7d6959b196d8765b63a332eacbe47ad59639b93ee4209ab4"
+    },
+    {
+      "frame": 499,
+      "time_seconds": 20.75,
+      "png_sha256": "70aa7c75152b7f7128713a699aacefd4de19d81622125730ea4cc1b7f86ad890"
+    },
+    {
+      "frame": 500,
+      "time_seconds": 20.791666666666668,
+      "png_sha256": "311af420f60c421bc11f40a279c243e6743f2601bd02a0510d857c58665e1637"
+    },
+    {
+      "frame": 501,
+      "time_seconds": 20.833333333333332,
+      "png_sha256": "03869fa6c5e896ab362cdee66008ad4be1be5336bbff512a4a87a8a80c18986a"
+    },
+    {
+      "frame": 502,
+      "time_seconds": 20.875,
+      "png_sha256": "654ae4b4e16c945e4eacc2b7cbc38ed3c26824ed5da8a024faca08919aede6ba"
+    },
+    {
+      "frame": 503,
+      "time_seconds": 20.916666666666668,
+      "png_sha256": "8a9853247f082b2ccb0721c33e29e4c125e4bb4a41f0a61ff84c3b59449d90df"
+    },
+    {
+      "frame": 504,
+      "time_seconds": 20.958333333333332,
+      "png_sha256": "e0cee1367a88b7ed45cd0ee9c399004881eb7b440bee157e3c20bc540593e975"
+    },
+    {
+      "frame": 505,
+      "time_seconds": 21.0,
+      "png_sha256": "c31df2245a7fb5f5de3da1a5c9f84e2121725c1a22ae121fe61856d46be000a8"
+    },
+    {
+      "frame": 506,
+      "time_seconds": 21.041666666666668,
+      "png_sha256": "56ebede83e030d2306d54d2645ea8cd8c5798eac92da9b458d258a64424749a5"
+    }
+  ],
+  "publishable": false,
+  "full_story_editorial_pass": false,
+  "subjective_audio_listening_claimed": false,
+  "continuous_real_time_watching_claimed": false,
+  "limits": "Every actual encoded frame439\u2013506, covering the preceding cut and entire drawing/payoff shot. These images do not provide real-time motion or subjective soundtrack review.",
+  "reviewed_at_utc": "2026-11-17T20:26:07.445926+00:00",
+  "reviewed_by": "Project production assistant",
+  "actual_frames_inspected": 68,
+  "actual_findings": [
+    "The cut439/440 preserves the marker with the teal colleague; the turn and drawing action remain visible through506.",
+    "The black branch grows from the blue parent and the new node closes by498, remaining through506. The board heading is partly cropped.",
+    "Actual full-size encoded frame 469 shows a small visible gap between the black branch endpoint and marker nib. Earlier sparse samples did not establish contact at every drawing moment.",
+    "Existing automatic Bezier bevel-factor reveal and nib linear/angle trajectory use different endpoint mappings. The current preview remains held; a source-pinned drawing-only correction is being rendered.",
+    "These are every-frame visual observations, not real-time playback, subjective listening or a final editorial release."
+  ],
+  "confirmed_contact_gap_frame": 469,
+  "correction_source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+  "correction_native_frame_range": [
+    453,
+    506
+  ],
+  "correction_native_expected_frames": 54,
+  "correction_status": "two_corrected_native_contact_samples_inspected_full_tail_pending",
+  "native_correction_review": {
+    "samples": [
+      {
+        "frame": 469,
+        "source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+        "raw_png_sha256": "6f0ccd2453ca6c1ee2ff0a592950224e7806d0f73d090e8e1ed41684495fdaa4",
+        "denoised_png_sha256": "ac4c46e0eb03ddff4a66f6198441acffe685d41bc2f46b852dc59505dac4db63",
+        "captioned_png_sha256": "4dc50f935909267c81c8d3a6c50da92472dee1b257d88c0cb268219d405fd6ef",
+        "development_still_path": "examples/development/team-ownership/07-ink-contact-frame469.png"
+      },
+      {
+        "frame": 487,
+        "source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+        "raw_png_sha256": "40c2ae0425c99ac2b90c0813a5c7f8e2afdfc07eea111552f0c673c2e2f46b21",
+        "denoised_png_sha256": "8163e21b1ecff4b4e75c8b4f96e88d50d7c0d616c76b3e3cb76cc715caccbaa7",
+        "captioned_png_sha256": "69a21ee78d51e6bb60e967b05ee69201d7261d13c2043cac92fc5a34b3ec6a26",
+        "development_still_path": "examples/development/team-ownership/08-ink-contact-frame487.png"
+      }
+    ],
+    "status": "two_actual_corrected_native_contact_frames_inspected",
+    "publishable": false,
+    "reviewed_at_utc": "2026-11-17T20:28:36.679972+00:00",
+    "actual_findings": [
+      "Corrected native469 now connects the straight black branch directly to the marker nib, removing the visible v1 gap.",
+      "Corrected native487 connects the partial node arc to the nib. Caption placement and existing character/board framing remain readable.",
+      "Two actual native stills, not complete drawing motion or encoded v2 review. Full54-frame corrected tail and new assembly remain."
+    ],
+    "native_evaluated_endpoint_assertion_passed": true,
+    "subjective_audio_listening_claimed": false
+  }
+}

@@ -1,9 +1,9 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "prepared_at_utc": "2026-11-17T14:19:41.324629+00:00",
-  "status": "reviewed_original_opening_retained_revised_postquote_render_in_progress",
+  "status": "existing_v1_preview_held_for_targeted_ink_contact_revision",
   "publishable": false,
-  "finished_movie_exists": false,
+  "finished_movie_exists": true,
   "frame_rate": 24,
   "canvas": [
     720,
@@ -32,10 +32,18 @@
     {
       "kind": "original_scene",
       "scene_frame_start": 341,
-      "scene_frame_end": 506,
+      "scene_frame_end": 452,
       "final_frame_start": 341,
-      "final_frame_end": 506,
+      "final_frame_end": 452,
       "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42"
+    },
+    {
+      "kind": "original_scene",
+      "scene_frame_start": 453,
+      "scene_frame_end": 506,
+      "final_frame_start": 453,
+      "final_frame_end": 506,
+      "source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323"
     }
   ],
   "historical_picture": {
@@ -84,7 +92,7 @@
     "timing_limit": "Picture quantization is within one delivery frame; verify actual final sync rather than inferring it from counts."
   },
   "captions_and_context": {
-    "status": "prepared_and_sampled_preflight_inspected_not_applied_to_full_movie",
+    "status": "same_reviewed_captions_already_applied_to_v1_preserved_for_geometry_fix",
     "timing_source": "Actual word timestamps in audio-preflight.json",
     "readability": "Readable portrait type, short coherent groups, at most two main caption lines; inspect actual completed shots before final placement.",
     "keep_clear": [
@@ -107,25 +115,43 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "remaining_checks": [
-    "All 343 selected native frames complete: 177 reviewed opening frames from source 94b5afc8a78a and 166 revised post-quote frames from source 974379894ff6, with matching individual raw/output provenance.",
-    "Apply reviewed denoising without resizing or filtering historical footage by this original-scene utility.",
-    "Assemble true full movie with historical crop, actual timed captions and context/notices.",
-    "Inspect actual finished frames/cuts, motion, quote sync and editorial payoff; technical checks alone do not qualify quality.",
-    "Verify stereoAAC, audio essence or new final ASR/levels, complete decode and encoded headroom.",
-    "Verify licensed descriptions, actual audience, public media bytes and queue/hash deduplication before any new service draft."
+    "Render and inspect corrected native contact samples469/487, then complete only54new drawing frames453\u2013506 in the frozen separate cache.",
+    "Denoise new original frames with the reviewed utility and matching source/raw/output receipts; preserve177opening and112postquote frames.",
+    "Assemble a new506frame v2 candidate with all three pinned source caches and unchanged historical picture, captions and AAC soundtrack; verify decode/levels/essence.",
+    "Inspect actual corrected marker/ink contact, drawing/payoff, cuts and remaining motion/pacing/soundtrack limits; no listening claim from ASR or measurements.",
+    "Verify final metadata/credits/audience/publicbytes and actual queue/hash/destination before any publisher draft; existing two male drafts remain unchanged."
   ],
   "assembler": "scripts/assemble_team_story.py",
-  "assembled_movie_exists": false,
+  "assembled_movie_exists": true,
   "base_scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
   "original_scene_patch": {
     "first_frame": 341,
     "last_frame": 506,
     "expected_frames": 166,
-    "source": "assets/stories/team-ownership/scene.py",
+    "source": "assets/stories/team-ownership/revisions/scene-974379894ff6.py",
     "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
     "reason": "Close and round finger/thumb ends exposed in native close-up; widen return camera53mm to49mm. Full post-quote shot sequence is revised; opening, historical insert, story timing and audio/captions retained.",
-    "render_status": "native_review_samples_inspected_full_render_in_progress",
+    "render_status": "all166frames_complete_retained341_through452",
     "qa_record": "assets/stories/team-ownership/return-shot-preflight.json",
-    "assembly_requirement": "Use only this revised source for original frames341\u2013506; reject the superseded baseline post-quote frames even if complete."
+    "assembly_requirement": "Use retained974379894ff6 source for341\u2013452, with the separately pinned drawing override453\u2013506 taking precedence. Never fall back to the old drawing frames."
+  },
+  "current_target_movie_exists": false,
+  "latest_geometry_revision_at_utc": "2026-11-17T20:24:16.712584+00:00",
+  "original_scene_drawing_patch": {
+    "first_frame": 453,
+    "last_frame": 506,
+    "expected_frames": 54,
+    "source": "assets/stories/team-ownership/scene.py",
+    "source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+    "reason": "Visible nib/ink gap in actual encoded frame469: replace Bezier bevel-factor reveal with explicitly baked polyline endpoint from the same linear/angle drawing phase; evaluate nib/contact coincidence before native renders.",
+    "qa_record": "assets/stories/team-ownership/drawing-frame-review.json",
+    "render_status": "two_native_contact_review_frames_requested_before_full_tail",
+    "assembly_requirement": "Require --drawing-render-root with exact54frame manifest, source hash and raw/output receipts; no fallback to existing complete old tail."
+  },
+  "existing_preview": {
+    "sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+    "qa_record": "assets/stories/team-ownership/full-movie-review.json",
+    "status": "held_for_observed_ink_contact_defect",
+    "publishable": false
   }
 }

@@ -1,5 +1,7 @@
 # Hand the Marker Back — complete development preview
 
+Current status: this v1 preview is held for a visible marker/ink endpoint gap discovered during the later every-frame drawing review. A [targeted 54-frame contact correction](2026-11-17-team-ownership-ink-contact-revision.md) is in progress. The earlier technical results and sampled findings below remain evidence for the existing v1 file; they are not an editorial release or proof that the new corrected movie exists.
+
 The [complete 21.08-second encoded preview](../../examples/development/team-ownership/06-full-story-preview.mp4) now exists. This is the same original teamwork concept, not another idea, a new reference discovery or a published Short. It remains outside the ready/posting queue pending actual real-time motion/pacing and soundtrack review and a final editorial release decision. No service draft, schedule or publication was created.
 
 The actual MP4 has 506 frames at 24 fps, native 720×1280 original animation, stereo 48 kHz AAC and complete decode. The guarded assembler verified 177 retained opening frames from source 94b5afc8a78a and 166 revised post-quote frames from 974379894ff6, each with matching raw/output/denoiser receipts. The 163 historical frames use the documented 2.222× portrait upscale and frame selection from 59.94 to 24 fps; no optical interpolation or speed change. The source-specific interview, actual quoted statement, original male commentary, music and effects are unchanged.

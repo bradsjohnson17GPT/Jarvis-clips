@@ -2,7 +2,7 @@
   "id": "jocko-give-the-team-the-plan",
   "title": "Hand the Marker Back | Jocko Willink on Leadership",
   "metadata_status": "provisional_until_finished_movie_review",
-  "status": "full_encoded_development_preview_release_pending",
+  "status": "material_ink_contact_revision_in_progress",
   "prepared_on": "2026-11-17",
   "publishable": false,
   "finished_video_exists": true,
@@ -40,14 +40,21 @@
     "final_acting_and_temporal_review_passed": false,
     "qa_record": "assets/stories/team-ownership/scene-preview-qa.json",
     "opening_preflight": "assets/stories/team-ownership/opening-preflight.json",
-    "postquote_source": "assets/stories/team-ownership/scene.py",
+    "postquote_source": "assets/stories/team-ownership/revisions/scene-974379894ff6.py",
     "postquote_source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
     "postquote_frames": [
       341,
       506
     ],
     "return_shot_preflight": "assets/stories/team-ownership/return-shot-preflight.json",
-    "full_movie_review": "assets/stories/team-ownership/full-movie-review.json"
+    "full_movie_review": "assets/stories/team-ownership/full-movie-review.json",
+    "drawing_revision_source": "assets/stories/team-ownership/scene.py",
+    "drawing_revision_source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+    "drawing_revision_frames": [
+      453,
+      506
+    ],
+    "complete_current_drawing_revision_rendered": false
   },
   "music": {
     "title": "Ascension",
@@ -101,7 +108,7 @@
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
   "research_limit": "Existing dated motivational-interest evidence and completed structure analyses support development only. No current trend, ranking, format winner or performance guarantee is claimed.",
   "do_not_duplicate_preparation": true,
-  "release_requirement": "The full 506-frame encoded development preview now exists. Review actual real-time motion/pacing and soundtrack, record a final editorial release decision, then verify immutable hosted bytes and actual queue/clip/hash deduplication before considering a service draft under the connector workflow. No ready entry, service draft, schedule or publication exists.",
+  "release_requirement": "Existing complete v1 preview is held for a visible marker/ink gap. Preserve its evidence and existing two direct drafts. Complete only 54 new drawing frames, then use three pinned caches with the unchanged audio/picture/captions, inspect actual v2 output and record release decision before a ready entry or publisher draft.",
   "full_encoded_preview_completed_at_utc": "2026-11-17T19:53:10.098614+00:00",
   "full_story_editorial_pass": false,
   "public_host_bytes_verified": true,
@@ -129,5 +136,8 @@
     "youtube_publication_created": false,
     "frame_conversion_method": "Not independently verified; Descript exported30fps from the24fps source. Clean source master is preserved."
   },
-  "preview_url": "https://share.descript.com/view/8nntGfJP6hJ"
+  "preview_url": "https://share.descript.com/view/8nntGfJP6hJ",
+  "current_target_finished_video_exists": false,
+  "current_drawing_revision_qa": "assets/stories/team-ownership/drawing-frame-review.json",
+  "existing_preview_status": "held_for_observed_marker_ink_gap"
 }

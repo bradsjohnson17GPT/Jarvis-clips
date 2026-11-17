@@ -1,6 +1,6 @@
 {
   "id": "jocko-give-the-team-the-plan",
-  "status": "source_reviewed_complete_encoded_preview_sampled_release_pending",
+  "status": "sources_unchanged_v1_preview_held_for_geometry_contact_fix",
   "reviewed_by": "Project production assistant",
   "selected_interval_review_date": "2026-11-17",
   "publishable": false,
@@ -67,13 +67,19 @@
     "representation": "Identified as Illustration. The fictional colleagues and their actions are not events attributed to Jocko Willink or the channel owner.",
     "review_record": "assets/stories/team-ownership/scene-preview-qa.json",
     "complete_native_movie_inspected": false,
-    "postquote_revision_source": "assets/stories/team-ownership/scene.py",
+    "postquote_revision_source": "assets/stories/team-ownership/revisions/scene-974379894ff6.py",
     "postquote_revision_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
     "postquote_revision_frames": [
       341,
       506
     ],
-    "complete_native_movie_exists": true
+    "complete_native_movie_exists": true,
+    "drawing_revision_source": "assets/stories/team-ownership/scene.py",
+    "drawing_revision_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+    "drawing_revision_frames": [
+      453,
+      506
+    ]
   },
   "commentary": {
     "voice_config": "config/motivational-voice.json",
@@ -102,7 +108,8 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "effects": "Original synthesized marker-stroke and marker-cap/contact sounds; no unreviewed stock audio.",
-  "final_movie_hash": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+  "final_movie_hash": null,
   "final_editorial_qa": "assets/stories/team-ownership/full-movie-review.json",
-  "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md"
+  "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
+  "held_preview_hash": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3"
 }

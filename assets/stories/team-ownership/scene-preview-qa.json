@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "reviewed_at_utc": "2026-11-17T13:37:40.794152+00:00",
-  "status": "complete_encoded_preview_sampled_final_editorial_release_pending",
+  "status": "v1_complete_preview_held_targeted_ink_contact_revision_rendering",
   "publishable": false,
   "scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
   "scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
@@ -30,9 +30,9 @@
     "23 existing renderer tests passed after final source changes."
   ],
   "unresolved_editorial_findings": [
-    "The complete encoded film exists and51 actual encoded samples cover every cut and drawing payoff. Actual real-time pacing, temporal motion and subjective soundtrack review remain.",
-    "Opening/return setup and reaction include holds; leader partly blocks board/marker during crossing, supporting teammate is cropped, and drawing heading is partly cropped. Complete-film pacing/impact must be judged before release.",
-    "No final editorial release, ready entry, service draft, schedule or publication has been created."
+    "Actual encoded frame 469 exposes a nib/ink gap. Corrected54-frame drawing tail must be natively rendered, inspected and assembled before release.",
+    "Original scene holds/crops and real-time motion/pacing/soundtrack limits remain; audio input is unsupported in this session and no listening is claimed.",
+    "Existing two direct male drafts remain separate and unchanged; no new ready entry, publisher draft, schedule or publication."
   ],
   "next_material_change": "Complete the currently active source-frozen native frame render without starting a duplicate, then assemble/inspect the real final picture, source excerpt, captions and soundtrack. Do not count this motion test as a finished Short.",
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
@@ -108,7 +108,7 @@
   "sampled_caption_preflights_inspected": true,
   "native_return_sample": "assets/stories/team-ownership/return-shot-preflight.json",
   "current_finishing_revision": {
-    "source": "assets/stories/team-ownership/scene.py",
+    "source": "assets/stories/team-ownership/revisions/scene-974379894ff6.py",
     "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
     "frames": [
       341,
@@ -158,5 +158,22 @@
   "latest_native_review_at_utc": "2026-11-17T19:04:06.906909+00:00",
   "handoff_frame_review": "assets/stories/team-ownership/handoff-frame-review.json",
   "full_movie_review": "assets/stories/team-ownership/full-movie-review.json",
-  "full_movie_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3"
+  "full_movie_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+  "current_drawing_revision": {
+    "source": "assets/stories/team-ownership/scene.py",
+    "source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+    "first_frame": 453,
+    "last_frame": 506,
+    "expected_frames": 54,
+    "status": "two_native_contact_samples_inspected_remaining_tail_pending",
+    "qa": "assets/stories/team-ownership/drawing-frame-review.json",
+    "actual_corrected_native_samples_inspected": 2,
+    "existing_tests_passed": 31,
+    "full_frame_sequence_rendered": false,
+    "editorial_pass": false,
+    "native_sample_frames": [
+      469,
+      487
+    ]
+  }
 }

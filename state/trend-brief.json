@@ -250,7 +250,7 @@
     },
     {
       "id": "jocko-give-the-team-the-plan",
-      "status": "full_encoded_development_preview_release_pending",
+      "status": "material_ink_contact_revision_in_progress",
       "topic": "Giving a team agency over its plan",
       "content_type": "motivational",
       "reference_use": "Existing reviewed government interview plus planned original fictional room and characters; no private-podcast footage or cloned voice.",
@@ -259,7 +259,7 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10\u2013285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "Complete 21.083333 second, 506-frame encoded preview now exists. All 343 selected original frames have verified source-bound denoise receipts.51 actual encoded samples cover all cuts and the completed new-node payoff. Actual real-time pacing/motion and subjective soundtrack review remain; no ready entry or service draft.",
+      "production_state": "Same full v1 preview held after all 68 encoded drawing frames exposed a marker/ink gap at469. Only 54 drawing frames453\u2013506 are being corrected;289 original and163 historical frames, script/audio/captions retained. Native correction samples pending; no ready entry or new publisher draft.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
@@ -274,7 +274,7 @@
       "scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
       "scene_preview_qa": "assets/stories/team-ownership/scene-preview-qa.json",
       "actual_development_stills_inspected": 6,
-      "full_frame_sequence_rendered": true,
+      "full_frame_sequence_rendered": false,
       "rendered_video_kind": "complete_encoded_development_preview",
       "new_finished_short": false,
       "new_development_motion_test_rendered": true,
@@ -296,7 +296,7 @@
       "metadata_preparation": "docs/production/2026-11-17-team-ownership-metadata.md",
       "metadata_status": "provisional_until_finished_movie_review",
       "opening_preflight": "assets/stories/team-ownership/opening-preflight.json",
-      "postquote_revision_source": "assets/stories/team-ownership/scene.py",
+      "postquote_revision_source": "assets/stories/team-ownership/revisions/scene-974379894ff6.py",
       "postquote_revision_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
       "postquote_revision_frames": [
         341,
@@ -325,10 +325,18 @@
       "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/e66efec08ce29ada0c2b0c24d834f538a90dbe47/examples/development/team-ownership/06-full-story-preview.mp4",
       "public_host_bytes_verified": true,
       "preview_url": "https://share.descript.com/view/8nntGfJP6hJ",
-      "descript_review_export_checked": true
+      "descript_review_export_checked": true,
+      "drawing_revision_source": "assets/stories/team-ownership/scene.py",
+      "drawing_revision_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
+      "drawing_revision_frames": [
+        453,
+        506
+      ],
+      "drawing_frame_review": "assets/stories/team-ownership/drawing-frame-review.json",
+      "current_target_movie_exists": false
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T19:53:10.098614+00:00",
+  "production_reconciled_at_utc": "2026-11-17T20:26:07.445926+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",

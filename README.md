@@ -14,7 +14,7 @@ Two further motivational edits are finished and revised to generic adult male co
 
 An [Apollo 13 development preview](examples/development/apollo13-the-part-they-couldnt-send-v2.mp4) now shows clearer improvised materials and the ground-to-crew handoff. It remains outside the posting queue while production prioritizes stronger people/action stories. [Refinement record](docs/production/2026-11-17-apollo13-refinement.md).
 
-A [complete teamwork development preview](examples/development/team-ownership/06-full-story-preview.mp4) now combines the original marker-handoff animation with a different reviewed Jocko statement and the saved male narrator. It remains outside the posting queue while real-time pacing, motion and soundtrack review and the final editorial release decision are outstanding. [Actual encoded review and limits](docs/production/2026-11-17-team-ownership-full-preview.md).
+A [complete teamwork development preview](examples/development/team-ownership/06-full-story-preview.mp4) combines the original marker-handoff animation with a different reviewed Jocko statement and the saved male narrator. It is held after detailed frame review exposed a marker/ink contact gap; a [targeted drawing correction](docs/production/2026-11-17-team-ownership-ink-contact-revision.md) is rendering while the opening, interview and handoff are retained. It remains outside the posting queue, with real-time motion/pacing and soundtrack review and final editorial release outstanding. [Existing encoded evidence and limits](docs/production/2026-11-17-team-ownership-full-preview.md).
 
 ## Quality and selection
 

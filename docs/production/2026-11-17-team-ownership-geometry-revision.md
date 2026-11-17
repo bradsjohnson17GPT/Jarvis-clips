@@ -16,6 +16,7 @@ After the revised native frames actually finish, denoise them with the reviewed 
 python scripts/assemble_team_story.py \
   --render-root /path/to/original-opening-cache \
   --patch-render-root /path/to/revised-postquote-cache \
+  --drawing-render-root /path/to/corrected-drawing-cache \
   --picture-input /path/to/reviewed-historical-picture.mp4 \
   --audio /path/to/existing-verified-mix.m4a \
   --work /path/to/new-private-assembly \
@@ -31,3 +32,5 @@ Six additional actual native poses were rendered and denoised in the same frozen
 The subsequent [frame-by-frame handoff review](../../assets/stories/team-ownership/handoff-frame-review.json) covers every native frame419–441, including the complete close-up 420–439 and both adjacent cuts. The marker stays visible through shared contact; the leader's hand withdraws across 434–439 while the teal-sleeved teammate retains it. The cut at 440 preserves that ownership. Closed rounded fingertips and readable captions remain consistent across these 23 actual frames. This resolves the earlier unreviewed withdrawal finding within this shot. It is not real-time playback, subjective audio listening or a full-story quality pass: the complete drawing motion, pacing, source transition and encoded final movie remain to inspect.
 
 The existing source-frozen render continues in its same cache. A separate private local finishing process waits for that render's successful 166-frame completion, validates/denoises its outputs, and uses the existing guarded assembler to create a private 506-frame candidate with the unchanged verified AAC soundtrack. It never starts another render, changes a posting queue, creates a service draft or publishes. Its output remains explicitly pending actual editorial review; inspect its private status before starting overlapping finishing work.
+
+That v1 render and assembly subsequently completed. A later every-frame review found a separate nib/ink mapping gap during the drawing action. The [current targeted contact revision](2026-11-17-team-ownership-ink-contact-revision.md) now overrides only frames453–506 with a third pinned source/cache. Preserve the completed opening and return/handoff; do not restart either old renderer or assemble from the superseded drawing tail.

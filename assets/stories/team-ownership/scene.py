@@ -69,6 +69,22 @@ def line(name, pts, radius, mat, parent=None):
     return o
 
 
+def animated_ink(name, points, radius, mat):
+    """Use explicit vertices so the visible endpoint follows the physical nib."""
+    data = bpy.data.curves.new(name, 'CURVE')
+    data.dimensions = '3D'
+    data.bevel_depth, data.bevel_resolution = radius, 3
+    data.use_fill_caps = True
+    spline = data.splines.new('POLY')
+    spline.points.add(len(points)-1)
+    for point, co in zip(spline.points, points):
+        point.co = (*co, 1)
+    obj = bpy.data.objects.new(name, data)
+    bpy.context.collection.objects.link(obj)
+    data.materials.append(mat)
+    return obj
+
+
 def rod(name, a, b, radius, mat):
     a, b = Vector(a), Vector(b)
     bpy.ops.mesh.primitive_cylinder_add(vertices=20, radius=radius, depth=1)
@@ -273,9 +289,9 @@ def main():
     line('Second idea connection', [(.23,.956,1.94),(.39,.956,1.77),(.48,.956,1.64)], .0035, blue)
     cross_a=line('First rejecting stroke', [(-.44,.954,2.08),(-.10,.954,1.79),(.34,.954,1.42)], .005, INK)
     cross_b=line('Second rejecting stroke', [(.36,.954,2.07),(-.04,.954,1.73),(-.43,.954,1.41)], .005, INK)
-    new_path=line('A new team branch', [(-.37,.954,1.90),(-.42,.954,1.50)], .004, INK)
+    new_path=animated_ink('A new team branch', [(-.37,.954,1.90),(-.42,.954,1.50)], .004, INK)
     node_points=[(-.42+.10*math.cos(math.pi/2-i*2*math.pi/24),.954,1.41+.09*math.sin(math.pi/2-i*2*math.pi/24)) for i in range(25)]
-    new_node=line('The teammates added idea',node_points,.004,INK)
+    new_node=animated_ink('The teammates added idea',node_points,.004,INK)
     # Background context: a low table, plants, window mullions and original wall art.
     box('Side credenza', (-1.25,1.30,.48), (.80,.50,.80), wood, .055)
     pot=material('Terracotta', (.39,.15,.07))
@@ -374,9 +390,23 @@ def main():
         move_rod(marker,mstart,mend,f)
         marker_tip.location=mend
         key(marker_tip,'location',f)
-        for stroke,start,end in [(cross_a,2.90,3.80),(cross_b,4.05,4.85),(new_path,18.8,19.9),(new_node,19.9,20.7)]:
+        for stroke,start,end in [(cross_a,2.90,3.80),(cross_b,4.05,4.85)]:
             stroke.data.bevel_factor_end=ease(start,end,t)
             stroke.data.keyframe_insert(data_path='bevel_factor_end',frame=f)
+        # Bezier bevel-factor mapping did not track the nib's linear/angle path.
+        # Bake the actual visible polyline endpoint from the same drawing phase.
+        branch_end=smooth((-.37,.954,1.90),(-.42,.954,1.50),ease(18.8,19.9,t))
+        end_point=new_path.data.splines[0].points[1]
+        end_point.co=(*branch_end,1)
+        end_point.keyframe_insert(data_path='co',frame=f)
+        node_phase=ease(19.9,20.7,t)
+        for i,point in enumerate(new_node.data.splines[0].points):
+            angle=math.pi/2-min(i/24,node_phase)*2*math.pi
+            point.co=(-.42+.10*math.cos(angle),.954,1.41+.09*math.sin(angle),1)
+            point.keyframe_insert(data_path='co',frame=f)
+        for stroke,start in [(new_path,18.8),(new_node,19.9)]:
+            stroke.hide_render=t<start
+            key(stroke,'hide_render',f)
         # Clear the crossed-out draft during the historical interview cut.
         for stroke in [cross_a,cross_b]:
             stroke.hide_render=t>=14.1
@@ -438,6 +468,11 @@ def main():
             dest.parent.mkdir(exist_ok=True,parents=True)
             scene.frame_set(f)
             scene.camera=next(cam for start,cam in reversed(list(zip(starts,cams))) if t>=start)
+            if t>=18.8:
+                active_ink=new_path if t<19.9 else new_node
+                endpoint=Vector(active_ink.data.splines[0].points[-1].co[:3])
+                if (marker_tip.location-endpoint).length>1e-5:
+                    raise ValueError('Evaluated drawing nib and visible ink endpoint diverged.')
             scene.render.filepath=str(dest)
             bpy.ops.render.render(write_still=True)
     (args.output/'scene-record.json').write_text(json.dumps({'status':'original_development_scene_not_final_video','fps':FPS,'timeline_seconds':DURATION,'delivery_resolution':[720,1280],'actual_preview_times':[t for t,_ in samples] if args.preview else [],'external_meshes_textures_or_likenesses':False,'audio_record':'assets/stories/team-ownership/audio-preflight.json','publishable':False},indent=2)+'\n')

@@ -16,8 +16,19 @@ def digest(path):
 
 
 def original_frame_source(number, plan, base_manifest, base_root,
-                          patch_manifest=None, patch_root=None):
+                          patch_manifest=None, patch_root=None,
+                          drawing_manifest=None, drawing_root=None):
     """Bind each shot to its approved source; never fall back to superseded art."""
+    drawing = plan.get('original_scene_drawing_patch')
+    if drawing and drawing['first_frame'] <= number <= drawing['last_frame']:
+        if drawing_manifest is None or drawing_root is None:
+            raise ValueError('The ink-contact revision requires its separate verified drawing cache.')
+        expected = list(range(drawing['first_frame'], drawing['last_frame']+1))
+        if (drawing_manifest['source_sha256'] != drawing['source_sha256'] or
+                drawing_manifest['frame_numbers'] != expected or
+                drawing_manifest['expected_frames'] != len(expected)):
+            raise ValueError('The drawing cache does not match its approved source and frame range.')
+        return Path(drawing_root), drawing['source_sha256']
     patch = plan.get('original_scene_patch')
     if patch and patch['first_frame'] <= number <= patch['last_frame']:
         if patch_manifest is None or patch_root is None:
@@ -120,6 +131,8 @@ def main():
     parser.add_argument('--render-root', required=True, type=Path)
     parser.add_argument('--patch-render-root', type=Path,
                         help='Required for assembly when the finishing plan pins revised original shots.')
+    parser.add_argument('--drawing-render-root', type=Path,
+                        help='Required when the finishing plan pins a later ink-contact correction.')
     parser.add_argument('--picture-input', required=True, type=Path)
     parser.add_argument('--audio', required=True, type=Path)
     parser.add_argument('--work', required=True, type=Path)
@@ -135,6 +148,8 @@ def main():
     manifest = json.loads((args.render_root/'render-manifest.json').read_text())
     patch_manifest = (json.loads((args.patch_render_root/'render-manifest.json').read_text())
                       if args.patch_render_root else None)
+    drawing_manifest = (json.loads((args.drawing_render_root/'render-manifest.json').read_text())
+                        if args.drawing_render_root else None)
     if manifest['source_sha256'] != plan['frozen_scene_sha256']:
         raise ValueError('Render cache is from a different scene revision.')
     if digest(args.picture_input) != plan['historical_picture']['prepared_picture_sha256']:
@@ -175,7 +190,8 @@ def main():
         source_counts = {}
         for frame in manifest['frame_numbers']:
             root, expected_source = original_frame_source(
-                frame, plan, manifest, args.render_root, patch_manifest, args.patch_render_root)
+                frame, plan, manifest, args.render_root, patch_manifest, args.patch_render_root,
+                drawing_manifest, args.drawing_render_root)
             src = root/'frames'/f'{frame:05d}.png'
             clean = root/'denoised'/src.name
             receipt = root/'denoised'/f'{frame:05d}.json'

@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "prepared_at_utc": "2026-11-17T19:51:25.819266+00:00",
-  "status": "complete_encoded_development_preview_visually_sampled_release_pending",
+  "status": "v1_encoded_preview_held_for_visible_marker_ink_gap",
   "publishable": false,
   "output_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
   "output_bytes": 3762069,
@@ -340,8 +340,9 @@
     "Opening setup and disappointed reaction include substantial holds; acting is restrained. These 51 extracted frames and the prior 23-frame handoff review do not establish real-time pacing, temporal smoothness or subjective audio quality."
   ],
   "release_requirements_remaining": [
-    "Actual real-time motion/pacing and subjective soundtrack review; no such listening or continuous watching is claimed.",
-    "Final editorial release decision before any ready-candidate entry, publisher draft or scheduling."
+    "Correct the visible marker/ink endpoint gap, render/inspect only 54 new source-pinned drawing frames and assemble a new three-cache v2 candidate.",
+    "Review actual new encoded contact/payoff/cuts and retain honest real-time motion/pacing/soundtrack limitations.",
+    "Final editorial release decision before any ready entry, publisher draft or scheduling."
   ],
   "audience_assessment": {
     "intended_audience": "General teen/adult workplace leadership discussion.",
@@ -376,5 +377,10 @@
     "youtube_publication_created": false,
     "frame_conversion_method": "Not independently verified; Descript exported30fps from the24fps source. Clean source master is preserved."
   },
-  "preview_url": "https://share.descript.com/view/8nntGfJP6hJ"
+  "preview_url": "https://share.descript.com/view/8nntGfJP6hJ",
+  "additional_drawing_frame_review": "assets/stories/team-ownership/drawing-frame-review.json",
+  "additional_actual_drawing_frames_inspected": 68,
+  "confirmed_contact_gap_frame": 469,
+  "all_unique_encoded_frames_visually_inspected": 109,
+  "audio_input_capability_check": "An actual local audio input attempt was omitted because the current model session does not support audio input; no subjective listening occurred."
 }
