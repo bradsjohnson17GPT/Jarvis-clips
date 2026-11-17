@@ -1,0 +1,1 @@
+A short dry-voice preview of the original Downward Beacon story. This is a narrator sample, not a finished video or a publication. It contains original fictional narration synthesized with the reviewed generic Kokoro stock voice in config/natural-voice.json; no music, celebrity imitation or reference audio is included.
