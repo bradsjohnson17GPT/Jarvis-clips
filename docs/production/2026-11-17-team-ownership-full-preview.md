@@ -11,3 +11,17 @@ The X, disappointed reaction, marker ownership change and new-node payoff are re
 These are actual frame samples and a prior frame-by-frame handoff review, not continuous real-time watching or subjective audio listening. ASR, AAC identity, black detection and loudness do not establish compelling delivery, temporal smoothness or final editorial quality. The full preview is now available for that remaining review; do not restart the completed native render or duplicate its assembly.
 
 The intended audience is general teen/adult workplace leadership discussion, based on the full script and actual sampled presentation. A provisional not-made-for-kids setting is recorded, with no setting sent to a publisher. Source and music credits remain in the [story manifest](../../stories/jocko-give-the-team-the-plan.json); the illustration is not attributed as an event from Jocko's life. The two existing Jocko/Goggins upload drafts and all held/published copies are preserved.
+
+## Review copy
+
+The [Descript review copy](https://share.descript.com/view/8nntGfJP6hJ) was imported from the exact verified clean master and exported once. Seven actual exported frame samples show the expected story and source insert; full decode and black detection passed. Its soundtrack waveform correlation with the clean master is 0.999828, with zero measured offset and −0.04 dB RMS change. These are engineering comparisons, not subjective listening. Descript exported 30 fps and stereo 44.1 kHz AAC; its frame-conversion method was not independently verified. The clean original remains 24 fps with the unchanged 48 kHz AAC master. The review export has Descript's watermark, including near the historical notice area. The clean original remains preserved; this platform export is not upload media. No Studio Sound, new narration or creative sound changes were applied in Descript. There is no YouTube publication or new service draft.
+
+Music: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+Source: https://www.scottbuckley.com.au/library/ascension/
+
+License: https://creativecommons.org/licenses/by/4.0/
+
+Changes: Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects.
+
+Historical source: [DVIDS 718744](https://www.dvidshub.net/video/718744/jocko-willink-interview), Alan Brutus / 25th Infantry Division, 2019. The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement. No speaker, company, producer or composer endorsement or partnership is implied.

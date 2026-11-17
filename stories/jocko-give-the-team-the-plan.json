@@ -105,5 +105,29 @@
   "full_encoded_preview_completed_at_utc": "2026-11-17T19:53:10.098614+00:00",
   "full_story_editorial_pass": false,
   "public_host_bytes_verified": true,
-  "public_host_verification_at_utc": "2026-11-17T19:55:19.179542+00:00"
+  "public_host_verification_at_utc": "2026-11-17T19:55:19.179542+00:00",
+  "descript_review_export": {
+    "status": "descript_review_export_picture_and_audio_engineering_checked",
+    "preview_url": "https://share.descript.com/view/8nntGfJP6hJ",
+    "full_decode_passed": true,
+    "black_intervals": [],
+    "actual_sampled_frames_inspected": 7,
+    "audio_waveform_correlation_with_clean_master": 0.9998276760878173,
+    "audio_alignment_seconds": 0.0,
+    "audio_rms_gain_db": -0.04020998628515639,
+    "export_dimensions": [
+      720,
+      1280
+    ],
+    "export_fps": "30/1",
+    "audio_codec": "aac",
+    "audio_channels": 2,
+    "audio_sample_rate": 44100,
+    "watermark": "Descript platform watermark on review export; clean original master preserved.",
+    "local_processing_note": "Local rendering, speech cleanup, captions, music and effects preceded Descript import. No Descript Studio Sound or new synthesis was applied.",
+    "subjective_audio_listening_claimed": false,
+    "youtube_publication_created": false,
+    "frame_conversion_method": "Not independently verified; Descript exported30fps from the24fps source. Clean source master is preserved."
+  },
+  "preview_url": "https://share.descript.com/view/8nntGfJP6hJ"
 }
