@@ -1,0 +1,112 @@
+{
+  "id": "apollo13-the-part-they-couldnt-send",
+  "title": "The Part Apollo 13 Couldn\u2019t Be Sent",
+  "content_type": "motivational",
+  "hook_type": "historical_physical_constraint_and_solution",
+  "status": "script_storyboard_preparation_not_finished_video",
+  "publishable": false,
+  "voice_config": "config/motivational-voice.json",
+  "narration": "NASA needed a part it couldn't send. The Apollo 13 crew had square carbon dioxide filters, but their lifeboat needed a different connection. Engineers on Earth designed an adapter using materials already aboard. The astronauts built it. The carbon dioxide level fell, and those extra filters could finally do their job.",
+  "pacing": {
+    "opening_silence": 0.12,
+    "ending_silence": 0.5
+  },
+  "fact_sources": [
+    {
+      "url": "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/",
+      "reviewed_on": "2026-11-17",
+      "supports": "Command-module square lithium-hydroxide canisters did not fit the lunar-module system; ground team adapted them using onboard materials."
+    },
+    {
+      "url": "https://www.nasa.gov/history/houston-weve-had-a-problem/",
+      "reviewed_on": "2026-11-17",
+      "supports": "Engineering team tested an adapter with replicas of onboard supplies, the crew assembled it, and CO2 levels dropped after installation."
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/SP-350/ch-13-4.html",
+      "reviewed_on": "2026-11-17",
+      "supports": "Primary historical account of ground/crew cooperation and limited onboard materials."
+    }
+  ],
+  "claim_limits": [
+    "Opening is an original summary of the lack of resupply, not a spoken quotation.",
+    "This adapter solved the CO2 compatibility problem, not every Apollo13 crisis.",
+    "No movie dialogue, fake astronaut quote, cloned voice, numeric gauge reading or oxygen-generation claim.",
+    "This is factual editorial history with original explanation, not endorsement or a current emergency-device tutorial."
+  ],
+  "storyboard": [
+    {
+      "beat": "constraint",
+      "visual": "Begin on the real historical adapter detail, then reveal an original labeled schematic of a square canister and a round connection; no tiny landscape over blur.",
+      "speech_anchor": "NASA needed a part"
+    },
+    {
+      "beat": "mismatch",
+      "visual": "Original portrait animation keeps both shapes and the lunar-module label visible; physically show that the connections do not mate.",
+      "speech_anchor": "Apollo 13\u2019s crew"
+    },
+    {
+      "beat": "ground_to_crew",
+      "visual": "Source-specific historical hands/equipment footage is still to be inspected and cleared. No unreviewed documentary/news footage may fill this shot.",
+      "speech_anchor": "Engineers on Earth"
+    },
+    {
+      "beat": "solution",
+      "visual": "An original simplified schematic bridges the two shapes, with a clear airflow path. Label it an explanatory illustration; do not pretend it is archive footage or a literal build guide.",
+      "speech_anchor": "The astronauts built it."
+    },
+    {
+      "beat": "payoff",
+      "visual": "Return to the same actual adapter close-up and its matching schematic now connected; qualitative CO2 removal, no invented numeric gauge or generic slogan.",
+      "speech_anchor": "those extra filters could finally do their job."
+    }
+  ],
+  "visual_source_plan": {
+    "specific_photo": "NASA image as13-62-8929",
+    "source_page": "https://images.nasa.gov/details/as13-62-8929",
+    "additional_motion_footage_status": "not_selected_or_watched",
+    "candidate_film": "https://ntrs.nasa.gov/citations/19950017795",
+    "candidate_film_limit": "NTRS marks government work/public use but explicitly describes national-news footage and other material. No blanket clearance: inspect and choose actual government-origin segments, excluding third-party footage/music and promotional likeness use.",
+    "specific_photo_review": {
+      "identity": "NASA/JSC AS13-62-8929, Apollo13 lunar-module interior with the historical canister adapter",
+      "page": "https://images.nasa.gov/details/as13-62-8929",
+      "asset_api": "https://images-api.nasa.gov/asset/as13-62-8929",
+      "download": "https://images-assets.nasa.gov/image/as13-62-8929/as13-62-8929~orig.jpg",
+      "sha256": "9496d19e11d5e2da3eb35a36529346aa0a1607c4ba93e2e6c963d8c709bffc1f",
+      "source_credit": "NASA",
+      "reviewed_on": "2026-11-17",
+      "actual_image_inspected": true,
+      "observed": "Close-up of the historical canister, plastic bag/tape adapter, hose and cabin hardware. No identifiable face or prominent NASA logo in the inspected photograph. No third-party copyright notice identified in the exact catalog metadata.",
+      "use_basis": "Source-specific factual editorial illustration from NASA government archive, under its current imagery/media guidelines; acknowledge NASA as the source, no implied review/endorsement, no promotional personality use.",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "reviewed_component_only": true,
+      "does_not_clear_other_film_segments": true
+    }
+  },
+  "audio_plan": {
+    "narrator": "generic adult male Kokoro am_michael",
+    "source_audio_used": false,
+    "music_registry": "config/licensed-music.json",
+    "selected_music": null,
+    "effects": "Original quiet connection/transition sounds after actual visual assembly, not alarms that imply an authentic archived event."
+  },
+  "audience": {
+    "made_for_kids": false,
+    "basis": "General teen/adult factual editorial discussion of teamwork/resourcefulness; not child-directed."
+  },
+  "research_basis": "docs/trends/2026-11-16-motivation-format-evidence.md",
+  "format_evidence_limit": "One future concept in the existing small motivational test. No verified current Shorts ranking, mature channel winner, promised views or publication.",
+  "production_evidence": {
+    "script_prepared": true,
+    "finished_video": false,
+    "narration_preflight": true,
+    "publication": null,
+    "narration_voice": "am_michael",
+    "narration_duration_seconds": 24.854666666666667,
+    "narration_sha256": "8b02acaa8de047f54a5346090cec5fd60356515722a397f5efeee65d2e006054",
+    "narration_word_timing_verified": true,
+    "narration_files_private": "work/preproduction/apollo13-the-part-they-couldnt-send/audio-final/",
+    "narration_limit": "Script content and timing verified by actual ASR; no claim of subjective listening or final mixed-video quality."
+  },
+  "prepared_at_utc": "2026-11-17T09:20:38.281307+00:00"
+}

@@ -3,7 +3,7 @@
   "research_date": "2026-11-16",
   "status": "quality_reset_original_scene_preparation",
   "asset_rights": "Public reference videos are style data only. New original scene assets are reviewed after they exist; outlined sources are not claimed produced or cleared. Licensed streamer reuse still needs source-specific creator/game/audio/access verification.",
-  "production_note": "Quality reset active. Thirty old unpublished posts held as drafts and ten earlier posts confirmed published. Bulk production is suspended; never re-enable the rejected batch. The current pilot is not yet a finished story or a publication.",
+  "production_note": "Quality reset remains active. Twelve project videos are confirmed published, including Downward Beacon and Before the First Step.31Metricoolcopies are held,0automaticpending. Two revised male-narrated Jocko/Goggins direct drafts are ready but unscheduled and await the actual connector-required after-preview reply. Never duplicate these clips or reactivate the rejected batch. Research generation dates remain separate from this production-state reconciliation.",
   "latest_owner_priority": {
     "recorded_on": "2026-11-16",
     "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
@@ -31,7 +31,12 @@
       "docs/trends/2026-11-16-tutorial-analysis.md",
       "docs/trends/2026-11-16-reel-analysis.md"
     ],
-    "quality_policy": "config/quality.json"
+    "quality_policy": "config/quality.json",
+    "preferred_motivational_people": [
+      "Jocko Willink",
+      "David Goggins"
+    ],
+    "motivational_voice_config": "config/motivational-voice.json"
   },
   "latest_produced_clip_ids": [
     "next17-strength-without-spotlight",
@@ -55,7 +60,11 @@
     "next17-pet-premium-stairs",
     "next17-meeting-about-the-meeting",
     "next17-notification-brain-splash",
-    "next17-chess-nap-appeal"
+    "next17-chess-nap-appeal",
+    "downward-beacon",
+    "before-the-first-step",
+    "jocko-turn-a-mistake-into-a-plan",
+    "goggins-practice-the-weak-skill"
   ],
   "historical_discovery": {
     "tool": "vidIQ trending_videos",
@@ -146,7 +155,7 @@
   "candidates": [
     {
       "id": "downward-beacon",
-      "status": "finished_revised_pilot_ready_for_production_review",
+      "status": "published",
       "topic": "Original cinematic fantasy mystery",
       "content_type": "fictional_micro_stories",
       "reference_use": "Structural inspiration only; original world, character, plot, geometry and sound design.",
@@ -154,10 +163,11 @@
       "action": "A paper boat brings an instruction; the courier physically redirects the beacon.",
       "payoff": "The clouds part and a lower town answers with its own lighthouse.",
       "manifest": "stories/downward-beacon.json",
-      "production_state": "Finished 28-second original animation with reviewed natural-voice pipeline, score, effects and actual speech-timed captions. Full decode and final frames reviewed. Scheduling/publication still unconfirmed.",
-      "publishable": true,
+      "production_state": "Already published; see state/queue.json for actual direct publisher evidence and public URL. Do not duplicate.",
+      "publishable": false,
       "do_not_duplicate": true,
-      "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28"
+      "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
+      "public_url": "https://www.youtube.com/watch?v=hAfkI0Tg5R4"
     },
     {
       "id": "quality_counterweight_gate",
@@ -214,6 +224,24 @@
       "publishable": false,
       "trend_claim": false,
       "manifest": "stories/midnight-bell.json"
+    },
+    {
+      "id": "apollo13-the-part-they-couldnt-send",
+      "status": "script_storyboard_and_narration_preparation",
+      "content_type": "motivational",
+      "topic": "Factual historical resourcefulness: Apollo13 CO2-filter adapter",
+      "manifest": "stories/apollo13-the-part-they-couldnt-send.json",
+      "hook": "A spacecraft needs a part that cannot be delivered.",
+      "action": "Ground engineers design a connection using materials already aboard; the crew builds it.",
+      "payoff": "The extra filters work and CO2levels fall.",
+      "source_plan": "One actual NASA adapter photograph reviewed. Additional original explanatory animation and historical motion footage still require assembly/inspection; no blanket mixed-documentary clearance.",
+      "publishable": false,
+      "trend_claim": false,
+      "format_winner_claim": false,
+      "prepared_on": "2026-11-17",
+      "notes": "docs/trends/2026-11-17-apollo13-preparation.md",
+      "do_not_duplicate_preparation": true
     }
-  ]
+  ],
+  "production_reconciled_at_utc": "2026-11-17T09:17:15.944035+00:00"
 }
