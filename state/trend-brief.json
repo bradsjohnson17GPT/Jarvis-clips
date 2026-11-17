@@ -146,7 +146,7 @@
   "candidates": [
     {
       "id": "downward-beacon",
-      "status": "in_production_not_completed",
+      "status": "finished_revised_pilot_ready_for_production_review",
       "topic": "Original cinematic fantasy mystery",
       "content_type": "fictional_micro_stories",
       "reference_use": "Structural inspiration only; original world, character, plot, geometry and sound design.",
@@ -154,9 +154,10 @@
       "action": "A paper boat brings an instruction; the courier physically redirects the beacon.",
       "payoff": "The clouds part and a lower town answers with its own lighthouse.",
       "manifest": "stories/downward-beacon.json",
-      "production_state": "Natural narrator, speech timing and audio/caption preflight completed. Corrected animated picture and full final editorial inspection still required.",
-      "publishable": false,
-      "do_not_duplicate": true
+      "production_state": "Finished28-second original animation with reviewed natural-voice pipeline, score, effects and actual speech-timed captions. Full decode and final frames reviewed. Scheduling/publication still unconfirmed.",
+      "publishable": true,
+      "do_not_duplicate": true,
+      "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28"
     },
     {
       "id": "quality_counterweight_gate",

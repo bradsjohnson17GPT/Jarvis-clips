@@ -1,6 +1,6 @@
 {
   "id": "downward-beacon",
-  "status": "picture_rendering_audio_preflight_passed",
+  "status": "finished_revised_pilot_not_scheduled",
   "title": "The Lighthouse Was Pointing the Wrong Way",
   "content_type": "fictional_micro_stories",
   "hook_type": "impossible_world_question",
@@ -68,7 +68,8 @@
     "timeline_fps": 24,
     "sampled_picture_fps": 12,
     "frame_count_planned": 336,
-    "interpolation": "Only after actual motion inspection, performed separately per shot. Never claim native24."
+    "interpolation": "Only after actual motion inspection, performed separately per shot. Never claim native24.",
+    "actual_sampling": "Hybrid: genuine 24 fps in courier/crank shots; 12 unique fps in other shots. Boat/note use repeated frames; four wide shots use inspected 12-to-24 motion interpolation separately within each shot."
   },
   "quality_progress": {
     "corrected_eight_shot_frames_inspected": true,
@@ -77,7 +78,18 @@
     "lower_town_reveal_corrected": true,
     "script_asr_verified": true,
     "music_effects_caption_preflight_passed": true,
-    "full_video_complete": false,
-    "published": false
+    "full_video_complete": true,
+    "published": false,
+    "encoded_stereo_aac_verified": true,
+    "full_decode_verified": true,
+    "final_captioned_frames_inspected": true,
+    "asr_verified_identical_encoded_soundtrack": true
+  },
+  "media_path": "media/quality/downward-beacon.mp4",
+  "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
+  "qa_path": "media/quality/downward-beacon.qa.json",
+  "audience_review": {
+    "made_for_kids": false,
+    "basis": "General-audience fantasy mystery intended for teens/adults; original young-adult courier, reflective narration and no child-directed educational/nursery presentation. Animation alone does not determine the setting."
   }
 }

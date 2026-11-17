@@ -1,0 +1,25 @@
+{
+  "title": "The Downward Beacon",
+  "picture_sha256": "7b743c2d95bef9da82e50141c2860b5c38dc78e10154f00282d10364befbd445",
+  "duration_seconds": 28,
+  "width": 720,
+  "height": 1280,
+  "delivery_fps": 24,
+  "delivery_frames": 672,
+  "sampling": "Hybrid: genuine 24 fps in courier/crank shots; 12 unique fps in other shots. Boat/note use repeated frames; four wide shots use inspected 12-to-24 motion interpolation separately within each shot.",
+  "source_blend_sha256": "1bb432ae4fe95a566831bf2ed0504c88b469272033c43f7b28c637c6145ddc5a",
+  "unique_native_images": 396,
+  "reused_matching_audit_images": 24,
+  "new_unique_images_for_full_picture_pipeline": 372,
+  "quality_limitations": [
+    "Original stylized block-world development preview; not modern game-engine footage.",
+    "Native 720x1280, no upscale; not native1080.",
+    "Low-sample denoising produces some softness.",
+    "Hybrid sampling, not wholly native24fps; boat/note retain12fps motion cadence.",
+    "Finale framing and modest beacon pulse contrast as recorded above.",
+    "Image-based inspection is explicitly distinguished from full real-time playback."
+  ],
+  "source_files": "assets/stories/downward-beacon/",
+  "final_media": "media/quality/downward-beacon.mp4",
+  "final_media_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28"
+}

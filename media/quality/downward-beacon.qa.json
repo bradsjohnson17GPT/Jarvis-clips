@@ -1,0 +1,205 @@
+{
+  "id": "downward-beacon",
+  "status": "rendered_preview_not_published",
+  "output_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
+  "bytes": 7312826,
+  "duration": 28.0,
+  "width": 720,
+  "height": 1280,
+  "encoded_streams": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "672"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_frames": "1311"
+      }
+    ],
+    "format": {
+      "duration": "28.000000"
+    }
+  },
+  "encoded_loudness": {
+    "input_i": "-16.04",
+    "input_tp": "-2.19",
+    "input_lra": "2.80",
+    "input_thresh": "-26.30",
+    "output_i": "-16.38",
+    "output_tp": "-2.38",
+    "output_lra": "2.40",
+    "output_thresh": "-26.60",
+    "normalization_type": "dynamic",
+    "target_offset": "0.38"
+  },
+  "narration_sha256": "ce5c209d772f3f4a31fde01d3866a4680e19741356d6a2afb14a2a8c8d33a14f",
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "excerpt_start": 122.0,
+    "duration": 28.0,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au"
+  },
+  "caption_groups": [
+    {
+      "start": 0.2,
+      "end": 0.98,
+      "text": "Our town had"
+    },
+    {
+      "start": 0.98,
+      "end": 1.3,
+      "text": "a lighthouse."
+    },
+    {
+      "start": 2.19,
+      "end": 2.55,
+      "text": "But there was"
+    },
+    {
+      "start": 2.55,
+      "end": 3.19,
+      "text": "no ocean."
+    },
+    {
+      "start": 4.41,
+      "end": 4.93,
+      "text": "Every night,"
+    },
+    {
+      "start": 5.17,
+      "end": 5.49,
+      "text": "I lit it"
+    },
+    {
+      "start": 5.49,
+      "end": 5.81,
+      "text": "anyway."
+    },
+    {
+      "start": 7.14,
+      "end": 7.68,
+      "text": "Then a paper"
+    },
+    {
+      "start": 7.68,
+      "end": 8.78,
+      "text": "boat landed beside"
+    },
+    {
+      "start": 8.78,
+      "end": 9.1,
+      "text": "me."
+    },
+    {
+      "start": 10.065,
+      "end": 10.425,
+      "text": "There was a"
+    },
+    {
+      "start": 10.425,
+      "end": 11.165,
+      "text": "message inside."
+    },
+    {
+      "start": 12.54,
+      "end": 13.08,
+      "text": "Turn the beam"
+    },
+    {
+      "start": 13.08,
+      "end": 13.4,
+      "text": "down."
+    },
+    {
+      "start": 13.96,
+      "end": 14.78,
+      "text": "So I did."
+    },
+    {
+      "start": 15.97,
+      "end": 16.99,
+      "text": "The clouds opened."
+    },
+    {
+      "start": 17.9,
+      "end": 19.18,
+      "text": "And far below..."
+    },
+    {
+      "start": 20.015,
+      "end": 20.895,
+      "text": "another lighthouse"
+    },
+    {
+      "start": 20.895,
+      "end": 21.575,
+      "text": "answered."
+    },
+    {
+      "start": 22.995,
+      "end": 23.535,
+      "text": "We weren't alone."
+    },
+    {
+      "start": 24.46,
+      "end": 25.0,
+      "text": "We'd just been"
+    },
+    {
+      "start": 25.0,
+      "end": 25.62,
+      "text": "looking the wrong"
+    },
+    {
+      "start": 25.62,
+      "end": 25.98,
+      "text": "way."
+    }
+  ],
+  "audio_version": "kokoro-narrative-original-effects-licensed-score-v1",
+  "qa": {
+    "complete_decode": true,
+    "caption_timing_basis": "ASR of actual narration master, edited with the same pauses",
+    "editorial_review": "Required separately; technical checks do not prove compelling storytelling or natural delivery."
+  },
+  "audio_intelligibility": {
+    "encoded_aac_sha256": "1b3a84355ca53d2b4c3f9a38c95f1f2bc7ae9d3a382fa1f0701f9b29cd60ad75",
+    "byte_identical_to_asr_verified_preflight": true,
+    "asr_matches_original_story": true,
+    "direct_subjective_listening": "Not established by ASR; evaluate narrator style through the actual preview."
+  },
+  "editorial_review": {
+    "reviewed_at_utc": "2026-11-17T02:33:09.211013+00:00",
+    "status": "accepted_as_one_revised_original_pilot",
+    "observed": [
+      "coherent eight-shot fantasy story with consistent original character",
+      "boat arrival, readable note and mechanical action match narration",
+      "lower town appears before far-below line and beacon brightening supports answer",
+      "actual final captioned frames inspected across all eight shots",
+      "warped character interpolation replaced with real native action frames"
+    ],
+    "limits": [
+      "Original stylized block-world development preview; not modern game-engine footage.",
+      "Native 720x1280, no upscale; not native1080.",
+      "Low-sample denoising produces some softness.",
+      "Hybrid sampling, not wholly native24fps; boat/note retain12fps motion cadence.",
+      "Finale framing and modest beacon pulse contrast as recorded above.",
+      "Image-based inspection is explicitly distinguished from full real-time playback."
+    ],
+    "audio_review_method": "Actual mixed encoded AAC is byte-identical to the full ASR-verified preflight. Complete decode, stereo48kHz AAC, timing and loudness measured. Direct subjective listening is not established by these checks."
+  }
+}
