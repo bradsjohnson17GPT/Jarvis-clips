@@ -1,8 +1,63 @@
 {
-  "generated_at": "2026-11-16T18:52:56.842429+00:00",
+  "generated_at": "2026-11-17T01:20:37.104116+00:00",
   "research_date": "2026-11-16",
-  "status": "provisional_formats_for_original_testing",
-  "discovery": {
+  "status": "quality_reset_original_scene_preparation",
+  "asset_rights": "Public reference videos are style data only. New original scene assets are reviewed after they exist; outlined sources are not claimed produced or cleared. Licensed streamer reuse still needs source-specific creator/game/audio/access verification.",
+  "production_note": "Quality reset active. Thirty old unpublished posts held as drafts and ten earlier posts confirmed published. Bulk production is suspended; never re-enable the rejected batch. The current pilot is not yet a finished story or a publication.",
+  "latest_owner_priority": {
+    "recorded_on": "2026-11-16",
+    "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
+    "topics": [
+      "streamer gaming highlights",
+      "GTA VI launch"
+    ],
+    "analysis_document": "docs/trends/2026-11-16-streamer-reference.md",
+    "source_status": "state/streamer-queue.json",
+    "cleared_current_live_sources": 0,
+    "reuse_reference_assets": false,
+    "motivational_reference_urls": [
+      "https://www.youtube.com/shorts/BsblgcBB17A",
+      "https://www.youtube.com/shorts/AXa7gKstItw",
+      "https://www.youtube.com/shorts/LoLV_JkPkHs"
+    ],
+    "motivation_analysis": "docs/trends/2026-11-16-motivational-references.md",
+    "comedy_required": false,
+    "natural_voice_required": true,
+    "quality_reference_urls": [
+      "https://www.youtube.com/watch?v=VVU3GLgk-R0",
+      "https://www.instagram.com/reel/Dfz8bmkMIiu/"
+    ],
+    "completed_analyses": [
+      "docs/trends/2026-11-16-tutorial-analysis.md",
+      "docs/trends/2026-11-16-reel-analysis.md"
+    ],
+    "quality_policy": "config/quality.json"
+  },
+  "latest_produced_clip_ids": [
+    "next17-strength-without-spotlight",
+    "next17-armstrong-first-step",
+    "next17-keep-one-promise",
+    "next17-cat-sofa-goblin",
+    "next17-printer-teamwork",
+    "next17-domino-reply-disaster",
+    "next17-teapot-podcast",
+    "next17-gta-reflex-update",
+    "next17-dog-uninstall-fetch",
+    "next17-cash-with-enthusiasm",
+    "next17-pancake-action-sequel",
+    "next17-paper-plane-airline",
+    "next17-one-task-full-focus",
+    "next17-ducks-walking-club",
+    "next17-handshake-name-buffer",
+    "next17-coin-calling-in-flat",
+    "next17-pasta-for-the-postcode",
+    "next17-plant-water-invoice",
+    "next17-pet-premium-stairs",
+    "next17-meeting-about-the-meeting",
+    "next17-notification-brain-splash",
+    "next17-chess-nap-appeal"
+  ],
+  "historical_discovery": {
     "tool": "vidIQ trending_videos",
     "format": "short",
     "query": "funny comedy relatable",
@@ -11,7 +66,7 @@
     "limit": 6,
     "caveat": "Returned vph values are lifetime averages; the response did not expose a numeric recent-hour velocity. Editorial and discovery sources are directional evidence, not platform-wide rankings."
   },
-  "candidates": [
+  "historical_candidates": [
     {
       "id": "ai_office_loop",
       "topic": "AI intermediaries in ordinary work",
@@ -86,48 +141,77 @@
       ]
     }
   ],
-  "asset_rights": "Reference videos are analysis only. Use independently reviewed footage, original narration, music and effects for publication.",
-  "production_note": "Ten additional originals rendered and inspected; queue records actual scheduling status. These concept IDs have been used and must not be generated again as duplicate content.",
-  "latest_owner_priority": {
-    "recorded_on": "2026-11-16",
-    "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
-    "topics": [
-      "streamer gaming highlights",
-      "GTA VI launch"
-    ],
-    "analysis_document": "docs/trends/2026-11-16-streamer-reference.md",
-    "source_status": "state/streamer-queue.json",
-    "cleared_current_live_sources": 0,
-    "reuse_reference_assets": false,
-    "motivational_reference_urls": [
-      "https://www.youtube.com/shorts/BsblgcBB17A",
-      "https://www.youtube.com/shorts/AXa7gKstItw",
-      "https://www.youtube.com/shorts/LoLV_JkPkHs"
-    ],
-    "motivation_analysis": "docs/trends/2026-11-16-motivational-references.md"
-  },
-  "latest_produced_clip_ids": [
-    "next17-strength-without-spotlight",
-    "next17-armstrong-first-step",
-    "next17-keep-one-promise",
-    "next17-cat-sofa-goblin",
-    "next17-printer-teamwork",
-    "next17-domino-reply-disaster",
-    "next17-teapot-podcast",
-    "next17-gta-reflex-update",
-    "next17-dog-uninstall-fetch",
-    "next17-cash-with-enthusiasm",
-    "next17-pancake-action-sequel",
-    "next17-paper-plane-airline",
-    "next17-one-task-full-focus",
-    "next17-ducks-walking-club",
-    "next17-handshake-name-buffer",
-    "next17-coin-calling-in-flat",
-    "next17-pasta-for-the-postcode",
-    "next17-plant-water-invoice",
-    "next17-pet-premium-stairs",
-    "next17-meeting-about-the-meeting",
-    "next17-notification-brain-splash",
-    "next17-chess-nap-appeal"
+  "paid_research_used_this_scout_run": 0,
+  "current_trend_claim": "None. These are original development concepts informed by completed reference analyses, not fresh platform rankings.",
+  "candidates": [
+    {
+      "id": "downward-beacon",
+      "status": "in_production_not_completed",
+      "topic": "Original cinematic fantasy mystery",
+      "content_type": "fictional_micro_stories",
+      "reference_use": "Structural inspiration only; original world, character, plot, geometry and sound design.",
+      "hook": "A town has a lighthouse above the clouds, despite having no visible ocean.",
+      "action": "A paper boat brings an instruction; the courier physically redirects the beacon.",
+      "payoff": "The clouds part and a lower town answers with its own lighthouse.",
+      "manifest": "stories/downward-beacon.json",
+      "production_state": "Natural narrator, speech timing and audio/caption preflight completed. Corrected animated picture and full final editorial inspection still required.",
+      "publishable": false,
+      "do_not_duplicate": true
+    },
+    {
+      "id": "quality_counterweight_gate",
+      "status": "original_outline_not_produced",
+      "topic": "Motivational action through a physical problem",
+      "content_type": "motivational",
+      "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
+      "action": "After two clear failed attempts, the courier stops forcing it and attaches the parcel cart to the existing counterweight. Close-ups show why it stays open.",
+      "payoff": "The courier rolls through; a line of waiting townspeople follows. End on the gate staying open, not a generic motivational slogan.",
+      "visual_plan": [
+        "Show the gate falling and the parcel simultaneously.",
+        "Keep the person, hinge and weight geography readable.",
+        "Show the changed force path through specific original animation.",
+        "Finish on other people passing through the held gate."
+      ],
+      "source_plan": "A new original scene and animation; no stock placeholder or reused lighthouse footage.",
+      "publishable": false,
+      "trend_claim": false
+    },
+    {
+      "id": "quality_last_charge",
+      "status": "original_outline_not_produced",
+      "topic": "A hopeful science-fiction choice",
+      "content_type": "fictional_micro_stories",
+      "hook": "A dark street and a power cell with enough charge for one lamp.",
+      "action": "The courier uses the cell to light a public crossing. A second resident connects a lamp; then another joins.",
+      "payoff": "The camera pulls back to a whole route lit by many contributions. The original single lamp stays visible as a callback.",
+      "visual_plan": [
+        "Show the actual power shortage and one working cell.",
+        "Follow the physical connection into the crossing.",
+        "Give each added light a visible human cause.",
+        "Use the wide reveal only after those causes are established."
+      ],
+      "source_plan": "New original street, residents and animation; fictional technology, not an engineering demonstration.",
+      "publishable": false,
+      "trend_claim": false
+    },
+    {
+      "id": "quality_midnight_bell",
+      "status": "original_outline_not_produced",
+      "topic": "A small rescue mystery",
+      "content_type": "fictional_micro_stories",
+      "hook": "The bell rings in a railway station after its final train has gone.",
+      "action": "A cleaner follows irregular tapping below the platform and discovers a little maintenance robot striking the bell with a wrench while its charge fades.",
+      "payoff": "The cleaner reconnects its charger. Next morning the robot deliberately rings the same pattern as the cleaner waves goodbye. The opening sound now means communication.",
+      "visual_plan": [
+        "Open on the bell moving in an empty station.",
+        "Use a listening reaction and a low tracking shot toward the tapping.",
+        "Reveal the robot, wrench and dim battery in one understandable composition.",
+        "Show the charger connection and a specific recovered movement.",
+        "Return to the bell and matching wave as the resolution."
+      ],
+      "source_plan": "New original cleaner/robot characters and station geometry. Original bells and licensed score, no real broadcast or cloned speaker.",
+      "publishable": false,
+      "trend_claim": false
+    }
   ]
 }

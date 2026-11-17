@@ -1,5 +1,7 @@
 # Jarvis trend scout
 
+> Latest override: read config/quality.json and docs/quality.md first. Comedy is optional. Paid research is paused with a zero-credit cap; reuse the completed new reference analyses. Prioritize coherent original scenes, a less robotic narrator, purposeful motion and a visible payoff. Do not rerun old paid jobs, revive the rejected batch or describe an unrendered outline as a completed video. New concepts are not current trend evidence. Production remains the only publisher.
+
 Research current short-form comedy and leave an evidence-backed brief for production. Run through the recurring Trend scout task around 5 a.m., 11 a.m., and 5 p.m. Pacific. Production runs separately about every four hours across day and night; it is the publishing actor.
 
 Read AGENTS.md, config/trends.json, config/strategy.json, docs/strategy.md, and the previous state/trend-brief.json. Prefer current vidIQ Shorts discovery ranked by recentVph, preserving the comedy/relatable topic. Inspect a promising public Short with vidiq_watch_shortform_content, then poll its returned job to completion. Use existing included credits within the configured per-run cap; never purchase credits or silently resubmit a failed paid analysis. If discovery returns nothing, use an outlier search only within the same cap. Web reports and sampled public frames remain valid alternatives, labelled precisely.
