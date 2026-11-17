@@ -2183,14 +2183,14 @@
     {
       "clip_id": "downward-beacon",
       "title": "The Lighthouse Was Pointing the Wrong Way",
-      "status": "draft_publication_blocked",
-      "scheduler": "Metricool",
+      "status": "published",
+      "scheduler": "vidIQ direct YouTube",
       "provider": "youtube",
-      "provider_status": "PENDING",
-      "publication_date": "2026-11-16T20:00:00-08:00",
+      "provider_status": "completed",
+      "publication_date": null,
       "timezone": "America/Los_Angeles",
       "actual_publication_date": null,
-      "public_url": null,
+      "public_url": "https://www.youtube.com/watch?v=hAfkI0Tg5R4",
       "content_type": "fictional_micro_stories",
       "hook_type": "impossible_world_question",
       "duration": 28.0,
@@ -2220,17 +2220,13 @@
       "synthetic_narration_disclosed": true,
       "ai_generated_content_label": true,
       "music_attribution_in_description": true,
-      "scheduler_post_id": "430977994",
-      "scheduler_uuid": "-6469427507233863401",
-      "draft": true,
-      "auto_publish": false,
       "do_not_reschedule": true,
       "scheduling_verified_at": "2026-11-17T02:40:25.160Z",
       "import_verified_at": "2026-11-17T02:40:27.168405+00:00",
       "imported_bytes": 7312826,
       "imported_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
       "replaced_clip_id": "next17-armstrong-first-step",
-      "evidence": "The 8 p.m. publication attempt returned ERROR: You have reached your Metricool account limit. The same failed post was saved as a draft with automatic publication disabled, retaining its UUID/time. Its current draft provider status is PENDING; that save does not erase the failure or establish publication.",
+      "evidence": "Direct YouTube publication completed on the verified original channel with a public URL. The failed Metricool copy remains a held draft and must never be reactivated. Exact YouTube publishedAt was not supplied; service completion is recorded separately.",
       "inspection": "Accepted as one revised original scene-based development pilot. All eight captioned shots reviewed, full decode and measured audio/timing checks passed. Native 720x1280; hybrid motion sampling, stylized block-world and documented softness/framing limitations retained.",
       "publication_failure_history": [
         {
@@ -2241,7 +2237,36 @@
           "publication_confirmed": false
         }
       ],
-      "last_publication_error": "You have reached your Metricool account limit."
+      "previous_metricool_attempt": {
+        "scheduler": "Metricool",
+        "scheduler_post_id": "430977994",
+        "scheduler_uuid": "-6469427507233863401",
+        "publication_date": "2026-11-16T20:00:00-08:00",
+        "provider_status": "PENDING",
+        "draft": true,
+        "auto_publish": false,
+        "evidence": "The 8 p.m. publication attempt returned ERROR: You have reached your Metricool account limit. The same failed post was saved as a draft with automatic publication disabled, retaining its UUID/time. Its current draft provider status is PENDING; that save does not erase the failure or establish publication.",
+        "last_publication_error": "You have reached your Metricool account limit.",
+        "held_to_prevent_duplicate": true
+      },
+      "publication_verified_at": "2026-11-17T06:42:32.663380+00:00",
+      "publication_evidence": {
+        "publisher": "vidIQ direct YouTube",
+        "status": "completed",
+        "public_url": "https://www.youtube.com/watch?v=hAfkI0Tg5R4",
+        "service_started_at_utc": "2026-11-17T06:26:10.408498Z",
+        "service_completed_at_utc": "2026-11-17T06:26:12.126016Z",
+        "verified_at_utc": "2026-11-17T06:42:32.663380+00:00",
+        "scheduled_for": null,
+        "failure": null,
+        "exact_youtube_published_at": null,
+        "timestamp_note": "Completion timestamps are publisher evidence, not a supplied exact YouTube publishedAt field.",
+        "imported_bytes_match": true,
+        "owner_approved_exact_draft": true,
+        "credits_used": 0
+      },
+      "confirmed_publication_day": "2026-11-16",
+      "confirmed_publication_day_basis": "Publisher completed timestamp converted to America/Los_Angeles; exact YouTube publishedAt not supplied."
     }
   ]
 }

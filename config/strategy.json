@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "daily_post_target": 20,
   "timezone": "America/Los_Angeles",
   "content_types": [
@@ -27,9 +27,9 @@
   "financial_report_time": "09:00",
   "financial_report_timing": "exact_schedule",
   "routine_confirmation_required": false,
-  "posting_window_start": "08:00",
-  "posting_interval_minutes": 40,
-  "minimum_gap_minutes": 25,
+  "posting_window_start": "00:00",
+  "posting_interval_minutes": 20,
+  "minimum_gap_minutes": 20,
   "active_business_scope": "original_content_posting_only",
   "editing_services_enabled": false,
   "digital_product_experiments_enabled": false,
@@ -51,5 +51,17 @@
   "posting_mode": "quality_reset",
   "daily_post_target_is_ceiling_not_quota": true,
   "bulk_scheduling_enabled": false,
-  "comedy_required": false
+  "comedy_required": false,
+  "posting_window_end": "23:59",
+  "production_check_interval_minutes": 20,
+  "format_selection_mode": "evidence_gated_quality_first",
+  "fixed_type_quotas_suspended": true,
+  "cadence_note": "Requested twenty-minute cadence across day/night when distinct finished rights-reviewed quality clips and supported publication workflow permit; twenty per Pacific date remains a ceiling, never a quota. Checks are recurring tasks, not continuous runtime.",
+  "format_evidence_requirement": {
+    "dated_public_view_evidence_required": true,
+    "actual_structure_analysis_required": true,
+    "third_party_rankings_require_primary_verification": true,
+    "own_channel_age_matched_data_preferred": true,
+    "no_claim_of_proven_winner_from_one_video": true
+  }
 }

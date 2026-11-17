@@ -1,6 +1,6 @@
 {
   "id": "downward-beacon",
-  "status": "direct_draft_ready_required_approval",
+  "status": "published",
   "title": "The Lighthouse Was Pointing the Wrong Way",
   "content_type": "fictional_micro_stories",
   "hook_type": "impossible_world_question",
@@ -38,7 +38,21 @@
     "start": 122
   },
   "description": "An original fictional short set in a town above the clouds. Original story, character designs, 3D scenes and editing. AI-generated synthetic stock narration; no real speaker impersonated.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and mixed under narration and original sound design.\nNo endorsement by the composer is implied.",
-  "publication_evidence": null,
+  "publication_evidence": {
+    "publisher": "vidIQ direct YouTube",
+    "status": "completed",
+    "public_url": "https://www.youtube.com/watch?v=hAfkI0Tg5R4",
+    "service_started_at_utc": "2026-11-17T06:26:10.408498Z",
+    "service_completed_at_utc": "2026-11-17T06:26:12.126016Z",
+    "verified_at_utc": "2026-11-17T06:42:32.663380+00:00",
+    "scheduled_for": null,
+    "failure": null,
+    "exact_youtube_published_at": null,
+    "timestamp_note": "Completion timestamps are publisher evidence, not a supplied exact YouTube publishedAt field.",
+    "imported_bytes_match": true,
+    "owner_approved_exact_draft": true,
+    "credits_used": 0
+  },
   "pacing": {
     "opening_silence": 0.2,
     "ending_silence": 1.5,
@@ -79,7 +93,7 @@
     "script_asr_verified": true,
     "music_effects_caption_preflight_passed": true,
     "full_video_complete": true,
-    "published": false,
+    "published": true,
     "encoded_stereo_aac_verified": true,
     "full_decode_verified": true,
     "final_captioned_frames_inspected": true,

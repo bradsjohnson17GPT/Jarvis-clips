@@ -7,14 +7,6 @@
     11,
     17
   ],
-  "production_hours": [
-    0,
-    4,
-    8,
-    12,
-    16,
-    20
-  ],
   "priority_lookback_hours": 72,
   "maximum_discovery_lookback_days": 7,
   "max_vidiq_credits_per_scout_run": 0,
@@ -46,12 +38,18 @@
     16
   ],
   "priority_topics": [
-    "streamer gaming highlights",
-    "GTA VI launch",
-    "Minecraft clutch and comedy moments",
-    "original comedy"
+    "evidence-supported heartfelt motivational Shorts",
+    "evidence-supported original visual stories",
+    "cleared streamer gaming highlights"
   ],
   "streamer_config": "config/streamers.json",
   "streamer_workflow": "agents/streamer-scout.md",
-  "paid_research_paused_reason": "Quality reset; reuse completed reference analyses and free sources. Do not purchase or top up credits."
+  "paid_research_paused_reason": "Quality reset; reuse completed reference analyses and free sources. Do not purchase or top up credits.",
+  "production_check_interval_minutes": 20,
+  "production_minutes_past_hour": [
+    0,
+    20,
+    40
+  ],
+  "quality_first_evidence_filter": true
 }

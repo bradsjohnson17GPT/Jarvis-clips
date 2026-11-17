@@ -29,7 +29,7 @@
     "clear payoff without copied plot or unsupported factual claims"
   ],
   "paid_research_paused_during_reset": true,
-  "publication_blocker": "The revised pilot failed at 8 p.m. Pacific with Metricool account limit; the failed post is held. Direct fallback awaits connection of the intended original YouTube channel.",
+  "publication_blocker": null,
   "routine_confirmation_required": false,
   "reviewed_single_pilot_publication_allowed": true,
   "single_pilot_requirements": [
@@ -37,5 +37,9 @@
     "refresh real queue and respect existing per-date cap and minimum gaps",
     "use a genuinely new reviewed story and media hash; never reactivate rejected media",
     "attempt only a supported authorized route and record the actual result"
-  ]
+  ],
+  "metricool_route_blocker": "You have reached your Metricool account limit. Failed copy remains held; direct success does not restore Metricool.",
+  "working_publication_route": "vidIQ direct YouTube verified by completed publication and public URL; obey any exact-draft approval workflow returned by the connector.",
+  "format_selection_requirement": "Use dated observed view evidence and actual reference structure analysis to shortlist formats; no guaranteed outcomes, no copying unlicensed works, no volume padding.",
+  "connected_editing_workflow": "Descript connected; use for source assembly, caption/pacing and sound edits within existing access. Higgsfield tools not yet available as of this run."
 }

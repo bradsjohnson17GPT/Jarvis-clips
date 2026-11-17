@@ -15,3 +15,9 @@ After the scheduled time, check the actual provider outcome. Mark published only
 ## Actual 8 p.m. outcome
 
 At 8:04 p.m. Pacific, Metricool returned YouTube ERROR: “You have reached your Metricool account limit.” No public URL was returned and publication was not confirmed. The same failed post was saved in place as a draft with automatic publication disabled; numeric ID is now `430977994`, UUID retained. The draft save reset its displayed provider status to PENDING, which does not mean the failed publication succeeded. Actual readback now shows 10 earlier published records, 30 held drafts and zero automatic pending posts. The finished MP4 remains unchanged and available. No capacity or service upgrade was purchased. A direct publishing fallback awaits the intended original channel connection; no alternate-channel upload was made.
+
+## Confirmed direct publication
+
+After the owner connected the intended original channel, reviewed the exact prepared draft and approved publication, vidIQ imported the exact reviewed MP4 and completed direct YouTube publishing. [The live Short](https://www.youtube.com/watch?v=hAfkI0Tg5R4) was returned with completed status and no failure. Publisher service timestamps are November 17 06:26:10.408498–06:26:12.126016 UTC (November 16 10:26 p.m. Pacific); an exact YouTube publishedAt field was not returned. No publishing credits were charged. Private API receipts remain under ignored work/quality/.
+
+This raises the known published count to eleven including ten earlier posts. The failed Metricool copy remains held with automatic publishing off, alongside the 29 rejected drafts. Direct success does not establish that Metricool’s account limit has recovered. Never publish this clip/hash again.

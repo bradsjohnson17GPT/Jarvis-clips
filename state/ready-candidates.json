@@ -3,7 +3,7 @@
     {
       "verified_at_utc": "2026-11-17T02:33:44.656688+00:00",
       "clip_id": "downward-beacon",
-      "status": "direct_draft_ready_required_approval",
+      "status": "published",
       "manifest": "stories/downward-beacon.json",
       "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/023cfcd091214a61abdbaff5a004fe2916e8ff43/media/quality/downward-beacon.mp4",
       "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
@@ -13,9 +13,23 @@
       "raw_bytes_match_inspected_file": true,
       "qa_path": "media/quality/downward-beacon.qa.json",
       "source_path": "media/quality/downward-beacon-source.json",
-      "publication_evidence": null,
+      "publication_evidence": {
+        "publisher": "vidIQ direct YouTube",
+        "status": "completed",
+        "public_url": "https://www.youtube.com/watch?v=hAfkI0Tg5R4",
+        "service_started_at_utc": "2026-11-17T06:26:10.408498Z",
+        "service_completed_at_utc": "2026-11-17T06:26:12.126016Z",
+        "verified_at_utc": "2026-11-17T06:42:32.663380+00:00",
+        "scheduled_for": null,
+        "failure": null,
+        "exact_youtube_published_at": null,
+        "timestamp_note": "Completion timestamps are publisher evidence, not a supplied exact YouTube publishedAt field.",
+        "imported_bytes_match": true,
+        "owner_approved_exact_draft": true,
+        "credits_used": 0
+      },
       "publication_actor": "production",
-      "instructions": "Finished media remains valid. Metricool publication failed and is held. Do not duplicate, retry blindly or reactivate old media. Owner is connecting the intended original channel for an authorized direct route; verify exact channel identity and absence of prior publication before any direct attempt.",
+      "instructions": "Already published through the verified direct route. Never schedule this clip/hash again. Keep its failed Metricool duplicate held.",
       "scheduling_evidence": {
         "scheduler": "Metricool",
         "scheduler_post_id": "430932108",
@@ -45,11 +59,11 @@
         "connection_active": true,
         "can_publish": true,
         "media_import_matches_inspected_file": true,
-        "draft_ready": true,
+        "draft_ready": false,
         "publishing_credits": 0,
-        "publication_confirmed": false,
+        "publication_confirmed": true,
         "private_draft_record": "work/quality/direct-pilot-draft.json",
-        "workflow_requirement": "The direct publishing connector explicitly requires approval after showing this prepared draft; no publish call has been made."
+        "workflow_requirement": "Owner approved the prepared draft and the direct publisher confirmed completed with a public URL."
       }
     }
   ]
