@@ -92,7 +92,7 @@
     1280
   ],
   "media_path": "examples/development/team-ownership/06-full-story-preview.mp4",
-  "media_url": null,
+  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/e66efec08ce29ada0c2b0c24d834f538a90dbe47/examples/development/team-ownership/06-full-story-preview.mp4",
   "video_sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
   "qa_path": "assets/stories/team-ownership/full-movie-review.json",
   "publication_evidence": null,
@@ -103,5 +103,7 @@
   "do_not_duplicate_preparation": true,
   "release_requirement": "The full 506-frame encoded development preview now exists. Review actual real-time motion/pacing and soundtrack, record a final editorial release decision, then verify immutable hosted bytes and actual queue/clip/hash deduplication before considering a service draft under the connector workflow. No ready entry, service draft, schedule or publication exists.",
   "full_encoded_preview_completed_at_utc": "2026-11-17T19:53:10.098614+00:00",
-  "full_story_editorial_pass": false
+  "full_story_editorial_pass": false,
+  "public_host_bytes_verified": true,
+  "public_host_verification_at_utc": "2026-11-17T19:55:19.179542+00:00"
 }

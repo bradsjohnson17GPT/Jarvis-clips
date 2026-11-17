@@ -321,7 +321,9 @@
       "full_movie_review": "assets/stories/team-ownership/full-movie-review.json",
       "full_story_editorial_pass": false,
       "do_not_duplicate_preparation": true,
-      "publication_confirmed": false
+      "publication_confirmed": false,
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/e66efec08ce29ada0c2b0c24d834f538a90dbe47/examples/development/team-ownership/06-full-story-preview.mp4",
+      "public_host_bytes_verified": true
     }
   ],
   "production_reconciled_at_utc": "2026-11-17T19:53:10.098614+00:00",
