@@ -1,6 +1,6 @@
 {
   "id": "jocko-give-the-team-the-plan",
-  "status": "sources_unchanged_v1_preview_held_for_geometry_contact_fix",
+  "status": "sources_unchanged_corrected_v2_development_preview_inspected_pending_release",
   "reviewed_by": "Project production assistant",
   "selected_interval_review_date": "2026-11-17",
   "publishable": false,
@@ -24,8 +24,8 @@
       285.9
     ],
     "continuous_statement": "A lot of taking ownership is actually giving ownership, giving ownership to the people below you in the chain of command so that they can take ownership.",
-    "context": "The broader interview answer at approximately 235\u2013293 seconds concerns giving people control of planning. The selected complete statement is not assembled from unrelated answers.",
-    "distinct_from_existing_pilot": "Existing mistake-to-plan pilot uses source intervals 61.40\u201365.30 and 66.25\u201371.45 seconds. This story uses a different continuous statement and a different team-planning action/payoff.",
+    "context": "The broader interview answer at approximately 235–293 seconds concerns giving people control of planning. The selected complete statement is not assembled from unrelated answers.",
+    "distinct_from_existing_pilot": "Existing mistake-to-plan pilot uses source intervals 61.40–65.30 and 66.25–71.45 seconds. This story uses a different continuous statement and a different team-planning action/payoff.",
     "source_audio_used": true,
     "audio_selection_evidence": {
       "decoded_cut_seconds": 6.8,
@@ -53,7 +53,7 @@
         720,
         1280
       ],
-      "upscale": "2.222222\u00d7 Lanczos spatial scaling; no invented source detail.",
+      "upscale": "2.222222× Lanczos spatial scaling; no invented source detail.",
       "delivery_fps": 24,
       "temporal_conversion": "Frame selection/drop; no optical interpolation or speed change.",
       "inspection": "Actual source portrait samples at start, middle and end inspected. Face stays framed; division insignia is outside the crop. Incidental Echelon Front shirt lettering remains.",
@@ -79,7 +79,14 @@
     "drawing_revision_frames": [
       453,
       506
-    ]
+    ],
+    "complete_current_native_movie_exists": true,
+    "current_drawing_review": "assets/stories/team-ownership/drawing-frame-review-v2.json",
+    "selected_current_source_frame_counts": {
+      "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791": 177,
+      "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42": 112,
+      "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323": 54
+    }
   },
   "commentary": {
     "voice_config": "config/motivational-voice.json",
@@ -109,7 +116,8 @@
   },
   "effects": "Original synthesized marker-stroke and marker-cap/contact sounds; no unreviewed stock audio.",
   "final_movie_hash": null,
-  "final_editorial_qa": "assets/stories/team-ownership/full-movie-review.json",
+  "final_editorial_qa": "assets/stories/team-ownership/full-movie-review-v2.json",
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
-  "held_preview_hash": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3"
+  "held_preview_hash": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+  "development_preview_hash": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21"
 }

@@ -1,0 +1,372 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "prepared_at_utc": "2026-11-17T22:33:39.032762+00:00",
+  "status": "corrected_v2_development_preview_pending_real_time_and_audio_review",
+  "publishable": false,
+  "output_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+  "output_bytes": 3761918,
+  "assembly": {
+    "status": "assembled_pending_actual_editorial_and_final_qa_review",
+    "publishable": false,
+    "frames": 506,
+    "full_decode_passed": true,
+    "verified_original_frame_source_counts": {
+      "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791": 177,
+      "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42": 112,
+      "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323": 54
+    },
+    "inspected_audio_essence_unchanged": true,
+    "output_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+    "actual_frames": 506,
+    "actual_dimensions": [
+      720,
+      1280
+    ],
+    "actual_container_seconds": 21.083333
+  },
+  "native_picture_dimensions": [
+    720,
+    1280
+  ],
+  "frame_rate": 24,
+  "actual_video_frames": 506,
+  "encoded_loudness": {
+    "integrated_lufs": -16.13,
+    "true_peak_dbtp": -3.0,
+    "loudness_range_lu": 2.7
+  },
+  "black_detected_intervals": [],
+  "black_detection_threshold": "98%pixels under0.10luma for at least0.05seconds",
+  "caption_sha256": "b9546ec0645f4a028c711fb5d1e2f1d25189dac75b60519215841f24932afc2e",
+  "speech_words": 63,
+  "caption_cues": 24,
+  "sampled_frames": [
+    {
+      "frame": 1,
+      "story_time_seconds": 0.0,
+      "encoded_sample_png_sha256": "1bd2b7bc562327f006d76495d9c2f0092e06636e7122ae47ac305369b10cf141"
+    },
+    {
+      "frame": 13,
+      "story_time_seconds": 0.5,
+      "encoded_sample_png_sha256": "0c0cf0e30d5f8fb9bb032a881ceb6ff058609108a5c3d3f1b231cd0cab478e6f"
+    },
+    {
+      "frame": 25,
+      "story_time_seconds": 1.0,
+      "encoded_sample_png_sha256": "211ad2d03da5456222c2876b86a3b6038c357f7ad236d1eacb89dc2bd2a18709"
+    },
+    {
+      "frame": 49,
+      "story_time_seconds": 2.0,
+      "encoded_sample_png_sha256": "5e92122c461f335e4fd40625aaa1348723ddb0e2cc3fb2152dc3ec98d48c0584"
+    },
+    {
+      "frame": 69,
+      "story_time_seconds": 2.8333333333333335,
+      "encoded_sample_png_sha256": "b39ec1fa562323e308fb4a5af2e7b7da9a07ba8e51aa3951b5c8506b92667767"
+    },
+    {
+      "frame": 70,
+      "story_time_seconds": 2.875,
+      "encoded_sample_png_sha256": "ad7b0de498e13787b8ef08697f4894550f37881acb61a533207508c6ab891551"
+    },
+    {
+      "frame": 71,
+      "story_time_seconds": 2.9166666666666665,
+      "encoded_sample_png_sha256": "74693258a87682a2d1895d43c4f458decf3b1f2e7a1b19cc50ab1c9201004ad5"
+    },
+    {
+      "frame": 72,
+      "story_time_seconds": 2.9583333333333335,
+      "encoded_sample_png_sha256": "c7cf62d6be8be09d241669a4e3396b77b7e3d0d4e9e04318b0fa1a1cff20b26e"
+    },
+    {
+      "frame": 84,
+      "story_time_seconds": 3.4583333333333335,
+      "encoded_sample_png_sha256": "eab60281a4740094c37cd4115a4c2b8f9ee6e5980150ef68af285d5babce73c1"
+    },
+    {
+      "frame": 96,
+      "story_time_seconds": 3.9583333333333335,
+      "encoded_sample_png_sha256": "38149ea5d735f61f903806d4aa1184589d67118d9969b9aef9d5d837a1bbd6db"
+    },
+    {
+      "frame": 108,
+      "story_time_seconds": 4.458333333333333,
+      "encoded_sample_png_sha256": "251df822e5511bbd232387c0efa3c2a75a9698d5ad8e7c2c7f116fdb9f80158a"
+    },
+    {
+      "frame": 117,
+      "story_time_seconds": 4.833333333333333,
+      "encoded_sample_png_sha256": "a560fbf6ba7e26f4015c509b54b21455e0915fb9834471d502ebb645b9203cbd"
+    },
+    {
+      "frame": 118,
+      "story_time_seconds": 4.875,
+      "encoded_sample_png_sha256": "37843fdd2847337f02503391d1fa3bfcb3befc179fd1c2cfb6e4ce5b8e570469"
+    },
+    {
+      "frame": 119,
+      "story_time_seconds": 4.916666666666667,
+      "encoded_sample_png_sha256": "79a0d3e3861669dfe5899162a7b92310b3fe41b022c14a6bcab2e2077240e8f6"
+    },
+    {
+      "frame": 120,
+      "story_time_seconds": 4.958333333333333,
+      "encoded_sample_png_sha256": "cfc800dd5e6931916dd96ec62579da5c16675b8f27051d9fc6ff7ef3d636c8b0"
+    },
+    {
+      "frame": 132,
+      "story_time_seconds": 5.458333333333333,
+      "encoded_sample_png_sha256": "55446a20e72cb4e717ae6cd6938cc811e20dba42f84a2837527bd73590d444b4"
+    },
+    {
+      "frame": 156,
+      "story_time_seconds": 6.458333333333333,
+      "encoded_sample_png_sha256": "13101b144d81c29ce9855c607f8515b09801cae80eb9a62b79abcd6cfe6b633c"
+    },
+    {
+      "frame": 176,
+      "story_time_seconds": 7.291666666666667,
+      "encoded_sample_png_sha256": "7e69463718d4d8caf802b34881dc96160a52228dff04b5088d3e7dfc84d73614"
+    },
+    {
+      "frame": 177,
+      "story_time_seconds": 7.333333333333333,
+      "encoded_sample_png_sha256": "8a2df8bf7efedccf5e65b66f391a209f52dbd31245987fbbc036bc8754d1b2ed"
+    },
+    {
+      "frame": 178,
+      "story_time_seconds": 7.375,
+      "encoded_sample_png_sha256": "1b981895e5bcb302f1889b9a02686dae0ad5c5416082ad103a3f3d3a3133878e"
+    },
+    {
+      "frame": 179,
+      "story_time_seconds": 7.416666666666667,
+      "encoded_sample_png_sha256": "97270ae03291fbada86f9378b3da48f2a8755dcb6871c632931d5a7bd1c8082b"
+    },
+    {
+      "frame": 202,
+      "story_time_seconds": 8.375,
+      "encoded_sample_png_sha256": "e8cb86304e7a932690e1029d43ebf153f96472f5b95822bd65966feb0b636e65"
+    },
+    {
+      "frame": 226,
+      "story_time_seconds": 9.375,
+      "encoded_sample_png_sha256": "d6a0b06b9769d9611b149cd436b41d86df201d460986d0a3b206af042d323d90"
+    },
+    {
+      "frame": 250,
+      "story_time_seconds": 10.375,
+      "encoded_sample_png_sha256": "c6be992dba20f7f18133e565a02e6e8590b977c2ab9a49096bbc4e8ef51d698e"
+    },
+    {
+      "frame": 274,
+      "story_time_seconds": 11.375,
+      "encoded_sample_png_sha256": "c971e0c60ef10a533541a18c62fb179038ecef41ee98b17e3c293c3a95d0dc83"
+    },
+    {
+      "frame": 298,
+      "story_time_seconds": 12.375,
+      "encoded_sample_png_sha256": "c53881ca89300ad0be297883d08ce0a1b4683f1034f7bf28273a2ff8276f0eaa"
+    },
+    {
+      "frame": 322,
+      "story_time_seconds": 13.375,
+      "encoded_sample_png_sha256": "4e5cde013b907b3d596dbfd6fae580a2ecab2d2262e532b453a19ba1abb22f52"
+    },
+    {
+      "frame": 339,
+      "story_time_seconds": 14.083333333333334,
+      "encoded_sample_png_sha256": "fd424d4368b90310053f0be5c6569fb561ed149d87e47fdad26db2dd1183465f"
+    },
+    {
+      "frame": 340,
+      "story_time_seconds": 14.125,
+      "encoded_sample_png_sha256": "2d076cc846d1185c975a245eab1019123afd32c2376cdedf663a41969687a45a"
+    },
+    {
+      "frame": 341,
+      "story_time_seconds": 14.166666666666666,
+      "encoded_sample_png_sha256": "a54ad2dfae442d061db9290f12f937a74bb789aa4c814061c0d5c170146ca886"
+    },
+    {
+      "frame": 342,
+      "story_time_seconds": 14.208333333333334,
+      "encoded_sample_png_sha256": "35a707a283175ce3413ef28177a5bb3ce4607c9255d4ad5d666400af8a444a81"
+    },
+    {
+      "frame": 360,
+      "story_time_seconds": 14.958333333333334,
+      "encoded_sample_png_sha256": "de61fb98f3b207a67d0b553451a513f4da44f4ed95fa180c8c12edd444ec1674"
+    },
+    {
+      "frame": 384,
+      "story_time_seconds": 15.958333333333334,
+      "encoded_sample_png_sha256": "38b86fcf4cd0bcc8028c1c877d81c71f76a25a8a2fdbde5ce44d9d8c2fb72dea"
+    },
+    {
+      "frame": 408,
+      "story_time_seconds": 16.958333333333332,
+      "encoded_sample_png_sha256": "f511cc1e7f12360fa5d18762a7f154bddcbf92b2e649c275ccb1f98c499f9672"
+    },
+    {
+      "frame": 418,
+      "story_time_seconds": 17.375,
+      "encoded_sample_png_sha256": "66d2991eb38431f20e404f42aa6d5af5dcd49626c298764504fafdb9d8b750c0"
+    },
+    {
+      "frame": 419,
+      "story_time_seconds": 17.416666666666668,
+      "encoded_sample_png_sha256": "fc681973745906540c74a4d54e84231da0b0804be7160f8ebd7899024854c70b"
+    },
+    {
+      "frame": 420,
+      "story_time_seconds": 17.458333333333332,
+      "encoded_sample_png_sha256": "dc4f05e915d0eea585ed3b1e55a186b4b4aa7a5467084d7dd360f9088078987d"
+    },
+    {
+      "frame": 421,
+      "story_time_seconds": 17.5,
+      "encoded_sample_png_sha256": "abdec92015b2db1ef74db30f6c77835c6cd8e7c0b3df23ca9c992674acb122e6"
+    },
+    {
+      "frame": 426,
+      "story_time_seconds": 17.708333333333332,
+      "encoded_sample_png_sha256": "a415192284db3a1c99099f24884fd7091f1a71d37f6a9d702b12b1f9fc134f45"
+    },
+    {
+      "frame": 432,
+      "story_time_seconds": 17.958333333333332,
+      "encoded_sample_png_sha256": "79f1ff64befd9fd1c898f505ac6a2e26091deed46df6d2d1b538698dfa56068f"
+    },
+    {
+      "frame": 438,
+      "story_time_seconds": 18.208333333333332,
+      "encoded_sample_png_sha256": "b86711246fc2922deb2c48bb2420743c9c2ef999b07f2037113a7c0bda8ad137"
+    },
+    {
+      "frame": 439,
+      "story_time_seconds": 18.25,
+      "encoded_sample_png_sha256": "6469623c5a7cd649130069aa2bbfa19bccdc9edae2759fa3873bc4fc73c4bfcc"
+    },
+    {
+      "frame": 440,
+      "story_time_seconds": 18.291666666666668,
+      "encoded_sample_png_sha256": "7bc3f092efdea28a2abfcc7e5e6088dc9c41b873bf3d4b057ce74c8f2e314db3"
+    },
+    {
+      "frame": 441,
+      "story_time_seconds": 18.333333333333332,
+      "encoded_sample_png_sha256": "fbcd2cc1fa793b89e41dfacff67ecb882da891d3465b06d66a15d446e236eb38"
+    },
+    {
+      "frame": 450,
+      "story_time_seconds": 18.708333333333332,
+      "encoded_sample_png_sha256": "6ef263a2754a5d572c78e0da05f1d33e931d171381a3fbf7eff7722f4e3a7538"
+    },
+    {
+      "frame": 462,
+      "story_time_seconds": 19.208333333333332,
+      "encoded_sample_png_sha256": "66c15b4281e05217f7d48bb27c3be637e2646fa99b1cd740df608825211da818"
+    },
+    {
+      "frame": 469,
+      "story_time_seconds": 19.5,
+      "encoded_sample_png_sha256": "76bb14a00685e7cd2b7fa7f5194284f3878edecdaa0c18c98c7e379592379a89"
+    },
+    {
+      "frame": 474,
+      "story_time_seconds": 19.708333333333332,
+      "encoded_sample_png_sha256": "c393f1ece327f72856ec07a598d6803a637327ce78583413dd43f98dc6d033ae"
+    },
+    {
+      "frame": 486,
+      "story_time_seconds": 20.208333333333332,
+      "encoded_sample_png_sha256": "6c9b66a3be15c3a710804225c7d4c99e45f8471152496acd6873293c37e74ac3"
+    },
+    {
+      "frame": 487,
+      "story_time_seconds": 20.25,
+      "encoded_sample_png_sha256": "ad0df1664832735ee74ec35030c8747306ec317cb4daaa35a10edbc7224eedee"
+    },
+    {
+      "frame": 498,
+      "story_time_seconds": 20.708333333333332,
+      "encoded_sample_png_sha256": "f76a84cf09fc46ebfaab40ac2dfe800ea4e3e9d49a47c117533920ff45705ea5"
+    },
+    {
+      "frame": 505,
+      "story_time_seconds": 21.0,
+      "encoded_sample_png_sha256": "543ab81fba5ed13230369d23fd7a5da011c6ba09d9e634613c8ccbcf78e5fe6f"
+    },
+    {
+      "frame": 506,
+      "story_time_seconds": 21.041666666666668,
+      "encoded_sample_png_sha256": "c080c0f4b53ff302cc5c49e4b8038e8aca848b565ece618fc0db5bed559bd754"
+    }
+  ],
+  "cuts_covered_between_frames": [
+    [
+      70,
+      71
+    ],
+    [
+      118,
+      119
+    ],
+    [
+      177,
+      178
+    ],
+    [
+      340,
+      341
+    ],
+    [
+      419,
+      420
+    ],
+    [
+      439,
+      440
+    ]
+  ],
+  "audio_evidence": "Final AAC essence matches the complete previously decoded/ASR-matched63-word preflight. No subjective listening or new final ASR is claimed.",
+  "continuous_video_watching_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "actual_full_story_editorial_pass": false,
+  "limits": "53extracted actual encoded frames cover every cut, source insert, transfer and drawing payoff. Sampled visual inspection is not real-time watching or subjective audio listening; technical success is not an editorial pass.",
+  "reviewed_at_utc": "2026-11-17T22:39:19.372677+00:00",
+  "output_path": "examples/development/team-ownership/09-full-story-preview-v2.mp4",
+  "actual_encoded_samples_visually_inspected": 53,
+  "complete_corrected_drawing_sequence_review": "assets/stories/team-ownership/drawing-frame-review-v2.json",
+  "actual_visual_findings": [
+    "The initial plan, leader crossing it out, disappointed colleague, real interview insert, marker handoff and new connected node are readable in the actual encoded samples.",
+    "The opening holds the team setup before the leader turns. The reaction is restrained; the leader partly obscures the board while crossing it out and the supporting teammate is partly cropped.",
+    "The close-up shows the leader withdrawing while the teal colleague keeps the marker. The drawing heading is partly cropped; the connected new node remains visible through frame506.",
+    "All54 corrected encoded drawing frames plus retained frames451/452 were separately viewed in order. The growing line/arc remains at the nib in these inspected images, including full-size469/487; the retained/revised452/453 boundary shows no observed pose or camera discontinuity.",
+    "The main captions remain clear of the marker transfer and new-node payoff. The historical source identity and exact nonendorsement notice remain visible in the sampled historical insert."
+  ],
+  "release_decision": {
+    "publishable": false,
+    "ready_candidate": false,
+    "publisher_draft_created": false,
+    "reason": "Targeted contact defect resolved in inspected encoded frames; real-time temporal/pacing assessment, subjective soundtrack listening and final editorial release remain outstanding. No new tool approval gate is invented for independent work."
+  },
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "preflight_adts_sha256": "05d5c72c21db5f36e3f7c5dff1b5d7bf58027dcf389e4eb653cd9d498c4a48b4",
+    "essence_matches_preflight": true
+  },
+  "audio_inspection_limit": "The actual audio-input attempt was omitted because the session does not support audio input. ASR, essence identity and levels are engineering evidence; no subjective listening or new final ASR is claimed.",
+  "superseded_preview": {
+    "sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+    "path": "examples/development/team-ownership/06-full-story-preview.mp4",
+    "qa_path": "assets/stories/team-ownership/full-movie-review.json",
+    "status": "held_for_observed_marker_ink_gap"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "prepared_at_utc": "2026-11-17T14:19:41.324629+00:00",
-  "status": "existing_v1_preview_held_for_targeted_ink_contact_revision",
+  "status": "corrected_v2_development_preview_pending_real_time_and_audio_review",
   "publishable": false,
   "finished_movie_exists": true,
   "frame_rate": 24,
@@ -92,7 +92,7 @@
     "timing_limit": "Picture quantization is within one delivery frame; verify actual final sync rather than inferring it from counts."
   },
   "captions_and_context": {
-    "status": "same_reviewed_captions_already_applied_to_v1_preserved_for_geometry_fix",
+    "status": "same_reviewed_caption_sha_applied_to_v2_and_inspected_on_actual_encoded_samples",
     "timing_source": "Actual word timestamps in audio-preflight.json",
     "readability": "Readable portrait type, short coherent groups, at most two main caption lines; inspect actual completed shots before final placement.",
     "keep_clear": [
@@ -115,11 +115,8 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "remaining_checks": [
-    "Render and inspect corrected native contact samples469/487, then complete only54new drawing frames453\u2013506 in the frozen separate cache.",
-    "Denoise new original frames with the reviewed utility and matching source/raw/output receipts; preserve177opening and112postquote frames.",
-    "Assemble a new506frame v2 candidate with all three pinned source caches and unchanged historical picture, captions and AAC soundtrack; verify decode/levels/essence.",
-    "Inspect actual corrected marker/ink contact, drawing/payoff, cuts and remaining motion/pacing/soundtrack limits; no listening claim from ASR or measurements.",
-    "Verify final metadata/credits/audience/publicbytes and actual queue/hash/destination before any publisher draft; existing two male drafts remain unchanged."
+    "Assess actual real-time temporal smoothness/pacing and subjectively listen to the full soundtrack; do not infer these from frames, ASR or measures.",
+    "Record a final editorial release decision and verify exact hosted bytes, metadata/credits/audience and actual queue/hash/destination before any publisher draft. Existing two male direct drafts remain unchanged."
   ],
   "assembler": "scripts/assemble_team_story.py",
   "assembled_movie_exists": true,
@@ -133,9 +130,9 @@
     "reason": "Close and round finger/thumb ends exposed in native close-up; widen return camera53mm to49mm. Full post-quote shot sequence is revised; opening, historical insert, story timing and audio/captions retained.",
     "render_status": "all166frames_complete_retained341_through452",
     "qa_record": "assets/stories/team-ownership/return-shot-preflight.json",
-    "assembly_requirement": "Use retained974379894ff6 source for341\u2013452, with the separately pinned drawing override453\u2013506 taking precedence. Never fall back to the old drawing frames."
+    "assembly_requirement": "Use retained974379894ff6 source for341–452, with the separately pinned drawing override453–506 taking precedence. Never fall back to the old drawing frames."
   },
-  "current_target_movie_exists": false,
+  "current_target_movie_exists": true,
   "latest_geometry_revision_at_utc": "2026-11-17T20:24:16.712584+00:00",
   "original_scene_drawing_patch": {
     "first_frame": 453,
@@ -144,14 +141,21 @@
     "source": "assets/stories/team-ownership/scene.py",
     "source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
     "reason": "Visible nib/ink gap in actual encoded frame469: replace Bezier bevel-factor reveal with explicitly baked polyline endpoint from the same linear/angle drawing phase; evaluate nib/contact coincidence before native renders.",
-    "qa_record": "assets/stories/team-ownership/drawing-frame-review.json",
-    "render_status": "two_native_contact_review_frames_requested_before_full_tail",
-    "assembly_requirement": "Require --drawing-render-root with exact54frame manifest, source hash and raw/output receipts; no fallback to existing complete old tail."
+    "qa_record": "assets/stories/team-ownership/drawing-frame-review-v2.json",
+    "render_status": "all54_native_frames_complete_denoised_source_receipts_verified_and_encoded_sequence_inspected",
+    "assembly_requirement": "Require --drawing-render-root with exact54frame manifest, source hash and raw/output receipts; no fallback to existing complete old tail.",
+    "original_defect_record": "assets/stories/team-ownership/drawing-frame-review.json"
   },
   "existing_preview": {
     "sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
     "qa_record": "assets/stories/team-ownership/full-movie-review.json",
     "status": "held_for_observed_ink_contact_defect",
+    "publishable": false
+  },
+  "current_preview": {
+    "sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+    "media_path": "examples/development/team-ownership/09-full-story-preview-v2.mp4",
+    "qa_record": "assets/stories/team-ownership/full-movie-review-v2.json",
     "publishable": false
   }
 }

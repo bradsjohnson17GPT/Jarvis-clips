@@ -1,6 +1,6 @@
 # Hand the Marker Back — complete development preview
 
-Current status: this v1 preview is held for a visible marker/ink endpoint gap discovered during the later every-frame drawing review. A [targeted 54-frame contact correction](2026-11-17-team-ownership-ink-contact-revision.md) is in progress. The earlier technical results and sampled findings below remain evidence for the existing v1 file; they are not an editorial release or proof that the new corrected movie exists.
+Current status: this v1 preview is held for a visible marker/ink endpoint gap discovered during the later every-frame drawing review. The [corrected v2 preview](2026-11-17-team-ownership-corrected-preview.md) now exists and its complete drawing sequence has been visually inspected. The earlier technical results and sampled findings below remain evidence for this existing v1 file; they are not an editorial release for either version.
 
 The [complete 21.08-second encoded preview](../../examples/development/team-ownership/06-full-story-preview.mp4) now exists. This is the same original teamwork concept, not another idea, a new reference discovery or a published Short. It remains outside the ready/posting queue pending actual real-time motion/pacing and soundtrack review and a final editorial release decision. No service draft, schedule or publication was created.
 
