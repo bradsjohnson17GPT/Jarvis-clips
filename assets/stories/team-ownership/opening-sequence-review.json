@@ -1,0 +1,197 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "prepared_at_utc": "2026-11-17T19:25:29.213249+00:00",
+  "status": "actual_encoded_opening_samples_visually_inspected",
+  "encoded_opening_sha256": "349399dfb365e2ca5c45fc3697b3a6e16b0854b04e25a93dedcffd9c3d4d49dd",
+  "sampled_frames": [
+    {
+      "frame": 1,
+      "story_time_seconds": 0.0,
+      "encoded_sample_png_sha256": "1bd2b7bc562327f006d76495d9c2f0092e06636e7122ae47ac305369b10cf141"
+    },
+    {
+      "frame": 7,
+      "story_time_seconds": 0.25,
+      "encoded_sample_png_sha256": "5da1a81668675dc1f7ee4d2443efb1c58107fae1332bcfdac0d6802c6d7dc93c"
+    },
+    {
+      "frame": 13,
+      "story_time_seconds": 0.5,
+      "encoded_sample_png_sha256": "0c0cf0e30d5f8fb9bb032a881ceb6ff058609108a5c3d3f1b231cd0cab478e6f"
+    },
+    {
+      "frame": 19,
+      "story_time_seconds": 0.75,
+      "encoded_sample_png_sha256": "b901cf5919f020cdd93e0c92038633ad9e350024c59467ccbefd60e4eea5a475"
+    },
+    {
+      "frame": 25,
+      "story_time_seconds": 1.0,
+      "encoded_sample_png_sha256": "211ad2d03da5456222c2876b86a3b6038c357f7ad236d1eacb89dc2bd2a18709"
+    },
+    {
+      "frame": 31,
+      "story_time_seconds": 1.25,
+      "encoded_sample_png_sha256": "0ff21f62b1f9988d164c9c35b68f49d14a79e9410fd5de3adb21c512a9db1955"
+    },
+    {
+      "frame": 37,
+      "story_time_seconds": 1.5,
+      "encoded_sample_png_sha256": "94487cf7bfbc0b1e1eca9f61e0a4d530ac317d79e3ae9c8946c813d38d616be0"
+    },
+    {
+      "frame": 43,
+      "story_time_seconds": 1.75,
+      "encoded_sample_png_sha256": "af6a0a7e5e0718e30d25ac5ab50007fe105b53351fe35b2692e6ae9677969879"
+    },
+    {
+      "frame": 49,
+      "story_time_seconds": 2.0,
+      "encoded_sample_png_sha256": "5e92122c461f335e4fd40625aaa1348723ddb0e2cc3fb2152dc3ec98d48c0584"
+    },
+    {
+      "frame": 55,
+      "story_time_seconds": 2.25,
+      "encoded_sample_png_sha256": "a88fde26a97dc09532b63e9de4ecd0fbb3f88425482f1d020606fb7e127ced32"
+    },
+    {
+      "frame": 61,
+      "story_time_seconds": 2.5,
+      "encoded_sample_png_sha256": "6c82d9c4595158e9227bfe7ae7e57001e99c2865f11c8b272622f108a362cef5"
+    },
+    {
+      "frame": 67,
+      "story_time_seconds": 2.75,
+      "encoded_sample_png_sha256": "e5a0705c99bed8f96d3695a6180fd083c0f9825b756b86489fe5b4c40bb92671"
+    },
+    {
+      "frame": 70,
+      "story_time_seconds": 2.875,
+      "encoded_sample_png_sha256": "ad7b0de498e13787b8ef08697f4894550f37881acb61a533207508c6ab891551"
+    },
+    {
+      "frame": 71,
+      "story_time_seconds": 2.9166666666666665,
+      "encoded_sample_png_sha256": "74693258a87682a2d1895d43c4f458decf3b1f2e7a1b19cc50ab1c9201004ad5"
+    },
+    {
+      "frame": 73,
+      "story_time_seconds": 3.0,
+      "encoded_sample_png_sha256": "3a47d0d0ee945f97c0a04703e62eb62ef2c7f9cc638b5ef72d596e02d454e780"
+    },
+    {
+      "frame": 79,
+      "story_time_seconds": 3.25,
+      "encoded_sample_png_sha256": "5695483754ef73be0ea703517b5e22c9b5e2eef556a04a250c38ffab3521418b"
+    },
+    {
+      "frame": 85,
+      "story_time_seconds": 3.5,
+      "encoded_sample_png_sha256": "5503813a4a0256a4ab9f0333a555cef9a3519e5818a09e0959767015d32ecb4c"
+    },
+    {
+      "frame": 91,
+      "story_time_seconds": 3.75,
+      "encoded_sample_png_sha256": "d026cecd5c4d0c7228a99addddc6c4c5c41b6f34b017e42816978247785f1943"
+    },
+    {
+      "frame": 97,
+      "story_time_seconds": 4.0,
+      "encoded_sample_png_sha256": "a430cd60a9cc37a37cd8cc75a802297aa4b504066f49bb984fc38a1b8edc35e8"
+    },
+    {
+      "frame": 103,
+      "story_time_seconds": 4.25,
+      "encoded_sample_png_sha256": "ad8be8f6e390d5c474505da77ef8ff663de8c57f82af47c92e526795188ec90c"
+    },
+    {
+      "frame": 109,
+      "story_time_seconds": 4.5,
+      "encoded_sample_png_sha256": "979140d677c1cdff06c5e9023e131b38dcaaed4b4a9d741b12ad9fbb03b7b11f"
+    },
+    {
+      "frame": 115,
+      "story_time_seconds": 4.75,
+      "encoded_sample_png_sha256": "3dacc52a2dbda2397fae08b0178cfd856ed00f4284a38e14f3597093c76afff6"
+    },
+    {
+      "frame": 118,
+      "story_time_seconds": 4.875,
+      "encoded_sample_png_sha256": "ce42a244610538283348dea0eeaa07f55316e5898b8f5dbb92a25837b420ac82"
+    },
+    {
+      "frame": 119,
+      "story_time_seconds": 4.916666666666667,
+      "encoded_sample_png_sha256": "79a0d3e3861669dfe5899162a7b92310b3fe41b022c14a6bcab2e2077240e8f6"
+    },
+    {
+      "frame": 121,
+      "story_time_seconds": 5.0,
+      "encoded_sample_png_sha256": "321f836222ab300fd6717a66af2494bb85aa46fa721c79ccbe499e5e588b3000"
+    },
+    {
+      "frame": 127,
+      "story_time_seconds": 5.25,
+      "encoded_sample_png_sha256": "0a2b93f0c642838807f647fa328cdb189cc6c73445380bd7d2ddbb9ca7437a21"
+    },
+    {
+      "frame": 133,
+      "story_time_seconds": 5.5,
+      "encoded_sample_png_sha256": "c70adb343c50539ca00298058493a724657a9968132198cd2483925bb080f6bf"
+    },
+    {
+      "frame": 139,
+      "story_time_seconds": 5.75,
+      "encoded_sample_png_sha256": "23fd06afe8cba2bd3ef21ffb0c4169f8fdd618ef4142ae77d52f3becc9d08312"
+    },
+    {
+      "frame": 145,
+      "story_time_seconds": 6.0,
+      "encoded_sample_png_sha256": "23a62d5e533304453c01b8fd47f3b034d0dd7bf2d072b281bc475508b8463bba"
+    },
+    {
+      "frame": 151,
+      "story_time_seconds": 6.25,
+      "encoded_sample_png_sha256": "69a12135fb44e132632b0344bf1da80d63eeb6123a869d334eb3f8d3c56113eb"
+    },
+    {
+      "frame": 157,
+      "story_time_seconds": 6.5,
+      "encoded_sample_png_sha256": "91526e0dfd4928acce6c8e1dc46a8bfac559f73953ed510c8450de88f418fc69"
+    },
+    {
+      "frame": 163,
+      "story_time_seconds": 6.75,
+      "encoded_sample_png_sha256": "0274f7b59841ab3a52f3e72d8402145168b5ef2236667eafefa72496997ce835"
+    },
+    {
+      "frame": 169,
+      "story_time_seconds": 7.0,
+      "encoded_sample_png_sha256": "7c48b632cd03c97f5bdbc68965b81b7403f15cd7f8707c7635ad74a366280c88"
+    },
+    {
+      "frame": 175,
+      "story_time_seconds": 7.25,
+      "encoded_sample_png_sha256": "daff2dfad44df8cfa912dcdd1eac4bc23a8c95e3de0500692921adaec0d09cd4"
+    },
+    {
+      "frame": 177,
+      "story_time_seconds": 7.333333333333333,
+      "encoded_sample_png_sha256": "30626763b425951b02381a3eda31ecbc06fa0c7f25b403266912a91ec9358bb9"
+    }
+  ],
+  "publishable": false,
+  "limits": "Actual encoded samples every six frames plus exact adjacent cut/end frames. Not continuous viewing or subjective audio listening; not a complete film.",
+  "reviewed_at_utc": "2026-11-17T19:26:08.223740+00:00",
+  "reviewed_by": "Project production assistant",
+  "full_story_editorial_pass": false,
+  "subjective_audio_listening_claimed": false,
+  "continuous_video_watching_claimed": false,
+  "actual_findings": [
+    "The wide opening establishes the two principal adult characters and their blue linked plan. The supporting third teammate is partly cropped at the left edge. The first part holds the setup; the leader starts turning toward the board around 1.75 seconds.",
+    "The exact adjacent encoded cut at frames 70/71 changes from the wide view to the leader crossing the plan. Sampled poses show both diagonal strokes progressively forming a readable X. The leader partly occludes the board and marker during the action; the visible strokes still communicate rejection.",
+    "The exact adjacent cut at 118/119 changes to the teal colleague with a downturned mouth; the later samples retain this disappointed reaction. This is restrained, largely held acting, not evidence of continuous expressive motion.",
+    "Illustration label and speech-timed white/gold captions remain readable in the 35 samples; they keep the main faces clear. Actual soundtrack listening and full-story pacing/impact are not established by extracted images."
+  ],
+  "private_artifacts": "Encoded source and extracted sample images retained privately; exact image hashes identify inspected frames."
+}

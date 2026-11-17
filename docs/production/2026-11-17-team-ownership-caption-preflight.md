@@ -15,6 +15,7 @@ A separate private test-pattern mux preserved the complete inspected AAC essence
 ```sh
 python scripts/assemble_team_story.py \
   --render-root work/preproduction/jocko-give-the-team-the-plan/native-94b5afc8a78a \
+  --patch-render-root work/preproduction/jocko-give-the-team-the-plan/postquote-974379894ff6 \
   --picture-input work/preproduction/jocko-give-the-team-the-plan/jocko-portrait-picture-only.mp4 \
   --audio work/preproduction/jocko-give-the-team-the-plan/mixed-preflight.m4a \
   --work work/preproduction/jocko-give-the-team-the-plan/final-assembly
@@ -23,3 +24,7 @@ python scripts/assemble_team_story.py \
 Without a video flag this prepares captions only. After all 343 original frames actually finish and have matching denoising receipts, add `--assemble --output` with a new task-owned candidate path. `--historical-preflight` is a mutually exclusive private layout test. No mode calls a publishing API or marks a candidate ready.
 
 [Caption validation](../../assets/stories/team-ownership/caption-validation.json) and [finishing plan](../../assets/stories/team-ownership/finishing-plan.json) contain the exact hashes and outstanding requirements. Forty denoised original frames were available at this preparation checkpoint; remaining native rendering/processing continues. All 23 existing project checks passed. No paid research, purchases, outreach or repeated approval prompt occurred.
+
+The subsequent [encoded opening sequence review](../../assets/stories/team-ownership/opening-sequence-review.json) inspects 35 extracted frames at quarter-second intervals plus the exact adjacent cut/end frames. It uses the existing 177-frame opening MP4, whose bytes were verified before extraction. The leader turns toward the board, both diagonal strokes form a readable X, and the cut to the colleague shows a downturned mouth. The leader partly blocks the board/marker; the opening setup and disappointed reaction contain substantial holds. The third teammate remains partly cropped at the left edge. Captions and the illustration label are readable in the samples. These are actual encoded images, not continuous watching or subjective audio listening; full-story pacing and impact remain for final review.
+
+The command now includes the separately pinned revised post-quote cache. Final assembly requires all 177 retained opening frames and 166 revised post-quote frames, plus the inspected historical picture and unchanged soundtrack. The later geometry review records 27 passing checks after the source-selection guard changed. No additional renderer change or repeated test run was needed for this expanded visual inspection.

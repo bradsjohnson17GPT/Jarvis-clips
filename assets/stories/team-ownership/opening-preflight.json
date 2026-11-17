@@ -11,7 +11,10 @@
   "expected_full_original_frames": 343,
   "picture_seconds": 7.375,
   "actual_container_seconds": 7.381,
-  "dimensions": [720, 1280],
+  "dimensions": [
+    720,
+    1280
+  ],
   "frame_rate": 24,
   "full_opening_decode_passed": true,
   "stereo_aac_48000": true,
@@ -19,7 +22,14 @@
   "full_audio_input_sha256": "fd2d1ce0320a4e9a879b32370cb5750859bc80220214146b70ab2edd4c4d20c1",
   "audio_reencoded": false,
   "partial_preflight_video_sha256": "349399dfb365e2ca5c45fc3697b3a6e16b0854b04e25a93dedcffd9c3d4d49dd",
-  "sample_times_seconds": [0.8, 2.2, 3.5, 4.5, 5.5, 6.8],
+  "sample_times_seconds": [
+    0.8,
+    2.2,
+    3.5,
+    4.5,
+    5.5,
+    6.8
+  ],
   "actual_sample_findings": [
     "Main colleague, leader, board and crossed-out plan are readable across the three opening camera setups.",
     "Illustration label and short white/gold captions are readable in these actual encoded samples and keep the principal faces clear.",
@@ -27,5 +37,8 @@
     "The later sampled close-ups hold the colleague's disappointed reaction. The complete acting, motion and payoff have not received a final review."
   ],
   "evidence_limits": "Six extracted encoded opening frames and full technical decode of this partial clip. Not continuous video viewing, subjective audio listening, a complete movie, full temporal review or a publication-quality verdict.",
-  "release_limits": "Private opening export/contact sheet are engineering evidence only and never uploads. The remaining native frames, complete assembly, source transition, final motion/captions/encoded audio/audience and actual editorial review remain."
+  "release_limits": "Private opening export/contact sheet are engineering evidence only and never uploads. The remaining native frames, complete assembly, source transition, final motion/captions/encoded audio/audience and actual editorial review remain.",
+  "additional_encoded_review": "assets/stories/team-ownership/opening-sequence-review.json",
+  "additional_actual_encoded_samples_inspected": 35,
+  "additional_review_at_utc": "2026-11-17T19:26:08.223740+00:00"
 }
