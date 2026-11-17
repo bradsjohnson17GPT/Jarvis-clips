@@ -1,0 +1,11 @@
+*.blend1
+*.log
+*.pfm
+audit*/
+*frames/
+*raw/
+*clean/
+*-work/
+frames/
+frozen-for-full.blend
+the-downward-beacon.blend
