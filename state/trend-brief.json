@@ -258,7 +258,7 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10\u2013285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "Reviewed opening is retained. Revised native samples show closed finger tips, improved return framing, visible marker contact and a connected new-node payoff. Eight actual revised poses are inspected; remaining native frames and the complete movie/motion/editorial review are still pending.",
+      "production_state": "Same source-frozen revised native render continues. All23handoff frames 419\u2013441 are now visually inspected: marker retained by teammate as leader withdraws and next cut preserves ownership. Full drawing motion, real-time pacing, complete assembly and final audio/editorial review remain.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
@@ -309,22 +309,27 @@
         453,
         478,
         498
-      ]
+      ],
+      "handoff_frame_review": "assets/stories/team-ownership/handoff-frame-review.json",
+      "handoff_all_closeup_frames_visually_inspected": true,
+      "subjective_audio_listening_claimed": false,
+      "continuous_video_watching_claimed": false
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T15:04:21.434385+00:00",
+  "production_reconciled_at_utc": "2026-11-17T19:05:26.806711+00:00",
   "latest_free_scout_check": {
-    "checked_at_utc": "2026-11-17T13:12:22.647165+00:00",
+    "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",
-    "method": "bounded_free_public_search_plus_reused_completed_reference_and_source_analyses",
-    "search_queries": 2,
-    "search_result": "No results returned for these queries. Not evidence of absent demand.",
+    "method": "free_first_party_page_text_and_bounded_policy_search_plus_reused_completed_reference_analyses",
+    "search_queries": 4,
+    "new_creator_policy_leads": 2,
+    "search_result": "Rockstar release date reconfirmed on official page. RTGame About timed out; SmallAnt About returned only generic footer. No verified commercial clipping grant, new current ranking or audience counter.",
     "new_current_rankings_verified": false,
     "new_view_observations": 0,
     "new_sources_cleared": 0,
     "new_paid_vidiq_calls": 0,
     "new_original_ideas_claimed": 0,
-    "notes": "docs/trends/2026-11-17-0500-quality-scout.md",
+    "notes": "docs/trends/2026-11-17-1100-quality-scout.md",
     "evidence_dates_preserved": true
   }
 }

@@ -1,0 +1,192 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "prepared_at_utc": "2026-11-17T18:57:02.711231+00:00",
+  "status": "actual_native_handoff_all_frames_visually_inspected",
+  "publishable": false,
+  "finished_movie": false,
+  "source_sha256": "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42",
+  "caption_sha256": "b9546ec0645f4a028c711fb5d1e2f1d25189dac75b60519215841f24932afc2e",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "frame_rate": 24,
+  "frames": [
+    {
+      "frame": 419,
+      "story_time_seconds": 17.416666666666668,
+      "raw_sha256": "ce30a77a0d949d8481c9ef36000826d32593636e86df14c3b39c70b7a8b7683a",
+      "denoised_sha256": "b1659755dc816673a685087148b90d5bf0137574628e85e78b1f314cec4ef5f3",
+      "captioned_sha256": "4a02d9844db3ec9826fafba7c480bbe5e1c13d2f12551a7c9ed05f1e32ace985"
+    },
+    {
+      "frame": 420,
+      "story_time_seconds": 17.458333333333332,
+      "raw_sha256": "6ebc765b20e1a5ca3d638ea6ba83c318f48c32a8f5d3ff09c1cfbe1de4bb8767",
+      "denoised_sha256": "4d6804029426321c9775e36c3f002820bb9bf02320cf8e00044a78c956f56733",
+      "captioned_sha256": "feab1d2b80d0f6dfe6745752eaef0ccc57bf4b3258f55523c1aaf9a4b4d4a97e"
+    },
+    {
+      "frame": 421,
+      "story_time_seconds": 17.5,
+      "raw_sha256": "2d1fd31ff7982698e19b128aefa662b84968df6b66d509170c292a9b18eafab4",
+      "denoised_sha256": "b8aed01b9c58ba451becd5c683a289974b71aaca30bda0e5d8eb90a69b2ff39b",
+      "captioned_sha256": "5f3596b746e8b4de1a7811f0c52d893f9ab132db8170be75acac94488104d617"
+    },
+    {
+      "frame": 422,
+      "story_time_seconds": 17.541666666666668,
+      "raw_sha256": "a3cd8a39ce23380e56559a262b2b91346be5953dd3b1435a798f4d25419530f0",
+      "denoised_sha256": "e474f50b788f8cb1d805528e00b89880708e8f0a926a6457dbb9d55106d7f29c",
+      "captioned_sha256": "12bff876dd7660ed986ee60ca660a5d83440b9180fefce39793e6d80410c35ef"
+    },
+    {
+      "frame": 423,
+      "story_time_seconds": 17.583333333333332,
+      "raw_sha256": "5346a88eb3d32f532f65bccc4dbac57fb747f2889004ed65bddfd9bed03efb7e",
+      "denoised_sha256": "512f19f6a7f86eafe5b658d4e8f894646118c37632b03772fb74d31b046a46ac",
+      "captioned_sha256": "38d6e6ae3f78808ba699bd4b6be8094cc230148c2407e5107b9622c3a81492a4"
+    },
+    {
+      "frame": 424,
+      "story_time_seconds": 17.625,
+      "raw_sha256": "310ec7f6ad5a69b2f9148e32aaad6fe00614a380b8d40620ce5296ae966c1cb9",
+      "denoised_sha256": "ab66fb2827415bffa6b0fc56fc058d9eb6de4a1e142c79366e2c63c65331ef7b",
+      "captioned_sha256": "de2d712c2a9b6543c61d8134a374ccf6818bf1398cfe1948e2434f33076e2e15"
+    },
+    {
+      "frame": 425,
+      "story_time_seconds": 17.666666666666668,
+      "raw_sha256": "0b5fc4bab94ae47a726f4287b118bd659600b65eb39396e02f0ec9fa526ff2b6",
+      "denoised_sha256": "8c36829195f588fbf822727c5221babaea818134317a443d66127d476916e145",
+      "captioned_sha256": "1cdf704e88f8c0ee961eddd78a32074bbcf8092932b138283f43a534d3b07bc4"
+    },
+    {
+      "frame": 426,
+      "story_time_seconds": 17.708333333333332,
+      "raw_sha256": "826a4f01b05eb57b93723a7cfcceffa76d7c92aa8d159ca27cfea372b7ab74b1",
+      "denoised_sha256": "70ac68aa7f39a1bb99c84690a771aab9ab233869dfd5e68c0d1a18f2fe51ecf8",
+      "captioned_sha256": "62fc6aeddc79fcc5f9d97a0e2bc7f55156459354c52e8a600effb72d86342942"
+    },
+    {
+      "frame": 427,
+      "story_time_seconds": 17.75,
+      "raw_sha256": "41a90bcaedcccd528c9c9d5e499821b2fb689dab08f66dc3e903f5969de90676",
+      "denoised_sha256": "db88f3d09613c278326be484f9892e75e844224d118aa5a7db361456fb19ad4c",
+      "captioned_sha256": "2bf2ee8800fcf1a08ff0732f6f477d50a937da20e5ad9c8c1dcdce6a6b35ad4d"
+    },
+    {
+      "frame": 428,
+      "story_time_seconds": 17.791666666666668,
+      "raw_sha256": "59c7e529cc1f359af165b2c1794b6d974465f6e8b07b5da5b9c8533de458b176",
+      "denoised_sha256": "5b21800ff8f6d475cfc049be8b075a5373ff803070ce853988ce888a6e937431",
+      "captioned_sha256": "8ddfca344897b1d7408c29472956e519f968e1df98cf16269bba52a56cab1532"
+    },
+    {
+      "frame": 429,
+      "story_time_seconds": 17.833333333333332,
+      "raw_sha256": "db48cd72911a0935fa41f53104e73072dbb213c5d64d0cd581988f512a02419d",
+      "denoised_sha256": "cda5b5ae4fd991d4f9f7a5f85f965182253e7de017733bff2be9d0fc26da24a3",
+      "captioned_sha256": "a600a432efcac3c1dba1d390f82bcd68a246b37f173e66eca51dd0f71308639e"
+    },
+    {
+      "frame": 430,
+      "story_time_seconds": 17.875,
+      "raw_sha256": "3ea03f1482f1957240dbe7416e7426ff14a051206453cb4374f7a2da4caf90b3",
+      "denoised_sha256": "edfd49c6061ee66ce095f6610ad66d1fffa7934075270d388de27752a621923e",
+      "captioned_sha256": "d697f4b5252646fa254800e9501be33a45a3cfd81b6dbb01e9354d3b8a10dd64"
+    },
+    {
+      "frame": 431,
+      "story_time_seconds": 17.916666666666668,
+      "raw_sha256": "5d3f1a0b74c42ff657a15f7760e32832b58a3e8607707a7aba722dffd2538848",
+      "denoised_sha256": "7b40ed71c5e5094910d900266eba0c05c8f1484aae409ad1ca12231167cda27b",
+      "captioned_sha256": "d36d663df125557b21408ff9f277ef839674da9d109281f1b29d0e48e1843c59"
+    },
+    {
+      "frame": 432,
+      "story_time_seconds": 17.958333333333332,
+      "raw_sha256": "d6d62899f1e29c0e4b9a0685ca9d602b98e79342dd4e47da119286bb88b9eab8",
+      "denoised_sha256": "d852b1ced2a5d3ba02ff90be83a70cab4dca5ccacc8309c7e76fadc4edf5b36e",
+      "captioned_sha256": "6d1764af219c810b02cb22642cd8ab648eac7b1e3c12d02fbb2c458d299013b4"
+    },
+    {
+      "frame": 433,
+      "story_time_seconds": 18.0,
+      "raw_sha256": "b9c525d8362c1d57a050897b40fd115f5ff352cfee0a9c653e44765ba353a7fe",
+      "denoised_sha256": "5074e6e95025014df65fb4a39f39c14cc2ceff6e67a204ed051a6cc7bcdf6a0e",
+      "captioned_sha256": "a773996eb9a066e52dbf446d72c9e3e88462cf6676eac27cce401283a7e81f2d"
+    },
+    {
+      "frame": 434,
+      "story_time_seconds": 18.041666666666668,
+      "raw_sha256": "730dda29a8106525d61c72943aaa18aec76cce796a8c67b83bf04480b34892e7",
+      "denoised_sha256": "ccfded96d0d46b4e4f11a0634be6a47a1d6158c56a12bfec10753b333e234f1a",
+      "captioned_sha256": "02958234b75a4fed595d81728052318fa3f1140bf316712842310a1c783bb914"
+    },
+    {
+      "frame": 435,
+      "story_time_seconds": 18.083333333333332,
+      "raw_sha256": "4f2f016e44c2d547cb3248c20df76ce3f8f156d52b966950cf15672cf8df119f",
+      "denoised_sha256": "98b5100d8ba774006112530737e2f741e9639246c09c9db82b15a3695fe745d6",
+      "captioned_sha256": "12816445f29b27045629bdacfa5f9bc71e0c28f6671d2137538fabb5020be2e3"
+    },
+    {
+      "frame": 436,
+      "story_time_seconds": 18.125,
+      "raw_sha256": "6c8bdda4af64fe88b7aec62d314521d5afd588c7ccd4006c0e29aa3c08d00293",
+      "denoised_sha256": "962371b8631840e1c7b97104fc7724afbc659e7eacb4ed9a5b65455c5ad1a034",
+      "captioned_sha256": "48cf0cca4c7acd5bcffa5c37954bbe85649f88b98fd106e562eb979a7459ceda"
+    },
+    {
+      "frame": 437,
+      "story_time_seconds": 18.166666666666668,
+      "raw_sha256": "b137c36f2331841a837e875619a863b6a0fc6700a032e8f0ca9b2b00b75052d0",
+      "denoised_sha256": "4f46b8c86f24663e2635bbc63881c4e97b16b24c1f921110d06e7579602463bb",
+      "captioned_sha256": "ce991894aef468a9b03f2b2289234b34bd0730a00db05bbef1982ad2b3dc512c"
+    },
+    {
+      "frame": 438,
+      "story_time_seconds": 18.208333333333332,
+      "raw_sha256": "657bb339269c742d2a43c7ee51cb76ec83c562c6ac7becc948715d78e3205694",
+      "denoised_sha256": "f08e5bf969549fb517253d2f0cf65de867d1baf114dc09185663c636275534e1",
+      "captioned_sha256": "d94420f1f689ec13101120d07e1616ad5fdf11ee3d6977455b81db2b7134aae8"
+    },
+    {
+      "frame": 439,
+      "story_time_seconds": 18.25,
+      "raw_sha256": "c34877e0d7a1913f431cf31ce2488506144a0c2b36bc4fba8e3c1c27da43688f",
+      "denoised_sha256": "76dddf6c226a4289d1604bc66a5b3d7d511c1ee84360e142afa5cddc4a6302a2",
+      "captioned_sha256": "59375f93d08471926600bd46a0e2dd61df3f948386946ffd65656596ad7aedf4"
+    },
+    {
+      "frame": 440,
+      "story_time_seconds": 18.291666666666668,
+      "raw_sha256": "785ce89187917f00e893ae021cf79ffb5f1d18ec84600f2cf5766ea7e2833c93",
+      "denoised_sha256": "60b1f7693bd36ef520564f978fa262a17e4b211abbb7b0809e4caf309c9f73fe",
+      "captioned_sha256": "ce4f59b8017f9deb23ba56a35a1cccb3b2f79989875b2c0be28cb1938788fffd"
+    },
+    {
+      "frame": 441,
+      "story_time_seconds": 18.333333333333332,
+      "raw_sha256": "5f718cd594723810e995b2e0e1b904cfcacaa5279fc9b070c915ef53fb36d93a",
+      "denoised_sha256": "c8d4fa439daf66fa9878afa5e2860d6f2c76a7ff0d20cfaf6dd9c4df5885a0d3",
+      "captioned_sha256": "5e3b42e3e8469693e80d2b3451ee8cb3259ccb666315254e4fb6e5bc9f109c5d"
+    }
+  ],
+  "coverage": "All 23 native frames 419\u2013441 inspected with the existing timed captions: preceding wide frame419, complete close-up 420\u2013439, and next-shot frames440\u2013441.",
+  "limits": "Actual frame-by-frame visual review, not real-time playback or subjective audio listening. Full assembled story, source transitions, encoded audio and final editorial review remain.",
+  "reviewed_at_utc": "2026-11-17T19:04:06.906909+00:00",
+  "reviewed_by": "Project production assistant",
+  "frame_by_frame_visual_review": true,
+  "continuous_real_time_playback": false,
+  "subjective_audio_listening": false,
+  "full_story_editorial_pass": false,
+  "actual_findings": [
+    "The marker remains visible between the hands through the close-up. The teal-sleeved teammate keeps it as the leader withdraws the right-hand grip across frames 434\u2013439.",
+    "The cut at 440 preserves the marker with the teal-sleeved teammate; the next drawing action and full story still require final review.",
+    "Finger/thumb ends remain closed and rounded throughout these frames. Captions are readable and keep the marker clear; the preceding top caption fades before the bottom marker-back caption.",
+    "The near-static shared contact followed by withdrawal is visually coherent across the inspected frames. Frame-by-frame inspection does not establish real-time pacing, full-story acting or subjective audio quality."
+  ],
+  "artifact_location": "Task-owned private native and captioned images retained in ignored work; per-frame hashes below identify the exact inspected pictures."
+}

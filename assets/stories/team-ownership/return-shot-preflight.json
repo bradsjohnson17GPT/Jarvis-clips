@@ -2,7 +2,7 @@
   "id": "jocko-give-the-team-the-plan",
   "reviewed_at_utc": "2026-11-17T17:08:54.014246+00:00",
   "reviewed_by": "Project production assistant",
-  "status": "native_critical_pose_samples_inspected_full_sequence_pending",
+  "status": "all_native_handoff_closeup_frames_inspected_full_sequence_pending",
   "publishable": false,
   "finished_short": false,
   "full_story_editorial_pass": false,
@@ -22,7 +22,7 @@
     "The marker is largely occluded by the near hand in this wide return-shot sample; a readable marker transfer is not established by this frame.",
     "The colleague at the left edge is partly cropped. The handoff, full character acting and narrative continuity remain subject to complete-story review."
   ],
-  "next_review": "Complete all 166 revised post-quote frames, then inspect native contact/ownership change around frames 426\u2013432, drawing and the actual full assembled sequence. A readable early close-up does not establish the later transfer or final quality.",
+  "next_review": "Complete the same 166-frame revision render, denoise matching inputs and assemble the exact full story. Review actual drawing motion, real-time cuts/acting, source synchronization, encoded sound and final editorial quality.",
   "evidence_limits": "One actual native frame with existing caption timing applied; not continuous viewing, temporal review, subjective audio listening or a finished movie. Previous low-resolution development motion samples do not settle native prop visibility.",
   "revision_review": {
     "reviewed_at_utc": "2026-11-17T17:21:39.795509+00:00",
@@ -117,6 +117,7 @@
     "full_movie_exists": false,
     "editorial_release_pass": false
   },
-  "total_revised_native_samples_inspected": 8,
-  "baseline_sample_note": "Top-level native_frame and sample hashes preserve the initial baseline frame408. The nested revision_review and critical_pose_review describe the revised974379894ff6 source."
+  "total_revised_native_samples_inspected": 27,
+  "baseline_sample_note": "Top-level native_frame and sample hashes preserve the initial baseline frame408. The nested revision_review and critical_pose_review describe the revised974379894ff6 source.",
+  "handoff_frame_review": "assets/stories/team-ownership/handoff-frame-review.json"
 }

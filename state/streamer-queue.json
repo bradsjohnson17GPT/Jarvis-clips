@@ -47,11 +47,37 @@
       "reviewed_on": "2026-11-16",
       "review_again_after": "2026-11-23",
       "recheck_earlier_if_new_first_party_evidence": true
+    },
+    {
+      "name": "RTGame",
+      "status": "hold_unverified_first_party_policy",
+      "official_page_attempt": "https://www.youtube.com/@RTGame/about",
+      "evidence_type": "metadata_search_and_failed_first_party_page_request",
+      "reason": "No authenticated commercial clipping grant read. Direct About request timed out; unrelated and third-party snippets do not clear creator/game/audio/access rights.",
+      "reviewed_on": "2026-11-17",
+      "review_again_after": "2026-11-24",
+      "recheck_earlier_if_new_first_party_evidence": true,
+      "publishable": false,
+      "notes": "docs/trends/2026-11-17-1100-quality-scout.md"
+    },
+    {
+      "name": "SmallAnt",
+      "status": "hold_unverified_first_party_policy",
+      "official_page_attempt": "https://www.youtube.com/@Smallant/about",
+      "evidence_type": "metadata_search_and_first_party_page_footer_only",
+      "reason": "Direct About request returned only a generic YouTube footer from an older crawl, with no readable creator policy. No commercial creator/game/audio/access clearance verified.",
+      "reviewed_on": "2026-11-17",
+      "review_again_after": "2026-11-24",
+      "recheck_earlier_if_new_first_party_evidence": true,
+      "publishable": false,
+      "notes": "docs/trends/2026-11-17-1100-quality-scout.md"
     }
   ],
   "technical_blockers": [
     "No connected Twitch app/access token established in this run.",
     "Official clip download and VOD clipping need broadcaster/editor authorization; unrelated viewer authorization is insufficient.",
     "Available public reader could not reliably render Twitch Help UI or YouTube About policy text."
-  ]
+  ],
+  "last_free_policy_check_at_utc": "2026-11-17T19:05:26.806711+00:00",
+  "new_creator_leads_checked_this_run": 2
 }

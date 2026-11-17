@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "reviewed_at_utc": "2026-11-17T13:37:40.794152+00:00",
-  "status": "native_postquote_geometry_revision_samples_inspected_full_render_in_progress",
+  "status": "native_handoff_all_frames_inspected_full_sequence_still_rendering",
   "publishable": false,
   "scene_source": "assets/stories/team-ownership/revisions/scene-94b5afc8a78a.py",
   "scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
@@ -30,11 +30,10 @@
     "23 existing renderer tests passed after final source changes."
   ],
   "unresolved_editorial_findings": [
-    "Full native24fps sequence and final edit remain incomplete/uninspected.",
-    "Character acting/grips and full temporal consistency require final editorial review; sampled frames are insufficient.",
-    "Denoising is validated on samples and15completed frames; remaining frames and temporal inspection are outstanding.",
-    "Historical picture is prepared, but full assembly, actual timed captions/context notices and soundtrack readback remain.",
-    "Actual revised native contact poses show a visible marker, and later drawing poses show a connected new node. The full release/withdrawal motion, cuts, acting and final sequence remain unreviewed; the drawing shot partly crops the board heading but leaves the payoff visible."
+    "Full native24fps sequence and assembled edit remain incomplete; real-time pacing, character acting, source transitions and final editorial review are outstanding.",
+    "The revised handoff and adjacent cuts are now inspected frame by frame, including the leader withdrawing while the teammate retains the marker. This is visual evidence, not continuous playback or subjective soundtrack listening.",
+    "The drawing-shot board heading is partly cropped, while sampled native poses show a visible connected new node. The complete drawing motion and final payoff still need review.",
+    "All 177 opening frame receipts are retained; the remaining 166-frame revised postquote render and denoising must finish before exact 506-frame assembly and final encoded QA."
   ],
   "next_material_change": "Complete the currently active source-frozen native frame render without starting a duplicate, then assemble/inspect the real final picture, source excerpt, captions and soundtrack. Do not count this motion test as a finished Short.",
   "audio_preflight_record": "assets/stories/team-ownership/audio-preflight.json",
@@ -117,7 +116,7 @@
       506
     ],
     "expected_frames": 166,
-    "status": "eight_native_samples_inspected_remaining_revision_frames_rendering",
+    "status": "all_handoff_closeup_frames_inspected_remaining_revision_frames_rendering",
     "changes": [
       "Closed finger/thumb curve ends and added rounded matching skin tips.",
       "Return-shot focal length49mm instead of53mm for more room around the main colleague."
@@ -127,14 +126,36 @@
     "editorial_pass": false,
     "actual_native_samples_inspected": [
       408,
+      419,
       420,
+      421,
+      422,
+      423,
+      424,
+      425,
       426,
+      427,
+      428,
       429,
+      430,
+      431,
       432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
       453,
       478,
       498
     ],
-    "closed_ends_and_framing_sample_check_passed": true
-  }
+    "closed_ends_and_framing_sample_check_passed": true,
+    "all_handoff_closeup_frames_visually_inspected": true
+  },
+  "latest_native_review_at_utc": "2026-11-17T19:04:06.906909+00:00",
+  "handoff_frame_review": "assets/stories/team-ownership/handoff-frame-review.json"
 }
