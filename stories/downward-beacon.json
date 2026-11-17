@@ -1,6 +1,6 @@
 {
   "id": "downward-beacon",
-  "status": "finished_revised_pilot_not_scheduled",
+  "status": "scheduled_pending",
   "title": "The Lighthouse Was Pointing the Wrong Way",
   "content_type": "fictional_micro_stories",
   "hook_type": "impossible_world_question",
@@ -37,7 +37,7 @@
     "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
     "start": 122
   },
-  "description": "An original fictional short set in a town above the clouds. Original story, character designs, 3D scenes and editing. Synthetic stock narration; no real speaker impersonated.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and mixed under narration and original sound design.\nNo endorsement by the composer is implied.",
+  "description": "An original fictional short set in a town above the clouds. Original story, character designs, 3D scenes and editing. AI-generated synthetic stock narration; no real speaker impersonated.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and mixed under narration and original sound design.\nNo endorsement by the composer is implied.",
   "publication_evidence": null,
   "pacing": {
     "opening_silence": 0.2,
@@ -94,5 +94,18 @@
   },
   "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/023cfcd091214a61abdbaff5a004fe2916e8ff43/media/quality/downward-beacon.mp4",
   "public_host_bytes_verified": true,
-  "public_host_verified_at": "2026-11-17T02:33:44.656688+00:00"
+  "public_host_verified_at": "2026-11-17T02:33:44.656688+00:00",
+  "scheduling_evidence": {
+    "scheduler": "Metricool",
+    "scheduler_post_id": "430932108",
+    "scheduler_uuid": "-6469427507233863401",
+    "publication_date": "2026-11-16T20:00:00-08:00",
+    "timezone": "America/Los_Angeles",
+    "provider_status": "PENDING",
+    "draft": false,
+    "auto_publish": true,
+    "verified_at_utc": "2026-11-17T02:40:25.160Z",
+    "imported_bytes_match": true,
+    "evidence": "Metricool accepted the new finished pilot, imported the exact reviewed MP4, and a follow-up readback confirmed YouTube PENDING, draft=false and autoPublish=true at the retained original slot. No PUBLISHED status or public URL was returned; the earlier account publishing limit is not proven recovered."
+  }
 }

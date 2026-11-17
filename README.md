@@ -1,6 +1,6 @@
-Current revised pilot: [The Downward Beacon — finished video with sound](media/quality/downward-beacon.mp4). Its original scene sources, score credit and measured QA are recorded in [media/quality](media/quality/README.md). The rejected bulk batch stays held; this link is a finished preview, not publication evidence.
+Current revised pilot: [The Lighthouse Was Pointing the Wrong Way — finished video with sound](media/quality/downward-beacon.mp4). Scheduled for November 16 at 8 p.m. Pacific; Metricool confirms **PENDING**, not published. [Scheduling and import verification](docs/production/2026-11-16-revised-pilot.md). Source records and measured QA are in [media/quality](media/quality/README.md). The rejected bulk batch stays held.
 
-> Quality reset, November 16: the owner rejected the previous format. The 30 unpublished posts are now held as drafts with automatic publication disabled. Ten earlier posts were confirmed published. No old draft should be re-enabled to fill a quota. See [quality direction](docs/quality.md).
+> Quality reset, November 16: the owner rejected the previous format. The 30 rejected unpublished posts were held as drafts. One held slot now contains a genuinely new reviewed pilot; the other 29 remain held. Ten earlier posts were confirmed published. No old draft should be re-enabled to fill a quota. See [quality direction](docs/quality.md).
 
 # Jarvis Clips
 
