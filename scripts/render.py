@@ -183,6 +183,7 @@ def main():
     parser.add_argument("--output", type=Path, default=Path("output"))
     parser.add_argument("--validate-only", action="store_true")
     parser.add_argument("--silent", action="store_true", help="Internal base render only; not approved for new publication")
+    parser.add_argument("--legacy-reproduction", action="store_true", help="Reproduce archived files only; never approval for a new post")
     parser.add_argument("--model", type=Path, default=Path(os.environ.get("JARVIS_VOICE_MODEL", Path(__file__).resolve().parents[1] / "work/models/en_US-ljspeech-high.onnx")))
     parser.add_argument("--music-file", type=Path, help="Use the reviewed licensed track already downloaded")
     args = parser.parse_args()
@@ -190,6 +191,11 @@ def main():
     if args.validate_only:
         print(f"Valid manifest: {spec['id']} (rights declaration checked; not independent proof of rights)")
         return
+    quality_path = Path(__file__).resolve().parents[1] / "config/quality.json"
+    if quality_path.exists():
+        quality = json.loads(quality_path.read_text())
+        if quality.get("mode") == "quality_reset" and not args.legacy_reproduction:
+            parser.error("The owner retired this stock-card format. Use the scene-based story pipeline; --legacy-reproduction is only for archived-file reproduction.")
     for program in ("ffmpeg", "ffprobe"):
         if not shutil.which(program):
             parser.error(f"{program} must be installed")

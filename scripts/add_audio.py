@@ -191,7 +191,11 @@ def main():
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--model", type=Path, default=ROOT / "work/models/en_US-ljspeech-high.onnx")
     parser.add_argument("--music-file", type=Path, help="Use the reviewed licensed track already downloaded")
+    parser.add_argument("--legacy-reproduction", action="store_true", help="Reproduce archived files only; not for new publication")
     args = parser.parse_args()
+    quality_path = ROOT / "config/quality.json"
+    if quality_path.exists() and json.loads(quality_path.read_text()).get("mode") == "quality_reset" and not args.legacy_reproduction:
+        parser.error("The old Piper narrator is retired. Use story_audio.py for new production.")
     from piper import PiperVoice
     from render import validate
     settings = json.loads((ROOT / "config/audio.json").read_text())

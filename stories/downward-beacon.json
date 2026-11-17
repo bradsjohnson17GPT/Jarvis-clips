@@ -1,0 +1,62 @@
+{
+  "id": "downward-beacon",
+  "status": "in_production_quality_preview",
+  "title": "The Lighthouse Was Pointing the Wrong Way",
+  "content_type": "fictional_micro_stories",
+  "hook_type": "impossible_world_question",
+  "audience_intent": "Teens and adults who enjoy short fantasy/mystery fiction. Classify the actual final edit before publication.",
+  "narration": "Our town had a lighthouse. But there was no ocean. Every night, I lit it anyway. Then a paper boat landed beside me. There was a message inside. Turn the beam down. So I did. The clouds opened. And far below... another lighthouse answered. We weren't alone. We'd just been looking the wrong way.",
+  "voice_config": "config/natural-voice.json",
+  "visual_source": {
+    "identity": "Original Downward Beacon Blender scene",
+    "creator": "Project production assistant",
+    "rights_verified": true,
+    "rights_basis": "Original character geometry, scene construction, animation and script; no third-party meshes, game footage, character IP or reference assets reused.",
+    "source_files": "Pending final scene inspection and archive"
+  },
+  "references_for_structure_only": [
+    "https://www.youtube.com/watch?v=VVU3GLgk-R0",
+    "https://www.instagram.com/reel/Dfz8bmkMIiu/"
+  ],
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 288
+  },
+  "description": "An original fictional short set in a town above the clouds. Original story, character designs, 3D scenes and editing. Synthetic stock narration; no real speaker impersonated.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and mixed under narration and original sound design.\nNo endorsement by the composer is implied.",
+  "publication_evidence": null,
+  "pacing": {
+    "opening_silence": 0.2,
+    "ending_silence": 1.5,
+    "insert_after": {
+      "lighthouse.": 0.13,
+      "ocean.": 0.52,
+      "anyway.": 0.39,
+      "me.": 0.585,
+      "inside.": 0.455,
+      "down.": 0.52,
+      "did.": 0.39,
+      "opened.": 0.91,
+      "below...": 0.455,
+      "answered.": 0.78,
+      "alone.": 0.325
+    }
+  },
+  "narration_paragraphs": [
+    "Our town had a lighthouse. But there was no ocean. Every night, I lit it anyway.",
+    "Then a paper boat landed beside me. There was a message inside. Turn the beam down. So I did.",
+    "The clouds opened. And far below... another lighthouse answered. We weren't alone. We'd just been looking the wrong way."
+  ]
+}
