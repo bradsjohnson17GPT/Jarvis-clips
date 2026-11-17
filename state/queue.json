@@ -2183,7 +2183,7 @@
     {
       "clip_id": "downward-beacon",
       "title": "The Lighthouse Was Pointing the Wrong Way",
-      "status": "scheduled_pending",
+      "status": "draft_publication_blocked",
       "scheduler": "Metricool",
       "provider": "youtube",
       "provider_status": "PENDING",
@@ -2220,18 +2220,28 @@
       "synthetic_narration_disclosed": true,
       "ai_generated_content_label": true,
       "music_attribution_in_description": true,
-      "scheduler_post_id": "430932108",
+      "scheduler_post_id": "430977994",
       "scheduler_uuid": "-6469427507233863401",
-      "draft": false,
-      "auto_publish": true,
+      "draft": true,
+      "auto_publish": false,
       "do_not_reschedule": true,
       "scheduling_verified_at": "2026-11-17T02:40:25.160Z",
       "import_verified_at": "2026-11-17T02:40:27.168405+00:00",
       "imported_bytes": 7312826,
       "imported_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
       "replaced_clip_id": "next17-armstrong-first-step",
-      "evidence": "Metricool accepted the new finished pilot, imported the exact reviewed MP4, and a follow-up readback confirmed YouTube PENDING, draft=false and autoPublish=true at the retained original slot. No PUBLISHED status or public URL was returned; the earlier account publishing limit is not proven recovered.",
-      "inspection": "Accepted as one revised original scene-based development pilot. All eight captioned shots reviewed, full decode and measured audio/timing checks passed. Native 720x1280; hybrid motion sampling, stylized block-world and documented softness/framing limitations retained."
+      "evidence": "The 8 p.m. publication attempt returned ERROR: You have reached your Metricool account limit. The same failed post was saved as a draft with automatic publication disabled, retaining its UUID/time. Its current draft provider status is PENDING; that save does not erase the failure or establish publication.",
+      "inspection": "Accepted as one revised original scene-based development pilot. All eight captioned shots reviewed, full decode and measured audio/timing checks passed. Native 720x1280; hybrid motion sampling, stylized block-world and documented softness/framing limitations retained.",
+      "publication_failure_history": [
+        {
+          "scheduled_for": "2026-11-16T20:00:00-08:00",
+          "observed_at_utc": "2026-11-17T04:04:12Z",
+          "provider_status": "ERROR",
+          "message": "You have reached your Metricool account limit.",
+          "publication_confirmed": false
+        }
+      ],
+      "last_publication_error": "You have reached your Metricool account limit."
     }
   ]
 }

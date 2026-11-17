@@ -3,7 +3,7 @@
     {
       "verified_at_utc": "2026-11-17T02:33:44.656688+00:00",
       "clip_id": "downward-beacon",
-      "status": "scheduled_pending",
+      "status": "publication_blocked",
       "manifest": "stories/downward-beacon.json",
       "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/023cfcd091214a61abdbaff5a004fe2916e8ff43/media/quality/downward-beacon.mp4",
       "video_sha256": "f8b606d55567a47eab62e2c3dbfcaeba8ed686194c89dcd5f4da9dd4d1035c28",
@@ -15,7 +15,7 @@
       "source_path": "media/quality/downward-beacon-source.json",
       "publication_evidence": null,
       "publication_actor": "production",
-      "instructions": "Already scheduled as the one reviewed revised pilot. Do not duplicate or reschedule. Check actual provider result after the due time; require PUBLISHED and a public URL before marking published. Keep all remaining rejected old media held and bulk scheduling disabled.",
+      "instructions": "Finished media remains valid. Metricool publication failed and is held. Do not duplicate, retry blindly or reactivate old media. Owner is connecting the intended original channel for an authorized direct route; verify exact channel identity and absence of prior publication before any direct attempt.",
       "scheduling_evidence": {
         "scheduler": "Metricool",
         "scheduler_post_id": "430932108",
@@ -28,6 +28,17 @@
         "verified_at_utc": "2026-11-17T02:40:25.160Z",
         "imported_bytes_match": true,
         "evidence": "Metricool accepted the new finished pilot, imported the exact reviewed MP4, and a follow-up readback confirmed YouTube PENDING, draft=false and autoPublish=true at the retained original slot. No PUBLISHED status or public URL was returned; the earlier account publishing limit is not proven recovered."
+      },
+      "publication_failure": {
+        "observed_at_utc": "2026-11-17T04:04:12Z",
+        "message": "You have reached your Metricool account limit.",
+        "provider_status": "ERROR"
+      },
+      "holding_evidence": {
+        "scheduler_post_id": "430977994",
+        "draft": true,
+        "auto_publish": false,
+        "uuid_retained": true
       }
     }
   ]

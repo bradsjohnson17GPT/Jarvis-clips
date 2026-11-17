@@ -11,3 +11,7 @@ The imported MP4 returned HTTP 200, 7,312,826 bytes and SHA-256 `f8b606d55567a47
 An initial connector attempt failed before reaching Metricool because its optional local-file upload argument was given an HTTP URL. A corrected request omitted that argument and used the external media URL in the post, which Metricool imported successfully. Full requests, responses and media/import receipts remain private under ignored `work/quality/`.
 
 After the scheduled time, check the actual provider outcome. Mark published only after a `PUBLISHED` status and public URL; record any exact account-limit or other failure without buying capacity or adding duplicates.
+
+## Actual 8 p.m. outcome
+
+At 8:04 p.m. Pacific, Metricool returned YouTube ERROR: “You have reached your Metricool account limit.” No public URL was returned and publication was not confirmed. The same failed post was saved in place as a draft with automatic publication disabled; numeric ID is now `430977994`, UUID retained. The draft save reset its displayed provider status to PENDING, which does not mean the failed publication succeeded. Actual readback now shows 10 earlier published records, 30 held drafts and zero automatic pending posts. The finished MP4 remains unchanged and available. No capacity or service upgrade was purchased. A direct publishing fallback awaits the intended original channel connection; no alternate-channel upload was made.
