@@ -8,7 +8,7 @@ Original portrait stories and motivational editorial Shorts, with source-specifi
 
 The earlier Metricool attempt failed at its account limit. That duplicate remains held, with automatic publication disabled, alongside 29 rejected old drafts. A draft save does not establish publication. Never reactivate these videos or publish the revised pilot again. `state/queue.json` and `state/ready-candidates.json` contain sanitized durable evidence; API receipts remain private in ignored `work/`.
 
-Next inspected motivational preview: [Before the First Step — watch with sound](https://share.descript.com/view/9qEENGNf6Ix). One direct YouTube draft is ready, awaiting its connector-required final-draft approval; it is not scheduled or published. [Exact description and credits](docs/production/before-the-first-step-description.md).
+New motivational Short: [Before the First Step | JFK Motivation — LIVE on YouTube](https://www.youtube.com/watch?v=cem3Beva7OE). Direct publisher completed November 16 at 11:21 p.m. Pacific after the owner approved the shown draft. Twelve pieces of project work are now confirmed published, including ten earlier videos and the two revised pilots. Never duplicate either revised clip/hash. [Description and credits](docs/production/before-the-first-step-description.md).
 
 ## Quality and selection
 

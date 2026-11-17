@@ -1,6 +1,6 @@
 {
   "id": "before-the-first-step",
-  "status": "inspected_preview_not_youtube_published",
+  "status": "inspected_and_publication_confirmed",
   "verified_at_utc": "2026-11-17T07:09:57.424149+00:00",
   "duration_seconds": 25.871,
   "width": 720,
@@ -43,5 +43,19 @@
     },
     "quality_limit": "Technical checks and public example views do not prove compelling delivery, a channel winner or guaranteed views."
   },
-  "publication_evidence": null
+  "publication_evidence": {
+    "publisher": "vidIQ direct YouTube",
+    "status": "completed",
+    "public_url": "https://www.youtube.com/watch?v=cem3Beva7OE",
+    "service_started_at_utc": "2026-11-17T07:21:22.408885Z",
+    "service_completed_at_utc": "2026-11-17T07:21:24.164939Z",
+    "verified_at_utc": "2026-11-17T07:26:35.932728+00:00",
+    "scheduled_for": null,
+    "failure": null,
+    "exact_youtube_published_at": null,
+    "imported_bytes_match": true,
+    "owner_approved_exact_draft": true,
+    "approval_basis": "Owner replied after the final draft/preview/target/description were shown, instructing to just post good videos without another confirmation.",
+    "credits_used": 0
+  }
 }

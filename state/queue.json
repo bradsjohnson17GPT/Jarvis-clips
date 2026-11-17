@@ -2271,13 +2271,13 @@
     {
       "clip_id": "before-the-first-step",
       "title": "Before the First Step | JFK Motivation",
-      "status": "direct_draft_ready_required_approval",
+      "status": "published",
       "scheduler": "vidIQ direct YouTube",
       "provider": "youtube",
-      "provider_status": "draft",
+      "provider_status": "completed",
       "publication_date": null,
       "actual_publication_date": null,
-      "public_url": null,
+      "public_url": "https://www.youtube.com/watch?v=cem3Beva7OE",
       "content_type": "motivational",
       "hook_type": "historical_promise_to_action",
       "duration": 25.871,
@@ -2304,10 +2304,28 @@
       "music_attribution_in_description": true,
       "do_not_duplicate_draft": true,
       "direct_draft_record": "work/quality/motivational-direct-draft.json",
-      "draft_ready": true,
-      "owner_approved_this_final_draft": false,
-      "publication_evidence": null,
-      "evidence": "Final local/public/vidIQ imported MP4 bytes agree. The free direct post draft is ready, with no scheduled time and no publication. It is awaiting the connector-required approval after the prepared final version is shown."
+      "draft_ready": false,
+      "owner_approved_this_final_draft": true,
+      "publication_evidence": {
+        "publisher": "vidIQ direct YouTube",
+        "status": "completed",
+        "public_url": "https://www.youtube.com/watch?v=cem3Beva7OE",
+        "service_started_at_utc": "2026-11-17T07:21:22.408885Z",
+        "service_completed_at_utc": "2026-11-17T07:21:24.164939Z",
+        "verified_at_utc": "2026-11-17T07:26:35.932728+00:00",
+        "scheduled_for": null,
+        "failure": null,
+        "exact_youtube_published_at": null,
+        "imported_bytes_match": true,
+        "owner_approved_exact_draft": true,
+        "approval_basis": "Owner replied after the final draft/preview/target/description were shown, instructing to just post good videos without another confirmation.",
+        "credits_used": 0
+      },
+      "evidence": "Unchanged reviewed draft was published after the owner reply; publisher completed with public URL and no failure. Never publish this clip/hash again.",
+      "publication_verified_at": "2026-11-17T07:26:35.932728+00:00",
+      "confirmed_publication_day": "2026-11-16",
+      "confirmed_publication_day_basis": "Publisher completed timestamp in America/Los_Angeles; exact YouTube publishedAt not supplied.",
+      "do_not_reschedule": true
     }
   ]
 }

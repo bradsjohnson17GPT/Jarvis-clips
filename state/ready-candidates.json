@@ -68,7 +68,7 @@
     },
     {
       "clip_id": "before-the-first-step",
-      "status": "direct_draft_ready_required_approval",
+      "status": "published",
       "manifest": "stories/before-the-first-step.json",
       "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/cc318cd9996b027074ac3624adeb38321873eb40/media/quality/before-the-first-step.mp4",
       "video_sha256": "b58abe2690d7048f0bd2519ed79c33c67bda219819a1d32b8bfb8b13b59b5927",
@@ -81,8 +81,22 @@
       "source_path": "media/quality/before-the-first-step-source.json",
       "preview_url": "https://share.descript.com/view/9qEENGNf6Ix",
       "publication_actor": "production",
-      "publication_evidence": null,
-      "instructions": "Exactly one ready direct draft exists in ignored work/quality/motivational-direct-draft.json. The connector explicitly requires approval after showing this prepared version. Do not publish before that reply, call it scheduled, duplicate its draft, recreate it or reactivate old media. Full title/description/tags/privacy are in the manifest; credits=0, plan=publish on approval, not scheduled."
+      "publication_evidence": {
+        "publisher": "vidIQ direct YouTube",
+        "status": "completed",
+        "public_url": "https://www.youtube.com/watch?v=cem3Beva7OE",
+        "service_started_at_utc": "2026-11-17T07:21:22.408885Z",
+        "service_completed_at_utc": "2026-11-17T07:21:24.164939Z",
+        "verified_at_utc": "2026-11-17T07:26:35.932728+00:00",
+        "scheduled_for": null,
+        "failure": null,
+        "exact_youtube_published_at": null,
+        "imported_bytes_match": true,
+        "owner_approved_exact_draft": true,
+        "approval_basis": "Owner replied after the final draft/preview/target/description were shown, instructing to just post good videos without another confirmation.",
+        "credits_used": 0
+      },
+      "instructions": "Already published on the verified original channel. Never duplicate or reschedule this clip/hash."
     }
   ]
 }
