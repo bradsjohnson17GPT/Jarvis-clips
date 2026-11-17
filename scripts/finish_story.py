@@ -108,7 +108,7 @@ def main():
     p.add_argument('--picture', type=Path, required=True)
     p.add_argument('--narration-dir', type=Path, required=True)
     p.add_argument('--music', type=Path, required=True)
-    p.add_argument('--music-start', type=float, default=122)
+    p.add_argument('--music-start', type=float, help='Override the reviewed manifest excerpt start.')
     p.add_argument('--output', type=Path, required=True)
     args = p.parse_args()
     story = json.loads(args.manifest.read_text())
@@ -117,6 +117,7 @@ def main():
     if hashlib.sha256(narration.read_bytes()).hexdigest() != timing['sha256']:
         raise SystemExit('Narration does not match the inspected timing record.')
     music = story['music']
+    music_start = args.music_start if args.music_start is not None else float(music.get('start', 0))
     if not music['rights_verified'] or not music['commercial_use'] or not music['attribution'] in story['description']:
         raise SystemExit('The music needs reviewed rights and its required description credit.')
     if hashlib.sha256(args.music.read_bytes()).hexdigest() != music['sha256']:
@@ -140,7 +141,7 @@ def main():
         '[music][side]sidechaincompress=threshold=0.025:ratio=6:attack=15:release=300[duck];'
         '[narr][duck][2:a]amix=inputs=3:normalize=0:duration=longest,alimiter=limit=0.85[mix]'
     )
-    run(['ffmpeg', '-v', 'error', '-y', '-i', str(narration), '-ss', str(args.music_start), '-i', str(args.music), '-i', str(fx), '-filter_complex', graph, '-map', '[mix]', '-t', str(duration), '-c:a', 'pcm_s24le', str(mix)])
+    run(['ffmpeg', '-v', 'error', '-y', '-i', str(narration), '-ss', str(music_start), '-i', str(args.music), '-i', str(fx), '-filter_complex', graph, '-map', '[mix]', '-t', str(duration), '-c:a', 'pcm_s24le', str(mix)])
     measured = run(['ffmpeg', '-hide_banner', '-i', str(mix), '-af', 'loudnorm=I=-16:TP=-2:LRA=8:print_format=json', '-f', 'null', '-']).stderr
     values = json.JSONDecoder().raw_decode(measured[measured.rfind('{'):])[0]
     loudness = f'loudnorm=I=-16:TP=-2:LRA=8:measured_I={values["input_i"]}:measured_TP={values["input_tp"]}:measured_LRA={values["input_lra"]}:measured_thresh={values["input_thresh"]}:offset={values["target_offset"]}:linear=true'
@@ -151,7 +152,7 @@ def main():
     actual = json.JSONDecoder().raw_decode(encoded[encoded.rfind('{'):])[0]
     if float(actual['input_tp']) > -1.0:
         raise SystemExit('Encoded true peak exceeds the -1 dBTP guard; inspect and remix.')
-    report = {'id': story['id'], 'status': 'rendered_preview_not_published', 'output_sha256': hashlib.sha256(args.output.read_bytes()).hexdigest(), 'bytes': args.output.stat().st_size, 'duration': duration, 'width': video['width'], 'height': video['height'], 'encoded_loudness': actual, 'caption_groups': caption_groups, 'audio_version': 'kokoro-narrative-original-effects-licensed-score-v1', 'qa': {'complete_decode': True, 'caption_timing_basis': 'ASR of actual narration master, edited with the same pauses', 'editorial_review': 'Required separately; technical checks do not prove compelling storytelling or natural delivery.'}}
+    report = {'id': story['id'], 'status': 'rendered_preview_not_published', 'output_sha256': hashlib.sha256(args.output.read_bytes()).hexdigest(), 'bytes': args.output.stat().st_size, 'duration': duration, 'width': video['width'], 'height': video['height'], 'encoded_loudness': actual, 'narration_sha256': timing['sha256'], 'music': {'title': music['title'], 'artist': music['artist'], 'sha256': music['sha256'], 'excerpt_start': music_start, 'duration': duration, 'license': music['license'], 'attribution': music['attribution']}, 'caption_groups': caption_groups, 'audio_version': 'kokoro-narrative-original-effects-licensed-score-v1', 'qa': {'complete_decode': True, 'caption_timing_basis': 'ASR of actual narration master, edited with the same pauses', 'editorial_review': 'Required separately; technical checks do not prove compelling storytelling or natural delivery.'}}
     args.output.with_suffix('.qa.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps({k: v for k, v in report.items() if k not in ['caption_groups', 'encoded_loudness', 'qa']}))
 
