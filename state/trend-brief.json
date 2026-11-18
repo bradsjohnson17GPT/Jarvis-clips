@@ -3,7 +3,7 @@
   "research_date": "2026-11-16",
   "status": "quality_reset_original_scene_preparation",
   "asset_rights": "Public reference videos are style data only. New original scene assets are reviewed after they exist; outlined sources are not claimed produced or cleared. Licensed streamer reuse still needs source-specific creator/game/audio/access verification.",
-  "production_note": "Quality reset remains active. Twelve project videos are confirmed published, including Downward Beacon and Before the First Step.31Metricoolcopies are held,0automaticpending. Two revised male-narrated Jocko/Goggins direct drafts are ready but unscheduled and await the actual connector-required after-preview reply. Never duplicate these clips or reactivate the rejected batch. Research generation dates remain separate from this production-state reconciliation.",
+  "production_note": "Thirteen project videos are confirmed published, including the owner-approved revised male Jocko pilot. The revised male Goggins draft is owner-approved and waits for the minimum20-minute gap; it is not scheduled.31Metricoolcopies remain held;0automaticpending. Corrected teamwork v2 remains development pending real-time pacing/listening and editorial release.",
   "latest_owner_priority": {
     "recorded_on": "2026-11-16",
     "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
@@ -322,9 +322,9 @@
       "full_story_editorial_pass": false,
       "do_not_duplicate_preparation": true,
       "publication_confirmed": false,
-      "media_url": null,
-      "public_host_bytes_verified": false,
-      "descript_review_export_checked": false,
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/ebca00dfdd011c821228f94b6d041f3d4d9e02bf/examples/development/team-ownership/09-full-story-preview-v2.mp4",
+      "public_host_bytes_verified": true,
+      "descript_review_export_checked": true,
       "drawing_revision_source": "assets/stories/team-ownership/scene.py",
       "drawing_revision_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
       "drawing_revision_frames": [
@@ -336,10 +336,38 @@
       "superseded_preview": {
         "sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
         "status": "held_for_observed_marker_ink_gap"
-      }
+      },
+      "preview_url": "https://share.descript.com/view/InR5t7eFNfW"
+    },
+    {
+      "id": "johnson-check-the-numbers",
+      "status": "source_lead_original_outline_not_produced_or_selected",
+      "content_type": "motivational",
+      "person": "Katherine Johnson",
+      "research_freshness": "2026-11-17 late Pacific; source biography2016 and archivedphoto1962. No fresh audience counters or ranking.",
+      "evidence_type": [
+        "first_party_page_text",
+        "actual_archival_photo_viewed",
+        "asset_metadata_and_media_policy_read"
+      ],
+      "source_identity": "NASA LRC-1962-B701_P-09381; NASA/Bob Nye",
+      "source_notes": "docs/trends/2026-11-17-late-nasa-johnson-source.md",
+      "rights_status": "Specific photo factual editorial basis reviewed; identifiable-person/concreteuse conditions unresolved. Not production cleared. Biography authored by Margot Lee Shetterly; factual paraphrase only, no wholesale prose or film reuse.",
+      "hook": "An electronic flight trajectory still needs a separate human check.",
+      "action": "Original labeled illustration makes an independent comparison understandable; no invented worksheets/actions presented as historical recordings.",
+      "payoff": "The completed check supplies confidence to proceed, without a fabricated numerical error or lone-savior claim.",
+      "voice_config": "config/motivational-voice.json",
+      "audio_or_voice_clone_used": false,
+      "paid_vidiq_credits": 0,
+      "current_trend_claim": false,
+      "analytics_winner_claim": false,
+      "publishable": false,
+      "new_video_rendered": false,
+      "publisher_draft_created": false,
+      "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-17T22:39:19.372677+00:00",
+  "production_reconciled_at_utc": "2026-11-18T07:51:20.748156+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",
@@ -354,5 +382,6 @@
     "new_original_ideas_claimed": 0,
     "notes": "docs/trends/2026-11-17-1100-quality-scout.md",
     "evidence_dates_preserved": true
-  }
+  },
+  "additional_source_research_checked_at_utc": "2026-11-18T07:57:39.186009+00:00"
 }

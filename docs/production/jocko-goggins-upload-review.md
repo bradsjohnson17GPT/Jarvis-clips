@@ -1,6 +1,6 @@
 # Revised male-voice motivational drafts
 
-Both finished drafts target **Smile Daily (@smiledailyclips1)** with **public** visibility and Entertainment category. Publishing costs **0 vidIQ credits each**. They have no fixed publishAt and remain drafts, not scheduled or live. After approval of these revised versions, Jocko is first and Goggins follows at least20minutes later, subject to actual queue checks.
+Both prepared versions target **Smile Daily (@smiledailyclips1)** with **public** visibility and Entertainment category, at **0 vidIQ credits each**. After these revised previews and exact draft details were shown, the owner explicitly instructed publication of the ready videos. The same Jocko draft is now [confirmed published](https://www.youtube.com/watch?v=q7bk9cBW6D4), with service completion at 2026-11-18 07:48:37 UTC (November 17 at 23:48 Pacific). The same Goggins draft is approved and waits for the minimum 20-minute gap; it has no fixed publishAt and is not scheduled. Refresh actual state before its publication. Exact YouTube publishedAt was not supplied.
 
 The owner requested a manly narrator and cleaner speech. Both use generic adult male Kokoro am_michael commentary. Jocko retains his real interview speech with mild cleanup. Goggins retains only authentic pictures: all original source audio is excluded because its music was not cleared. No celebrity voice is cloned or pitch-shifted. Music is quieter and ducks more deeply beneath speech; captions and picture timing were rebuilt from the new recordings.
 
@@ -50,6 +50,6 @@ Changes: Excerpt trimmed, faded and ducked beneath speech and original sound des
 
 ## Publication workflow
 
-Metricool again rejected the earlier Jocko version with **You have reached your Metricool account limit.** That failed copy stays held. Both existing direct drafts were updated in place with exact verified new bytes; no second draft was created and no new YouTube video was posted. The direct connector requires approval after the revised exact target/text/media/time/cost is shown. The previous female-narrated files and revisions are superseded.
+Metricool again rejected the earlier Jocko version with **You have reached your Metricool account limit.** That failed copy stays held. Both existing direct drafts were updated in place with exact verified male-version bytes. The direct connector's required after-preview reply has now been received, and the same Jocko draft completed with a public URL. The Goggins approval persists while preserving the minimum gap; no replacement draft is needed. The previous female-narrated files and revisions remain superseded.
 
 Preview note: Descript adds its platform watermark to the share/export. The linked inspected final MP4 and actual direct-upload draft contain the clean original edit. The initial black-picture export was caught and repaired; the replacement export picture, decode and soundtrack match were checked.

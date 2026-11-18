@@ -202,5 +202,58 @@
     "new_posts_published": 0,
     "paid_research_credits_used": 0,
     "notes": "docs/trends/2026-11-17-additional-people-source-review.md"
-  }
+  },
+  "additional_research_leads": [
+    {
+      "id": "nasa-LRC-1962-B701_P-09381",
+      "person": "Katherine Johnson",
+      "reviewed_at_utc": "2026-11-18T07:56:29.879849+00:00",
+      "review_date_pacific": "2026-11-17",
+      "status": "source_lead_with_factual_editorial_basis_not_production_cleared",
+      "publication_clearance": false,
+      "source_page": "https://images.nasa.gov/details/LRC-1962-B701_P-09381",
+      "canonical_asset_list": "https://images-assets.nasa.gov/image/LRC-1962-B701_P-09381/collection.json",
+      "selected_picture_url": "https://images-assets.nasa.gov/image/LRC-1962-B701_P-09381/LRC-1962-B701_P-09381~large.jpg",
+      "selected_picture_sha256": "5b65535eda88a59b800642014900814edc68e1f8003236ce495e095bdf18a813",
+      "selected_picture_dimensions": [
+        1920,
+        1554
+      ],
+      "selected_picture_bytes": 378868,
+      "metadata_title": "Katherine G. Johnson at Work",
+      "metadata_date_created": "1962-12-07T00:00:00Z",
+      "source_credit": "NASA, Bob Nye",
+      "policy_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "factual_source": "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/",
+      "factual_source_date": "2016-11-22",
+      "factual_article_author": "Margot Lee Shetterly",
+      "evidence_methods": [
+        "actual_first_party_photograph_viewed_at_downloaded_dimensions",
+        "NASA_asset_API_and_published_asset_list_read",
+        "full_NASA_media_guidelines_read",
+        "NASA_hosted_biography_text_read"
+      ],
+      "video_watched": false,
+      "audio_listened": false,
+      "audience_interest_counts_observed": false,
+      "current_trend_or_ranking_verified": false,
+      "rights_limits": [
+        "The exact photo is credited NASA/Bob Nye with no third-party copyright indicator found in the inspected metadata; NASA permits factual editorial use without implied endorsement subject to its guidelines.",
+        "NASA separately states that commercial use of identifiable-person media may implicate privacy/publicity and requires appropriate permission. This lead is not approved for advertising, cover art, implied partnership, a likeness product or automatic production.",
+        "The NASA-hosted biography is expressly credited to a named external author. Use independently worded factual paraphrase; do not treat the full prose or a private film adaptation as public-domain script material.",
+        "A generic NASA image-policy statement does not clear all NASA-hosted images. No likeness/estate permission or third-party-film reuse was obtained; no outreach is authorized."
+      ],
+      "factual_findings": [
+        "The NASA-hosted biography reports that Glenn requested an independent hand check of the same numbers/equations programmed into the computer as part of the1962preflight checklist.",
+        "The work photo is archived as1962atwork, not established as a photo of that exact check or launch day.",
+        "This supports an original explanation of independent verification, not a claim that one person alone made the flight possible or that a computer had produced a proven wrong result."
+      ],
+      "candidate_id": "johnson-check-the-numbers",
+      "used_in_media": false,
+      "script_recorded": false,
+      "publisher_draft_created": false,
+      "paid_vidiq_credits": 0,
+      "review_note": "docs/trends/2026-11-17-late-nasa-johnson-source.md"
+    }
+  ]
 }

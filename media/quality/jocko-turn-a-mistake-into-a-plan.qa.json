@@ -56,7 +56,22 @@
     "fresh_revised_contact_frames": true
   },
   "music_attribution_in_description": true,
-  "publication_evidence": null,
+  "publication_evidence": {
+    "publisher": "vidIQ direct YouTube",
+    "status": "completed",
+    "public_url": "https://www.youtube.com/watch?v=q7bk9cBW6D4",
+    "service_started_at_utc": "2026-11-18T07:48:35.617501Z",
+    "service_completed_at_utc": "2026-11-18T07:48:37.149084Z",
+    "verified_at_utc": "2026-11-18T07:51:20.699407+00:00",
+    "scheduled_for": null,
+    "failure": null,
+    "exact_youtube_published_at": null,
+    "timestamp_note": "Completion timestamps are publisher evidence, not a supplied exact YouTube publishedAt field.",
+    "imported_bytes_match": true,
+    "owner_approved_exact_draft": true,
+    "approval_basis": "After the revised male previews and exact final draft details were shown, the owner expressly instructed publication of the ready videos. Same drafts/media/settings preserved.",
+    "credits_used": 0
+  },
   "narrator": "am_michael",
   "voice_config": "config/motivational-voice.json",
   "audio_revision": {

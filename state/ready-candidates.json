@@ -97,7 +97,7 @@
     },
     {
       "clip_id": "jocko-turn-a-mistake-into-a-plan",
-      "status": "direct_draft_awaiting_required_approval",
+      "status": "published",
       "manifest": "stories/jocko-turn-a-mistake-into-a-plan.json",
       "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/jocko-turn-a-mistake-into-a-plan.mp4",
       "video_sha256": "9ed40a91633313eb3ee414d98d1255aba8217382a4195d705ee6c6f6152c5616",
@@ -108,15 +108,30 @@
       "qa_path": "media/quality/jocko-turn-a-mistake-into-a-plan.qa.json",
       "source_path": "media/quality/jocko-turn-a-mistake-into-a-plan-source.json",
       "publication_actor": "production",
-      "publication_evidence": null,
-      "instructions": "Male-narrated replacement is complete and verified in the SAME direct draft. Wait for owner approval after this revised preview before publishing that exact revision. Never recreate the draft or reactivate old held copies. Preserve at least20minutes between actual publications.",
+      "publication_evidence": {
+        "publisher": "vidIQ direct YouTube",
+        "status": "completed",
+        "public_url": "https://www.youtube.com/watch?v=q7bk9cBW6D4",
+        "service_started_at_utc": "2026-11-18T07:48:35.617501Z",
+        "service_completed_at_utc": "2026-11-18T07:48:37.149084Z",
+        "verified_at_utc": "2026-11-18T07:51:20.699407+00:00",
+        "scheduled_for": null,
+        "failure": null,
+        "exact_youtube_published_at": null,
+        "timestamp_note": "Completion timestamps are publisher evidence, not a supplied exact YouTube publishedAt field.",
+        "imported_bytes_match": true,
+        "owner_approved_exact_draft": true,
+        "approval_basis": "After the revised male previews and exact final draft details were shown, the owner expressly instructed publication of the ready videos. Same drafts/media/settings preserved.",
+        "credits_used": 0
+      },
+      "instructions": "Already published on the verified original channel. Never duplicate or reschedule this clip/hash. Preserve all held Metricool copies.",
       "direct_draft_evidence": {
         "publisher": "vidIQ direct YouTube",
-        "status": "draft",
-        "draft_ready": true,
+        "status": "completed",
+        "draft_ready": false,
         "publish_at": null,
-        "public_url": null,
-        "publication_confirmed": false,
+        "public_url": "https://www.youtube.com/watch?v=q7bk9cBW6D4",
+        "publication_confirmed": true,
         "publishing_credits": 0,
         "private_draft_record": "work/quality/jocko-direct-draft.json",
         "exact_imported_bytes_match": true,
@@ -124,8 +139,8 @@
         "same_draft_preserved": true,
         "audio_version": "authentic-jocko-male-commentary-clean-dialogue-ducked-score-v2",
         "approval_required_by": "Actual draft_update connector returned after-preview approval requirement",
-        "approved_after_showing_this_draft": false,
-        "workflow_requirement": "Owner requested audio changes, not publication of this unseen version. Show this revised exact preview; keep the SAME draft/revision and wait for an approving reply before publishing. Do not repeat the question every recurring run."
+        "approved_after_showing_this_draft": true,
+        "workflow_requirement": "Owner approved this shown final draft; unchanged existing revision completed with a public URL. Never publish again."
       },
       "publication_failure_history": [
         {
@@ -177,11 +192,22 @@
       "public_host_bytes_verified": true,
       "direct_import_bytes_match": true,
       "preview_url": "https://share.descript.com/view/diPjn1YVbaB",
-      "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media."
+      "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media.",
+      "provider_status": "completed",
+      "public_url": "https://www.youtube.com/watch?v=q7bk9cBW6D4",
+      "publication_verified_at": "2026-11-18T07:51:20.699407+00:00",
+      "draft": false,
+      "draft_ready": false,
+      "scheduled": false,
+      "auto_publish": false,
+      "owner_approved_this_final_draft": true,
+      "confirmed_publication_day": "2026-11-17",
+      "confirmed_publication_day_basis": "Publisher completed timestamp converted to America/Los_Angeles; exact YouTube publishedAt not supplied.",
+      "do_not_reschedule": true
     },
     {
       "clip_id": "goggins-practice-the-weak-skill",
-      "status": "direct_draft_awaiting_required_approval",
+      "status": "approved_waiting_minimum_spacing",
       "manifest": "stories/goggins-practice-the-weak-skill.json",
       "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/goggins-practice-the-weak-skill.mp4",
       "video_sha256": "140b057a57533061447f9eba8df24247b7833f617b4a32ef7db025027288022a",
@@ -193,7 +219,7 @@
       "source_path": "media/quality/goggins-practice-the-weak-skill-source.json",
       "publication_actor": "production",
       "publication_evidence": null,
-      "instructions": "Male-narrated replacement is complete and verified in the SAME direct draft. Wait for owner approval after this revised preview before publishing that exact revision. Never recreate the draft or reactivate old held copies. Preserve at least20minutes between actual publications.",
+      "instructions": "Owner approved this exact shown male draft. Publish the SAME existing revision only after the minimum20-minute gap from the confirmed Jocko publication; private approval/timing record holds the earliest safe time. Refresh actual account/queue/destination/hash first. This undated draft is not scheduled. Do not ask again or recreate it.",
       "direct_draft_evidence": {
         "publisher": "vidIQ direct YouTube",
         "status": "draft",
@@ -208,8 +234,8 @@
         "same_draft_preserved": true,
         "audio_version": "generic-male-commentary-clean-speech-ducked-score-no-source-audio-v2",
         "approval_required_by": "Actual draft_update connector returned after-preview approval requirement",
-        "approved_after_showing_this_draft": false,
-        "workflow_requirement": "Owner requested audio changes, not publication of this unseen version. Show this revised exact preview; keep the SAME draft/revision and wait for an approving reply before publishing. Do not repeat the question every recurring run."
+        "approved_after_showing_this_draft": true,
+        "workflow_requirement": "After the revised preview/exact final details were shown, owner explicitly instructed publication of the ready videos. Approval persists for the same draft/revision while awaiting the required gap; no additional approval question."
       },
       "owner_requested_audio_revision": "2026-11-17",
       "previous_media_versions": [
@@ -226,7 +252,8 @@
       "public_host_bytes_verified": true,
       "direct_import_bytes_match": true,
       "preview_url": "https://share.descript.com/view/X03WsahzldM",
-      "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media."
+      "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media.",
+      "owner_approved_this_final_draft": true
     }
   ]
 }

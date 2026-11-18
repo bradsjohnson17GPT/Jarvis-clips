@@ -99,7 +99,7 @@
     1280
   ],
   "media_path": "examples/development/team-ownership/09-full-story-preview-v2.mp4",
-  "media_url": null,
+  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/ebca00dfdd011c821228f94b6d041f3d4d9e02bf/examples/development/team-ownership/09-full-story-preview-v2.mp4",
   "video_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
   "qa_path": "assets/stories/team-ownership/full-movie-review-v2.json",
   "publication_evidence": null,
@@ -111,7 +111,7 @@
   "release_requirement": "The complete corrected v2 exists and contact has been checked across all54 corrected encoded frames. Preserve its exact bytes and v1 held evidence. Real-time motion/pacing and subjective soundtrack review, final editorial release, verified public media and duplicate/queue checks precede any ready entry or publisher draft. The two existing male direct drafts are separate and unchanged.",
   "full_encoded_preview_completed_at_utc": "2026-11-17T22:33:19.052833+00:00",
   "full_story_editorial_pass": false,
-  "public_host_bytes_verified": false,
+  "public_host_bytes_verified": true,
   "current_target_finished_video_exists": true,
   "current_drawing_revision_qa": "assets/stories/team-ownership/drawing-frame-review-v2.json",
   "existing_preview_status": "v1_held_v2_contact_corrected_pending_remaining_editorial_review",
@@ -157,5 +157,35 @@
     ],
     "same_concept_not_a_new_idea": true,
     "publication_confirmed": false
+  },
+  "public_host_verification_at_utc": "2026-11-17T22:43:21.112631+00:00",
+  "preview_url": "https://share.descript.com/view/InR5t7eFNfW",
+  "descript_review_export": {
+    "status": "descript_corrected_v2_review_export_picture_and_audio_engineering_checked",
+    "preview_url": "https://share.descript.com/view/InR5t7eFNfW",
+    "checked_at_utc": "2026-11-18T07:51:20.746424+00:00",
+    "source_clean_master_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+    "export_sha256": "e04dbb8ce59aa81518199fdcf9048c2d00dd4b096ad90fa57624280f436d43c5",
+    "full_decode_passed": true,
+    "black_intervals": [],
+    "actual_sampled_frames_inspected": 9,
+    "audio_waveform_correlation_with_clean_master": 0.9998276760878173,
+    "audio_alignment_seconds": 0.0,
+    "audio_rms_gain_db": -0.04020998628515639,
+    "export_dimensions": [
+      720,
+      1280
+    ],
+    "export_fps": "30/1",
+    "audio_codec": "aac",
+    "audio_channels": 2,
+    "audio_sample_rate": 44100,
+    "watermark": "Descript platform watermark overlaps historical notice area; review only. Use clean original24fps/48kHz master for any eventual upload.",
+    "frame_conversion_method": "Not independently verified; Descript exported30fps from24fps source.",
+    "local_processing_note": "Local rendering/audio cleanup/captions/score/effects preceded import. Underlord repaired a missing scene video layer; no Studio Sound, new voice, script or soundtrack was applied.",
+    "initial_export_issue": "First export had black pictures across21.066667seconds despite successful job. Actual decode/black detection and9image samples caught it; one scoped scene repair and re-export restored pictures.",
+    "subjective_audio_listening_claimed": false,
+    "youtube_publication_created": false,
+    "editorial_release": false
   }
 }

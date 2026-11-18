@@ -1,0 +1,28 @@
+{
+  "status": "descript_corrected_v2_review_export_picture_and_audio_engineering_checked",
+  "preview_url": "https://share.descript.com/view/InR5t7eFNfW",
+  "checked_at_utc": "2026-11-18T07:51:20.746424+00:00",
+  "source_clean_master_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+  "export_sha256": "e04dbb8ce59aa81518199fdcf9048c2d00dd4b096ad90fa57624280f436d43c5",
+  "full_decode_passed": true,
+  "black_intervals": [],
+  "actual_sampled_frames_inspected": 9,
+  "audio_waveform_correlation_with_clean_master": 0.9998276760878173,
+  "audio_alignment_seconds": 0.0,
+  "audio_rms_gain_db": -0.04020998628515639,
+  "export_dimensions": [
+    720,
+    1280
+  ],
+  "export_fps": "30/1",
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_sample_rate": 44100,
+  "watermark": "Descript platform watermark overlaps historical notice area; review only. Use clean original24fps/48kHz master for any eventual upload.",
+  "frame_conversion_method": "Not independently verified; Descript exported30fps from24fps source.",
+  "local_processing_note": "Local rendering/audio cleanup/captions/score/effects preceded import. Underlord repaired a missing scene video layer; no Studio Sound, new voice, script or soundtrack was applied.",
+  "initial_export_issue": "First export had black pictures across21.066667seconds despite successful job. Actual decode/black detection and9image samples caught it; one scoped scene repair and re-export restored pictures.",
+  "subjective_audio_listening_claimed": false,
+  "youtube_publication_created": false,
+  "editorial_release": false
+}

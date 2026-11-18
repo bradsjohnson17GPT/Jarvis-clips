@@ -1,5 +1,9 @@
 # Two reviewed motivational pilots
 
+Current result after the owner approved the shown revised male versions: the same Jocko draft is [confirmed published](https://www.youtube.com/watch?v=q7bk9cBW6D4), service completion 2026-11-18 at 07:48:37 UTC (November 17 at 23:48 Pacific). The same Goggins draft is approved and waits for the minimum 20-minute gap; it remains undated and is not scheduled. Project-confirmed publications total 13, not a channel-wide or daily total. The [current upload review](jocko-goggins-upload-review.md) and state/queue.json supersede older pending-status statements below. All 31 Metricool holds remain disabled, with no evidence that the account limit recovered.
+
+## Historical preparation and first route attempt
+
 Both new finished videos have source-specific rights records, complete encoded speech checks, portrait/cut inspection, licensed Scott Buckley music, speech-timed captions and the required government nonendorsement notice. The public raw GitHub URLs returned HTTP200 with exact inspected hashes.
 
 Jocko uses authentic 2019 interview speech around an original narrated and animated action-plan example. The final MP4 hash is `9766c623ffb1c1f77a8c1691d38f922682895890892412682c0507bc7980f17c`. It was accepted by Metricool for November17 at00:30 Pacific, initially YouTubePENDING with automatic publication enabled; exact imported bytes matched. This is scheduling evidence only, not successful publication or recovery from Metricool's previous account limit. Operational receipts and identifiers remain private.
