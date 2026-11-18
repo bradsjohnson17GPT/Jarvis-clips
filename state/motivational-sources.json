@@ -254,9 +254,7 @@
       "publisher_draft_created": false,
       "paid_vidiq_credits": 0,
       "review_note": "docs/trends/2026-11-17-late-nasa-johnson-source.md"
-    }
-  ],
-  "metadata_only_source_leads": [
+    },
     {
       "id": "673130",
       "person": "David Goggins",
@@ -265,16 +263,17 @@
       "source_date": "2019-04-19",
       "source_credit": "Austin Rooney / All Hands Magazine",
       "listed_duration_seconds": 559,
-      "reader_crawl_freshness": "last week",
-      "overlap_status": "Not inspected; compare with 646927/646414 before treating as distinct footage.",
-      "reviewed_at_utc": "2026-11-18T13:13:31.827367+00:00",
-      "status": "metadata_only_hold_pending_individual_footage_audio_and_overlap_review",
+      "reader_crawl_freshness": "today",
+      "overlap_status": "All six corresponding opening samples visibly share running and interviewer shots/poses with646927. Full-film/all-frame or byte identity not established; do not count as an independent new interview.",
+      "reviewed_at_utc": "2026-11-18T19:00:25.349680+00:00",
+      "status": "sampled_opening_overlap_with_existing_source_hold_not_new_interview",
       "publication_clearance": false,
       "item_marked_public_domain": true,
       "policy_url": "https://www.dvidshub.net/about/copyright",
       "evidence_methods": [
-        "first_party_page_text",
-        "search_metadata"
+        "current_first_party_page_text",
+        "explicit_public_player_media_prefix",
+        "six_actual_paired_sampled_frames_compared_with_existing646927"
       ],
       "video_watched": false,
       "audio_listened": false,
@@ -286,9 +285,36 @@
       "publishable": false,
       "new_clip_produced": false,
       "publisher_draft_created": false,
-      "review_note": "docs/trends/2026-11-18-0500-quality-scout.md",
-      "next_action": "Inspect a bounded public-player interval, compare existing source footage, review embedded rights/audio and authentic context before scripting; no download/login bypass, purchase or outreach."
-    },
+      "review_note": "docs/trends/2026-11-18-1100-quality-scout.md",
+      "next_action": "Retain overlap hold; reuse completed646927 review rather than repeat full download/ASR/paid analysis or render a duplicate. A distinct proposed interval would need individual factual/visual/audio/rights review and original editorial purpose.",
+      "previous_metadata_review_at_utc": "2026-11-18T13:13:31.827367+00:00",
+      "source_date_scope": "2019item metadata, not proof of a distinct later interview or new underlying filming date",
+      "sampled_video_frames_viewed": true,
+      "sampled_times_seconds": [
+        0,
+        4,
+        8,
+        16,
+        24,
+        32
+      ],
+      "sampled_frame_dimensions": [
+        512,
+        288
+      ],
+      "source_dimensions": [
+        1024,
+        576
+      ],
+      "bounded_source_prefix_bytes": 12582912,
+      "full_source_downloaded": false,
+      "listed_encoded_duration_seconds": 559.7592,
+      "comparison_source_duration_seconds": 559.767542,
+      "observed_opening_structure": "Running close/medium/profile views, then seated interviewer by sampled32seconds. Spoken hook, continuous pacing and full payoff unobserved.",
+      "required_nonendorsement_notice": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement."
+    }
+  ],
+  "metadata_only_source_leads": [
     {
       "id": "740748",
       "person": "Remi Adeleke; Jocko Willink credited as narrator",
@@ -323,20 +349,22 @@
     }
   ],
   "latest_metadata_scout_check": {
-    "checked_at_utc": "2026-11-18T13:13:31.827367+00:00",
+    "checked_at_utc": "2026-11-18T19:00:25.349680+00:00",
     "research_date_pacific": "2026-11-18",
-    "method": "free_first_party_page_text_and_search_metadata_plus_reused_completed_reference_analyses",
-    "search_queries": 3,
+    "method": "free_first_party_page_text_public_player_prefix_and_actual_paired_sampled_frames_plus_reused_completed_reference_analyses",
+    "search_queries": 2,
     "new_creator_policy_leads": 0,
-    "new_source_metadata_leads": 2,
+    "new_source_metadata_leads": 0,
+    "existing_source_leads_advanced": 1,
+    "actual_sample_pairs_viewed": 6,
     "new_sources_cleared": 0,
     "new_view_observations": 0,
     "new_current_rankings_verified": false,
     "new_paid_vidiq_calls": 0,
     "new_original_ideas_claimed": 0,
-    "notes": "docs/trends/2026-11-18-0500-quality-scout.md",
+    "notes": "docs/trends/2026-11-18-1100-quality-scout.md",
     "evidence_dates_preserved": true,
     "posting_queue_changed": false,
-    "search_result": "Two uninspected DVIDS package leads, not selected intervals or unique-footage findings. Rockstar page reconfirms November 19, 2026; no new audience counter or commercial streamer clearance."
+    "search_result": "673130 opening samples visibly overlap646927; hold as overlapping source rather than distinct interview. Two exact-ID primary YouTube searches returned no results. Rockstar official date unchanged; no fresh audience counter or streamer clearance."
   }
 }

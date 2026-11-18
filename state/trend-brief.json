@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-17T01:20:37.104116+00:00",
-  "research_date": "2026-11-16",
+  "generated_at": "2026-11-18T19:00:25.349680+00:00",
+  "research_date": "2026-11-18",
   "status": "quality_reset_original_scene_preparation",
   "asset_rights": "Public reference videos are style data only. New original scene assets are reviewed after they exist; outlined sources are not claimed produced or cleared. Licensed streamer reuse still needs source-specific creator/game/audio/access verification.",
-  "production_note": "Fourteen known project publications remain confirmed, with31Metricoolholds and0automaticpending. One newer Hand the Marker Back v3 manual direct draft is ready but awaits the required after-saved-draft reply; it is not scheduled. Midnight Bell existing scene/stills were recovered, material staging fixes reviewed and one pinned full native animation started. Neither preparation is a new confirmed publication or proven performance winner.",
+  "production_note": "Fourteen known project publications remain confirmed;31Metricoolholds and0automaticpending at latest production refresh. SAME Hand the Marker Back v3 manual draft awaits the already-requested after-saved-draft human reply. Midnight Bell is existing native/finishing work approaching completion; source/QA records and production must establish actual finished status. No new scout clip, draft, schedule or publication.",
   "latest_owner_priority": {
     "recorded_on": "2026-11-16",
     "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
@@ -386,21 +386,39 @@
   ],
   "production_reconciled_at_utc": "2026-11-18T13:13:31.827367+00:00",
   "latest_free_scout_check": {
-    "checked_at_utc": "2026-11-18T13:13:31.827367+00:00",
+    "checked_at_utc": "2026-11-18T19:00:25.349680+00:00",
     "research_date_pacific": "2026-11-18",
-    "method": "free_first_party_page_text_and_search_metadata_plus_reused_completed_reference_analyses",
-    "search_queries": 3,
+    "method": "free_first_party_page_text_public_player_prefix_and_actual_paired_sampled_frames_plus_reused_completed_reference_analyses",
+    "search_queries": 2,
     "new_creator_policy_leads": 0,
-    "new_source_metadata_leads": 2,
+    "new_source_metadata_leads": 0,
+    "existing_source_leads_advanced": 1,
+    "actual_sample_pairs_viewed": 6,
     "new_sources_cleared": 0,
     "new_view_observations": 0,
     "new_current_rankings_verified": false,
     "new_paid_vidiq_calls": 0,
     "new_original_ideas_claimed": 0,
-    "notes": "docs/trends/2026-11-18-0500-quality-scout.md",
+    "notes": "docs/trends/2026-11-18-1100-quality-scout.md",
     "evidence_dates_preserved": true,
     "posting_queue_changed": false,
-    "search_result": "Two uninspected DVIDS package leads, not selected intervals or unique-footage findings. Rockstar page reconfirms November 19, 2026; no new audience counter or commercial streamer clearance."
+    "search_result": "673130 opening samples visibly overlap646927; hold as overlapping source rather than distinct interview. Two exact-ID primary YouTube searches returned no results. Rockstar official date unchanged; no fresh audience counter or streamer clearance."
   },
-  "additional_source_research_checked_at_utc": "2026-11-18T07:57:39.186009+00:00"
+  "additional_source_research_checked_at_utc": "2026-11-18T07:57:39.186009+00:00",
+  "source_overlap_update": {
+    "source_id": "673130",
+    "comparison_source_id": "646927",
+    "status": "sampled_opening_overlap_hold",
+    "sample_times_seconds": [
+      0,
+      4,
+      8,
+      16,
+      24,
+      32
+    ],
+    "new_independent_interview_verified": false,
+    "new_footage_cleared": false,
+    "notes": "docs/trends/2026-11-18-1100-quality-scout.md"
+  }
 }
