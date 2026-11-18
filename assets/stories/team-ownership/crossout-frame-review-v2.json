@@ -317,7 +317,39 @@
       }
     ],
     "native_sample_record": "work/preproduction/jocko-give-the-team-the-plan/crossout-native-review-v1/record.json",
-    "full48frame_render_complete": false
+    "full48frame_render_complete": false,
+    "additional_first_stroke_native_review": "assets/stories/team-ownership/crossout-first-stroke-native-review.json",
+    "additional_first_stroke_native_frames_visually_inspected": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "additional_full_size_native_frames_visually_inspected": [
+      83,
+      86,
+      91
+    ],
+    "visible_first_stroke_gap_resolved_in_reviewed_native_frames": true,
+    "late_first_stroke_contact_occluded_and_not_visually_verified": true
   },
   "editorial_release": false,
   "assembly_guard_evidence": {
