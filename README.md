@@ -16,7 +16,7 @@ An [Apollo 13 development preview](examples/development/apollo13-the-part-they-c
 
 A [complete corrected teamwork preview](examples/development/team-ownership/14-full-story-preview-v3.mp4) combines original marker-handoff animation with a different reviewed Jocko statement and the saved male narrator. Its crossing-out and final-drawing corrections are complete. Actual encoded review covered 55 full-film samples and every crossing-out frame; full decode, retained audio and levels passed. After the owner requested posting this shown preview, one [exact zero-credit direct upload draft](docs/production/team-ownership-upload-review.md) was saved. The actual connector requires a reply after the saved draft is shown; it is not scheduled or published. [V3 evidence and playback limits](docs/production/2026-11-18-team-ownership-v3-preview.md) remain recorded, and earlier previews remain held.
 
-An [original Midnight Bell scene](docs/production/2026-11-18-midnight-bell-staging.md) was recovered from existing work, inspected and corrected for detached props and an obscured charger connection. One full native animation is rendering from the pinned scene. [Audio and captions](docs/production/2026-11-18-midnight-bell-audio-preflight.md) now have a checked encoded preflight and sampled layout inspection. It remains preparation, with no finished Short or posting draft.
+[Midnight Bell now has a complete original-story preview](docs/production/2026-11-18-midnight-bell-finished-preview.md): all 678 native frames were assembled with the inspected soundtrack/captions, 92 encoded samples and every cut were inspected, and decode/AAC identity/levels passed. One [exact zero-credit manual draft](docs/production/midnight-bell-upload-review.md) awaits its actual connector’s required after-saved-draft reply. It is not scheduled or published. The Descript review player is watermarked; the draft uses the clean verified master. Documented visual and listening limits remain attached.
 
 ## Quality and selection
 
@@ -35,7 +35,7 @@ Production checks recur every 20 minutes through day and night. Requested twenty
 
 [Quality tools and reproduction](docs/quality-production.md) use `requirements-quality.txt`, `config/natural-voice.json`, `scripts/story_audio.py` and `scripts/finish_story.py`. The latter still includes Downward Beacon's specific sound cues; adapt relevant effects for a different story before use. Reviewed music and required descriptions are recorded in `config/licensed-music.json`. Native sampling, output resolution and any interpolation/upscaling limitations belong in each video's own QA record; there is no blanket native-resolution claim.
 
-The old `scripts/render.py` / Piper examples and manifests are archived for reproduction only and are guarded during the quality reset. Do not use them to refill the rejected batch. Midnight Bell remains preparation until a real finished source-cleared animation is rendered and inspected.
+The old `scripts/render.py` / Piper examples and manifests are archived for reproduction only and are guarded during the quality reset. Do not use them to refill the rejected batch. Midnight Bell has a finished reviewed preview and one manual direct draft; public release remains subject to the actual connector’s required after-saved-draft reply.
 
 ## Privacy and costs
 

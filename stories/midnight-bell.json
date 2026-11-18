@@ -1,6 +1,6 @@
 {
   "id": "midnight-bell",
-  "status": "native_animation_in_progress_audio_caption_preflight_ready",
+  "status": "ready_direct_draft_awaiting_required_after_draft_approval",
   "title": "Why Was the Empty Station Bell Ringing?",
   "content_type": "fictional_micro_stories",
   "hook_type": "unexplained_sound_resolved_by_rescue",
@@ -46,8 +46,8 @@
   "visual_source": {
     "identity": "Original Midnight Bell station/robot scene plus project-owned courier hierarchy",
     "rights_verified": true,
-    "scope": "Individual original visual assets reviewed; full finished animation and final audiovisual release remain pending.",
-    "status": "original_geometry_and_staging_reviewed_native_movie_in_progress",
+    "scope": "Original visual assets and complete encoded story reviewed within documented sampling/audio limits; public release awaits exact saved-draft approval.",
+    "status": "original_animation_complete_sampled_encoded_review_done",
     "source_record": "assets/stories/midnight-bell/source-record.json",
     "scene_source": "assets/stories/midnight-bell/scene.py",
     "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10"
@@ -84,12 +84,12 @@
       "sound": "Opening tap pattern returns with a gentle resolve."
     }
   ],
-  "description": "An original fictional short. Original script and planned original character/scene animation; no real incident or speaker is depicted.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and mixed beneath original narration/effects. No composer endorsement implied.",
+  "description": "An original fictional short about a midnight mystery and a small act of kindness. Original script, character animation, narration and bell/charging effects.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and sidechain-ducked beneath original narration and original bell/charging effects.\n\n#Shorts #OriginalStory #Animation",
   "publication_evidence": null,
   "preparation_evidence": {
     "narration_generated": true,
     "narration_text_asr_verified": true,
-    "full_video_rendered": false,
+    "full_video_rendered": true,
     "published": false,
     "audio_version": "unchanged_narration_original_effects_mix_encoded_v2",
     "existing_scene_and_eight_stills_recovered": true,
@@ -97,12 +97,16 @@
     "full_native_render_started": true,
     "audio_preflight_encoded_asr_verified": true,
     "audio_preflight_encoded_loudness_verified": true,
-    "caption_words_preserved": true
+    "caption_words_preserved": true,
+    "final_encoded_sample_count": 92,
+    "full_decode_passed": true,
+    "final_AAC_matches_inspected_preflight": true,
+    "final_encoded_levels_verified": true
   },
   "publishable": false,
-  "finished_video_exists": false,
+  "finished_video_exists": true,
   "ready_candidate": false,
-  "service_draft_created": false,
+  "service_draft_created": true,
   "scheduled": false,
   "staging_qa": "assets/stories/midnight-bell/staging-review.json",
   "native_animation": {
@@ -115,10 +119,11 @@
     "samples": 24,
     "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
     "frozen_blend_sha256": "427f3d4023ae53eed1da3017c7d372f0dc96d11045d04d5e4602dabc63c63d6f",
-    "status": "in_progress",
-    "complete": false
+    "status": "completed_successfully",
+    "complete": true,
+    "completed_frames": 678
   },
-  "next_work": "Preserve the active pinned 678-frame native render and reuse receipt-verified denoised frames. The prepared assembler requires every matching native frame, copies the exact inspected V2 AAC and burns the exact inspected ASS. It currently refuses incomplete inputs and creates no candidate. Complete remaining same-source denoising without overlap, then assemble and inspect actual final cuts, acting, captions/speech, encoded AAC identity/decode/levels and honest listening limits before any ready entry or publishing draft.",
+  "next_work": "Show the exact saved draft once and await the actual connector-required after-saved-draft human reply. After approval refresh exact original account/repository/queues under lock, preserve20minute spacing/daily ceiling, publish SAMEsavedpost/revision and verify completed+publicURL. Do not recreate/reimport/rerender; preserve all held/live clips.",
   "audio_preflight_record": "assets/stories/midnight-bell/audio-preflight.json",
   "caption_preflight_record": "assets/stories/midnight-bell/caption-preflight.json",
   "audio_preflight_ready": true,
@@ -128,7 +133,19 @@
   "assembler": "scripts/assemble_midnight_story.py",
   "native_reveal_review": "assets/stories/midnight-bell/native-reveal-review.json",
   "final_visual_review_items": [
-    "Assess the caster/floor separation in the complete encoded sequence before final editorial release.",
-    "Inspect low-battery acting, actual plug seating, recovery and dawn wave after their production frames finish."
-  ]
+    "Minor caster/floor gap and residual wall noise retained and documented in full-movie-review-v1.json; no blocking story-readability issue found in sampled review."
+  ],
+  "finished_video_sha256": "3634b5e0dfcd33e87a5bb41f142b362493701ad22421066efe731babc3f7740b",
+  "finished_video_bytes": 7177956,
+  "duration_seconds": 28.25,
+  "finished_qa": "assets/stories/midnight-bell/full-movie-review-v1.json",
+  "final_audiovisual_review_status": "sampled_encoded_visual_review_full_decode_and_retained_audio_identity_levels_complete_no_subjective_listening",
+  "draft_ready": true,
+  "preview_url": "https://share.descript.com/view/DeYfJWW9MNT",
+  "preview_is_watermarked_review_export": true,
+  "clean_master_is_draft_media": true,
+  "vidiq_import_bytes_match": true,
+  "draft_review_document": "docs/production/midnight-bell-upload-review.md",
+  "private_draft_record": "work/quality/midnight-bell-direct-draft.json",
+  "required_after_saved_draft_approval_received": false
 }

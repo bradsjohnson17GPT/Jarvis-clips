@@ -2,7 +2,7 @@
   "id": "midnight-bell",
   "reviewed_on": "2026-11-18",
   "reviewed_by": "Project production assistant",
-  "status": "original_visual_sources_reviewed_full_animation_in_progress",
+  "status": "original_full_animation_sources_reviewed_finished_preview_prepared",
   "finished_movie_rights_and_editorial_release": false,
   "original_geometry": {
     "identity": "Original station, platform/hatch, midnight clock, bell, wheeled toolbox robot with one LED face, wrench, charger/cable, lighting and cameras.",
@@ -30,7 +30,8 @@
     "source_sample_rate": 24000,
     "preflight_encoded_sample_rate": 48000,
     "preflight_encoded_channels": 2,
-    "final_movie_reviewed": false
+    "final_movie_reviewed": true,
+    "review_scope": "Identical encoded AAC essence retains previously ASR-verified59word narration and timing; final decode/levels checked. No subjective listening."
   },
   "music": {
     "planned_track": "Ascension",
@@ -38,17 +39,19 @@
     "source": "https://www.scottbuckley.com.au/library/ascension/",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "required_credit": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
-    "status": "Existing reviewed track used in completed audio-only preflight; final film/listening review pending.",
+    "status": "Reviewed licensed track used in actual complete film; encoded AAC identity and levels checked, subjective audition not claimed.",
     "excerpt_start_seconds": 288.0,
     "preflight_duration_seconds": 28.25,
     "changes": "Excerpt trimmed, faded and sidechain-ducked beneath unchanged original narration and new original bell/charging effects."
   },
   "effects": {
-    "status": "Original procedural station air, wrench/bell impacts, insulated plug seating click and battery recovery tones synthesized/mixed for audio-only preflight.",
+    "status": "Original procedural cues retained in exact inspected soundtrack of complete film; timing evaluated against source physical actions and sampled finished pictures.",
     "requirement": "Match the actual bell impacts, plug seating and recovery; do not reuse Downward Beacon cue timings.",
     "audio_record": "assets/stories/midnight-bell/audio-preflight.json",
     "timing_basis": "Existing inspected scene physical_bell_impact_seconds and charger_seated19.94/battery_recovers20.05."
   },
   "staging_review": "assets/stories/midnight-bell/staging-review.json",
-  "publishable": false
+  "publishable": false,
+  "finished_movie_sha256": "3634b5e0dfcd33e87a5bb41f142b362493701ad22421066efe731babc3f7740b",
+  "finished_qa": "assets/stories/midnight-bell/full-movie-review-v1.json"
 }

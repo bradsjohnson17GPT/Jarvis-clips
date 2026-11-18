@@ -339,6 +339,50 @@
       "instructions": "One ready0credit direct draft exists privately with no fixedpublishAt. Await the required after-saved-draft reply once; do not recreate/reimport, call this scheduled, or retry the blocked Metricool route. Use the inspected unwatermarked v3 hash only.",
       "draft_ready": true,
       "publication_actor": "production"
+    },
+    {
+      "id": "midnight-bell",
+      "clip_id": "midnight-bell",
+      "story_path": "stories/midnight-bell.json",
+      "title": "Why Was the Empty Station Bell Ringing?",
+      "content_type": "fictional_micro_stories",
+      "status": "ready_direct_draft_awaiting_required_after_draft_approval",
+      "video_sha256": "3634b5e0dfcd33e87a5bb41f142b362493701ad22421066efe731babc3f7740b",
+      "bytes": 7177956,
+      "duration_seconds": 28.25,
+      "dimensions": [
+        720,
+        1280
+      ],
+      "frame_rate": 24,
+      "preview_url": "https://share.descript.com/view/DeYfJWW9MNT",
+      "preview_is_watermarked_review_export": true,
+      "clean_original_master_is_upload_media": true,
+      "description": "An original fictional short about a midnight mystery and a small act of kindness. Original script, character animation, narration and bell/charging effects.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and sidechain-ducked beneath original narration and original bell/charging effects.\n\n#Shorts #OriginalStory #Animation",
+      "tags": [
+        "original story",
+        "animation",
+        "kindness",
+        "Shorts"
+      ],
+      "privacy": "public",
+      "category_id": 24,
+      "qa_path": "assets/stories/midnight-bell/full-movie-review-v1.json",
+      "source_path": "assets/stories/midnight-bell/source-record.json",
+      "scheduler": "vidIQ direct YouTube",
+      "provider_status": "draft",
+      "draft": true,
+      "draft_ready": true,
+      "auto_publish": false,
+      "scheduled": false,
+      "publishable": false,
+      "publication_evidence": null,
+      "private_draft_record": "work/quality/midnight-bell-direct-draft.json",
+      "required_after_saved_draft_approval_received": false,
+      "publication_confirmed": false,
+      "vidiq_import_bytes_match": true,
+      "draft_review_document": "docs/production/midnight-bell-upload-review.md",
+      "duplicate_preparation_forbidden": true
     }
   ]
 }

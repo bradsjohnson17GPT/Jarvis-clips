@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-11-18T19:13:26.947354+00:00",
+  "share_url": "https://share.descript.com/view/DeYfJWW9MNT",
+  "preview_sha256": "a81e131cf8991620b45c248981acc4ac9b8f65d422f87e44033efc36ff0326a8",
+  "preview_bytes": 24176173,
+  "duration": 28.266667,
+  "video_dimensions": [
+    720,
+    1280
+  ],
+  "preview_fps": "30/1",
+  "audio_sample_rate": "44100",
+  "full_decode_passed": true,
+  "black_intervals": [],
+  "audio_waveform_correlation_to_master": 0.999348676870938,
+  "sample_frames_prepared_at_seconds": [
+    0.5,
+    11.3,
+    19.95,
+    26.75
+  ],
+  "sample_frames_visual_review_pending": false,
+  "source_master_sha256": "3634b5e0dfcd33e87a5bb41f142b362493701ad22421066efe731babc3f7740b",
+  "preview_for_review_only_not_upload_media": true,
+  "subjective_listening_claimed": false,
+  "sample_frames_actually_viewed_at_seconds": [
+    0.5,
+    11.3,
+    19.95,
+    26.75
+  ],
+  "visual_finding": "Correct completed pictures/captions inspected. Descript watermark is present in review export only. The direct draft uses exact clean master3634b5e0, not this transcoded preview."
+}

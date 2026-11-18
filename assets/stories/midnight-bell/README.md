@@ -10,3 +10,8 @@ The existing 28.228-second generic Kokoro af_heart fiction narration is retained
 
 Music credit for any relevant final description: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 Source: https://www.scottbuckley.com.au/library/ascension/ . License: https://creativecommons.org/licenses/by/4.0/ . The checked audio preflight uses the excerpt from track second 288, trimmed, faded and ducked; no finished movie or subjective listening is claimed.
+
+
+## Complete preview and manual draft
+
+The complete 678-frame clean film now has [finished review](full-movie-review-v1.json), a [Descript playback preview](https://share.descript.com/view/DeYfJWW9MNT) and one [exact zero-credit manual upload draft](../../../docs/production/midnight-bell-upload-review.md). It is not scheduled or published. The preview export is watermarked; the draft uses the exact clean master. Existing source geometry, soundtrack, caption hashes and documented visual/listening limitations are retained. Do not rerender completed work or recreate the draft.
