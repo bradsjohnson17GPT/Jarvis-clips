@@ -2379,11 +2379,11 @@
     {
       "clip_id": "goggins-practice-the-weak-skill",
       "title": "Practice the Skill You Avoid | David Goggins Commentary",
-      "status": "approved_waiting_minimum_spacing",
+      "status": "published",
       "provider": "youtube",
       "publication_date": null,
       "actual_publication_date": null,
-      "public_url": null,
+      "public_url": "https://www.youtube.com/watch?v=UOqWul8ODWQ",
       "content_type": "motivational",
       "hook_type": "attributed_discipline_with_specific_practice",
       "duration": 19.414,
@@ -2398,21 +2398,36 @@
         "made_for_kids": false,
         "basis": "General teen/adult discussion of skill practice or personal accountability, not child-directed content."
       },
-      "publication_evidence": null,
+      "publication_evidence": {
+        "publisher": "vidIQ direct YouTube",
+        "status": "completed",
+        "public_url": "https://www.youtube.com/watch?v=UOqWul8ODWQ",
+        "service_started_at_utc": "2026-11-18T08:10:13.616493Z",
+        "service_completed_at_utc": "2026-11-18T08:10:15.911029Z",
+        "verified_at_utc": "2026-11-18T08:11:06.839451+00:00",
+        "scheduled_for": null,
+        "failure": null,
+        "exact_youtube_published_at": null,
+        "timestamp_note": "Completion timestamps are publisher evidence, not a supplied exact YouTube publishedAt field.",
+        "imported_bytes_match": true,
+        "owner_approved_exact_draft": true,
+        "approval_basis": "After the revised male previews and exact final draft details were shown, the owner expressly instructed publication of the ready videos. Same drafts/media/settings preserved.",
+        "credits_used": 0
+      },
       "public_host_bytes_verified": true,
       "music_attribution_in_description": true,
       "do_not_duplicate": true,
       "scheduler": "vidIQ direct YouTube",
-      "provider_status": "draft",
-      "draft": true,
+      "provider_status": "completed",
+      "draft": false,
       "auto_publish": false,
       "direct_draft_evidence": {
         "publisher": "vidIQ direct YouTube",
-        "status": "draft",
-        "draft_ready": true,
+        "status": "completed",
+        "draft_ready": false,
         "publish_at": null,
-        "public_url": null,
-        "publication_confirmed": false,
+        "public_url": "https://www.youtube.com/watch?v=UOqWul8ODWQ",
+        "publication_confirmed": true,
         "publishing_credits": 0,
         "private_draft_record": "work/quality/goggins-direct-draft.json",
         "exact_imported_bytes_match": true,
@@ -2421,11 +2436,11 @@
         "audio_version": "generic-male-commentary-clean-speech-ducked-score-no-source-audio-v2",
         "approval_required_by": "Actual draft_update connector returned after-preview approval requirement",
         "approved_after_showing_this_draft": true,
-        "workflow_requirement": "After the revised preview/exact final details were shown, owner explicitly instructed publication of the ready videos. Approval persists for the same draft/revision while awaiting the required gap; no additional approval question."
+        "workflow_requirement": "Owner approved this shown final draft; unchanged existing revision completed with a public URL. Never publish again."
       },
       "private_draft_record": "work/quality/goggins-direct-draft.json",
       "owner_requested_audio_revision": "2026-11-17",
-      "instructions": "Owner approved this exact shown male draft. Publish the SAME existing revision only after the minimum20-minute gap from the confirmed Jocko publication; private approval/timing record holds the earliest safe time. Refresh actual account/queue/destination/hash first. This undated draft is not scheduled. Do not ask again or recreate it.",
+      "instructions": "Already published on the verified original channel. Never duplicate or reschedule this clip/hash. Preserve all held Metricool copies.",
       "previous_media_versions": [
         {
           "video_sha256": "b63c6dbcc853ae73dc112eec9399cd8e1641ffe8137c1fd056421c33ed6e313d",
@@ -2440,7 +2455,13 @@
       "direct_import_bytes_match": true,
       "preview_url": "https://share.descript.com/view/X03WsahzldM",
       "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media.",
-      "owner_approved_this_final_draft": true
+      "owner_approved_this_final_draft": true,
+      "publication_verified_at": "2026-11-18T08:11:06.839451+00:00",
+      "draft_ready": false,
+      "scheduled": false,
+      "confirmed_publication_day": "2026-11-18",
+      "confirmed_publication_day_basis": "Publisher completed timestamp converted to America/Los_Angeles; exact YouTube publishedAt not supplied.",
+      "do_not_reschedule": true
     }
   ]
 }

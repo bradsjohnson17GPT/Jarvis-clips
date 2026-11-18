@@ -1,7 +1,7 @@
 {
   "id": "goggins-practice-the-weak-skill",
   "title": "Practice the Skill You Avoid | David Goggins Commentary",
-  "status": "approved_waiting_minimum_spacing",
+  "status": "published",
   "content_type": "motivational",
   "hook_type": "attributed_discipline_with_specific_practice",
   "person": "David Goggins",
@@ -50,17 +50,32 @@
   "video_sha256": "140b057a57533061447f9eba8df24247b7833f617b4a32ef7db025027288022a",
   "duration_seconds": 19.414,
   "audio_version": "generic-male-commentary-clean-speech-ducked-score-no-source-audio-v2",
-  "publication_evidence": null,
+  "publication_evidence": {
+    "publisher": "vidIQ direct YouTube",
+    "status": "completed",
+    "public_url": "https://www.youtube.com/watch?v=UOqWul8ODWQ",
+    "service_started_at_utc": "2026-11-18T08:10:13.616493Z",
+    "service_completed_at_utc": "2026-11-18T08:10:15.911029Z",
+    "verified_at_utc": "2026-11-18T08:11:06.839451+00:00",
+    "scheduled_for": null,
+    "failure": null,
+    "exact_youtube_published_at": null,
+    "timestamp_note": "Completion timestamps are publisher evidence, not a supplied exact YouTube publishedAt field.",
+    "imported_bytes_match": true,
+    "owner_approved_exact_draft": true,
+    "approval_basis": "After the revised male previews and exact final draft details were shown, the owner expressly instructed publication of the ready videos. Same drafts/media/settings preserved.",
+    "credits_used": 0
+  },
   "research_basis": "docs/trends/2026-11-16-jocko-goggins-source-review.md",
   "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/goggins-practice-the-weak-skill.mp4",
   "public_host_bytes_verified": true,
   "direct_draft_evidence": {
     "publisher": "vidIQ direct YouTube",
-    "status": "draft",
-    "draft_ready": true,
+    "status": "completed",
+    "draft_ready": false,
     "publish_at": null,
-    "public_url": null,
-    "publication_confirmed": false,
+    "public_url": "https://www.youtube.com/watch?v=UOqWul8ODWQ",
+    "publication_confirmed": true,
     "publishing_credits": 0,
     "private_draft_record": "work/quality/goggins-direct-draft.json",
     "exact_imported_bytes_match": true,
@@ -69,7 +84,7 @@
     "audio_version": "generic-male-commentary-clean-speech-ducked-score-no-source-audio-v2",
     "approval_required_by": "Actual draft_update connector returned after-preview approval requirement",
     "approved_after_showing_this_draft": true,
-    "workflow_requirement": "Owner approved the shown revised male draft; publish same existing revision after minimum20-minute gap and fresh account/queue/hash checks. Not scheduled."
+    "workflow_requirement": "Owner approved the shown final draft; the unchanged existing revision completed with a public URL. Never publish again."
   },
   "previous_media_versions": [
     {
@@ -100,5 +115,9 @@
   },
   "preview_url": "https://share.descript.com/view/X03WsahzldM",
   "descript_export_status": "Repaired export: actual picture inspected, no black intervals, full decode and soundtrack correlation passed. Preview includes platform watermark; clean inspected MP4 is the upload media.",
-  "clean_final_download_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/goggins-practice-the-weak-skill.mp4"
+  "clean_final_download_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/81ca7dc9a4b7a23eba8fe31573d04c5f69d32908/media/quality/goggins-practice-the-weak-skill.mp4",
+  "public_url": "https://www.youtube.com/watch?v=UOqWul8ODWQ",
+  "do_not_duplicate": true,
+  "do_not_reschedule": true,
+  "confirmed_publication_day": "2026-11-18"
 }
