@@ -1,0 +1,9 @@
+# Completed Midnight Bell render cache
+
+Midnight Bell remains a completed 28.25-second clean movie with its same saved manual upload draft. Its final SHA-256 is `3634b5e0dfcd33e87a5bb41f142b362493701ad22421066efe731babc3f7740b`. No video, upload setting, draft revision, schedule or publication changed during this maintenance.
+
+The complete 678-frame native sequence had already been assembled, decoded and reviewed. After verifying the finished master, original scene, frozen blend, draft records and proof files, production inventoried every raw/denoised PNG and its hash. It removed only 1,086 unneeded numeric PNG links from that completed task-owned cache. All 135 reviewed frame numbers remain as raw/cleaned pairs, and all encoded/native review images, receipts, source/audio/caption inputs and finished/held movies remain. All 220 protected files matched their recorded hashes after cleanup. The measured increase in free space was 1,579,757,568 bytes, about 1.58 GB. Detailed inventory and removal journal remain private in ignored work/.
+
+The sparse PNG cache is intentional. The [finished movie review](../../assets/stories/midnight-bell/full-movie-review-v1.json) records the completed assembly and inspected encoding; it is a historical verification of that full sequence. The [finishing plan](../../assets/stories/midnight-bell/finishing-plan.json) now reflects actual completion and the retained cache. Do not restart the completed renderer or attempt reassembly merely because unneeded cache PNGs are absent. Preserve the existing master and draft while awaiting the previously requested reply.
+
+This provides room for further original animation work. Check actual capacity against native sample sizes before a full Counterweight Gate render; reclaim only inventoried reproducible completed caches if more space is needed. It does not make an unfinished story ready or authorize a duplicate upload.

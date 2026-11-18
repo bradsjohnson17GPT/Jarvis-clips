@@ -15,3 +15,5 @@ Source: https://www.scottbuckley.com.au/library/ascension/ . License: https://cr
 ## Complete preview and manual draft
 
 The complete 678-frame clean film now has [finished review](full-movie-review-v1.json), a [Descript playback preview](https://share.descript.com/view/DeYfJWW9MNT) and one [exact zero-credit manual upload draft](../../../docs/production/midnight-bell-upload-review.md). It is not scheduled or published. The preview export is watermarked; the draft uses the exact clean master. Existing source geometry, soundtrack, caption hashes and documented visual/listening limitations are retained. Do not rerender completed work or recreate the draft.
+
+The [completed render cache was inventoried and pruned](../../../docs/production/2026-11-18-render-cache-retention.md) after master/source/draft verification. All reviewed raw/cleaned frame pairs, encoded/native proofs and source/finishing inputs remain. The full PNG cache is intentionally sparse; its missing unneeded frames do not indicate an unfinished render or require reassembly. The clean master and same saved draft are unchanged.

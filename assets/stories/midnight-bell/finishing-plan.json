@@ -1,10 +1,13 @@
 {
   "id": "midnight-bell",
-  "status": "assembly_preparation_only_native_sequence_incomplete",
+  "status": "assembly_completed_finished_manual_draft_exists_do_not_reassemble",
   "publishable": false,
   "expected_frames": 678,
   "fps": 24,
-  "dimensions": [720, 1280],
+  "dimensions": [
+    720,
+    1280
+  ],
   "duration_seconds": 28.25,
   "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
   "frozen_blend_sha256": "427f3d4023ae53eed1da3017c7d372f0dc96d11045d04d5e4602dabc63c63d6f",
@@ -21,6 +24,18 @@
     "Assembly produces a private candidate only. Actual finished frames/cuts, acting, reveal/rescue/payoff, timing, levels and source/editorial release still require review before any ready entry or saved publishing draft."
   ],
   "subjective_audio_listening_claimed": false,
-  "finished_video_exists": false,
-  "publisher_draft_created": false
+  "finished_video_exists": true,
+  "publisher_draft_created": true,
+  "completion_review": "assets/stories/midnight-bell/full-movie-review-v1.json",
+  "completed_movie_sha256": "3634b5e0dfcd33e87a5bb41f142b362493701ad22421066efe731babc3f7740b",
+  "reassembly_required": false,
+  "completed_render_cache_retention": {
+    "record": "docs/production/2026-11-18-render-cache-retention.md",
+    "original_sequence_completed_and_verified_frames": 678,
+    "complete_frame_cache_present_now": false,
+    "reviewed_raw_clean_pairs_retained": 135,
+    "finished_master_source_audio_captions_proofs_and_draft_preserved": true,
+    "do_not_restart_completed_render": true,
+    "pruned_at_utc": "2026-11-18T23:48:03.859913+00:00"
+  }
 }
