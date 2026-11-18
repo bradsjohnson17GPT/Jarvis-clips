@@ -174,11 +174,11 @@
     },
     {
       "id": "quality_counterweight_gate",
-      "status": "original_outline_not_produced",
+      "status": "original_script_clean_male_take_and_mechanism_study_prepared_not_full_movie",
       "topic": "Motivational action through a physical problem",
       "content_type": "motivational",
       "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
-      "action": "After two clear failed attempts, the courier stops forcing it and attaches the parcel cart to the existing counterweight. Close-ups show why it stays open.",
+      "action": "After two clear failed attempts, the courier uses the side loading steps to fill the separate counterweight basket with loose stones. Opposite rope movement holds the gate up while the parcel cart remains free to pass.",
       "payoff": "The courier rolls through; a line of waiting townspeople follows. End on the gate staying open, not a generic motivational slogan.",
       "visual_plan": [
         "Show the gate falling and the parcel simultaneously.",
@@ -188,7 +188,21 @@
       ],
       "source_plan": "A new original scene and animation; no stock placeholder or reused lighthouse footage.",
       "publishable": false,
-      "trend_claim": false
+      "trend_claim": false,
+      "manifest": "stories/counterweight-gate.json",
+      "source_record": "assets/stories/counterweight-gate/source-record.json",
+      "staging_review": "assets/stories/counterweight-gate/staging-review.json",
+      "narration_preflight": "assets/stories/counterweight-gate/narration-preflight.json",
+      "actual_narration_words": 55,
+      "actual_narration_seconds": 24.048667,
+      "current_study_source_sha256": "de85d9ba9cb68ee02c2077f87432fbfc5eb43125a88305931452a2f14c441b6c",
+      "actual_current_staging_pose_images_reviewed": 4,
+      "full_native_animation_started": false,
+      "payoff_produced": false,
+      "finished_movie_exists": false,
+      "publisher_draft_created": false,
+      "do_not_duplicate_preparation": true,
+      "new_concept_discovery_claim": false
     },
     {
       "id": "quality_last_charge",
@@ -427,5 +441,18 @@
     "new_independent_interview_verified": false,
     "new_footage_cleared": false,
     "notes": "docs/trends/2026-11-18-1100-quality-scout.md"
+  },
+  "latest_prepared_concept_ids": [
+    "counterweight-gate"
+  ],
+  "latest_independent_preparation": {
+    "prepared_at_utc": "2026-11-18T19:57:29.555609+00:00",
+    "concept_id": "quality_counterweight_gate",
+    "manifest": "stories/counterweight-gate.json",
+    "status": "original_script_clean_male_take_and_mechanism_study_prepared_not_full_movie",
+    "new_finished_shorts": 0,
+    "new_drafts": 0,
+    "paid_vidiq_credits": 0,
+    "no_format_allocation_change": true
   }
 }

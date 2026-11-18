@@ -1,0 +1,120 @@
+{
+  "id": "counterweight-gate",
+  "origin_idea_id": "quality_counterweight_gate",
+  "status": "original_script_clean_male_take_and_mechanism_study_prepared_not_full_movie",
+  "title": "The Gate That Held Everyone Back",
+  "content_type": "fictional_micro_stories",
+  "theme": "A changed arrangement helps the people waiting at a gate.",
+  "audience_intent": "Original fictional fable for a general teen/adult audience. Not a real incident or an engineering tutorial.",
+  "narration": "Every time I reached for my cart, the gate came down. I tried again, and the whole line waited with me. Then I noticed the empty counterweight basket. I took the side steps and filled it with loose stones. The gate rose and stayed open. I rolled through. Behind me, the whole line started moving.",
+  "narration_paragraphs": [
+    "Every time I reached for my cart, the gate came down. I tried again, and the whole line waited with me.",
+    "Then I noticed the empty counterweight basket. I took the side steps and filled it with loose stones. The gate rose and stayed open.",
+    "I rolled through. Behind me, the whole line started moving."
+  ],
+  "voice_config": "config/motivational-voice.json",
+  "voice_preference": "Reviewed generic adult male am_michael; coherent full paragraphs, no pitch shift or celebrity imitation.",
+  "pacing": {
+    "opening_silence": 0.15,
+    "ending_silence": 1.0,
+    "insert_after": {
+      "me.": 0.25,
+      "basket.": 0.25,
+      "open.": 0.3
+    }
+  },
+  "storyboard": [
+    {
+      "beat": "concrete_failure",
+      "picture": "Heavy slatted gate drops as courier releases it to reach a distinct parcel cart; waiting adults are visible through the gate.",
+      "sound_plan": "Original soft timber/iron stop impact matched to the gate, restrained adult-male narration."
+    },
+    {
+      "beat": "second_attempt_and_stakes",
+      "picture": "A second clear attempt still leaves no free hands for the cart. The waiting line remains still.",
+      "sound_plan": "Second matched gate-stop cue; no repeated caption cards."
+    },
+    {
+      "beat": "notice",
+      "picture": "Show the existing overhead pulley route and empty basket on the side, with basket and gate in the same geography.",
+      "sound_plan": "Score stays beneath narration; no mystical discovery effect."
+    },
+    {
+      "beat": "meaningful_change",
+      "picture": "Courier uses the side loading steps and adds loose stones to the stationary counterweight basket. It stays separate from the parcel cart, which must remain free to roll through.",
+      "sound_plan": "Original stone-to-basket taps tied to actual animated deposits."
+    },
+    {
+      "beat": "cause_before_result",
+      "picture": "Loaded basket descends as gate rises. A close view establishes intact rope and opposite movement; a visible stop limits travel.",
+      "sound_plan": "Original rope/pulley creak and raised-gate stop, not Downward/Midnight cue timings."
+    },
+    {
+      "beat": "specific_payoff",
+      "picture": "Courier rolls the cart through the held gate. The waiting adults begin following while the basket continues to hold it open. End with the gate still clear.",
+      "sound_plan": "Quiet cart wheels and a restrained musical resolve, not applause or a generic closing lesson."
+    }
+  ],
+  "mechanism_preparation": {
+    "kind": "Authored fictional kinematic illustration, not a physics simulation or practical construction instructions.",
+    "gate_closed_bottom_z": 0.0,
+    "gate_open_bottom_z": 2.2,
+    "gate_height": 2.3,
+    "overhead_rope_height": 5.2,
+    "basket_rope_attachment_closed_z": 3.15,
+    "basket_rope_attachment_open_z": 0.95,
+    "basket_depth": 0.6,
+    "rope_invariant": "Gate lift h and basket drop h have equal magnitude; visible rope route remains continuous and constant-length.",
+    "grounding_requirement": "Cart wheels touch ground at their radius; no arbitrary positive root clearance. Verify actual staging shadows, hands, route and queue separation before native production."
+  },
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/ascension/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/02/sb_ascension.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-16",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Planned different excerpt, trimmed/faded and ducked beneath original male narration and new gate/stone/cart effects; not mixed or auditioned yet.",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "start": 144
+  },
+  "source_plan": {
+    "visuals": "New original gate/courtyard/steps/pulley/basket/cart/stones; project-owned courier hierarchy only. No new geometry is claimed produced or reviewed by this manifest alone.",
+    "voice": "Existing reviewed stock Kokoro model/voice files; individual actual generated take/ASR/timing review pending.",
+    "effects": "New original gate/stone/cart cues, not inherited from other finished stories.",
+    "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
+    "rights_record_pending": true,
+    "current_geometry_and_voice_sources_reviewed": true
+  },
+  "description": "An original fictional story about a blocked gate and a change that helps the people waiting. Original character animation, script, generic stock narration and effects.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and ducked beneath original narration and story-specific effects.",
+  "prepared_at_utc": "2026-11-18T19:41:58.204041+00:00",
+  "finished_video_exists": false,
+  "publishable": false,
+  "ready_candidate": false,
+  "service_draft_created": false,
+  "scheduled": false,
+  "publication_evidence": null,
+  "current_trend_claim": false,
+  "new_concept_discovery_claim": false,
+  "before_script_free_guidance_called": true,
+  "spoken_length_commitment": "No owner-requested duration or word target. Actual generated take sets timing; no guessed runtime asserted.",
+  "source_record": "assets/stories/counterweight-gate/source-record.json",
+  "staging_review": "assets/stories/counterweight-gate/staging-review.json",
+  "narration_preflight": "assets/stories/counterweight-gate/narration-preflight.json",
+  "actual_narration_seconds": 24.048667,
+  "actual_narration_words": 55,
+  "clean_narration_sha256": "e15f3a42c2fe094850c695126defb860e4814fd5eb293cd7eb23d793ad0199b3",
+  "current_study_source_sha256": "de85d9ba9cb68ee02c2077f87432fbfc5eb43125a88305931452a2f14c441b6c",
+  "private_current_study": "work/preproduction/counterweight-gate/mechanism-study-v4",
+  "private_existing_narration": "work/preproduction/counterweight-gate/narration",
+  "do_not_regenerate_existing_take": true,
+  "full_native_animation_started": false,
+  "do_not_render_staging_as_final_movie": true,
+  "next_work": "Reuse the existing original script/clean am_michael take and corrected mechanism study. Build actual lifting/steps/stone/cart hand interactions, two timed failures, waiting adult characters and their movement payoff, front/three-quarter expressive shots and the complete action timeline. Inspect critical native stills before authorizing one full animation, prepare capacity and story-specific sound/captions, then review actual finished encoding. No new draft/schedule or finished-film claim from these static poses."
+}

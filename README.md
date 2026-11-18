@@ -18,6 +18,8 @@ A [complete corrected teamwork preview](examples/development/team-ownership/14-f
 
 [Midnight Bell now has a complete original-story preview](docs/production/2026-11-18-midnight-bell-finished-preview.md): all 678 native frames were assembled with the inspected soundtrack/captions, 92 encoded samples and every cut were inspected, and decode/AAC identity/levels passed. One [exact zero-credit manual draft](docs/production/midnight-bell-upload-review.md) awaits its actual connector’s required after-saved-draft reply. It is not scheduled or published. The Descript review player is watermarked; the draft uses the clean verified master. Documented visual and listening limits remain attached.
 
+An [existing counterweight-gate concept](docs/production/2026-11-18-counterweight-gate-preparation.md) now has a clean male narration source and four inspected mechanism poses. Timed acting, waiting characters, a full animation and soundtrack/caption finishing remain preparation; no new upload draft or queue slot was created.
+
 ## Quality and selection
 
 The owner rejected the old stock-card format and robotic Piper delivery. Comedy is optional. Use [the quality direction](docs/quality.md), [quality configuration](config/quality.json) and [current strategy](config/strategy.json). Fixed category quotas and old bulk scheduling remain disabled. Prioritize formats supported by dated view evidence and actual structural analysis, then create original stories and commentary from cleared assets. Competitor views indicate audience interest, not guaranteed results, commercial reuse rights or monetization eligibility.

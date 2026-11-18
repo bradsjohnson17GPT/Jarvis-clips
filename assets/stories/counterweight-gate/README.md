@@ -1,0 +1,13 @@
+# Counterweight Gate preparation
+
+This develops the existing `quality_counterweight_gate` concept. It is an original fictional story about a courier changing the arrangement that keeps a gate closed, then leaving it open for the people waiting. It is not a new trend discovery, a real first-person experience or a finished Short.
+
+`mechanism-study.py` authors the gate, guides/stops, pulleys, continuous rope, separate stone basket, solid loading steps/platform and free parcel cart. It imports only the project-owned courier hierarchy. Four current 720×1280, four-sample stills were rendered, denoised at the same dimensions and actually inspected; the loaded basket was also inspected full-size. [Staging review](staging-review.json) records exact source/image hashes and limitations. The rope route remains constant-length as the gate rises and basket falls. Cart wheel centers equal their radius above the floor. These are authored staging checks, not a rigid-body simulation or physical validation.
+
+The current views make the closed gate/cart, lifted gate, visible loaded basket and free cart beyond the gate readable. The corrected basket has one continuous wall mesh, straps meet the rope attachment, and the loading platform is solid. Raw studies and earlier rejected geometry/framing remain private. No full render is exposed by this study script.
+
+One [generic adult male am_michael take](narration-preflight.json) is cached: 55 spoken words, ASR matched, 24.048667 seconds, synthesized as three coherent paragraphs. Mild EQ/compression/level processing preserved its duration without pitch shift or celebrity imitation. The cleaned mono source measures −18.45 LUFS and −2.86 dBTP; this is not a final stereo AAC soundtrack. No subjective listening or continuous video playback is claimed. Reuse this take rather than synthesizing it again each run.
+
+Remaining work includes the actual lifting/stone-deposit hand interactions, stair movement, two timed attempts, waiting adult characters and their movement payoff, expressive front/three-quarter shots, the complete action timeline, story-specific effects, ducked licensed music/captions and finished audiovisual review. The current stills do not prove those actions. Prepare render/storage capacity before a full native sequence; do not render a static study as an upload.
+
+[Source review](source-record.json) and [production preparation](../../../docs/production/2026-11-18-counterweight-gate-preparation.md) distinguish existing authored assets from unbuilt scenes. No publishing draft or queue entry exists for this preparation. Both existing finished manual drafts, all published videos and all Metricool holds remain separate.

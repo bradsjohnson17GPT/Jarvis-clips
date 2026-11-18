@@ -1,0 +1,54 @@
+{
+  "id": "counterweight-gate",
+  "reviewed_at_utc": "2026-11-18T19:57:29.555609+00:00",
+  "reviewer": "Project production assistant",
+  "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
+  "original_geometry": {
+    "source": "assets/stories/counterweight-gate/mechanism-study.py",
+    "sha256": "de85d9ba9cb68ee02c2077f87432fbfc5eb43125a88305931452a2f14c441b6c",
+    "items": [
+      "courtyard",
+      "vertical timber gate",
+      "guides/stops",
+      "two pulleys",
+      "continuous rope",
+      "separate hanging basket",
+      "stones",
+      "side loading steps/platform",
+      "free parcel cart"
+    ],
+    "external_models_textures_or_footage": [],
+    "commercial_project_use": true,
+    "rights_basis": "Original authored project geometry/code. This review covers the existing mechanism study, not unbuilt queue/action/background assets."
+  },
+  "project_owned_character": {
+    "source": "assets/stories/downward-beacon/scene.blend",
+    "sha256": "1bb432ae4fe95a566831bf2ed0504c88b469272033c43f7b28c637c6145ddc5a",
+    "scope": "Only project-owned courier hierarchy is retained; original story/world/other objects and animation removed. Reused character is not reused live footage."
+  },
+  "narration": {
+    "config": "config/motivational-voice.json",
+    "voice": "am_michael",
+    "engine_license": "MIT",
+    "model_license": "Apache-2.0",
+    "runtime_source": "https://github.com/thewh1teagle/kokoro-onnx",
+    "model_source": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "model_license_url": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/README.md",
+    "generic_stock_voice_no_custom_speaker_recording": true,
+    "review": "narration-preflight.json",
+    "actual_take_generated_and_asr_matched": true,
+    "subjective_listening_claimed": false
+  },
+  "music": {
+    "status": "Reviewed licensed track planned; no new score excerpt or final mixed soundtrack produced yet.",
+    "source": "https://www.scottbuckley.com.au/library/ascension/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au"
+  },
+  "effects": {
+    "status": "New gate/pulley/stone/cart cues still need production and synchronization; do not reuse another story cue map."
+  },
+  "factual_scope": "Entire first-person story is fictional. No owner experience, famous-person quote, real event or practical construction/physics assurance is claimed.",
+  "full_movie_rights_and_editorial_release": false,
+  "publishable": false
+}

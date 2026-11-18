@@ -1,0 +1,65 @@
+{
+  "id": "counterweight-gate",
+  "reviewed_at_utc": "2026-11-18T19:57:29.555609+00:00",
+  "status": "mechanism_still_study_reviewed_not_a_full_story",
+  "source_sha256": "de85d9ba9cb68ee02c2077f87432fbfc5eb43125a88305931452a2f14c441b6c",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "samples": 4,
+  "denoiser": "OIDN2.5.1 CPU RT LDR/sRGB high, beauty-only; same-size output",
+  "current_pose_images_actually_viewed": 4,
+  "full_size_pose_images_viewed": [
+    "03-loaded-basket-gate-open"
+  ],
+  "pose_image_hashes": [
+    {
+      "pose": "01-closed-gate-and-cart",
+      "raw_sha256": "5c36228bc7fe5726f7daf40f143ec143845109eb6c74dcaa7347ecd942e031e0",
+      "denoised_sha256": "b7b6be61e517f3b71b7c81808ce7f4438824a97c843de4c5805f5b46a56ecd50"
+    },
+    {
+      "pose": "02-lifted-attempt-rope-response",
+      "raw_sha256": "e5a59145496dd40b9474bb193cb0ab5dbeed3e825dcd4ceb9dabc3ac6a3a6e72",
+      "denoised_sha256": "ea3c985712dd7569b703a6b0b03f54ba0f570cad8f17f5d8f8fb14f4a8c49761"
+    },
+    {
+      "pose": "03-loaded-basket-gate-open",
+      "raw_sha256": "f20addfb26fd63f8ce1f9df4975a86151ee05415e5ac713c9dbdb751dc06b7b0",
+      "denoised_sha256": "a287f76cbb69ae5f60d8a71770a3f3407e40a4411ceb2b771006c572081258ba"
+    },
+    {
+      "pose": "04-free-cart-through-held-gate",
+      "raw_sha256": "5f4cdbbc506ccfbdc1a937535108b0f7598d988b6c1194d11424a6cd8a5ee6cb",
+      "denoised_sha256": "db145ba892eaf026922a235300160cf6a3e1fefc6f21631f7368dda94de5a8ed"
+    }
+  ],
+  "technical_invariants": {
+    "maximum_rope_length_difference_scene_units": 2.4042877821983666e-07,
+    "maximum_cart_wheel_floor_distance_scene_units": 2.4041264534702123e-09,
+    "rigid_body_simulation": false
+  },
+  "actual_visual_findings": [
+    "Current close blocking views show gate closed/lifted, a separate hanging stone basket and a free cart beyond the raised gate.",
+    "Rope now meets both basket straps at one attachment. One continuous basket mesh removes the prior coplanar stripe, and a solid loading platform supports the courier. Loaded basket is visible rather than hidden by foreground stairs.",
+    "Cart wheel contact/clearance is readable; its modeled wheel centers equal their radius above the floor. Do not assume numerical invariants establish physical behavior or finished motion.",
+    "Four static poses do not show the two timed attempts, lifting hands, stair climb, stone deposits, waiting people or their movement payoff. Background/set dressing, expressive front/three-quarter character shots and all finished editing remain to be built."
+  ],
+  "remaining_work": [
+    "Actual hand/rope/basket interaction and stone deposits",
+    "Two distinct failed attempts in timed motion",
+    "Waiting adults and their specific movement payoff",
+    "Cinematic close/medium shots and final shot timing",
+    "Full native animation, soundtrack/captions and encoded finished review",
+    "Actual close/medium shot sequence against the55word male take",
+    "Reviewed gate/rope/stone/cart effects, ducked licensed music and speech-timed captions",
+    "Native full-sequence storage budget, complete render and actual finished encoded audiovisual review"
+  ],
+  "full_motion_render_started": false,
+  "finished_video_exists": false,
+  "publishable": false,
+  "regression_tests_passed": 41,
+  "subjective_listening_claimed": false,
+  "continuous_watching_claimed": false
+}
