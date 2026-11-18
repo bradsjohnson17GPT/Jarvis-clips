@@ -209,7 +209,7 @@
     },
     {
       "id": "quality_midnight_bell",
-      "status": "original_scene_native_render_in_progress_not_finished_short",
+      "status": "native_animation_in_progress_audio_caption_preflight_ready",
       "topic": "A small rescue mystery",
       "content_type": "fictional_micro_stories",
       "hook": "The bell rings in a railway station after its final train has gone.",
@@ -227,11 +227,13 @@
       "trend_claim": false,
       "manifest": "stories/midnight-bell.json",
       "story_manifest": "stories/midnight-bell.json",
-      "production_state": "Existing original scene/stills recovered without recreating the concept or voice. Detached investigation props and charger occlusion fixed in actual native samples; one full678frame24sample720x1280render is active. No finishedShort, readyentry orpublisherdraft.",
+      "production_state": "Samepinnednative678frameanimationcontinues. Newscene-specific originalbell/chargeaudio with licensedduckedscore retains unchangedfictionnarration. Encodedstereo48kAAC/fulldecode/59wordASR/levels passed;23captions prepared,fivestaginglayouts+sixactual24samplenativeopeningframesinspected. No finishedShort,readyentry orpublisherdraft.",
       "staging_review": "assets/stories/midnight-bell/staging-review.json",
       "source_record": "assets/stories/midnight-bell/source-record.json",
       "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
-      "native_render_in_progress": true
+      "native_render_in_progress": true,
+      "audio_preflight": "assets/stories/midnight-bell/audio-preflight.json",
+      "caption_preflight": "assets/stories/midnight-bell/caption-preflight.json"
     },
     {
       "id": "apollo13-the-part-they-couldnt-send",
@@ -382,7 +384,7 @@
       "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-18T09:56:48.503688+00:00",
+  "production_reconciled_at_utc": "2026-11-18T10:32:44.233854+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",

@@ -1,6 +1,6 @@
 {
   "id": "midnight-bell",
-  "status": "original_scene_native_render_in_progress_not_finished_short",
+  "status": "native_animation_in_progress_audio_caption_preflight_ready",
   "title": "Why Was the Empty Station Bell Ringing?",
   "content_type": "fictional_micro_stories",
   "hook_type": "unexplained_sound_resolved_by_rescue",
@@ -39,7 +39,7 @@
     "reviewed_by": "Project production assistant",
     "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
     "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
-    "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
+    "changes": "Excerpt trimmed, faded and sidechain-ducked beneath unchanged original narration and new original bell/charging effects.",
     "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
     "start": 288
   },
@@ -91,10 +91,13 @@
     "narration_text_asr_verified": true,
     "full_video_rendered": false,
     "published": false,
-    "audio_version": "kokoro-narrative-v1",
+    "audio_version": "unchanged_kokoro_fiction_original_bell_charge_fx_licensed_score_v1",
     "existing_scene_and_eight_stills_recovered": true,
     "material_staging_corrections_inspected": true,
-    "full_native_render_started": true
+    "full_native_render_started": true,
+    "audio_preflight_encoded_asr_verified": true,
+    "audio_preflight_encoded_loudness_verified": true,
+    "caption_words_preserved": true
   },
   "publishable": false,
   "finished_video_exists": false,
@@ -115,5 +118,10 @@
     "status": "in_progress",
     "complete": false
   },
-  "next_work": "Inspect existing native render/status/cache before any restart; never duplicate it. Finish matching same-size denoising, story-specific bell/charge audio/music/captions and assemble only the complete678frames. Inspect actual finished cuts/acting/synchronization/decode/levels and honest listening limits before readyentry or publisherdraft."
+  "next_work": "Preserve the active pinned678frame native render. Sixproductionframes are alreadyreceipt-denoised; continue bounded same-source denoising withoutoverlap. Reuse the exact prepared28.25s AAC/caption hashes,59words/23cues and scene-specific bell/charge effects; do not regenerate/revoice or run the Downward effect template. Assemble only the complete678frames; inspect actual final cuts, acting, captions/speech, encoded AAC identity/decode/levels and honest subjective listening limits before readyentry or publisherdraft.",
+  "audio_preflight_record": "assets/stories/midnight-bell/audio-preflight.json",
+  "caption_preflight_record": "assets/stories/midnight-bell/caption-preflight.json",
+  "audio_preflight_ready": true,
+  "captions_prepared": true,
+  "final_audiovisual_review_passed": false
 }

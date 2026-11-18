@@ -1,0 +1,187 @@
+{
+  "id": "midnight-bell",
+  "prepared_at_utc": "2026-11-18T10:32:44.233854+00:00",
+  "status": "speech_timed_captions_and_sampled_native_layout_preflight",
+  "publishable": false,
+  "caption_sha256": "efd7f1758b301080289106d886202d622499f410c4d52a92716c08f0c20f6ac5",
+  "spoken_words": 59,
+  "cue_count": 23,
+  "all_spoken_words_preserved_once": true,
+  "basis": "Existing ASR-aligned unchanged narration with the same pauses. Final encoded mix full ASR matches the locked spoken script.",
+  "label": "Original fiction",
+  "positions": {
+    "speech": [
+      360,
+      1040
+    ],
+    "fiction_label": [
+      24,
+      24
+    ]
+  },
+  "speech_font_pixels": 42,
+  "staging_layout_review": {
+    "prepared_at_utc": "2026-11-18T10:23:13.974169+00:00",
+    "caption_sha256": "efd7f1758b301080289106d886202d622499f410c4d52a92716c08f0c20f6ac5",
+    "samples": [
+      {
+        "frame": 30,
+        "time_seconds": 1.2083333333333333,
+        "input_sha256": "140153f57ef41d6372d1eaada26bc0490ad19f2851c86affbd862ce22655826f",
+        "captioned_sha256": "ec9e4621460d2da67292545b05b781f91a34277f09384ca5d569df65b005edc6",
+        "input_scope": "legacy source a627; same opening pose, native4sample still"
+      },
+      {
+        "frame": 272,
+        "time_seconds": 11.291666666666666,
+        "input_sha256": "94aa959cbf2a5c5b72130a39c52f3b198b9f4e2d4a23283fd97841958148416d",
+        "captioned_sha256": "c84cf993d2576864f4fa5e16c0135d063e1968cade9fa6171329f26d53d0ded0",
+        "input_scope": "legacy source a627; same robot reveal pose, native4sample still"
+      },
+      {
+        "frame": 375,
+        "time_seconds": 15.583333333333334,
+        "input_sha256": "571f974e880cdc75d137a005e24725e9934b0d65b0679092773efdb8d5ca48f5",
+        "captioned_sha256": "ac331644d468e0bd646805363eae2ac5b1a2577b9facb4ba92bc8f7e81cba9e3",
+        "input_scope": "legacy source a627; same lowbattery pose, native4sample still"
+      },
+      {
+        "frame": 480,
+        "time_seconds": 19.958333333333332,
+        "input_sha256": "fb74f277d4cb8ae1928d3ec9f5e47960614980e8b0293ca9ba3d0f54817bc293",
+        "captioned_sha256": "97a6bc0c70668ae82883beb1ba99ccb689ea218a6e388660cce0e5ee94bddf52",
+        "input_scope": "current source4dc6; corrected charger camera, native4sample still"
+      },
+      {
+        "frame": 629,
+        "time_seconds": 26.166666666666668,
+        "input_sha256": "9e97f4e06a5c624bc002451e0f6d02399966a7d45141c4a265f8ddaffa6558d4",
+        "captioned_sha256": "428998288bf56d3866e7845d8c1316bb5b7f6ed8a3cbab24374df08f0ae24304",
+        "input_scope": "legacy source a627; same dawn pose, native4sample still"
+      }
+    ],
+    "visual_inspection_pending": false,
+    "finished_movie_exists": false,
+    "publishable": false,
+    "scope": "Caption layout on retained native staging stills. Most use earlier sources with unchanged corresponding poses/cameras. They are not an assembled production24sample film or final synchronization/playback review.",
+    "reviewed_at_utc": "2026-11-18T10:32:44.233854+00:00",
+    "actual_staging_captioned_samples_visually_inspected": 5,
+    "actual_full_size_staging_captioned_samples_inspected": [
+      272,
+      480
+    ],
+    "findings": [
+      "All five actual captioned staging stills were viewed; full-size robot reveal272 and charger480 were also viewed. Main42px text at(360,1040) remains clear of the bell, wrench/robot face, connector/battery and raised wave in these images.",
+      "The persistent Original fiction label is readable at the top-left. These are layout checks against earlier/current staging sources, not a completed24sample film or real-time synchronization review."
+    ]
+  },
+  "production_opening_review": {
+    "prepared_at_utc": "2026-11-18T10:25:26.697757+00:00",
+    "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+    "caption_sha256": "efd7f1758b301080289106d886202d622499f410c4d52a92716c08f0c20f6ac5",
+    "native_frames": [
+      {
+        "frame": 1,
+        "time_seconds": 0.0,
+        "raw_sha256": "d65d66568563f646a8921f1bd580ea7e2ef010bcf1ddff85b5bdd69bd1436a1e",
+        "denoised_sha256": "7aaf10ee3fe0ad0a94e551ecd722f92c5e45c8258ec7ed2289b395efa1e47bc0",
+        "captioned_sha256": "cd3dceecc4445be8ff270fd461525a822da44667c7a2b38c65da0ce42c2b3153",
+        "production_samples": 24,
+        "dimensions": [
+          720,
+          1280
+        ],
+        "source_and_denoise_receipts_verified": true
+      },
+      {
+        "frame": 7,
+        "time_seconds": 0.25,
+        "raw_sha256": "50f0cabf0ab397c2169158b1c0800298051d623b254e4458100b833cc8bf1294",
+        "denoised_sha256": "136acc7db3e7c3437fd5b14a3742d12e41d95380c88413998a621d2b601a3b2a",
+        "captioned_sha256": "f63255842d4513a190f83924498699d0bdaae77dd917dddf31c03c0867fabd3d",
+        "production_samples": 24,
+        "dimensions": [
+          720,
+          1280
+        ],
+        "source_and_denoise_receipts_verified": true
+      },
+      {
+        "frame": 13,
+        "time_seconds": 0.5,
+        "raw_sha256": "8877c03ecf97e02960d547db92c496ec4bacba8dc77fb7f774841e74eeae6d11",
+        "denoised_sha256": "6b1f3b86b50b284da42e063b65e212fc1f14d67ebfe992042eb947440b923653",
+        "captioned_sha256": "66728be7a1f20a8cfd9b26d779acc40982bd7d80ee2496349e1bffef4b0c39f0",
+        "production_samples": 24,
+        "dimensions": [
+          720,
+          1280
+        ],
+        "source_and_denoise_receipts_verified": true
+      },
+      {
+        "frame": 17,
+        "time_seconds": 0.6666666666666666,
+        "raw_sha256": "c19a1c3cf8bd4b5faca700e5a27d8cdcd2febff4d28b485cdad7e14dbcf6881d",
+        "denoised_sha256": "23975a5a95ecde6e4cd5040f59df59fc306a07721aa4fd7b3e9d4dc76a5db4d4",
+        "captioned_sha256": "7f0093ebb397f58c2ccec68ca35ca3dc02d2eedc690004f7eebebda009094182",
+        "production_samples": 24,
+        "dimensions": [
+          720,
+          1280
+        ],
+        "source_and_denoise_receipts_verified": true
+      },
+      {
+        "frame": 21,
+        "time_seconds": 0.8333333333333334,
+        "raw_sha256": "6c95f79784a51ae7ea030b9c597ebfbf43768d8cd32b5f398c90f44ce9b7e2e0",
+        "denoised_sha256": "3ad9e7840fa5628fd40c4490bf43f54bbf805079d0229c97ac1ba5b014188b79",
+        "captioned_sha256": "f1a22d70b30555e91eb3458b159dfa5ddba81e8ea050e4570331c2d34cb672e3",
+        "production_samples": 24,
+        "dimensions": [
+          720,
+          1280
+        ],
+        "source_and_denoise_receipts_verified": true
+      },
+      {
+        "frame": 30,
+        "time_seconds": 1.2083333333333333,
+        "raw_sha256": "a48c9b16a3732ede389ebaec7b508d39b16db57d49467efada40fbb761e53f16",
+        "denoised_sha256": "22c538c4b77ba624f5256936f26765e89df6f7ed5ef531f5d47dcff3bebf33f3",
+        "captioned_sha256": "e9b08779dd72c6fa73848553b281184559a4d46658e392b0048fc781b0abff49",
+        "production_samples": 24,
+        "dimensions": [
+          720,
+          1280
+        ],
+        "source_and_denoise_receipts_verified": true
+      }
+    ],
+    "visual_inspection_pending": false,
+    "scope": "Six actual24-sample production native opening frames with same-size receipt-verified OIDN and new prepared captions. Not a complete film or real-time/subjective soundtrack review.",
+    "publishable": false,
+    "finished_movie_exists": false,
+    "reviewed_at_utc": "2026-11-18T10:32:44.233854+00:00",
+    "actual_production_native_captioned_frames_visually_inspected": [
+      1,
+      7,
+      13,
+      17,
+      21,
+      30
+    ],
+    "actual_full_size_production_native_captioned_frames_inspected": [
+      30
+    ],
+    "findings": [
+      "Six actual24-sample native production opening frames were receipt-verified, denoised at the same720x1280 dimensions, captioned and visually inspected in sequence. Frame30 was also viewed full-size.",
+      "The midnight clock and moving bell stay visible; the phrase captions occupy the floor below the bell and the fiction label stays in the top-left. No text/action conflict was observed in these six images.",
+      "No complete film, continuous motion playback, subjective soundtrack listening or final audiovisual timing pass is claimed."
+    ]
+  },
+  "final_encoded_movie_reviewed": false,
+  "continuous_video_watching_claimed": false,
+  "subjective_audio_listening_claimed": false
+}

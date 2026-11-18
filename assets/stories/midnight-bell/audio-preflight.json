@@ -1,0 +1,405 @@
+{
+  "id": "midnight-bell",
+  "prepared_at_utc": "2026-11-18T10:30:38.698205+00:00",
+  "status": "audio_and_caption_preflight_not_finished_video",
+  "publishable": false,
+  "narration_sha256": "22bc37f7aafbdebbafe2295fbccc9faca92820065522a5ff175250f72f0064dd",
+  "narrator": "af_heart",
+  "narration_regenerated": false,
+  "spoken_script_unchanged": true,
+  "duration_seconds": 28.25,
+  "narration_duration_seconds": 28.228,
+  "aac_sha256": "0943cce2c46300490692125102569ab9e87311e34c4c59491d45f26699ff9833",
+  "aac_essence_adts_sha256": "d7ff053a5957f1921a43aa39e91a67bc8f6c21f761d183e1c3dbac92ffd73667",
+  "effects_sha256": "53cf10bb2a2f722b5bf0f35d60bbfbf4cbc652fe9c8a99ecbd69e9d8cef5e3da",
+  "master_sha256": "d5582a154e6b3dbe88522439ecb3afc09f20479aa4c641b08de638fb5ebc0093",
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000
+  },
+  "encoded_loudness": {
+    "input_i": "-16.05",
+    "input_tp": "-3.59",
+    "input_lra": "4.40",
+    "input_thresh": "-27.40",
+    "output_i": "-16.16",
+    "output_tp": "-3.71",
+    "output_lra": "3.50",
+    "output_thresh": "-27.44",
+    "normalization_type": "dynamic",
+    "target_offset": "0.16"
+  },
+  "encoded_full_decode_passed": true,
+  "encoded_asr_exact_normalized_match": true,
+  "caption_sha256": "efd7f1758b301080289106d886202d622499f410c4d52a92716c08f0c20f6ac5",
+  "word_count": 59,
+  "caption_cues": [
+    {
+      "start": 0.13,
+      "end": 1.05,
+      "text": "The station bell",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 1.05,
+      "end": 2.23,
+      "text": "rang at midnight.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 3.29,
+      "end": 3.91,
+      "text": "The last train",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 3.91,
+      "end": 4.83,
+      "text": "had left hours",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 4.83,
+      "end": 5.3500000000000005,
+      "text": "ago.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 6.180000000000001,
+      "end": 6.82,
+      "text": "I followed the",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 6.82,
+      "end": 7.880000000000001,
+      "text": "tapping beneath the",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 7.880000000000001,
+      "end": 8.44,
+      "text": "platform.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 9.790000000000001,
+      "end": 10.610000000000001,
+      "text": "A little maintenance",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 10.610000000000001,
+      "end": 11.83,
+      "text": "robot was hitting",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 11.83,
+      "end": 12.47,
+      "text": "the bell with",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 12.47,
+      "end": 12.99,
+      "text": "a wrench.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 13.93,
+      "end": 14.77,
+      "text": "Its battery was",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 14.77,
+      "end": 15.73,
+      "text": "almost dead.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 16.61,
+      "end": 17.09,
+      "text": "It was calling",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 17.09,
+      "end": 17.89,
+      "text": "for help.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 18.97,
+      "end": 19.69,
+      "text": "I connected the",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 19.69,
+      "end": 20.11,
+      "text": "charger.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 21.63,
+      "end": 22.47,
+      "text": "Next morning, the",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 22.47,
+      "end": 23.37,
+      "text": "same bell rang",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 23.37,
+      "end": 24.31,
+      "text": "when I passed.",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 25.18,
+      "end": 26.0,
+      "text": "This time, I",
+      "position": [
+        360,
+        1040
+      ]
+    },
+    {
+      "start": 26.0,
+      "end": 26.8,
+      "text": "waved back.",
+      "position": [
+        360,
+        1040
+      ]
+    }
+  ],
+  "caption_label": "Original fiction",
+  "effects": [
+    {
+      "at_seconds": 0,
+      "kind": "original_quiet_station_air",
+      "gain": 0.003,
+      "pan": 0
+    },
+    {
+      "at_seconds": 0.68,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 1.12,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 1.56,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 6.75,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 7.2,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 7.65,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 10.2,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 10.75,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 11.3,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 12.0,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 12.55,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 14.0,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.035,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 22.6,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 23.05,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 23.5,
+      "kind": "original_wrench_bell_impact",
+      "gain": 0.09,
+      "pan": 0.15
+    },
+    {
+      "at_seconds": 19.94,
+      "kind": "original_insulated_plug_seating_click",
+      "gain": 0.055,
+      "pan": -0.1
+    },
+    {
+      "at_seconds": 20.05,
+      "kind": "original_battery_recovery_tone",
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "at_seconds": 20.21,
+      "kind": "original_battery_recovery_tone",
+      "gain": 0.035,
+      "pan": 0.1
+    }
+  ],
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "excerpt_start_seconds": 288.0,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "Excerpt trimmed, faded and sidechain-ducked beneath unchanged original narration and new original bell/charging effects."
+  },
+  "continuous_video_watching_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "finished_movie_exists": false,
+  "limits": "ASR, levels and timestamps are engineering checks. No subjective listening, actual finished-film pacing or final caption/visual synchronization is claimed.",
+  "actual_encoded_container_seconds": 28.25,
+  "alignment": {
+    "actual_encoded_container_seconds": 28.25,
+    "target_seconds": 28.25,
+    "source_to_encoded": {
+      "lag_seconds": 0.005,
+      "correlation": 0.9172681084314286
+    },
+    "master_to_encoded": {
+      "lag_seconds": 0.0,
+      "correlation": 0.9998903718410789
+    },
+    "caption_effect_master_hashes_unchanged": true,
+    "v1_superseded_reason": "Encodedtail72ms short; fixed by explicitpost-normalization sample-rate conversion/padding/trimming. No narration/script/effects/caption change.",
+    "subjective_listening_claimed": false
+  },
+  "superseded_audio": [
+    {
+      "aac_sha256": "dce1c5d1985b55afa1b39f8650b071aea57c5d7ca916f4fad1900dd0292701b7",
+      "actual_duration_seconds": 28.178,
+      "reason": "72ms short encoded tail; neveruseforfinalassembly."
+    }
+  ],
+  "source_narration_sample_rate": 24000,
+  "source_narration_channels": 1,
+  "output_rate_conversion": "Existing mono24kHz narration processed into stereo48kHz AAC; no new synthesis or pitch change.",
+  "original_effect_source": "New deterministic procedural bell, station-air, plug-click and recovery tones; no imported/stock source audio.",
+  "all_spoken_words_preserved_once_in_captions": true,
+  "caption_layout_review": "assets/stories/midnight-bell/caption-preflight.json"
+}

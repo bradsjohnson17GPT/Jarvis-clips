@@ -25,8 +25,12 @@
     "narration_duration_seconds": 28.228,
     "existing_timed_words_match_locked_script": true,
     "regenerated": false,
-    "music_and_effects_mixed": false,
-    "subjective_listening_claimed": false
+    "music_and_effects_mixed": true,
+    "subjective_listening_claimed": false,
+    "source_sample_rate": 24000,
+    "preflight_encoded_sample_rate": 48000,
+    "preflight_encoded_channels": 2,
+    "final_movie_reviewed": false
   },
   "music": {
     "planned_track": "Ascension",
@@ -34,11 +38,16 @@
     "source": "https://www.scottbuckley.com.au/library/ascension/",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "required_credit": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
-    "status": "Existing reviewed track; final selection/mix and changes must be checked in the finished film description."
+    "status": "Existing reviewed track used in completed audio-only preflight; final film/listening review pending.",
+    "excerpt_start_seconds": 288.0,
+    "preflight_duration_seconds": 28.25,
+    "changes": "Excerpt trimmed, faded and sidechain-ducked beneath unchanged original narration and new original bell/charging effects."
   },
   "effects": {
-    "status": "Planned original bell/charging cues, not generated or mixed by this staging work.",
-    "requirement": "Match the actual bell impacts, plug seating and recovery; do not reuse Downward Beacon cue timings."
+    "status": "Original procedural station air, wrench/bell impacts, insulated plug seating click and battery recovery tones synthesized/mixed for audio-only preflight.",
+    "requirement": "Match the actual bell impacts, plug seating and recovery; do not reuse Downward Beacon cue timings.",
+    "audio_record": "assets/stories/midnight-bell/audio-preflight.json",
+    "timing_basis": "Existing inspected scene physical_bell_impact_seconds and charger_seated19.94/battery_recovers20.05."
   },
   "staging_review": "assets/stories/midnight-bell/staging-review.json",
   "publishable": false

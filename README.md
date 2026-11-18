@@ -16,7 +16,7 @@ An [Apollo 13 development preview](examples/development/apollo13-the-part-they-c
 
 A [complete corrected teamwork preview](examples/development/team-ownership/14-full-story-preview-v3.mp4) combines original marker-handoff animation with a different reviewed Jocko statement and the saved male narrator. Its crossing-out and final-drawing corrections are complete. Actual encoded review covered 55 full-film samples and every crossing-out frame; full decode, retained audio and levels passed. After the owner requested posting this shown preview, one [exact zero-credit direct upload draft](docs/production/team-ownership-upload-review.md) was saved. The actual connector requires a reply after the saved draft is shown; it is not scheduled or published. [V3 evidence and playback limits](docs/production/2026-11-18-team-ownership-v3-preview.md) remain recorded, and earlier previews remain held.
 
-An [original Midnight Bell scene](docs/production/2026-11-18-midnight-bell-staging.md) was recovered from existing work, inspected and corrected for detached props and an obscured charger connection. One full native animation is rendering from the pinned scene. It remains preparation, with no finished Short or posting draft.
+An [original Midnight Bell scene](docs/production/2026-11-18-midnight-bell-staging.md) was recovered from existing work, inspected and corrected for detached props and an obscured charger connection. One full native animation is rendering from the pinned scene. [Audio and captions](docs/production/2026-11-18-midnight-bell-audio-preflight.md) now have a checked encoded preflight and sampled layout inspection. It remains preparation, with no finished Short or posting draft.
 
 ## Quality and selection
 
