@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_male_audio_phrase_captions_and_cart_motion_development_not_full_story",
+  "status": "original_male_audio_first_release_and_cart_motion_development_not_full_story",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse the exact cleaned male take, audio preflight, immutable cue/action plan, eighteen phrase captions and contact/ankle-lock cart prototype. Build timed lifting/release/drop, stair/stone pickup/deposit contacts, waiting adults walking and the whole-line passage payoff. Prototype rear/side camera is technical only; create expressive front/three-quarter shots and finish courtyard. Preserve landing/basket clearance and supported feet; use an editorial return cut. Prepare capacity before the full native sequence and review actual movement/cuts/finished sound/captions. Revise cached audio only when actual event timings change. Do not publish the silent360x640test or create a draft from it.",
+  "next_work": "Reuse the exact male audio/action/caption sources and completed first-release and stance-lock cart prototypes. Integrate one common cart position and scene; do not stitch the separately staged tests blindly. Build the second lift/release with supported crouch to the low handle, stair and stone pickup/deposit contacts, waiting adults walking and the passage payoff. Finish expressive front/three-quarter cameras and courtyard. Preserve platform/basket clearance, rope continuity and supported feet; use a return-time editorial cut. Prepare capacity before full native render. Review actual cuts, movement and finished sound/captions; cached audio needs revision only if event timings change. Neither development clip is a posting candidate.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -144,5 +144,17 @@
     640
   ],
   "development_motion_actual_encoded_frames_reviewed": 48,
-  "cart_contact_walk_prototype_prepared": true
+  "cart_contact_walk_prototype_prepared": true,
+  "gate_release_review": "assets/stories/counterweight-gate/gate-release-review.json",
+  "gate_release_source_sha256": "06b950108737c54b8a7064017bb9ba346fa30d7c71ab0305ab7f49a891e7fe8e",
+  "private_gate_release_development": "work/preproduction/counterweight-gate/gate-release-motion-v1",
+  "gate_release_development_video_sha256": "5a4d43216b5fff2d3141ae5d2820f5f425384778d7036ee986da3243a4fd9155",
+  "gate_release_development_seconds": 3.75,
+  "gate_release_development_native_dimensions": [
+    360,
+    640
+  ],
+  "gate_release_actual_encoded_frames_reviewed": 90,
+  "first_gate_release_prototype_prepared": true,
+  "do_not_regenerate_existing_release_test": true
 }

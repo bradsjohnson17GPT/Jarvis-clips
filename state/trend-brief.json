@@ -174,7 +174,7 @@
     },
     {
       "id": "quality_counterweight_gate",
-      "status": "original_male_audio_phrase_captions_and_cart_motion_development_not_full_story",
+      "status": "original_male_audio_first_release_and_cart_motion_development_not_full_story",
       "topic": "Motivational action through a physical problem",
       "content_type": "motivational",
       "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
@@ -215,7 +215,12 @@
       "cart_motion_source_sha256": "1a0bc385bb787a7ce92342b679474d2f6c3e832b26f2a68e8992c511e934fd92",
       "development_motion_video_exists": true,
       "development_motion_seconds": 2,
-      "development_motion_actual_encoded_frames_reviewed": 48
+      "development_motion_actual_encoded_frames_reviewed": 48,
+      "gate_release_review": "assets/stories/counterweight-gate/gate-release-review.json",
+      "gate_release_source_sha256": "06b950108737c54b8a7064017bb9ba346fa30d7c71ab0305ab7f49a891e7fe8e",
+      "gate_release_development_seconds": 3.75,
+      "gate_release_actual_encoded_frames_reviewed": 90,
+      "first_gate_release_prototype_prepared": true
     },
     {
       "id": "quality_last_charge",
@@ -459,10 +464,10 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-18T20:55:12.583930+00:00",
+    "prepared_at_utc": "2026-11-18T21:34:16.371654+00:00",
     "concept_id": "quality_counterweight_gate",
     "manifest": "stories/counterweight-gate.json",
-    "status": "original_male_audio_phrase_captions_and_cart_motion_development_not_full_story",
+    "status": "original_male_audio_first_release_and_cart_motion_development_not_full_story",
     "new_finished_shorts": 0,
     "new_drafts": 0,
     "paid_vidiq_credits": 0,
@@ -470,6 +475,7 @@
     "acting_pose_images_reviewed": 4,
     "phrase_caption_cues": 18,
     "audio_encoded_asr_words": 55,
-    "development_motion_actual_encoded_frames_reviewed": 48
+    "development_motion_actual_encoded_frames_reviewed": 48,
+    "gate_release_actual_encoded_frames_reviewed": 90
   }
 }
