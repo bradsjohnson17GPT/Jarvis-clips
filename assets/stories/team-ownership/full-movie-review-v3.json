@@ -379,10 +379,16 @@
   "audio_inspection_limit": "The session does not support audio input. Retained full-preflight ASR/essence identity and encoded levels are engineering checks, not subjective listening.",
   "release_decision": {
     "publishable": false,
-    "ready_candidate": false,
-    "publisher_draft_created": false,
-    "reason": "Observed marker contact defects are resolved in the actual encoded visual evidence. Real-time pacing and subjective full soundtrack listening remain unverified; no final editorial release or publisher draft is claimed."
+    "ready_candidate": true,
+    "publisher_draft_created": true,
+    "reason": "Owner requested posting after the corrected clean v3 preview was shown. One saved exact direct draft is ready; actual connector requires approval after showing the saved draft before publication. Assistant playback/listening limits remain recorded."
   },
   "descript_preview_url": "https://share.descript.com/view/OzWW6Lu7dbL",
-  "descript_export_review": "assets/stories/team-ownership/descript-review-v3.json"
+  "descript_export_review": "assets/stories/team-ownership/descript-review-v3.json",
+  "owner_direction_after_preview": {
+    "received_at_utc": "2026-11-18T09:20:05.939275+00:00",
+    "action": "Requested posting the shown corrected v3.",
+    "scope": "Creator direction to release this unchanged clean movie; no claim that the owner or assistant listened or watched in real time.",
+    "saved_draft_approval_status": "Required after-draft reply pending."
+  }
 }

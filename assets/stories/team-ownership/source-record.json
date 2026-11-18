@@ -131,8 +131,8 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "effects": "Original synthesized marker-stroke and marker-cap/contact sounds; no unreviewed stock audio.",
-  "final_movie_hash": null,
-  "final_editorial_qa": "assets/stories/team-ownership/full-movie-review-v2.json",
+  "final_movie_hash": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
+  "final_editorial_qa": "assets/stories/team-ownership/full-movie-review-v3.json",
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
   "held_preview_hash": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
   "development_preview_hash": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21"

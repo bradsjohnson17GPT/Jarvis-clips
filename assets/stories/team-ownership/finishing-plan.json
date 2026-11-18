@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "prepared_at_utc": "2026-11-17T14:19:41.324629+00:00",
-  "status": "corrected_v3_assembled_visual_review_complete_playback_review_pending",
+  "status": "ready_direct_draft_awaiting_required_after_draft_approval",
   "publishable": false,
   "finished_movie_exists": true,
   "frame_rate": 24,
@@ -131,8 +131,8 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "remaining_checks": [
-    "Review real-time full-film pacing and subjectively listen to the full unchanged soundtrack. Stills/ASR/levels do not establish these.",
-    "Record final editorial decision before readyentry or publisherdraft; refresh originalchannel/queues underlock before any later publishing action, then follow actual connector exact-draft flow."
+    "Actual saved-draft approval reply is required by the connector. Reuse the same exact draft/revision after that reply; refresh originalchannel/queues and prevent duplicates underlock.",
+    "No further render/edit/voice generation is required by the owner post request. Preserve the recorded absence of subjective listening/real-time review; do not relabel those checks passed."
   ],
   "assembler": "scripts/assemble_team_story.py",
   "assembled_movie_exists": true,
@@ -173,7 +173,7 @@
     "media_path": "examples/development/team-ownership/14-full-story-preview-v3.mp4",
     "qa_record": "assets/stories/team-ownership/full-movie-review-v3.json",
     "publishable": false,
-    "status": "corrected_v3_development_preview_playback_review_pending"
+    "status": "ready_direct_draft_awaiting_required_after_draft_approval"
   },
   "original_scene_crossout_patch": {
     "first_frame": 71,

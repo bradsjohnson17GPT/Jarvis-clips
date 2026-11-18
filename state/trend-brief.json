@@ -250,7 +250,7 @@
     },
     {
       "id": "jocko-give-the-team-the-plan",
-      "status": "corrected_v3_development_preview_playback_review_pending",
+      "status": "ready_direct_draft_awaiting_required_after_draft_approval",
       "topic": "Giving a team agency over its plan",
       "content_type": "motivational",
       "reference_use": "Existing reviewed government interview plus planned original fictional room and characters; no private-podcast footage or cloned voice.",
@@ -259,7 +259,7 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10–285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "The existing48-frame contact correction is complete; v3assembled506frames.55actual film samples and all48encodedcrossoutframes inspected; visiblegapresolved. Unchangedscript/audio/source. Real-timepacing/listening/finaleditorialrelease pending. No newconcept or postingdraft.",
+      "production_state": "Ownerrequestedpostaftercorrectedv3preview. Oneexact0creditpublicnowdirectdraftsaved;importedbytesmatch. Actualconnectorafterdraftapprovalpending. No duplicateconcept/render orpublication.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
@@ -376,7 +376,7 @@
       "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-18T09:00:23.040714+00:00",
+  "production_reconciled_at_utc": "2026-11-18T09:20:05.939275+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",

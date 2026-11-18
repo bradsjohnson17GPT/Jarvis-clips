@@ -1,12 +1,12 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "title": "Hand the Marker Back | Jocko Willink on Leadership",
-  "metadata_status": "provisional_until_finished_movie_review",
-  "status": "corrected_v3_development_preview_playback_review_pending",
+  "metadata_status": "exact_values_saved_in_direct_draft",
+  "status": "ready_direct_draft_awaiting_required_after_draft_approval",
   "prepared_on": "2026-11-17",
   "publishable": false,
   "finished_video_exists": true,
-  "ready_candidate": false,
+  "ready_candidate": true,
   "content_type": "motivational",
   "person": "Jocko Willink",
   "hook_type": "specific_fictional_team_interaction",
@@ -47,7 +47,7 @@
       452
     ],
     "return_shot_preflight": "assets/stories/team-ownership/return-shot-preflight.json",
-    "full_movie_review": "assets/stories/team-ownership/full-movie-review-v2.json",
+    "full_movie_review": "assets/stories/team-ownership/full-movie-review-v3.json",
     "drawing_revision_source": "assets/stories/team-ownership/scene.py",
     "drawing_revision_source_sha256": "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323",
     "drawing_revision_frames": [
@@ -111,12 +111,12 @@
   "video_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
   "qa_path": "assets/stories/team-ownership/full-movie-review-v3.json",
   "publication_evidence": null,
-  "service_draft_created": false,
+  "service_draft_created": true,
   "scheduled": false,
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
   "research_limit": "Existing dated motivational-interest evidence and completed structure analyses support development only. No current trend, ranking, format winner or performance guarantee is claimed.",
   "do_not_duplicate_preparation": true,
-  "release_requirement": "The complete corrected v3 resolves the visible crossing-out gap.55film samples plus all48encodedcrossoutframes and7fullsizeframes were inspected. Verify real-time pacing and subjectively listen to the full soundtrack before final editorial release/readyentry/publisherdraft. No routine edit permission is needed. Any future direct draft follows its actual after-preview approval flow. Preserve all published clips.",
+  "release_requirement": "Owner explicitly requested posting after the corrected v3 clean preview/player were shown. A single exact0credit public-now draft is now saved; the actual draft_create/readback connector requires a reply after showing THAT saved draft. Wait for that reply, then refresh originalaccount/queues underlock and publish the SAME unchanged draft/revision. Never recreate it, repeatedly ask each recurring run, or publish a watermarked/superseded movie. No subjective listening or real-time viewing by the assistant is claimed.",
   "full_encoded_preview_completed_at_utc": "2026-11-18T08:56:30.952948+00:00",
   "full_story_editorial_pass": false,
   "public_host_bytes_verified": true,
@@ -241,5 +241,9 @@
     "continuous_real_time_watching_claimed": false,
     "youtube_publication_created": false,
     "editorial_release": false
-  }
+  },
+  "owner_requested_publication_after_v3_preview": true,
+  "owner_after_saved_draft_approval_received": false,
+  "private_draft_record": "work/quality/team-ownership-direct-draft.json",
+  "upload_review_document": "docs/production/team-ownership-upload-review.md"
 }

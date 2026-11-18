@@ -1,5 +1,7 @@
 # Hand the Marker Back — corrected v3 preview
 
+Update: the owner requested posting after this preview was shown. One [exact saved public-now upload draft](team-ownership-upload-review.md) is ready at zero credits; the actual connector requires approval after that saved draft is shown. It is not scheduled or published. The inspection limits below remain accurate.
+
 [Play the clean 21-second development preview](https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/d30821c7d0d838355bbcacbeacdbed9e3fb10ac9/examples/development/team-ownership/14-full-story-preview-v3.mp4). HTTP 200 and exact bytes/SHA-256 were verified.
 
 The completed movie now includes the corrected crossing-out action as well as the earlier final-drawing correction. All 48 replacement native frames finished, were denoised without resizing, and were assembled with the retained 295 original and 163 historical frames. The result has 506 frames at 24 fps, 720×1280, lasting 21.083333 seconds. SHA-256: `42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971`; 3,761,674 bytes. [Full encoded QA](../../assets/stories/team-ownership/full-movie-review-v3.json).
