@@ -250,7 +250,7 @@
     },
     {
       "id": "jocko-give-the-team-the-plan",
-      "status": "v2_held_crossout_contact_revision_in_progress",
+      "status": "corrected_v3_development_preview_playback_review_pending",
       "topic": "Giving a team agency over its plan",
       "content_type": "motivational",
       "reference_use": "Existing reviewed government interview plus planned original fictional room and characters; no private-podcast footage or cloned voice.",
@@ -259,7 +259,7 @@
       "payoff": "The same colleague starts designing the next version while the leader listens.",
       "source_identity": "DVIDS718744, different selected speech interval279.10–285.90seconds",
       "preparation_document": "docs/production/2026-11-17-team-ownership-preproduction.md",
-      "production_state": "Current complete v2 held after all48 actual crossing-out frames exposed visible nib/ink gap at80/83. A new48-frame geometry-only correction retains295 other original+163historical frames and unchanged script/audio/captions. Native80/110 samples pending, no new concept or publisher draft.",
+      "production_state": "The existing48-frame contact correction is complete; v3assembled506frames.55actual film samples and all48encodedcrossoutframes inspected; visiblegapresolved. Unchangedscript/audio/source. Real-timepacing/listening/finaleditorialrelease pending. No newconcept or postingdraft.",
       "publishable": false,
       "current_trend_claim": false,
       "analytics_winner_claim": false,
@@ -280,7 +280,7 @@
       "new_development_motion_test_rendered": true,
       "development_motion_preview": "examples/development/team-ownership/04-motion-test.mp4",
       "development_motion_seconds": 4.0,
-      "native_render_in_progress": true,
+      "native_render_in_progress": false,
       "native_expected_original_frames": 343,
       "frozen_scene_source_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
       "finishing_plan": "assets/stories/team-ownership/finishing-plan.json",
@@ -332,7 +332,7 @@
         506
       ],
       "drawing_frame_review": "assets/stories/team-ownership/drawing-frame-review-v2.json",
-      "current_target_movie_exists": false,
+      "current_target_movie_exists": true,
       "superseded_preview": {
         "sha256": "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
         "status": "held_for_observed_marker_ink_gap"
@@ -344,8 +344,9 @@
         71,
         118
       ],
-      "crossout_frame_review": "assets/stories/team-ownership/crossout-frame-review-v2.json",
-      "held_v2_complete_native_sequence_exists": true
+      "crossout_frame_review": "assets/stories/team-ownership/crossout-frame-review-v3.json",
+      "held_v2_complete_native_sequence_exists": true,
+      "finished_movie_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971"
     },
     {
       "id": "johnson-check-the-numbers",
@@ -375,7 +376,7 @@
       "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-18T08:23:46.407436+00:00",
+  "production_reconciled_at_utc": "2026-11-18T09:00:23.040714+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",

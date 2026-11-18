@@ -370,5 +370,7 @@
     "status": "held_for_observed_marker_ink_gap"
   },
   "additional_crossout_sequence_review": "assets/stories/team-ownership/crossout-frame-review-v2.json",
-  "additional_crossout_encoded_frames_visually_inspected": 48
+  "additional_crossout_encoded_frames_visually_inspected": 48,
+  "superseded_by_v3_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
+  "superseded_by_v3_review": "assets/stories/team-ownership/full-movie-review-v3.json"
 }

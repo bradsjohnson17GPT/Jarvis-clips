@@ -317,7 +317,7 @@
       }
     ],
     "native_sample_record": "work/preproduction/jocko-give-the-team-the-plan/crossout-native-review-v1/record.json",
-    "full48frame_render_complete": false,
+    "full48frame_render_complete": true,
     "additional_first_stroke_native_review": "assets/stories/team-ownership/crossout-first-stroke-native-review.json",
     "additional_first_stroke_native_frames_visually_inspected": [
       71,
@@ -349,7 +349,9 @@
       91
     ],
     "visible_first_stroke_gap_resolved_in_reviewed_native_frames": true,
-    "late_first_stroke_contact_occluded_and_not_visually_verified": true
+    "late_first_stroke_contact_occluded_and_not_visually_verified": true,
+    "corrected_encoded_movie_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
+    "corrected_all48_encoded_frame_review": "assets/stories/team-ownership/crossout-frame-review-v3.json"
   },
   "editorial_release": false,
   "assembly_guard_evidence": {

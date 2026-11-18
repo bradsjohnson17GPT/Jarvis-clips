@@ -2,7 +2,7 @@
   "id": "jocko-give-the-team-the-plan",
   "title": "Hand the Marker Back | Jocko Willink on Leadership",
   "metadata_status": "provisional_until_finished_movie_review",
-  "status": "v2_held_crossout_contact_revision_in_progress",
+  "status": "corrected_v3_development_preview_playback_review_pending",
   "prepared_on": "2026-11-17",
   "publishable": false,
   "finished_video_exists": true,
@@ -36,7 +36,7 @@
     "frozen_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
     "label": "Illustration",
     "expected_native_frames": 343,
-    "complete_native_sequence_rendered": false,
+    "complete_native_sequence_rendered": true,
     "final_acting_and_temporal_review_passed": false,
     "qa_record": "assets/stories/team-ownership/scene-preview-qa.json",
     "opening_preflight": "assets/stories/team-ownership/opening-preflight.json",
@@ -61,7 +61,7 @@
       71,
       118
     ],
-    "complete_current_crossout_revision_rendered": false,
+    "complete_current_crossout_revision_rendered": true,
     "held_v2_complete_native_sequence_exists": true
   },
   "music": {
@@ -106,23 +106,23 @@
     720,
     1280
   ],
-  "media_path": "examples/development/team-ownership/09-full-story-preview-v2.mp4",
-  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/ebca00dfdd011c821228f94b6d041f3d4d9e02bf/examples/development/team-ownership/09-full-story-preview-v2.mp4",
-  "video_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
-  "qa_path": "assets/stories/team-ownership/full-movie-review-v2.json",
+  "media_path": "examples/development/team-ownership/14-full-story-preview-v3.mp4",
+  "media_url": null,
+  "video_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
+  "qa_path": "assets/stories/team-ownership/full-movie-review-v3.json",
   "publication_evidence": null,
   "service_draft_created": false,
   "scheduled": false,
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
   "research_limit": "Existing dated motivational-interest evidence and completed structure analyses support development only. No current trend, ranking, format winner or performance guarantee is claimed.",
   "do_not_duplicate_preparation": true,
-  "release_requirement": "The existing v2D397 is held for a visible crossing-out ink/nib gap in actual80/83. Complete the separate48-frame contact correction, use four pinned caches with unchanged AAC/captions/historicalpicture, inspect actual new encoded v3 and outstanding real-time pacing/listening before any editorial release/readyentry/draft. Never modify or republish the two already-live male pilots.",
-  "full_encoded_preview_completed_at_utc": "2026-11-17T22:33:19.052833+00:00",
+  "release_requirement": "The complete corrected v3 resolves the visible crossing-out gap.55film samples plus all48encodedcrossoutframes and7fullsizeframes were inspected. Verify real-time pacing and subjectively listen to the full soundtrack before final editorial release/readyentry/publisherdraft. No routine edit permission is needed. Any future direct draft follows its actual after-preview approval flow. Preserve all published clips.",
+  "full_encoded_preview_completed_at_utc": "2026-11-18T08:56:30.952948+00:00",
   "full_story_editorial_pass": false,
-  "public_host_bytes_verified": true,
-  "current_target_finished_video_exists": false,
+  "public_host_bytes_verified": false,
+  "current_target_finished_video_exists": true,
   "current_drawing_revision_qa": "assets/stories/team-ownership/drawing-frame-review-v2.json",
-  "existing_preview_status": "v2_held_for_observed_crossout_contact_gap",
+  "existing_preview_status": "corrected_v3_visual_review_complete_playback_review_pending",
   "superseded_previews": [
     {
       "media_path": "examples/development/team-ownership/06-full-story-preview.mp4",
@@ -155,46 +155,55 @@
       },
       "status": "held_for_observed_marker_ink_gap",
       "publishable": false
+    },
+    {
+      "media_path": "examples/development/team-ownership/09-full-story-preview-v2.mp4",
+      "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/ebca00dfdd011c821228f94b6d041f3d4d9e02bf/examples/development/team-ownership/09-full-story-preview-v2.mp4",
+      "video_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+      "qa_path": "assets/stories/team-ownership/full-movie-review-v2.json",
+      "preview_url": "https://share.descript.com/view/InR5t7eFNfW",
+      "descript_review_export": {
+        "status": "descript_corrected_v2_review_export_picture_and_audio_engineering_checked",
+        "preview_url": "https://share.descript.com/view/InR5t7eFNfW",
+        "checked_at_utc": "2026-11-18T07:51:20.746424+00:00",
+        "source_clean_master_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+        "export_sha256": "e04dbb8ce59aa81518199fdcf9048c2d00dd4b096ad90fa57624280f436d43c5",
+        "full_decode_passed": true,
+        "black_intervals": [],
+        "actual_sampled_frames_inspected": 9,
+        "audio_waveform_correlation_with_clean_master": 0.9998276760878173,
+        "audio_alignment_seconds": 0.0,
+        "audio_rms_gain_db": -0.04020998628515639,
+        "export_dimensions": [
+          720,
+          1280
+        ],
+        "export_fps": "30/1",
+        "audio_codec": "aac",
+        "audio_channels": 2,
+        "audio_sample_rate": 44100,
+        "watermark": "Descript platform watermark overlaps historical notice area; review only. Use clean original24fps/48kHz master for any eventual upload.",
+        "frame_conversion_method": "Not independently verified; Descript exported30fps from24fps source.",
+        "local_processing_note": "Local rendering/audio cleanup/captions/score/effects preceded import. Underlord repaired a missing scene video layer; no Studio Sound, new voice, script or soundtrack was applied.",
+        "initial_export_issue": "First export had black pictures across21.066667seconds despite successful job. Actual decode/black detection and9image samples caught it; one scoped scene repair and re-export restored pictures.",
+        "subjective_audio_listening_claimed": false,
+        "youtube_publication_created": false,
+        "editorial_release": false
+      },
+      "status": "superseded_v2_held_for_crossout_contact_gap",
+      "publishable": false
     }
   ],
   "preview_revision_marker": {
     "clip_identity": "jocko-give-the-team-the-plan",
-    "current_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
+    "current_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
     "superseded_sha256": [
-      "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3"
+      "a844a457bc9a85b1ebfc6db86e8f201a97e490ae68c946badda1b6705f3cdfd3",
+      "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21"
     ],
     "same_concept_not_a_new_idea": true,
     "publication_confirmed": false
   },
-  "public_host_verification_at_utc": "2026-11-17T22:43:21.112631+00:00",
-  "preview_url": "https://share.descript.com/view/InR5t7eFNfW",
-  "descript_review_export": {
-    "status": "descript_corrected_v2_review_export_picture_and_audio_engineering_checked",
-    "preview_url": "https://share.descript.com/view/InR5t7eFNfW",
-    "checked_at_utc": "2026-11-18T07:51:20.746424+00:00",
-    "source_clean_master_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
-    "export_sha256": "e04dbb8ce59aa81518199fdcf9048c2d00dd4b096ad90fa57624280f436d43c5",
-    "full_decode_passed": true,
-    "black_intervals": [],
-    "actual_sampled_frames_inspected": 9,
-    "audio_waveform_correlation_with_clean_master": 0.9998276760878173,
-    "audio_alignment_seconds": 0.0,
-    "audio_rms_gain_db": -0.04020998628515639,
-    "export_dimensions": [
-      720,
-      1280
-    ],
-    "export_fps": "30/1",
-    "audio_codec": "aac",
-    "audio_channels": 2,
-    "audio_sample_rate": 44100,
-    "watermark": "Descript platform watermark overlaps historical notice area; review only. Use clean original24fps/48kHz master for any eventual upload.",
-    "frame_conversion_method": "Not independently verified; Descript exported30fps from24fps source.",
-    "local_processing_note": "Local rendering/audio cleanup/captions/score/effects preceded import. Underlord repaired a missing scene video layer; no Studio Sound, new voice, script or soundtrack was applied.",
-    "initial_export_issue": "First export had black pictures across21.066667seconds despite successful job. Actual decode/black detection and9image samples caught it; one scoped scene repair and re-export restored pictures.",
-    "subjective_audio_listening_claimed": false,
-    "youtube_publication_created": false,
-    "editorial_release": false
-  },
-  "current_crossout_revision_qa": "assets/stories/team-ownership/crossout-frame-review-v2.json"
+  "public_host_verification_at_utc": null,
+  "current_crossout_revision_qa": "assets/stories/team-ownership/crossout-frame-review-v3.json"
 }

@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "prepared_at_utc": "2026-11-17T14:19:41.324629+00:00",
-  "status": "v2_held_for_crossout_contact_revision",
+  "status": "corrected_v3_assembled_visual_review_complete_playback_review_pending",
   "publishable": false,
   "finished_movie_exists": true,
   "frame_rate": 24,
@@ -131,9 +131,8 @@
     "changes": "Excerpt trimmed, faded and ducked beneath original commentary, the reviewed authentic statement and original marker effects."
   },
   "remaining_checks": [
-    "Inspect actual corrected native80/110, then render only remaining46frames of this48-frame crossing-out revision. Preserve all295 other originalframes and163historicalframes.",
-    "Denoise matching native outputs without resizing and assemble a new v3 using four pinned source caches and unchanged historicalpicture/AAC/captions. Verify complete encoded decode/levels/essence and inspect actual crossings, boundaries and remaining quality limits.",
-    "Assess real-time temporal/pacing quality and subjectively listen to the full soundtrack; do not infer these from images/ASR/levels. Record final editorial release before any ready entry/publisher draft."
+    "Review real-time full-film pacing and subjectively listen to the full unchanged soundtrack. Stills/ASR/levels do not establish these.",
+    "Record final editorial decision before readyentry or publisherdraft; refresh originalchannel/queues underlock before any later publishing action, then follow actual connector exact-draft flow."
   ],
   "assembler": "scripts/assemble_team_story.py",
   "assembled_movie_exists": true,
@@ -149,7 +148,7 @@
     "qa_record": "assets/stories/team-ownership/return-shot-preflight.json",
     "assembly_requirement": "Use retained974379894ff6 source for341–452, with the separately pinned drawing override453–506 taking precedence. Never fall back to the old drawing frames."
   },
-  "current_target_movie_exists": false,
+  "current_target_movie_exists": true,
   "latest_geometry_revision_at_utc": "2026-11-17T20:24:16.712584+00:00",
   "original_scene_drawing_patch": {
     "first_frame": 453,
@@ -170,11 +169,11 @@
     "publishable": false
   },
   "current_preview": {
-    "sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
-    "media_path": "examples/development/team-ownership/09-full-story-preview-v2.mp4",
-    "qa_record": "assets/stories/team-ownership/full-movie-review-v2.json",
+    "sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
+    "media_path": "examples/development/team-ownership/14-full-story-preview-v3.mp4",
+    "qa_record": "assets/stories/team-ownership/full-movie-review-v3.json",
     "publishable": false,
-    "status": "held_for_observed_crossout_contact_gap"
+    "status": "corrected_v3_development_preview_playback_review_pending"
   },
   "original_scene_crossout_patch": {
     "first_frame": 71,
@@ -183,8 +182,8 @@
     "source": "assets/stories/team-ownership/crossout-scene.py",
     "source_sha256": "b54faf391b68c4ec109177e667e8f9d856d6379cbeed4160ad8e694ce0fc956b",
     "reason": "Visible gap between growing firstXstroke and nib in actual encoded80/83; explicit baked endpoints matching physical nib.",
-    "qa_record": "assets/stories/team-ownership/crossout-frame-review-v2.json",
-    "render_status": "full48frame_native_render_in_progress_two_reviewed_samples_retained",
+    "qa_record": "assets/stories/team-ownership/crossout-frame-review-v3.json",
+    "render_status": "all48_native_frames_complete_denoised_and_actual_encoded_sequence_inspected",
     "assembly_requirement": "Require --crossout-render-root with exact48-frame manifest/source/receipts. Never fall back to the complete old opening close-up."
   }
 }

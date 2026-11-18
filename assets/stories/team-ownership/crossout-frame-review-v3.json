@@ -1,0 +1,323 @@
+{
+  "id": "jocko-give-the-team-the-plan",
+  "prepared_at_utc": "2026-11-18T08:58:41.878096+00:00",
+  "status": "all48_corrected_encoded_crossout_frames_visually_inspected",
+  "movie_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "frame_rate": 24,
+  "frames": [
+    {
+      "frame": 71,
+      "time_seconds": 2.9166666666666665,
+      "png_sha256": "ebfd399b87c474e1492468faee48086dd8bd42c32b7de831ca98f85ec43e8a64"
+    },
+    {
+      "frame": 72,
+      "time_seconds": 2.9583333333333335,
+      "png_sha256": "3ceed04d5d3ec002b8ff7249443d001536a0083efc95ee240ab348b0f705cf83"
+    },
+    {
+      "frame": 73,
+      "time_seconds": 3.0,
+      "png_sha256": "97d0c478ac7f0095dcbebd0488c93c40c69389923e03e992b5f2287788ee69f8"
+    },
+    {
+      "frame": 74,
+      "time_seconds": 3.0416666666666665,
+      "png_sha256": "d03062637534728570d059db45b266066e302617b2944f805e19ac447af77f27"
+    },
+    {
+      "frame": 75,
+      "time_seconds": 3.0833333333333335,
+      "png_sha256": "d1e2cef9d6fbe4c1bb37cbda414eb378abad192efae765aa4da9ee0c66fe0a4a"
+    },
+    {
+      "frame": 76,
+      "time_seconds": 3.125,
+      "png_sha256": "0fe8bf39671117d832377cd464cf7003dcfc9806a8916a1f3b5621d88ee5c066"
+    },
+    {
+      "frame": 77,
+      "time_seconds": 3.1666666666666665,
+      "png_sha256": "d0f2083fc17afb2bcf24950760b20a20bc6aebf3157a9d372ddfc793161688fa"
+    },
+    {
+      "frame": 78,
+      "time_seconds": 3.2083333333333335,
+      "png_sha256": "f8baa8b2dcf7d50ae4d7fb933ee171423f64c3137926e389a6bd4421a6db7a88"
+    },
+    {
+      "frame": 79,
+      "time_seconds": 3.25,
+      "png_sha256": "eb1f5d2de2d4bbf92d49020ae981515a30f5573845eeaa2405a5b66545352cf0"
+    },
+    {
+      "frame": 80,
+      "time_seconds": 3.2916666666666665,
+      "png_sha256": "2758eb0c70eece11e525d5405d63bd6898cc1d3f4540397059dba0632efd6678"
+    },
+    {
+      "frame": 81,
+      "time_seconds": 3.3333333333333335,
+      "png_sha256": "4e944317aada7535e818e3aa3877a014ebd1a53b79b47a21bd21d66ac165487e"
+    },
+    {
+      "frame": 82,
+      "time_seconds": 3.375,
+      "png_sha256": "6257b0cba5a8fe04baada87351297734871c283242e4b1592b96fa86645ef0c7"
+    },
+    {
+      "frame": 83,
+      "time_seconds": 3.4166666666666665,
+      "png_sha256": "f1ed089df7d274d03582481313d1befdf3890e3d3cd6eb40519db8fbff227ffd"
+    },
+    {
+      "frame": 84,
+      "time_seconds": 3.4583333333333335,
+      "png_sha256": "383e88fe062f191774ca11588e829dedb58cd199cc2de769b04503f5fb52b1b5"
+    },
+    {
+      "frame": 85,
+      "time_seconds": 3.5,
+      "png_sha256": "e2dc5a5ffb109a644dde71522ee5c48ee41b850675401e36872c3f13c701311f"
+    },
+    {
+      "frame": 86,
+      "time_seconds": 3.5416666666666665,
+      "png_sha256": "c3d86c66a1fe3ff71bd8f0fa4414fa94ee0f587fee10ceb52fd2f12d961a81ed"
+    },
+    {
+      "frame": 87,
+      "time_seconds": 3.5833333333333335,
+      "png_sha256": "e52eb2d584d9d0ef1cf226c57075b151b7054c8de721f2350e62016cdd8e32cf"
+    },
+    {
+      "frame": 88,
+      "time_seconds": 3.625,
+      "png_sha256": "548cb87fa5653026c01bcbd573d223fa5f7863993a083bf488d258f6004f7860"
+    },
+    {
+      "frame": 89,
+      "time_seconds": 3.6666666666666665,
+      "png_sha256": "79969fa9fb7c5d394d81d4d991e350e9e3ff2fb651c434ef71dda854f37ef31f"
+    },
+    {
+      "frame": 90,
+      "time_seconds": 3.7083333333333335,
+      "png_sha256": "2f760d9506be170962fdee86293fd7e6e93e18d5c42f31aa1ff2ce2731df86f8"
+    },
+    {
+      "frame": 91,
+      "time_seconds": 3.75,
+      "png_sha256": "e8f7a1f3b062adf3fa52dc28ae33c4359974cd832fd6d9bf371334a541f3041d"
+    },
+    {
+      "frame": 92,
+      "time_seconds": 3.7916666666666665,
+      "png_sha256": "31039b8c669d15b729b0666bd60ffa7046a254185cc09adf13761917b59aa61e"
+    },
+    {
+      "frame": 93,
+      "time_seconds": 3.8333333333333335,
+      "png_sha256": "842bc698dc6c1f2a6290dd7276ce9bb57953c19fa8600aa52fe0129d4781dd5a"
+    },
+    {
+      "frame": 94,
+      "time_seconds": 3.875,
+      "png_sha256": "8c62526f404c45b5e61d8630e7361509aa37988894e298d423a5dba6995a64ff"
+    },
+    {
+      "frame": 95,
+      "time_seconds": 3.9166666666666665,
+      "png_sha256": "04974361ad73306fbf69ae8681c4b8dab219484df82eea4926c4aa7752507c99"
+    },
+    {
+      "frame": 96,
+      "time_seconds": 3.9583333333333335,
+      "png_sha256": "77693f92db2908e75dd5a5ec48e9a6058660f533c63f0919d82900e8c897ce9b"
+    },
+    {
+      "frame": 97,
+      "time_seconds": 4.0,
+      "png_sha256": "3e75dff97b3e887af922a7a9d1953529bdf167be37126c38e95a7ff4ae1a0d5e"
+    },
+    {
+      "frame": 98,
+      "time_seconds": 4.041666666666667,
+      "png_sha256": "10cdf4131fb39357b8c8b0dcc221a223cba1f1c8c0f7fb1da9d4e65347101570"
+    },
+    {
+      "frame": 99,
+      "time_seconds": 4.083333333333333,
+      "png_sha256": "ad3b495d9cd0fbbadfd9d79053e621c0bcc7e255f61fa0ec421e2e6216c993b1"
+    },
+    {
+      "frame": 100,
+      "time_seconds": 4.125,
+      "png_sha256": "d2f13ee471547485e98115879a4313154ee4fa02f5c41cb9a5eabc96ba637320"
+    },
+    {
+      "frame": 101,
+      "time_seconds": 4.166666666666667,
+      "png_sha256": "9bd43331822bc0a1b6b7e9bec4f315f9885436d4fc7dc7bd42c5299815c31c04"
+    },
+    {
+      "frame": 102,
+      "time_seconds": 4.208333333333333,
+      "png_sha256": "2354f694e990a00cef926139b40b7ae7faea2b840a0117e5b20f5520bfc771db"
+    },
+    {
+      "frame": 103,
+      "time_seconds": 4.25,
+      "png_sha256": "d0c1738d0129a881edbb523eca5ff8e7f963ad5bc6b576154716d78b5b8dec7e"
+    },
+    {
+      "frame": 104,
+      "time_seconds": 4.291666666666667,
+      "png_sha256": "b8bcea727ebaa6b8f28a593a7bed9cbe8425683a572bbd3db565101ba3b837f7"
+    },
+    {
+      "frame": 105,
+      "time_seconds": 4.333333333333333,
+      "png_sha256": "e75e1a79e87ad0323e26e6ae7ae380df658f4c04d190a5ffdc766b5ac6176e5f"
+    },
+    {
+      "frame": 106,
+      "time_seconds": 4.375,
+      "png_sha256": "0f4e47c94e5b64d7d292dbc1564d97c8588396eebaccd76ec39301d5695d1c38"
+    },
+    {
+      "frame": 107,
+      "time_seconds": 4.416666666666667,
+      "png_sha256": "e0ba63975ca17070b09e58c5b3f321855397e7ffa445b50ef1b34de4f4eea923"
+    },
+    {
+      "frame": 108,
+      "time_seconds": 4.458333333333333,
+      "png_sha256": "b7c023f72516c73637f60735aa72173c4d52e7c00cfa88d320ea6dfec61d9f35"
+    },
+    {
+      "frame": 109,
+      "time_seconds": 4.5,
+      "png_sha256": "81bd33da02b98a9e316c975b9d6b4774dfcf48907bf7019af565fcc7dc3aa1b3"
+    },
+    {
+      "frame": 110,
+      "time_seconds": 4.541666666666667,
+      "png_sha256": "8a4106cd2dc7439e318515e251ec0297b33c9e6d2cfd0ec86dd39ab111238ec7"
+    },
+    {
+      "frame": 111,
+      "time_seconds": 4.583333333333333,
+      "png_sha256": "68d5e20e4f2d17678d0200a1b81ef9237afad6a4d86bb8849eb66f5ddf2c7096"
+    },
+    {
+      "frame": 112,
+      "time_seconds": 4.625,
+      "png_sha256": "ba0802f94a43bdd4aa3fe8d2a6bb98055a876200cd24c807b8a53bbe97cb2890"
+    },
+    {
+      "frame": 113,
+      "time_seconds": 4.666666666666667,
+      "png_sha256": "7cfd4dfc2cfa6c3da594d0daa111791cedde277e624fa9727c6f298104165df4"
+    },
+    {
+      "frame": 114,
+      "time_seconds": 4.708333333333333,
+      "png_sha256": "c0ce112e17e1d0553eb94cfc465271ec87a7dd013f4e14d2c46b566a23cb2ec6"
+    },
+    {
+      "frame": 115,
+      "time_seconds": 4.75,
+      "png_sha256": "a03316bc92195fa21acc4dc1d97d3e48848292af939a31f2350976915a575eb0"
+    },
+    {
+      "frame": 116,
+      "time_seconds": 4.791666666666667,
+      "png_sha256": "b31de7fcd770dd94852d420483b1560ccda4d63f0f3472048c6b330f3d81b798"
+    },
+    {
+      "frame": 117,
+      "time_seconds": 4.833333333333333,
+      "png_sha256": "76c7c2c016cbed19730d5d4e7eb10e5c5d58ad68f468a9ef9206c2dc6fab0713"
+    },
+    {
+      "frame": 118,
+      "time_seconds": 4.875,
+      "png_sha256": "bc37151ea0cdbacaf214cd1ec1fa467b7ab7bcaa5feffc2c4116006ff58b0b88"
+    }
+  ],
+  "publishable": false,
+  "full_story_editorial_pass": false,
+  "subjective_audio_listening_claimed": false,
+  "continuous_real_time_watching_claimed": false,
+  "limits": "Every actual encoded frame71–118, covering the complete corrected crossing-out shot. These images do not provide real-time motion or subjective soundtrack review.",
+  "reviewed_at_utc": "2026-11-18T09:00:23.040714+00:00",
+  "actual_encoded_frames_visually_inspected": [
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118
+  ],
+  "actual_full_size_encoded_frames_visually_inspected": [
+    80,
+    83,
+    103,
+    110
+  ],
+  "findings": [
+    "All48 actual encoded crossing-out frames71–118 were inspected in order on four contact pages. Full-size80/83/103/110 were also inspected.",
+    "The first growing stroke extends to the gripping hand in visible80/83; the detached ink endpoint seen in v2 is resolved. The second stroke emerges from behind the character and extends to the hand in110, ending as a visible X.",
+    "The character hides the late first-stroke and early second-stroke endpoint. Hidden contact is not visually verified. Captions remain clear of the visible stroke.",
+    "These are every-frame still inspections, not real-time playback or subjective audio listening."
+  ],
+  "visible_contact_defect_resolved": true,
+  "occluded_contact_visually_verified": false
+}
