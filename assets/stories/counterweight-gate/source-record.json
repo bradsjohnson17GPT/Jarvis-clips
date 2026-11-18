@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-18T19:57:29.555609+00:00",
+  "reviewed_at_utc": "2026-11-18T20:32:06.370171+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -19,7 +19,7 @@
     ],
     "external_models_textures_or_footage": [],
     "commercial_project_use": true,
-    "rights_basis": "Original authored project geometry/code. This review covers the existing mechanism study, not unbuilt queue/action/background assets."
+    "rights_basis": "Original authored project geometry/code covering the existing mechanism and current contact/queue stills. Full animation and later environment finish are not claimed complete."
   },
   "project_owned_character": {
     "source": "assets/stories/downward-beacon/scene.blend",
@@ -50,5 +50,13 @@
   },
   "factual_scope": "Entire first-person story is fictional. No owner experience, famous-person quote, real event or practical construction/physics assurance is claimed.",
   "full_movie_rights_and_editorial_release": false,
-  "publishable": false
+  "publishable": false,
+  "acting_and_waiting_adults": {
+    "source": "assets/stories/counterweight-gate/acting-study.py",
+    "sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
+    "review": "assets/stories/counterweight-gate/acting-review.json",
+    "rights_basis": "Original contact solver, blocking, platform correction and stone placement; two cast copies use only the already reviewed project-owned courier hierarchy. No external models, textures or footage added.",
+    "commercial_project_use": true,
+    "full_animation_exists": false
+  }
 }

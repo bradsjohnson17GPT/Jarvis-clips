@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_script_clean_male_take_and_mechanism_study_prepared_not_full_movie",
+  "status": "original_male_take_contact_queue_and_phrase_caption_preparation_not_full_movie",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -26,7 +26,7 @@
   "storyboard": [
     {
       "beat": "concrete_failure",
-      "picture": "Heavy slatted gate drops as courier releases it to reach a distinct parcel cart; waiting adults are visible through the gate.",
+      "picture": "Heavy slatted gate drops as courier releases it to reach the distinct parcel cart; waiting adults remain behind the courier on the same approach side.",
       "sound_plan": "Original soft timber/iron stop impact matched to the gate, restrained adult-male narration."
     },
     {
@@ -85,12 +85,14 @@
     "start": 144
   },
   "source_plan": {
-    "visuals": "New original gate/courtyard/steps/pulley/basket/cart/stones; project-owned courier hierarchy only. No new geometry is claimed produced or reviewed by this manifest alone.",
-    "voice": "Existing reviewed stock Kokoro model/voice files; individual actual generated take/ASR/timing review pending.",
+    "visuals": "Original gate/courtyard/steps/pulley/basket/cart/stones mechanism and contact poses exist. Two waiting adults derive only from project-owned courier geometry. Full animated action, expressive shot sequence and environment finish remain pending.",
+    "voice": "One actual reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
     "effects": "New original gate/stone/cart cues, not inherited from other finished stories.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
-    "rights_record_pending": true,
-    "current_geometry_and_voice_sources_reviewed": true
+    "rights_record_pending": false,
+    "current_geometry_and_voice_sources_reviewed": true,
+    "prepared_asset_sources_recorded": true,
+    "full_movie_release_pending": true
   },
   "description": "An original fictional story about a blocked gate and a change that helps the people waiting. Original character animation, script, generic stock narration and effects.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and ducked beneath original narration and story-specific effects.",
   "prepared_at_utc": "2026-11-18T19:41:58.204041+00:00",
@@ -116,5 +118,13 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse the existing original script/clean am_michael take and corrected mechanism study. Build actual lifting/steps/stone/cart hand interactions, two timed failures, waiting adult characters and their movement payoff, front/three-quarter expressive shots and the complete action timeline. Inspect critical native stills before authorizing one full animation, prepare capacity and story-specific sound/captions, then review actual finished encoding. No new draft/schedule or finished-film claim from these static poses."
+  "next_work": "Reuse the exact male take, current mechanism and acting study and18phrase captions. Build actual lifting/release/drop motion, stair/stone pickup/deposit contacts, adult walks and the whole-line payoff. Preserve the corrected platform/basket clearance and grounded cart. Current poses include partly occluded far hand and peripheral crops; finish expressive shots/backdrop before a full native sequence. Use an editorial return cut from basket/gate result to cart rather than implausibly fast continuous travel. Prepare capacity and story-specific audio; inspect actual motion/cuts/full encoding. No draft or finished-film claim from these static poses.",
+  "acting_review": "assets/stories/counterweight-gate/acting-review.json",
+  "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
+  "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
+  "private_current_acting_study": "work/preproduction/counterweight-gate/acting-study-v3",
+  "waiting_adults_blocked": 2,
+  "actual_current_acting_pose_images_reviewed": 4,
+  "caption_cues_prepared": 18,
+  "acting_prepared_at_utc": "2026-11-18T20:32:06.370171+00:00"
 }

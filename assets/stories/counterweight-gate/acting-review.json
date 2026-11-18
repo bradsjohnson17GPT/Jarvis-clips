@@ -1,0 +1,352 @@
+{
+  "id": "counterweight-gate",
+  "reviewed_at_utc": "2026-11-18T20:32:06.370171+00:00",
+  "reviewer": "Project production assistant",
+  "status": "contact_and_queue_blocking_prepared_not_full_animation",
+  "source": "assets/stories/counterweight-gate/acting-study.py",
+  "source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
+  "input_reviewed_mechanism_blend_sha256": "92bec68a5847e281b4fc0844d868017d947b6bef529e2566c2a8e7fa30e426b4",
+  "dimensions": [
+    720,
+    1280
+  ],
+  "native_stills": 4,
+  "cycles_samples": 8,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "denoiser": "Verified Open Image Denoise2.5.1 CPU RT LDR/sRGB high, beauty-only, same size",
+  "actual_current_denoised_libass_pose_proofs_viewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "full_size_current_captioned_poses_viewed": [
+    2,
+    3
+  ],
+  "poses": [
+    {
+      "name": "01-two-hands-on-gate",
+      "note": "Actual hand centers meet the bar; waiting line remains on the same approach side.",
+      "contacts": [
+        {
+          "side": -1,
+          "target_world": [
+            -0.27000001072883606,
+            -0.2199999988079071,
+            1.4900000095367432
+          ],
+          "actual_hand_center_world": [
+            -0.2699999511241913,
+            -0.22000008821487427,
+            1.4900001287460327
+          ],
+          "center_target_error_scene_units": 1.6049041769309353e-07,
+          "scope": "mitten-center contact, not finger articulation or continuous motion"
+        },
+        {
+          "side": 1,
+          "target_world": [
+            -0.7699999809265137,
+            -0.2199999988079071,
+            1.4900000095367432
+          ],
+          "actual_hand_center_world": [
+            -0.7700000405311584,
+            -0.2200000137090683,
+            1.4900002479553223
+          ],
+          "center_target_error_scene_units": 2.4620758953479386e-07,
+          "scope": "mitten-center contact, not finger articulation or continuous motion"
+        }
+      ],
+      "camera": {
+        "location": [
+          -3.299999952316284,
+          -3.0999999046325684,
+          2.299999952316284
+        ],
+        "lens_mm": 38.0
+      },
+      "hero_sole_support_z": 0,
+      "hero_sole_support_error": -1.862645149230957e-08,
+      "waiting_adults": [
+        {
+          "location": [
+            -0.20000000298023224,
+            -3.299999952316284,
+            -0.06240004301071167
+          ],
+          "sole_min_z": -1.862645149230957e-09
+        },
+        {
+          "location": [
+            0.20000000298023224,
+            -4.699999809265137,
+            -0.0676000714302063
+          ],
+          "sole_min_z": -3.3527612686157227e-08
+        }
+      ],
+      "continuous_motion_reviewed": false,
+      "raw_image_sha256": "137bcef2115116a0ef5d7cde7359e8a9f88047e6c755e65a796dab525580b11e"
+    },
+    {
+      "name": "02-hands-on-cart-gate-closed",
+      "note": "Courier has returned to the free cart; the gate is visibly closed. This static pose is not a completed failed-attempt animation.",
+      "contacts": [
+        {
+          "side": -1,
+          "target_world": [
+            0.550000011920929,
+            -2.0999999046325684,
+            1.0199999809265137
+          ],
+          "actual_hand_center_world": [
+            0.550000011920929,
+            -2.0999999046325684,
+            1.0199999809265137
+          ],
+          "center_target_error_scene_units": 0.0,
+          "scope": "mitten-center contact, not finger articulation or continuous motion"
+        },
+        {
+          "side": 1,
+          "target_world": [
+            0.05000000074505806,
+            -2.0999999046325684,
+            1.0199999809265137
+          ],
+          "actual_hand_center_world": [
+            0.05000005289912224,
+            -2.0999999046325684,
+            1.0199999809265137
+          ],
+          "center_target_error_scene_units": 5.21540641784668e-08,
+          "scope": "mitten-center contact, not finger articulation or continuous motion"
+        }
+      ],
+      "camera": {
+        "location": [
+          -3.799999952316284,
+          -3.5999999046325684,
+          2.450000047683716
+        ],
+        "lens_mm": 20.986961364746094
+      },
+      "hero_sole_support_z": 0,
+      "hero_sole_support_error": -1.862645149230957e-08,
+      "waiting_adults": [
+        {
+          "location": [
+            -0.20000000298023224,
+            -3.299999952316284,
+            -0.06240004301071167
+          ],
+          "sole_min_z": -1.862645149230957e-09
+        },
+        {
+          "location": [
+            0.20000000298023224,
+            -4.699999809265137,
+            -0.0676000714302063
+          ],
+          "sole_min_z": -3.3527612686157227e-08
+        }
+      ],
+      "continuous_motion_reviewed": false,
+      "raw_image_sha256": "2b55e3a499ad17793bf5b1ffa4a676179628bcba5c4d73a57f6978372c8b9804"
+    },
+    {
+      "name": "03-hand-stone-and-basket-rim",
+      "note": "A supported adult reaches over the empty basket; the separate stone is at the mitten edge. Platform remains outside basket travel. Deposit/climb motion is still unbuilt.",
+      "contacts": [
+        {
+          "side": -1,
+          "target_world": [
+            2.940000057220459,
+            0.23000000417232513,
+            3.130000114440918
+          ],
+          "actual_hand_center_world": [
+            2.940000057220459,
+            0.22999989986419678,
+            3.130000591278076
+          ],
+          "center_target_error_scene_units": 4.881125496077299e-07,
+          "scope": "mitten-center contact, not finger articulation or continuous motion"
+        }
+      ],
+      "camera": {
+        "location": [
+          6.599999904632568,
+          -3.6500000953674316,
+          4.099999904632568
+        ],
+        "lens_mm": 46.0
+      },
+      "hero_sole_support_z": 1.65,
+      "hero_sole_support_error": -1.4305114737211966e-07,
+      "waiting_adults": [
+        {
+          "location": [
+            -0.20000000298023224,
+            -3.299999952316284,
+            -0.06240004301071167
+          ],
+          "sole_min_z": -1.862645149230957e-09
+        },
+        {
+          "location": [
+            0.20000000298023224,
+            -4.699999809265137,
+            -0.0676000714302063
+          ],
+          "sole_min_z": -3.3527612686157227e-08
+        }
+      ],
+      "continuous_motion_reviewed": false,
+      "raw_image_sha256": "f4ac90173cd564124cb178e5550b9194bb6f1ebebf0bc0e219bb72cda578f8d9"
+    },
+    {
+      "name": "04-cart-through-and-line-following",
+      "note": "Adult courier and cart are beyond the raised gate; the same two adults have advanced toward the opening. This is a payoff blocking pose, not proof of walking animation.",
+      "contacts": [
+        {
+          "side": -1,
+          "target_world": [
+            0.550000011920929,
+            1.149999976158142,
+            1.0199999809265137
+          ],
+          "actual_hand_center_world": [
+            0.550000011920929,
+            1.149999976158142,
+            1.0199999809265137
+          ],
+          "center_target_error_scene_units": 0.0,
+          "scope": "mitten-center contact, not finger articulation or continuous motion"
+        },
+        {
+          "side": 1,
+          "target_world": [
+            0.05000000074505806,
+            1.149999976158142,
+            1.0199999809265137
+          ],
+          "actual_hand_center_world": [
+            0.05000000819563866,
+            1.149999976158142,
+            1.0199999809265137
+          ],
+          "center_target_error_scene_units": 7.450580596923828e-09,
+          "scope": "mitten-center contact, not finger articulation or continuous motion"
+        }
+      ],
+      "camera": {
+        "location": [
+          2.75,
+          5.5,
+          2.700000047683716
+        ],
+        "lens_mm": 38.0
+      },
+      "hero_sole_support_z": 0,
+      "hero_sole_support_error": -1.862645149230957e-08,
+      "waiting_adults": [
+        {
+          "location": [
+            -0.20000000298023224,
+            -0.699999988079071,
+            -0.06240004301071167
+          ],
+          "sole_min_z": -1.862645149230957e-09
+        },
+        {
+          "location": [
+            0.20000000298023224,
+            -2.0999999046325684,
+            -0.0676000714302063
+          ],
+          "sole_min_z": -3.3527612686157227e-08
+        }
+      ],
+      "continuous_motion_reviewed": false,
+      "raw_image_sha256": "57dc54c45373b7ae360b7296a1213a27cbf9d74721c936e1a2c5245f94542436"
+    }
+  ],
+  "caption_proofs": [
+    {
+      "pose": 1,
+      "caption_time_seconds": 1.6,
+      "input_denoised_sha256": "bac79d713defba3e839c35e9005ab11196d0f093d6ede1bdd6bd68f9a48fe4eb",
+      "captioned_output_sha256": "a471271ef2d2750e5c34673a7ce37f054250a1f5d02cc41d65fe6c50cf22b61b",
+      "scope": "actual libass layout on static pose, not finished-film timing"
+    },
+    {
+      "pose": 2,
+      "caption_time_seconds": 3.08,
+      "input_denoised_sha256": "f21c43f8d087074d5c15e49c0704ee6fe26b492ec285f302cb126b10f413a656",
+      "captioned_output_sha256": "0e7d7234a7ad35bda0320459aba5cab1da46a297e0d46bd883ed1739b2731330",
+      "scope": "actual libass layout on static pose, not finished-film timing"
+    },
+    {
+      "pose": 3,
+      "caption_time_seconds": 14.2,
+      "input_denoised_sha256": "94367251d236de0a0a00fd05a4a32b2d0b2dc91bff915bd87798aa317fb86088",
+      "captioned_output_sha256": "4f0ad99a9d0d25ac0222aff3ae4a51c37c0a619970b18a685d4a7bb13b81a8e6",
+      "scope": "actual libass layout on static pose, not finished-film timing"
+    },
+    {
+      "pose": 4,
+      "caption_time_seconds": 22.25,
+      "input_denoised_sha256": "beb0131a0734828edc8c3c6170e16e016c6cfc71766908f7f91636a4b0b1c63e",
+      "captioned_output_sha256": "7d289710570df5b258d93ee5b77408a6bcd39567db5fdd27d2ec056ae1976134",
+      "scope": "actual libass layout on static pose, not finished-film timing"
+    }
+  ],
+  "new_waiting_adults": 2,
+  "character_basis": "Two differently colored/scaled copies of the project-owned adult courier hierarchy; not third-party models or footage. This is blocking, not complete new cast design.",
+  "geometry_correction": {
+    "observed_v4_defect": "Platform/basket travel X overlap of about0.07scene units discovered during contact work.",
+    "current_platform_basket_travel_x_clearance": 0.10000002622604365,
+    "correction": "Landing shifted beyond basket travel, contiguous steps realigned, original loose stones placed on supported landing.",
+    "simulation_claim": false
+  },
+  "visual_findings": [
+    "Pose1 shows the approach-side gate grip; the far hand is partly occluded. Both mitten-center contacts pass geometric checks, not a claim that both fingers/grips are visually articulated.",
+    "Pose2 now contains the full main courier and cart in portrait framing, with the closed gate and nearby waiting adult visible. Peripheral waiting adult remains cropped.",
+    "Pose3 visibly joins the carried stone to the mitten at the basket rim; boots rest on the solid landing. No actual stone deposit or stair motion has been built.",
+    "Pose4 shows the cart beyond the held gate and the same adults advanced toward it, with distinct coat/scarf colors. Cart/peripheral adult crops remain; this is payoff blocking, not a completed payoff animation.",
+    "Caption phrases and Original fiction label are readable on all four actual proof images; lower text does not cover the tested hand contacts."
+  ],
+  "held_earlier_studies": [
+    {
+      "revision": "acting-v1",
+      "reason": "Gate occluded the grip, main actor crop, visibly detached stone and same-colored waiting cast. Four raw pose images were viewed; pose3 also full-size."
+    },
+    {
+      "revision": "acting-v2",
+      "reason": "Improved contact/materials, but pose2 main courier was cropped at right. All four denoised caption proofs were viewed."
+    }
+  ],
+  "tests": {
+    "repository_unittests": 41,
+    "result": "passed_after_final_study_source_change",
+    "geometry_assertions": "Hand-center target errors below0.0001scene units, supported boot soles, full main actor/cart camera bounds in pose2, platform clear of basket travel."
+  },
+  "remaining_work": [
+    "Two failed attempts in real timed motion, gate release/drop and head/face acting",
+    "Actual stair/foot contact and stone pickup/deposit, with hands leaving basket before descent",
+    "Waiting adults walking with no foot sliding and a readable full payoff shot",
+    "Finished courtyard/backdrop and expressive front/three-quarter shot sequence",
+    "Complete native timeline/render capacity, story-specific sound/music and finished audiovisual/caption inspection"
+  ],
+  "full_native_animation_started": false,
+  "finished_movie_exists": false,
+  "new_publisher_draft": false,
+  "continuous_video_watching_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "publishable": false
+}
