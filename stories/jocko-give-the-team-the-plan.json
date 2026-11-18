@@ -107,7 +107,7 @@
     1280
   ],
   "media_path": "examples/development/team-ownership/14-full-story-preview-v3.mp4",
-  "media_url": null,
+  "media_url": "https://raw.githubusercontent.com/bradsjohnson17GPT/Jarvis-clips/d30821c7d0d838355bbcacbeacdbed9e3fb10ac9/examples/development/team-ownership/14-full-story-preview-v3.mp4",
   "video_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
   "qa_path": "assets/stories/team-ownership/full-movie-review-v3.json",
   "publication_evidence": null,
@@ -119,7 +119,7 @@
   "release_requirement": "The complete corrected v3 resolves the visible crossing-out gap.55film samples plus all48encodedcrossoutframes and7fullsizeframes were inspected. Verify real-time pacing and subjectively listen to the full soundtrack before final editorial release/readyentry/publisherdraft. No routine edit permission is needed. Any future direct draft follows its actual after-preview approval flow. Preserve all published clips.",
   "full_encoded_preview_completed_at_utc": "2026-11-18T08:56:30.952948+00:00",
   "full_story_editorial_pass": false,
-  "public_host_bytes_verified": false,
+  "public_host_bytes_verified": true,
   "current_target_finished_video_exists": true,
   "current_drawing_revision_qa": "assets/stories/team-ownership/drawing-frame-review-v2.json",
   "existing_preview_status": "corrected_v3_visual_review_complete_playback_review_pending",
@@ -204,6 +204,42 @@
     "same_concept_not_a_new_idea": true,
     "publication_confirmed": false
   },
-  "public_host_verification_at_utc": null,
-  "current_crossout_revision_qa": "assets/stories/team-ownership/crossout-frame-review-v3.json"
+  "public_host_verification_at_utc": "2026-11-18T09:02:19.447423+00:00",
+  "current_crossout_revision_qa": "assets/stories/team-ownership/crossout-frame-review-v3.json",
+  "preview_url": "https://share.descript.com/view/OzWW6Lu7dbL",
+  "descript_review_export": {
+    "status": "descript_v3_review_export_picture_and_audio_engineering_checked",
+    "preview_url": "https://share.descript.com/view/OzWW6Lu7dbL",
+    "checked_at_utc": "2026-11-18T09:07:28.259618+00:00",
+    "source_clean_master_sha256": "42906f5d3a636a19059a70c7cbff226959cba02dd3803cc5b66973fba0d2c971",
+    "export_sha256": "c68319d0e3c09dcba2209a78a09a626713430894cb4e4c9bd2736144c6707974",
+    "export_bytes": 8433545,
+    "full_decode_passed": true,
+    "black_intervals": [],
+    "actual_sampled_frames_inspected": 11,
+    "actual_full_size_export_samples_inspected_seconds": [
+      3.416667,
+      10,
+      19.5
+    ],
+    "audio_waveform_correlation_with_clean_master": 0.9998276760878173,
+    "audio_alignment_seconds": 0.0,
+    "audio_rms_gain_db": -0.04020998628515639,
+    "export_dimensions": [
+      720,
+      1280
+    ],
+    "export_fps": "30/1",
+    "audio_codec": "aac",
+    "audio_channels": 2,
+    "audio_sample_rate": 44100,
+    "watermark": "Descript platform watermark overlaps historical notice area; review only. Use the clean original24fps/48kHz master for any eventual upload.",
+    "frame_conversion_method": "Not independently verified; Descript exported30fps from24fps source.",
+    "local_processing_note": "Local rendering/audio cleanup/captions/score/effects preceded import. Agent Underlord repaired the missing scene video binding and removed a duplicate overlay track, confirming one original unmuted gain1track. No Studio Sound, new voice, script or soundtrack was applied.",
+    "underlord_inspection_limit": "Layer geometry/track metadata only; Underlord explicitly could not judge screenshot pixels, play or listen. The11 exported sample images were inspected separately here.",
+    "subjective_audio_listening_claimed": false,
+    "continuous_real_time_watching_claimed": false,
+    "youtube_publication_created": false,
+    "editorial_release": false
+  }
 }
