@@ -1,0 +1,150 @@
+{
+  "id": "counterweight-gate",
+  "prepared_at_utc": "2026-11-18T20:41:04.429162+00:00",
+  "status": "planned_action_and_sound_timing_from_actual_recording_not_observed_animation",
+  "timing_basis": {
+    "existing_take_duration_seconds": 24.048666666666666,
+    "words": 55,
+    "voice": "am_michael",
+    "narration_unchanged": true,
+    "clean_narration_sha256": "e15f3a42c2fe094850c695126defb860e4814fd5eb293cd7eb23d793ad0199b3",
+    "word_timing_source_sha256": "a34c902f4dfa14c96dc608e483d31f00165ee02316c14842d6cf9290ffa1766d"
+  },
+  "picture_target": {
+    "fps": 24,
+    "frames": 578,
+    "duration_seconds": 24.083333333333332,
+    "audio_rate": 48000,
+    "exact_audio_samples": 1156000,
+    "full_native_animation_started": false
+  },
+  "shots": [
+    {
+      "id": "first_failed_attempt",
+      "from_seconds": 0,
+      "to_seconds": 3.8,
+      "planned_action": "Gate held by actual hands, then released as courier turns toward the separate cart. Show the drop and stop; use the current readable approach-side grip as a starting pose.",
+      "first_frame": 1,
+      "last_frame": 91,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "second_failed_attempt",
+      "from_seconds": 3.8,
+      "to_seconds": 5.8,
+      "planned_action": "A second actual lift/release fails. Change the view to show the same gate/cart geography; preserve each hand contact until release.",
+      "first_frame": 92,
+      "last_frame": 139,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "the_waiting_line",
+      "from_seconds": 5.8,
+      "to_seconds": 8.2,
+      "planned_action": "The same two adults wait behind the courier on the same approach side. Do not substitute unrelated people or a caption card.",
+      "first_frame": 140,
+      "last_frame": 197,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "notice_empty_basket",
+      "from_seconds": 8.2,
+      "to_seconds": 10.9,
+      "planned_action": "Establish the empty basket, continuous overhead rope and gate route together; a real head/eye turn motivates the cut.",
+      "first_frame": 198,
+      "last_frame": 262,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "side_steps",
+      "from_seconds": 10.9,
+      "to_seconds": 13.25,
+      "planned_action": "Show the courier climbing the three side treads onto the solid landing. Each foot plants before weight transfers; no floating roots or sliding soles.",
+      "first_frame": 263,
+      "last_frame": 318,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "stone_deposits",
+      "from_seconds": 13.25,
+      "to_seconds": 15.25,
+      "planned_action": "Three visible hand deposits of original loose stones into the basket, using grouped3/3/2stones. Pickups and mitten contacts must be authored, not pop visible stones into the basket.",
+      "first_frame": 319,
+      "last_frame": 366,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "opposite_motion_and_hold",
+      "from_seconds": 15.25,
+      "to_seconds": 18.25,
+      "planned_action": "Hands leave basket, loaded basket descends as gate rises, continuous rope stays attached and the upper travel stop holds it. Landing remains outside full basket travel.",
+      "first_frame": 367,
+      "last_frame": 438,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "free_cart_through",
+      "from_seconds": 18.25,
+      "to_seconds": 20.75,
+      "planned_action": "An editorial return cut elides travel back from landing. Same courier pushes the free cart through the held gate; actual hand contacts and wheel rotation follow distance.",
+      "first_frame": 439,
+      "last_frame": 498,
+      "status": "not_animated_yet"
+    },
+    {
+      "id": "the_line_moves",
+      "from_seconds": 20.75,
+      "to_seconds": 24.083333333333332,
+      "planned_action": "The same adults advance from their waiting positions through the still-open gate. Finish on the specific shared passage; keep the loaded basket/gate relationship understandable.",
+      "first_frame": 499,
+      "last_frame": 578,
+      "status": "not_animated_yet"
+    }
+  ],
+  "actions": {
+    "first_gate_release": 2.65,
+    "first_gate_stop": 3.125,
+    "second_gate_release": 5.1,
+    "second_gate_stop": 5.583333333333333,
+    "stair_foot_plants": [
+      11.625,
+      12.125,
+      12.625
+    ],
+    "stone_deposits": [
+      13.458333333333334,
+      14.041666666666666,
+      14.625
+    ],
+    "hands_clear_of_basket": 15.25,
+    "counterweight_and_gate_travel": [
+      15.708333333333334,
+      16.416666666666668
+    ],
+    "raised_gate_stop": 16.416666666666668,
+    "cart_roll": [
+      18.75,
+      21.166666666666668
+    ],
+    "queue_start": 20.541666666666668,
+    "queue_end": 24.083333333333332
+  },
+  "editorial_return_ellipsis": "Cut after establishing loaded basket, raised gate and stop. Return to the courier at the cart; do not force the long side route into implausibly fast unbroken travel.",
+  "motion_acceptance_requirements": [
+    "Two actual lift/release/drop attempts, source handles/mitten contacts maintained until release",
+    "Foot plants on each stair and ground; no root teleport within a shot, floating boot soles or walking slides",
+    "Each stone travels from supply through hand into basket; no unexplained visibility jumps",
+    "Hands leave the basket before its descent; platform/basket path remains clear",
+    "Continuous constant-length rope and complementary gate/basket travel, authored illustration only, not physics certification",
+    "Original cart wheel rotation and continuous two-hand push contacts",
+    "Same waiting cast begins moving and the passage payoff is actually shown",
+    "Actual front/three-quarter expressions, useful shot changes and finished courtyard/backdrop",
+    "Review actual native/encoded action samples and every cut; static pose/contact math alone does not pass motion"
+  ],
+  "effects_source": "Original seeded synthesis specifically for timber gate stop, hemp/pulley travel, stone impacts, foot plants and cart rolling. No third-party sampled effects and no inherited Downward/Midnight cue map.",
+  "free_before_edits_guidance_called": true,
+  "new_spoken_script": false,
+  "new_trend_or_winner_claim": false,
+  "finished_movie_exists": false,
+  "publishable": false
+}

@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-18T20:32:06.370171+00:00",
+  "reviewed_at_utc": "2026-11-18T20:55:12.583930+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -40,13 +40,17 @@
     "subjective_listening_claimed": false
   },
   "music": {
-    "status": "Reviewed licensed track planned; no new score excerpt or final mixed soundtrack produced yet.",
+    "status": "Reviewed licensed track hash matched. An excerpt starting144seconds into the track covers the planned24.083333seconds, trimmed/faded and ducked in audio-only preflight; no new license inference, finished-film sync or subjective audition claim.",
     "source": "https://www.scottbuckley.com.au/library/ascension/",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "credit": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au"
   },
   "effects": {
-    "status": "New gate/pulley/stone/cart cues still need production and synchronization; do not reuse another story cue map."
+    "status": "Original seeded gate/pulley/stone/boot/cart cues synthesized for the new planned actions, mixed and technically checked; actual animated sync pending.",
+    "source": "scripts/counterweight_audio_preflight.py",
+    "review": "assets/stories/counterweight-gate/audio-preflight.json",
+    "external_effect_samples": [],
+    "commercial_project_use": true
   },
   "factual_scope": "Entire first-person story is fictional. No owner experience, famous-person quote, real event or practical construction/physics assurance is claimed.",
   "full_movie_rights_and_editorial_release": false,
@@ -58,5 +62,13 @@
     "rights_basis": "Original contact solver, blocking, platform correction and stone placement; two cast copies use only the already reviewed project-owned courier hierarchy. No external models, textures or footage added.",
     "commercial_project_use": true,
     "full_animation_exists": false
+  },
+  "cart_contact_motion_prototype": {
+    "source": "assets/stories/counterweight-gate/cart-motion-study.py",
+    "sha256": "1a0bc385bb787a7ce92342b679474d2f6c3e832b26f2a68e8992c511e934fd92",
+    "review": "assets/stories/counterweight-gate/cart-motion-review.json",
+    "rights_basis": "Original contact/leg/ankle controller and procedural paving over the already reviewed original mechanism and project-owned courier. No external models, sampled textures, footage or voices added.",
+    "commercial_project_use": true,
+    "scope": "Two-second silent development movement; full story pending."
   }
 }

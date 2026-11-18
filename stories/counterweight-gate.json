@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_male_take_contact_queue_and_phrase_caption_preparation_not_full_movie",
+  "status": "original_male_audio_phrase_captions_and_cart_motion_development_not_full_story",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -80,14 +80,14 @@
     "reviewed_by": "Project production assistant",
     "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
     "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
-    "changes": "Planned different excerpt, trimmed/faded and ducked beneath original male narration and new gate/stone/cart effects; not mixed or auditioned yet.",
+    "changes": "An excerpt starting144seconds into the track covers the planned24.083333seconds. It was trimmed/faded and strongly ducked beneath the unchanged cleaned male take and new original story effects in an audio-only preflight; final animated synchronization and subjective audition pending.",
     "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
     "start": 144
   },
   "source_plan": {
     "visuals": "Original gate/courtyard/steps/pulley/basket/cart/stones mechanism and contact poses exist. Two waiting adults derive only from project-owned courier geometry. Full animated action, expressive shot sequence and environment finish remain pending.",
-    "voice": "One actual reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
-    "effects": "New original gate/stone/cart cues, not inherited from other finished stories.",
+    "voice": "One reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
+    "effects": "Original gate-stop, pulley, stone-deposit, boot-tread and cart-wheel cues now synthesized/mixed from the planned action times; actual animated sync remains pending.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
     "rights_record_pending": false,
     "current_geometry_and_voice_sources_reviewed": true,
@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse the exact male take, current mechanism and acting study and18phrase captions. Build actual lifting/release/drop motion, stair/stone pickup/deposit contacts, adult walks and the whole-line payoff. Preserve the corrected platform/basket clearance and grounded cart. Current poses include partly occluded far hand and peripheral crops; finish expressive shots/backdrop before a full native sequence. Use an editorial return cut from basket/gate result to cart rather than implausibly fast continuous travel. Prepare capacity and story-specific audio; inspect actual motion/cuts/full encoding. No draft or finished-film claim from these static poses.",
+  "next_work": "Reuse the exact cleaned male take, audio preflight, immutable cue/action plan, eighteen phrase captions and contact/ankle-lock cart prototype. Build timed lifting/release/drop, stair/stone pickup/deposit contacts, waiting adults walking and the whole-line passage payoff. Prototype rear/side camera is technical only; create expressive front/three-quarter shots and finish courtyard. Preserve landing/basket clearance and supported feet; use an editorial return cut. Prepare capacity before the full native sequence and review actual movement/cuts/finished sound/captions. Revise cached audio only when actual event timings change. Do not publish the silent360x640test or create a draft from it.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -126,5 +126,23 @@
   "waiting_adults_blocked": 2,
   "actual_current_acting_pose_images_reviewed": 4,
   "caption_cues_prepared": 18,
-  "acting_prepared_at_utc": "2026-11-18T20:32:06.370171+00:00"
+  "acting_prepared_at_utc": "2026-11-18T20:32:06.370171+00:00",
+  "action_plan": "assets/stories/counterweight-gate/action-plan.json",
+  "audio_preflight": "assets/stories/counterweight-gate/audio-preflight.json",
+  "private_audio_preflight": "work/preproduction/counterweight-gate/audio-preflight-v1",
+  "audio_preflight_ready": true,
+  "audio_final_animation_sync_verified": false,
+  "soundtrack_regenerate_only_if_action_plan_or_source_changes": true,
+  "cart_motion_review": "assets/stories/counterweight-gate/cart-motion-review.json",
+  "cart_motion_source_sha256": "1a0bc385bb787a7ce92342b679474d2f6c3e832b26f2a68e8992c511e934fd92",
+  "development_motion_video_exists": true,
+  "private_development_motion": "work/preproduction/counterweight-gate/cart-motion-approach-v1",
+  "development_motion_video_sha256": "9bf46c1249315c5eb54368e7b4bddc3c641e021f6b4e8839add1716d504f5f95",
+  "development_motion_seconds": 2,
+  "development_motion_native_dimensions": [
+    360,
+    640
+  ],
+  "development_motion_actual_encoded_frames_reviewed": 48,
+  "cart_contact_walk_prototype_prepared": true
 }
