@@ -1,6 +1,6 @@
 {
   "id": "jocko-give-the-team-the-plan",
-  "status": "sources_unchanged_corrected_v2_development_preview_inspected_pending_release",
+  "status": "sources_unchanged_v2_held_for_material_crossout_contact_fix",
   "reviewed_by": "Project production assistant",
   "selected_interval_review_date": "2026-11-17",
   "publishable": false,
@@ -80,10 +80,24 @@
       453,
       506
     ],
-    "complete_current_native_movie_exists": true,
+    "complete_current_native_movie_exists": false,
     "current_drawing_review": "assets/stories/team-ownership/drawing-frame-review-v2.json",
     "selected_current_source_frame_counts": {
       "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791": 177,
+      "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42": 112,
+      "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323": 54
+    },
+    "crossout_revision_source": "assets/stories/team-ownership/crossout-scene.py",
+    "crossout_revision_sha256": "b54faf391b68c4ec109177e667e8f9d856d6379cbeed4160ad8e694ce0fc956b",
+    "crossout_revision_frames": [
+      71,
+      118
+    ],
+    "crossout_revision_review": "assets/stories/team-ownership/crossout-frame-review-v2.json",
+    "held_v2_complete_native_movie_exists": true,
+    "planned_v3_source_frame_counts": {
+      "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791": 129,
+      "b54faf391b68c4ec109177e667e8f9d856d6379cbeed4160ad8e694ce0fc956b": 48,
       "974379894ff669312a943be008f47394b5ec91e41ecaf9a2c762b43754f40e42": 112,
       "1eee9af2ea3de88f3647ff57d130f2397ff273235ead88d4978a774fbd51e323": 54
     }

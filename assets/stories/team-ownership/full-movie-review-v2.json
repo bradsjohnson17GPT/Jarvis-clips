@@ -1,7 +1,7 @@
 {
   "id": "jocko-give-the-team-the-plan",
   "prepared_at_utc": "2026-11-17T22:33:39.032762+00:00",
-  "status": "corrected_v2_development_preview_pending_real_time_and_audio_review",
+  "status": "v2_encoded_preview_held_for_observed_crossout_contact_gap",
   "publishable": false,
   "output_sha256": "d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f515d5baf8b75d21",
   "output_bytes": 3761918,
@@ -353,7 +353,7 @@
     "publishable": false,
     "ready_candidate": false,
     "publisher_draft_created": false,
-    "reason": "Targeted contact defect resolved in inspected encoded frames; real-time temporal/pacing assessment, subjective soundtrack listening and final editorial release remain outstanding. No new tool approval gate is invented for independent work."
+    "reason": "The final drawing contact defect is corrected, but a new all48-frame crossing-out review shows a visible nib/ink gap in opening frames80/83. Hold this v2. A48-frame source-specific correction is being prepared; real-time pacing/listening and final editorial release remain unverified."
   },
   "audio_stream": {
     "codec": "aac",
@@ -368,5 +368,7 @@
     "path": "examples/development/team-ownership/06-full-story-preview.mp4",
     "qa_path": "assets/stories/team-ownership/full-movie-review.json",
     "status": "held_for_observed_marker_ink_gap"
-  }
+  },
+  "additional_crossout_sequence_review": "assets/stories/team-ownership/crossout-frame-review-v2.json",
+  "additional_crossout_encoded_frames_visually_inspected": 48
 }

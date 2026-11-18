@@ -15,3 +15,5 @@ The complete v2 has SHA-256 `d39723a1870c70d591d5e0b218d144d86f977da0fdafcf66f51
 [Actual corrected native frame 469](../../examples/development/team-ownership/07-ink-contact-frame469.png) · [Actual corrected native frame 487](../../examples/development/team-ownership/08-ink-contact-frame487.png). These captioned development stills are visual evidence, not upload media.
 
 An actual audio-input attempt in this session was explicitly omitted because the model does not support audio input. No subjective listening occurred. Existing ASR, encoded levels and Descript waveform correlation remain engineering evidence. No paid research, purchases, new narration or repeated owner approval question was used for this correction; the free pre-edit guidance call used 0 credits.
+
+The final-drawing correction above remains complete. A later review found a separate gap in the earlier crossing-out action; follow the [48-frame crossing-out correction](2026-11-18-team-ownership-crossout-revision.md). The existing v2 is held for that new finding, with its evidence preserved.

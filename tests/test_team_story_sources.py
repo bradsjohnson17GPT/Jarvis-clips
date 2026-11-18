@@ -64,6 +64,40 @@ class TeamStorySourceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             original_frame_source(506,self.plan,self.base,Path('base'),self.patch,Path('patch'),drawing,Path('drawing'))
 
+    def crossout_revision(self):
+        self.plan['original_scene_crossout_patch'] = {
+            'first_frame':71,'last_frame':118,'source_sha256':'crossout-contact'}
+        return {'source_sha256':'crossout-contact','expected_frames':48,
+                'frame_numbers':list(range(71,119))}
+
+    def test_completed_opening_cannot_fill_missing_crossout_revision(self):
+        self.crossout_revision()
+        with self.assertRaisesRegex(ValueError,'separate verified crossout cache'):
+            original_frame_source(80,self.plan,self.base,Path('base'))
+
+    def test_crossout_override_preserves_all_other_source_boundaries(self):
+        drawing=self.drawing_revision();crossout=self.crossout_revision()
+        args=(self.plan,self.base,Path('base'),self.patch,Path('patch'),
+              drawing,Path('drawing'),crossout,Path('crossout'))
+        for frame in [70,119,177]:
+            self.assertEqual(original_frame_source(frame,*args),(Path('base'),'reviewed-opening'))
+        for frame in [71,80,110,118]:
+            self.assertEqual(original_frame_source(frame,*args),(Path('crossout'),'crossout-contact'))
+        self.assertEqual(original_frame_source(452,*args),(Path('patch'),'finished-hands'))
+        self.assertEqual(original_frame_source(453,*args),(Path('drawing'),'nib-contact'))
+
+    def test_wrong_crossout_source_cannot_reuse_complete_opening(self):
+        crossout=self.crossout_revision();crossout['source_sha256']='gap-crossout'
+        with self.assertRaisesRegex(ValueError,'approved source and frame range'):
+            original_frame_source(80,self.plan,self.base,Path('base'),
+                                  crossout_manifest=crossout,crossout_root=Path('crossout'))
+
+    def test_partial_crossout_manifest_cannot_fall_back_to_opening(self):
+        crossout=self.crossout_revision();crossout['frame_numbers']=list(range(71,118));crossout['expected_frames']=47
+        with self.assertRaises(ValueError):
+            original_frame_source(118,self.plan,self.base,Path('base'),
+                                  crossout_manifest=crossout,crossout_root=Path('crossout'))
+
 
 if __name__=='__main__':
     unittest.main()

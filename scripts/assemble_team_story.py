@@ -17,8 +17,19 @@ def digest(path):
 
 def original_frame_source(number, plan, base_manifest, base_root,
                           patch_manifest=None, patch_root=None,
-                          drawing_manifest=None, drawing_root=None):
+                          drawing_manifest=None, drawing_root=None,
+                          crossout_manifest=None, crossout_root=None):
     """Bind each shot to its approved source; never fall back to superseded art."""
+    crossout = plan.get('original_scene_crossout_patch')
+    if crossout and crossout['first_frame'] <= number <= crossout['last_frame']:
+        if crossout_manifest is None or crossout_root is None:
+            raise ValueError('The crossing-out revision requires its separate verified crossout cache.')
+        expected = list(range(crossout['first_frame'], crossout['last_frame']+1))
+        if (crossout_manifest['source_sha256'] != crossout['source_sha256'] or
+                crossout_manifest['frame_numbers'] != expected or
+                crossout_manifest['expected_frames'] != len(expected)):
+            raise ValueError('The crossout cache does not match its approved source and frame range.')
+        return Path(crossout_root), crossout['source_sha256']
     drawing = plan.get('original_scene_drawing_patch')
     if drawing and drawing['first_frame'] <= number <= drawing['last_frame']:
         if drawing_manifest is None or drawing_root is None:
@@ -133,6 +144,8 @@ def main():
                         help='Required for assembly when the finishing plan pins revised original shots.')
     parser.add_argument('--drawing-render-root', type=Path,
                         help='Required when the finishing plan pins a later ink-contact correction.')
+    parser.add_argument('--crossout-render-root', type=Path,
+                        help='Required when the finishing plan pins corrected crossing-out strokes.')
     parser.add_argument('--picture-input', required=True, type=Path)
     parser.add_argument('--audio', required=True, type=Path)
     parser.add_argument('--work', required=True, type=Path)
@@ -150,6 +163,8 @@ def main():
                       if args.patch_render_root else None)
     drawing_manifest = (json.loads((args.drawing_render_root/'render-manifest.json').read_text())
                         if args.drawing_render_root else None)
+    crossout_manifest = (json.loads((args.crossout_render_root/'render-manifest.json').read_text())
+                         if args.crossout_render_root else None)
     if manifest['source_sha256'] != plan['frozen_scene_sha256']:
         raise ValueError('Render cache is from a different scene revision.')
     if digest(args.picture_input) != plan['historical_picture']['prepared_picture_sha256']:
@@ -191,7 +206,8 @@ def main():
         for frame in manifest['frame_numbers']:
             root, expected_source = original_frame_source(
                 frame, plan, manifest, args.render_root, patch_manifest, args.patch_render_root,
-                drawing_manifest, args.drawing_render_root)
+                drawing_manifest, args.drawing_render_root,
+                crossout_manifest, args.crossout_render_root)
             src = root/'frames'/f'{frame:05d}.png'
             clean = root/'denoised'/src.name
             receipt = root/'denoised'/f'{frame:05d}.json'

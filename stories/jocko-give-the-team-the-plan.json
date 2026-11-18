@@ -2,7 +2,7 @@
   "id": "jocko-give-the-team-the-plan",
   "title": "Hand the Marker Back | Jocko Willink on Leadership",
   "metadata_status": "provisional_until_finished_movie_review",
-  "status": "corrected_v2_development_preview_pending_real_time_and_audio_review",
+  "status": "v2_held_crossout_contact_revision_in_progress",
   "prepared_on": "2026-11-17",
   "publishable": false,
   "finished_video_exists": true,
@@ -36,7 +36,7 @@
     "frozen_sha256": "94b5afc8a78a063b857feaa4438a632dd370241c052c294878252e41db3f7791",
     "label": "Illustration",
     "expected_native_frames": 343,
-    "complete_native_sequence_rendered": true,
+    "complete_native_sequence_rendered": false,
     "final_acting_and_temporal_review_passed": false,
     "qa_record": "assets/stories/team-ownership/scene-preview-qa.json",
     "opening_preflight": "assets/stories/team-ownership/opening-preflight.json",
@@ -54,7 +54,15 @@
       453,
       506
     ],
-    "complete_current_drawing_revision_rendered": true
+    "complete_current_drawing_revision_rendered": true,
+    "crossout_revision_source": "assets/stories/team-ownership/crossout-scene.py",
+    "crossout_revision_sha256": "b54faf391b68c4ec109177e667e8f9d856d6379cbeed4160ad8e694ce0fc956b",
+    "crossout_revision_frames": [
+      71,
+      118
+    ],
+    "complete_current_crossout_revision_rendered": false,
+    "held_v2_complete_native_sequence_exists": true
   },
   "music": {
     "title": "Ascension",
@@ -108,13 +116,13 @@
   "research_basis": "docs/production/2026-11-17-team-ownership-preproduction.md",
   "research_limit": "Existing dated motivational-interest evidence and completed structure analyses support development only. No current trend, ranking, format winner or performance guarantee is claimed.",
   "do_not_duplicate_preparation": true,
-  "release_requirement": "The complete corrected v2 exists and contact has been checked across all54 corrected encoded frames. Preserve its exact bytes and v1 held evidence. Real-time motion/pacing and subjective soundtrack review, final editorial release, verified public media and duplicate/queue checks precede any ready entry or publisher draft. The two existing male direct drafts are separate and unchanged.",
+  "release_requirement": "The existing v2D397 is held for a visible crossing-out ink/nib gap in actual80/83. Complete the separate48-frame contact correction, use four pinned caches with unchanged AAC/captions/historicalpicture, inspect actual new encoded v3 and outstanding real-time pacing/listening before any editorial release/readyentry/draft. Never modify or republish the two already-live male pilots.",
   "full_encoded_preview_completed_at_utc": "2026-11-17T22:33:19.052833+00:00",
   "full_story_editorial_pass": false,
   "public_host_bytes_verified": true,
-  "current_target_finished_video_exists": true,
+  "current_target_finished_video_exists": false,
   "current_drawing_revision_qa": "assets/stories/team-ownership/drawing-frame-review-v2.json",
-  "existing_preview_status": "v1_held_v2_contact_corrected_pending_remaining_editorial_review",
+  "existing_preview_status": "v2_held_for_observed_crossout_contact_gap",
   "superseded_previews": [
     {
       "media_path": "examples/development/team-ownership/06-full-story-preview.mp4",
@@ -187,5 +195,6 @@
     "subjective_audio_listening_claimed": false,
     "youtube_publication_created": false,
     "editorial_release": false
-  }
+  },
+  "current_crossout_revision_qa": "assets/stories/team-ownership/crossout-frame-review-v2.json"
 }
