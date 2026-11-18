@@ -1,0 +1,333 @@
+{
+  "prepared_at_utc": "2026-11-18T13:50:55.602245+00:00",
+  "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+  "caption_sha256": "efd7f1758b301080289106d886202d622499f410c4d52a92716c08f0c20f6ac5",
+  "visual_inspection_pending": false,
+  "subjective_audio_listening_claimed": false,
+  "continuous_video_watching_claimed": false,
+  "finished_movie_exists": false,
+  "publishable": false,
+  "reviewed_at_utc": "2026-11-18T13:54:01.685910+00:00",
+  "actual_captioned_native_frames_visually_inspected": [
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    286,
+    294,
+    302,
+    306
+  ],
+  "full_size_frames_visually_inspected": [
+    272,
+    306
+  ],
+  "findings": [
+    "All23 captioned production-native samples were viewed in a contact sheet;272 and306 were additionally viewed at720x1280. The tool-cart LED face, moving wrench and bell remain readable with42px captions below the action.",
+    "Frames260through278 show the wrench approach/contact/withdrawal around the11.3s bell cue. Later286/294/302/306 show its reset and next movement. Sample order does not establish real-time pacing or subjective sound synchronization.",
+    "The robot is an original four-caster toolbox design; the opening hatch and station floor establish its location. The upper lid/signage remain partly cropped.",
+    "A small visible separation under some caster tires remains a final visual-review item. Source geometry places their nominal lower rim0.04scene units above the service-bay floor before the low-battery tilt. No wheel-ground correction or frozen-scene change was made during the active render."
+  ],
+  "final_visual_review_items": [
+    "Assess the caster/floor separation in the complete encoded sequence before final editorial release.",
+    "Inspect low-battery acting, actual plug seating, recovery and dawn wave after their production frames finish."
+  ],
+  "final_editorial_release": false,
+  "id": "midnight-bell",
+  "status": "production_native_reveal_samples_reviewed_with_open_visual_item",
+  "frames": [
+    {
+      "frame": 260,
+      "time_seconds": 10.791666666666666,
+      "raw_sha256": "a6bc6cf873741142fa6fe4565f51e441d59c7bfd1af8fbf5275e3d08ea8e7c16",
+      "denoised_sha256": "09063ff68947fb18e5bea4e85044ce5331469f03f9dc678aaca09d7671266135",
+      "captioned_sha256": "5ca93223962730b919278420efa5245af49dba52c32899b5e22f1a2ddbf92352",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 261,
+      "time_seconds": 10.833333333333334,
+      "raw_sha256": "a4b3c298dc59fd07d10cc57c1dc70f966270e64509041ef3801a26944d32620b",
+      "denoised_sha256": "2bbd35c0714ad8b87ee48ca5ad0bfad042da8ad77924b79d3a13caa5253bbc98",
+      "captioned_sha256": "888e1fd256699cf27e399928dd36314934acdd31e57cc5731a1bee943e15047e",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 262,
+      "time_seconds": 10.875,
+      "raw_sha256": "1c300b8cd7e44dcb1440cfba825bdbd8e302a5486add19786946d8ed8a80a3e4",
+      "denoised_sha256": "ab27c7d939135fe40c3a760ab09f0b825b614a78facfc6b70ef8dc5c3bc12715",
+      "captioned_sha256": "3c522a376699f3336b497ec2738c56405f62e234f17e1289f046604f93c22949",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 263,
+      "time_seconds": 10.916666666666666,
+      "raw_sha256": "b5efa48c04a535d95adee6f6e844e13b539053a8f90ac8a9ebf19505ca03b403",
+      "denoised_sha256": "5b3ad20a0a5fbc27dbffefd1a4f33cc655ffe09eca5e445cbcc26de117d8db7f",
+      "captioned_sha256": "b5e091d8db67633d4c43815d279675a86a9b8f770aab99519fa220c80b780408",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 264,
+      "time_seconds": 10.958333333333334,
+      "raw_sha256": "c02d9a406ad04de01e7a56b9611fe4230f807fcd80fb4650a7fc92df99e1e8ae",
+      "denoised_sha256": "650e5750145c37194f90aad5334ed426fc0c1100ee0f0ceffb97755c0247c1f5",
+      "captioned_sha256": "348bc5360c3ec6ad6f51ac9b812b97b8175a7c4b20c04569921d8b49e34b242e",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 265,
+      "time_seconds": 11.0,
+      "raw_sha256": "89b2a8910aeecffe2993355c041338be239df203194cea5de83317f81016aa67",
+      "denoised_sha256": "26dce6a96ad802e86c8398b22a2fa97a6a5dbb838ead546e258ed8c4d6d330eb",
+      "captioned_sha256": "dba7f9a8f468ce0b30371470140a11b227c35174b6aff372bf46a90f8802ba1c",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 266,
+      "time_seconds": 11.041666666666666,
+      "raw_sha256": "bd9f7fb176dc170c8c53e2128bf007642559bb4c0511f636742cde04eed46048",
+      "denoised_sha256": "a229afd1bdaf5a902be2590a0a657082dd88f2ca31c50dc79f523377c9e626ab",
+      "captioned_sha256": "fa49c38ce6313a28ddc00fb9a65d90aaa2be69fd1317a98e3bbb479b576f8f80",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 267,
+      "time_seconds": 11.083333333333334,
+      "raw_sha256": "9092d8abc82953a9948edf76abf4077bce93a2fdf9bbcd008a39e62d1fa70411",
+      "denoised_sha256": "0543339a4a2117a53bbfc63dcd6df10710a746ec6db9a8bb67c1c444a712dfdf",
+      "captioned_sha256": "059418e93c7f710427bfbbb0dd7b475b2a729ed6370c55acb6a8fa60bd1236b8",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 268,
+      "time_seconds": 11.125,
+      "raw_sha256": "576e0dc3a9d020acf848c679c8d3e9712b7d5d2f8413079c6cfa1a2d1625b937",
+      "denoised_sha256": "c19d3ef4389315b4aa843063064dc44cdcd978b7a525bb5823cf0ac4161c6c0f",
+      "captioned_sha256": "8ece1a57ba7840b9d29bc6cc499c94ad3ac897f71691315ed0da9cc6085ebaf9",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 269,
+      "time_seconds": 11.166666666666666,
+      "raw_sha256": "f41cc8ef33ffec8f52b075968f60ec7688d2ceb545361d5b92ba0d9220171035",
+      "denoised_sha256": "4849df8ee0627f8fb25e73ac20803dd96a788f7bf8a6524dbe92349a3d6c2edc",
+      "captioned_sha256": "aa317e88ea79c8fd0ed423991121384c90c15aa9cefc9767aa256d777d296789",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 270,
+      "time_seconds": 11.208333333333334,
+      "raw_sha256": "08d9fe401c0fa0ebac86e63b59f7f4c5dd3150665126d89759e3c52b547d260d",
+      "denoised_sha256": "a18cec6d3beab8d3e415cf51e512dd186472cf49162b43aa71f5d2382d1c8ec8",
+      "captioned_sha256": "7cb2c9c6addfd49c309de67f32026404ce7058a0e9e272ccb7e3ecb25fb23062",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 271,
+      "time_seconds": 11.25,
+      "raw_sha256": "c28dfa69b9c4909335bbd49b692fc3b9d5685b8c955fe905edab3a9fa6f74ab3",
+      "denoised_sha256": "614d116a4696773846d99a2083a6b3d8d17d08aff4708ac2e06d692badd6dd9b",
+      "captioned_sha256": "0fe3d0007fa35fbfd9f3e8848b84e36728135f652845d93b17231a5530935064",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 272,
+      "time_seconds": 11.291666666666666,
+      "raw_sha256": "d097b10e2f3f74697a59496728e471afd1a509684f8ac16944275b366a58252f",
+      "denoised_sha256": "5e3a73909f756bd14200036e87eb32cd9ab1eb348437ce2e07de08a6632e73ec",
+      "captioned_sha256": "4b501c2a60bea82932d20e73b2aaff0ff9f341380abd256dacc3163f22804a4b",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 273,
+      "time_seconds": 11.333333333333334,
+      "raw_sha256": "5be9668ccce19e8918d7de86c12fbb17d2b273b3d74ed1669f840587fd577755",
+      "denoised_sha256": "6c43b76d5c7fd43818360d439e3cb7fae56647b892682bddba36d25e229852f1",
+      "captioned_sha256": "72b688ff8ed3e5cc037cf39afb0b3d3b824b9cb2287966ee3c3692394b917ad0",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 274,
+      "time_seconds": 11.375,
+      "raw_sha256": "6297fbc4992635324a6d070c49f01fe51106ac87c10ada5eee8165af675d8a57",
+      "denoised_sha256": "32d09d0333e2a727a27d670fcb5d159cf58f8d5421b2faa488af067ef04c5c0f",
+      "captioned_sha256": "34f8654d4eedbb9cc5a2346c5d414ac55eb1a3a6bd577694546515f7a31a41e7",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 275,
+      "time_seconds": 11.416666666666666,
+      "raw_sha256": "1a4f64336e82d7454df35295da2b05014b9807086e336ebcd09833c86244a274",
+      "denoised_sha256": "03ee4aa8d5b21d8bce87a0161852ee422492aa6d182c76bf4e810303f5cd0591",
+      "captioned_sha256": "0d8434f0ec05bf7365ec95be86ff9d61b551de2b10d8ac8f51a5db9c6c373faf",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 276,
+      "time_seconds": 11.458333333333334,
+      "raw_sha256": "cd5f9abde248989c021adfc1a0fe4564bbcbf699e9ae016a70f460f8c507daba",
+      "denoised_sha256": "b5d57a6884787c1d3130b30019ad5a36ddc4476a291bb45329f659ce65551315",
+      "captioned_sha256": "67a65d81d024398af2f23b95f84805edb020d61fb9e9f7e2d48c4fc1b11cbf94",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 277,
+      "time_seconds": 11.5,
+      "raw_sha256": "49c206163b4877775c36ad00e124d4beb8e2ee35a715b11c8a74cccbbead603d",
+      "denoised_sha256": "e8e976b8978b01932618a18d3b1a5fba06411e8c5f0ccbf4e298e6e426770edc",
+      "captioned_sha256": "b08ae484e1e9a2bf5b28490db15024fedd89cf5a67f876b7bdec6617126478dd",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 278,
+      "time_seconds": 11.541666666666666,
+      "raw_sha256": "1281e146d403174eb66fef6a719cb0b2915fe951dec690d877c9d8e2f084fcf4",
+      "denoised_sha256": "a90d3808c39079a39ea70766195604cc66359c88b91c74ec73c9616f863d3fe3",
+      "captioned_sha256": "1ca5e14ed218f9811b7338cc5dd437e87b99648f9062c25af3294f3e26488f79",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 286,
+      "time_seconds": 11.875,
+      "raw_sha256": "89bf7e9664faa570ae5e7e6041cf83a4bc4b849bb2ea2b713afd2307964a03c1",
+      "denoised_sha256": "9104b595f670fe019314e36f152dc60f9881c34f2377c78af914d3517b5c6c90",
+      "captioned_sha256": "4ed252c0f4a75a46ac26a1f4e5604654bcc2a475250989a760f0183d12b6d3fd",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 294,
+      "time_seconds": 12.208333333333334,
+      "raw_sha256": "c17a2714368adb03e15b634e0b8f18eb343748d85138d56f4227d27c6ee7a4cf",
+      "denoised_sha256": "489c1bdc84c83de3a79bb34ee13bcaf579ac178d0cac5464b227c2e395ac006d",
+      "captioned_sha256": "c4b8f878fe9627fdeeebd4f2a51263a1560ea766e5b0adc7f3c5482d4f80e7ba",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 302,
+      "time_seconds": 12.541666666666666,
+      "raw_sha256": "ff0946a1bc1393d0e0c8ddaa22b53b7540b6f9a90eae33b48688de7a432c425f",
+      "denoised_sha256": "f9dde9b64320a89f54b7f920c147bd3948ea5944acebc309c0239f0ac0894fcc",
+      "captioned_sha256": "eb04866818e09da9bde86ab2e910d44b0b45218cf288cb4eebbcf097016f86c3",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    },
+    {
+      "frame": 306,
+      "time_seconds": 12.708333333333334,
+      "raw_sha256": "244859e14c8d917b3646b474e66233cf3b153d236636a3e37b00d19e0d46756e",
+      "denoised_sha256": "9a6a0ea3e171bd39c32974596490eb30e98d6f9ddff57c5c4bc32a040149cac7",
+      "captioned_sha256": "9086e09fb703621adcd5fb0515ed08aeb9f80aa77eb76e5d0256bb5dc6395450",
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "production_samples": 24
+    }
+  ],
+  "native_frame_upscaling": false,
+  "frame_interpolation": false
+}

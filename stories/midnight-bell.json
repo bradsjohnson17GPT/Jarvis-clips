@@ -91,7 +91,7 @@
     "narration_text_asr_verified": true,
     "full_video_rendered": false,
     "published": false,
-    "audio_version": "unchanged_kokoro_fiction_original_bell_charge_fx_licensed_score_v1",
+    "audio_version": "unchanged_narration_original_effects_mix_encoded_v2",
     "existing_scene_and_eight_stills_recovered": true,
     "material_staging_corrections_inspected": true,
     "full_native_render_started": true,
@@ -118,10 +118,17 @@
     "status": "in_progress",
     "complete": false
   },
-  "next_work": "Preserve the active pinned678frame native render. Sixproductionframes are alreadyreceipt-denoised; continue bounded same-source denoising withoutoverlap. Reuse the exact prepared28.25s AAC/caption hashes,59words/23cues and scene-specific bell/charge effects; do not regenerate/revoice or run the Downward effect template. Assemble only the complete678frames; inspect actual final cuts, acting, captions/speech, encoded AAC identity/decode/levels and honest subjective listening limits before readyentry or publisherdraft.",
+  "next_work": "Preserve the active pinned 678-frame native render and reuse receipt-verified denoised frames. The prepared assembler requires every matching native frame, copies the exact inspected V2 AAC and burns the exact inspected ASS. It currently refuses incomplete inputs and creates no candidate. Complete remaining same-source denoising without overlap, then assemble and inspect actual final cuts, acting, captions/speech, encoded AAC identity/decode/levels and honest listening limits before any ready entry or publishing draft.",
   "audio_preflight_record": "assets/stories/midnight-bell/audio-preflight.json",
   "caption_preflight_record": "assets/stories/midnight-bell/caption-preflight.json",
   "audio_preflight_ready": true,
   "captions_prepared": true,
-  "final_audiovisual_review_passed": false
+  "final_audiovisual_review_passed": false,
+  "finishing_plan": "assets/stories/midnight-bell/finishing-plan.json",
+  "assembler": "scripts/assemble_midnight_story.py",
+  "native_reveal_review": "assets/stories/midnight-bell/native-reveal-review.json",
+  "final_visual_review_items": [
+    "Assess the caster/floor separation in the complete encoded sequence before final editorial release.",
+    "Inspect low-battery acting, actual plug seating, recovery and dawn wave after their production frames finish."
+  ]
 }
