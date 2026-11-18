@@ -1,7 +1,11 @@
 {
   "version": 1,
   "requested": true,
-  "priority_games": ["Grand Theft Auto VI", "Grand Theft Auto V", "Minecraft"],
+  "priority_games": [
+    "Grand Theft Auto VI",
+    "Grand Theft Auto V",
+    "Minecraft"
+  ],
   "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
   "research_status": "no_current_commercial_sources_cleared",
   "approved_creators": [],
@@ -27,11 +31,12 @@
   },
   "gta_vi": {
     "official_release_date": "2026-11-19",
-    "verified_on": "2026-11-17",
+    "verified_on": "2026-11-18",
     "source": "https://www.rockstargames.com/VI",
     "publisher_policy": "https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material",
     "commercial_gameplay_clearance": "not_verified",
     "pre_release_leaks_allowed": false,
-    "release_date_must_be_rechecked": true
+    "release_date_must_be_rechecked": true,
+    "last_check_evidence": "Official page text, today crawl; no viewing, release-hour or redistribution-rights claim."
   }
 }

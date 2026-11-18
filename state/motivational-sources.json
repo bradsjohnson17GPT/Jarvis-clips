@@ -255,5 +255,88 @@
       "paid_vidiq_credits": 0,
       "review_note": "docs/trends/2026-11-17-late-nasa-johnson-source.md"
     }
-  ]
+  ],
+  "metadata_only_source_leads": [
+    {
+      "id": "673130",
+      "person": "David Goggins",
+      "source_page": "https://www.dvidshub.net/video/673130/toughest-man-alive",
+      "title": "The Toughest Man Alive",
+      "source_date": "2019-04-19",
+      "source_credit": "Austin Rooney / All Hands Magazine",
+      "listed_duration_seconds": 559,
+      "reader_crawl_freshness": "last week",
+      "overlap_status": "Not inspected; compare with 646927/646414 before treating as distinct footage.",
+      "reviewed_at_utc": "2026-11-18T13:13:31.827367+00:00",
+      "status": "metadata_only_hold_pending_individual_footage_audio_and_overlap_review",
+      "publication_clearance": false,
+      "item_marked_public_domain": true,
+      "policy_url": "https://www.dvidshub.net/about/copyright",
+      "evidence_methods": [
+        "first_party_page_text",
+        "search_metadata"
+      ],
+      "video_watched": false,
+      "audio_listened": false,
+      "transcript_analyzed": false,
+      "actual_hook_action_payoff_observed": false,
+      "selected_interval": null,
+      "original_adaptation_outline": null,
+      "audience_interest_counts_observed": false,
+      "publishable": false,
+      "new_clip_produced": false,
+      "publisher_draft_created": false,
+      "review_note": "docs/trends/2026-11-18-0500-quality-scout.md",
+      "next_action": "Inspect a bounded public-player interval, compare existing source footage, review embedded rights/audio and authentic context before scripting; no download/login bypass, purchase or outreach."
+    },
+    {
+      "id": "740748",
+      "person": "Remi Adeleke; Jocko Willink credited as narrator",
+      "source_page": "https://www.dvidshub.net/video/740748/unexpected-navy-seal-remi-adelekes-incredible-story",
+      "title": "Unexpected: Navy SEAL Remi Adeleke's incredible story",
+      "source_date": "2020-02-25",
+      "source_credit": "Matthew Hilborn / Defense.gov; description credits U.S.Navy video by Austin Rooney",
+      "listed_duration_seconds": 1086,
+      "reader_crawl_freshness": "approximately 1.4 years old",
+      "overlap_status": "Uninspected package; no distinct selected moment established.",
+      "reviewed_at_utc": "2026-11-18T13:13:31.827367+00:00",
+      "status": "metadata_only_hold_pending_individual_footage_audio_and_overlap_review",
+      "publication_clearance": false,
+      "item_marked_public_domain": true,
+      "policy_url": "https://www.dvidshub.net/about/copyright",
+      "evidence_methods": [
+        "first_party_page_text",
+        "search_metadata"
+      ],
+      "video_watched": false,
+      "audio_listened": false,
+      "transcript_analyzed": false,
+      "actual_hook_action_payoff_observed": false,
+      "selected_interval": null,
+      "original_adaptation_outline": null,
+      "audience_interest_counts_observed": false,
+      "publishable": false,
+      "new_clip_produced": false,
+      "publisher_draft_created": false,
+      "review_note": "docs/trends/2026-11-18-0500-quality-scout.md",
+      "next_action": "Inspect a bounded public-player interval, compare existing source footage, review embedded rights/audio and authentic context before scripting; no download/login bypass, purchase or outreach."
+    }
+  ],
+  "latest_metadata_scout_check": {
+    "checked_at_utc": "2026-11-18T13:13:31.827367+00:00",
+    "research_date_pacific": "2026-11-18",
+    "method": "free_first_party_page_text_and_search_metadata_plus_reused_completed_reference_analyses",
+    "search_queries": 3,
+    "new_creator_policy_leads": 0,
+    "new_source_metadata_leads": 2,
+    "new_sources_cleared": 0,
+    "new_view_observations": 0,
+    "new_current_rankings_verified": false,
+    "new_paid_vidiq_calls": 0,
+    "new_original_ideas_claimed": 0,
+    "notes": "docs/trends/2026-11-18-0500-quality-scout.md",
+    "evidence_dates_preserved": true,
+    "posting_queue_changed": false,
+    "search_result": "Two uninspected DVIDS package leads, not selected intervals or unique-footage findings. Rockstar page reconfirms November 19, 2026; no new audience counter or commercial streamer clearance."
+  }
 }
