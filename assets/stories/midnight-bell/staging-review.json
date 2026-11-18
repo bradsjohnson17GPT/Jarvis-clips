@@ -1,0 +1,170 @@
+{
+  "id": "midnight-bell",
+  "reviewed_at_utc": "2026-11-18T09:56:48.503688+00:00",
+  "status": "existing_scene_recovered_material_staging_fixes_inspected_native_movie_rendering",
+  "publishable": false,
+  "finished_movie_exists": false,
+  "new_concept_created": false,
+  "full_source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+  "existing_source_sha256": "a62733b33c94ded0b662063bf83bc0899310cec3991c09a158b07e0b364e4de6",
+  "existing_audited_blend_sha256": "b2dc546d9e1effc8736dadc40f06e5c0adae5d951b4ba3560a5ec5fee9350a0c",
+  "existing_native_samples_inspected": [
+    {
+      "frame": 30,
+      "nominal_seconds": 1.2,
+      "raw_png_sha256": "c04de9587c8a6087db9640522dbf6c767104834189a465893cdfbff52779cea5",
+      "denoised_png_sha256": "140153f57ef41d6372d1eaada26bc0490ad19f2851c86affbd862ce22655826f"
+    },
+    {
+      "frame": 272,
+      "nominal_seconds": 11.3,
+      "raw_png_sha256": "7bcc925fedcf2d8438e34cc5cfb9ee5a9fb196321361edc2032b908f2a08813b",
+      "denoised_png_sha256": "94aa959cbf2a5c5b72130a39c52f3b198b9f4e2d4a23283fd97841958148416d"
+    },
+    {
+      "frame": 480,
+      "nominal_seconds": 19.95,
+      "raw_png_sha256": "89070dc5e055897e0091338369769fa3a8d77876b7319c2a2fc65ddab062c880",
+      "denoised_png_sha256": "755b48d76e19040f94ad7e7a2e7cca89a495e2c63556406eebbd988e298f8e96"
+    },
+    {
+      "frame": 629,
+      "nominal_seconds": 26.15,
+      "raw_png_sha256": "b538ccf22eb683cadb58137b25b428ed42ed2e9024096b0eb1c0c39b183794b5",
+      "denoised_png_sha256": "9e97f4e06a5c624bc002451e0f6d02399966a7d45141c4a265f8ddaffa6558d4"
+    },
+    {
+      "frame": 267,
+      "nominal_seconds": 11.08,
+      "raw_png_sha256": "b27f564b92fb643568893a0c6212fcce2c55ae19666a4897a9d967bfd878116b",
+      "denoised_png_sha256": "e004fb4c437267b850e0fb7ed3074fc6cfe754d910b4415e2ac43011a510877e"
+    },
+    {
+      "frame": 375,
+      "nominal_seconds": 15.6,
+      "raw_png_sha256": "3e8f9e4e70a8910534b1b3e557b293c42216dc68cf6e97f46aee3079bf3eb224",
+      "denoised_png_sha256": "571f974e880cdc75d137a005e24725e9934b0d65b0679092773efdb8d5ca48f5"
+    },
+    {
+      "frame": 97,
+      "nominal_seconds": 4.0,
+      "raw_png_sha256": "d49a72d0a081b00f5f629280a307776225f99057d595fc72a1e247d50354adf4",
+      "denoised_png_sha256": "1e50df900b7836c231242aa08600f372738017b05f5b3cc5999709d1e3ebbd14"
+    },
+    {
+      "frame": 212,
+      "nominal_seconds": 8.8,
+      "raw_png_sha256": "f4a8c7f9ee111e71235530117a02561397e8b0af3fc25517b347af6b9fe9fa0d",
+      "denoised_png_sha256": "a39ee7b89d88f641518fde27694eeb97b13a3e6a4614fb1dbe08b1e08bfe9db9"
+    }
+  ],
+  "corrected_native_samples_inspected": [
+    {
+      "nominal_seconds": 8.8,
+      "frame": 212,
+      "source_sha256": "cf9fd1875bff482d1898de264e1aca00ff4acff59e1c1ba8e6c90b96d46b3a48",
+      "raw_png_sha256": "7ca2d7c9dac32c017f703bdb486820fcaeea760d7e0ce2c0be1df71e6ee46529",
+      "denoised_png_sha256": "036278829487ab9322c82ede123070878a201b8dd812e202c4289da597f8ea77",
+      "visually_inspected": true,
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "render_samples": 4,
+      "resized": false
+    },
+    {
+      "nominal_seconds": 18.95,
+      "frame": 456,
+      "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+      "raw_png_sha256": "360320e05d53fa2f7864972d2bd389b2f2d53e29addcea1c3fc1a8f9a5e589ad",
+      "denoised_png_sha256": "1b02d17c302a3bc9e1fa2aa0239965e3d69c0a874728a2bcaf540f875b61ccbe",
+      "visually_inspected": true,
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "render_samples": 4,
+      "resized": false
+    },
+    {
+      "nominal_seconds": 19.95,
+      "frame": 480,
+      "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+      "raw_png_sha256": "189e53ba729e6244abf58f569bf41dce8c121c441af73ac928a11d878ce5807f",
+      "denoised_png_sha256": "fb74f277d4cb8ae1928d3ec9f5e47960614980e8b0293ca9ba3d0f54817bc293",
+      "visually_inspected": true,
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "render_samples": 4,
+      "resized": false
+    },
+    {
+      "nominal_seconds": 20.15,
+      "frame": 485,
+      "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+      "raw_png_sha256": "bc182fd3dbb054eba8321c121a06fe88fbe197093523250cb233149c6d94adfe",
+      "denoised_png_sha256": "d663a6ac0c1fce4159dc59b6f6cc416578ae16279282f7927f178b6aacb955ba",
+      "visually_inspected": true,
+      "native_dimensions": [
+        720,
+        1280
+      ],
+      "render_samples": 4,
+      "resized": false
+    }
+  ],
+  "failed_intermediate_camera_source_sha256": "cf9fd1875bff482d1898de264e1aca00ff4acff59e1c1ba8e6c90b96d46b3a48",
+  "findings": [
+    "Eight recovered actual native samples show the midnight clock/bell, listening courier, opening hatch, original tool-cart robot/wrench, dim face, occluded charger and dawn wave. Their existing output hashes and the evaluated scene audit match the preserved files.",
+    "At8.8seconds the robot was hidden but its independent socket and loose charging lead remained visible as detached props. The corrected8.8sample removes both from this investigation shot. That sample uses the prior source revision; only the later charge camera differs in the current source.",
+    "The first attempted charge camera still hid the connector behind the forearm. It was held as failed staging and was not used for the native movie.",
+    "The accepted lower charge camera shows an unplugged connector/socket at18.95, the insulated plug seated with intact cable at19.95, and battery segments lit at20.15. The hand and socket still overlap slightly, but the insertion cause and subsequent recovery are readable in these actual images.",
+    "Night clock and empty station, distinct tool-cart design and reciprocal dawn wave support the locked fictional rescue story. Some station signs are cropped and the stylized character hands/face are simple; no final editorial or temporal quality is inferred from stills."
+  ],
+  "denoiser": {
+    "method": "Reviewed OIDN2.5.1 CPU RT LDR/sRGB high, beauty-only, same dimensions",
+    "archive_and_runtime_verified_this_run": true,
+    "archive_sha256": "743c3e2aff8c220d5d70fe6cb970fb3d36f2702d2693c61d1d148e404cf37cd6",
+    "raw_images_preserved": true
+  },
+  "audio": {
+    "voice": "af_heart",
+    "kind": "Existing generic natural stock narrator for this original fictional mystery, not motivational celebrity commentary. Motivational commentary continues to use am_michael.",
+    "narration_sha256": "22bc37f7aafbdebbafe2295fbccc9faca92820065522a5ff175250f72f0064dd",
+    "narration_duration_seconds": 28.228,
+    "existing_timed_words_match_locked_script": true,
+    "regenerated": false,
+    "music_and_effects_mixed": false,
+    "subjective_listening_claimed": false
+  },
+  "native_render": {
+    "expected_frames": 678,
+    "fps": 24,
+    "native_dimensions": [
+      720,
+      1280
+    ],
+    "production_samples": 24,
+    "preview_samples": 4,
+    "frame_interpolation": false,
+    "original_frame_upscaling": false,
+    "frozen_source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+    "frozen_blend_sha256": "427f3d4023ae53eed1da3017c7d372f0dc96d11045d04d5e4602dabc63c63d6f",
+    "status": "in_progress_not_a_finished_video",
+    "only_one_active_renderer": true
+  },
+  "checks": {
+    "python_compile_passed": true,
+    "repository_tests_passed": 35,
+    "provider_jobs_in_progress_before_start": 0,
+    "no_prior_midnight_full_render_process_found": true
+  },
+  "continuous_video_watching_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "publisher_draft_created": false,
+  "scheduled": false,
+  "published": false
+}

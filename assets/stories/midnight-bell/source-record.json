@@ -1,0 +1,45 @@
+{
+  "id": "midnight-bell",
+  "reviewed_on": "2026-11-18",
+  "reviewed_by": "Project production assistant",
+  "status": "original_visual_sources_reviewed_full_animation_in_progress",
+  "finished_movie_rights_and_editorial_release": false,
+  "original_geometry": {
+    "identity": "Original station, platform/hatch, midnight clock, bell, wheeled toolbox robot with one LED face, wrench, charger/cable, lighting and cameras.",
+    "source": "assets/stories/midnight-bell/scene.py",
+    "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+    "commercial_project_use": true,
+    "external_models_textures_or_footage": [],
+    "rights_basis": "Authored project scene code recovered from existing task-owned work, reviewed before reuse. No imported movie/game robot, landscape footage or real-person likeness.",
+    "license_url": "https://github.com/bradsjohnson17GPT/Jarvis-clips/blob/main/assets/stories/midnight-bell/scene.py"
+  },
+  "project_owned_character": {
+    "source": "assets/stories/downward-beacon/scene.blend",
+    "sha256": "1bb432ae4fe95a566831bf2ed0504c88b469272033c43f7b28c637c6145ddc5a",
+    "scope": "Only the original project courier hierarchy is reused. Earlier story animations and all other loaded objects are removed. This is a new story/setting/action sequence, not republication of the live Downward Beacon video."
+  },
+  "narration": {
+    "voice": "af_heart",
+    "kind": "Existing generic natural stock narrator for this original fictional mystery, not motivational celebrity commentary. Motivational commentary continues to use am_michael.",
+    "narration_sha256": "22bc37f7aafbdebbafe2295fbccc9faca92820065522a5ff175250f72f0064dd",
+    "narration_duration_seconds": 28.228,
+    "existing_timed_words_match_locked_script": true,
+    "regenerated": false,
+    "music_and_effects_mixed": false,
+    "subjective_listening_claimed": false
+  },
+  "music": {
+    "planned_track": "Ascension",
+    "artist": "Scott Buckley",
+    "source": "https://www.scottbuckley.com.au/library/ascension/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "required_credit": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "status": "Existing reviewed track; final selection/mix and changes must be checked in the finished film description."
+  },
+  "effects": {
+    "status": "Planned original bell/charging cues, not generated or mixed by this staging work.",
+    "requirement": "Match the actual bell impacts, plug seating and recovery; do not reuse Downward Beacon cue timings."
+  },
+  "staging_review": "assets/stories/midnight-bell/staging-review.json",
+  "publishable": false
+}

@@ -1,6 +1,6 @@
 {
   "id": "midnight-bell",
-  "status": "script_voice_and_storyboard_ready_animation_not_produced",
+  "status": "original_scene_native_render_in_progress_not_finished_short",
   "title": "Why Was the Empty Station Bell Ringing?",
   "content_type": "fictional_micro_stories",
   "hook_type": "unexplained_sound_resolved_by_rescue",
@@ -44,10 +44,13 @@
     "start": 288
   },
   "visual_source": {
-    "identity": "Original Midnight Bell station scene, not built yet",
-    "rights_verified": false,
-    "status": "planned_original_geometry_not_produced",
-    "requirements": "New station, toolbox robot, battery display, bell/wrench and movement. No copied game meshes or borrowed robot/film character design; no stock substitute."
+    "identity": "Original Midnight Bell station/robot scene plus project-owned courier hierarchy",
+    "rights_verified": true,
+    "scope": "Individual original visual assets reviewed; full finished animation and final audiovisual release remain pending.",
+    "status": "original_geometry_and_staging_reviewed_native_movie_in_progress",
+    "source_record": "assets/stories/midnight-bell/source-record.json",
+    "scene_source": "assets/stories/midnight-bell/scene.py",
+    "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10"
   },
   "storyboard": [
     {
@@ -88,6 +91,29 @@
     "narration_text_asr_verified": true,
     "full_video_rendered": false,
     "published": false,
-    "audio_version": "kokoro-narrative-v1"
-  }
+    "audio_version": "kokoro-narrative-v1",
+    "existing_scene_and_eight_stills_recovered": true,
+    "material_staging_corrections_inspected": true,
+    "full_native_render_started": true
+  },
+  "publishable": false,
+  "finished_video_exists": false,
+  "ready_candidate": false,
+  "service_draft_created": false,
+  "scheduled": false,
+  "staging_qa": "assets/stories/midnight-bell/staging-review.json",
+  "native_animation": {
+    "expected_frames": 678,
+    "frame_rate": 24,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "samples": 24,
+    "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+    "frozen_blend_sha256": "427f3d4023ae53eed1da3017c7d372f0dc96d11045d04d5e4602dabc63c63d6f",
+    "status": "in_progress",
+    "complete": false
+  },
+  "next_work": "Inspect existing native render/status/cache before any restart; never duplicate it. Finish matching same-size denoising, story-specific bell/charge audio/music/captions and assemble only the complete678frames. Inspect actual finished cuts/acting/synchronization/decode/levels and honest listening limits before readyentry or publisherdraft."
 }

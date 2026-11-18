@@ -3,7 +3,7 @@
   "research_date": "2026-11-16",
   "status": "quality_reset_original_scene_preparation",
   "asset_rights": "Public reference videos are style data only. New original scene assets are reviewed after they exist; outlined sources are not claimed produced or cleared. Licensed streamer reuse still needs source-specific creator/game/audio/access verification.",
-  "production_note": "Fourteen project videos are confirmed published: ten older Metricool posts plus Downward Beacon, Before the First Step and the owner-approved revised male Jocko/Goggins pilots. Both male pilots completed through the same existing direct drafts more than20minutes apart. No automatic pending or remaining unscheduled ready male drafts.31Metricoolcopies stay held; no account-limit recovery evidence. Corrected teamwork v2 remains development pending real-time pacing/listening and editorial release.",
+  "production_note": "Fourteen known project publications remain confirmed, with31Metricoolholds and0automaticpending. One newer Hand the Marker Back v3 manual direct draft is ready but awaits the required after-saved-draft reply; it is not scheduled. Midnight Bell existing scene/stills were recovered, material staging fixes reviewed and one pinned full native animation started. Neither preparation is a new confirmed publication or proven performance winner.",
   "latest_owner_priority": {
     "recorded_on": "2026-11-16",
     "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
@@ -209,7 +209,7 @@
     },
     {
       "id": "quality_midnight_bell",
-      "status": "script_voice_and_storyboard_ready_animation_not_produced",
+      "status": "original_scene_native_render_in_progress_not_finished_short",
       "topic": "A small rescue mystery",
       "content_type": "fictional_micro_stories",
       "hook": "The bell rings in a railway station after its final train has gone.",
@@ -225,7 +225,13 @@
       "source_plan": "New original cleaner/robot characters and station geometry. Original bells and licensed score, no real broadcast or cloned speaker.",
       "publishable": false,
       "trend_claim": false,
-      "manifest": "stories/midnight-bell.json"
+      "manifest": "stories/midnight-bell.json",
+      "story_manifest": "stories/midnight-bell.json",
+      "production_state": "Existing original scene/stills recovered without recreating the concept or voice. Detached investigation props and charger occlusion fixed in actual native samples; one full678frame24sample720x1280render is active. No finishedShort, readyentry orpublisherdraft.",
+      "staging_review": "assets/stories/midnight-bell/staging-review.json",
+      "source_record": "assets/stories/midnight-bell/source-record.json",
+      "source_sha256": "4dc6fe8ff8519df0d56726d657a8ffd311ce612907f9982646c18272488c1b10",
+      "native_render_in_progress": true
     },
     {
       "id": "apollo13-the-part-they-couldnt-send",
@@ -376,7 +382,7 @@
       "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-18T09:20:05.939275+00:00",
+  "production_reconciled_at_utc": "2026-11-18T09:56:48.503688+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-17T19:05:26.806711+00:00",
     "research_date_pacific": "2026-11-17",
