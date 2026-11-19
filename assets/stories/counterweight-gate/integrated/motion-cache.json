@@ -1,0 +1,52 @@
+{
+  "format": "Base64 of zlib-compressed UTF-8 JSON; original numerical animation targets only",
+  "version": 1,
+  "frames": 578,
+  "fps": 24,
+  "uncompressed_json_sha256": "af3f040660146f3daecfb8a4c08a61da57c2f83f46642f512e788267e7aa6cda",
+  "encoded_file_sha256": "997f85f1227c6b1178f39b30b3e8d420ac0f14214f15a7a1670fccbf7d19e232",
+  "provenance": [
+    {
+      "part": "opening",
+      "source": "assets/stories/counterweight-gate/opening-study.py",
+      "source_sha256": "643769eb6f48f85dcaf04129dd5661739edc3c91344f918bde523dac726fcddc",
+      "record_sha256": "56aebc4c8f632e2325fd941c435663249f5b0d45229304f413403c84ef914246",
+      "recorded_frames": 197
+    },
+    {
+      "part": "notice",
+      "source": "assets/stories/counterweight-gate/notice-study.py",
+      "source_sha256": "2ed2f9b3029d4f3049c8b426eb5d5c43e618600e64c9afe902640e863b84b318",
+      "record_sha256": "b41c6e5fe224b98824e2149e7731ec21eb032e6565bc500eabd68df359d961ea",
+      "recorded_frames": 65
+    },
+    {
+      "part": "stair",
+      "source": "assets/stories/counterweight-gate/stair-motion-study.py",
+      "source_sha256": "10bb4cd1e2e8de3c1238bb718a23420d69d08331b00a7d742b33fcbc28e9f52c",
+      "record_sha256": "ef8994f8e16f1a7142bb1d164a835760f5b21918b39d5c1d84e1dfba24eab1cb",
+      "recorded_frames": 56
+    },
+    {
+      "part": "stone",
+      "source": "assets/stories/counterweight-gate/stone-loading-study.py",
+      "source_sha256": "bd25e0ddbcbd3771d8fa6b3dced474626c01fec9020532664c2621bc6c7336d8",
+      "record_sha256": "5f1cd0e6e81375c3775ed9277c9a847f09422906bcfeff7421a1fc3f9dd83ce2",
+      "recorded_frames": 120
+    },
+    {
+      "part": "passage",
+      "source": "assets/stories/counterweight-gate/passage-study.py",
+      "source_sha256": "df1b6022ba7f41f1e3eac554e04888453b84a5e17a94f3b0759ef1c60997071c",
+      "record_sha256": "24fd703ac275ea0238778b4b9acf452713062fdf744fc51397d07afcbeaf1d9a",
+      "recorded_frames": 140
+    }
+  ],
+  "base_original_stone_scene_sha256": "0adb6d86642ceb6973beba1db77228841c987903aca7134755a56748811b6873",
+  "action_plan": "assets/stories/counterweight-gate/action-plan-v2.json",
+  "action_plan_sha256": "e3f7aaffcfffd92bcf1cf9b57d001898b98b5573bc1e45e5abf78e09e49de7ce",
+  "rounding_decimal_places": 6,
+  "source_audio_changed": false,
+  "old_media_reencoded_or_rendered": false,
+  "full_movie_exists": false
+}

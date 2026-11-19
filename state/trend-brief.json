@@ -174,7 +174,7 @@
     },
     {
       "id": "quality_counterweight_gate",
-      "status": "original_male_audio_all_story_beats_in_separate_development_not_final_film",
+      "status": "shared_scene_reviewed_native_full_render_in_progress",
       "topic": "Motivational action through a physical problem",
       "content_type": "motivational",
       "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
@@ -197,7 +197,7 @@
       "actual_narration_seconds": 24.048667,
       "current_study_source_sha256": "de85d9ba9cb68ee02c2077f87432fbfc5eb43125a88305931452a2f14c441b6c",
       "actual_current_staging_pose_images_reviewed": 4,
-      "full_native_animation_started": false,
+      "full_native_animation_started": true,
       "payoff_produced": false,
       "finished_movie_exists": false,
       "publisher_draft_created": false,
@@ -259,7 +259,12 @@
       "passage_development_seconds": 5.833333333333333,
       "passage_actual_encoded_frames_reviewed": 140,
       "cart_line_passage_prototype_prepared": true,
-      "all_planned_frame_ranges_have_separate_development_studies": true
+      "all_planned_frame_ranges_have_separate_development_studies": true,
+      "integrated_source_review": "assets/stories/counterweight-gate/integrated-source-review.json",
+      "integrated_scene_source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
+      "shared_scene_source_authored": true,
+      "verified_native_encoded_frames": 12,
+      "full_native_movie_exists": false
     },
     {
       "id": "quality_last_charge",
@@ -462,7 +467,7 @@
       "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-19T04:57:32.406358+00:00",
+  "production_reconciled_at_utc": "2026-11-19T05:47:09.514233+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-19T01:13:31.192223+00:00",
     "research_date_pacific": "2026-11-18",
@@ -501,10 +506,10 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-19T04:57:32.406358+00:00",
+    "prepared_at_utc": "2026-11-19T05:47:09.514233+00:00",
     "concept_id": "quality_counterweight_gate",
     "manifest": "stories/counterweight-gate.json",
-    "status": "original_male_audio_all_story_beats_in_separate_development_not_final_film",
+    "status": "shared_scene_reviewed_native_full_render_in_progress",
     "new_finished_shorts": 0,
     "new_drafts": 0,
     "paid_vidiq_credits": 0,
@@ -540,7 +545,11 @@
     "notice_crop_asr_exact_match": true,
     "passage_motion_review": "assets/stories/counterweight-gate/passage-review.json",
     "passage_actual_encoded_frames_reviewed": 140,
-    "new_passage_frames_rendered": 140,
-    "passage_crop_asr_exact_match": true
+    "new_passage_frames_rendered": 0,
+    "passage_crop_asr_exact_match": true,
+    "integrated_source_review": "assets/stories/counterweight-gate/integrated-source-review.json",
+    "verified_native_encoded_frames": 12,
+    "native_target_frames": 578,
+    "full_native_animation_started": true
   }
 }

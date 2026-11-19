@@ -1,0 +1,126 @@
+{
+  "id": "counterweight-gate",
+  "reviewed_at_utc": "2026-11-19T05:47:09.514233+00:00",
+  "reviewer": "Project production assistant",
+  "status": "shared_scene_source_and_first_native_batch_reviewed_full_film_pending",
+  "source": "assets/stories/counterweight-gate/integrated-scene.py",
+  "source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
+  "motion_cache_metadata": "assets/stories/counterweight-gate/integrated/motion-cache.json",
+  "motion_cache_sha256": "997f85f1227c6b1178f39b30b3e8d420ac0f14214f15a7a1670fccbf7d19e232",
+  "base_original_stone_scene_sha256": "0adb6d86642ceb6973beba1db77228841c987903aca7134755a56748811b6873",
+  "planned_frames": 578,
+  "fps": 24,
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "samples": 16,
+  "all578_endpoint_sole_and_rope_checks_passed": true,
+  "repository_tests_passed": 41,
+  "shared_tray_and_eight_stone_identities_throughout": true,
+  "waiting_foot_preparation_seconds": [
+    16.7,
+    18.15
+  ],
+  "new_original_environment": [
+    "procedural paving material",
+    "warm boundary walls and far street entrance",
+    "original pots, shrubs and tree geometry",
+    "three-area warm/cool courtyard lighting"
+  ],
+  "new_third_party_assets": [],
+  "current_source_native_frames_actually_viewed": [
+    1,
+    6,
+    12,
+    210
+  ],
+  "current_source_native_image_hashes": {
+    "1": {
+      "raw": "6d5cefa20341d21becb667ee1aa7495b2b39564ee50242c925653bca6a000e99",
+      "clean": "80958cbe555245785c04f7bc2aad666d48e86e35ec3b2c64a7669144722d8ab0"
+    },
+    "6": {
+      "raw": "b50170540c87dfdb1c5a12c692f16de48b074e3f0a4ab70bf9dc386ec22593f0",
+      "clean": "039e6622f80c063730beaac68ff8dd0f25b188e0127051aff4f80f11a40c5954"
+    },
+    "12": {
+      "raw": "51a9ac44459360b8eca2cd71e214b4f4b3e28bdff1a8c3a9b46b6a9472063787",
+      "clean": "2d953e90f93a18466723fd3c3be164ea684dfea4de561f3c5037b07e2acadd0f"
+    },
+    "210": {
+      "raw": "f42ea1f29a61495c4acb8ee51876b99a8276be7c8a5edc85567c21ff8d0a723e",
+      "clean": "5e9fb2e8bb4e02d3de9060b5fc0e11a30492622f53ba78deef5dcfe82d49f2ab"
+    }
+  },
+  "prior_v1_native_context_frames_viewed": [
+    48,
+    110,
+    165,
+    217,
+    244,
+    292,
+    343,
+    386,
+    478,
+    564
+  ],
+  "prior_context_source_sha256": "a9ed77fd96337449f4b3934608375f8c1b2962f9734e98f3a9b833d4e8aeaacc",
+  "prior_context_scope": "All ten prior-source native images actually viewed full-size. Current revision changes only catchlight scale/position during blinks; prior nonblink context is not claimed as newly rendered current-source pixels. Full native film/cuts still need actual final review.",
+  "current_blink_correction": "Actual native frame210 corrected floating catchlights by moving/scaling them into the closing eyes. Prior v1blink is held. No prior wide-context image is claimed as a newly rendered current-source frame.",
+  "current_blink_hashes": {
+    "raw": "f42ea1f29a61495c4acb8ee51876b99a8276be7c8a5edc85567c21ff8d0a723e",
+    "clean": "5e9fb2e8bb4e02d3de9060b5fc0e11a30492622f53ba78deef5dcfe82d49f2ab"
+  },
+  "first_encoded_native_batch": {
+    "frames": [
+      1,
+      12
+    ],
+    "frame_count": 12,
+    "video_sha256": "7a591b7dd7368d91cc99f1fe99a39737800acf8533c09e53c4efb654fe704b13",
+    "video_bytes": 76078,
+    "actual_encoded_frames_viewed": 12,
+    "full_size_encoded_frames_viewed": [
+      1,
+      12
+    ],
+    "native_source_frames_viewed": [
+      1,
+      6,
+      12
+    ],
+    "strict_full_decode_passed": true,
+    "source_audio_in_chunk": false,
+    "captions_burned_from_saved_source": true,
+    "all_batch_raw_clean_pairs_hash_verified": true,
+    "native_pngs_removed_in_first_batch": false
+  },
+  "actual_visual_findings": [
+    "Warm procedural paving, boundary walls, trees/planters and lighting improve shared geography; all eight stones and the same tray now exist throughout the source.",
+    "Actual native context covers both attempts, waiting cast, notice, mechanism, stairs, stone carry, gate rise, cart passage and the front-side payoff. Cart framing can crop its edge at the final close view; some feet/hands/cast remain occluded.",
+    "Current blink sample has no floating highlight. Restrained mouth/brow changes and blinks remain stylized; no continuous playback, full-body collision or subjective sound claim.",
+    "Supported waiting-foot preparation bridges early neutral poses to ready-step offsets. All578target/sole/rope checks pass, but the complete native encoded movie does not yet exist.",
+    "All twelve decoded frames were inspected in a contact sheet; decoded frames 1 and 12 and native clean source frames 1, 6 and 12 were additionally viewed individually at 720x1280.",
+    "The opening clearly places the courier holding the gate beside the separate loaded cart. Visible paving supports the feet and wheels; the empty suspended basket and the raised stone source tray remain visible in the background.",
+    "The original-fiction label remains readable at the top, and the first caption, Every time I, is readable below the action by encoded frame 12 without covering the courier's hands or cart.",
+    "These twelve frames cover only the first half-second of the opening hold. They do not establish the subsequent release, failed attempts, continuous animation, complete story or subjective soundtrack quality. The intermediate chunk has no audio."
+  ],
+  "narration_regenerated": false,
+  "audio_remixed": false,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "retention_plan": "Process task-owned native frame batches, verify source/raw/clean hashes and strict encoded chunk decode before pruning only nonprotected numeric PNGs. Preserve masters, assets/models, source receipts, critical native samples and chunk inventories/journals. Initial first-batch test retained every PNG; ongoing batch retention is separately recorded privately.",
+  "full_native_render_started": true,
+  "full_native_movie_exists": false,
+  "full_encoded_film_editorial_pass": false,
+  "ready_candidate": false,
+  "publishing_draft_created": false,
+  "posting_queue_changed": false,
+  "limits": [
+    "Only the first12video frames are encoded and inspected at this checkpoint. The complete578frame native film is pending.",
+    "Some hands, feet and cast are occluded in chosen views; final front view can crop the cart edge. Restrained faces/blinks and static torso/scarf remain stylized.",
+    "Numerical endpoint/sole/rope checks do not establish swept full-body collision, realism, continuous playback or subjective sound quality.",
+    "Review the actual full encoded film and every cut, speech/caption timing, retained AAC content and measured loudness/headroom before final candidate preparation."
+  ]
+}

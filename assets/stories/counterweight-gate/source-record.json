@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T04:57:32.406358+00:00",
+  "reviewed_at_utc": "2026-11-19T05:47:09.514233+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -136,5 +136,14 @@
     "commercial_project_use": true,
     "audio": "Existing reviewed v2 male take/licensed music/original effects excerpt, cropped and AAC re-encoded only.",
     "full_story_exists": false
+  },
+  "integrated_full_timeline_scene": {
+    "source": "assets/stories/counterweight-gate/integrated-scene.py",
+    "sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
+    "motion_cache": "assets/stories/counterweight-gate/integrated/motion-cache.json",
+    "review": "assets/stories/counterweight-gate/integrated-source-review.json",
+    "rights_basis": "Original motion targets compiled from the five reviewed project-owned controller records; same original cast/cart/mechanism. New procedural paving/walls/plants/trees/lighting and supported foot preparation/expression/catchlight changes are original. No external media/models/textures/voices added.",
+    "commercial_project_use": true,
+    "full_native_movie_exists": false
   }
 }
