@@ -18,7 +18,7 @@ A [complete corrected teamwork preview](examples/development/team-ownership/14-f
 
 [Midnight Bell now has a complete original-story preview](docs/production/2026-11-18-midnight-bell-finished-preview.md): all 678 native frames were assembled with the inspected soundtrack/captions, 92 encoded samples and every cut were inspected, and decode/AAC identity/levels passed. One [exact zero-credit manual draft](docs/production/midnight-bell-upload-review.md) awaits its actual connector’s required after-saved-draft reply. It is not scheduled or published. The Descript review player is watermarked; the draft uses the clean verified master. Documented visual and listening limits remain attached.
 
-An [existing counterweight-gate concept](docs/production/2026-11-18-counterweight-gate-preparation.md) now has checked male audio, 18 phrase captions, a reviewed 197-frame opening and a 56-frame stair-contact prototype. The notice transition, stone loading, passage payoff, expressive treatment and courtyard finish remain preparation; no new upload draft or queue slot was created.
+An [existing counterweight-gate concept](docs/production/2026-11-18-counterweight-gate-preparation.md) now has checked male audio, 18 phrase captions, a reviewed 197-frame opening, a 56-frame stair-contact prototype and a [120-frame stone-transfer/gate-rise test](docs/production/2026-11-18-counterweight-stone-motion.md). The full film still needs consistent shared geometry, the notice transition, passage payoff, expressive treatment and courtyard finish. No upload draft or queue slot was created for these tests.
 
 ## Quality and selection
 

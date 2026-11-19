@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_male_audio_opening_and_stair_development_not_full_story",
+  "status": "original_male_audio_opening_stair_stone_development_not_full_story",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -85,7 +85,7 @@
     "start": 144
   },
   "source_plan": {
-    "visuals": "Original mechanism/contact geometry, two waiting adults, cart-walking prototype, integrated two-attempt opening and three-tread stair-contact prototype exist. Notice transition, movement onto landing, stone loading, passage payoff, expressive treatment and environment finish remain pending.",
+    "visuals": "Original mechanism/courier/cast assets and opening, stair, cart and 120-frame eight-stone transfer/gate-rise development exist. The new raised tray and persistent stones are authored. Shared final geometry, notice transition, actual passage payoff, expression and environment finish remain pending.",
     "voice": "One reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
     "effects": "Original gate-stop, pulley, stone-deposit, boot-tread and cart-wheel cues now synthesized/mixed from the planned action times; actual animated sync remains pending.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse completed opening/stair/cart prototypes and the exact existing male take/captions. Future final assembly uses the explicit v2action/audio pair with stone impacts13.875/14.5/15.125seconds; retain v1for earlier study reproduction. Build notice transition, supported landing contacts or an inspected editorial time-elision cut, all8stone identities with actual grouped3/3/2pickup/transfer/fall and hand release before basket travel, loaded mechanism rise and actualcart/linepassagepayoff. No new stone geometry or animation exists yet. Finish expressive cameras/acting and courtyard; reserve storage before full native render and inspect the finished audiovisual sequence.",
+  "next_work": "Reuse the completed opening/stair/cart/stone controllers and QA with the exact male take, captions and current v2 audio. Create one consistent final scene with the raised tray and eight stone identities present throughout; do not stitch older five-floor-stone opening/stair pictures into the final film. Build notice/head turn at frames 198..262 and actual cart/line passage at 439..578; inspect elided travel and cuts. Finish expressive acting, cameras and courtyard, reserve native storage using final-scene samples, then review the complete encoded audiovisual film. Preserve the completed development tests and existing audio.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -192,5 +192,20 @@
   "current_audio_preflight_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
   "audio_action_version": 2,
   "prior_action_plan_and_audio_preflight_retained": true,
-  "stone_loading_animation_started": false
+  "stone_loading_animation_started": true,
+  "stone_motion_review": "assets/stories/counterweight-gate/stone-motion-review.json",
+  "stone_motion_source_sha256": "bd25e0ddbcbd3771d8fa6b3dced474626c01fec9020532664c2621bc6c7336d8",
+  "private_stone_development": "work/preproduction/counterweight-gate/stone-motion-v1",
+  "stone_development_video_sha256": "eee1f1ecf53c4f3758fd40592a2d365884a2d59bead2ad7c3e8449c7284bd7f9",
+  "stone_development_seconds": 5.0,
+  "stone_development_story_frames": [
+    319,
+    438
+  ],
+  "stone_actual_encoded_frames_reviewed": 120,
+  "stone_transfer_and_gate_rise_prototype_prepared": true,
+  "do_not_regenerate_existing_stone_test": true,
+  "stone_prepared_at_utc": "2026-11-19T01:47:58.137227+00:00",
+  "shared_final_geometry_integration_complete": false,
+  "stone_source_words_match_including_boundary_and": true
 }

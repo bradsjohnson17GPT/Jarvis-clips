@@ -1,0 +1,199 @@
+{
+  "id": "counterweight-gate",
+  "completed_at_utc": "2026-11-19T01:40:12.200069+00:00",
+  "scope": "stone transfer/gate rise development only, not full story",
+  "source_sha256": "bd25e0ddbcbd3771d8fa6b3dced474626c01fec9020532664c2621bc6c7336d8",
+  "video_sha256": "eee1f1ecf53c4f3758fd40592a2d365884a2d59bead2ad7c3e8449c7284bd7f9",
+  "video_bytes": 267332,
+  "native_dimensions": [
+    360,
+    640
+  ],
+  "fps": 24,
+  "frames": 120,
+  "story_frames": [
+    319,
+    438
+  ],
+  "duration_seconds": 5.0,
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "duration_seconds": 5.0
+  },
+  "source_audio_preflight_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
+  "action_plan_sha256": "e3f7aaffcfffd92bcf1cf9b57d001898b98b5573bc1e45e5abf78e09e49de7ce",
+  "source_audio_excerpt_seconds": [
+    13.25,
+    18.25
+  ],
+  "narration_regenerated": false,
+  "audio_remixed": false,
+  "audio_reencoded_for_crop": true,
+  "caption_sha256": "16e4512a0cb0fc80d8c35626c6c5feea7c7306b5ba99382e50a3db1817779f74",
+  "encoded_asr_complete_crop_match": false,
+  "encoded_asr_transcript": "and filled it with loose stones. The gate rose and stayed open.",
+  "encoded_loudness": {
+    "input_i": "-15.29",
+    "input_tp": "-3.39",
+    "input_lra": "1.00",
+    "input_thresh": "-26.36",
+    "output_i": "-15.30",
+    "output_tp": "-3.00",
+    "output_lra": "1.20",
+    "output_thresh": "-26.19",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.70"
+  },
+  "all120_raw_clean_hash_pairs_verified": true,
+  "strict_full_decode_passed": true,
+  "all120_pts_n_over24_verified": true,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "cut_boundaries_story": [
+    [
+      366,
+      367
+    ]
+  ],
+  "cut_boundaries_encoded": [
+    [
+      48,
+      49
+    ]
+  ],
+  "stone_impact_story_frames": [
+    334,
+    349,
+    364
+  ],
+  "actual_encoded_frames_visually_reviewed": 120,
+  "continuous_motion_watching_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "full_story_animation": false,
+  "publishable": false,
+  "source_words_match_including_boundary_and": true,
+  "encoded_asr_comparator_note": "The saved raw exact-crop comparator omitted the boundary conjunction and, so its false result is retained. The actual transcript matches all 12 expected source words including and; this is an expectation mismatch, not an observed speech omission. No audio audition is claimed.",
+  "reviewed_at_utc": "2026-11-19T01:47:58.137227+00:00",
+  "reviewer": "Project production assistant",
+  "source": "assets/stories/counterweight-gate/stone-loading-study.py",
+  "input_acting_blend_sha256": "7691e1f0daed54ea5addc4eb644cd18fcd8dc1e90fa9b132e646968d84660b0f",
+  "review_method": "All 120 actual decoded frames viewed in four numbered sheets, with 12 listed samples additionally at native 360x640. Current-source native 720x1280 carry samples 325/330/355 were viewed full-size. Nine prior-v3 native context samples were separately reviewed. No continuous playback or audio audition is claimed.",
+  "full_size_encoded_frames_viewed": [
+    7,
+    12,
+    15,
+    16,
+    31,
+    37,
+    46,
+    48,
+    49,
+    68,
+    77,
+    120
+  ],
+  "full_size_encoded_story_frames_viewed": [
+    325,
+    330,
+    333,
+    334,
+    349,
+    355,
+    364,
+    366,
+    367,
+    386,
+    395,
+    438
+  ],
+  "current_source_native_720_story_frames_viewed": [
+    325,
+    330,
+    355
+  ],
+  "current_source_full_size_native_720_story_frames_viewed": [
+    325,
+    330,
+    355
+  ],
+  "prior_v3_native_context_frames_viewed": [
+    319,
+    325,
+    330,
+    349,
+    355,
+    364,
+    367,
+    386,
+    395
+  ],
+  "prior_v3_context_source_sha256": "d4557db7a057ca6e43ce3c128f9bb52d8241be866852ed99ce7207dbcd608bef",
+  "prior_context_limit": "Prior wide samples are not newly rendered v4 pixels. Current post-clearance pose records and wide-camera lens were numerically identical to v3; all current encoded wide frames were actually viewed at native 360x640.",
+  "decoded_frame_hash_record_sha256": "72a367c3ab0e7155237de7037b565d0b29623f7dcfffdbda19b3ee3047d9bb51",
+  "full_size_encoded_png_hashes": {
+    "7": "7efc0be68690b7c6a869af9d8e189084f93b307c609f5640c1c11b748c0e5187",
+    "12": "80a6fda0a2b7db749d9e3c897fe56037378a012ded1dceca986204895fc29e5e",
+    "15": "6ece80b424ac8f77e78d0edcd5293a6652ae4dc3766faa94b99ad7c111da70c9",
+    "16": "e67928f75df09df8f583453bdbb97b14fa677669aec94f1200455c9eb3bfd19b",
+    "31": "44fe58619fb7fecf3df1d836fb52f8b22f8e6170e7b0ae31a2fa48c9dbdd9d59",
+    "37": "8683a2089534e47c62ea68aa558ff1a033b70ccd100ae27bc1a31c0af0ed5134",
+    "46": "39035f16a9d3c8cdc8dca69d9b966ee12d873420346862ab45b1b4f8396bd54f",
+    "48": "3a1b0425d4a24def6d18850b361ad5221decb0e60965ae12023a521e7389ab61",
+    "49": "d80f04a48d41a6ad9591d790a560b140e1249139cf7217f4137dbbb4e779545a",
+    "68": "f4d6ceeaad21afe88130039047e172ea4e50e968e423346a986c7e5f23cb18db",
+    "77": "0858c1625d895d967b94e35a1f6a976dadbb5b782cbaada49f8fd0164e5decc4",
+    "120": "02617770283dc0595370d4477b7189ce0fe88594b6de01a8a12ad2548b40f234"
+  },
+  "render_settings": {
+    "engine": "Cycles CPU",
+    "samples": 8,
+    "threads": 2,
+    "denoiser": "Reviewed OIDN, unchanged native size"
+  },
+  "repository_tests_passed_after_final_renderer_change": 41,
+  "persistent_stone_objects": 8,
+  "groups": [
+    3,
+    3,
+    2
+  ],
+  "numerical_checks": {
+    "all120_poses_checked": true,
+    "max_hand_endpoint_error_scene_units": 5.364418029785156e-07,
+    "max_sole_plane_error_scene_units": 1.4305114737211966e-07,
+    "max_nearest_carried_stone_center_to_mitten": 0.13379122415701025,
+    "rope_length_variation_scene_units": 5.653466432775645e-07,
+    "all8_object_ids_persistent_no_hide_render_toggles": true,
+    "stone_vertices_inside_basket_walls_when_below_rim": true,
+    "hands_outside_expanded_travel_column_after15_25": true,
+    "full_body_swept_collision_finger_grasp_or_rigid_body_validation": false
+  },
+  "actual_visual_findings": [
+    "Three grouped transfers are visible from the raised source tray into the same hanging basket. The remaining source pile diminishes, and the working palm supports the carried cluster in the sampled near views. Some landed stones are hidden below the basket rim; individual stone counts cannot be established from pixels in every frame.",
+    "Release and short inward/downward falls are visible before the hand returns to the tray. After the final deposit the hand withdraws before basket travel. The 48/49 cut changes from a close loading view to a wide gate view while preserving the actor, cart, basket and gate staging.",
+    "The wide sequence shows the gate rising as the basket descends, followed by a stable open-gate hold through frame120. Some rope segments, cast and far-side geometry are occluded; no full-body collision or physics certification follows from these images.",
+    "The phrase captions are readable at native360x640 in the sampled views. Caption fades and clear gaps are visible around the cut and at the end. The original-fiction label remains at the top. This is frame inspection, not subjective audio synchronization or continuous motion playback.",
+    "The gray courtyard, stiff torso/scarf, stylized one-hand grouped carry and limited expression remain development limitations. The static wide hold does not yet provide the courier/cart and waiting-line emotional payoff."
+  ],
+  "held_revisions": [
+    "V1 working hand occluded and stones looked detached; native samples held.",
+    "V2 basket-wall check failed before rendering; scale/containment corrected.",
+    "V3 palm contact/camera improved but near-chest arc brushed scarf; arc revised and current-source 325/330/355 pixels inspected."
+  ],
+  "audio_scope": "Existing v2 audio excerpt from 13.25 to 18.25 seconds, AAC re-encoded for the crop; no new voice generation or remix. Impact clocks 13.875/14.5/15.125 align with authored landing states. No subjective listening or effect-synchronization claim. Actual ASR matches all 12 expected source words including the boundary and; the raw false comparator result is retained with its explanation. Full saved v2 source 55-word ASR remains separate evidence.",
+  "integration_limits": [
+    "Completed five-second development only; no full story or posting candidate.",
+    "New raised tray and eight-stone staging must be present throughout one shared final scene. Earlier opening/stair tests show older five-floor-stone blocking. Reuse their controllers/QA rather than stitching inconsistent cached pictures into the final assembly.",
+    "Notice/head turn at frames 198..262 and cart/line passage at 439..578 remain unbuilt. Inspect cuts and elided travel, and finish expression, cameras and courtyard.",
+    "One-hand clustered carry, static torso, partial face and stone occlusion remain stylized limits. Persistent object tracking does not establish visibility of every stone in every frame.",
+    "Preserve the exact male take, captions, current v2 audio and earlier studies. Create a new audio version only if actual timing or source changes justify it.",
+    "Reserve storage using native samples of the final shared geometry. Preserve masters, source assets, models, QA and draft records."
+  ],
+  "status": "reviewed_stone_transfer_gate_rise_development_not_full_story",
+  "full_story_editorial_pass": false,
+  "ready_candidate": false,
+  "new_service_drafts": 0,
+  "posting_queue_changed": false
+}

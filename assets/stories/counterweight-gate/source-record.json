@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T01:13:31.192223+00:00",
+  "reviewed_at_utc": "2026-11-19T01:47:58.137227+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -107,5 +107,14 @@
     "commercial_project_use": true,
     "full_story_exists": false,
     "actual_animation_sync_verified": false
+  },
+  "stone_transfer_and_gate_rise_prototype": {
+    "source": "assets/stories/counterweight-gate/stone-loading-study.py",
+    "sha256": "bd25e0ddbcbd3771d8fa6b3dced474626c01fec9020532664c2621bc6c7336d8",
+    "review": "assets/stories/counterweight-gate/stone-motion-review.json",
+    "rights_basis": "Original raised tray/plinth, palm/stone trajectories, persistent eight-object state controller, revised cameras and complementary gate/rope control over the reviewed original mechanism and project-owned courier. No external models, textures, footage or voices added.",
+    "commercial_project_use": true,
+    "audio": "Existing reviewed v2 male voice, licensed music and original effects excerpt only; no new synthesis or remix.",
+    "full_story_exists": false
   }
 }
