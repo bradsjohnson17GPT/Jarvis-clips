@@ -1,8 +1,8 @@
 {
   "id": "last-charge",
-  "reviewed_at_utc": "2026-11-19T10:21:44.548319+00:00",
+  "reviewed_at_utc": "2026-11-19T10:58:35.723428+00:00",
   "reviewer": "Project production assistant",
-  "status": "original_writing_and_generic_male_source_reviewed_picture_music_effects_not_produced",
+  "status": "original_native_staging_and_generic_male_source_reviewed_full_film_not_built",
   "original_writing": {
     "idea_origin": "Existing quality_last_charge record in state/trend-brief.json; developed here into a new six-shot scene/action plan.",
     "authored_here": true,
@@ -10,11 +10,17 @@
     "fictional_not_creator_experience": true
   },
   "planned_visuals": {
-    "status": "not_built",
+    "status": "four_current_native_static_poses_authored_and_reviewed",
     "plan": "New original shopkeeper/traveler/neighbors, three lamp/cell pairs, shop/footbridge/courtyard, cameras and lighting.",
     "external_models_or_footage_selected": [],
-    "rights_review_after_assets_exist": true,
-    "actual_frames_inspected": 0
+    "rights_review_after_assets_exist": false,
+    "actual_frames_inspected": 4,
+    "source": "assets/stories/last-charge/staging-study.py",
+    "source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+    "review": "assets/stories/last-charge/staging-review-v2.json",
+    "rights_basis": "Original procedural Blender primitives authored by this project; no imported model, texture, movie, game branding or real-person performance.",
+    "commercial_project_use": true,
+    "full_motion_and_film_review_pending": true
   },
   "future_voice": {
     "config": "config/motivational-voice.json",
@@ -40,9 +46,10 @@
   "reference_rights": "The completed reference analyses support structural learning only. No source video/audio, game art, trademark, plot, character, script or music is imported or licensed by public viewing.",
   "factual_scope": "Fictional portable light technology and invented adults. No real wiring details, energy claim, personal anecdote or promise of results.",
   "actual_outputs": [
-    "Original script and complete six-shot storyboard.",
-    "One coherent three-paragraph generic male source take with saved cleanup/levels/sample duration and documented ASR segmentation correction.",
-    "No scene images, animation, music/effects mix, finished encoded video, upload draft or schedule."
+    "Original spoken script and complete six-shot plan.",
+    "One retained first generic male narration source with measured timing/levels and documented ASR segmentation correction.",
+    "One original scene with four current native720x1280static poses actually viewed; earlier defective study held.",
+    "No actual story motion, music/effects mix, final encoded video, new upload draft or schedule."
   ],
   "full_movie_rights_review_complete": false,
   "full_movie_editorial_pass": false,

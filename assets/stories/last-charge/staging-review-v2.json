@@ -1,0 +1,182 @@
+{
+  "id": "last-charge",
+  "reviewed_at_utc": "2026-11-19T10:58:35.723428+00:00",
+  "reviewer": "Project production assistant",
+  "status": "four_current_native_static_poses_reviewed_more_opening_and_motion_work_required",
+  "source": "assets/stories/last-charge/staging-study.py",
+  "source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "cycles_samples": 12,
+  "denoiser": "Reviewed OIDN 2.5.1 CPU RT LDR/sRGB high, same 720\u00d71280 dimensions; raw sources preserved.",
+  "current_native_pose_images_actually_viewed": 4,
+  "images": [
+    {
+      "pose": 1,
+      "name": "shopkeeper_one_personal_charge_and_waiting_traveler",
+      "raw_sha256": "4aee5f3b24f01fe3df5a6176ecadf63db68b0a33551c63df3a79432e73dab34a",
+      "denoised_sha256": "39c5e3b8fd0bdf71b8581842aaab51c9aaa90f5c656431cc2afd81a93fe7588f",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "actually_viewed_native_source_image": true
+    },
+    {
+      "pose": 2,
+      "name": "same_lamp_carried_to_crossing",
+      "raw_sha256": "b4897fdf734859bfc442b5dd3cc0eb0b0f28e56781ee78b888c19f5521196924",
+      "denoised_sha256": "c03cf23370a71a5d7e0ff41eead429a4e67081ce9f6e105a687eeb0a333059b2",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "actually_viewed_native_source_image": true
+    },
+    {
+      "pose": 3,
+      "name": "first_lamp_supported_on_rail_hand_still_at_handle",
+      "raw_sha256": "d66d254c17d6aee3fedd06297bbcc6008ea5704113c21df153cfe787a1f7486f",
+      "denoised_sha256": "f282066464e9e73bf6a56e3ee8f9fe79fd02d4b906fae797996d75c66eda2a09",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "actually_viewed_native_source_image": true
+    },
+    {
+      "pose": 4,
+      "name": "three_independent_lamps_and_path_home",
+      "raw_sha256": "4d5ca5214650bfb7398cec411b2dd19542493cf606a001b0a921b2ddfb988d14",
+      "denoised_sha256": "71d6c9542c3c523961947843c15782ed28a02b88d31f44f6352fe1cf8e387cc3",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "actually_viewed_native_source_image": true
+    }
+  ],
+  "numeric_static_checks": [
+    {
+      "rose_numeric_sole_plane_error": 3.725290298461914e-09,
+      "traveler_numeric_sole_plane_error": 3.725290298461914e-09,
+      "far_numeric_sole_plane_error": 7.450580596923828e-09,
+      "near_numeric_sole_plane_error": 3.725290298461914e-09,
+      "rose_hand_to_first_handle_center": 0.0,
+      "first_cell_mark_count": 1,
+      "independent_lamp_mark_counts": [
+        1,
+        2,
+        3
+      ],
+      "lamp_pool_powers": [
+        110.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rose_numeric_sole_plane_error": 7.450580596923828e-09,
+      "traveler_numeric_sole_plane_error": 3.725290298461914e-09,
+      "far_numeric_sole_plane_error": 7.450580596923828e-09,
+      "near_numeric_sole_plane_error": 3.725290298461914e-09,
+      "rose_hand_to_first_handle_center": 1.1920928955078125e-07,
+      "first_cell_mark_count": 1,
+      "independent_lamp_mark_counts": [
+        1,
+        2,
+        3
+      ],
+      "lamp_pool_powers": [
+        110.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rose_numeric_sole_plane_error": 7.450580596923828e-09,
+      "traveler_numeric_sole_plane_error": 3.725290298461914e-09,
+      "far_numeric_sole_plane_error": 7.450580596923828e-09,
+      "near_numeric_sole_plane_error": 3.725290298461914e-09,
+      "rose_hand_to_first_handle_center": 5.960464477539063e-08,
+      "first_cell_mark_count": 1,
+      "independent_lamp_mark_counts": [
+        1,
+        2,
+        3
+      ],
+      "lamp_pool_powers": [
+        110.0,
+        0.0,
+        0.0
+      ],
+      "first_lamp_base_to_rest_error": 2.38418573772492e-09
+    },
+    {
+      "rose_numeric_sole_plane_error": 7.450580596923828e-09,
+      "traveler_numeric_sole_plane_error": 3.725290298461914e-09,
+      "far_numeric_sole_plane_error": 7.450580596923828e-09,
+      "near_numeric_sole_plane_error": 3.725290298461914e-09,
+      "first_cell_mark_count": 1,
+      "independent_lamp_mark_counts": [
+        1,
+        2,
+        3
+      ],
+      "lamp_pool_powers": [
+        110.0,
+        110.0,
+        110.0
+      ],
+      "first_lamp_base_to_rest_error": 2.38418573772492e-09
+    }
+  ],
+  "numeric_scope": "Shoe sole planes relative to posed roots, main mitten center/handle center coincidence and lamp-base/rest plane at these sampled poses only. No swept collision, finger-wrap or dynamic support certification.",
+  "new_original_assets": [
+    "Four original stylized adult cast rigs, including older fictional Rose with silver bun, round spectacles and an indigo coat.",
+    "Three persistent independent lamp/cell pairs with one amber, two green and three blue charge marks.",
+    "Original shop/neighbor facades, empty bracket, supported exterior step, paved banks, short wooden footbridge, rails/rests, canal water, planters, lighting and portrait cameras."
+  ],
+  "third_party_models_textures_footage_or_performance_imported": [],
+  "changes_after_actual_v1_review": [
+    "Reframed the first view to include Rose and the carried lamp.",
+    "Moved far neighbor from an opaque wall to an exterior supported step; moved near neighbor outside shop geometry.",
+    "Added rounded sleeve-elbow joints.",
+    "Moved/aimed each lamp lighting proxy outside the opaque diffuser toward the walking surface. Each power source still belongs only to its own lamp."
+  ],
+  "visual_findings": [
+    "Pose 1 shows the complete shopkeeper/lamp, waiting traveler and the cool unlit crossing together. The empty doorway/bracket remains partly at the left edge and needs a closer or different opening insert before story use.",
+    "Pose 2 shows the one-bar main cell, mitten/handle diagnostic contact and planted shoe surfaces. The carried-light pool is visible on the boards. This frontal diagnostic pose does not yet establish correct travel orientation or walking.",
+    "Pose 3 shows the first lamp resting on its original rail support while Rose still touches the handle. The neighbor is visibly outside the wall. No hand release, travel or live reaction is shown by a still.",
+    "Pose 4 shows all three independently powered lamps and a warmer bridge path, with the same cast. The near secondary actor is partly occluded/cropped by shop/rail framing.",
+    "Some lamp spill is bright on Rose\u2019s coat and cell housing; refine the exposure/cell-marker contrast and opening clue readability before full film. Faces/mitten grips are stylized and no lip/eye/gaze performance is implemented."
+  ],
+  "prior_study": {
+    "source_sha256": "01019150e8d4e322c720003efcbbce61c4e3a892370c25c84e6f11f63bb92b26",
+    "actual_native_pose_images_viewed": 4,
+    "disposition": "held_for_crop_wall_intersection_and_weak_surface_light",
+    "original_private_frozen_source_and_images_preserved": true
+  },
+  "repository_tests_passed": 41,
+  "actual_story_motion_frames_rendered": 0,
+  "actual_encoded_frames_reviewed": 0,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "existing_clean_narration_sha256": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a",
+  "narration_regenerated": false,
+  "new_audio_or_music_created": false,
+  "full_native_animation_started": false,
+  "finished_movie_exists": false,
+  "publisher_draft_created": false,
+  "scheduled": false,
+  "publishable": false,
+  "next_work": "Reuse exact male take and current original scene. First refine opening/cell/empty-doorway framing and body/head orientation toward the route. Then make a bounded native carry/set-down/release/foot-contact motion study before any 602-frame full story job. Balance lamp spill against cell/readable-face contrast. Review actual motion rather than infer it from these poses.",
+  "limits": [
+    "These are four static camera/pose samples, numbered 1\u20134 as study items rather than story-frame numbers.",
+    "Artist-authored local lighting proxies illustrate fictional lamps; no physical optics/electrical simulation or real construction instructions.",
+    "Same-size denoising, numerical contacts and 41 regression tests do not establish editorial quality, animated continuity, source-take naturalness or a finished audiovisual pass.",
+    "No subjective soundtrack listening or continuous video playback claimed."
+  ]
+}

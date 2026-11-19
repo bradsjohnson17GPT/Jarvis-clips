@@ -178,7 +178,7 @@
   "timing_status": "Six planned ranges now follow the retained measured25.062-second male source and actual aligned word timestamps. Picture target602frames at24fps,25.083333seconds; no picture frames are produced. Timings remain a staging plan until actual motion/encoded inspection.",
   "caption_plan": "After a real take, place phrase captions in shot-specific negative space and inspect actual faces/grips/foot contacts; no reusable caption position is approved by this outline.",
   "sound_plan": {
-    "voice": "One source-only generic adult male am_michael take now exists, with saved EQ/compression and unchanged pitch/tempo. Reuse exact clean33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a bytes and word timing; no subjective audition or finished-film verdict.",
+    "voice": "Reuse the exact retained25.062-second male source and documented word timing. No take regeneration, finished-film sound synchronization or subjective audition occurred in the static scene study.",
     "effects": "Future original lamp latch, footsteps, lamp-rest contacts and shop lock cues tied to actual motion. No inherited gate, lighthouse or bell cue map.",
     "music": "Select only a reviewed licensed source suited to this quieter story, with required artist/source/license/changes in the final description. No track selected or mixed here.",
     "stock_source_audio": "None planned; no outside sample is cleared by this outline."
@@ -197,11 +197,13 @@
   "paid_research_used": 0,
   "free_before_outline_guidance_called": true,
   "new_trend_or_audience_velocity_claim": false,
-  "production_assets_created": false,
+  "production_assets_created": true,
   "narration_created": true,
   "finished_movie_exists": false,
   "publisher_draft_created": false,
   "scheduled": false,
   "publishable": false,
-  "narration_preflight": "assets/stories/last-charge/narration-preflight.json"
+  "narration_preflight": "assets/stories/last-charge/narration-preflight.json",
+  "native_staging_review": "assets/stories/last-charge/staging-review-v2.json",
+  "actual_static_pose_images_reviewed": 4
 }

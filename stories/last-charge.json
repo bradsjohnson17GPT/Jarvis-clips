@@ -1,7 +1,7 @@
 {
   "id": "last-charge",
   "origin_idea_id": "quality_last_charge",
-  "status": "original_storyboard_and_male_narration_prepared_no_picture",
+  "status": "native_static_staging_reviewed_opening_and_motion_refinement_pending",
   "working_title": "The Lamp She Left Outside",
   "content_type": "fictional_micro_stories",
   "theme": "One visible act makes a shared route possible; others choose to contribute.",
@@ -23,7 +23,7 @@
   "scheduled": false,
   "publishable": false,
   "publication_evidence": null,
-  "next_work": "Reuse the exact first male take and documented word alignment; do not regenerate it. Build a bounded original native scene/pose and carry/set-down/step prototype for Rose, the lamp and short footbridge, then inspect actual framing/contacts/lighting. Preserve the six planned ranges and three independent cell/light identities, revising staging only with actual evidence. Media rights, phrase captions, relevant original effects, licensed music and full actual audiovisual QA remain pending; no final film/draft/queue slot exists.",
+  "next_work": "Reuse exact male take and current original scene. First refine opening/cell/empty-doorway framing and body/head orientation toward the route. Then make a bounded native carry/set-down/release/foot-contact motion study before any602-frame full story job. Balance lamp spill against cell/readable-face contrast. Review actual motion rather than infer it from these poses.",
   "prepared_at_utc": "2026-11-19T10:21:44.548319+00:00",
   "narration": "Rose's lamp had one charge left. A traveler was waiting at the dark bridge. She carried the light past her own doorway and set it on the bridge rail. The traveler started across. A neighbor brought a second lamp. Another placed a third beside the shop. Rose locked her door and turned toward home. All three lamps lit the path.",
   "narration_paragraphs": [
@@ -41,5 +41,13 @@
   "do_not_regenerate_existing_take": true,
   "planned_picture_frames": 602,
   "planned_picture_fps": 24,
-  "planned_picture_seconds": 25.083333333333332
+  "planned_picture_seconds": 25.083333333333332,
+  "staging_source": "assets/stories/last-charge/staging-study.py",
+  "staging_source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+  "staging_review": "assets/stories/last-charge/staging-review-v2.json",
+  "private_current_staging": "work/preproduction/last-charge/staging-study-v2",
+  "actual_current_native_staging_images_reviewed": 4,
+  "actual_story_motion_frames_rendered": 0,
+  "full_native_animation_started": false,
+  "staging_prepared_at_utc": "2026-11-19T10:58:35.723428+00:00"
 }

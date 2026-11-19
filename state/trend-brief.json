@@ -324,7 +324,7 @@
     },
     {
       "id": "quality_last_charge",
-      "status": "original_storyboard_and_male_narration_prepared_no_picture",
+      "status": "native_static_staging_reviewed_opening_and_motion_refinement_pending",
       "topic": "A hopeful science-fiction choice",
       "content_type": "fictional_micro_stories",
       "hook": "A closing shopkeeper has one personal lamp cell left; her own lamp bracket and a waiting traveler at a dark crossing are visible together.",
@@ -358,7 +358,12 @@
       "planned_native_fps": 24,
       "actual_picture_frames": 0,
       "actual_encoded_frames_reviewed": 0,
-      "full_native_animation_started": false
+      "full_native_animation_started": false,
+      "staging_source": "assets/stories/last-charge/staging-study.py",
+      "staging_source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+      "staging_review": "assets/stories/last-charge/staging-review-v2.json",
+      "actual_current_staging_pose_images_reviewed": 4,
+      "actual_story_motion_frames_rendered": 0
     },
     {
       "id": "quality_midnight_bell",
@@ -582,9 +587,9 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-19T10:27:51.654353+00:00",
+    "prepared_at_utc": "2026-11-19T10:58:35.723428+00:00",
     "id": "last-charge",
-    "status": "original_storyboard_and_male_narration_prepared_no_picture",
+    "status": "native_static_staging_reviewed_opening_and_motion_refinement_pending",
     "manifest": "stories/last-charge.json",
     "storyboard": "assets/stories/last-charge/storyboard-v1.json",
     "narration_preflight": "assets/stories/last-charge/narration-preflight.json",
@@ -592,7 +597,11 @@
     "new_drafts": 0,
     "posting_queue_changed": false,
     "new_trend_claim": false,
-    "paid_research": 0
+    "paid_research": 0,
+    "staging_review": "assets/stories/last-charge/staging-review-v2.json",
+    "native_static_poses_reviewed": 4,
+    "actual_motion_frames": 0,
+    "narration_regenerated": false
   },
   "production_sync_at_utc": "2026-11-19T10:02:56.777237+00:00",
   "production_sync_basis": "Current committed story/QA/queue and read-only exact-account/service/draft readbacks; no new scout research, audience count, trend ranking, velocity or publication claim."
