@@ -1,0 +1,227 @@
+{
+  "id": "counterweight-gate",
+  "reviewed_at_utc": "2026-11-19T09:47:55.536652+00:00",
+  "status": "finished_original_preview_qualified_with_documented_inspection_limits",
+  "video_sha256": "697dc014581c5f1d0a254e62cbe7ed2817496b2121d17fa3be0951f5097874f2",
+  "video_bytes": 5755109,
+  "source": "assets/stories/counterweight-gate/integrated-scene.py",
+  "source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
+  "motion_cache_sha256": "997f85f1227c6b1178f39b30b3e8d420ac0f14214f15a7a1670fccbf7d19e232",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 578,
+  "duration_seconds": 24.083333333333332,
+  "cycles_samples": 16,
+  "denoiser": "Reviewed Open Image Denoise, same native dimensions",
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "original_native_baseline_video_sha256": "fe182a5587a5f3da16211833137c46511e0732ea4f2ddb66792a3beffe2828fa",
+  "baseline_held": true,
+  "baseline_hold_reason": "Lower stair caption covers a boot/sole at frame292. Never use the baseline for upload.",
+  "caption_correction": {
+    "ass_file": "assets/stories/counterweight-gate/captions-v2.ass",
+    "ass_sha256": "3fe34385fe189aa700ec3182c046e2f4d631371490fe5e69dc46c89cf2765472",
+    "only_change": "I took the side steps moved from position360,1040 to360,100; original words and11.75-13.03s interval unchanged.",
+    "changed_caption_frame_range": [
+      283,
+      313
+    ],
+    "replacement_native_frame_range": [
+      277,
+      324
+    ],
+    "native_clean_png_bytes_identical_to_baseline": true,
+    "raw_png_metadata_timestamp_changes_recorded": true,
+    "replacement_chunks": 4,
+    "native_frames_reencoded": 48,
+    "unaffected_encoded_frames_reused": 530,
+    "actual_all48_corrected_frames_viewed": true,
+    "full_size_encoded_frames_viewed": [
+      282,
+      283,
+      292,
+      300,
+      301,
+      310,
+      313,
+      314,
+      318,
+      319,
+      324
+    ]
+  },
+  "actual_frame_review": {
+    "baseline_contact_sheet_ranges": [
+      [
+        1,
+        578
+      ]
+    ],
+    "baseline_full_size_encoded_frames_viewed": [
+      1,
+      12,
+      24,
+      36,
+      48,
+      76,
+      91,
+      92,
+      110,
+      134,
+      139,
+      140,
+      165,
+      197,
+      198,
+      204,
+      210,
+      225,
+      226,
+      244,
+      262,
+      263,
+      279,
+      280,
+      292,
+      304,
+      310,
+      312,
+      318,
+      319,
+      324,
+      330,
+      355,
+      366,
+      367,
+      395,
+      438,
+      439,
+      451,
+      478,
+      498,
+      499,
+      526,
+      550,
+      564,
+      577,
+      578
+    ],
+    "current_native_source_frames_viewed": [
+      1,
+      6,
+      12,
+      48,
+      76,
+      110,
+      135,
+      165,
+      198,
+      210,
+      244,
+      292
+    ],
+    "camera_cut_pairs_viewed_full_size": [
+      [
+        91,
+        92
+      ],
+      [
+        139,
+        140
+      ],
+      [
+        197,
+        198
+      ],
+      [
+        225,
+        226
+      ],
+      [
+        262,
+        263
+      ],
+      [
+        318,
+        319
+      ],
+      [
+        366,
+        367
+      ],
+      [
+        438,
+        439
+      ],
+      [
+        498,
+        499
+      ]
+    ],
+    "final_mux_all578_decoded_frames_match_selected_reviewed_segments": true,
+    "every_final_frame_covered_by_identical_reviewed_baseline_or_corrected_chunk": true
+  },
+  "visual_editorial_findings": [
+    "Two gate lift/release attempts establish an immediate physical obstruction and the waiting line. The empty basket provides a visible clue.",
+    "The same raised tray/eight stone identities continue through one shared scene. Three visible hand-to-basket transfers reduce the supply pile; hands clear before the loaded basket descends and gate rises.",
+    "Courier/cart pass through the held gate, followed by the same waiting cast. The final moving line answers the opening obstruction.",
+    "The corrected upper stair caption leaves the boot/tread action clear. Phrase captions follow the unchanged recorded take; partial fade-on frames remain intentional."
+  ],
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "duration_seconds": 24.083,
+    "identical_aac_essence_to_reviewed_preflight": true,
+    "adts_sha256": "e103620d719ea7086c3af36b0f415beee7217c2fea06367f6eb34a17f56ddbc9"
+  },
+  "encoded_levels": {
+    "integrated_lufs": -16.03,
+    "true_peak_dbtp": -3.31,
+    "loudness_range_lu": 2.4,
+    "measurement_basis": "Input fields from ffmpeg loudnorm measurement of the actual encoded MP4; hypothetical filter output fields excluded."
+  },
+  "asr_exact_normalized_match": true,
+  "spoken_words": 55,
+  "narrator": "Generic adult male Kokoro am_michael",
+  "clean_narration_sha256": "e15f3a42c2fe094850c695126defb860e4814fd5eb293cd7eb23d793ad0199b3",
+  "narration_regenerated": false,
+  "audio_remixed": false,
+  "full_v2_soundtrack_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
+  "sound_sync_review": "Actual encoded event positions/caption intervals reviewed against the retained action plan and recorded speech timing. Soundtrack essence is unchanged from the exact55-word stereo preflight. Subjective listening is not claimed.",
+  "source_audio_retained": false,
+  "external_effect_samples": [],
+  "full_decode_passed": true,
+  "all_pts_n_over24": true,
+  "music_credit_in_description": true,
+  "rights_source": "assets/stories/counterweight-gate/source-record.json",
+  "qualified_for_owner_preview": true,
+  "continuous_playback_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "publishable": false,
+  "scheduled": false,
+  "publication_confirmed": false,
+  "limits": [
+    "Actual inspection used every encoded frame in contact sheets plus selected native-size decoded frames and both sides of every camera cut. No continuous real-time playback or subjective soundtrack listening is claimed.",
+    "Some hand/cart contacts and body surfaces are occluded; stair entry is partly cropped behind a planter, the mechanism wide shot makes the courier small, and the front payoff crops the cart edge. Torso/scarf and walking remain deliberately stylized.",
+    "Cuts elide travel to the steps, onto the landing and back to the cart. Numerical checks cover endpoint/sole/rope targets, not swept collision or a physical engineering simulation.",
+    "ASR, loudness, AAC identity and speech/music stem measurements establish technical content and headroom, not subjective naturalness, musical quality, audience demand or predicted performance."
+  ],
+  "frame_rate_metadata": {
+    "nominal_frame_rate": "24/1",
+    "container_average_frame_rate_metadata": "3468/145",
+    "every_video_packet_presentation_duration_is_one_over24": true,
+    "frame_rate_metadata_note": "Container avg_frame_rate reports3468/145, as in preserved baseline. All578presentation timestamps and every packet display duration are exactly n/24 and1/24 within microsecond probe precision; nominal r_frame_rate24/1. No pixel, presentation timing or audio change was made to normalize an aggregate field."
+  },
+  "preview_url": "https://share.descript.com/view/1IEayU0wi7y",
+  "descript_preview_watermark_actually_inspected": true,
+  "descript_import_and_export_complete": true,
+  "descript_did_not_clean_or_remix_audio": true,
+  "clean_master_imported_exact_byte_match": true,
+  "saved_manual_draft_ready": true,
+  "publishing_credits": 0,
+  "required_after_saved_draft_reply_received": false
+}

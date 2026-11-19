@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "shared_scene_reviewed_native_full_render_in_progress",
+  "status": "ready_direct_draft_awaiting_required_after_draft_approval",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -80,14 +80,14 @@
     "reviewed_by": "Project production assistant",
     "rights_note": "Composer track page, FAQ and CC-BY 4.0 reviewed. Commercial audiovisual use allowed with attribution. Not a remix, no voice cloning or endorsement. Required credit, license and changes included in description.",
     "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
-    "changes": "An excerpt starting144seconds into the track covers the planned24.083333seconds. It was trimmed/faded and strongly ducked beneath the unchanged cleaned male take and new original story effects in an audio-only preflight; final animated synchronization and subjective audition pending.",
+    "changes": "Excerpt beginning144seconds, trimmed/faded to24.083333seconds and strongly ducked beneath unchanged cleaned male narration and original story effects. Actual animation event timing reviewed; subjective audition not claimed.",
     "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
     "start": 144
   },
   "source_plan": {
-    "visuals": "One shared full-timeline original scene now exists with consistent tray/eight stones, supported waiting-foot preparation, procedural courtyard, revised front camera and restrained facial/blink changes. Native source samples and the first12frame batch are reviewed; full native movie and final editorial review remain pending.",
+    "visuals": "Complete578-frame original shared scene with consistent tray/eight stones, original cast/courtyard and purposeful cuts. All final frames covered by reviewed identical baseline/repaired encoded segments.",
     "voice": "One reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
-    "effects": "Original gate-stop, pulley, stone-deposit, boot-tread and cart-wheel cues now synthesized/mixed from the planned action times; actual animated sync remains pending.",
+    "effects": "Original gate/pulley/stone/tread/cart effects at reviewed action times in unchanged v2 soundtrack. No external sampled effects; subjective listening not claimed.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
     "rights_record_pending": false,
     "current_geometry_and_voice_sources_reviewed": true,
@@ -96,10 +96,10 @@
   },
   "description": "An original fictional story about a blocked gate and a change that helps the people waiting. Original character animation, script, generic stock narration and effects.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and ducked beneath original narration and story-specific effects.",
   "prepared_at_utc": "2026-11-18T19:41:58.204041+00:00",
-  "finished_video_exists": false,
+  "finished_video_exists": true,
   "publishable": false,
-  "ready_candidate": false,
-  "service_draft_created": false,
+  "ready_candidate": true,
+  "service_draft_created": true,
   "scheduled": false,
   "publication_evidence": null,
   "current_trend_claim": false,
@@ -118,9 +118,9 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": true,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Inspect actual current native worker/status/chunk receipts first. Continue the same frozen shared scene and batch-size12 job; reuse completed matching encoded chunks and never duplicate a live worker. Preserve protected native samples/source/QA/masters and exact male narration/captions/v2 soundtrack. After all578native frames are encoded, inspect the complete film and every cut, full decode/PTS/stereoAAC/actual transcript/levels before preparing any final preview/draft. All older development studies stay completed and unchanged.",
+  "next_work": "Preserve the same ready0credit direct draft/revision and corrected media697dc014...; await the actual connector-required after-saved-draft reply once. No scheduling or publishing before that reply. Refresh repo, exact account and actual queues under production lock immediately before publication; check clip/hash/destination duplicates and actual20minute spacing/cap. Never resume completed studies/renders, use held baseline, or repeat approval requests in recurring runs.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
-  "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
+  "caption_plan": "assets/stories/counterweight-gate/caption-plan-v2.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
   "private_current_acting_study": "work/preproduction/counterweight-gate/acting-study-v3",
   "waiting_adults_blocked": 2,
@@ -131,7 +131,7 @@
   "audio_preflight": "assets/stories/counterweight-gate/audio-preflight-v2.json",
   "private_audio_preflight": "work/preproduction/counterweight-gate/audio-preflight-v2",
   "audio_preflight_ready": true,
-  "audio_final_animation_sync_verified": false,
+  "audio_final_animation_sync_verified": true,
   "soundtrack_regenerate_only_if_action_plan_or_source_changes": true,
   "cart_motion_review": "assets/stories/counterweight-gate/cart-motion-review.json",
   "cart_motion_source_sha256": "1a0bc385bb787a7ce92342b679474d2f6c3e832b26f2a68e8992c511e934fd92",
@@ -206,7 +206,7 @@
   "stone_transfer_and_gate_rise_prototype_prepared": true,
   "do_not_regenerate_existing_stone_test": true,
   "stone_prepared_at_utc": "2026-11-19T01:47:58.137227+00:00",
-  "shared_final_geometry_integration_complete": false,
+  "shared_final_geometry_integration_complete": true,
   "stone_source_words_match_including_boundary_and": true,
   "notice_motion_review": "assets/stories/counterweight-gate/notice-review.json",
   "notice_motion_source_sha256": "2ed2f9b3029d4f3049c8b426eb5d5c43e618600e64c9afe902640e863b84b318",
@@ -240,12 +240,12 @@
   "integrated_motion_cache": "assets/stories/counterweight-gate/integrated/motion-cache.json",
   "integrated_source_review": "assets/stories/counterweight-gate/integrated-source-review.json",
   "shared_scene_source_authored": true,
-  "verified_full_native_encoded_frames": 276,
+  "verified_full_native_encoded_frames": 578,
   "native_full_target_frames": 578,
-  "full_native_movie_exists": false,
+  "full_native_movie_exists": true,
   "private_native_render_pointer": "work/preproduction/counterweight-gate/integrated-current.json",
-  "actual_native_encoded_frames_reviewed": 264,
-  "native_render_progress_observed_at_utc": "2026-11-19T07:22:49.509671+00:00",
+  "actual_native_encoded_frames_reviewed": 578,
+  "native_render_progress_observed_at_utc": "2026-11-19T09:47:55.536652+00:00",
   "native_cut_pairs_reviewed": [
     [
       91,
@@ -266,8 +266,51 @@
     [
       262,
       263
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      366,
+      367
+    ],
+    [
+      438,
+      439
+    ],
+    [
+      498,
+      499
     ]
   ],
   "native_opening_review_complete": true,
-  "native_notice_review_complete": true
+  "native_notice_review_complete": true,
+  "full_movie_review": "assets/stories/counterweight-gate/full-movie-review-v2.json",
+  "video_sha256": "697dc014581c5f1d0a254e62cbe7ed2817496b2121d17fa3be0951f5097874f2",
+  "video_bytes": 5755109,
+  "duration_seconds": 24.083333333333332,
+  "dimensions": [
+    720,
+    1280
+  ],
+  "frame_rate": 24,
+  "private_finished_media": "work/preproduction/counterweight-gate/full-native-v2/counterweight-gate-full-native-v2.mp4",
+  "subjective_audio_listening_claimed": false,
+  "draft_ready": true,
+  "preview_url": "https://share.descript.com/view/1IEayU0wi7y",
+  "preview_is_watermarked_review_export": true,
+  "clean_original_master_is_upload_media": true,
+  "vidiq_import_bytes_match": true,
+  "private_draft_record": "work/quality/counterweight-gate-direct-draft.json",
+  "required_after_saved_draft_approval_received": false,
+  "upload_review_document": "docs/production/counterweight-gate-upload-review.md",
+  "tags": [
+    "original story",
+    "animation",
+    "problem solving",
+    "Shorts"
+  ],
+  "privacy": "public",
+  "category_id": 24
 }

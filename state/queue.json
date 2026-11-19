@@ -2564,6 +2564,52 @@
       "vidiq_import_bytes_match": true,
       "draft_review_document": "docs/production/midnight-bell-upload-review.md",
       "duplicate_preparation_forbidden": true
+    },
+    {
+      "id": "counterweight-gate",
+      "clip_id": "counterweight-gate",
+      "story_path": "stories/counterweight-gate.json",
+      "title": "The Gate That Held Everyone Back",
+      "content_type": "fictional_micro_stories",
+      "status": "ready_direct_draft_awaiting_required_after_draft_approval",
+      "video_sha256": "697dc014581c5f1d0a254e62cbe7ed2817496b2121d17fa3be0951f5097874f2",
+      "bytes": 5755109,
+      "duration_seconds": 24.083333333333332,
+      "dimensions": [
+        720,
+        1280
+      ],
+      "frame_rate": 24,
+      "preview_url": "https://share.descript.com/view/1IEayU0wi7y",
+      "preview_is_watermarked_review_export": true,
+      "clean_original_master_is_upload_media": true,
+      "description": "An original fictional story about a blocked gate and a change that helps the people waiting. Original character animation, script, generic stock narration and effects.\n\nMusic: 'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au\nSource: https://www.scottbuckley.com.au/library/ascension/\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: Excerpt trimmed, faded and ducked beneath original narration and story-specific effects.",
+      "tags": [
+        "original story",
+        "animation",
+        "problem solving",
+        "Shorts"
+      ],
+      "privacy": "public",
+      "category_id": 24,
+      "qa_path": "assets/stories/counterweight-gate/full-movie-review-v2.json",
+      "source_path": "assets/stories/counterweight-gate/source-record.json",
+      "scheduler": "vidIQ direct YouTube",
+      "provider_status": "draft",
+      "draft": true,
+      "draft_ready": true,
+      "auto_publish": false,
+      "scheduled": false,
+      "publishable": false,
+      "publication_evidence": null,
+      "private_draft_record": "work/quality/counterweight-gate-direct-draft.json",
+      "required_after_saved_draft_approval_received": false,
+      "publication_confirmed": false,
+      "vidiq_import_bytes_match": true,
+      "draft_review_document": "docs/production/counterweight-gate-upload-review.md",
+      "duplicate_preparation_forbidden": true,
+      "idea_identity": "quality_counterweight_gate",
+      "held_superseded_video_sha256": "fe182a5587a5f3da16211833137c46511e0732ea4f2ddb66792a3beffe2828fa"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T05:47:09.514233+00:00",
+  "reviewed_at_utc": "2026-11-19T09:47:55.536652+00:00",
   "reviewer": "Project production assistant",
-  "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
+  "status": "complete_original_native_film_reviewed_for_preview_with_documented_limits",
   "original_geometry": {
     "source": "assets/stories/counterweight-gate/mechanism-study.py",
     "sha256": "de85d9ba9cb68ee02c2077f87432fbfc5eb43125a88305931452a2f14c441b6c",
@@ -144,6 +144,10 @@
     "review": "assets/stories/counterweight-gate/integrated-source-review.json",
     "rights_basis": "Original motion targets compiled from the five reviewed project-owned controller records; same original cast/cart/mechanism. New procedural paving/walls/plants/trees/lighting and supported foot preparation/expression/catchlight changes are original. No external media/models/textures/voices added.",
     "commercial_project_use": true,
-    "full_native_movie_exists": false
-  }
+    "full_native_movie_exists": true,
+    "final_video_sha256": "697dc014581c5f1d0a254e62cbe7ed2817496b2121d17fa3be0951f5097874f2",
+    "full_movie_review": "assets/stories/counterweight-gate/full-movie-review-v2.json"
+  },
+  "full_movie_rights_review_complete": true,
+  "full_movie_review": "assets/stories/counterweight-gate/full-movie-review-v2.json"
 }

@@ -37,3 +37,8 @@ Updated 2026-11-19T07:22:49.509671+00:00 UTC / November 18 Pacific. The same fro
 The courier blinks and turns the head as the frown relaxes toward a slight smile. The corrected eye highlights stay inside the closing eyes in actual encoded frame 210. The wider shot then establishes the same gate, continuous overhead rope/pulleys, visibly empty basket and raised stone tray. It makes the courier smaller and partly occluded; not every source stone can be separately counted in each view. The counterweight-basket caption remains below the mechanism and fades out before the stair cut.
 
 The first stair frames establish the steps, stones, basket and courier at their foot. This cut elides travel from the gate to the steps. The courier is near the right edge and partly cropped, and a foreground planter obscures some footing. These are retained inspection limits; the rest of the ascent still needs actual encoded review. No continuous-playback, subjective soundtrack or final-film verdict follows from these silent frame inspections. The exact frozen source and v2 soundtrack remain unchanged, protected samples/receipts remain intact, and no final movie, upload draft or queue slot was created.
+
+
+## Completed current version
+
+The incremental checkpoints above are historical. All578frames and every cut are now reviewed, a material stair-caption overlap is corrected in four segments, and the complete native film passes decode/presentation-timing/AAC/transcript/level checks. See the [finished v2 preview and exact limits](2026-11-19-counterweight-gate-finished-preview.md). One exact manual draft awaits its connector-required after-saved-draft reply; never resume the completed baseline job or upload its held lower-caption movie.

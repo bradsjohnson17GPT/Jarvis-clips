@@ -1,0 +1,13 @@
+# Counterweight Gate — corrected finished preview
+
+The existing original fictional story now has one complete shared-scene native movie and [one saved manual upload draft](counterweight-gate-upload-review.md). [Play the preview](https://share.descript.com/view/1IEayU0wi7y). The Descript export is watermarked; the upload media is the exact clean master. No YouTube publication or schedule was created.
+
+The current file is5,755,109 bytes,24.083333 seconds,578 native 720×1280 frames at24 fps presentation cadence with stereo 48 kHz AAC. SHA256: `697dc014581c5f1d0a254e62cbe7ed2817496b2121d17fa3be0951f5097874f2`. The imported vidIQ file was downloaded and matched byte for byte. [Sanitized final QA](../../assets/stories/counterweight-gate/full-movie-review-v2.json) and [source review](../../assets/stories/counterweight-gate/source-record.json) retain source/audio/music provenance and exact inspection limits.
+
+All 578baseline encoded frames were actually viewed in frame sheets, with full-size samples and every camera cut inspected. A lower stair caption covered a boot at frame 292. Only that cue moved to the upper margin; its words/timing, motion source and soundtrack stayed unchanged. Four12-frame segments were reencoded from exact matching clean native pixels;530 unaffected encoded frames were reused. All 48corrected frames and11 full-size proofs were actually inspected. Every decoded frame of the final mux matches the selected reviewed segments.
+
+The visible story shows two failed attempts, the empty basket clue, side steps, three stone transfers, gate/basket opposite travel, then courier/cart and the waiting line passing through the held opening. Some contacts remain occluded, travel is elided at cuts, front framing crops part of the cart, and torso/scarf/steps remain stylized. No continuous real-time playback or subjective audio listening is claimed.
+
+The final encoded ASR matches all55 unchanged words. Full decode/PTS/packet presentation durations, stereoAAC identity and encoded−16.03 LUFS/−3.31 dBTP pass. Container aggregate average-rate metadata differs from nominal24 fps; all 578actual presentation timestamps and display durations are exactly n/24 and 1/24 within probe precision, as detailed in QA. No voice, soundtrack, upscale or interpolation change was introduced to normalize metadata.
+
+Descript imported/exported the finished file within existing access; local processing did the original speech cleanup/mix. The new draft is ready at 0 credits, public to the original Smile Daily channel, with no fixed time. Actual connector after-saved-draft approval is still required. Existing published videos,31heldMetricoolcopies and the other two manual drafts remain preserved. No paid research or purchase occurred.
