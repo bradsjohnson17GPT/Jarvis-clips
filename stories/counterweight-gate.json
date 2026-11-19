@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_male_audio_first_release_and_cart_motion_development_not_full_story",
+  "status": "original_male_audio_two_attempt_opening_development_not_full_story",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -85,7 +85,7 @@
     "start": 144
   },
   "source_plan": {
-    "visuals": "Original gate/courtyard/steps/pulley/basket/cart/stones mechanism and contact poses exist. Two waiting adults derive only from project-owned courier geometry. Full animated action, expressive shot sequence and environment finish remain pending.",
+    "visuals": "Original mechanism/contact geometry, two waiting adults, cart walking prototype and integrated two-attempt opening exist. Supported crouch/lift/release/reaction share one staging position. Remaining stone/stair action, passage payoff, expressive treatment and environment finish are pending.",
     "voice": "One reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
     "effects": "Original gate-stop, pulley, stone-deposit, boot-tread and cart-wheel cues now synthesized/mixed from the planned action times; actual animated sync remains pending.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse the exact male audio/action/caption sources and completed first-release and stance-lock cart prototypes. Integrate one common cart position and scene; do not stitch the separately staged tests blindly. Build the second lift/release with supported crouch to the low handle, stair and stone pickup/deposit contacts, waiting adults walking and the passage payoff. Finish expressive front/three-quarter cameras and courtyard. Preserve platform/basket clearance, rope continuity and supported feet; use a return-time editorial cut. Prepare capacity before full native render. Review actual cuts, movement and finished sound/captions; cached audio needs revision only if event timings change. Neither development clip is a posting candidate.",
+  "next_work": "Reuse the exact male take/audio/captions and completed integrated opening at common cart position(.30,-1.55). Build supported stairs, explicit stone pickup/deposits and hand release, loaded basket/gate movement, courier/cart passage and the same waiting adults walking payoff. Finish expressive cameras/acting and courtyard. Keep the immutable audio/action plan; revise a versioned pair only if event timing changes. Prepare capacity before full native rendering and inspect actual finished cuts, sound and captions. Do not duplicate completed development renders or publish them.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -156,5 +156,23 @@
   ],
   "gate_release_actual_encoded_frames_reviewed": 90,
   "first_gate_release_prototype_prepared": true,
-  "do_not_regenerate_existing_release_test": true
+  "do_not_regenerate_existing_release_test": true,
+  "opening_review": "assets/stories/counterweight-gate/opening-review.json",
+  "opening_source_sha256": "643769eb6f48f85dcaf04129dd5661739edc3c91344f918bde523dac726fcddc",
+  "private_opening_development": "work/preproduction/counterweight-gate/opening-motion-v1",
+  "opening_development_video_sha256": "808c69678284e0ea6ac44be380800a117142d5347fe0e04e16446750e760af6c",
+  "opening_development_seconds": 8.208333333333334,
+  "opening_development_native_dimensions": [
+    360,
+    640
+  ],
+  "opening_actual_encoded_frames_reviewed": 197,
+  "two_failed_attempts_and_waiting_reaction_prepared": true,
+  "common_cart_position_scene_units": [
+    0.3,
+    -1.55,
+    0
+  ],
+  "do_not_regenerate_existing_opening_test": true,
+  "opening_prepared_at_utc": "2026-11-19T00:33:46.705717+00:00"
 }

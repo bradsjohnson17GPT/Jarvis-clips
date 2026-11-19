@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-18T21:34:16.371654+00:00",
+  "reviewed_at_utc": "2026-11-19T00:33:46.705717+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -78,6 +78,15 @@
     "rights_basis": "Original hand release/rope/gate controller and original neutral/concerned expression over the already reviewed project-owned character and mechanism; no external models, textures, voices or footage added.",
     "audio": "Existing reviewed generic male take and licensed/original preflight sources only; first sentence cropped, not regenerated.",
     "commercial_project_use": true,
+    "full_story_exists": false
+  },
+  "integrated_opening_prototype": {
+    "source": "assets/stories/counterweight-gate/opening-study.py",
+    "sha256": "643769eb6f48f85dcaf04129dd5661739edc3c91344f918bde523dac726fcddc",
+    "review": "assets/stories/counterweight-gate/opening-review.json",
+    "rights_basis": "Original hand/leg/ankle controller, cameras and limited expressions over the already reviewed project-owned character and original mechanism. Same two owned cast copies. No external models, textures, footage or voices added.",
+    "commercial_project_use": true,
+    "audio": "Existing reviewed male take, licensed music and original effects only; first paragraph cropped, not regenerated or remixed.",
     "full_story_exists": false
   }
 }

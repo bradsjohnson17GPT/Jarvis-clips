@@ -1,0 +1,168 @@
+{
+  "id": "counterweight-gate",
+  "completed_at_utc": "2026-11-19T00:25:40.538649+00:00",
+  "scope": "first paragraph development: two failed attempts and waiting cast; remaining full story is unbuilt",
+  "source_sha256": "643769eb6f48f85dcaf04129dd5661739edc3c91344f918bde523dac726fcddc",
+  "video_sha256": "808c69678284e0ea6ac44be380800a117142d5347fe0e04e16446750e760af6c",
+  "video_bytes": 479039,
+  "native_dimensions": [
+    360,
+    640
+  ],
+  "fps": 24,
+  "frames": 197,
+  "duration_seconds": 8.208333333333334,
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "duration_seconds": 8.208
+  },
+  "source_audio_preflight_sha256": "5fec69f9bd87e2fcfb950c558c7d672ba9e1f1656116e70ef47ae200d81e76a5",
+  "source_audio_excerpt_seconds": [
+    0,
+    8.208333333333334
+  ],
+  "narration_regenerated": false,
+  "audio_remixed": false,
+  "audio_reencoded_for_crop": true,
+  "caption_sha256": "16e4512a0cb0fc80d8c35626c6c5feea7c7306b5ba99382e50a3db1817779f74",
+  "encoded_asr_exact_first_paragraph_match": true,
+  "spoken_words": 21,
+  "encoded_loudness": {
+    "input_i": "-16.29",
+    "input_tp": "-2.82",
+    "input_lra": "1.80",
+    "input_thresh": "-27.32",
+    "output_i": "-15.84",
+    "output_tp": "-3.00",
+    "output_lra": "1.10",
+    "output_thresh": "-26.61",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.16"
+  },
+  "all197_raw_clean_hash_pairs_verified": true,
+  "strict_full_decode_passed": true,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "gate_floor_stop_frames": [
+    76,
+    135
+  ],
+  "prepared_gate_sound_cue_seconds": [
+    3.125,
+    5.583333333333333
+  ],
+  "cut_boundaries": [
+    [
+      91,
+      92
+    ],
+    [
+      139,
+      140
+    ]
+  ],
+  "actual_encoded_frames_visually_reviewed": 197,
+  "continuous_motion_watching_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "full_story_animation": false,
+  "publishable": false,
+  "reviewed_at_utc": "2026-11-19T00:33:46.705717+00:00",
+  "reviewer": "Project production assistant",
+  "source": "assets/stories/counterweight-gate/opening-study.py",
+  "status": "reviewed_first_paragraph_development_not_full_story",
+  "input_acting_blend_sha256": "7691e1f0daed54ea5addc4eb644cd18fcd8dc1e90fa9b132e646968d84660b0f",
+  "action_plan_sha256": "20a9a83af01b0b50d1dee276cc8e16e680aa7597879ad56a1956d0ff87c4c1ce",
+  "review_method": "All 197 actual decoded frames viewed in six numbered contact sheets. Ten encoded samples additionally viewed at native360x640, including both sides of both cuts. Five native720x1280 critical samples were viewed before the complete development render. No continuous playback or audio audition claim.",
+  "full_size_encoded_frames_viewed": [
+    91,
+    92,
+    95,
+    110,
+    134,
+    135,
+    139,
+    140,
+    165,
+    197
+  ],
+  "native_720_frames_viewed": [
+    92,
+    95,
+    110,
+    135,
+    165
+  ],
+  "full_size_native_720_frames_viewed": [
+    95,
+    110,
+    135
+  ],
+  "decoded_frame_hash_record_sha256": "167000330fddd873e2e355f73b0ab186b5d5684a292d03181dde3a37dd09bcfd",
+  "full_size_encoded_png_hashes": {
+    "91": "51bb29394d58f60dc169ccb6acd43185edd74008abd22431b7a245307a12c2a6",
+    "92": "df728345cd8ac0996462700fd28a8ef9ad05df45afd256b367b7f97c57a3a1fe",
+    "95": "13579807d241e3ec51f1f57757452fd24d7654670c406426dfe9f2faaca9c918",
+    "110": "83688c000e8e818713f0f54b81a0aceb8df955b446dfef9d2347d984d0b9dc57",
+    "134": "37d6fce7cdd0bf930740e48592efc2a33e26712c225e1ea40c0786c6f6c78cd0",
+    "135": "cd138d7792449ae60029e0353013c14105ad78f726e5e9249437f0c7d1da471c",
+    "139": "2d4bc947341077db68293e8e1936653f65ec6b69855331b297fccfa2dd5a9684",
+    "140": "983de86a341ec3e9f7092d52c9437685820fe75dac9e73b537564ef0433e8989",
+    "165": "a6dff7501ec3b45d261bf96897f9349bcf2028f2a24326bb1c60c04f7a7852a9",
+    "197": "515de6a81638720cfbc5b27a82732c42c5b3112ff9057548880864abc7f0eaf4"
+  },
+  "render_settings": {
+    "engine": "Cycles CPU",
+    "samples": 8,
+    "threads": 2,
+    "denoise": "OIDN at original size"
+  },
+  "common_cart_position_scene_units": [
+    0.3,
+    -1.55,
+    0
+  ],
+  "numerical_checks": {
+    "all197_kinematic_poses_checked": true,
+    "max_hand_target_error_scene_units": 2.4755668231600746e-07,
+    "max_ankle_target_error_scene_units": 2.2806566752514193e-07,
+    "max_sole_ground_error_scene_units": 1.6577541828155518e-07,
+    "rope_length_variation_scene_units": 3.7774857908345894e-07,
+    "rigid_body_validation": false
+  },
+  "cache_reuse_check": {
+    "scope": "Explicit resume of the five completed critical samples with identical frozen source/settings",
+    "verified_cache_hits": [
+      92,
+      95,
+      110,
+      135,
+      165
+    ],
+    "new_frames_rendered": 0,
+    "raw_png_hashes_and_mtimes_unchanged": true,
+    "actual_interruption_or_partial_file_recovery_simulated": false
+  },
+  "repository_tests_passed_after_final_source_change": 41,
+  "actual_visual_findings": [
+    "The first reaching/release failure, supported low-handle crouch, second lift/release and waiting-cast reaction now share one opening timeline and common cart position.",
+    "Both gate descents and floor stops are visible. The second view exposes the crouched boots and nearer hand/bar lift more clearly than the held cart-occluded critical study.",
+    "Cuts91/92and139/140 retain the same scene; the first switches from wide failure to close retry, the second to the same two waiting adults. Cart edges are deliberately cropped in the close/reaction views.",
+    "Existing phrase captions and Original fiction label are visible. The first paragraph ends before the development clip ends.",
+    "Profile view partly hides the far hand and face; programmed mouth/brow/head changes are limited. The waiting cast mainly holds a pose, with small head turns. The grey courtyard, block geometry and low development resolution still lack a finished emotional/cinematic treatment."
+  ],
+  "held_revision": "Earlier second camera hid the crouched courier behind the cart. Its critical stills remain held; the revised approach-side camera was inspected before this encode.",
+  "audio_scope": "Unchanged existing male take, licensed Ascension and original effects excerpt0to8.208333seconds, cropped and AAC re-encoded. No voice regeneration, remix, pitch or tempo change. Measured encoded input loudness is -16.29LUFS with -2.82dBTP. Prepared gate cues3.125and5.583333seconds share the authored floor-stop clock; this is provenance/timing evidence, not subjective listening.",
+  "integration_limits": [
+    "This is only the first paragraph, not a new finished Short or posting candidate.",
+    "Stair support, stone pickup/deposits, basket release, loaded gate rise, courier/cart passage and waiting adults walking payoff remain unbuilt. Author the full planned stone count and release contacts explicitly.",
+    "Finish the courtyard and expressive shot/acting sequence. Check action readability at the final native dimensions and review the finished audiovisual sequence.",
+    "Reuse the exact male take, captions and immutable audio/action plan. Revise a versioned plan/preflight only if event timings actually change.",
+    "Budget storage from actual native sample sizes before rendering the full578frames; preserve completed/held masters, source assets/models, QA and drafts. Do not restart completed renders because caches were intentionally pruned."
+  ],
+  "full_story_editorial_pass": false,
+  "ready_candidate": false,
+  "new_service_drafts": 0,
+  "posting_queue_changed": false
+}

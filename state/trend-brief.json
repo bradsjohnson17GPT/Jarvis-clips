@@ -174,7 +174,7 @@
     },
     {
       "id": "quality_counterweight_gate",
-      "status": "original_male_audio_first_release_and_cart_motion_development_not_full_story",
+      "status": "original_male_audio_two_attempt_opening_development_not_full_story",
       "topic": "Motivational action through a physical problem",
       "content_type": "motivational",
       "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
@@ -220,7 +220,17 @@
       "gate_release_source_sha256": "06b950108737c54b8a7064017bb9ba346fa30d7c71ab0305ab7f49a891e7fe8e",
       "gate_release_development_seconds": 3.75,
       "gate_release_actual_encoded_frames_reviewed": 90,
-      "first_gate_release_prototype_prepared": true
+      "first_gate_release_prototype_prepared": true,
+      "opening_review": "assets/stories/counterweight-gate/opening-review.json",
+      "opening_source_sha256": "643769eb6f48f85dcaf04129dd5661739edc3c91344f918bde523dac726fcddc",
+      "opening_development_seconds": 8.208333333333334,
+      "opening_actual_encoded_frames_reviewed": 197,
+      "two_failed_attempts_and_waiting_reaction_prepared": true,
+      "common_cart_position_scene_units": [
+        0.3,
+        -1.55,
+        0
+      ]
     },
     {
       "id": "quality_last_charge",
@@ -464,10 +474,10 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-18T21:34:16.371654+00:00",
+    "prepared_at_utc": "2026-11-19T00:33:46.705717+00:00",
     "concept_id": "quality_counterweight_gate",
     "manifest": "stories/counterweight-gate.json",
-    "status": "original_male_audio_first_release_and_cart_motion_development_not_full_story",
+    "status": "original_male_audio_two_attempt_opening_development_not_full_story",
     "new_finished_shorts": 0,
     "new_drafts": 0,
     "paid_vidiq_credits": 0,
@@ -476,6 +486,12 @@
     "phrase_caption_cues": 18,
     "audio_encoded_asr_words": 55,
     "development_motion_actual_encoded_frames_reviewed": 48,
-    "gate_release_actual_encoded_frames_reviewed": 90
+    "gate_release_actual_encoded_frames_reviewed": 90,
+    "opening_review": "assets/stories/counterweight-gate/opening-review.json",
+    "opening_actual_encoded_frames_reviewed": 197,
+    "opening_encoded_asr_words": 21,
+    "narration_regenerated": false,
+    "full_story_exists": false,
+    "posting_queue_changed": false
   }
 }
