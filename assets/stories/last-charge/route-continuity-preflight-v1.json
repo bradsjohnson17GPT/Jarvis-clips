@@ -1,0 +1,71 @@
+{
+  "id": "last-charge-route-continuity-preflight",
+  "prepared_at_utc": "2026-11-19T15:31:40.077751+00:00",
+  "status": "connections_between_bounded_studies_identified_not_animated",
+  "reviewer": "Project production assistant",
+  "source_pins": {
+    "base": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+    "placement": "1dc6ff18d05a9e5d0001a7db703216634793739465fd6e1e7f981ed9276b47cd",
+    "walking": "dd992693017f250606dea45bce4e3bdf5f057912ea25a1a4b50cfcb577cd6a84",
+    "unchanged_clean_voice": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a"
+  },
+  "source_derived_model_endpoints": {
+    "opening": {
+      "root": [
+        -1.12,
+        -1.6,
+        0.028
+      ],
+      "yaw_radians": 0,
+      "lamp_base": [
+        -0.82,
+        -1.95,
+        0.478
+      ],
+      "scope": "Source constants for retained opening, not a performed departure."
+    },
+    "walking_test_end": {
+      "root": [
+        0.0,
+        0.029999999329447746,
+        0.03999999910593033
+      ],
+      "yaw_radians": 3.141592653589793,
+      "lamp_base": [
+        -0.3,
+        0.3799999993294477,
+        0.48999999910593034
+      ],
+      "scope": "Modeled endpoint from current31-pose numerical record; actual full movie review remains separately recorded."
+    },
+    "placement_test_start": {
+      "root": [
+        0.54,
+        0.85,
+        0.08
+      ],
+      "yaw_radians": 1.5707963267948966,
+      "lamp_base": [
+        0.6700000166893005,
+        1.2899999618530273,
+        0.5000000596046448
+      ],
+      "scope": "Pinned placement-controller constants and recorded lamp position."
+    }
+  },
+  "walking_end_to_placement_start_root_gap": 0.9826494803190156,
+  "walking_end_to_placement_yaw_change_radians": -1.5707963267948966,
+  "gaps_to_build": [
+    "Opening-to-route departure needs a supported turn and knee-height change on the paving before the existing bridge gait.",
+    "Walk the remaining approach, then turn toward the rail with explicit shoe anchors. The existing prototypes are not contiguous shots.",
+    "Bridge/paving shoe support planes differ: .08 and .028 in model units. Pose root height is a rig coordinate, not the shoe sole plane.",
+    "Match the carried-hand target, lamp orientation, cell identity and pool direction into the first placement pose while preserving grip.",
+    "Walking has no authored head reaction; placement has a small owned head pivot. Author gaze/reaction transitions before the full film."
+  ],
+  "full_route_render_started": false,
+  "new_narration_or_spoken_script": false,
+  "finished_story_exists": false,
+  "publisher_draft_created": false,
+  "publishable": false,
+  "limits": "Source-derived endpoint/continuity plan only. No path collision, support force, completed route timing or full-story quality pass. Use the original same lamp/cell; do not hide teleporting or an unexplained orientation change with an arbitrary cut."
+}

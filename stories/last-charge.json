@@ -1,7 +1,7 @@
 {
   "id": "last-charge",
   "origin_idea_id": "quality_last_charge",
-  "status": "native_lift_placement_release_diagnostic_reviewed_full_story_pending",
+  "status": "native_carry_walk_diagnostic_reviewed_full_route_and_reactions_pending",
   "working_title": "The Lamp She Left Outside",
   "content_type": "fictional_micro_stories",
   "theme": "One visible act makes a shared route possible; others choose to contribute.",
@@ -23,7 +23,7 @@
   "scheduled": false,
   "publishable": false,
   "publication_evidence": null,
-  "next_work": "Reuse the unchanged male take, raised-rest geometry and reviewed placement/release controller. Build bounded route-facing carry and supported walking, then traveler/neighbor reactions and independent lamp contributions. Keep all earlier caches held/preserved; no final602-frame story job until actual motion/continuity review. Caption layout, effects and music mix still require finished-picture review.",
+  "next_work": "Reuse the exact male take, original environment, raised-rest placement prototype and reviewed short walking controller. Extend the continuous doorway-to-bridge route with supported height/turn transitions and timing against the retained speech, then add traveler/neighbor reactions and separately caused lamp contributions. Refine face/left-arm acting and foot rolls; build captions/effects/music only with actual finished-picture review. No full 602-frame job or new draft before continuity/quality review.",
   "prepared_at_utc": "2026-11-19T10:21:44.548319+00:00",
   "narration": "Rose's lamp had one charge left. A traveler was waiting at the dark bridge. She carried the light past her own doorway and set it on the bridge rail. The traveler started across. A neighbor brought a second lamp. Another placed a third beside the shop. Rose locked her door and turned toward home. All three lamps lit the path.",
   "narration_paragraphs": [
@@ -73,5 +73,12 @@
   "current_lamp_rest_top": 1.08,
   "placement_reviewed_at_utc": "2026-11-19T15:07:48.253293+00:00",
   "walk_contact_preflight": "assets/stories/last-charge/walk-contact-preflight-v1.json",
-  "walk_native_frames_rendered": 0
+  "walk_native_frames_rendered": 31,
+  "walking_controller": "assets/stories/last-charge/walking-study.py",
+  "walking_controller_sha256": "dd992693017f250606dea45bce4e3bdf5f057912ea25a1a4b50cfcb577cd6a84",
+  "walking_review": "assets/stories/last-charge/walking-review-v2.json",
+  "walk_encoded_frames_actually_reviewed": 31,
+  "walk_diagnostic_seconds": 1.2916666666666667,
+  "walking_reviewed_at_utc": "2026-11-19T15:37:13.559893+00:00",
+  "route_continuity_preflight": "assets/stories/last-charge/route-continuity-preflight-v1.json"
 }

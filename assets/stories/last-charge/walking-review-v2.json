@@ -1,0 +1,301 @@
+{
+  "id": "last-charge",
+  "reviewed_at_utc": "2026-11-19T15:37:13.559893+00:00",
+  "reviewer": "Project production assistant",
+  "status": "native_carry_walk_diagnostic_reviewed_full_route_and_reactions_pending",
+  "source": "assets/stories/last-charge/walking-study.py",
+  "source_sha256": "dd992693017f250606dea45bce4e3bdf5f057912ea25a1a4b50cfcb577cd6a84",
+  "base_source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+  "placement_reference_source_sha256": "1dc6ff18d05a9e5d0001a7db703216634793739465fd6e1e7f981ed9276b47cd",
+  "prior_numerical_plan": "assets/stories/last-charge/walk-contact-preflight-v1.json",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "cycles_samples": 12,
+  "denoiser": "Reviewed OIDN 2.5.1 CPU RT LDR/sRGB high at the same native size. Raw pictures preserved.",
+  "video": {
+    "video_sha256": "689bf9c3ce45eb26d76839ed2b6ef4ec808b518a82f87532aec4a022eecb06f3",
+    "video_bytes": 259677,
+    "frames": 31,
+    "fps": 24,
+    "duration_seconds": 1.2916666666666667,
+    "audio_streams": 0,
+    "all_pts_n_over24": true,
+    "full_decode_passed": true
+  },
+  "endpoint_inclusive_timing": "31 native frames show a cycle whose endpoints are 1.25 seconds apart; encoded movie is 31/24 seconds including the final frame duration. This is not the finished story duration.",
+  "decoded_frames_actually_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "native_decoded_frames_actually_viewed": [
+    1,
+    9,
+    16,
+    24,
+    31
+  ],
+  "review_method": "Three decoded contact sheets containing 12, 12 and 7 actual frames, plus five native decoded pictures. No continuous playback or audio listening claim.",
+  "critical_native_raw_frames_viewed_before_fill": [
+    1,
+    9,
+    16,
+    24,
+    31
+  ],
+  "existing_five_raw_frames_reused": true,
+  "source_frame_hashes": [
+    {
+      "frame": 1,
+      "raw_sha256": "e8b149ce15abce7962eda229aebd1a569972031c7eba675d324718a0a20ba0ce",
+      "clean_sha256": "5c3a013902e77c713ea1ab813de74d3c2e34d396f7de90303d43d4b513699778"
+    },
+    {
+      "frame": 2,
+      "raw_sha256": "7cbdcf57512bf6f5d7e1a15e5dba262d0fdbac91980c0d9ab1ba9e2662990d78",
+      "clean_sha256": "2b4a415710566537372dee4c2841ca6e42ea620f18dd5340123128198259b8f6"
+    },
+    {
+      "frame": 3,
+      "raw_sha256": "407b81ab9afb1cd28a0faff3ab7c1bd41ea138c3f599938560ec7e014bff8a5d",
+      "clean_sha256": "4aed6bb7a6b1df43cde5730da45d7c506d611a2820fff7703678cc20589ec5e4"
+    },
+    {
+      "frame": 4,
+      "raw_sha256": "6654537a71d27c70fe24b27979d73278769041b4c6760c565eb77ed9845b5412",
+      "clean_sha256": "2958d478316325169ce54b826055502298483cc324303e40f49d6d21444f7a39"
+    },
+    {
+      "frame": 5,
+      "raw_sha256": "bfd858e8a4c3ed83b3d4502a7586d6c8f72345721808b091a1732397a37b3601",
+      "clean_sha256": "66fbb72b57d68c772bdeb14d68eada7770301dd3653d3f16cbc1a450e731c5b8"
+    },
+    {
+      "frame": 6,
+      "raw_sha256": "8a065aeb1c0681b050965a41aa3c9d2590435fcb0dd678af8ad2a2b0694bf6c2",
+      "clean_sha256": "e304bf2cd983738273a0bbc9eaedb94dfb4467b1baffd229d14553309127b4e0"
+    },
+    {
+      "frame": 7,
+      "raw_sha256": "52646f0666ce92d97657bd3eae568f37bcfd408a76e9172fedbe638bf0550b33",
+      "clean_sha256": "300f81a078dd77592cc5a0a875915a302b8df8d64bed24fec73dd9386c186f4a"
+    },
+    {
+      "frame": 8,
+      "raw_sha256": "7161772876f4de794a4860308e3eac40ff0b91bc71353d420ad847d79bb7b18c",
+      "clean_sha256": "020f78a52515caa6099fb5053193a06c82dbce12c400255012c9d7adbef63615"
+    },
+    {
+      "frame": 9,
+      "raw_sha256": "d0ca4ceb22e7ce0d5a1e5cb56d4d7091f992ceb1f63bd8d7c424057fd0b016a0",
+      "clean_sha256": "594d457079708ad1944e3b35d59b0d0d92ef0db4c9d9de83e03354ffa91d2e95"
+    },
+    {
+      "frame": 10,
+      "raw_sha256": "df9601138bf588b16982dd358429e07cebefef3dc0963989e854a3a16acde603",
+      "clean_sha256": "c4c004114a5f12685b428309f003f67e2e1b5a5701a0b0f9cc38e4b3a135bbd9"
+    },
+    {
+      "frame": 11,
+      "raw_sha256": "a52ff9f4da07017757ba2de6d728afeeb95cb34775297986adf79f251da1b5b9",
+      "clean_sha256": "b45fe2e30d92394cacfab50940af3d0fa65c7ba60f3a4168fb8f7dae8dbd4968"
+    },
+    {
+      "frame": 12,
+      "raw_sha256": "b9ede2ec644262ae10d201aa6f7d43f0f3f6e907362afe927a713c2e5147ec71",
+      "clean_sha256": "78bba21a2be54d84f8508d9384c63ea0bfbabcae4ab3f0bc9ffa02302b6b6159"
+    },
+    {
+      "frame": 13,
+      "raw_sha256": "ad2d76709fb04ed50d70a0d9beca29a23c40b72d666adee901abc6427bde1d5a",
+      "clean_sha256": "6313c3fb25747a8b96c82f967aaef7b8ed8e029d734e82f467a5d201b8ea18f6"
+    },
+    {
+      "frame": 14,
+      "raw_sha256": "8a3c5c2d75086687eb8037dd49f200f09906698a435b8dd4a351e55e36072332",
+      "clean_sha256": "f711f3666cbab58870c23a201eae589b65416d9b0a5227ae2ce1ce421618f9ec"
+    },
+    {
+      "frame": 15,
+      "raw_sha256": "bf225017bb73c31a4969533f3f4d1cfb4c09104159ed78ca8a70502cacec3017",
+      "clean_sha256": "eb72a15d8f746bc6f2d9c24a2b8941b2e1982954bbd2b2e745851934356b5a7c"
+    },
+    {
+      "frame": 16,
+      "raw_sha256": "98f94da36cf57c7b556936040194b3a74e8fea13b804229b5ebe4b055245aa74",
+      "clean_sha256": "9242db19b7a1ab523ac85a88f18c1b8bcdfb47573e531527086aee9fff14d4b9"
+    },
+    {
+      "frame": 17,
+      "raw_sha256": "5067aaa505639c6475754680e3fad840163587f307635145009eafd127b665b3",
+      "clean_sha256": "22350be0ecb4720290d4b970243a596f6aca2d4e84c10b137791a384a8c6d5eb"
+    },
+    {
+      "frame": 18,
+      "raw_sha256": "6891a9e38e82fe7c004e8f8036f09266150bc07b8c8aa2c50f53218e492d9587",
+      "clean_sha256": "70adad77cd2a974c2bf4389c4b6649a9471743d5afe6d9259ac31e17635d0bcd"
+    },
+    {
+      "frame": 19,
+      "raw_sha256": "361d83db70250fade0b22c599a129ed333573449f578e5b4280a817a6d9eabf6",
+      "clean_sha256": "d775e459a4b9759647176fbd184310919f394072bec5531cb285ff1b3c423be5"
+    },
+    {
+      "frame": 20,
+      "raw_sha256": "463061081226b2b23f7b56011884b6258c1cf486d4b90a4d868834e371385e9f",
+      "clean_sha256": "7dd296da06c735ab38d8e4d67995c9df7032025ccd8132a7e36e18e26d831f3b"
+    },
+    {
+      "frame": 21,
+      "raw_sha256": "23c530a58a37fed976ae8b848e62122f5968612aa03d0607817dc1853e82b8e1",
+      "clean_sha256": "af65fa47d9cd76f9263eb7da569a8ddd32b152c3b837b1d9aecb1a7496d5ce01"
+    },
+    {
+      "frame": 22,
+      "raw_sha256": "aebb170e8d7aaab291048ab1acf84f5e630d72ff8da81264afc50d525016af7e",
+      "clean_sha256": "387f7cfa64763b294cc719f811aea9fa6a5143050b943b643219ff997e0a70ea"
+    },
+    {
+      "frame": 23,
+      "raw_sha256": "765d0f360f3c6f9a8e43e654955831018a5df68f64b8ad2c315f81e2863c45ac",
+      "clean_sha256": "8edfe50cb6dd2a7a0f068d3e99669610d8b919e9045f85e6f0e3b1239b1e2802"
+    },
+    {
+      "frame": 24,
+      "raw_sha256": "dc4d950e959c43a06801ea4b4b17e77e99da0d98b3b180d784b0429c11952cb4",
+      "clean_sha256": "884f9bd5260459742d6c4bd5e02ec02628407d2798efe090973eeeb66362078c"
+    },
+    {
+      "frame": 25,
+      "raw_sha256": "9b72564a2afd41e4100cf8001e341b13cfedb291b213a4a30501c2371e7390a8",
+      "clean_sha256": "c9ab1f50ca22083f0fee63274daefd141ea7c78bb7a4caea05b53e200c09f3f9"
+    },
+    {
+      "frame": 26,
+      "raw_sha256": "3fd21b0792ed1230367c41c80d6600638a1b0bfcea6de349a49f2220c3837a28",
+      "clean_sha256": "6e37cf0338ef7551156c050e3d3802d1cc67213f90bc2cdd106035062eb706b4"
+    },
+    {
+      "frame": 27,
+      "raw_sha256": "d68c22bbf7beee794e82f24dd77b697a4d771e5436db8375d73527d8cafb5bc8",
+      "clean_sha256": "fc80facb6b821a6d959987d70b23d9ccf35662c83574e7b23c35480f56743810"
+    },
+    {
+      "frame": 28,
+      "raw_sha256": "223ae947411d4093a4ca21ff7fc1071b92d805f74e80e42f8b62e6f1999d91fe",
+      "clean_sha256": "2219daaa39fcf4859ab43cbb5f8a521eef545304ed5d603a41682a64af80cfd9"
+    },
+    {
+      "frame": 29,
+      "raw_sha256": "bcf5d5c4d92674439d3e5de119cd84d0dd30ccb0ee3cb05aa9420fd67a71d48e",
+      "clean_sha256": "dd5c391f3633b26c21adfa0c45c76aab5a2f4347c85964387d903c8ff41127be"
+    },
+    {
+      "frame": 30,
+      "raw_sha256": "71e3f9e3df59235feec00865aee60a1c2c7b4b446ddc8f0c91e03f5639983128",
+      "clean_sha256": "081d40b20c339b2890299f723cd1313893545112758bf0f1d816d2e93f451747"
+    },
+    {
+      "frame": 31,
+      "raw_sha256": "1222fbdfdac2f4d323c1f7e7e9cdf31ca021fe85bccaa0bb61d9927c40773150",
+      "clean_sha256": "9b22b28a182472410eb451c461d62edfb8cd188b7f40526b9b943894af07c9ab"
+    }
+  ],
+  "sampled_contact_metrics": {
+    "stance_shoe_world_drift": {
+      "right": 0.0,
+      "left": 7.450580596923828e-09
+    },
+    "maximum_leg_length_error": 6.43922779541839e-08,
+    "maximum_arm_length_error": 4.7093889510296805e-08,
+    "maximum_hand_handle_error": 0.0,
+    "maximum_stance_sole_plane_error": 5.662441251996775e-09,
+    "maximum_sampled_swing_sole_lift": 0.06923518896102905,
+    "root_forward_distance": 0.40000000409781933
+  },
+  "metric_scope": "Original scene model units. Sampled fixed leg/arm lengths, flat shoe sole planes/envelope, stationary stance shoes and carry grip only. No support-force physics or full-body swept collision certification.",
+  "visual_findings": [
+    "Both shoes and their lift/landing positions remain visible across the 31 decoded pictures. The sequence shows two alternating steps with the body advancing.",
+    "The original face, complete carried lamp and unchanged single amber cell mark stay in frame; the lamp remains with the mitten and its local warm pool follows.",
+    "The revised inside-rail camera avoids the first camera foreground-support obstruction.",
+    "The walk is deliberately flat-shoed, with little left-arm or facial movement. It is a contact/carry prototype rather than a natural acting or expressive performance pass.",
+    "The lamp partially masks the right upper leg; full rig/prop clearance and complementary side/foot views still need review in the continuous route."
+  ],
+  "original_changes": [
+    "Original two-bone knees and explicit world-space stance anchors replace the sliding static stride pose.",
+    "The root advances over fixed stance shoes; each swing shoe lifts and lands while the existing lamp remains with the hand.",
+    "Same31-pose primary bounds are fitted together, then an inside-rail view and soft original cool fill make feet and face readable.",
+    "Reviewed raised fixtures, original cast/scene, one amber cell identity and independent light sources are retained; no external model, texture, performance or footage."
+  ],
+  "held_prior_view": {
+    "source_sha256": "6d9943a3c235b330e1066818c0ab00861ac414af2b9bc63c21ab547ce1b6c54c",
+    "completed_native_frames": [
+      1,
+      9,
+      16,
+      24,
+      31
+    ],
+    "actual_review": {
+      "reviewed_at_utc": "2026-11-19T15:25:24.629381+00:00",
+      "native_raw_frames_actually_viewed": [
+        1,
+        9
+      ],
+      "hold_reason": "The foreground raised lamp support and rail hide the lower legs/swing foot. Projected primary bounds did not establish unobstructed foot-contact visibility.",
+      "decision": "Hold the first camera. Keep source, raw frames and receipts; test a camera inside the bridge rails and soft cool action-side fill in a new cache.",
+      "publishable": false
+    },
+    "raw_and_frozen_source_preserved": true
+  },
+  "narration_regenerated": false,
+  "spoken_words_changed": false,
+  "existing_clean_narration_sha256": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a",
+  "new_external_assets": [],
+  "new_music_or_effects_mix": false,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "repository_tests_passed": 41,
+  "full_native_story_started": false,
+  "finished_story_exists": false,
+  "publisher_draft_created": false,
+  "scheduled": false,
+  "publishable": false,
+  "limits": [
+    "Three decoded sheets contain12,12and7actual frames; five decoded native pictures were also viewed. No continuous playback or subjective soundtrack audition.",
+    "Only one short cycle on the bridge is produced. The doorway departure, support-height transition, route/turn into placement and traveler/neighbor actions are not produced.",
+    "No foot roll, finger wrap, full-body swept collision, support-force physics or full-story editorial quality verdict.",
+    "No audio stream, final captions, effects or music mix. The same retained male source remains unchanged."
+  ],
+  "next_work": "Reuse the exact male take, original environment, raised-rest placement prototype and reviewed short walking controller. Extend the continuous doorway-to-bridge route with supported height/turn transitions and timing against the retained speech, then add traveler/neighbor reactions and separately caused lamp contributions. Refine face/left-arm acting and foot rolls; build captions/effects/music only with actual finished-picture review. No full 602-frame job or new draft before continuity/quality review."
+}

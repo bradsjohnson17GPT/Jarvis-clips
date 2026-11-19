@@ -1,8 +1,8 @@
 {
   "id": "last-charge",
-  "reviewed_at_utc": "2026-11-19T15:07:48.253293+00:00",
+  "reviewed_at_utc": "2026-11-19T15:37:13.559893+00:00",
   "reviewer": "Project production assistant",
-  "status": "original_native_placement_release_diagnostic_reviewed_full_film_not_built",
+  "status": "original_native_walking_carry_and_placement_prototypes_reviewed_full_film_not_built",
   "original_writing": {
     "idea_origin": "Existing quality_last_charge record in state/trend-brief.json; developed here into a new six-shot scene/action plan.",
     "authored_here": true,
@@ -14,14 +14,14 @@
     "plan": "New original shopkeeper/traveler/neighbors, three lamp/cell pairs, shop/footbridge/courtyard, cameras and lighting.",
     "external_models_or_footage_selected": [],
     "rights_review_after_assets_exist": true,
-    "actual_frames_inspected": 49,
+    "actual_frames_inspected": 31,
     "source": "assets/stories/last-charge/staging-study.py",
     "source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
     "review": "assets/stories/last-charge/staging-review-v2.json",
     "rights_basis": "Original procedural Blender primitives authored by this project; no imported model, texture, movie, game branding or real-person performance.",
     "commercial_project_use": true,
     "full_motion_and_film_review_pending": true,
-    "reviewed_picture_scope": "Current48-frame encoded placement diagnostic plus one separate route-facing still. Earlier base/opening/release review is archived in its own QA, not full-story frame coverage.",
+    "reviewed_picture_scope": "Current 31-frame decoded walking diagnostic. Separate 48-frame placement, prior opening/static/release studies remain recorded in their own QA; no full-story frame coverage.",
     "contact_study_source": "assets/stories/last-charge/opening-release-study.py",
     "contact_study_source_sha256": "9b078aa4607216ccd85b8baf2e1b6558e54a017a02d84a4ab3a4dbc16ace85bb",
     "contact_study_review": "assets/stories/last-charge/opening-release-review-v3.json",
@@ -33,7 +33,11 @@
     "current_orientation_stills_inspected": 1,
     "current_geometry_rest_top": 1.08,
     "older_geometry_pixels_held_for_full_story_use": true,
-    "prior_staging_release_picture_samples_inspected": 29
+    "prior_staging_release_picture_samples_inspected": 29,
+    "walking_controller": "assets/stories/last-charge/walking-study.py",
+    "walking_controller_sha256": "dd992693017f250606dea45bce4e3bdf5f057912ea25a1a4b50cfcb577cd6a84",
+    "walking_review": "assets/stories/last-charge/walking-review-v2.json",
+    "walking_diagnostic_frames_inspected": 31
   },
   "future_voice": {
     "config": "config/motivational-voice.json",
@@ -69,7 +73,8 @@
     "Sixteen phrase-caption intervals from the unchanged 60 words; layout/film sync pending.",
     "Source-specific Reverie commercial CC BY 4.0 candidate review and full source decode; no excerpt, mix or listening claimed.",
     "No full story, final soundtrack, new upload draft or schedule.",
-    "A current 48-frame silent native lift-over-rail/placement/release diagnostic and separate complete route-facing still, with actual review and held earlier camera/elbow versions. Full movie and soundtrack remain absent."
+    "A current 48-frame silent native lift-over-rail/placement/release diagnostic and separate complete route-facing still, with actual review and held earlier camera/elbow versions. Full movie and soundtrack remain absent.",
+    "A 31-frame native silent walking/carry diagnostic, with all decoded frames inspected, bounded contact metrics and a held obstructed first camera. No full route, reactions or finished movie."
   ],
   "full_movie_rights_review_complete": false,
   "full_movie_editorial_pass": false,

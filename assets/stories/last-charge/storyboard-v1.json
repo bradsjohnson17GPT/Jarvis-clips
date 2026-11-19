@@ -210,5 +210,8 @@
   "current_geometry_controller": "assets/stories/last-charge/placement-study.py",
   "current_geometry_controller_sha256": "1dc6ff18d05a9e5d0001a7db703216634793739465fd6e1e7f981ed9276b47cd",
   "native_placement_motion_frames_reviewed": 48,
-  "walking_motion_frames_reviewed": 0
+  "walking_motion_frames_reviewed": 31,
+  "walking_review": "assets/stories/last-charge/walking-review-v2.json",
+  "route_continuity_preflight": "assets/stories/last-charge/route-continuity-preflight-v1.json",
+  "route_completeness": "One short gait cycle inside the existing bridge envelope only. Full doorway approach, turn, traveler/neighbor performance and final shot continuity are not produced."
 }
