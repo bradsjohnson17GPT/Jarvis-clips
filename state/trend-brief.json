@@ -263,10 +263,11 @@
       "integrated_source_review": "assets/stories/counterweight-gate/integrated-source-review.json",
       "integrated_scene_source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
       "shared_scene_source_authored": true,
-      "verified_native_encoded_frames": 108,
+      "verified_native_encoded_frames": 216,
       "full_native_movie_exists": false,
-      "actual_native_encoded_frames_reviewed": 96,
-      "native_render_progress_observed_at_utc": "2026-11-19T06:28:14.248853+00:00"
+      "actual_native_encoded_frames_reviewed": 204,
+      "native_render_progress_observed_at_utc": "2026-11-19T07:03:15.830173+00:00",
+      "native_opening_review_complete": true
     },
     {
       "id": "quality_last_charge",
@@ -469,7 +470,7 @@
       "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-19T06:28:55.527125+00:00",
+  "production_reconciled_at_utc": "2026-11-19T07:03:55.372784+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-19T01:13:31.192223+00:00",
     "research_date_pacific": "2026-11-18",
@@ -508,7 +509,7 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-19T06:28:55.527125+00:00",
+    "prepared_at_utc": "2026-11-19T07:03:55.372784+00:00",
     "concept_id": "quality_counterweight_gate",
     "manifest": "stories/counterweight-gate.json",
     "status": "shared_scene_reviewed_native_full_render_in_progress",
@@ -550,9 +551,10 @@
     "new_passage_frames_rendered": 0,
     "passage_crop_asr_exact_match": true,
     "integrated_source_review": "assets/stories/counterweight-gate/integrated-source-review.json",
-    "verified_native_encoded_frames": 108,
+    "verified_native_encoded_frames": 216,
     "native_target_frames": 578,
     "full_native_animation_started": true,
-    "actual_native_encoded_frames_reviewed": 96
+    "actual_native_encoded_frames_reviewed": 204,
+    "native_opening_review_complete": true
   }
 }

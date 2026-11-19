@@ -1,8 +1,8 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T06:28:55.527125+00:00",
+  "reviewed_at_utc": "2026-11-19T07:03:55.372784+00:00",
   "reviewer": "Project production assistant",
-  "status": "first_native_opening_and_first_cut_reviewed_full_film_pending",
+  "status": "complete_native_opening_and_notice_cut_reviewed_full_film_pending",
   "source": "assets/stories/counterweight-gate/integrated-scene.py",
   "source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
   "motion_cache_metadata": "assets/stories/counterweight-gate/integrated/motion-cache.json",
@@ -35,6 +35,10 @@
     12,
     48,
     76,
+    110,
+    135,
+    165,
+    198,
     210
   ],
   "current_source_native_image_hashes": {
@@ -61,6 +65,22 @@
     "76": {
       "raw": "e04cb09a6d5509656642eb182f16727e4b42ca42fe3c7568514b6a2c0a07babc",
       "clean": "ec01f6364f01468bb9c0f22fe04b9a7b5c40d3c2da0fb1376747ea626dd88b7c"
+    },
+    "110": {
+      "raw": "405bd1576706071eeca44ba6284ebf6bcdf2e405e29277c0d65d570c74767600",
+      "clean": "e01061b0ffac2983b604d5e1311fb38eda3b7ffc6e7f3e7741c0e1db67e2a57a"
+    },
+    "135": {
+      "raw": "c02d5a80c83e9faa8d3731f70134afc43723070f838902fb8319a1dc77653da3",
+      "clean": "5dfbb9e022cf9058446e335065bf3a17dec6082a3874abec7bff9e97dbd4aa86"
+    },
+    "165": {
+      "raw": "50d4fcd0f4c5a8a926e2fd20098de0e3cd9366f4c631a5338b762119487dab58",
+      "clean": "c6fd7b3f88c1f6b9c4100bc976b09d42d5fbcf943e53968c405a1b61b5ec709d"
+    },
+    "198": {
+      "raw": "c4752009eef8968c80043208af90b8857fc2777fb0a3e58444f434ca3a196af0",
+      "clean": "963fa10ca2997ebfcb436ef8cc58a061932d8abf8a15c23925d4296597e0de93"
     }
   },
   "prior_v1_native_context_frames_viewed": [
@@ -123,7 +143,19 @@
     "The courier releases the remaining hand as the gate starts dropping, the empty basket rises in the opposite direction, and the gate reaches its lower stop by frame 76. Hands remain clear afterward; the courier then crouches for another lift.",
     "The caption the gate came down remains readable below the action during the fall and lower-stop frames. It fades out before the next shot; captions do not restart at the boundaries between encoded chunks.",
     "The camera cut between frames 91 and 92 keeps the crouched courier at the same gate and preserves the cart on the same side. The closer second view crops much of the cart and includes a large foreground pillar; full-film framing review remains pending.",
-    "These are current-source silent intermediate chunks. The complete native film, continuous playback and subjective soundtrack quality are not established."
+    "These are current-source silent intermediate chunks. The complete native film, continuous playback and subjective soundtrack quality are not established.",
+    "All 48 decoded frames 97\u2013144 were inspected in four sheets of 12 frames. Decoded frames 110/134/139/140 and current native frames 110/135 were also viewed individually at 720\u00d71280.",
+    "The close second attempt shows the courier rising from the crouch, lifting the gate while holding its handle, then releasing the hands as the gate falls again. The native lower-stop sample at frame 135 shows the hands clear of the lowered gate.",
+    "The caption I tried again follows the lift and release. The phrase and the whole line continues across the cut at frames 139/140 without resetting at the boundary between encoded chunks.",
+    "The camera cut reveals the same two waiting adults on the paved approach, with the loaded cart handle in the foreground. Both waiting adults and their feet are readable in decoded frame 140. Only the first five frames of that shot are covered by this review.",
+    "The closer attempt still crops much of the cart and includes a large foreground pillar. Hands partly overlap one another at the handle; this is a stylized grip, not a finger-grasp or full-body collision certification.",
+    "These current-source chunks contain no audio. Continuous playback, the complete native film and subjective soundtrack quality remain unverified.",
+    "All 60 decoded frames 145\u2013204 were inspected in five sheets of 12 frames. Decoded frames 165/197/198/204 and current native frames 165/198 were also viewed individually at 720\u00d71280.",
+    "The two waiting adults keep their feet on the paving through the waiting shot. Their body poses are largely still, with restrained blinks and facial detail rather than a large performance. The cart handle stays visible in the foreground.",
+    "The caption changes from and the whole line to waited with me at frame 156, then fades out before the cut to the courier. Captions remain readable below the faces; there is a deliberate uncaptained pause before the next phrase.",
+    "Both sides of the camera cut at frames 197/198 were inspected at full size. It returns from the waiting adults to the same concerned courier in a close-up. Then I noticed appears in the next frames without covering the eyes or mouth.",
+    "These first seven frames of the notice shot do not yet show the later head turn or basket-establishing view. Current-source frames 1\u2013204 are now actually inspected, including the whole 197-frame opening, but the full 578-frame film remains incomplete.",
+    "The intermediate chunks contain no audio. Actual continuous playback, full-film editorial quality and subjective soundtrack quality remain unverified."
   ],
   "narration_regenerated": false,
   "audio_remixed": false,
@@ -137,22 +169,22 @@
   "publishing_draft_created": false,
   "posting_queue_changed": false,
   "limits": [
-    "At this checkpoint, the first 96 encoded video frames are actually inspected, including the first gate drop and the 91/92 cut. The full 578-frame film and its finished audiovisual review remain pending.",
+    "At this checkpoint, current native encoded frames 1\u2013204 are actually inspected, including the complete 197-frame opening and the first seven frames of the notice shot. The full 578-frame film and its finished audiovisual review remain pending.",
     "Some hands, feet and cast are occluded in chosen views; final front view can crop the cart edge. Restrained faces/blinks and static torso/scarf remain stylized.",
     "Numerical endpoint/sole/rope checks do not establish swept full-body collision, realism, continuous playback or subjective sound quality.",
     "Review the actual full encoded film and every cut, speech/caption timing, retained AAC content and measured loudness/headroom before final candidate preparation."
   ],
   "native_render_progress_checkpoint": {
-    "observed_at_utc": "2026-11-19T06:28:14.248853+00:00",
-    "verified_encoded_frames": 108,
-    "source_and_denoise_frame_receipts_checked": 108,
+    "observed_at_utc": "2026-11-19T07:03:15.830173+00:00",
+    "verified_encoded_frames": 216,
+    "source_and_denoise_frame_receipts_checked": 216,
     "actual_encoded_frame_ranges_viewed": [
       [
         1,
-        96
+        204
       ]
     ],
-    "actual_encoded_frames_viewed": 96,
+    "actual_encoded_frames_viewed": 204,
     "full_size_encoded_frames_viewed": [
       1,
       12,
@@ -161,7 +193,15 @@
       48,
       76,
       91,
-      92
+      92,
+      110,
+      134,
+      139,
+      140,
+      165,
+      197,
+      198,
+      204
     ],
     "first_cut_pair_actually_viewed_full_size": [
       91,
@@ -177,14 +217,42 @@
       "cf1d51aaeb2ee709248c52e07c268aad07d9cb3deb2ec86865ffdf025b2a15d5",
       "aa07540947bfbf9aded013cbcac65671ce9661d095a3fc2ff14c522213aff035",
       "2b1377c4db2b7c8a4e327d0f62a747c13ca53f3dc6185591b7127ec62d642acf",
-      "7fc89e7f6b94f9e6f3c1805edebc6b18f937387a5af0f0af70cec074d62e33b8"
+      "7fc89e7f6b94f9e6f3c1805edebc6b18f937387a5af0f0af70cec074d62e33b8",
+      "2e4767ac7e56fbcd002255f013f2488849eafde94fb67e63691ca81990b4479a",
+      "68cc4e4bd3730018af6eab861ea1f6cb219b179425f1bc445300b71a05acbeb8",
+      "b52ff2c8f06f4277f964c36f62f5d9b3cf9e1ae1929df49536305809e3fff9d5",
+      "871e537cf05ad3ae50dafbb8b3c677aa20989dcc8f074e4a7abe106bf3aa8258",
+      "23806f469f3c93b684b2503b048ba6b14c96eb699fd394ee708e1b227e6e13a7",
+      "0c3d01b675b6978423532935bd870a9e3a2a6ba3cfbc73bbfc6e15b48c4d71da",
+      "141adca50d57f44fdf4128dac3a68519391100628255baed6639f81700254f79",
+      "461056e651b4454c80cf7399c25a9dcb734273ce3f90b3f46cd23e64214e1e47",
+      "6ccec1c6b053a7a70dd9525b98aec556f4d1ed3a5178b79cde145210e9f6afe4"
     ],
-    "native_numeric_png_links_pruned_after_verified_chunks": 200,
+    "native_numeric_png_links_pruned_after_verified_chunks": 400,
     "no_protected_frame_pruned": true,
     "complete_source_and_denoise_receipts_preserved": true,
     "full_v2_audio_unchanged": true,
     "new_finished_shorts": 0,
     "new_drafts": 0,
-    "posting_queue_changed": false
+    "posting_queue_changed": false,
+    "cut_pairs_actually_viewed_full_size": [
+      [
+        91,
+        92
+      ],
+      [
+        139,
+        140
+      ],
+      [
+        197,
+        198
+      ]
+    ],
+    "complete_native_opening_frames_viewed": 197,
+    "first_notice_shot_frames_viewed": [
+      198,
+      204
+    ]
   }
 }
