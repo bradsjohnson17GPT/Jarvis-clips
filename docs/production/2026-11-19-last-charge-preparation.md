@@ -1,6 +1,6 @@
 # Last Charge — original storyboard and narration source
 
-This develops the existing `quality_last_charge` idea. It is original fiction, with a complete [six-shot storyboard](../../assets/stories/last-charge/storyboard-v1.json), [manifest and spoken copy](../../stories/last-charge.json) and [planned-source record](../../assets/stories/last-charge/source-plan.json). Four native static staging poses, a refined close opening and a 24-frame silent hand-release diagnostic are now reviewed. The full story, final soundtrack, upload draft and schedule do not exist.
+This develops the existing `quality_last_charge` idea. It is original fiction, with a complete [six-shot storyboard](../../assets/stories/last-charge/storyboard-v1.json), [manifest and spoken copy](../../stories/last-charge.json) and [planned-source record](../../assets/stories/last-charge/source-plan.json). The original native staging and close opening now underpin a current 48-frame silent lift, placement and release diagnostic. Earlier low-rest pictures remain development prototypes. The full story, final soundtrack, upload draft and schedule do not exist.
 
 Rose, a fictional shopkeeper, has one personal lamp cell left. A traveler waits at a dark footbridge. Rose carries her own lamp past her empty doorway bracket and leaves it on the central rail. A neighbor brings a second independently powered lamp; another places a third beside the shop. She locks her door and turns toward the now-lit path home. The original amber-marked cell stays in the first lamp; no cell powers several fixtures or magically refills.
 
@@ -42,3 +42,18 @@ Source: https://www.scottbuckley.com.au/library/reverie/
 License: https://creativecommons.org/licenses/by/4.0/
 
 Record the actual excerpt/trim/fades/ducking/resampling changes with that credit. No endorsement or guaranteed claim-free publication is implied. The existing three saved drafts, 14 known project publications and 31 Metricool holds are unchanged; no new approval request or posting mutation occurred.
+
+
+## Raised support and placement development
+
+[Current placement QA](../../assets/stories/last-charge/placement-review-v5.json) records the new source, exact hashes, geometry finding, actual decoded-frame coverage and held earlier attempts. Source review found that the original 0.94-unit rest placed the lamp base through the handrail. The separate controller raises all three original rests to 1.08 model units and extends their supports; older low-rest pictures are retained as prototypes rather than final geometry.
+
+The current native diagnostic shows the lamp lifted before crossing the rail, lowered onto the higher rest, then released. Two-bone arm lengths remain fixed; an action-facing elbow pole and sleeve ending at the wrist improve the carrying pose. The original head, face and glasses move together. An opposite profile view, modest original area fill, separated traveler blocking and consistently oriented lamp/cell make the action clearer. This is a fixed planted stance, not a walking performance.
+
+The first version was held for a cropped orientation view and awkward raised carrying elbow. The next motion framing allowed the lifted lamp to cover part of the glasses. Another side view hid the initial grip and stacked the waiting traveler behind Rose’s hat. The next version still bent the final recovery elbow beside her cheek; the retained revision gradually guides the elbow outward/downward while preserving both bone lengths. Frozen sources, raw/clean pictures and actual review records remain preserved. The corrected separate route-facing still fits Rose/lamp but is only a static orientation proof, with cool-shadow face limitations.
+
+Five critical current native motion poses were inspected before filling the other 43 matching frames. All 48 decoded pictures were then viewed on four 12-frame sheets, with frames 1, 10, 20, 30, 35, 41 and 48 also checked at native size. The silent H.264 diagnostic is 720×1280, 48 frames at 24 fps, exactly 2 seconds, with full decode and all presentation timestamps n/24 verified. It has no audio. There is no upscale, interpolation, continuous playback or listening claim. All 41 repository tests pass. Detailed visual limitations stay in QA; technical checks do not establish full-story quality.
+
+Reuse the exact retained male take and current controller/raised fixtures. Supported route-facing walking, carrying continuity, traveler and neighbor reactions, separate lamp contributions, camera transitions, captions, effects and the final music/speech mix still need production and actual review before any 602-frame full-story job. All existing saved drafts, held copies and published videos are preserved, with no repeated approval question or posting mutation.
+
+The [walking contact preflight](../../assets/stories/last-charge/walk-contact-preflight-v1.json) derives a future short gait cycle with fixed leg lengths and stationary stance-foot anchors. All 151 numerical point samples are reachable within the existing bridge envelope. No walking rig, pictures, dynamic foot support, acting or actual motion pass exists from this plan; it is preparation for the next native test, using the unchanged voice.

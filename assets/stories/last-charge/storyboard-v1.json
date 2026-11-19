@@ -175,7 +175,7 @@
       ]
     }
   ],
-  "timing_status": "Six planned ranges now follow the retained measured25.062-second male source and actual aligned word timestamps. Picture target602frames at24fps,25.083333seconds; no picture frames are produced. Timings remain a staging plan until actual motion/encoded inspection.",
+  "timing_status": "Six ranges follow the unchanged measured 25.062-second male source. Target 602 full-story frames at 24 fps remains a plan. A separate 48-frame silent placement diagnostic is now reviewed; no integrated story frames or final audiovisual sync exist.",
   "caption_plan": "After a real take, place phrase captions in shot-specific negative space and inspect actual faces/grips/foot contacts; no reusable caption position is approved by this outline.",
   "sound_plan": {
     "voice": "Reuse the exact retained25.062-second male source and documented word timing. No take regeneration, finished-film sound synchronization or subjective audition occurred in the static scene study.",
@@ -205,5 +205,10 @@
   "publishable": false,
   "narration_preflight": "assets/stories/last-charge/narration-preflight.json",
   "native_staging_review": "assets/stories/last-charge/staging-review-v2.json",
-  "actual_static_pose_images_reviewed": 4
+  "actual_static_pose_images_reviewed": 4,
+  "current_geometry_review": "assets/stories/last-charge/placement-review-v5.json",
+  "current_geometry_controller": "assets/stories/last-charge/placement-study.py",
+  "current_geometry_controller_sha256": "1dc6ff18d05a9e5d0001a7db703216634793739465fd6e1e7f981ed9276b47cd",
+  "native_placement_motion_frames_reviewed": 48,
+  "walking_motion_frames_reviewed": 0
 }

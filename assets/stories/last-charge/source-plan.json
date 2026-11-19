@@ -1,8 +1,8 @@
 {
   "id": "last-charge",
-  "reviewed_at_utc": "2026-11-19T11:36:14.731738+00:00",
+  "reviewed_at_utc": "2026-11-19T15:07:48.253293+00:00",
   "reviewer": "Project production assistant",
-  "status": "original_opening_and_native_hand_release_study_reviewed_full_film_not_built",
+  "status": "original_native_placement_release_diagnostic_reviewed_full_film_not_built",
   "original_writing": {
     "idea_origin": "Existing quality_last_charge record in state/trend-brief.json; developed here into a new six-shot scene/action plan.",
     "authored_here": true,
@@ -14,18 +14,26 @@
     "plan": "New original shopkeeper/traveler/neighbors, three lamp/cell pairs, shop/footbridge/courtyard, cameras and lighting.",
     "external_models_or_footage_selected": [],
     "rights_review_after_assets_exist": true,
-    "actual_frames_inspected": 29,
+    "actual_frames_inspected": 49,
     "source": "assets/stories/last-charge/staging-study.py",
     "source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
     "review": "assets/stories/last-charge/staging-review-v2.json",
     "rights_basis": "Original procedural Blender primitives authored by this project; no imported model, texture, movie, game branding or real-person performance.",
     "commercial_project_use": true,
     "full_motion_and_film_review_pending": true,
-    "reviewed_picture_scope": "Four base static poses, one separate close opening still and 24 decoded contact-diagnostic frames. Not 29 full-story frames.",
+    "reviewed_picture_scope": "Current48-frame encoded placement diagnostic plus one separate route-facing still. Earlier base/opening/release review is archived in its own QA, not full-story frame coverage.",
     "contact_study_source": "assets/stories/last-charge/opening-release-study.py",
     "contact_study_source_sha256": "9b078aa4607216ccd85b8baf2e1b6558e54a017a02d84a4ab3a4dbc16ace85bb",
     "contact_study_review": "assets/stories/last-charge/opening-release-review-v3.json",
-    "rights_review_scope": "Original procedural geometry/code and the reviewed diagnostic only; full movie rights/editorial review remains incomplete."
+    "rights_review_scope": "Original procedural geometry/code and the reviewed diagnostic only; full movie rights/editorial review remains incomplete.",
+    "current_controller": "assets/stories/last-charge/placement-study.py",
+    "current_controller_sha256": "1dc6ff18d05a9e5d0001a7db703216634793739465fd6e1e7f981ed9276b47cd",
+    "current_review": "assets/stories/last-charge/placement-review-v5.json",
+    "current_diagnostic_motion_frames_inspected": 48,
+    "current_orientation_stills_inspected": 1,
+    "current_geometry_rest_top": 1.08,
+    "older_geometry_pixels_held_for_full_story_use": true,
+    "prior_staging_release_picture_samples_inspected": 29
   },
   "future_voice": {
     "config": "config/motivational-voice.json",
@@ -60,7 +68,8 @@
     "Four current base native stills, one refined close opening and 24 native silent release frames actually inspected. Held defective studies preserved.",
     "Sixteen phrase-caption intervals from the unchanged 60 words; layout/film sync pending.",
     "Source-specific Reverie commercial CC BY 4.0 candidate review and full source decode; no excerpt, mix or listening claimed.",
-    "No full story, final soundtrack, new upload draft or schedule."
+    "No full story, final soundtrack, new upload draft or schedule.",
+    "A current 48-frame silent native lift-over-rail/placement/release diagnostic and separate complete route-facing still, with actual review and held earlier camera/elbow versions. Full movie and soundtrack remain absent."
   ],
   "full_movie_rights_review_complete": false,
   "full_movie_editorial_pass": false,

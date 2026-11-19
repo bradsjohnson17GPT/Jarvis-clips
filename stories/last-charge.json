@@ -1,7 +1,7 @@
 {
   "id": "last-charge",
   "origin_idea_id": "quality_last_charge",
-  "status": "close_opening_and_silent_native_release_diagnostic_reviewed_full_story_pending",
+  "status": "native_lift_placement_release_diagnostic_reviewed_full_story_pending",
   "working_title": "The Lamp She Left Outside",
   "content_type": "fictional_micro_stories",
   "theme": "One visible act makes a shared route possible; others choose to contribute.",
@@ -23,7 +23,7 @@
   "scheduled": false,
   "publishable": false,
   "publication_evidence": null,
-  "next_work": "Reuse the exact male take, owned scene, reviewed close opening and corrected fixed-bone release path. Build bounded route-facing body/head orientation and carry/set-down/foot-contact motion, then transitions into the geography and neighbor contributions. Review actual native motion/captions/audio before any 602-frame full story render; no existing completed cache or voice regeneration.",
+  "next_work": "Reuse the unchanged male take, raised-rest geometry and reviewed placement/release controller. Build bounded route-facing carry and supported walking, then traveler/neighbor reactions and independent lamp contributions. Keep all earlier caches held/preserved; no final602-frame story job until actual motion/continuity review. Caption layout, effects and music mix still require finished-picture review.",
   "prepared_at_utc": "2026-11-19T10:21:44.548319+00:00",
   "narration": "Rose's lamp had one charge left. A traveler was waiting at the dark bridge. She carried the light past her own doorway and set it on the bridge rail. The traveler started across. A neighbor brought a second lamp. Another placed a third beside the shop. Rose locked her door and turned toward home. All three lamps lit the path.",
   "narration_paragraphs": [
@@ -63,5 +63,15 @@
   "diagnostic_duration_seconds": 1,
   "diagnostic_has_audio": false,
   "opening_release_reviewed_at_utc": "2026-11-19T11:36:14.731738+00:00",
-  "story_frame_counts_scope": "The integrated story has no rendered frames yet. The 24 separately recorded diagnostic frames are a silent contact prototype."
+  "story_frame_counts_scope": "The integrated story has no rendered frames yet. The 24 separately recorded diagnostic frames are a silent contact prototype.",
+  "current_scene_controller": "assets/stories/last-charge/placement-study.py",
+  "current_scene_controller_sha256": "1dc6ff18d05a9e5d0001a7db703216634793739465fd6e1e7f981ed9276b47cd",
+  "placement_review": "assets/stories/last-charge/placement-review-v5.json",
+  "placement_diagnostic_frames": 48,
+  "placement_diagnostic_seconds": 2,
+  "placement_decoded_frames_actually_reviewed": 48,
+  "current_lamp_rest_top": 1.08,
+  "placement_reviewed_at_utc": "2026-11-19T15:07:48.253293+00:00",
+  "walk_contact_preflight": "assets/stories/last-charge/walk-contact-preflight-v1.json",
+  "walk_native_frames_rendered": 0
 }

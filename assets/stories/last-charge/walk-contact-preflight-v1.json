@@ -1,0 +1,48 @@
+{
+  "prepared_at_utc": "2026-11-19T14:58:09.796908+00:00",
+  "status": "numerical_contact_plan_no_animation_or_visual_pass",
+  "original_scene_source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+  "existing_clean_voice_sha256": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a",
+  "new_spoken_script_or_voice": false,
+  "full_story_duration_changed": false,
+  "native_diagnostic_plan_only": {
+    "fps": 24,
+    "cycle_seconds": 1.25,
+    "endpoint_inclusive_samples_if_built": 31,
+    "video_seconds_if31frames": 1.2916666666666667,
+    "root_forward_distance": 0.4,
+    "root_base_z": 0.04,
+    "root_bob_max": 0.01,
+    "swing_sole_lift_max": 0.07,
+    "leg_lengths": [
+      0.33,
+      0.29
+    ],
+    "flat_stance_shoe_sole_plane": 0.08,
+    "route_facing_world": [
+      0,
+      1,
+      0
+    ]
+  },
+  "dense_numeric_samples": 151,
+  "stance_foot_world_drift_within_plan": 0,
+  "constant_leg_lengths_verified": true,
+  "sampled_ankle_reachability_verified": true,
+  "plank_envelope_contains_flat_foot_plan": true,
+  "actual_geometry_collision_checked": false,
+  "native_frames_rendered": 0,
+  "actual_images_or_motion_reviewed": false,
+  "new_render_job_started": false,
+  "source_narration_regenerated": false,
+  "finished_story_exists": false,
+  "publishable": false,
+  "limits": [
+    "Point-based kinematic/flat-shoe envelope plan only; no modeled rig, swept collision, support forces, foot rolls, carry grip, acting or editorial quality verdict.",
+    "The short planned cycle remains inside the existing bridge envelope; no doorway-to-bridge route or turn has been produced.",
+    "Requires actual native critical poses and all-frame review before any full-story use."
+  ],
+  "id": "last-charge-walk-contact-preflight",
+  "reviewer": "Project production assistant",
+  "private_dense_point_record": "work/preproduction/last-charge/walk-contact-preflight-v1/contact-plan.json"
+}
