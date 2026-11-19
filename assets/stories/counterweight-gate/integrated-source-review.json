@@ -1,8 +1,8 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T07:03:55.372784+00:00",
+  "reviewed_at_utc": "2026-11-19T07:23:35.330372+00:00",
   "reviewer": "Project production assistant",
-  "status": "complete_native_opening_and_notice_cut_reviewed_full_film_pending",
+  "status": "complete_native_notice_and_stair_entry_cut_reviewed_full_film_pending",
   "source": "assets/stories/counterweight-gate/integrated-scene.py",
   "source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
   "motion_cache_metadata": "assets/stories/counterweight-gate/integrated/motion-cache.json",
@@ -39,7 +39,8 @@
     135,
     165,
     198,
-    210
+    210,
+    244
   ],
   "current_source_native_image_hashes": {
     "1": {
@@ -81,6 +82,10 @@
     "198": {
       "raw": "c4752009eef8968c80043208af90b8857fc2777fb0a3e58444f434ca3a196af0",
       "clean": "963fa10ca2997ebfcb436ef8cc58a061932d8abf8a15c23925d4296597e0de93"
+    },
+    "244": {
+      "raw": "ebe266d2a9ebb0e646fb52823bb53acb653a14639cacbf1ba5c527bf5296986a",
+      "clean": "6c254647d2cf3a8b9c137570948eb9b63bbf9d0334b59e6115497f388285bc68"
     }
   },
   "prior_v1_native_context_frames_viewed": [
@@ -155,7 +160,13 @@
     "The caption changes from and the whole line to waited with me at frame 156, then fades out before the cut to the courier. Captions remain readable below the faces; there is a deliberate uncaptained pause before the next phrase.",
     "Both sides of the camera cut at frames 197/198 were inspected at full size. It returns from the waiting adults to the same concerned courier in a close-up. Then I noticed appears in the next frames without covering the eyes or mouth.",
     "These first seven frames of the notice shot do not yet show the later head turn or basket-establishing view. Current-source frames 1\u2013204 are now actually inspected, including the whole 197-frame opening, but the full 578-frame film remains incomplete.",
-    "The intermediate chunks contain no audio. Actual continuous playback, full-film editorial quality and subjective soundtrack quality remain unverified."
+    "The intermediate chunks contain no audio. Actual continuous playback, full-film editorial quality and subjective soundtrack quality remain unverified.",
+    "All 60 decoded frames 205\u2013264 were inspected in five sheets of 12 frames. Decoded frames 210/225/226/244/262/263 and current native frame 244 were also viewed individually at 720\u00d71280.",
+    "The courier blinks, then turns and tilts the head as the face changes from a frown toward a slight smile. In encoded frame 210, the white highlights stay within the closing eyes; the earlier floating-highlight defect is absent in this actual encoded sample.",
+    "The cut at frames 225/226 connects the courier close-up to a view of the same gate, overhead rope/pulleys, visibly empty basket and raised stone tray. The courier is smaller and partly occluded in that wider framing. Stone identities are supported by the scene records; every stone is not separately countable in every view.",
+    "The caption counterweight basket remains below the mechanism and fades out before the stair cut. The first two stair frames establish the steps, source stones, empty basket and courier at the foot of the stairs. The cut elides travel from the gate to the steps.",
+    "At the stair entry, the courier is near the right edge and partly cropped; a foreground planter also obscures some footing. The remaining ascent and its actual encoded contact frames still need review.",
+    "Current encoded frames 1\u2013264 are now actually inspected, including all 65 notice frames 198\u2013262 and only the first two stair frames. The complete 578-frame film and subjective soundtrack quality remain pending."
   ],
   "narration_regenerated": false,
   "audio_remixed": false,
@@ -169,22 +180,23 @@
   "publishing_draft_created": false,
   "posting_queue_changed": false,
   "limits": [
-    "At this checkpoint, current native encoded frames 1\u2013204 are actually inspected, including the complete 197-frame opening and the first seven frames of the notice shot. The full 578-frame film and its finished audiovisual review remain pending.",
+    "At this checkpoint, current native encoded frames 1\u2013264 are inspected, including the complete 197-frame opening, all 65 notice frames and the first two stair frames. The full 578-frame film and its finished audiovisual review remain pending.",
     "Some hands, feet and cast are occluded in chosen views; final front view can crop the cart edge. Restrained faces/blinks and static torso/scarf remain stylized.",
     "Numerical endpoint/sole/rope checks do not establish swept full-body collision, realism, continuous playback or subjective sound quality.",
-    "Review the actual full encoded film and every cut, speech/caption timing, retained AAC content and measured loudness/headroom before final candidate preparation."
+    "Review the actual full encoded film and every cut, speech/caption timing, retained AAC content and measured loudness/headroom before final candidate preparation.",
+    "The wide mechanism shot makes the courier smaller and partly occluded. The stair entry places the courier near the right edge with partial cropping and foreground planter occlusion; the ascent remains for actual encoded review."
   ],
   "native_render_progress_checkpoint": {
-    "observed_at_utc": "2026-11-19T07:03:15.830173+00:00",
-    "verified_encoded_frames": 216,
-    "source_and_denoise_frame_receipts_checked": 216,
+    "observed_at_utc": "2026-11-19T07:22:49.509671+00:00",
+    "verified_encoded_frames": 276,
+    "source_and_denoise_frame_receipts_checked": 276,
     "actual_encoded_frame_ranges_viewed": [
       [
         1,
-        204
+        264
       ]
     ],
-    "actual_encoded_frames_viewed": 204,
+    "actual_encoded_frames_viewed": 264,
     "full_size_encoded_frames_viewed": [
       1,
       12,
@@ -201,7 +213,13 @@
       165,
       197,
       198,
-      204
+      204,
+      210,
+      225,
+      226,
+      244,
+      262,
+      263
     ],
     "first_cut_pair_actually_viewed_full_size": [
       91,
@@ -226,9 +244,14 @@
       "0c3d01b675b6978423532935bd870a9e3a2a6ba3cfbc73bbfc6e15b48c4d71da",
       "141adca50d57f44fdf4128dac3a68519391100628255baed6639f81700254f79",
       "461056e651b4454c80cf7399c25a9dcb734273ce3f90b3f46cd23e64214e1e47",
-      "6ccec1c6b053a7a70dd9525b98aec556f4d1ed3a5178b79cde145210e9f6afe4"
+      "6ccec1c6b053a7a70dd9525b98aec556f4d1ed3a5178b79cde145210e9f6afe4",
+      "aa37660908f8b978215b1e6968a699d538a38433b68d3bab26192cc14e419f1b",
+      "9dbc8965e96c475dc0d24427b925efa6cf9ff8853849eb295a35d406e8da72ac",
+      "8193b1930503a97f22986ee5b17f4ba438cc2b68dbc046c8b9710b6da87f05f9",
+      "8193b1930503a97f22986ee5b17f4ba438cc2b68dbc046c8b9710b6da87f05f9",
+      "c36d695f6ace06437caa22fc2cda151990948a463f39ab5a006842beac86492b"
     ],
-    "native_numeric_png_links_pruned_after_verified_chunks": 400,
+    "native_numeric_png_links_pruned_after_verified_chunks": 508,
     "no_protected_frame_pruned": true,
     "complete_source_and_denoise_receipts_preserved": true,
     "full_v2_audio_unchanged": true,
@@ -247,12 +270,25 @@
       [
         197,
         198
+      ],
+      [
+        225,
+        226
+      ],
+      [
+        262,
+        263
       ]
     ],
     "complete_native_opening_frames_viewed": 197,
     "first_notice_shot_frames_viewed": [
       198,
       204
+    ],
+    "complete_native_notice_frames_viewed": 65,
+    "first_stair_frames_viewed": [
+      263,
+      264
     ]
   }
 }

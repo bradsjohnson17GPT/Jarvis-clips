@@ -240,12 +240,12 @@
   "integrated_motion_cache": "assets/stories/counterweight-gate/integrated/motion-cache.json",
   "integrated_source_review": "assets/stories/counterweight-gate/integrated-source-review.json",
   "shared_scene_source_authored": true,
-  "verified_full_native_encoded_frames": 216,
+  "verified_full_native_encoded_frames": 276,
   "native_full_target_frames": 578,
   "full_native_movie_exists": false,
   "private_native_render_pointer": "work/preproduction/counterweight-gate/integrated-current.json",
-  "actual_native_encoded_frames_reviewed": 204,
-  "native_render_progress_observed_at_utc": "2026-11-19T07:03:15.830173+00:00",
+  "actual_native_encoded_frames_reviewed": 264,
+  "native_render_progress_observed_at_utc": "2026-11-19T07:22:49.509671+00:00",
   "native_cut_pairs_reviewed": [
     [
       91,
@@ -258,7 +258,16 @@
     [
       197,
       198
+    ],
+    [
+      225,
+      226
+    ],
+    [
+      262,
+      263
     ]
   ],
-  "native_opening_review_complete": true
+  "native_opening_review_complete": true,
+  "native_notice_review_complete": true
 }
