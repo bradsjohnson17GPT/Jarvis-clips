@@ -1,0 +1,205 @@
+{
+  "id": "counterweight-gate",
+  "completed_at_utc": "2026-11-19T04:55:46.610846+00:00",
+  "scope": "cart/line passage development only, not full story",
+  "source_sha256": "df1b6022ba7f41f1e3eac554e04888453b84a5e17a94f3b0759ef1c60997071c",
+  "input_stone_blend_sha256": "0adb6d86642ceb6973beba1db77228841c987903aca7134755a56748811b6873",
+  "video_sha256": "f15efc282648bc21a35f390c6bb8d5b546550f03c9e9aa385828e3943b82adc7",
+  "video_bytes": 490310,
+  "native_dimensions": [
+    360,
+    640
+  ],
+  "fps": 24,
+  "frames": 140,
+  "story_frames": [
+    439,
+    578
+  ],
+  "duration_seconds": 5.833333333333333,
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "duration_seconds": 5.833
+  },
+  "source_audio_preflight_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
+  "source_audio_excerpt_seconds": [
+    18.25,
+    24.083333333333332
+  ],
+  "narration_regenerated": false,
+  "audio_remixed": false,
+  "audio_reencoded_for_crop": true,
+  "caption_sha256": "16e4512a0cb0fc80d8c35626c6c5feea7c7306b5ba99382e50a3db1817779f74",
+  "encoded_asr_exact_normalized_match": true,
+  "encoded_asr_transcript": "I rolled through, behind me the whole line started moving.",
+  "encoded_loudness": {
+    "input_i": "-16.34",
+    "input_tp": "-3.36",
+    "input_lra": "2.60",
+    "input_thresh": "-27.93",
+    "output_i": "-15.82",
+    "output_tp": "-3.00",
+    "output_lra": "0.90",
+    "output_thresh": "-27.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.18"
+  },
+  "all140_raw_clean_hash_pairs_verified": true,
+  "strict_full_decode_passed": true,
+  "all140_pts_n_over24_verified": true,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "cut_boundaries_story": [
+    [
+      498,
+      499
+    ]
+  ],
+  "cut_boundaries_encoded": [
+    [
+      60,
+      61
+    ]
+  ],
+  "actual_encoded_frames_visually_reviewed": 140,
+  "continuous_playback_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "full_story_animation": false,
+  "publishable": false,
+  "asr_comparator_correction": "The private wrapper inherited an unrelated expected phrase. Its initial result is retained privately. The final comparison below uses the unchanged manifest final paragraph; no audio regeneration, ASR rerun or media change.",
+  "encoded_asr_expected": "I rolled through. Behind me, the whole line started moving.",
+  "encoded_asr_expected_source": "stories/counterweight-gate.json narration_paragraphs[-1]",
+  "reviewed_at_utc": "2026-11-19T04:57:32.406358+00:00",
+  "reviewer": "Project production assistant",
+  "source": "assets/stories/counterweight-gate/passage-study.py",
+  "action_plan_sha256": "e3f7aaffcfffd92bcf1cf9b57d001898b98b5573bc1e45e5abf78e09e49de7ce",
+  "review_method": "All 140 actual decoded MP4 frames viewed in four numbered sheets; listed encoded samples additionally viewed at native 360x640. Eight native 720x1280 source samples were inspected before rendering. No continuous playback or audio audition claimed.",
+  "full_size_encoded_frames_viewed": [
+    1,
+    13,
+    24,
+    40,
+    60,
+    61,
+    70,
+    88,
+    112,
+    126,
+    139,
+    140
+  ],
+  "full_size_encoded_story_frames_viewed": [
+    439,
+    451,
+    462,
+    478,
+    498,
+    499,
+    508,
+    526,
+    550,
+    564,
+    577,
+    578
+  ],
+  "native_720_story_frames_viewed": [
+    439,
+    451,
+    478,
+    498,
+    499,
+    526,
+    550,
+    578
+  ],
+  "full_size_native_720_story_frames_viewed": [
+    439,
+    478,
+    499,
+    578
+  ],
+  "decoded_frame_hash_record_sha256": "e2da07268204ba580ccaf027e255e18b3c61a238791a5c0c4c01af384eb59363",
+  "full_size_encoded_png_sha256": {
+    "1": "92c86345a2e0ddac5361fb4e95c8bbb868c63e13f87aebad232bf1ed67ed12a3",
+    "13": "416feb5f097c22115e087bee60e04a67882106b629133325e2cb740f70ca176c",
+    "24": "f7ac72a3452379b399719c6b9cd47deb7cc3d1e9bb024a6a4c10c72cdf6ed6d8",
+    "40": "99a485d125c793b6db87af53d883097d8a092f09e0381baa29cc001e99f4763a",
+    "60": "cdd229c62ef5fec47973e9cea3256e96899e4b731b7c0892ca38bd35371300db",
+    "61": "72cef343883961f27c137b5faa3d5f82e847e0182a0cf4e6670b0e5587b050fe",
+    "70": "5aee7c97683a4bab7fb0f3315c5fb2861c62b10caa9f62da1c826fde540e2836",
+    "88": "0099b72aa79e720dcd0ce9c4b1b7d8491f9abdd72fb0643f583ad6894ac20f32",
+    "112": "e85d9dcf70e796360360532b7700c349d60fe537d33a36dab44726b738ceeb19",
+    "126": "d925329c78c35e0bd67b5fb0ff78c4e333c457682e41c2f230ba7e7591138f12",
+    "139": "28f406a83b5c1211dae749e09dcf06d41de005e834affefdfdd165685987b168",
+    "140": "903bfb159066830d1956c5833e440dd175f3c336770d27ec5566af38b0fe53e2"
+  },
+  "original_source_rights": "Existing project-owned courier and two differently dressed cast copies, original mechanism/tray/cart/eight stones. Original extension of the reviewed planted-foot/mitten solver, lane trajectories, wheel controller and cameras. No external models, textures, media or voices added.",
+  "render_settings": {
+    "engine": "Cycles CPU",
+    "samples": 8,
+    "threads": 2,
+    "denoiser": "Reviewed OIDN at unchanged native dimensions"
+  },
+  "repository_tests_passed": 41,
+  "numerical_checks": {
+    "all140_pose_records_checked": true,
+    "max_same_stance_world_drift": 5.101335873789695e-07,
+    "max_ankle_target_error": 9.583196157701926e-07,
+    "max_sole_plane_error": 1.6798172687571e-07,
+    "max_mitten_target_error": 9.610960183499514e-07,
+    "at_least_one_planted_foot_per_actor_per_frame": true,
+    "cart_total_travel_scene_units": 3.25,
+    "cart_wheel_rotation_radians": -20.3125,
+    "cast_end_roots": [
+      [
+        0.30000001192092896,
+        0.699999988079071,
+        -0.13500003516674042
+      ],
+      [
+        -0.4000000059604645,
+        1.5478371381759644,
+        -0.12960466742515564
+      ],
+      [
+        -0.4000000059604645,
+        0.6476723551750183,
+        -0.1404050886631012
+      ]
+    ],
+    "same_two_waiting_adults_advance": true,
+    "loaded_gate_basket_and_eight_stones_preserved": true,
+    "rope_length_variation_scene_units": 0.0,
+    "full_body_swept_collision_or_natural_gait_validated": false
+  },
+  "actual_visual_findings": [
+    "The rear tracking sequence shows the cart/courier moving beneath the same raised gate, with alternating planted/swinging feet. The gate/posts change relative position as the camera follows. Face and much of the handle contact are hidden from this angle.",
+    "The 60/61 cut changes to the front side, showing the same cart, amber courier and two differently dressed waiting adults. Both followers advance toward/through the arch; the last frames show the cart beyond the threshold and followers beside/behind it.",
+    "Some arms, feet and body surfaces are occluded by the cart or other cast. The end grouping is close in projection. No full-body collision clearance or natural-gait verdict follows from image/endpoint checks.",
+    "Caption phrases I rolled through, Behind me, the whole line and started moving appear in source order with fade gaps and a clear ending; the original-fiction label remains. Text is readable at native360x640 in inspected samples. These images do not establish subjective audio synchronization.",
+    "The front view has pronounced wide perspective and a large gate panel above the cast. Brisk stylized steps, fixed facial expressions, stiff torso/scarf and gray background remain development limitations. Full-scene geometry/pose/camera continuity and editorial finishing are still pending."
+  ],
+  "held_numeric_checks": [
+    "Neutral-foot startup held its first stance too long and exceeded leg reach in check-v1/v2. Corrected before native rendering by reusing supported forward/back stance offsets and a slight ready-step knee bend."
+  ],
+  "shot_lenses_mm": [
+    31.9304947056878,
+    11.858363553560707
+  ],
+  "editorial_return_cut": "Elides travel back from the landing to the cart. No claim of an unbroken journey.",
+  "editorial_limits": [
+    "Bounded passage prototype; no complete native film, final editorial pass, publishing draft or posting candidate.",
+    "Ready-step poses require integration with earlier static waiting poses. First shot hides the face and some hand contacts; front view has body/cart occlusions and a strongly wide fitted lens.",
+    "Brisk stylized gait, fixed torso/scarf, fixed expressions and gray environment remain unfinished. Foot locks and endpoints do not establish full-body collision clearance or physical realism.",
+    "Earlier opening/stair pictures have an older five-floor-stone arrangement. Use one consistent final scene with the raised tray/eight stones; do not stitch incompatible cached pictures.",
+    "All planned narrative frame ranges now have separate development studies, but coherent geometry, poses, cameras, environment, cuts and whole-film audiovisual review remain pending."
+  ],
+  "all_planned_frame_ranges_have_separate_development_studies": true,
+  "full_story_editorial_pass": false,
+  "ready_candidate": false,
+  "new_service_drafts": 0,
+  "posting_queue_changed": false,
+  "status": "reviewed_cart_line_passage_development_not_full_story"
+}

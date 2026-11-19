@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T04:21:36.111554+00:00",
+  "reviewed_at_utc": "2026-11-19T04:57:32.406358+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -123,6 +123,16 @@
     "review": "assets/stories/counterweight-gate/notice-review.json",
     "input_original_stone_scene_sha256": "0adb6d86642ceb6973beba1db77228841c987903aca7134755a56748811b6873",
     "rights_basis": "Same project-owned courier/cast and original mechanism, raised tray and eight persistent stones from the reviewed stone scene. Original head/arm/foot controller and expression/cameras. No external media, models, textures or voices added.",
+    "commercial_project_use": true,
+    "audio": "Existing reviewed v2 male take/licensed music/original effects excerpt, cropped and AAC re-encoded only.",
+    "full_story_exists": false
+  },
+  "cart_line_passage_prototype": {
+    "source": "assets/stories/counterweight-gate/passage-study.py",
+    "sha256": "df1b6022ba7f41f1e3eac554e04888453b84a5e17a94f3b0759ef1c60997071c",
+    "review": "assets/stories/counterweight-gate/passage-review.json",
+    "input_original_stone_scene_sha256": "0adb6d86642ceb6973beba1db77228841c987903aca7134755a56748811b6873",
+    "rights_basis": "Existing project-owned courier and two differently dressed cast copies, original mechanism/tray/cart/eight stones. Original extension of the reviewed planted-foot/mitten solver, lane trajectories, wheel controller and cameras. No external models, textures, media or voices added.",
     "commercial_project_use": true,
     "audio": "Existing reviewed v2 male take/licensed music/original effects excerpt, cropped and AAC re-encoded only.",
     "full_story_exists": false

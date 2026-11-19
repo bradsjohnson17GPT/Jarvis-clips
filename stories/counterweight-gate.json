@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_male_audio_opening_notice_stair_stone_development_not_full_story",
+  "status": "original_male_audio_all_story_beats_in_separate_development_not_final_film",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -85,7 +85,7 @@
     "start": 144
   },
   "source_plan": {
-    "visuals": "Original scene assets and opening, notice/head turn, stair, cart and stone-transfer/gate-rise development exist. Notice reuses the stone study raised tray/eight-stone scene. A consistent final scene, actual passage payoff, expression and environment finish remain pending.",
+    "visuals": "Every planned narrative frame range has a separate development study: opening197, notice65, stair56, stone120 and cart/line passage140. Same owned cast, cart and mechanism. Final shared geometry/pose continuity, expression/cameras, courtyard finish and whole-film review remain pending.",
     "voice": "One reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
     "effects": "Original gate-stop, pulley, stone-deposit, boot-tread and cart-wheel cues now synthesized/mixed from the planned action times; actual animated sync remains pending.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse completed opening/notice/stair/cart/stone controllers and QA with the exact male take, captions and v2 audio. Create one consistent final scene with the raised tray and same eight stones present throughout; older opening/stair pictures use five floor stones. Build actual courier/cart passage and same-cast line payoff at frames 439..578, inspect stair/landing and return cuts, finish expression/cameras/courtyard, reserve native storage from final-scene samples and review the whole encoded audiovisual film. Preserve completed studies and existing voice/audio.",
+  "next_work": "Reuse completed opening/notice/stair/cart/stone/passage controllers and QA with exact male narration, captions and v2 soundtrack. Build one coherent final scene: raised tray/eight stones from the beginning, consistent waiting/ready-step poses, stair/landing and return cuts, expressive acting/cameras and finished courtyard. Earlier opening/stair cached pictures have incompatible five-floor-stone geometry and must not be stitched into the final film. Reserve native storage using final-scene samples, then inspect a complete encoded audiovisual film. Preserve all completed development media/source/QA and existing voice/audio.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -220,5 +220,19 @@
   "notice_actual_encoded_frames_reviewed": 65,
   "notice_head_turn_prototype_prepared": true,
   "do_not_regenerate_existing_notice_test": true,
-  "notice_prepared_at_utc": "2026-11-19T04:21:36.111554+00:00"
+  "notice_prepared_at_utc": "2026-11-19T04:21:36.111554+00:00",
+  "passage_motion_review": "assets/stories/counterweight-gate/passage-review.json",
+  "passage_motion_source_sha256": "df1b6022ba7f41f1e3eac554e04888453b84a5e17a94f3b0759ef1c60997071c",
+  "private_passage_development": "work/preproduction/counterweight-gate/passage-motion-v1",
+  "passage_development_video_sha256": "f15efc282648bc21a35f390c6bb8d5b546550f03c9e9aa385828e3943b82adc7",
+  "passage_development_seconds": 5.833333333333333,
+  "passage_development_story_frames": [
+    439,
+    578
+  ],
+  "passage_actual_encoded_frames_reviewed": 140,
+  "cart_line_passage_prototype_prepared": true,
+  "do_not_regenerate_existing_passage_test": true,
+  "passage_prepared_at_utc": "2026-11-19T04:57:32.406358+00:00",
+  "all_planned_frame_ranges_have_separate_development_studies": true
 }
