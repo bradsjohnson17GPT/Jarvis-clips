@@ -1,0 +1,13 @@
+# Counterweight Gate — versioned stone cue preparation
+
+The original plan placed the first stone impact only five frames after the stone-loading cut. The existing opening/stair tests remain complete and reusable; no stone animation yet proves the later action. This preparation gives a future visible pickup, hand transfer and short fall more time without changing the spoken story or recording.
+
+[Action plan v2](../../assets/stories/counterweight-gate/action-plan-v2.json) changes only the three stone-impact times to **13.875, 14.5 and 15.125 seconds**, with explicit pickup/release timing. The existing gate, stair, raised-stop and cart cue times remain. The planned cut onto the landing may elide the short route from the top tread; it must be inspected as an editorial cut, not described as continuous movement. The plan's planning-status fields are not current execution evidence; use the manifest and individual QA records for completed work.
+
+[Audio preflight v2](../../assets/stories/counterweight-gate/audio-preflight-v2.json) was actually mixed/encoded using that plan. It preserves the exact cleaned generic male am_michael take and the exact ducked licensed Ascension stem. No voice generation, pitch/tempo change, new music selection or external effect sample was used. The original seeded stone effects move to the later cue positions. The helper now accepts an explicit `--action-plan` path; its default remains the retained original plan.
+
+The encoding has 24.083-second stereo 48 kHz AAC, strict full decode and an exact normalized 55-word ASR match. It measures **−16.03 LUFS / −3.31 dBTP**. All 41 repository tests passed after the helper change. These are audio preparation checks, not subjective listening, actual stone-motion synchronization or a full-film editorial pass.
+
+Keep [v1 plan](../../assets/stories/counterweight-gate/action-plan.json), [v1 audio evidence](../../assets/stories/counterweight-gate/audio-preflight.json) and all completed development encodings. Future final assembly should use the explicit v2 pair if its actual events follow these new times. Do not splice earlier development soundtrack excerpts into the final film blindly or regenerate the saved male take. A further timing change requires its own retained version.
+
+Eight individual stones, their grouped 3/3/2 pickup/transfer/fall paths, landing support, hand clearance before basket descent and the passage payoff remain unbuilt. No new tray, stone geometry, animation, render, upload draft or posting slot was created here. The incoming scout task steered the rest of this run to free research; that research and its holds are recorded separately in the [late scout note](../trends/2026-11-18-late-quality-scout.md).

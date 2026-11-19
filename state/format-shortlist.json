@@ -22,14 +22,15 @@
     "uncleared streamer or celebrity reposts",
     "new formats selected only from a viral title or unverified chart"
   ],
-  "last_check_at_utc": "2026-11-18T19:00:25.349680+00:00",
+  "last_check_at_utc": "2026-11-19T01:13:31.192223+00:00",
   "latest_check": {
-    "notes": "docs/trends/2026-11-18-1100-quality-scout.md",
+    "notes": "docs/trends/2026-11-18-late-quality-scout.md",
     "new_view_observations": 0,
     "new_current_short_rankings_verified": false,
     "existing_format_evidence_date": "2026-11-16",
     "new_commercial_sources_cleared": 0,
-    "existing_source_leads_advanced": 1,
-    "interpretation": "Actual paired samples show673130 opening overlaps already-used646927; do not count it as a distinct interview or new format test. No mature own-channel comparison, allocation change or fresh audience counter."
+    "new_creator_policy_candidates": 2,
+    "new_publisher_media_metadata_leads": 1,
+    "interpretation": "No fresh audience/velocity or mature own-channel comparison; no allocation change. Catalog item counts are not audience metrics. Existing motivational/character formats remain small explorations."
   }
 }

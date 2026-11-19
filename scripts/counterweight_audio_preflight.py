@@ -100,10 +100,13 @@ def main():
     parser.add_argument('--music', type=Path, required=True)
     parser.add_argument('--asr-cache', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--action-plan', type=Path, help='Explicit versioned plan; defaults to the retained original plan.')
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     story = json.loads((root / 'stories/counterweight-gate.json').read_text())
-    plan_path = root / 'assets/stories/counterweight-gate/action-plan.json'
+    plan_path = args.action_plan or root / 'assets/stories/counterweight-gate/action-plan.json'
+    if not plan_path.is_absolute():
+        plan_path = root / plan_path
     plan = json.loads(plan_path.read_text())
     captions = json.loads((root / 'assets/stories/counterweight-gate/caption-plan.json').read_text())
     voice_config = json.loads((root / 'config/motivational-voice.json').read_text())
@@ -179,7 +182,7 @@ def main():
     essence = run(['ffmpeg', '-v', 'error', '-i', str(encoded), '-map', '0:a:0', '-c:a', 'copy', '-f', 'adts', 'pipe:1']).stdout
     record = {'id': story['id'], 'prepared_at_utc': datetime.now(timezone.utc).isoformat(),
               'status': 'encoded_audio_preflight_only_animation_sync_and_subjective_review_pending', 'script': str(Path(__file__).relative_to(root)), 'script_sha256': digest(Path(__file__)),
-              'action_plan_sha256': digest(plan_path), 'narration_sha256': digest(narrator), 'narrator': timing['voice'], 'narration_regenerated': False,
+              'action_plan': str(plan_path.relative_to(root)), 'action_plan_sha256': digest(plan_path), 'narration_sha256': digest(narrator), 'narrator': timing['voice'], 'narration_regenerated': False,
               'spoken_script_unchanged': True, 'spoken_words': len(timing['words']), 'duration_seconds': duration,
               'actual_aac_stream_duration_seconds': float(stream['duration']), 'exact_target_pcm_samples': samples,
               'aac_sha256': digest(encoded), 'aac_essence_adts_sha256': hashlib.sha256(essence).hexdigest(),

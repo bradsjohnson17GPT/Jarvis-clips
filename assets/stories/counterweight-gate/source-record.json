@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T00:52:53.800200+00:00",
+  "reviewed_at_utc": "2026-11-19T01:13:31.192223+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -97,5 +97,15 @@
     "audio": "Same licensed/original preflight sources; bounded excerpt cropped and re-encoded, not regenerated/remixed.",
     "commercial_project_use": true,
     "full_story_exists": false
+  },
+  "versioned_stone_audio_preparation": {
+    "action_plan": "assets/stories/counterweight-gate/action-plan-v2.json",
+    "action_plan_sha256": "e3f7aaffcfffd92bcf1cf9b57d001898b98b5573bc1e45e5abf78e09e49de7ce",
+    "audio_preflight": "assets/stories/counterweight-gate/audio-preflight-v2.json",
+    "aac_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
+    "basis": "Existing reviewed licensed Ascension and original seeded effects; unchanged original generic male narration and exact ducked score stem. Only stone cue times changed. No external media or new models/voices.",
+    "commercial_project_use": true,
+    "full_story_exists": false,
+    "actual_animation_sync_verified": false
   }
 }

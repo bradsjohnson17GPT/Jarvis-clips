@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:00:25.349680+00:00",
+  "generated_at": "2026-11-19T01:13:31.192223+00:00",
   "research_date": "2026-11-18",
   "status": "quality_reset_original_scene_preparation",
   "asset_rights": "Public reference videos are style data only. New original scene assets are reviewed after they exist; outlined sources are not claimed produced or cleared. Licensed streamer reuse still needs source-specific creator/game/audio/access verification.",
@@ -209,8 +209,8 @@
       "actual_current_acting_pose_images_reviewed": 4,
       "waiting_adults_blocked": 2,
       "phrase_caption_cues": 18,
-      "action_plan": "assets/stories/counterweight-gate/action-plan.json",
-      "audio_preflight": "assets/stories/counterweight-gate/audio-preflight.json",
+      "action_plan": "assets/stories/counterweight-gate/action-plan-v2.json",
+      "audio_preflight": "assets/stories/counterweight-gate/audio-preflight-v2.json",
       "cart_motion_review": "assets/stories/counterweight-gate/cart-motion-review.json",
       "cart_motion_source_sha256": "1a0bc385bb787a7ce92342b679474d2f6c3e832b26f2a68e8992c511e934fd92",
       "development_motion_video_exists": true,
@@ -235,7 +235,14 @@
       "stair_motion_source_sha256": "10bb4cd1e2e8de3c1238bb718a23420d69d08331b00a7d742b33fcbc28e9f52c",
       "stair_development_seconds": 2.3333333333333335,
       "stair_actual_encoded_frames_reviewed": 56,
-      "stair_contact_prototype_prepared": true
+      "stair_contact_prototype_prepared": true,
+      "audio_action_version": 2,
+      "stone_loading_animation_started": false,
+      "v2_stone_impact_times_seconds": [
+        13.875,
+        14.5,
+        15.125
+      ]
     },
     {
       "id": "quality_last_charge",
@@ -440,23 +447,21 @@
   ],
   "production_reconciled_at_utc": "2026-11-18T19:16:51.025484+00:00",
   "latest_free_scout_check": {
-    "checked_at_utc": "2026-11-18T19:00:25.349680+00:00",
+    "checked_at_utc": "2026-11-19T01:13:31.192223+00:00",
     "research_date_pacific": "2026-11-18",
-    "method": "free_first_party_page_text_public_player_prefix_and_actual_paired_sampled_frames_plus_reused_completed_reference_analyses",
+    "method": "free_first_party_page_text_and_domain_restricted_search_plus_reused_completed_local_reference_analyses",
     "search_queries": 2,
-    "new_creator_policy_leads": 0,
-    "new_source_metadata_leads": 0,
-    "existing_source_leads_advanced": 1,
-    "actual_sample_pairs_viewed": 6,
+    "new_creator_policy_leads": 2,
+    "new_source_metadata_leads": 1,
     "new_sources_cleared": 0,
     "new_view_observations": 0,
     "new_current_rankings_verified": false,
     "new_paid_vidiq_calls": 0,
     "new_original_ideas_claimed": 0,
-    "notes": "docs/trends/2026-11-18-1100-quality-scout.md",
+    "notes": "docs/trends/2026-11-18-late-quality-scout.md",
     "evidence_dates_preserved": true,
     "posting_queue_changed": false,
-    "search_result": "673130 opening samples visibly overlap646927; hold as overlapping source rather than distinct interview. Two exact-ID primary YouTube searches returned no results. Rockstar official date unchanged; no fresh audience counter or streamer clearance."
+    "result": "Two creator-policy leads remain held; officialRockstarmedia catalog discovered but not commercially cleared or watched. Date/platform text rechecked without a launch-hour claim. Existing paid reference analyses and source holds reused. V2Counterweight stone cue preparation finished from unchangedmalevoice/scorestem; no stone renders."
   },
   "additional_source_research_checked_at_utc": "2026-11-18T07:57:39.186009+00:00",
   "source_overlap_update": {
@@ -479,7 +484,7 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-19T00:52:53.800200+00:00",
+    "prepared_at_utc": "2026-11-19T01:13:31.192223+00:00",
     "concept_id": "quality_counterweight_gate",
     "manifest": "stories/counterweight-gate.json",
     "status": "original_male_audio_opening_and_stair_development_not_full_story",
@@ -500,6 +505,12 @@
     "posting_queue_changed": false,
     "stair_motion_review": "assets/stories/counterweight-gate/stair-motion-review.json",
     "stair_actual_encoded_frames_reviewed": 56,
-    "stair_crop_asr_exact_match": false
+    "stair_crop_asr_exact_match": false,
+    "action_plan": "assets/stories/counterweight-gate/action-plan-v2.json",
+    "audio_preflight": "assets/stories/counterweight-gate/audio-preflight-v2.json",
+    "audio_action_version": 2,
+    "new_stone_frames_rendered": 0,
+    "v2_full55_word_asr_match": true,
+    "v2_animation_sync_verified": false
   }
 }

@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse the completed197-frame opening and56-frame stair-contact prototype with the exact saved male take/audio/captions. Build notice/head-turn transition and supported movement from top tread onto landing; author all8stones and explicit grouped3/3/2pickup/transfer/deposit paths and hand release before basket travel. Complete loaded basket/gate rise, courier/cart passage and same waiting adults walking payoff. Finish expressive shots/acting and courtyard; reserve storage from final native samples before full render. Preserve immutable cue-plan/preflight unless event timing changes; no completed-study rerender or publishing of these tests.",
+  "next_work": "Reuse completed opening/stair/cart prototypes and the exact existing male take/captions. Future final assembly uses the explicit v2action/audio pair with stone impacts13.875/14.5/15.125seconds; retain v1for earlier study reproduction. Build notice transition, supported landing contacts or an inspected editorial time-elision cut, all8stone identities with actual grouped3/3/2pickup/transfer/fall and hand release before basket travel, loaded mechanism rise and actualcart/linepassagepayoff. No new stone geometry or animation exists yet. Finish expressive cameras/acting and courtyard; reserve storage before full native render and inspect the finished audiovisual sequence.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -127,9 +127,9 @@
   "actual_current_acting_pose_images_reviewed": 4,
   "caption_cues_prepared": 18,
   "acting_prepared_at_utc": "2026-11-18T20:32:06.370171+00:00",
-  "action_plan": "assets/stories/counterweight-gate/action-plan.json",
-  "audio_preflight": "assets/stories/counterweight-gate/audio-preflight.json",
-  "private_audio_preflight": "work/preproduction/counterweight-gate/audio-preflight-v1",
+  "action_plan": "assets/stories/counterweight-gate/action-plan-v2.json",
+  "audio_preflight": "assets/stories/counterweight-gate/audio-preflight-v2.json",
+  "private_audio_preflight": "work/preproduction/counterweight-gate/audio-preflight-v2",
   "audio_preflight_ready": true,
   "audio_final_animation_sync_verified": false,
   "soundtrack_regenerate_only_if_action_plan_or_source_changes": true,
@@ -187,5 +187,10 @@
   "stair_actual_encoded_frames_reviewed": 56,
   "stair_contact_prototype_prepared": true,
   "do_not_regenerate_existing_stair_test": true,
-  "stair_prepared_at_utc": "2026-11-19T00:52:53.800200+00:00"
+  "stair_prepared_at_utc": "2026-11-19T00:52:53.800200+00:00",
+  "current_action_plan_sha256": "e3f7aaffcfffd92bcf1cf9b57d001898b98b5573bc1e45e5abf78e09e49de7ce",
+  "current_audio_preflight_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
+  "audio_action_version": 2,
+  "prior_action_plan_and_audio_preflight_retained": true,
+  "stone_loading_animation_started": false
 }

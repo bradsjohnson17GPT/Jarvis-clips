@@ -1,0 +1,166 @@
+{
+  "id": "counterweight-gate",
+  "prepared_at_utc": "2026-11-19T01:03:26.454272+00:00",
+  "status": "encoded_audio_preflight_only_animation_sync_and_subjective_review_pending",
+  "script": "scripts/counterweight_audio_preflight.py",
+  "script_sha256": "f0eda0d44d4e1eca6784e773ca82a350c5f96710e2f09a74eef56117ccb013c2",
+  "action_plan": "assets/stories/counterweight-gate/action-plan-v2.json",
+  "action_plan_sha256": "e3f7aaffcfffd92bcf1cf9b57d001898b98b5573bc1e45e5abf78e09e49de7ce",
+  "narration_sha256": "e15f3a42c2fe094850c695126defb860e4814fd5eb293cd7eb23d793ad0199b3",
+  "narrator": "am_michael",
+  "narration_regenerated": false,
+  "spoken_script_unchanged": true,
+  "spoken_words": 55,
+  "duration_seconds": 24.083333333333332,
+  "actual_aac_stream_duration_seconds": 24.083,
+  "exact_target_pcm_samples": 1156000,
+  "aac_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
+  "aac_essence_adts_sha256": "e103620d719ea7086c3af36b0f415beee7217c2fea06367f6eb34a17f56ddbc9",
+  "mixed_master_sha256": "2bfef788657f53ff68ee664ba43857cc3e2865ee8a2b36d412c80ecd1176abc3",
+  "effects_sha256": "695f0fb5c26fd78e2606c1a13fee906dd0800c72622ad803584fe0bf339c34b2",
+  "ducked_music_stem_sha256": "36e3cf143888580cdef4dfc5d2525ee1fc675358e6c0a1031a310cfaaec6975a",
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000
+  },
+  "encoded_loudness": {
+    "input_i": "-16.03",
+    "input_tp": "-3.31",
+    "input_lra": "2.40",
+    "input_thresh": "-27.10",
+    "output_i": "-15.78",
+    "output_tp": "-3.00",
+    "output_lra": "2.30",
+    "output_thresh": "-26.76",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.22"
+  },
+  "encoded_full_decode_passed": true,
+  "encoded_asr_exact_normalized_match": true,
+  "caption_sha256": "16e4512a0cb0fc80d8c35626c6c5feea7c7306b5ba99382e50a3db1817779f74",
+  "caption_phrases": 18,
+  "music": {
+    "title": "Ascension",
+    "artist": "Scott Buckley",
+    "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
+    "excerpt_start_seconds": 144.0,
+    "source": "https://www.scottbuckley.com.au/library/ascension/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "'Ascension' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "base_gain": 0.05,
+    "sidechain_ratio": 9,
+    "changes": "Same reviewed excerpt starting144seconds, trimmed/faded and strongly ducked. Exact ducked music stem bytes match v1; only the three original stone-impact cue positions changed in the action plan, followed by encoded mix verification."
+  },
+  "music_stem_comparison": {
+    "method": "20ms RMS windows with source speech above-36dBFS; relative to unchanged clean narration, before shared final loudness gain",
+    "median_music_relative_to_speech_db": -40.476261898235094,
+    "p95_music_relative_to_speech_db": -24.127663317972203,
+    "subjective_audibility_or_masking_established": false
+  },
+  "effects": [
+    {
+      "at_seconds": 3.125,
+      "kind": "original_soft_timber_gate_stop",
+      "gain": 0.075,
+      "pan": -0.1,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 5.583333333333333,
+      "kind": "original_soft_timber_gate_stop",
+      "gain": 0.075,
+      "pan": -0.1,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 11.625,
+      "kind": "original_boot_on_stone_tread",
+      "gain": 0.022,
+      "pan": 0.15,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 12.125,
+      "kind": "original_boot_on_stone_tread",
+      "gain": 0.022,
+      "pan": 0.15,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 12.625,
+      "kind": "original_boot_on_stone_tread",
+      "gain": 0.022,
+      "pan": 0.15,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 13.875,
+      "kind": "original_stone_into_counterweight_basket",
+      "gain": 0.043,
+      "pan": 0.22,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 14.5,
+      "kind": "original_stone_into_counterweight_basket",
+      "gain": 0.043,
+      "pan": 0.22,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 15.125,
+      "kind": "original_stone_into_counterweight_basket",
+      "gain": 0.043,
+      "pan": 0.22,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 15.708333333333334,
+      "kind": "original_hemp_pulley_travel",
+      "gain": 0.027,
+      "pan": 0.15,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 16.416666666666668,
+      "kind": "original_raised_gate_stop",
+      "gain": 0.035,
+      "pan": -0.1,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    },
+    {
+      "at_seconds": 18.75,
+      "kind": "original_rubber_cart_wheels_on_paving",
+      "gain": 0.025,
+      "pan": -0.05,
+      "sync_status": "planned_action_cue_not_verified_against_animation"
+    }
+  ],
+  "external_effect_samples": [],
+  "source_audio_retained": false,
+  "actual_animation_sync_verified": false,
+  "subjective_audio_listening_claimed": false,
+  "continuous_video_watching_claimed": false,
+  "finished_movie_exists": false,
+  "publisher_draft_created": false,
+  "publishable": false,
+  "limits": "ASR, decode, levels and stem comparisons are technical checks. No subjective listening, continuous motion or actual finished-film sound/caption synchronization is claimed. Reuse this soundtrack only if the later actual animated events match the cue plan; otherwise revise with retained evidence.",
+  "revision_scope": {
+    "version": 2,
+    "reason": "Give visible grouped stone pickup/transfer/fall more time than the original first five-frame interval. No new spoken words or voice generation.",
+    "prior_plan": "assets/stories/counterweight-gate/action-plan.json",
+    "prior_preflight": "assets/stories/counterweight-gate/audio-preflight.json",
+    "prior_preflight_retained": true,
+    "stone_impact_times_seconds": [
+      13.875,
+      14.5,
+      15.125
+    ],
+    "unchanged_narration_file_bytes": true,
+    "unchanged_ducked_music_stem_bytes": true,
+    "animation_for_these_stone_events_exists": false,
+    "stone_visuals_or_source_tray_created_this_run": false,
+    "actual_finished_film_sync_verified": false
+  }
+}

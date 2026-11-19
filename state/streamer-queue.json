@@ -71,6 +71,32 @@
       "recheck_earlier_if_new_first_party_evidence": true,
       "publishable": false,
       "notes": "docs/trends/2026-11-17-1100-quality-scout.md"
+    },
+    {
+      "name": "Pirate Software",
+      "status": "hold_no_authenticated_creator_clipping_grant",
+      "official_page_attempt": "https://piratesoftware.live/games/Heartbound/FAQ/",
+      "search_lead_url": "https://mail.piratesoftware.live/games/Heartbound/FAQ/",
+      "evidence_type": "domain_restricted_search_metadata_and_failed_canonical_first_party_page_request",
+      "reason": "Search returned a developer/game FAQ lead, not a verified creator-stream clipping grant. Canonical FAQ open was inaccessible; a purchase-conditioned OST snippet is neither a purchase nor actual creator/game/audio clearance. No media inspected or retrieved.",
+      "reviewed_on": "2026-11-18",
+      "review_again_after": "2026-11-25",
+      "recheck_earlier_if_new_first_party_evidence": true,
+      "publishable": false,
+      "notes": "docs/trends/2026-11-18-late-quality-scout.md"
+    },
+    {
+      "name": "CohhCarnage",
+      "status": "hold_no_authenticated_creator_clipping_grant",
+      "official_page_read": "https://store.cohhilition.com/pages/terms-of-service",
+      "evidence_type": "current_first_party_page_text_plus_domain_restricted_search",
+      "policy_page_last_updated": "2026-10-30",
+      "reason": "Current page governs browsing/use of the store site and grants personal noncommercial site access. It does not establish permission for commercial stream edits/YouTube redistribution; do not treat store terms as a universal footage prohibition either. Older search-extract2023date is superseded by the actual page text. Main community domain robots restriction was not retried or bypassed. No creator/game/audio grant verified.",
+      "reviewed_on": "2026-11-18",
+      "review_again_after": "2026-11-25",
+      "recheck_earlier_if_new_first_party_evidence": true,
+      "publishable": false,
+      "notes": "docs/trends/2026-11-18-late-quality-scout.md"
     }
   ],
   "technical_blockers": [
@@ -78,6 +104,31 @@
     "Official clip download and VOD clipping need broadcaster/editor authorization; unrelated viewer authorization is insufficient.",
     "Available public reader could not reliably render Twitch Help UI or YouTube About policy text."
   ],
-  "last_free_policy_check_at_utc": "2026-11-17T19:05:26.806711+00:00",
-  "new_creator_leads_checked_this_run": 2
+  "last_free_policy_check_at_utc": "2026-11-19T01:13:31.192223+00:00",
+  "new_creator_leads_checked_this_run": 2,
+  "publisher_media_leads": [
+    {
+      "publisher": "Rockstar Games",
+      "page": "https://www.rockstargames.com/VI/media",
+      "observed_at_utc": "2026-11-19T01:13:31.192223+00:00",
+      "evidence_type": "first_party_page_text_only",
+      "listed_video_items": 5,
+      "listed_clip_items": 9,
+      "counts_scope": "Media catalog item counts, not audience views or engagement.",
+      "source_status": "conditional_metadata_lead_no_download_or_commercial_clearance",
+      "rights_status": "Download/share invitation observed; no explicit commercial reuse scope or separate music clearance read. Retain existing commercial gameplay hold.",
+      "hook_action_payoff": "Unobserved: no trailer or clip was watched/heard.",
+      "downloaded": false,
+      "publishable": false,
+      "notes": "docs/trends/2026-11-18-late-quality-scout.md"
+    }
+  ],
+  "latest_gta_fact_check": {
+    "checked_at_utc": "2026-11-19T01:13:31.192223+00:00",
+    "page": "https://www.rockstargames.com/VI",
+    "official_page_text": "Coming November19,2026; PlayStation5 and XboxSeriesX|S.",
+    "release_hour_or_playability_verified": false,
+    "trailer_watched": false,
+    "notes": "docs/trends/2026-11-18-late-quality-scout.md"
+  }
 }
