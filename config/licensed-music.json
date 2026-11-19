@@ -34,7 +34,30 @@
       "changes": "Music excerpt trimmed, faded and mixed beneath original narration.",
       "sha256": "72cce153866fbb5b0c5d8ffb0be2ea73bf64190e2b70a50cbcc8c83b5a8e0dbf",
       "start": 288
+    },
+    "Reverie": {
+      "title": "Reverie",
+      "artist": "Scott Buckley",
+      "page": "https://www.scottbuckley.com.au/library/reverie/",
+      "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2020/03/sb_reverie.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_name": "CC BY 4.0",
+      "rights_verified": true,
+      "commercial_use": true,
+      "reviewed_on": "2026-11-19",
+      "reviewed_at_utc": "2026-11-19T11:24:49.014807+00:00",
+      "reviewed_by": "Project production assistant",
+      "rights_note": "Exact composer track page, first-party FAQ and CC BY 4.0 deed read. Composer permits free commercial and monetized YouTube audiovisual use with description attribution. This is the original library track, not a separately uncleared remix. Preserve artist/source/license and change notices; no claimed ownership, album redistribution under project name or composer endorsement.",
+      "attribution": "'Reverie' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "changes": "No production excerpt selected or music mixed yet. Record trimming/fades/ducking/resampling in the final description if selected.",
+      "sha256": "ca1e7194d7d6f49127c77ff2f4011d07182525c826bb7ded3d3944e69ca678d2",
+      "start": 0,
+      "excerpt_selected": false,
+      "audio_listened": false,
+      "composer_description": "An intimate, dream-like track featuring effected piano, synth and strings.",
+      "description_evidence": "First-party track text only, not subjective listening."
     }
   },
-  "notes": "Audiovisual uses only, exact required credits and license links in each description; edited excerpts are not claimed as project-owned music. No purchases."
+  "notes": "Audiovisual uses only, exact required credits and license links in each description; edited excerpts are not claimed as project-owned music. No purchases.",
+  "catalog_last_updated_at_utc": "2026-11-19T11:24:49.014807+00:00"
 }

@@ -324,7 +324,7 @@
     },
     {
       "id": "quality_last_charge",
-      "status": "native_static_staging_reviewed_opening_and_motion_refinement_pending",
+      "status": "close_opening_and_silent_native_release_diagnostic_reviewed_full_story_pending",
       "topic": "A hopeful science-fiction choice",
       "content_type": "fictional_micro_stories",
       "hook": "A closing shopkeeper has one personal lamp cell left; her own lamp bracket and a waiting traveler at a dark crossing are visible together.",
@@ -363,7 +363,19 @@
       "staging_source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
       "staging_review": "assets/stories/last-charge/staging-review-v2.json",
       "actual_current_staging_pose_images_reviewed": 4,
-      "actual_story_motion_frames_rendered": 0
+      "actual_story_motion_frames_rendered": 0,
+      "opening_release_source": "assets/stories/last-charge/opening-release-study.py",
+      "opening_release_source_sha256": "9b078aa4607216ccd85b8baf2e1b6558e54a017a02d84a4ab3a4dbc16ace85bb",
+      "opening_release_review": "assets/stories/last-charge/opening-release-review-v3.json",
+      "diagnostic_native_motion_frames": 24,
+      "diagnostic_encoded_frames_reviewed": 24,
+      "diagnostic_duration_seconds": 1,
+      "caption_plan": "assets/stories/last-charge/caption-plan-v1.json",
+      "caption_cues_prepared": 16,
+      "music_source_candidate": "assets/stories/last-charge/music-source-candidate.json",
+      "music_selected_or_mixed": false,
+      "next_work": "Reuse the exact male take, owned scene, reviewed close opening and corrected fixed-bone release path. Build bounded route-facing body/head orientation and carry/set-down/foot-contact motion, then transitions into the geography and neighbor contributions. Review actual native motion/captions/audio before any 602-frame full story render; no existing completed cache or voice regeneration.",
+      "story_frame_counts_scope": "The integrated story has no rendered frames yet; 24 separate silent diagnostic frames are reviewed."
     },
     {
       "id": "quality_midnight_bell",
@@ -587,9 +599,9 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-19T10:58:35.723428+00:00",
+    "prepared_at_utc": "2026-11-19T11:36:14.731738+00:00",
     "id": "last-charge",
-    "status": "native_static_staging_reviewed_opening_and_motion_refinement_pending",
+    "status": "close_opening_and_silent_native_release_diagnostic_reviewed_full_story_pending",
     "manifest": "stories/last-charge.json",
     "storyboard": "assets/stories/last-charge/storyboard-v1.json",
     "narration_preflight": "assets/stories/last-charge/narration-preflight.json",
@@ -600,8 +612,14 @@
     "paid_research": 0,
     "staging_review": "assets/stories/last-charge/staging-review-v2.json",
     "native_static_poses_reviewed": 4,
-    "actual_motion_frames": 0,
-    "narration_regenerated": false
+    "actual_motion_frames": 24,
+    "narration_regenerated": false,
+    "opening_release_review": "assets/stories/last-charge/opening-release-review-v3.json",
+    "diagnostic_native_motion_frames": 24,
+    "diagnostic_encoded_frames_reviewed": 24,
+    "actual_motion_scope": "Silent one-second contact diagnostic only, no finished story.",
+    "caption_cues_prepared": 16,
+    "source_specific_music_candidate": "Reverie; no excerpt/mix/listening claim."
   },
   "production_sync_at_utc": "2026-11-19T10:02:56.777237+00:00",
   "production_sync_basis": "Current committed story/QA/queue and read-only exact-account/service/draft readbacks; no new scout research, audience count, trend ranking, velocity or publication claim."

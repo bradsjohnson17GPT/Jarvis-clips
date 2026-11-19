@@ -1,0 +1,65 @@
+{
+  "id": "last-charge-reverie-candidate",
+  "reviewed_at_utc": "2026-11-19T11:24:49.014807+00:00",
+  "status": "source_specific_music_rights_reviewed_not_selected_or_mixed",
+  "track_catalog": "config/licensed-music.json#Reverie",
+  "track": {
+    "title": "Reverie",
+    "artist": "Scott Buckley",
+    "page": "https://www.scottbuckley.com.au/library/reverie/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2020/03/sb_reverie.mp3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license_name": "CC BY 4.0",
+    "rights_verified": true,
+    "commercial_use": true,
+    "reviewed_on": "2026-11-19",
+    "reviewed_at_utc": "2026-11-19T11:24:49.014807+00:00",
+    "reviewed_by": "Project production assistant",
+    "rights_note": "Exact composer track page, first-party FAQ and CC BY 4.0 deed read. Composer permits free commercial and monetized YouTube audiovisual use with description attribution. This is the original library track, not a separately uncleared remix. Preserve artist/source/license and change notices; no claimed ownership, album redistribution under project name or composer endorsement.",
+    "attribution": "'Reverie' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "changes": "No production excerpt selected or music mixed yet. Record trimming/fades/ducking/resampling in the final description if selected.",
+    "sha256": "ca1e7194d7d6f49127c77ff2f4011d07182525c826bb7ded3d3944e69ca678d2",
+    "start": 0,
+    "excerpt_selected": false,
+    "audio_listened": false,
+    "composer_description": "An intimate, dream-like track featuring effected piano, synth and strings.",
+    "description_evidence": "First-party track text only, not subjective listening."
+  },
+  "first_party_evidence": [
+    {
+      "url": "https://www.scottbuckley.com.au/library/reverie/",
+      "http_status": 200,
+      "html_sha256": "ee594fcfeebf365a53510d24c36022b34caff4aeb0862f998ed0e616b0afc990",
+      "scope": "Original track, explicit commercial CC BY 4.0 grant and exact required artist credit."
+    },
+    {
+      "url": "https://www.scottbuckley.com.au/library/faq/",
+      "http_status": 200,
+      "html_sha256": "156c35785ac186a5bb7bab983966b22c4fbb6e17fffe6687084a049799ebdec3",
+      "scope": "Monetized YouTube/description credit and remix exclusions."
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+      "http_status": 200,
+      "html_sha256": "2c31f90b734f0e2dd5dc017737eb2094e133be99a188396659c9cdb3bd3d0625",
+      "scope": "Commercial sharing/adaptation, attribution, source/license/change notices and no implied endorsement."
+    }
+  ],
+  "downloaded_source": {
+    "sha256": "ca1e7194d7d6f49127c77ff2f4011d07182525c826bb7ded3d3944e69ca678d2",
+    "bytes": 8950768,
+    "duration_seconds": 223.712653,
+    "codec": "mp3",
+    "channels": 2,
+    "sample_rate": 44100,
+    "full_decode_passed": true,
+    "decode_checked_at_utc": "2026-11-19T11:32:36.407446+00:00"
+  },
+  "original_artist_credit_required_in_every_relevant_final_description": true,
+  "source_audio_listened": false,
+  "excerpt_selected": false,
+  "music_mixed": false,
+  "new_paid_cost": 0,
+  "new_audience_or_current_trend_evidence": false,
+  "limits": "Composer-described instrumentation is metadata only. No subjective mood, masking or audiovisual fit verdict; original music source stays private, and final excerpt/changes/credits still need exact production records."
+}

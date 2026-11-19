@@ -1,0 +1,154 @@
+{
+  "id": "last-charge",
+  "prepared_at_utc": "2026-11-19T11:18:10.986248+00:00",
+  "status": "actual_take_phrase_timing_plan_no_captioned_film",
+  "voice": "am_michael",
+  "clean_narration_sha256": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a",
+  "word_timing_source_sha256": "7917978bb41e8f6a2ec6f7a49f7431a71f8e4d7d852382c6bbeaa2cc269f8c6e",
+  "actual_narration_seconds": 25.062,
+  "actual_script_words": 60,
+  "cue_count": 16,
+  "cues": [
+    {
+      "start": 0.15,
+      "end": 1.07,
+      "text": "Rose's lamp",
+      "first_word_index": 0,
+      "last_word_index": 1,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 1.07,
+      "end": 2.49,
+      "text": "had one charge left.",
+      "first_word_index": 2,
+      "last_word_index": 5,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 3.45,
+      "end": 4.57,
+      "text": "A traveler was waiting",
+      "first_word_index": 6,
+      "last_word_index": 9,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 4.57,
+      "end": 5.71,
+      "text": "at the dark bridge.",
+      "first_word_index": 10,
+      "last_word_index": 13,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 6.51,
+      "end": 7.39,
+      "text": "She carried the light",
+      "first_word_index": 14,
+      "last_word_index": 17,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 7.39,
+      "end": 8.69,
+      "text": "past her own doorway",
+      "first_word_index": 18,
+      "last_word_index": 21,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 8.69,
+      "end": 9.67,
+      "text": "and set it",
+      "first_word_index": 22,
+      "last_word_index": 24,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 9.67,
+      "end": 10.55,
+      "text": "on the bridge rail.",
+      "first_word_index": 25,
+      "last_word_index": 28,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 11.37,
+      "end": 12.85,
+      "text": "The traveler started across.",
+      "first_word_index": 29,
+      "last_word_index": 32,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 13.73,
+      "end": 14.41,
+      "text": "A neighbor brought",
+      "first_word_index": 33,
+      "last_word_index": 35,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 14.41,
+      "end": 15.21,
+      "text": "a second lamp.",
+      "first_word_index": 36,
+      "last_word_index": 38,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 15.85,
+      "end": 16.99,
+      "text": "Another placed a third",
+      "first_word_index": 39,
+      "last_word_index": 42,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 16.99,
+      "end": 18.01,
+      "text": "beside the shop.",
+      "first_word_index": 43,
+      "last_word_index": 45,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 18.95,
+      "end": 20.21,
+      "text": "Rose locked her door",
+      "first_word_index": 46,
+      "last_word_index": 49,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 20.21,
+      "end": 21.29,
+      "text": "and turned toward home.",
+      "first_word_index": 50,
+      "last_word_index": 53,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    },
+    {
+      "start": 22.11,
+      "end": 23.69,
+      "text": "All three lamps lit the path.",
+      "first_word_index": 54,
+      "last_word_index": 59,
+      "layout_status": "Position/line breaks and readability require actual final camera/frame review."
+    }
+  ],
+  "all_original_spoken_words_preserved": true,
+  "raw_asr_token_split_correction_documented": "assets/stories/last-charge/narration-preflight.json",
+  "phrase_intervals_avoid_zero_duration_article_only_captions": true,
+  "narration_regenerated": false,
+  "words_rewritten": false,
+  "font_asset_selected": false,
+  "ass_file_created": false,
+  "actual_captioned_native_frames_reviewed": 0,
+  "actual_film_synchronization_verified": false,
+  "subjective_audio_listening_claimed": false,
+  "finished_movie_exists": false,
+  "publisher_draft_created": false,
+  "publishable": false
+}

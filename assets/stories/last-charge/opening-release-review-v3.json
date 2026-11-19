@@ -1,0 +1,268 @@
+{
+  "id": "last-charge",
+  "reviewed_at_utc": "2026-11-19T11:36:14.731738+00:00",
+  "reviewer": "Project production assistant",
+  "status": "close_opening_and_silent_native_release_diagnostic_reviewed_full_story_pending",
+  "source": "assets/stories/last-charge/opening-release-study.py",
+  "source_sha256": "9b078aa4607216ccd85b8baf2e1b6558e54a017a02d84a4ab3a4dbc16ace85bb",
+  "base_scene_source": "assets/stories/last-charge/staging-study.py",
+  "base_scene_source_sha256": "647468191e2d5fe41986877b0374a249d32032a7fe264aea4404fe103932194a",
+  "native_dimensions": [
+    720,
+    1280
+  ],
+  "cycles_samples": 12,
+  "denoiser": "Reviewed OIDN 2.5.1 CPU RT LDR/sRGB high, same native dimensions; all raw sources retained.",
+  "current_close_opening": {
+    "study_item": 1001,
+    "actually_viewed_native_raw_and_clean": true,
+    "frozen_controller_sha256": "1c90f75ca2b2f2e332b88acf38a09409a305ffd4eb2857c04bd9c4824e9be8a4",
+    "raw_sha256": "f5436279f6675e8eaa7e42750605ad529292403c9bb8b8c08391f3546047b24f",
+    "clean_sha256": "f04d49297820a9296d2c23b441164825e01e9635f741e4c67b002b3f0264dc77",
+    "version": "opening-release-v2",
+    "visual_findings": [
+      "Rose, complete carried lamp, one amber cell mark, own door and empty bracket fit together.",
+      "Added original wall plate and connector make the bracket visibly attached to the wall.",
+      "Lamp light was reduced from 110 to 55 and diffuser emission from 2.3 to 1.7 to balance the cell housing and coat.",
+      "This is a static clue view; it still needs a route-facing transition and geography shot."
+    ],
+    "rerender_required_for_release_only_change": false
+  },
+  "corrected_release": {
+    "version": "release-correction-v3",
+    "video_sha256": "83fe241c5d53a47c6d691e92794c4d8b5ded1e5492d535420b80f0064a365b7d",
+    "bytes": 93531,
+    "frames": 24,
+    "fps": 24,
+    "duration_seconds": 1,
+    "audio_streams": 0,
+    "all24_pts_n_over24": true,
+    "full_decode_passed": true,
+    "decoded_frame_numbers_actually_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "native_decoded_frames_actually_viewed": [
+      1,
+      6,
+      12,
+      18,
+      24
+    ],
+    "all24_review_method": "Two 12-frame contact sheets of actual decoded pictures, plus five full-size decoded frames; no continuous playback or soundtrack listening claim.",
+    "five_native_source_critical_poses_viewed_before_filling19": [
+      1,
+      6,
+      12,
+      18,
+      24
+    ],
+    "existing_five_matching_frames_reused": true,
+    "frame_hashes": [
+      {
+        "study_frame": 1,
+        "raw_sha256": "07cbe216aab53e186f1f655ff8a93fb8d8b4a4c68590327aabfdedf748384e57",
+        "clean_sha256": "e11af52faddca61a2b84f1ecdfa3c342e1d4d88ac827ca20bb15464d3bfbeb4d"
+      },
+      {
+        "study_frame": 2,
+        "raw_sha256": "2be391c7a64302a0c53a31b578cbaeae254bfdd9848dbc6dbf2abe79d5107eb0",
+        "clean_sha256": "8525eca5944a6102213a5d9fe43f932082d7b837dc4a286ed2fc1e0ad9f90a88"
+      },
+      {
+        "study_frame": 3,
+        "raw_sha256": "d611a9f7a24297a5b92a4b905a219e73d4319efec8a5d0ca86298802667c4505",
+        "clean_sha256": "a937291020343cc8671df8aa2b1487549fd206e1c4480fda13685231e0aee422"
+      },
+      {
+        "study_frame": 4,
+        "raw_sha256": "ed3f6a44e5ae887e4e1119741e767f1cdc8fc374882a54f88cf48cc211a8ce4b",
+        "clean_sha256": "bc9d991ca3feae32b242e5848825dc7f92ccf815e59211527403be43614f1673"
+      },
+      {
+        "study_frame": 5,
+        "raw_sha256": "42033a5376d5ca2e01f412f5fa27784690ff2cedc662020d6bace515ecdf2ab6",
+        "clean_sha256": "60e89e8be8009df390566633e32bcb5242cc838ddd03e7871bd294c30571f8db"
+      },
+      {
+        "study_frame": 6,
+        "raw_sha256": "5c5707d4f7c23baa87a4412acfc7b691306d04858a13484cc2836938e6f91995",
+        "clean_sha256": "4429fe51b5364eabe0c11227e67adb68ccce264ada5bcd094fbde7c0265006e5"
+      },
+      {
+        "study_frame": 7,
+        "raw_sha256": "540e1279ce4c9ca6f83a17962eb9022db352aae82c0dedee85d2691f1dc12212",
+        "clean_sha256": "8c5825185a54cef2e908fa887e3838925cdb0a22988d22ea7e8a8e365ed8a044"
+      },
+      {
+        "study_frame": 8,
+        "raw_sha256": "784eaf2aa1072063f5aa03a28bd0171356a5fd0db5787e2ad45e55c66a80161a",
+        "clean_sha256": "2c9ee596aeadd14fba33837c9f33e825596c56e60ba7dd13d81abc4393470663"
+      },
+      {
+        "study_frame": 9,
+        "raw_sha256": "eda9549cce43538584b95bc938542b700d12e8f6ebc9eee490a79841a169966f",
+        "clean_sha256": "6acf6ffec291cbd5036b6f294aef9d4d6eb73689f0e4ff2ecee0218a93e1f52b"
+      },
+      {
+        "study_frame": 10,
+        "raw_sha256": "3f0b731065f21643aa0b9882049472f78b597cb5940c2d312d842986d466b09a",
+        "clean_sha256": "e9aa689d444f4ad546cd96238b0539df2ccb07a4a5d4039b57ba2a5ab6772df8"
+      },
+      {
+        "study_frame": 11,
+        "raw_sha256": "ca545fe0ec898d4150b7a52a9754c3626db745f5f0753aae7de99cf39c3e1e93",
+        "clean_sha256": "8a38a1c383ad9c7a9df7f3949ce3c6421b0969e35530d02e3e8ec30aa31d8112"
+      },
+      {
+        "study_frame": 12,
+        "raw_sha256": "f2e24a7f25a4c398802742f60859954e017a40cbd1e69273b8c54904015dabea",
+        "clean_sha256": "bf49622d0a53469db1ec33803d0502a48216f8d6ab4f9c05a93548d3f87b12b4"
+      },
+      {
+        "study_frame": 13,
+        "raw_sha256": "601fab9358a2bac1be91e1cbc73535741368fce56bb30d4b24dcfc2924757b77",
+        "clean_sha256": "36c70f6e0f8b6246e2e5db2cf53116be4e872e885b4ad2e6f3f4d3ef945c42c3"
+      },
+      {
+        "study_frame": 14,
+        "raw_sha256": "4b9cc8db3293a80c820d6f9c62a91cf07f0240d70db276583e16e0944e2ad3dd",
+        "clean_sha256": "2efc9f4d0b6355cd541631bbc2a922a7b3f543c01420677f8deba1b28ff8ec64"
+      },
+      {
+        "study_frame": 15,
+        "raw_sha256": "370721ad9ad62a5c0b9cc10b43b369d03c4363913a0868c6a330534a144c411b",
+        "clean_sha256": "e85f138f48b42db1b2525e944143882254b50380c706b6d7968bd392b9d76a0d"
+      },
+      {
+        "study_frame": 16,
+        "raw_sha256": "a4b607cbf3d381d30e0c50d1e6312ebcb90de17c2da900edb58f37b49dc7c681",
+        "clean_sha256": "52d876b398b862b248820ff9e41a41bea03f00811857ef7d05f1c54f3fe5708c"
+      },
+      {
+        "study_frame": 17,
+        "raw_sha256": "da89ab023ff2f3b93216659202a090dda44b9af3dd07eaf62c99c3781b1ad921",
+        "clean_sha256": "8b2d73a407badc4468db1d1251c555773338b775ab38fd32405c73d6b7a7eaa1"
+      },
+      {
+        "study_frame": 18,
+        "raw_sha256": "cb8584fdde50969043f92d3bb569e9cc3e4fdfb05e75c3504b08f419e4a632bb",
+        "clean_sha256": "9c6d0744c0103dff6d80704f69356b94b5ffdcef8086838d42f38f4944a78f04"
+      },
+      {
+        "study_frame": 19,
+        "raw_sha256": "1575100bfce45537133008303be364d7c0dba0809310e3d3abd7335d1ec5bc8b",
+        "clean_sha256": "ba6331217e34af2466c63a0558dc04b09083d5469d97b581fbb2ea4f06173651"
+      },
+      {
+        "study_frame": 20,
+        "raw_sha256": "65924bbf687d1761e7b9760bc6409dd0a01e9f027e3205f699e4ff6a02d3f5f0",
+        "clean_sha256": "ba6331217e34af2466c63a0558dc04b09083d5469d97b581fbb2ea4f06173651"
+      },
+      {
+        "study_frame": 21,
+        "raw_sha256": "09345b897731f0ab16dfa84d4fc9c170782641124b24d400deea2fb2f9210ed5",
+        "clean_sha256": "ba6331217e34af2466c63a0558dc04b09083d5469d97b581fbb2ea4f06173651"
+      },
+      {
+        "study_frame": 22,
+        "raw_sha256": "090e273f8b6e41bcd20e725871747cc43edac1239614a1ec3ebed1909d213c3e",
+        "clean_sha256": "ba6331217e34af2466c63a0558dc04b09083d5469d97b581fbb2ea4f06173651"
+      },
+      {
+        "study_frame": 23,
+        "raw_sha256": "0acb58002da6e3e41fdd1df49490f0fbbff154f33b2fee659122f00598511509",
+        "clean_sha256": "ba6331217e34af2466c63a0558dc04b09083d5469d97b581fbb2ea4f06173651"
+      },
+      {
+        "study_frame": 24,
+        "raw_sha256": "94dbbe8d05114280472a457dab660eb3c8723c6a9464dc5be61f8530653b0a80",
+        "clean_sha256": "9c6d0744c0103dff6d80704f69356b94b5ffdcef8086838d42f38f4944a78f04"
+      }
+    ],
+    "visual_findings": [
+      "Initial hand meets the handle; it lifts outwards, moves laterally clear of the glasses and lowers. No hand-over-glasses defect was observed in these 24 decoded pictures.",
+      "Lamp, its single amber cell mark and rail rest remain fixed. Static feet stay in the same planted stance.",
+      "Later hand is partly obscured by foreground lamp and forearm. The stylized sleeve/mitten geometry is diagnostic; finger wrap, expressive acting and gaze are not validated.",
+      "Only the right-arm release moves. The background neighbor and the rest of the pose are static; carrying, set-down, walking, reaction and full-scene continuity remain to build."
+    ],
+    "planned_story_window_seconds": [
+      10.5,
+      11.5
+    ],
+    "story_window_is_timing_plan_not_final_sync": true
+  },
+  "original_changes": [
+    "Added a camera fitting Rose/lamp/door/empty bracket, with original bracket wall plate and connector.",
+    "Balanced active lamp proxies/diffuser and darkened the cell housing for clue contrast.",
+    "Replaced the face-crossing withdrawal with a lateral then lower three-phase eased hand path.",
+    "Two-bone inverse kinematics preserves the initial upper/forearm lengths; this is original authored performance, not imported motion."
+  ],
+  "held_prior_versions": [
+    {
+      "version": "opening-release-v1",
+      "source_sha256": "9e6aa442f1c39a4d22100b964fbc08ae9a3dc6c36f4d246f53eaa88b66feeaa5",
+      "actual_native_opening_viewed": true,
+      "hold_reason": "Bracket lacked modeled wall attachment; frozen source/raw/clean preserved."
+    },
+    {
+      "version": "opening-release-v2_release_only",
+      "source_sha256": "1c90f75ca2b2f2e332b88acf38a09409a305ffd4eb2857c04bd9c4824e9be8a4",
+      "raw_frames_completed": 24,
+      "denoised_frames_completed": 12,
+      "native_release_frames_actually_viewed": [
+        1,
+        6,
+        12
+      ],
+      "hold_reason": "Hand passed close to/over glasses at inspected intermediate pose. Numeric lamp-box checks did not detect this projection defect. Release held; separate corrected static opening retained."
+    }
+  ],
+  "numeric_scope": "All 24 sampled path poses: fixed two bone lengths, mitten sphere versus lamp cap/body bounding boxes, fixed lamp root, static shoe sole plane. No swept full-body collision, finger grip, dynamic support, walking or gaze certification.",
+  "existing_clean_narration_sha256": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a",
+  "narration_regenerated": false,
+  "caption_plan": "assets/stories/last-charge/caption-plan-v1.json",
+  "caption_cues_prepared": 16,
+  "captioned_frames_reviewed": 0,
+  "music_source_candidate": "assets/stories/last-charge/music-source-candidate.json",
+  "music_selected_or_mixed": false,
+  "external_model_texture_footage_or_motion_imported": [],
+  "repository_tests_passed": 41,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "full_story_frames_rendered": 0,
+  "full_native_animation_started": false,
+  "finished_story_exists": false,
+  "new_publisher_drafts": 0,
+  "scheduled": false,
+  "publishable": false,
+  "next_work": "Reuse the exact male take, owned scene, reviewed close opening and corrected fixed-bone release path. Build bounded route-facing body/head orientation and carry/set-down/foot-contact motion, then transitions into the geography and neighbor contributions. Review actual native motion/captions/audio before any 602-frame full story render; no existing completed cache or voice regeneration.",
+  "limitations": [
+    "One silent fixed-camera one-second hand-release study and one separate opening still; no carry, set-down, walking, gaze, neighbor contribution or full narrative continuity pass.",
+    "Hand and sleeves are stylized; later hand is partly hidden by foreground lamp/forearm. No realistic finger-wrap or expressive acting verdict.",
+    "All 24 decoded pictures were sampled on contact sheets, with five full-size checks; no real-time playback claim.",
+    "No final captions, sound effects, score mix, subjective listening or editorial soundtrack pass. Technical checks do not establish full-film quality."
+  ]
+}
