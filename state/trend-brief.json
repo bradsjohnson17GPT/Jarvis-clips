@@ -3,7 +3,7 @@
   "research_date": "2026-11-18",
   "status": "quality_reset_original_scene_preparation",
   "asset_rights": "Public reference videos are style data only. New original scene assets are reviewed after they exist; outlined sources are not claimed produced or cleared. Licensed streamer reuse still needs source-specific creator/game/audio/access verification.",
-  "production_note": "Fourteen known project publications remain confirmed,31Metricoolholds and0automaticpending. SAME Hand the Marker Back v3 manual draft remains awaiting its already-requested after-draft reply. Midnight Bell native rendering/finishing completed;92actual encoded samples and technical/audio-identity/level checks are documented. One new exact0credit manual direct draft is saved for that existing original story; after-saved-draft approval pending, not scheduled or published.",
+  "production_note": "Fourteen known project publications remain confirmed;31Metricoolholds and0automaticpending. Hand the Marker Back v3, Midnight Bell and corrected Counterweight Gate v2 each have one ready0credit manual direct draft and an already-presented required after-saved-draft approval request. None is scheduled/published. Do not recreate completed media/drafts or repeat those questions.",
   "latest_owner_priority": {
     "recorded_on": "2026-11-16",
     "reference_url": "https://www.youtube.com/shorts/JzAcGJ_PObw",
@@ -67,7 +67,8 @@
     "goggins-practice-the-weak-skill",
     "apollo13-the-part-they-couldnt-send",
     "jocko-give-the-team-the-plan",
-    "midnight-bell"
+    "midnight-bell",
+    "counterweight-gate"
   ],
   "historical_discovery": {
     "tool": "vidIQ trending_videos",
@@ -174,9 +175,9 @@
     },
     {
       "id": "quality_counterweight_gate",
-      "status": "shared_scene_reviewed_native_full_render_in_progress",
+      "status": "ready_direct_draft_awaiting_required_after_draft_approval",
       "topic": "Motivational action through a physical problem",
-      "content_type": "motivational",
+      "content_type": "fictional_micro_stories",
       "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
       "action": "After two clear failed attempts, the courier uses the side loading steps to fill the separate counterweight basket with loose stones. Opposite rope movement holds the gate up while the parcel cart remains free to pass.",
       "payoff": "The courier rolls through; a line of waiting townspeople follows. End on the gate staying open, not a generic motivational slogan.",
@@ -198,13 +199,13 @@
       "current_study_source_sha256": "de85d9ba9cb68ee02c2077f87432fbfc5eb43125a88305931452a2f14c441b6c",
       "actual_current_staging_pose_images_reviewed": 4,
       "full_native_animation_started": true,
-      "payoff_produced": false,
-      "finished_movie_exists": false,
-      "publisher_draft_created": false,
+      "payoff_produced": true,
+      "finished_movie_exists": true,
+      "publisher_draft_created": true,
       "do_not_duplicate_preparation": true,
       "new_concept_discovery_claim": false,
       "acting_review": "assets/stories/counterweight-gate/acting-review.json",
-      "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
+      "caption_plan": "assets/stories/counterweight-gate/caption-plan-v2.json",
       "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
       "actual_current_acting_pose_images_reviewed": 4,
       "waiting_adults_blocked": 2,
@@ -248,7 +249,7 @@
       "stone_development_seconds": 5.0,
       "stone_actual_encoded_frames_reviewed": 120,
       "stone_transfer_and_gate_rise_prototype_prepared": true,
-      "shared_final_geometry_integration_complete": false,
+      "shared_final_geometry_integration_complete": true,
       "notice_motion_review": "assets/stories/counterweight-gate/notice-review.json",
       "notice_motion_source_sha256": "2ed2f9b3029d4f3049c8b426eb5d5c43e618600e64c9afe902640e863b84b318",
       "notice_development_seconds": 2.7083333333333335,
@@ -263,12 +264,63 @@
       "integrated_source_review": "assets/stories/counterweight-gate/integrated-source-review.json",
       "integrated_scene_source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
       "shared_scene_source_authored": true,
-      "verified_native_encoded_frames": 276,
-      "full_native_movie_exists": false,
-      "actual_native_encoded_frames_reviewed": 264,
-      "native_render_progress_observed_at_utc": "2026-11-19T07:22:49.509671+00:00",
+      "verified_native_encoded_frames": 578,
+      "full_native_movie_exists": true,
+      "actual_native_encoded_frames_reviewed": 578,
+      "native_render_progress_observed_at_utc": "2026-11-19T09:47:55.536652+00:00",
       "native_opening_review_complete": true,
-      "native_notice_review_complete": true
+      "native_notice_review_complete": true,
+      "verified_full_native_encoded_frames": 578,
+      "video_sha256": "697dc014581c5f1d0a254e62cbe7ed2817496b2121d17fa3be0951f5097874f2",
+      "video_bytes": 5755109,
+      "full_movie_review": "assets/stories/counterweight-gate/full-movie-review-v2.json",
+      "preview_url": "https://share.descript.com/view/1IEayU0wi7y",
+      "draft_review_document": "docs/production/counterweight-gate-upload-review.md",
+      "required_after_saved_draft_approval_received": false,
+      "scheduled": false,
+      "published": false,
+      "ready_draft": true,
+      "do_not_restart_completed_native_jobs": true,
+      "held_baseline_video_sha256": "fe182a5587a5f3da16211833137c46511e0732ea4f2ddb66792a3beffe2828fa",
+      "production_state": "Corrected v2 movie and one ready0credit manual direct draft already exist. Its exact preview/settings and required reply were shown once. Preserve the same draft/revision and await actual after-saved-draft approval; no scheduling/publication, rerender/reimport or repeated approval questions. Read current manifest/QA rather than historical incremental checkpoint fields.",
+      "native_cut_pairs_reviewed": [
+        [
+          91,
+          92
+        ],
+        [
+          139,
+          140
+        ],
+        [
+          197,
+          198
+        ],
+        [
+          225,
+          226
+        ],
+        [
+          262,
+          263
+        ],
+        [
+          318,
+          319
+        ],
+        [
+          366,
+          367
+        ],
+        [
+          438,
+          439
+        ],
+        [
+          498,
+          499
+        ]
+      ]
     },
     {
       "id": "quality_last_charge",
@@ -558,5 +610,7 @@
     "actual_native_encoded_frames_reviewed": 264,
     "native_opening_review_complete": true,
     "native_notice_review_complete": true
-  }
+  },
+  "production_sync_at_utc": "2026-11-19T10:02:56.777237+00:00",
+  "production_sync_basis": "Current committed story/QA/queue and read-only exact-account/service/draft readbacks; no new scout research, audience count, trend ranking, velocity or publication claim."
 }
