@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_male_audio_opening_stair_stone_development_not_full_story",
+  "status": "original_male_audio_opening_notice_stair_stone_development_not_full_story",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -85,7 +85,7 @@
     "start": 144
   },
   "source_plan": {
-    "visuals": "Original mechanism/courier/cast assets and opening, stair, cart and 120-frame eight-stone transfer/gate-rise development exist. The new raised tray and persistent stones are authored. Shared final geometry, notice transition, actual passage payoff, expression and environment finish remain pending.",
+    "visuals": "Original scene assets and opening, notice/head turn, stair, cart and stone-transfer/gate-rise development exist. Notice reuses the stone study raised tray/eight-stone scene. A consistent final scene, actual passage payoff, expression and environment finish remain pending.",
     "voice": "One reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
     "effects": "Original gate-stop, pulley, stone-deposit, boot-tread and cart-wheel cues now synthesized/mixed from the planned action times; actual animated sync remains pending.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse the completed opening/stair/cart/stone controllers and QA with the exact male take, captions and current v2 audio. Create one consistent final scene with the raised tray and eight stone identities present throughout; do not stitch older five-floor-stone opening/stair pictures into the final film. Build notice/head turn at frames 198..262 and actual cart/line passage at 439..578; inspect elided travel and cuts. Finish expressive acting, cameras and courtyard, reserve native storage using final-scene samples, then review the complete encoded audiovisual film. Preserve the completed development tests and existing audio.",
+  "next_work": "Reuse completed opening/notice/stair/cart/stone controllers and QA with the exact male take, captions and v2 audio. Create one consistent final scene with the raised tray and same eight stones present throughout; older opening/stair pictures use five floor stones. Build actual courier/cart passage and same-cast line payoff at frames 439..578, inspect stair/landing and return cuts, finish expression/cameras/courtyard, reserve native storage from final-scene samples and review the whole encoded audiovisual film. Preserve completed studies and existing voice/audio.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -207,5 +207,18 @@
   "do_not_regenerate_existing_stone_test": true,
   "stone_prepared_at_utc": "2026-11-19T01:47:58.137227+00:00",
   "shared_final_geometry_integration_complete": false,
-  "stone_source_words_match_including_boundary_and": true
+  "stone_source_words_match_including_boundary_and": true,
+  "notice_motion_review": "assets/stories/counterweight-gate/notice-review.json",
+  "notice_motion_source_sha256": "2ed2f9b3029d4f3049c8b426eb5d5c43e618600e64c9afe902640e863b84b318",
+  "private_notice_development": "work/preproduction/counterweight-gate/notice-motion-v1",
+  "notice_development_video_sha256": "10fd45f75df6edd292618c4d876a365897c6334280dd60cd74a91d1efaea39ca",
+  "notice_development_seconds": 2.7083333333333335,
+  "notice_development_story_frames": [
+    198,
+    262
+  ],
+  "notice_actual_encoded_frames_reviewed": 65,
+  "notice_head_turn_prototype_prepared": true,
+  "do_not_regenerate_existing_notice_test": true,
+  "notice_prepared_at_utc": "2026-11-19T04:21:36.111554+00:00"
 }

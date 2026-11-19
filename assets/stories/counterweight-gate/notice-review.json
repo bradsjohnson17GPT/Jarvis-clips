@@ -1,0 +1,156 @@
+{
+  "id": "counterweight-gate",
+  "completed_at_utc": "2026-11-19T02:05:54.147045+00:00",
+  "scope": "notice/head-turn development only, not full story",
+  "source_sha256": "2ed2f9b3029d4f3049c8b426eb5d5c43e618600e64c9afe902640e863b84b318",
+  "input_stone_blend_sha256": "0adb6d86642ceb6973beba1db77228841c987903aca7134755a56748811b6873",
+  "video_sha256": "10fd45f75df6edd292618c4d876a365897c6334280dd60cd74a91d1efaea39ca",
+  "video_bytes": 164718,
+  "native_dimensions": [
+    360,
+    640
+  ],
+  "fps": 24,
+  "frames": 65,
+  "story_frames": [
+    198,
+    262
+  ],
+  "duration_seconds": 2.7083333333333335,
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "duration_seconds": 2.708
+  },
+  "source_audio_preflight_sha256": "60c1fbbb9693cd9380f5f0f5c9fcd49a27cb4c2b2d7c19a3afddf0bf76b39b31",
+  "source_audio_excerpt_seconds": [
+    8.208333333333334,
+    10.916666666666666
+  ],
+  "narration_regenerated": false,
+  "audio_remixed": false,
+  "audio_reencoded_for_crop": true,
+  "caption_sha256": "16e4512a0cb0fc80d8c35626c6c5feea7c7306b5ba99382e50a3db1817779f74",
+  "encoded_asr_exact_normalized_match": true,
+  "encoded_asr_transcript": "Then I noticed the empty counterweight basket.",
+  "encoded_loudness": {
+    "input_i": "-16.00",
+    "input_tp": "-3.55",
+    "input_lra": "0.00",
+    "input_thresh": "-26.00",
+    "output_i": "-16.00",
+    "output_tp": "-3.55",
+    "output_lra": "0.00",
+    "output_thresh": "-26.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "all65_raw_clean_hash_pairs_verified": true,
+  "strict_full_decode_passed": true,
+  "all65_pts_n_over24_verified": true,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "cut_boundaries_story": [
+    [
+      225,
+      226
+    ]
+  ],
+  "cut_boundaries_encoded": [
+    [
+      28,
+      29
+    ]
+  ],
+  "actual_encoded_frames_visually_reviewed": 65,
+  "continuous_playback_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "full_story_animation": false,
+  "publishable": false,
+  "reviewed_at_utc": "2026-11-19T04:21:36.111554+00:00",
+  "reviewer": "Project production assistant",
+  "source": "assets/stories/counterweight-gate/notice-study.py",
+  "review_method": "All 65 actual decoded MP4 frames viewed in two numbered contact sheets; listed encoded samples additionally viewed at native 360x640. Six native 720x1280 source samples were viewed before motion rendering. No continuous playback or audio audition is claimed.",
+  "full_size_encoded_frames_viewed": [
+    1,
+    13,
+    20,
+    28,
+    29,
+    31,
+    47,
+    65
+  ],
+  "full_size_encoded_story_frames_viewed": [
+    198,
+    210,
+    217,
+    225,
+    226,
+    228,
+    244,
+    262
+  ],
+  "native_720_story_frames_viewed": [
+    198,
+    210,
+    225,
+    226,
+    244,
+    262
+  ],
+  "full_size_native_720_story_frames_viewed": [
+    225,
+    226
+  ],
+  "decoded_frame_hash_record_sha256": "a403a1ed8389b281d9babf7618a283e1d969fa6a805b14a698851636c1e5e48e",
+  "full_size_encoded_png_sha256": {
+    "1": "5c5250a6b65fd8f69f7f7aaf5cb00aec50e00d022891426b0cb764db19424235",
+    "13": "24f0a01c00729d40a811b9afe5431967009aee7122c57fb4920f3cf6c465fb52",
+    "20": "7ac102ed671e4c579f6480e654a516c8b1afc2904819bd0cd327fadbf4944e57",
+    "28": "d3f2a1e85dc67aad8e8463191c8e8ab0dfa05d1907e55e6cdbd47d423390a253",
+    "29": "c6092df813575385a907ee4cf0746b82397fbf92ec173d0cb66e0c42d1cd3378",
+    "31": "7186b221736aa920be9318e05f2ef7a207acb4e6f683ecd5912709b6433afa00",
+    "47": "197e4687ba5c087fdcdc5e237dd15244aa2dfbe80320b8eedb67ef5989760f58",
+    "65": "defac575ca10846e920ec83787774e4868c3806419a20916287fc36ab150e1f3"
+  },
+  "original_source_rights": "Same project-owned courier/cast and original mechanism, raised tray and eight persistent stones from the reviewed stone scene. Original head/arm/foot controller and expression/cameras. No external media, models, textures or voices added.",
+  "render_settings": {
+    "engine": "Cycles CPU",
+    "samples": 8,
+    "threads": 2,
+    "denoiser": "Reviewed OIDN, native dimensions preserved"
+  },
+  "repository_tests_passed": 41,
+  "numerical_checks": {
+    "all65_pose_records_checked": true,
+    "hero_root_yaw_equal_completed_opening_end": true,
+    "eight_source_stone_positions_equal_completed_stone_start": true,
+    "gate_closed_and_basket_empty_throughout": true,
+    "fixed_source_stone_visibility_and_locations": true,
+    "minimum_head_forward_dot_basket_target_after_turn": 0.9999999403953552,
+    "max_mitten_endpoint_error_scene_units": 1.4057727354849284e-07,
+    "max_sole_plane_error_scene_units": 3.952998639533689e-08,
+    "rope_length_variation_scene_units": 0.0,
+    "full_body_swept_collision_or_eye_articulation_validated": false
+  },
+  "actual_visual_findings": [
+    "The close sequence shows the same courier with visible eyes and brows. The head rotates and tilts upward while the worried mouth relaxes; the torso/scarf remain fixed. No observed root jump occurs within this shot.",
+    "The 28/29 cut reveals the closed gate, empty hanging basket, rope/pulley route and source stones on the raised tray. The arrangement remains stable through frame65. Some lower-body/cart contact is occluded; no whole-body collision or gaze perception claim follows.",
+    "Phrase captions Then I noticed, the empty and counterweight basket appear in order and remain readable at native360x640. Captions fade at the end and the original-fiction label is present. Frame/timing checks do not establish subjective audio synchronization.",
+    "The wide shot has substantial gray background and partially hidden courier/cart staging. Fixed eyes, static torso/scarf, no line movement and limited facial acting remain development limits. A final camera/environment and passage payoff are still required."
+  ],
+  "editorial_limits": [
+    "Bounded notice shot only; no full Short, ready candidate or publishing draft.",
+    "Wide camera has gray background and partial cart/post occlusion around the lower body. Fixed eyes, static torso/scarf and limited expression remain.",
+    "Same tray/eight-stone geometry is reused for notice and stone studies; earlier opening/stair pictures still require a shared final scene continuity pass.",
+    "Final courier/cart passage and same-cast walking payoff remain unbuilt. A cut must coherently elide the return route.",
+    "Finish expressive cameras and courtyard, reserve native storage from final-scene samples and inspect the complete film with audio/captions."
+  ],
+  "full_story_editorial_pass": false,
+  "status": "reviewed_notice_head_turn_development_not_full_story",
+  "ready_candidate": false,
+  "posting_queue_changed": false,
+  "new_service_drafts": 0
+}

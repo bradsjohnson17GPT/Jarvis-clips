@@ -174,7 +174,7 @@
     },
     {
       "id": "quality_counterweight_gate",
-      "status": "original_male_audio_opening_stair_stone_development_not_full_story",
+      "status": "original_male_audio_opening_notice_stair_stone_development_not_full_story",
       "topic": "Motivational action through a physical problem",
       "content_type": "motivational",
       "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
@@ -248,7 +248,12 @@
       "stone_development_seconds": 5.0,
       "stone_actual_encoded_frames_reviewed": 120,
       "stone_transfer_and_gate_rise_prototype_prepared": true,
-      "shared_final_geometry_integration_complete": false
+      "shared_final_geometry_integration_complete": false,
+      "notice_motion_review": "assets/stories/counterweight-gate/notice-review.json",
+      "notice_motion_source_sha256": "2ed2f9b3029d4f3049c8b426eb5d5c43e618600e64c9afe902640e863b84b318",
+      "notice_development_seconds": 2.7083333333333335,
+      "notice_actual_encoded_frames_reviewed": 65,
+      "notice_head_turn_prototype_prepared": true
     },
     {
       "id": "quality_last_charge",
@@ -451,7 +456,7 @@
       "do_not_duplicate_preparation": true
     }
   ],
-  "production_reconciled_at_utc": "2026-11-19T01:47:58.137227+00:00",
+  "production_reconciled_at_utc": "2026-11-19T04:21:36.111554+00:00",
   "latest_free_scout_check": {
     "checked_at_utc": "2026-11-19T01:13:31.192223+00:00",
     "research_date_pacific": "2026-11-18",
@@ -490,10 +495,10 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-19T01:47:58.137227+00:00",
+    "prepared_at_utc": "2026-11-19T04:21:36.111554+00:00",
     "concept_id": "quality_counterweight_gate",
     "manifest": "stories/counterweight-gate.json",
-    "status": "original_male_audio_opening_stair_stone_development_not_full_story",
+    "status": "original_male_audio_opening_notice_stair_stone_development_not_full_story",
     "new_finished_shorts": 0,
     "new_drafts": 0,
     "paid_vidiq_credits": 0,
@@ -515,13 +520,17 @@
     "action_plan": "assets/stories/counterweight-gate/action-plan-v2.json",
     "audio_preflight": "assets/stories/counterweight-gate/audio-preflight-v2.json",
     "audio_action_version": 2,
-    "new_stone_frames_rendered": 120,
+    "new_stone_frames_rendered": 0,
     "v2_full55_word_asr_match": true,
     "v2_animation_sync_verified": false,
     "stone_motion_review": "assets/stories/counterweight-gate/stone-motion-review.json",
     "stone_actual_encoded_frames_reviewed": 120,
     "stone_crop_asr_exact_match": false,
     "stone_source_words_match_including_boundary_and": true,
-    "stone_crop_asr_comparator_note": "Raw comparator false because its expected text omitted the boundary and. Actual transcript matches all 12 source words including and."
+    "stone_crop_asr_comparator_note": "Raw comparator false because its expected text omitted the boundary and. Actual transcript matches all 12 source words including and.",
+    "notice_motion_review": "assets/stories/counterweight-gate/notice-review.json",
+    "notice_actual_encoded_frames_reviewed": 65,
+    "new_notice_frames_rendered": 65,
+    "notice_crop_asr_exact_match": true
   }
 }
