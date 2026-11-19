@@ -1,8 +1,8 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T05:47:09.514233+00:00",
+  "reviewed_at_utc": "2026-11-19T06:28:55.527125+00:00",
   "reviewer": "Project production assistant",
-  "status": "shared_scene_source_and_first_native_batch_reviewed_full_film_pending",
+  "status": "first_native_opening_and_first_cut_reviewed_full_film_pending",
   "source": "assets/stories/counterweight-gate/integrated-scene.py",
   "source_sha256": "a2e8f40adbc54a6d174441867314401a7d6b125643d2391c9f5b5e611f37d5aa",
   "motion_cache_metadata": "assets/stories/counterweight-gate/integrated/motion-cache.json",
@@ -33,6 +33,8 @@
     1,
     6,
     12,
+    48,
+    76,
     210
   ],
   "current_source_native_image_hashes": {
@@ -51,6 +53,14 @@
     "210": {
       "raw": "f42ea1f29a61495c4acb8ee51876b99a8276be7c8a5edc85567c21ff8d0a723e",
       "clean": "5e9fb2e8bb4e02d3de9060b5fc0e11a30492622f53ba78deef5dcfe82d49f2ab"
+    },
+    "48": {
+      "raw": "6c92745b0c3aa8e413f03be17cfc0a3020d8140e590d1566c1405ce2a23acbe3",
+      "clean": "b811d9d18c8e6427853afa37d617e8174a2b2d6c38ad6f6c4898d0e2a2dec6d6"
+    },
+    "76": {
+      "raw": "e04cb09a6d5509656642eb182f16727e4b42ca42fe3c7568514b6a2c0a07babc",
+      "clean": "ec01f6364f01468bb9c0f22fe04b9a7b5c40d3c2da0fb1376747ea626dd88b7c"
     }
   },
   "prior_v1_native_context_frames_viewed": [
@@ -104,7 +114,16 @@
     "All twelve decoded frames were inspected in a contact sheet; decoded frames 1 and 12 and native clean source frames 1, 6 and 12 were additionally viewed individually at 720x1280.",
     "The opening clearly places the courier holding the gate beside the separate loaded cart. Visible paving supports the feet and wheels; the empty suspended basket and the raised stone source tray remain visible in the background.",
     "The original-fiction label remains readable at the top, and the first caption, Every time I, is readable below the action by encoded frame 12 without covering the courier's hands or cart.",
-    "These twelve frames cover only the first half-second of the opening hold. They do not establish the subsequent release, failed attempts, continuous animation, complete story or subjective soundtrack quality. The intermediate chunk has no audio."
+    "These twelve frames cover only the first half-second of the opening hold. They do not establish the subsequent release, failed attempts, continuous animation, complete story or subjective soundtrack quality. The intermediate chunk has no audio.",
+    "All 36 decoded frames 13\u201348 were inspected in three sheets of 12 frames. Decoded frames 24/36/48 and current native frame 48 were also viewed individually at 720\u00d71280.",
+    "The opening hold progresses into a right-arm reach toward the loaded cart while the left hand stays on the gate. Footing and cart wheels remain visible and consistent through these samples. Gate release/drop itself occurs later and is not established by this partial review.",
+    "Captions continue across chunks of 12 frames without resetting: Every time I changes to reached for my cart at frame 28. Both phrases remain below the action, with the original-fiction label above.",
+    "The review of frames 1\u201348 covers two seconds. Those silent intermediate segments do not establish continuous playback, full-film editorial quality or subjective sound quality.",
+    "All 48 decoded frames 49\u201396 were inspected in four sheets of 12 frames. Decoded frames 76/91/92 and current native frame 76 were also viewed individually at 720\u00d71280.",
+    "The courier releases the remaining hand as the gate starts dropping, the empty basket rises in the opposite direction, and the gate reaches its lower stop by frame 76. Hands remain clear afterward; the courier then crouches for another lift.",
+    "The caption the gate came down remains readable below the action during the fall and lower-stop frames. It fades out before the next shot; captions do not restart at the boundaries between encoded chunks.",
+    "The camera cut between frames 91 and 92 keeps the crouched courier at the same gate and preserves the cart on the same side. The closer second view crops much of the cart and includes a large foreground pillar; full-film framing review remains pending.",
+    "These are current-source silent intermediate chunks. The complete native film, continuous playback and subjective soundtrack quality are not established."
   ],
   "narration_regenerated": false,
   "audio_remixed": false,
@@ -118,9 +137,54 @@
   "publishing_draft_created": false,
   "posting_queue_changed": false,
   "limits": [
-    "Only the first12video frames are encoded and inspected at this checkpoint. The complete578frame native film is pending.",
+    "At this checkpoint, the first 96 encoded video frames are actually inspected, including the first gate drop and the 91/92 cut. The full 578-frame film and its finished audiovisual review remain pending.",
     "Some hands, feet and cast are occluded in chosen views; final front view can crop the cart edge. Restrained faces/blinks and static torso/scarf remain stylized.",
     "Numerical endpoint/sole/rope checks do not establish swept full-body collision, realism, continuous playback or subjective sound quality.",
     "Review the actual full encoded film and every cut, speech/caption timing, retained AAC content and measured loudness/headroom before final candidate preparation."
-  ]
+  ],
+  "native_render_progress_checkpoint": {
+    "observed_at_utc": "2026-11-19T06:28:14.248853+00:00",
+    "verified_encoded_frames": 108,
+    "source_and_denoise_frame_receipts_checked": 108,
+    "actual_encoded_frame_ranges_viewed": [
+      [
+        1,
+        96
+      ]
+    ],
+    "actual_encoded_frames_viewed": 96,
+    "full_size_encoded_frames_viewed": [
+      1,
+      12,
+      24,
+      36,
+      48,
+      76,
+      91,
+      92
+    ],
+    "first_cut_pair_actually_viewed_full_size": [
+      91,
+      92
+    ],
+    "first_gate_release_seconds": 2.65,
+    "first_gate_lower_stop_seconds": 3.125,
+    "reviewed_chunk_hashes": [
+      "7a591b7dd7368d91cc99f1fe99a39737800acf8533c09e53c4efb654fe704b13",
+      "f8a1fe69e72d416cb854eeea5c5a1876b3e5f675390c1c08fcdcd99449a1cc66",
+      "407105ea87d1ce847af9bb9a5da666b42cb1bd63033799e8868b732f04114171",
+      "0f39882aa91421165b025664735807aab1e4d3482753d459ee1c71fa8648acfa",
+      "cf1d51aaeb2ee709248c52e07c268aad07d9cb3deb2ec86865ffdf025b2a15d5",
+      "aa07540947bfbf9aded013cbcac65671ce9661d095a3fc2ff14c522213aff035",
+      "2b1377c4db2b7c8a4e327d0f62a747c13ca53f3dc6185591b7127ec62d642acf",
+      "7fc89e7f6b94f9e6f3c1805edebc6b18f937387a5af0f0af70cec074d62e33b8"
+    ],
+    "native_numeric_png_links_pruned_after_verified_chunks": 200,
+    "no_protected_frame_pruned": true,
+    "complete_source_and_denoise_receipts_preserved": true,
+    "full_v2_audio_unchanged": true,
+    "new_finished_shorts": 0,
+    "new_drafts": 0,
+    "posting_queue_changed": false
+  }
 }
