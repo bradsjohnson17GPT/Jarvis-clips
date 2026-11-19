@@ -1,6 +1,6 @@
 {
   "id": "counterweight-gate",
-  "reviewed_at_utc": "2026-11-19T00:33:46.705717+00:00",
+  "reviewed_at_utc": "2026-11-19T00:52:53.800200+00:00",
   "reviewer": "Project production assistant",
   "status": "current_original_mechanism_geometry_and_voice_source_reviewed_full_story_pending",
   "original_geometry": {
@@ -87,6 +87,15 @@
     "rights_basis": "Original hand/leg/ankle controller, cameras and limited expressions over the already reviewed project-owned character and original mechanism. Same two owned cast copies. No external models, textures, footage or voices added.",
     "commercial_project_use": true,
     "audio": "Existing reviewed male take, licensed music and original effects only; first paragraph cropped, not regenerated or remixed.",
+    "full_story_exists": false
+  },
+  "stair_contact_motion_prototype": {
+    "source": "assets/stories/counterweight-gate/stair-motion-study.py",
+    "sha256": "10bb4cd1e2e8de3c1238bb718a23420d69d08331b00a7d742b33fcbc28e9f52c",
+    "review": "assets/stories/counterweight-gate/stair-motion-review.json",
+    "rights_basis": "Original step-to foot trajectory, world-space ankle solving, balance arm movement and fixed camera over already reviewed original mechanism/project-owned courier. No external models, textures, footage or voices added.",
+    "audio": "Same licensed/original preflight sources; bounded excerpt cropped and re-encoded, not regenerated/remixed.",
+    "commercial_project_use": true,
     "full_story_exists": false
   }
 }

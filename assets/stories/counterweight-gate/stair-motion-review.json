@@ -1,0 +1,162 @@
+{
+  "id": "counterweight-gate",
+  "completed_at_utc": "2026-11-19T00:51:12.180737+00:00",
+  "scope": "stair contact development only; original sentence, full middle and final story incomplete",
+  "source_sha256": "10bb4cd1e2e8de3c1238bb718a23420d69d08331b00a7d742b33fcbc28e9f52c",
+  "video_sha256": "9c4e42ffe3c217da788a3a29118d7762ae6329d2e815beb56359a9307e4a4676",
+  "video_bytes": 145959,
+  "native_dimensions": [
+    360,
+    640
+  ],
+  "fps": 24,
+  "frames": 56,
+  "story_frames": [
+    263,
+    318
+  ],
+  "duration_seconds": 2.3333333333333335,
+  "audio_stream": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "duration_seconds": 2.333
+  },
+  "source_audio_preflight_sha256": "5fec69f9bd87e2fcfb950c558c7d672ba9e1f1656116e70ef47ae200d81e76a5",
+  "source_audio_excerpt_seconds": [
+    10.916666666666666,
+    13.25
+  ],
+  "narration_regenerated": false,
+  "audio_remixed": false,
+  "audio_reencoded_for_crop": true,
+  "caption_sha256": "16e4512a0cb0fc80d8c35626c6c5feea7c7306b5ba99382e50a3db1817779f74",
+  "encoded_asr_expected_crop_match": false,
+  "encoded_asr_transcript": "I took the side steps",
+  "encoded_loudness": {
+    "input_i": "-14.75",
+    "input_tp": "-3.19",
+    "input_lra": "0.00",
+    "input_thresh": "-26.29",
+    "output_i": "-16.00",
+    "output_tp": "-4.44",
+    "output_lra": "0.00",
+    "output_thresh": "-27.53",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "all56_raw_clean_hash_pairs_verified": true,
+  "strict_full_decode_passed": true,
+  "spatial_upscale": false,
+  "frame_interpolation": false,
+  "lead_plant_story_frames": [
+    280,
+    292,
+    304
+  ],
+  "actual_encoded_frames_visually_reviewed": 56,
+  "continuous_motion_watching_claimed": false,
+  "subjective_audio_listening_claimed": false,
+  "full_story_animation": false,
+  "publishable": false,
+  "reviewed_at_utc": "2026-11-19T00:52:53.800200+00:00",
+  "reviewer": "Project production assistant",
+  "source": "assets/stories/counterweight-gate/stair-motion-study.py",
+  "input_acting_blend_sha256": "7691e1f0daed54ea5addc4eb644cd18fcd8dc1e90fa9b132e646968d84660b0f",
+  "action_plan_sha256": "20a9a83af01b0b50d1dee276cc8e16e680aa7597879ad56a1956d0ff87c4c1ce",
+  "review_method": "All56actual decoded frames viewed in two numbered sheets; encoded1,17,18,24,30,42,48,56 additionally at native360x640. Seven native720x1280 critical samples viewed before development render, with279,292,310 additionally full-size. No continuous playback/audio audition claimed.",
+  "full_size_encoded_frames_viewed": [
+    1,
+    17,
+    18,
+    24,
+    30,
+    42,
+    48,
+    56
+  ],
+  "full_size_encoded_story_frames_viewed": [
+    263,
+    279,
+    280,
+    286,
+    292,
+    304,
+    310,
+    318
+  ],
+  "native_720_story_frames_viewed": [
+    263,
+    279,
+    280,
+    292,
+    304,
+    310,
+    318
+  ],
+  "full_size_native_720_story_frames_viewed": [
+    279,
+    292,
+    310
+  ],
+  "decoded_frame_hash_record_sha256": "cc8442945c77fa2e078b3c9bcde19bbda608824a375d550a09f7e503521bac00",
+  "full_size_encoded_png_hashes": {
+    "1": "f151e9b343edbcfb1e0c5304b9584a1a2f8f20c5256324a5f4bcd6f3fa8156fe",
+    "17": "dcb98f41c122082d19b4a885bd55203642dd9abe7b64e93da9436db86dfbb58f",
+    "18": "cd2bfb081368d23a279b1e056e8b2930ba39d481490190815a30e8fd4a00c87c",
+    "24": "d2fdc2f522eefd9f3dc6803205097dfc67fa5c8c1d370e6d2fe74e3a8eee2f83",
+    "30": "02d4e6d7a6cc175ffb18cd461d80d9bacfb0f749b8112041657b6284b59f11cc",
+    "42": "2265091816c015f6e756b13a041769ac0409ec9226378128e447672a0d53cdc4",
+    "48": "d2253cf5415e5f1be9574e826e6f4adca26eeb56c95e51cdf3e554d13cd140d6",
+    "56": "25089196090b33846c7b5bed8a372b050645d19b5a8fe3c14aea4634c7c5e78a"
+  },
+  "all56_presentation_timestamps_match_n_over24": true,
+  "source_frames_rendered": 56,
+  "interpolation_or_spatial_upscale_applied": false,
+  "repository_tests_passed_after_final_renderer_change": 41,
+  "render_settings": {
+    "engine": "Cycles CPU",
+    "samples": 8,
+    "threads": 2,
+    "denoise": "Reviewed OIDN at unchanged native size"
+  },
+  "numerical_checks": {
+    "all56_poses_checked": true,
+    "max_ankle_target_error_scene_units": 1.3709068298339844e-06,
+    "min_sampled_sole_corner_surface_clearance_scene_units": -5.960464477539063e-08,
+    "at_least_one_planted_foot_every_frame": true,
+    "same_tread_stance_ankle_locks_checked": true,
+    "full_body_swept_collision_or_rigid_body_validation": false
+  },
+  "lead_plant_story_seconds": [
+    11.625,
+    12.125,
+    12.625
+  ],
+  "follow_plant_story_frames": [
+    286,
+    298,
+    310
+  ],
+  "actual_visual_findings": [
+    "Courier ascends the existing three treads in step-to movement; the other foot joins each tread before the next rise. The body reaches the top tread at landing height, not the later basket-loading position.",
+    "All three treads and main actor remain in the fixed portrait view. Some far-foot/joint detail is hidden by the body and steps; numerical sole contact is not proof of natural anatomy or full-body collision freedom.",
+    "The near sole appears on its support in the inspected critical/encoded frames. Large .55-high treads, pronounced knee bends, stiff torso/scarf and rear view remain stylized development limitations.",
+    "The basket overlaps a waiting adult in the background; face/cast readability and grey courtyard need a finished composition. Original fiction and phrase captions are visible.",
+    "The last phrase caption begins and filled it from the existing full-film cue, while the clip ends inside that sentence before the loading action exists. This is not an editorial-ready standalone excerpt."
+  ],
+  "audio_review_limit": "Existing preflight excerpt10.916667to13.25seconds, no regeneration or remix. Exact crop ASR check is false: ASRrecognized only I took the side steps, omitting the boundary conjunction and. Full saved source55wordASR remains separate evidence. Short-excerpt measured-14.75LUFS/-3.19dBTP is not a new full-film mix target or subjective listening verdict.",
+  "held_encoding_failure": "Two earlier encoded files retained privately after stream-duration checks failed. Corrected integer frame timestamp handling and explicit24fps encoding yielded56frames/2.333333seconds and2.333secondstereoAAC. All rendered/denoised frames reused; no rerender.",
+  "integration_limits": [
+    "Notice/head-turn transition before the stairs remains unbuilt. Select and inspect purposeful cuts to/from this prototype; do not imply instantaneous uninterrupted travel from the gate.",
+    "Continue from top tread onto the landing with supported contacts before stone pickup/deposits. Author all8plannedstones and actual grouped3/3/2transfer/release paths. Existing pile still has only5study stones.",
+    "Loaded basket/gate travel, courier/cart passage, waiting cast walking payoff, environment and expressive treatment remain pending.",
+    "Preserve unchanged male take, audio, captions and immutable action-plan bytes. Revise a versioned plan/preflight only if actual event timings change.",
+    "Reserve render storage using final native samples; current unfinished-scene samples are not a guaranteed final storage budget."
+  ],
+  "status": "reviewed_stair_contact_development_not_full_story",
+  "full_story_editorial_pass": false,
+  "ready_candidate": false,
+  "new_service_drafts": 0,
+  "posting_queue_changed": false
+}

@@ -1,7 +1,7 @@
 {
   "id": "counterweight-gate",
   "origin_idea_id": "quality_counterweight_gate",
-  "status": "original_male_audio_two_attempt_opening_development_not_full_story",
+  "status": "original_male_audio_opening_and_stair_development_not_full_story",
   "title": "The Gate That Held Everyone Back",
   "content_type": "fictional_micro_stories",
   "theme": "A changed arrangement helps the people waiting at a gate.",
@@ -85,7 +85,7 @@
     "start": 144
   },
   "source_plan": {
-    "visuals": "Original mechanism/contact geometry, two waiting adults, cart walking prototype and integrated two-attempt opening exist. Supported crouch/lift/release/reaction share one staging position. Remaining stone/stair action, passage payoff, expressive treatment and environment finish are pending.",
+    "visuals": "Original mechanism/contact geometry, two waiting adults, cart-walking prototype, integrated two-attempt opening and three-tread stair-contact prototype exist. Notice transition, movement onto landing, stone loading, passage payoff, expressive treatment and environment finish remain pending.",
     "voice": "One reviewed generic am_michael paragraph take exists:55ASR-matched words, cleaned without pitch/tempo change. Reuse its exact bytes and timing.",
     "effects": "Original gate-stop, pulley, stone-deposit, boot-tread and cart-wheel cues now synthesized/mixed from the planned action times; actual animated sync remains pending.",
     "reference_use": "Reuse completed structural analyses for opening/action/payoff; no creator footage/music/scripts/branding or famous-person voice/claims.",
@@ -118,7 +118,7 @@
   "do_not_regenerate_existing_take": true,
   "full_native_animation_started": false,
   "do_not_render_staging_as_final_movie": true,
-  "next_work": "Reuse the exact male take/audio/captions and completed integrated opening at common cart position(.30,-1.55). Build supported stairs, explicit stone pickup/deposits and hand release, loaded basket/gate movement, courier/cart passage and the same waiting adults walking payoff. Finish expressive cameras/acting and courtyard. Keep the immutable audio/action plan; revise a versioned pair only if event timing changes. Prepare capacity before full native rendering and inspect actual finished cuts, sound and captions. Do not duplicate completed development renders or publish them.",
+  "next_work": "Reuse the completed197-frame opening and56-frame stair-contact prototype with the exact saved male take/audio/captions. Build notice/head-turn transition and supported movement from top tread onto landing; author all8stones and explicit grouped3/3/2pickup/transfer/deposit paths and hand release before basket travel. Complete loaded basket/gate rise, courier/cart passage and same waiting adults walking payoff. Finish expressive shots/acting and courtyard; reserve storage from final native samples before full render. Preserve immutable cue-plan/preflight unless event timing changes; no completed-study rerender or publishing of these tests.",
   "acting_review": "assets/stories/counterweight-gate/acting-review.json",
   "caption_plan": "assets/stories/counterweight-gate/caption-plan.json",
   "current_acting_study_source_sha256": "3125f92b5794987e93d48abdbee87266ec8f795b526e2ae9c3b48e6e643a6e16",
@@ -174,5 +174,18 @@
     0
   ],
   "do_not_regenerate_existing_opening_test": true,
-  "opening_prepared_at_utc": "2026-11-19T00:33:46.705717+00:00"
+  "opening_prepared_at_utc": "2026-11-19T00:33:46.705717+00:00",
+  "stair_motion_review": "assets/stories/counterweight-gate/stair-motion-review.json",
+  "stair_motion_source_sha256": "10bb4cd1e2e8de3c1238bb718a23420d69d08331b00a7d742b33fcbc28e9f52c",
+  "private_stair_development": "work/preproduction/counterweight-gate/stair-motion-v1",
+  "stair_development_video_sha256": "9c4e42ffe3c217da788a3a29118d7762ae6329d2e815beb56359a9307e4a4676",
+  "stair_development_seconds": 2.3333333333333335,
+  "stair_development_story_frames": [
+    263,
+    318
+  ],
+  "stair_actual_encoded_frames_reviewed": 56,
+  "stair_contact_prototype_prepared": true,
+  "do_not_regenerate_existing_stair_test": true,
+  "stair_prepared_at_utc": "2026-11-19T00:52:53.800200+00:00"
 }

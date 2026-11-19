@@ -174,7 +174,7 @@
     },
     {
       "id": "quality_counterweight_gate",
-      "status": "original_male_audio_two_attempt_opening_development_not_full_story",
+      "status": "original_male_audio_opening_and_stair_development_not_full_story",
       "topic": "Motivational action through a physical problem",
       "content_type": "motivational",
       "hook": "A courier can lift a heavy gate, but it falls every time they reach for the parcel.",
@@ -230,7 +230,12 @@
         0.3,
         -1.55,
         0
-      ]
+      ],
+      "stair_motion_review": "assets/stories/counterweight-gate/stair-motion-review.json",
+      "stair_motion_source_sha256": "10bb4cd1e2e8de3c1238bb718a23420d69d08331b00a7d742b33fcbc28e9f52c",
+      "stair_development_seconds": 2.3333333333333335,
+      "stair_actual_encoded_frames_reviewed": 56,
+      "stair_contact_prototype_prepared": true
     },
     {
       "id": "quality_last_charge",
@@ -474,10 +479,10 @@
     "counterweight-gate"
   ],
   "latest_independent_preparation": {
-    "prepared_at_utc": "2026-11-19T00:33:46.705717+00:00",
+    "prepared_at_utc": "2026-11-19T00:52:53.800200+00:00",
     "concept_id": "quality_counterweight_gate",
     "manifest": "stories/counterweight-gate.json",
-    "status": "original_male_audio_two_attempt_opening_development_not_full_story",
+    "status": "original_male_audio_opening_and_stair_development_not_full_story",
     "new_finished_shorts": 0,
     "new_drafts": 0,
     "paid_vidiq_credits": 0,
@@ -492,6 +497,9 @@
     "opening_encoded_asr_words": 21,
     "narration_regenerated": false,
     "full_story_exists": false,
-    "posting_queue_changed": false
+    "posting_queue_changed": false,
+    "stair_motion_review": "assets/stories/counterweight-gate/stair-motion-review.json",
+    "stair_actual_encoded_frames_reviewed": 56,
+    "stair_crop_asr_exact_match": false
   }
 }
