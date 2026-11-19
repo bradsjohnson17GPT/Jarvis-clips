@@ -1,0 +1,50 @@
+{
+  "id": "last-charge",
+  "reviewed_at_utc": "2026-11-19T10:21:44.548319+00:00",
+  "reviewer": "Project production assistant",
+  "status": "original_writing_and_generic_male_source_reviewed_picture_music_effects_not_produced",
+  "original_writing": {
+    "idea_origin": "Existing quality_last_charge record in state/trend-brief.json; developed here into a new six-shot scene/action plan.",
+    "authored_here": true,
+    "copied_reference_script_or_plot": false,
+    "fictional_not_creator_experience": true
+  },
+  "planned_visuals": {
+    "status": "not_built",
+    "plan": "New original shopkeeper/traveler/neighbors, three lamp/cell pairs, shop/footbridge/courtyard, cameras and lighting.",
+    "external_models_or_footage_selected": [],
+    "rights_review_after_assets_exist": true,
+    "actual_frames_inspected": 0
+  },
+  "future_voice": {
+    "config": "config/motivational-voice.json",
+    "generic_voice": "am_michael",
+    "model_license": "Apache-2.0 as recorded in existing config; runtime MIT",
+    "new_take_created": true,
+    "celebrity_voice_or_likeness_selected": false,
+    "status": "first_source_take_produced",
+    "clean_source_sha256": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a",
+    "narration_preflight": "assets/stories/last-charge/narration-preflight.json",
+    "reviewed_model_config": "config/motivational-voice.json",
+    "actual_audio_listening_claimed": false
+  },
+  "future_music": {
+    "selected": false,
+    "source_rights_and_description_credit_pending": true
+  },
+  "future_effects": {
+    "plan": "Original synthesis for visible lamp/footstep/lock actions.",
+    "effects_created": false,
+    "external_samples_selected": []
+  },
+  "reference_rights": "The completed reference analyses support structural learning only. No source video/audio, game art, trademark, plot, character, script or music is imported or licensed by public viewing.",
+  "factual_scope": "Fictional portable light technology and invented adults. No real wiring details, energy claim, personal anecdote or promise of results.",
+  "actual_outputs": [
+    "Original script and complete six-shot storyboard.",
+    "One coherent three-paragraph generic male source take with saved cleanup/levels/sample duration and documented ASR segmentation correction.",
+    "No scene images, animation, music/effects mix, finished encoded video, upload draft or schedule."
+  ],
+  "full_movie_rights_review_complete": false,
+  "full_movie_editorial_pass": false,
+  "publishable": false
+}

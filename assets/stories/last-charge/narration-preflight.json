@@ -1,0 +1,63 @@
+{
+  "id": "last-charge",
+  "prepared_at_utc": "2026-11-19T10:27:51.654353+00:00",
+  "status": "clean_male_narration_source_only_not_finished_soundtrack",
+  "voice_config": "config/motivational-voice.json",
+  "voice": "am_michael",
+  "generic_stock_voice": true,
+  "celebrity_imitation_or_pitch_shift": false,
+  "paragraphs": 3,
+  "generated_story_take_count": 1,
+  "spoken_words_after_documented_alignment": 60,
+  "duration_seconds": 25.062,
+  "sample_rate": 24000,
+  "channels": 1,
+  "raw_master_sha256": "277d6b86c0d0b2b520b495a3f311c5b29816b3afdbd740eb97435f58df7730bb",
+  "raw_paced_sha256": "a7094acdac1ac6e744d87238425ad9d30cfafa8313b7ef0e118a97f858ddb596",
+  "clean_source_sha256": "33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a",
+  "processing": "highpass=f=65,lowpass=f=12000,equalizer=f=280:t=q:w=1:g=-1,equalizer=f=2400:t=q:w=1:g=1.2,acompressor=threshold=0.125:ratio=1.8:attack=18:release=160:makeup=1,loudnorm=I=-18:LRA=7:TP=-3",
+  "processing_changes_tempo_pitch_or_words": false,
+  "clean_source_levels": {
+    "integrated_lufs": -18.46,
+    "true_peak_dbtp": -2.92,
+    "loudness_range_lu": 2.0
+  },
+  "full_decode_passed": true,
+  "raw_asr_word_tokenization_exact": false,
+  "script_matches_after_one_documented_token_fusion": true,
+  "alignment_correction": [
+    {
+      "raw_indices": [
+        32,
+        33
+      ],
+      "raw_text": [
+        "a",
+        "cross."
+      ],
+      "aligned_text": "across",
+      "start": 12.2,
+      "end": 12.7,
+      "basis": "Original synthesis input says across. The raw ASR split the same spelling/phoneme sequence into a cross; adjacent intervals are fused only for word alignment. No audio, script or heard-content correction is claimed."
+    }
+  ],
+  "asr_zero_duration_word_indices": [
+    6,
+    33
+  ],
+  "timing_note": "Raw ASR and original audio are retained. The adjacent a/cross tokens were fused to align the unchanged script word across, using their combined start/end span. Two short article tokens have zero-duration ASR spans; phrase captions must use enclosing phrase intervals rather than claim those articles were acoustically measured to zero duration.",
+  "post_cleanup_asr_rerun": false,
+  "source_asr_timing_reused_after_nontemporal_filter": true,
+  "subjective_listening_claimed": false,
+  "natural_delivery_editorial_pass": false,
+  "final_encoded_soundtrack_exists": false,
+  "planned_native_picture_if_take_retained": {
+    "fps": 24,
+    "frames": 602,
+    "duration_seconds": 25.083333333333332,
+    "required_final48k_samples": 1204000,
+    "status": "Plan derived from measured source take, not rendered/encoded movie evidence."
+  },
+  "do_not_regenerate_existing_take": true,
+  "publishable": false
+}

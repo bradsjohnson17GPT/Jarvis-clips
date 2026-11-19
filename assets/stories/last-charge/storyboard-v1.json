@@ -1,0 +1,207 @@
+{
+  "id": "last-charge",
+  "origin_idea_id": "quality_last_charge",
+  "prepared_at_utc": "2026-11-19T10:21:44.548319+00:00",
+  "status": "complete_original_storyboard_not_produced",
+  "working_title": "The Lamp She Left Outside",
+  "fiction_label": "Original fiction",
+  "scope": "An original hopeful fictional choice; no real incident, testimonial, technical construction advice or celebrity likeness.",
+  "logline": "A shopkeeper uses her last personal lamp cell to light a dark footbridge; two neighbors contribute independent lamps, making a path she can use after closing.",
+  "casting": [
+    {
+      "id": "shopkeeper",
+      "design": "An older adult with silver bun, indigo work coat and amber scarf; new original stylized geometry, not a real-person likeness or existing courier performance.",
+      "fictional_name": "Rose"
+    },
+    {
+      "id": "traveler",
+      "design": "Adult with a plum coat and a plain soft bag; visible planted steps and a brief acknowledgment, no speaking impersonation."
+    },
+    {
+      "id": "neighbor_far",
+      "design": "Adult with a pale-green apron and distinct lamp/cell silhouette."
+    },
+    {
+      "id": "neighbor_near",
+      "design": "Adult in a rust coat carrying a third independently powered lamp."
+    }
+  ],
+  "scene_geography": "One short footbridge and its two approaches; shop doorway on near approach, neighbor window beyond far approach. Continuous rail/ground geometry and one consistent camera axis establish travel before any reverse shot.",
+  "lighting_plan": "Cool readable ambient night throughout, with three independent warm pools added by on-screen hand actions. Characters remain legible before lamp placement.",
+  "persistent_props": [
+    "One original shop lamp with one amber-marked cell, carried continuously from doorway to center rail rest.",
+    "One empty shop bracket that stays empty.",
+    "Second lamp with its own cell, supplied by far neighbor.",
+    "Third lamp with its own cell, supplied by near neighbor.",
+    "One traveler bag retained through every shot."
+  ],
+  "shots": [
+    {
+      "id": "last_cell_and_unlit_crossing",
+      "purpose": "Establish a personal choice and its public consequence in the same place.",
+      "camera": "Portrait three-quarter view from the shop doorway, with the shop lamp bracket near foreground and the footbridge/traveler in the middle distance.",
+      "action": "Shopkeeper lifts her portable lamp. Its removable fictional cell shows one amber mark. She looks from her own empty shop bracket toward an adult traveler waiting at the dark bridge with a bag.",
+      "must_show": [
+        "Cell belongs to shopkeeper; only her reserve is low.",
+        "Same portable lamp, cell, shop bracket and bridge geography.",
+        "Traveler and visible planks remain readable in cool ambient night light."
+      ],
+      "avoid": [
+        "A claim that no other resident has power.",
+        "Pitch-black staging, a tiny distant traveler or a disconnected battery insert."
+      ],
+      "planned_frames": [
+        1,
+        144
+      ],
+      "planned_seconds": [
+        0.0,
+        6.0
+      ]
+    },
+    {
+      "id": "carry_the_working_lamp",
+      "purpose": "Make the choice physical and legible before the payoff.",
+      "camera": "Front three-quarter medium view that keeps the empty shop bracket and first bridge rail visible.",
+      "action": "She turns away from the bracket, keeps the lamp lit in her hand, and carries it onto the bridge. The pool of light travels with her planted steps.",
+      "must_show": [
+        "Her own bracket stays empty.",
+        "Lamp and cell remain one persistent object.",
+        "She has light while walking to the center; no unexplained crossing through total darkness."
+      ],
+      "avoid": [
+        "A generic lesson card standing in for the decision.",
+        "Floating carry grip, walking slides or teleporting from doorway to center."
+      ],
+      "planned_frames": [
+        145,
+        210
+      ],
+      "planned_seconds": [
+        6.0,
+        8.75
+      ]
+    },
+    {
+      "id": "first_lamp_first_crossing",
+      "purpose": "Earn the first benefit with a visible cause.",
+      "camera": "Low side view along the bridge rail, framing her hand, the lamp rest and the traveler behind.",
+      "action": "She sets the still-lit lamp on an original rest built into the central rail, releases her hand, and steps clear. Its cone reveals the planks; the traveler takes the first supported steps. The far neighbor can notice the traveler and reach for a lamp in the background before the next shot.",
+      "must_show": [
+        "Set-down, contact and hand release happen on screen.",
+        "The same amber-marked cell remains inside the lamp.",
+        "One lamp produces one local pool; it does not power the street."
+      ],
+      "avoid": [
+        "A close electrical wiring tutorial or real product connector.",
+        "Full street illumination from a single cell."
+      ],
+      "planned_frames": [
+        211,
+        318
+      ],
+      "planned_seconds": [
+        8.75,
+        13.25
+      ]
+    },
+    {
+      "id": "neighbor_adds_second_lamp",
+      "purpose": "Show a separate person deciding to contribute.",
+      "camera": "Over the shopkeeper shoulder to a nearby window and the far end of the bridge.",
+      "action": "A neighbor notices the now-moving traveler, picks up a second portable lamp with its own visible cell, walks to the far rail rest, and sets it down. A second pool joins the first. Keep the window alcove at the far approach so the lamp is within one supported step; Rose walks back toward her shop in the background.",
+      "must_show": [
+        "Neighbor looks at the visible event before acting.",
+        "Second lamp/cell are distinct persistent objects.",
+        "Light changes only after that lamp is placed."
+      ],
+      "avoid": [
+        "A whole row of lights switching on off screen.",
+        "Reusing one cell in two lamps."
+      ],
+      "planned_frames": [
+        319,
+        378
+      ],
+      "planned_seconds": [
+        13.25,
+        15.75
+      ]
+    },
+    {
+      "id": "third_lamp_completes_the_route",
+      "purpose": "Complete the route through another distinct contribution.",
+      "camera": "Reverse medium-wide view preserving shop doorway, near approach and original center lamp.",
+      "action": "Another resident carries a third lamp with its own cell to the near approach. The lamp is placed, hands clear, and its pool lights the last dark section toward the shop. The shopkeeper closes and locks her door.",
+      "must_show": [
+        "Three people contribute three lamps powered by three independent cells.",
+        "Traveler continues moving, with no foot or bag discontinuity at the reverse cut.",
+        "The near approach becomes visible because the third resident acts."
+      ],
+      "avoid": [
+        "An unearned city-wide reveal.",
+        "Overlapping cast silhouettes that hide the contribution."
+      ],
+      "planned_frames": [
+        379,
+        492
+      ],
+      "planned_seconds": [
+        15.75,
+        20.5
+      ]
+    },
+    {
+      "id": "path_home",
+      "purpose": "Return to the original choice with a concrete result.",
+      "camera": "A modest rising portrait-wide view along the complete short bridge and approaches; hold the original center lamp in the composition.",
+      "action": "The shopkeeper leaves the dark shop and walks onto the now-lit route as the traveler reaches the other side. Three separated warm pools make one usable path. Finish on the same center lamp and its unchanged amber mark while people continue moving.",
+      "must_show": [
+        "Original lamp remains where she placed it.",
+        "Her own shop bracket remains empty and the reserve never magically refills.",
+        "The route, the people and all three visible causes fit the earned reveal."
+      ],
+      "avoid": [
+        "A generic be-the-light closing slogan.",
+        "A claim that kindness guarantees repayment or success."
+      ],
+      "planned_frames": [
+        493,
+        602
+      ],
+      "planned_seconds": [
+        20.5,
+        25.083333333333332
+      ]
+    }
+  ],
+  "timing_status": "Six planned ranges now follow the retained measured25.062-second male source and actual aligned word timestamps. Picture target602frames at24fps,25.083333seconds; no picture frames are produced. Timings remain a staging plan until actual motion/encoded inspection.",
+  "caption_plan": "After a real take, place phrase captions in shot-specific negative space and inspect actual faces/grips/foot contacts; no reusable caption position is approved by this outline.",
+  "sound_plan": {
+    "voice": "One source-only generic adult male am_michael take now exists, with saved EQ/compression and unchanged pitch/tempo. Reuse exact clean33562e4149c22087cc3be49171cb7fda90cb7746fbefc9b031c89a1384aced1a bytes and word timing; no subjective audition or finished-film verdict.",
+    "effects": "Future original lamp latch, footsteps, lamp-rest contacts and shop lock cues tied to actual motion. No inherited gate, lighthouse or bell cue map.",
+    "music": "Select only a reviewed licensed source suited to this quieter story, with required artist/source/license/changes in the final description. No track selected or mixed here.",
+    "stock_source_audio": "None planned; no outside sample is cleared by this outline."
+  },
+  "continuity_requirements": [
+    "All three lamp contributions must remain separate and visibly cause their own light.",
+    "Verify carry grip, set-down, hand release, step support, shadows and cast/object separation in actual native motion.",
+    "No cell duplication, automatic recharging, instantaneous travel or global illumination leap.",
+    "The final wide reveals only the short route established earlier.",
+    "Record actual source/encoded pixel sizes and any interpolation honestly; technical tests cannot pass editorial quality."
+  ],
+  "reference_use": [
+    "docs/trends/2026-11-16-reel-analysis.md: reuse coherent scene/action/clue/payoff lessons only.",
+    "docs/trends/2026-11-16-motivation-format-evidence.md: dated broad-category observations only, not current counts or causal performance evidence."
+  ],
+  "paid_research_used": 0,
+  "free_before_outline_guidance_called": true,
+  "new_trend_or_audience_velocity_claim": false,
+  "production_assets_created": false,
+  "narration_created": true,
+  "finished_movie_exists": false,
+  "publisher_draft_created": false,
+  "scheduled": false,
+  "publishable": false,
+  "narration_preflight": "assets/stories/last-charge/narration-preflight.json"
+}
